@@ -1,0 +1,303 @@
+---
+date: 2020-08-24T16:50:16+02:00
+title: Client
+menuTitle: Client
+weight: 25
+---
+
+## Client Methods (Lua)- client:[AccountID](accountid)(); -- uint32
+- client:[AddAAPoints](addaapoints)(int points); -- void
+- client:[AddAlternateCurrencyValue](addalternatecurrencyvalue)(uint32 currency, int amount); -- void
+- client:[AddCrystals](addcrystals)(uint32 radiant, uint32 ebon); -- void
+- client:[AddEXP](addexp)(uint32 add_exp); -- void
+- client:[AddEXP](addexp)(uint32 add_exp, int conlevel); -- void
+- client:[AddEXP](addexp)(uint32 add_exp, int conlevel, bool resexp); -- void
+- client:[AddLevelBasedExp](addlevelbasedexp)(int exp_pct); -- void
+- client:[AddLevelBasedExp](addlevelbasedexp)(int exp_pct, int max_level); -- void
+- client:[AddLevelBasedExp](addlevelbasedexp)(int exp_pct, int max_level, bool ignore_mods); -- void
+- client:[AddMoneyToPP](addmoneytopp)(uint32 copper, uint32 silver, uint32 gold, uint32 platinum, bool update_client); -- void
+- client:[AddPVPPoints](addpvppoints)(uint32 points); -- void
+- client:[AddSkill](addskill)(int skill_id, int value); -- void
+- client:[Admin](admin)(); -- int
+- client:[AssignTask](assigntask)(int task, int npc_id); -- void
+- client:[AssignTask](assigntask)(int task, int npc_id, bool enforce_level_requirement); -- void
+- client:[AssignToInstance](assigntoinstance)(int instance_id); -- void
+- client:[AutoSplitEnabled](autosplitenabled)(); -- bool
+- client:[BreakInvis](breakinvis)(); -- void
+- client:[CalcATK](calcatk)(); -- int
+- client:[CalcCurrentWeight](calccurrentweight)(); -- int
+- client:[CalcPriceMod](calcpricemod)(Lua_Mob other, bool reverse); -- float
+- client:[CanHaveSkill](canhaveskill)(int skill_id); -- bool
+- client:[ChangeLastName](changelastname)(const char *in); -- void
+- client:[CharacterID](characterid)(); -- uint32
+- client:[CheckIncreaseSkill](checkincreaseskill)(int skill_id, Lua_Mob target); -- void
+- client:[CheckIncreaseSkill](checkincreaseskill)(int skill_id, Lua_Mob target, int chance_mod); -- void
+- client:[CheckSpecializeIncrease](checkspecializeincrease)(int spell_id); -- void
+- client:[ClearCompassMark](clearcompassmark)(); -- void
+- client:[ClearZoneFlag](clearzoneflag)(int zone_id); -- void
+- client:[Connected](connected)(); -- bool
+- client:[DecreaseByID](decreasebyid)(uint32 type, int amt); -- bool
+- client:[DeleteItemInInventory](deleteitemininventory)(int slot_id, int quantity); -- void
+- client:[DeleteItemInInventory](deleteitemininventory)(int slot_id, int quantity, bool update_client); -- void
+- client:[DisableAreaEndRegen](disableareaendregen)(); -- void
+- client:[DisableAreaHPRegen](disableareahpregen)(); -- void
+- client:[DisableAreaManaRegen](disableareamanaregen)(); -- void
+- client:[DisableAreaRegens](disablearearegens)(); -- void
+- client:[Disconnect](disconnect)(); -- void
+- client:[DropItem](dropitem)(int slot_id); -- void
+- client:[Duck](duck)(); -- void
+- client:[DyeArmorBySlot](dyearmorbyslot)(uint8 slot, uint8 red, uint8 green, uint8 blue); -- void
+- client:[DyeArmorBySlot](dyearmorbyslot)(uint8 slot, uint8 red, uint8 green, uint8 blue, uint8 use_tint); -- void
+- client:[EnableAreaEndRegen](enableareaendregen)(int value); -- void
+- client:[EnableAreaHPRegen](enableareahpregen)(int value); -- void
+- client:[EnableAreaManaRegen](enableareamanaregen)(int value); -- void
+- client:[EnableAreaRegens](enablearearegens)(int value); -- void
+- client:[Escape](escape)(); -- void
+- client:[FailTask](failtask)(int task); -- void
+- client:[FilteredMessage](filteredmessage)(Mob *sender, uint32 type, int filter, const char *message); -- void
+- client:[FindMemmedSpellBySlot](findmemmedspellbyslot)(int slot); -- uint16
+- client:[FindSpellBookSlotBySpellID](findspellbookslotbyspellid)(int spell_id); -- int
+- client:[ForageItem](forageitem)(); -- void
+- client:[ForageItem](forageitem)(bool guarantee); -- void
+- client:[Freeze](freeze)(); -- void
+- client:[GetAAExp](getaaexp)(); -- uint32
+- client:[GetAAPercent](getaapercent)(); -- uint32
+- client:[GetAAPoints](getaapoints)(); -- int
+- client:[GetAccountAge](getaccountage)(); -- int
+- client:[GetAccountFlag](getaccountflag)(std::string flag); -- std::string
+- client:[GetAggroCount](getaggrocount)(); -- int
+- client:[GetAllMoney](getallmoney)(); -- uint64
+- client:[GetAlternateCurrencyValue](getalternatecurrencyvalue)(uint32 currency); -- int
+- client:[GetAnon](getanon)(); -- bool
+- client:[GetAugmentIDAt](getaugmentidat)(int slot_id, int aug_slot); -- int
+- client:[GetBaseAGI](getbaseagi)(); -- int
+- client:[GetBaseCHA](getbasecha)(); -- int
+- client:[GetBaseDEX](getbasedex)(); -- int
+- client:[GetBaseFace](getbaseface)(); -- int
+- client:[GetBaseINT](getbaseint)(); -- int
+- client:[GetBaseRace](getbaserace)(); -- int
+- client:[GetBaseSTA](getbasesta)(); -- int
+- client:[GetBaseSTR](getbasestr)(); -- int
+- client:[GetBaseWIS](getbasewis)(); -- int
+- client:[GetBindHeading](getbindheading)(); -- float
+- client:[GetBindHeading](getbindheading)(int index); -- float
+- client:[GetBindX](getbindx)(); -- float
+- client:[GetBindX](getbindx)(int index); -- float
+- client:[GetBindY](getbindy)(); -- float
+- client:[GetBindY](getbindy)(int index); -- float
+- client:[GetBindZ](getbindz)(); -- float
+- client:[GetBindZ](getbindz)(int index); -- float
+- client:[GetBindZoneID](getbindzoneid)(); -- uint32
+- client:[GetBindZoneID](getbindzoneid)(int index); -- uint32
+- client:[GetCarriedMoney](getcarriedmoney)(); -- uint64
+- client:[GetCharacterFactionLevel](getcharacterfactionlevel)(int faction_id); -- int
+- client:[GetClientVersion](getclientversion)(); -- int
+- client:[GetClientVersionBit](getclientversionbit)(); -- uint32
+- client:[GetCorpseCount](getcorpsecount)(); -- int
+- client:[GetCorpseID](getcorpseid)(int corpse); -- int
+- client:[GetCorpseItemAt](getcorpseitemat)(int corpse, int slot); -- int
+- client:[GetDisciplineTimer](getdisciplinetimer)(uint32 timer_id); -- uint32
+- client:[GetDiscSlotBySpellID](getdiscslotbyspellid)(int32 spell_id); -- int
+- client:[GetDisplayAC](getdisplayac)()
+- client:[GetDuelTarget](getdueltarget)(); -- int
+- client:[GetEXP](getexp)(); -- uint32
+- client:[GetEbonCrystals](geteboncrystals)(); -- uint32
+- client:[GetEndurance](getendurance)(); -- int
+- client:[GetEndurancePercent](getendurancepercent)(); -- int
+- client:[GetFace](getface)(); -- int
+- client:[GetFactionLevel](getfactionlevel)(uint32 char_id, uint32 npc_id, uint32 race, uint32 class_, uint32 deity, uint32 faction, Lua_NPC npc); -- int
+- client:[GetFeigned](getfeigned)(); -- bool
+- client:[GetGM](getgm)(); -- bool
+- client:[GetGroup](getgroup)(); -- Lua_Group
+- client:[GetGroupPoints](getgrouppoints)(); -- uint32
+- client:[GetHorseId](gethorseid)(); -- int
+- client:[GetHunger](gethunger)(); -- int
+- client:[GetIP](getip)(); -- uint32
+- client:[GetInstrumentMod](getinstrumentmod)(int spell_id); -- int
+- client:[GetInventory](getinventory)(); -- Lua_Inventory
+- client:[GetItemIDAt](getitemidat)(int slot_id); -- int
+- client:[GetLDoNLosses](getldonlosses)(); -- int
+- client:[GetLDoNLossesTheme](getldonlossestheme)(int theme); -- int
+- client:[GetLDoNPointsTheme](getldonpointstheme)(int theme); -- int
+- client:[GetLDoNWins](getldonwins)(); -- int
+- client:[GetLDoNWinsTheme](getldonwinstheme)(int theme); -- int
+- client:[GetLanguageSkill](getlanguageskill)(int skill_id); -- int
+- client:[GetMaxEndurance](getmaxendurance)(); -- int
+- client:[GetModCharacterFactionLevel](getmodcharacterfactionlevel)(int faction); -- int
+- client:[GetMoney](getmoney)(uint8 type, uint8 subtype); -- uint32
+- client:[GetNextAvailableSpellBookSlot](getnextavailablespellbookslot)(); -- int
+- client:[GetNextAvailableSpellBookSlot](getnextavailablespellbookslot)(int start); -- int
+- client:[GetPVP](getpvp)(); -- bool
+- client:[GetPVPPoints](getpvppoints)(); -- uint32
+- client:[GetRadiantCrystals](getradiantcrystals)(); -- uint32
+- client:[GetRaid](getraid)(); -- Lua_Raid
+- client:[GetRaidPoints](getraidpoints)(); -- uint32
+- client:[GetRawItemAC](getrawitemac)(); -- int
+- client:[GetRawSkill](getrawskill)(int skill_id); -- int
+- client:[GetSkillPoints](getskillpoints)(); -- int
+- client:[GetSpentAA](getspentaa)(); -- int
+- client:[GetStartZone](getstartzone)(); -- int
+- client:[GetThirst](getthirst)(); -- int
+- client:[GetTotalSecondsPlayed](gettotalsecondsplayed)(); -- uint32
+- client:[GetWeight](getweight)(); -- int
+- client:[GoFish](gofish)(); -- void
+- client:[GrantAlternateAdvancementAbility](grantalternateadvancementability)(int aa_id, int points); -- bool
+- client:[GrantAlternateAdvancementAbility](grantalternateadvancementability)(int aa_id, int points, bool ignore_cost); -- bool
+- client:[GuildID](guildid)(); -- uint32
+- client:[GuildRank](guildrank)(); -- int
+- client:[HasSkill](hasskill)(int skill_id); -- bool
+- client:[HasSpellScribed](hasspellscribed)(int spell_id); -- bool
+- client:[HasZoneFlag](haszoneflag)(int zone_id); -- bool
+- client:[Hungry](hungry)(); -- bool
+- client:[InZone](inzone)(); -- bool
+- client:[IncStats](incstats)(int type, int value); -- void
+- client:[IncreaseLanguageSkill](increaselanguageskill)(int skill_id); -- void
+- client:[IncreaseLanguageSkill](increaselanguageskill)(int skill_id, int value); -- void
+- client:[IncreaseSkill](increaseskill)(int skill_id); -- void
+- client:[IncreaseSkill](increaseskill)(int skill_id, int value); -- void
+- client:[IncrementAA](incrementaa)(int aa); -- void
+- client:[IsCrouching](iscrouching)(); -- bool
+- client:[IsDead](isdead)(); -- bool
+- client:[IsDueling](isdueling)(); -- bool
+- client:[IsGrouped](isgrouped)(); -- bool
+- client:[IsLD](isld)(); -- bool
+- client:[IsMedding](ismedding)(); -- bool
+- client:[IsRaidGrouped](israidgrouped)(); -- bool
+- client:[IsSitting](issitting)(); -- bool
+- client:[IsStanding](isstanding)(); -- bool
+- client:[IsTaskActive](istaskactive)(int task); -- bool
+- client:[IsTaskActivityActive](istaskactivityactive)(int task, int activity); -- bool
+- client:[IsTaskCompleted](istaskcompleted)(int task); -- bool
+- client:[KeyRingAdd](keyringadd)(uint32 item); -- void
+- client:[KeyRingCheck](keyringcheck)(uint32 item); -- bool
+- client:[Kick](kick)(); -- void
+- client:[LearnRecipe](learnrecipe)(uint32 recipe); -- void
+- client:[LeaveGroup](leavegroup)(); -- void
+- client:[MarkSingleCompassLoc](marksinglecompassloc)(float in_x, float in_y, float in_z); -- void
+- client:[MarkSingleCompassLoc](marksinglecompassloc)(float in_x, float in_y, float in_z, int count); -- void
+- client:[MaxSkill](maxskill)(int skill_id); -- int
+- client:[MemSpell](memspell)(int spell_id, int slot); -- void
+- client:[MemSpell](memspell)(int spell_id, int slot, bool update_client); -- void
+- client:[MemmedCount](memmedcount)(); -- int
+- client:[MovePC](movepc)(int zone, float x, float y, float z, float heading); -- void
+- client:[MovePCInstance](movepcinstance)(int zone, int instance, float x, float y, float z, float heading); -- void
+- client:[MoveZone](movezone)(const char *zone_short_name); -- void
+- client:[MoveZoneGroup](movezonegroup)(const char *zone_short_name); -- void
+- client:[MoveZoneRaid](movezoneraid)(const char *zone_short_name); -- void
+- client:[MoveZoneInstance](movezoneinstance)(uint16 instance_id); -- void
+- client:[MoveZoneInstanceGroup](movezoneinstancegroup)(uint16 instance_id); -- void
+- client:[MoveZoneInstanceRaid](movezoneinstanceraid)(uint16 instance_id); -- void
+- client:[NukeItem](nukeitem)(uint32 item_num); -- void
+- client:[NukeItem](nukeitem)(uint32 item_num, int where_to_check); -- void
+- client:[OpenLFGuildWindow](openlfguildwindow)(); -- void
+- client:[PlayMP3](playmp3)(std::string file); -- void
+- client:[PushItemOnCursor](pushitemoncursor)(Lua_ItemInst inst); -- bool
+- client:[PutItemInInventory](putitemininventory)(int slot_id, Lua_ItemInst inst); -- bool
+- client:[QuestReadBook](questreadbook)(const char *text, int type); -- void
+- client:[QuestReward](questreward)(Lua_Mob target); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver, uint32 gold); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver, uint32 gold, uint32 platinum); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver, uint32 gold, uint32 platinum, uint32 itemid); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver, uint32 gold, uint32 platinum, uint32 itemid, uint32 exp); -- void
+- client:[QuestReward](questreward)(Lua_Mob target, uint32 copper, uint32 silver, uint32 gold, uint32 platinum, uint32 itemid, uint32 exp, bool faction); -- void
+- client:[QueuePacket](queuepacket)(Lua_Packet app); -- void
+- client:[QueuePacket](queuepacket)(Lua_Packet app, bool ack_req); -- void
+- client:[QueuePacket](queuepacket)(Lua_Packet app, bool ack_req, int client_connection_status); -- void
+- client:[QueuePacket](queuepacket)(Lua_Packet app, bool ack_req, int client_connection_status, int filter); -- void
+- client:[RefundAA](refundaa)(); -- void
+- client:[ResetAA](resetaa)(); -- void
+- client:[ResetDisciplineTimer](resetdisciplinetimer)(uint32 timer_id); -- void
+- client:[ResetTrade](resettrade)(); -- void
+- client:[Save](save)(); -- void
+- client:[Save](save)(int commit_now); -- void
+- client:[SaveBackup](savebackup)(); -- void
+- client:[ScribeSpell](scribespell)(int spell_id, int slot); -- void
+- client:[ScribeSpell](scribespell)(int spell_id, int slot, bool update_client); -- void
+- client:[SendColoredText](sendcoloredtext)(uint32 type, std::string msg); -- void
+- client:[SendItemScale](senditemscale)(Lua_ItemInst inst); -- void
+- client:[SendMarqueeMessage](sendmarqueemessage)(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, std::string msg); -- void
+- client:[SendOPTranslocateConfirm](sendoptranslocateconfirm)(Lua_Mob caster, int spell_id); -- void
+- client:[SendSound](sendsound)(); -- void
+- client:[SendWebLink](sendweblink)(const char *site); -- void
+- client:[SendZoneFlagInfo](sendzoneflaginfo)(Lua_Client to); -- void
+- client:[SetAAPoints](setaapoints)(int points); -- void
+- client:[SetAATitle](setaatitle)(const char *title); -- void
+- client:[SetAccountFlag](setaccountflag)(std::string flag, std::string val); -- void
+- client:[SetAlternateCurrencyValue](setalternatecurrencyvalue)(uint32 currency, int amount); -- void
+- client:[SetBaseClass](setbaseclass)(int v); -- void
+- client:[SetBaseGender](setbasegender)(int v); -- void
+- client:[SetBaseRace](setbaserace)(int v); -- void
+- client:[SetBindPoint](setbindpoint)(); -- void
+- client:[SetBindPoint](setbindpoint)(int to_zone); -- void
+- client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance); -- void
+- client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x); -- void
+- client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x, float new_y); -- void
+- client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x, float new_y, float new_z); -- void
+- client:[SetConsumption](setconsumption)(int in_hunger, int in_thirst); -- void
+- client:[SetDeity](setdeity)(int v); -- void
+- client:[SetDuelTarget](setdueltarget)(int c); -- void
+- client:[SetDueling](setdueling)(bool v); -- void
+- client:[SetEXP](setexp)(uint32 set_exp, uint32 set_aaxp); -- void
+- client:[SetEXP](setexp)(uint32 set_exp, uint32 set_aaxp, bool resexp); -- void
+- client:[SetEndurance](setendurance)(int endur); -- void
+- client:[SetFactionLevel](setfactionlevel)(uint32 char_id, uint32 npc_id, int char_class, int char_race, int char_deity); -- void
+- client:[SetFactionLevel2](setfactionlevel2)(uint32 char_id, int faction_id, int char_class, int char_race, int char_deity, int value, int temp); -- void
+- client:[SetFeigned](setfeigned)(bool v); -- void
+- client:[SetGM](setgm)(bool v); -- void
+- client:[SetHorseId](sethorseid)(int id); -- void
+- client:[SetHunger](sethunger)(int in_hunger); -- void
+- client:[SetLanguageSkill](setlanguageskill)(int language, int value); -- void
+- client:[SetMaterial](setmaterial)(int slot_id, uint32 item_id); -- void
+- client:[SetPVP](setpvp)(bool v); -- void
+- client:[SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)(uint32 model_id); -- void
+- client:[SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)(uint32 model_id); -- void
+- client:[SetSkill](setskill)(int skill_id, int value); -- void
+- client:[SetSkillPoints](setskillpoints)(int skill); -- void
+- client:[SetStartZone](setstartzone)(int zone_id); -- void
+- client:[SetStartZone](setstartzone)(int zone_id, float x); -- void
+- client:[SetStartZone](setstartzone)(int zone_id, float x, float y); -- void
+- client:[SetStartZone](setstartzone)(int zone_id, float x, float y, float z); -- void
+- client:[SetStats](setstats)(int type, int value); -- void
+- client:[SetThirst](setthirst)(int in_thirst); -- void
+- client:[SetTint](settint)(int slot_id, uint32 color); -- void
+- client:[SetTitleSuffix](settitlesuffix)(const char *text); -- void
+- client:[SetZoneFlag](setzoneflag)(int zone_id); -- void
+- client:[Signal](signal)(uint32 id); -- void
+- client:[Stand](stand)(); -- void
+- client:[SummonItem](summonitem)(uint32 item_id); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2, uint32 aug3); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5, bool attuned); -- void
+- client:[SummonItem](summonitem)(uint32 item_id, int charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5, bool attuned, int to_slot); -- void
+- client:[TGB](tgb)(); -- bool
+- client:[TakeMoneyFromPP](takemoneyfrompp)(uint64 copper); -- bool
+- client:[TakeMoneyFromPP](takemoneyfrompp)(uint64 copper, bool update_client); -- bool
+- client:[Thirsty](thirsty)(); -- bool
+- client:[TrainDisc](traindisc)(int itemid); -- void
+- client:[TrainDiscBySpellID](traindiscbyspellid)(int32 spell_id); -- void
+- client:[UnFreeze](unfreeze)(); -- void
+- client:[Undye](undye)(); -- void
+- client:[UnmemSpell](unmemspell)(int slot); -- void
+- client:[UnmemSpell](unmemspell)(int slot, bool update_client); -- void
+- client:[UnmemSpellAll](unmemspellall)(); -- void
+- client:[UnmemSpellAll](unmemspellall)(bool update_client); -- void
+- client:[UnmemSpellBySpellID](unmemspellbyspellid)(int32 spell_id); -- void
+- client:[UnscribeSpell](unscribespell)(int slot); -- void
+- client:[UnscribeSpell](unscribespell)(int slot, bool update_client); -- void
+- client:[UnscribeSpellAll](unscribespellall)(); -- void
+- client:[UnscribeSpellAll](unscribespellall)(bool update_client); -- void
+- client:[UntrainDisc](untraindisc)(int slot); -- void
+- client:[UntrainDisc](untraindisc)(int slot, bool update_client); -- void
+- client:[UntrainDiscAll](untraindiscall)(); -- void
+- client:[UntrainDiscAll](untraindiscall)(bool update_client); -- void
+- client:[UpdateGroupAAs](updategroupaas)(int points, uint32 type); -- void
+- client:[UpdateLDoNPoints](updateldonpoints)(int points, uint32 theme); -- void
+- client:[UpdateTaskActivity](updatetaskactivity)(int task, int activity, int count); -- void
+- client:[UseDiscipline](usediscipline)(int spell_id, int target_id); -- bool
+- client:[WorldKick](worldkick)(); -- void

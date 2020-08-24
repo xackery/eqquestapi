@@ -1,0 +1,245 @@
+---
+date: 2016-04-09T16:50:16+02:00
+title: EQ
+menuTitle: EQ
+weight: 1
+---
+
+eq.active_speak_activity(int task_id); -- int
+eq.active_speak_task(); -- int
+eq.active_tasks_in_set(int task_set); -- int
+eq.add_area(int id, int type, float min_x, float max_x, float min_y, float max_y, float min_z, float max_z); -- void
+eq.assign_group_to_instance(uint32 instance_id); -- void
+eq.assign_raid_to_instance(uint32 instance_id); -- void
+eq.assign_task(int task_id); -- void
+eq.assign_to_instance(uint32 instance_id); -- void
+eq.assign_to_instance_by_char_id(uint32 instance_id, uint32 char_id); -- void
+eq.attack(const char *client_name); -- void
+eq.attack_npc(int entity_id); -- void
+eq.attack_npc_type(int npc_type); -- void
+eq.bury_player_corpse(uint32 char_id); -- bool
+eq.check_instance_id_by_char_id(uint16 instance_id, uint32 char_id); -- bool
+eq.check_title(uint32 title_set); -- void
+eq.clear_areas(); -- void
+eq.clear_npctype_cache(int npctype_id); -- void
+eq.clear_opcode(int op); -- void
+eq.clear_proximity(); -- void
+eq.clear_spawn_timers(); -- void
+eq.clock(); -- double
+eq.collect_items(uint32 item_id, bool remove); -- int
+eq.completed_tasks_in_set(int task_set); -- int
+eq.count_item(uint32 item_id); -- int
+eq.create_door(const char *model, float x, float y, float z, float h, int open_type, int size); -- void
+eq.create_ground_object(uint32 item_id, float x, float y, float z, float h); -- void
+eq.create_ground_object(uint32 item_id, float x, float y, float z, float h, uint32 decay_time); -- void
+eq.create_ground_object_from_model(const char *model, float x, float y, float z, float h); -- void
+eq.create_ground_object_from_model(const char *model, float x, float y, float z, float h, int type); -- void
+eq.create_ground_object_from_model(const char *model, float x, float y, float z, float h, int type, uint32 decay_time); -- void
+eq.create_guild(const char *name, const char *leader); -- void
+eq.create_instance(const char *zone, uint32 version, uint32 duration); -- uint32
+eq.cross_zone_cast_spell_by_char_id(character_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_cast_spell_by_group_id(group_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_cast_spell_by_raid_id(raid_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_cast_spell_by_guild_id(guild_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_disable_task_by_char_id(character_id, task_id, min_status, max_status); -- void
+eq.cross_zone_disable_task_by_group_id(group_id, task_id, min_status, max_status); -- void
+eq.cross_zone_disable_task_by_raid_id(raid_id, task_id, min_status, max_status); -- void
+eq.cross_zone_disable_task_by_guild_id(guild_id, task_id, min_status, max_status); -- void
+eq.cross_zone_enable_task_by_char_id(character_id, task_id, min_status, max_status); -- void
+eq.cross_zone_enable_task_by_group_id(group_id, task_id, min_status, max_status); -- void
+eq.cross_zone_enable_task_by_raid_id(raid_id, task_id, min_status, max_status); -- void
+eq.cross_zone_enable_task_by_guild_id(guild_id, task_id, min_status, max_status); -- void
+eq.cross_zone_fail_task_by_char_id(character_id, task_id, min_status, max_status); -- void
+eq.cross_zone_fail_task_by_group_id(group_id, task_id, min_status, max_status); -- void
+eq.cross_zone_fail_task_by_raid_id(raid_id, task_id, min_status, max_status); -- void
+eq.cross_zone_fail_task_by_guild_id(guild_id, task_id, min_status, max_status); -- void
+eq.cross_zone_move_instance_by_char_id(character_id, instance_id, min_status, max_status); -- void
+eq.cross_zone_move_instance_by_group_id(group_id, instance_id, min_status, max_status); -- void
+eq.cross_zone_move_instance_by_raid_id(raid_id, instance_id, min_status, max_status); -- void
+eq.cross_zone_move_instance_by_guild_id(guild_id, instance_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_char_id(character_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_group_id(group_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_raid_id(raid_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_guild_id(guild_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_reset_activity_by_char_id(character_id, task_id, activity_id, min_status, max_status); -- void
+eq.cross_zone_reset_activity_by_group_id(group_id, task_id, activity_id, min_status, max_status); -- void
+eq.cross_zone_reset_activity_by_raid_id(raid_id, task_id, activity_id, min_status, max_status); -- void
+eq.cross_zone_reset_activity_by_guild_id(guild_id, task_id, activity_id, min_status, max_status); -- void
+eq.cross_zone_update_activity_by_char_id(character_id, task_id, activity_id, activity_count, min_status, max_status); -- void
+eq.cross_zone_update_activity_by_group_id(group_id, task_id, activity_id, activity_count, min_status, max_status); -- void
+eq.cross_zone_update_activity_by_raid_id(raid_id, task_id, activity_id, activity_count, min_status, max_status); -- void
+eq.cross_zone_update_activity_by_guild_id(guild_id, task_id, activity_id, activity_count, min_status, max_status); -- void
+eq.debug(std::string message); -- void
+eq.debug(std::string message, int level); -- void
+eq.delete_data(std::string bucket_key); -- bool
+eq.delete_global(const char *name); -- void
+eq.depop(); -- void
+eq.depop(int npc_type); -- void
+eq.depop_all(); -- void
+eq.depop_all(int npc_type); -- void
+eq.depop_with_timer(); -- void
+eq.depop_with_timer(int npc_type); -- void
+eq.depop_zone(bool start_spawn_status); -- void
+eq.destroy_instance(uint32 instance_id); -- void
+eq.disable_proximity_say(); -- void
+eq.disable_recipe(uint32 recipe_id); -- bool
+eq.disable_spawn2(int spawn2_id); -- void
+eq.enable_proximity_say(); -- void
+eq.enable_recipe(uint32 recipe_id); -- bool
+eq.enable_spawn2(int spawn2_id); -- void
+eq.enable_title(uint32 title_set); -- void
+eq.enabled_task_count(int task_set); -- int
+eq.faction_value(); -- int
+eq.fail_task(int task_id); -- void
+eq.first_task_in_set(int task_set); -- int
+eq.flag_instance_by_group_leader(uint32 zone, uint32 version); -- void
+eq.flag_instance_by_raid_leader(uint32 zone, uint32 version); -- void
+eq.fly_mode(int flymode); -- void
+eq.follow(int entity_id); -- void
+eq.follow(int entity_id, int distance); -- void
+eq.get_char_name_by_id(uint32 char_id); -- std::string
+eq.get_char_id_by_name(string name); -- int
+eq.get_class_name(uint8 class_id, uint8 level); -- std::string
+eq.get_currency_id(uint32 item_id); -- int
+eq.get_currency_item_id(int currency_id); -- int
+eq.get_data(std::string bucket_key); -- std::string
+eq.get_data_expires(std::string bucket_key); -- std::string
+eq.get_encounter(); -- std::string
+eq.get_entity_list(); -- Lua_EntityList
+eq.get_initiator(); -- Lua_Client
+eq.get_instance_id(const char *zone, uint32 version); -- int
+eq.get_instance_id_by_char_id(const char *zone, uint32 version, uint32 char_id); -- int
+eq.get_instance_timer(); -- uint32
+eq.get_instance_timer_by_id(uint16 instance_id); -- uint32
+eq.get_item_name(uint32 item_id) -- std::string
+eq.get_level(int type); -- int
+eq.get_npc_name_by_id(uint32 npc_id); -- std::string
+eq.get_owner(); -- Lua_Mob
+eq.get_player_buried_corpse_count(uint32 char_id); -- int
+eq.get_player_corpse_count(uint32 char_id); -- int
+eq.get_player_corpse_count_by_zone_id(uint32 char_id, uint32 zone_id); -- int
+eq.get_quest_item(); -- Lua_ItemInst
+eq.get_race_name(uint16 race_id) -- std::stringgeq.get_rule(std::string rule_name); -- std::string
+eq.get_spawn_condition(const char *zone, uint32 instance_id, int condition_id); -- int
+eq.get_skill_name(int skill_id); -- std::string
+eq.get_spell_name(uint32 spell_id); -- std::string
+eq.get_task_activity_done_count(int task, int activity); -- int
+eq.get_task_name(uint32 task_id); -- std::string
+eq.get_zone_id(); -- int
+eq.get_zone_instance_id(); -- int
+eq.get_zone_instance_version(); -- int
+eq.get_zone_weather(); -- int
+eq.is_disc_tome(int item_id); -- bool
+eq.is_paused_timer(const char *timer); -- bool
+eq.is_task_active(int task); -- bool
+eq.is_task_activity_active(int task, int activity); -- bool
+eq.is_task_appropriate(int task); -- bool
+eq.is_task_completed(int task_id); -- int
+eq.is_task_enabled(int task); -- bool
+eq.item_link(int item_id); -- std::string
+eq.last_task_in_set(int task_set); -- int
+eq.map_opcodes(); -- void
+eq.merchant_count_item(uint32 npc_id, uint32 item_id); -- int
+eq.merchant_set_item(uint32 npc_id, uint32 item_id); -- void
+eq.merchant_set_item(uint32 npc_id, uint32 item_id, uint32 quantity); -- void
+eq.modify_npc_stat(const char *id, const char *value); -- void
+eq.move_to(float x, float y, float z); -- void
+eq.move_to(float x, float y, float z, float h); -- void
+eq.move_to(float x, float y, float z, float h, bool save_guard_spot); -- void
+eq.next_task_in_set(int task_set, int task_id); -- int
+eq.path_resume(); -- void
+eq.pause(int duration); -- void
+eq.pause_timer(const char *timer); -- void
+eq.popup(const char *title, const char *text, uint32 id, uint32 buttons, uint32 duration); -- void
+eq.rain(int weather); -- void
+eq.reloadzonestaticdata(); -- void
+eq.remove_all_from_instance(uint32 instance_id); -- void
+eq.remove_area(int id); -- void
+eq.remove_from_instance(uint32 instance_id); -- void
+eq.remove_from_instance_by_char_id(uint32 instance_id, uint32 char_id); -- void
+eq.remove_spawn_point(uint32 spawn2_id); -- void
+eq.remove_title(uint32 title_set); -- void
+eq.repop_zone(); -- void
+eq.reset_task_activity(int task, int activity); -- void
+eq.respawn(int npc_type, int grid); -- void
+eq.resume_timer(const char *timer); -- void
+eq.safe_move(); -- void
+eq.say_link(const char *phrase); -- std::string
+eq.say_link(const char *phrase, bool silent); -- std::string
+eq.say_link(const char *phrase, bool silent, const char *link_name); -- std::string
+eq.scribe_spells(int max); -- int
+eq.scribe_spells(int max, int min); -- int
+eq.send_mail(const char *to, const char *from, const char *subject, const char *message); -- void
+eq.set_anim(int npc_type, int anim_num); -- void
+eq.set_data(std::string bucket_key, std::string bucket_value); -- void
+eq.set_data(std::string bucket_key, std::string bucket_value, std::string expires_at); -- void
+eq.set_global(const char *name, const char *value, int options, const char *duration); -- void
+eq.set_guild(int guild_id, int rank); -- void
+eq.set_next_hp_event(int hp); -- void
+eq.set_next_inc_hp_event(int hp); -- void
+eq.set_proximity(float min_x, float max_x, float min_y, float max_y); -- void
+eq.set_proximity(float min_x, float max_x, float min_y, float max_y, float min_z, float max_z); -- void
+eq.set_proximity(float min_x, float max_x, float min_y, float max_y, float min_z, float max_z, bool say); -- void
+eq.set_rule(std::string rule_name, std::string rule_value); -- void
+eq.set_sky(int sky); -- void
+eq.set_time(int hour, int min); -- void
+eq.set_time(int hour, int min, bool update_world); -- void
+eq.set_timer(const char *timer, int time_ms); -- void
+eq.set_timer(const char *timer, int time_ms, Lua_Encounter enc); -- void
+eq.set_timer(const char *timer, int time_ms, Lua_ItemInst inst); -- void
+eq.set_timer(const char *timer, int time_ms, Lua_Mob mob); -- void
+eq.signal(int npc_id, int signal_id); -- void
+eq.signal(int npc_id, int signal_id, int wait); -- void
+eq.snow(int weather); -- void
+eq.spawn2(int npc_type, int grid, int unused, double x, double y, double z, double heading); -- Lua_Mob
+eq.spawn_condition(const char *zone, uint32 instance_id, int condition_id, int value); -- void
+eq.spawn_from_spawn2(uint32 spawn2_id); -- Lua_Mob
+eq.start(int wp); -- void
+eq.stop(); -- void
+eq.stop_all_timers(); -- void
+eq.stop_all_timers(Lua_Encounter enc); -- void
+eq.stop_all_timers(Lua_ItemInst inst); -- void
+eq.stop_all_timers(Lua_Mob mob); -- void
+eq.stop_follow(); -- void
+eq.stop_timer(const char *timer); -- void
+eq.stop_timer(const char *timer, Lua_Encounter enc); -- void
+eq.stop_timer(const char *timer, Lua_ItemInst inst); -- void
+eq.stop_timer(const char *timer, Lua_Mob mob); -- void
+eq.summon_all_player_corpses(uint32 char_id, float x, float y, float z, float h); -- void
+eq.summon_buried_player_corpse(uint32 char_id, float x, float y, float z, float h); -- void
+eq.target_global(const char *name, const char *value, const char *duration, int npc_id, int char_id, int zone_id); -- void
+eq.task_explored_area(int explore_id); -- void
+eq.task_set_selector(int task_set); -- void
+eq.task_time_left(int task_id); -- int
+eq.toggle_spawn_event(int event_id, bool enable, bool strict, bool reset); -- void
+eq.train_discs(int max); -- int
+eq.train_discs(int max, int min); -- int
+eq.unique_spawn(int npc_type, int grid, int unused, double x, double y, double z, double heading = 0.0); -- Lua_Mob
+eq.update_instance_timer(uint16 instance_id, uint32 new_duration); -- void
+eq.update_spawn_timer(uint32 id, uint32 new_time); -- void
+eq.update_task_activity(int task, int activity, int count); -- void
+eq.update_zone_header(std::string type, std::string value); -- void
+eq.voice_tell(const char *str, uint32 macro_num, uint32 race_num, uint32 gender_num); -- void
+eq.wear_change(uint32 slot, uint32 texture); -- void
+eq.world_emote(int type, const char *str); -- void
+eq.world_wide_assign_task(uint32 task_id, bool enforce_level_requirement, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_cast_spell(uint32 spell_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_disable_task(uint32 task_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_enable_task(uint32 task_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_fail_task(uint32 task_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_message(uint32 type, string message, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_marquee(uint32 color_id, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, string message, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_move(string zone_short_name, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_move_instance(uint16 instance_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_remove_spell(uint32 spell_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_remove_task(uint32 task_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_reset_activity(uint32 task_id, int activity_id, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_set_entity_variable_client(string variable_name, string variable_value, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_set_entity_variable_npc(string variable_name, string variable_value); -- void
+eq.world_wide_signal_client(uint32 signal, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_signal_npc(uint32 signal); -- void
+eq.world_wide_update_activity(uint32 task_id, int activity_id, int activity_count, uint8 min_status, uint8 max_status); -- void
+eq.zone(const char *zone_name); -- void
+eq.zone_emote(int type, const char *str); -- void
+eq.zone_group(const char *zone_name); -- void
+eq.zone_raid(const char *zone_name); -- void
