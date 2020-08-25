@@ -6,5 +6,5 @@ menuTitle: DecreaseByID
 ---
 ## DecreaseByID
 ```lua
-client:DecreaseByID(uint32 type, int amt); -- bool
+Client:DecreaseByID(uint32 type, int amt); -- bool
 ```

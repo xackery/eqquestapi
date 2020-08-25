@@ -6,5 +6,5 @@ menuTitle: AddCrystals
 ---
 ## AddCrystals
 ```lua
-client:AddCrystals(uint32 radiant, uint32 ebon); -- void
+Client:AddCrystals(uint32 radiant, uint32 ebon); -- void
 ```

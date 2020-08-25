@@ -6,5 +6,5 @@ menuTitle: MoveZone
 ---
 ## MoveZone
 ```lua
-client:MoveZone(const char *zone_short_name); -- void
+Client:MoveZone(const char *zone_short_name); -- void
 ```

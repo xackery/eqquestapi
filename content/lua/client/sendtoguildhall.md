@@ -6,5 +6,5 @@ menuTitle: SendToGuildHall
 ---
 ## SendToGuildHall
 ```lua
-client:SendToGuildhall(); -- void
+Client:SendToGuildHall(); -- void
 ```

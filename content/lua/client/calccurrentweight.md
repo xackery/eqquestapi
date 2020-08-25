@@ -6,5 +6,5 @@ menuTitle: CalcCurrentWeight
 ---
 ## CalcCurrentWeight
 ```lua
-client:CalcCurrentWeight(); -- int
+Client:CalcCurrentWeight(); -- number
 ```

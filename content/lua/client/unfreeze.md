@@ -6,5 +6,5 @@ menuTitle: UnFreeze
 ---
 ## UnFreeze
 ```lua
-client:UnFreeze(); -- void
+Client:UnFreeze(); -- void
 ```

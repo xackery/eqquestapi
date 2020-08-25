@@ -6,5 +6,5 @@ menuTitle: GetRawItemAC
 ---
 ## GetRawItemAC
 ```lua
-client:GetRawItemAC(); -- int
+Client:GetRawItemAC(); -- number
 ```

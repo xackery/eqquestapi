@@ -6,5 +6,5 @@ menuTitle: GetThirst
 ---
 ## GetThirst
 ```lua
-client:GetThirst(); -- int
+Client:GetThirst(); -- number
 ```

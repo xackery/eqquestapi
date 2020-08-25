@@ -6,5 +6,5 @@ menuTitle: GetHorseId
 ---
 ## GetHorseId
 ```lua
-client:GetHorseId(); -- int
+Client:GetHorseId(); -- number
 ```

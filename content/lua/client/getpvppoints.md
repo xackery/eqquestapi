@@ -6,5 +6,5 @@ menuTitle: GetPVPPoints
 ---
 ## GetPVPPoints
 ```lua
-client:GetPVPPoints(); -- uint32
+Client:GetPVPPoints(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: UpdateLDoNPoints
 ---
 ## UpdateLDoNPoints
 ```lua
-client:UpdateLDoNPoints(int points, uint32 theme); -- void
+Client:UpdateLDoNPoints(int points, uint32 theme); -- void
 ```

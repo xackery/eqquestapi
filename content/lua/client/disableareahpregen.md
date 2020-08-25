@@ -6,5 +6,5 @@ menuTitle: DisableAreaHPRegen
 ---
 ## DisableAreaHPRegen
 ```lua
-client:DisableAreaHPRegen(); -- void
+Client:DisableAreaHPRegen(); -- void
 ```

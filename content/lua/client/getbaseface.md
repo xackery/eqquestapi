@@ -6,5 +6,5 @@ menuTitle: GetBaseFace
 ---
 ## GetBaseFace
 ```lua
-client:GetBaseFace(); -- int
+Client:GetBaseFace(); -- number
 ```

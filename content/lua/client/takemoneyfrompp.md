@@ -6,5 +6,5 @@ menuTitle: TakeMoneyFromPP
 ---
 ## TakeMoneyFromPP
 ```lua
-client:TakeMoneyFromPP(uint64 copper, bool update_client); -- bool
+Client:TakeMoneyFromPP(uint64 copper, bool update_client); -- bool
 ```

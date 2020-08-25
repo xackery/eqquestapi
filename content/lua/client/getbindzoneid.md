@@ -6,5 +6,5 @@ menuTitle: GetBindZoneID
 ---
 ## GetBindZoneID
 ```lua
-client:GetBindZoneID(int index); -- uint32
+Client:GetBindZoneID(int index); -- number
 ```

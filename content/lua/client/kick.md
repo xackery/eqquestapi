@@ -6,5 +6,5 @@ menuTitle: Kick
 ---
 ## Kick
 ```lua
-client:Kick(); -- void
+Client:Kick(); -- void
 ```

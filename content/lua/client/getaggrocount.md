@@ -6,5 +6,5 @@ menuTitle: GetAggroCount
 ---
 ## GetAggroCount
 ```lua
-client:GetAggroCount(); -- int
+Client:GetAggroCount(); -- number
 ```

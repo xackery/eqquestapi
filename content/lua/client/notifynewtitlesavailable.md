@@ -6,5 +6,5 @@ menuTitle: NotifyNewTitlesAvailable
 ---
 ## NotifyNewTitlesAvailable
 ```lua
-client:NotifyNewTitlesAvailable(); -- void
+Client:NotifyNewTitlesAvailable(); -- void
 ```

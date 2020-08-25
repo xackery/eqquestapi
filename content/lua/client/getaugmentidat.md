@@ -6,5 +6,5 @@ menuTitle: GetAugmentIDAt
 ---
 ## GetAugmentIDAt
 ```lua
-client:GetAugmentIDAt(int slot_id, int aug_slot); -- int
+Client:GetAugmentIDAt(int slot_id, int aug_slot); -- number
 ```

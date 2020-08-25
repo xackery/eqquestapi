@@ -6,5 +6,5 @@ menuTitle: MoveZoneRaid
 ---
 ## MoveZoneRaid
 ```lua
-client:MoveZoneRaid(const char *zone_short_name); -- void
+Client:MoveZoneRaid(const char *zone_short_name); -- void
 ```

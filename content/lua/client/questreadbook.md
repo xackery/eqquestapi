@@ -6,5 +6,5 @@ menuTitle: QuestReadBook
 ---
 ## QuestReadBook
 ```lua
-client:QuestReadBook(const char *text, int type); -- void
+Client:QuestReadBook(const char *text, int type); -- void
 ```

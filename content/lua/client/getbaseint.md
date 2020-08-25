@@ -6,5 +6,5 @@ menuTitle: GetBaseINT
 ---
 ## GetBaseINT
 ```lua
-client:GetBaseINT(); -- int
+Client:GetBaseINT(); -- number
 ```

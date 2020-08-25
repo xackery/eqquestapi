@@ -6,5 +6,5 @@ menuTitle: DisableAreaRegens
 ---
 ## DisableAreaRegens
 ```lua
-client:DisableAreaRegens(); -- void
+Client:DisableAreaRegens(); -- void
 ```

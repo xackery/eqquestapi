@@ -6,5 +6,5 @@ menuTitle: TrainDisc
 ---
 ## TrainDisc
 ```lua
-client:TrainDisc(int itemid); -- void
+Client:TrainDisc(int itemid); -- void
 ```

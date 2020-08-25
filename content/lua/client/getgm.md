@@ -6,5 +6,5 @@ menuTitle: GetGM
 ---
 ## GetGM
 ```lua
-client:GetGM(); -- bool
+Client:GetGM(); -- bool
 ```

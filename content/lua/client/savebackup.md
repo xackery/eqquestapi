@@ -6,5 +6,5 @@ menuTitle: SaveBackup
 ---
 ## SaveBackup
 ```lua
-client:SaveBackup(); -- void
+Client:SaveBackup(); -- void
 ```

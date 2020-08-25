@@ -6,5 +6,5 @@ menuTitle: ChangeLastName
 ---
 ## ChangeLastName
 ```lua
-client:ChangeLastName(const char *in); -- void
+Client:ChangeLastName(const char *in); -- void
 ```

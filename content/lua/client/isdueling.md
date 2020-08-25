@@ -6,5 +6,5 @@ menuTitle: IsDueling
 ---
 ## IsDueling
 ```lua
-client:IsDueling(); -- bool
+Client:IsDueling(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: SetPVP
 ---
 ## SetPVP
 ```lua
-client:SetPVP(bool v); -- void
+Client:SetPVP(bool v); -- void
 ```

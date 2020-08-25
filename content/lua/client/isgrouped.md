@@ -6,5 +6,5 @@ menuTitle: IsGrouped
 ---
 ## IsGrouped
 ```lua
-client:IsGrouped(); -- bool
+Client:IsGrouped(); -- bool
 ```

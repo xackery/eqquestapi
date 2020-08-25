@@ -6,5 +6,5 @@ menuTitle: GetAlternateCurrencyValue
 ---
 ## GetAlternateCurrencyValue
 ```lua
-client:GetAlternateCurrencyValue(uint32 currency); -- int
+Client:GetAlternateCurrencyValue(uint32 currency); -- number
 ```

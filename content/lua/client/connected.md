@@ -6,5 +6,5 @@ menuTitle: Connected
 ---
 ## Connected
 ```lua
-client:Connected(); -- bool
+Client:Connected(); -- bool
 ```

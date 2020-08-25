@@ -6,5 +6,5 @@ menuTitle: SendItemScale
 ---
 ## SendItemScale
 ```lua
-client:SendItemScale(Lua_ItemInst inst); -- void
+Client:SendItemScale(Lua_ItemInst inst); -- void
 ```

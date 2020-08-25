@@ -6,5 +6,5 @@ menuTitle: GetAllMoney
 ---
 ## GetAllMoney
 ```lua
-client:GetAllMoney(); -- uint64
+Client:GetAllMoney(); -- number
 ```

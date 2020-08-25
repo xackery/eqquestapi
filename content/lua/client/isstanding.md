@@ -6,5 +6,5 @@ menuTitle: IsStanding
 ---
 ## IsStanding
 ```lua
-client:IsStanding(); -- bool
+Client:IsStanding(); -- bool
 ```

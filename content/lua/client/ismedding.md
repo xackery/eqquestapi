@@ -6,5 +6,5 @@ menuTitle: IsMedding
 ---
 ## IsMedding
 ```lua
-client:IsMedding(); -- bool
+Client:IsMedding(); -- bool
 ```

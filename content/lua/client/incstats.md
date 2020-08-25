@@ -6,5 +6,5 @@ menuTitle: IncStats
 ---
 ## IncStats
 ```lua
-client:IncStats(int type, int value); -- void
+Client:IncStats(int type, int value); -- void
 ```

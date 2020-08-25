@@ -6,5 +6,5 @@ menuTitle: InZone
 ---
 ## InZone
 ```lua
-client:InZone(); -- bool
+Client:InZone(); -- bool
 ```

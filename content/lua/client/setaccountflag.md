@@ -6,5 +6,5 @@ menuTitle: SetAccountFlag
 ---
 ## SetAccountFlag
 ```lua
-client:SetAccountFlag(std::string flag, std::string val); -- void
+Client:SetAccountFlag(std::string flag, std::string val); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetBindX
 ---
 ## GetBindX
 ```lua
-client:GetBindX(int index); -- float
+Client:GetBindX(int index); -- number
 ```

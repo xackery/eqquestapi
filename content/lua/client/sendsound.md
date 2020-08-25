@@ -6,5 +6,5 @@ menuTitle: SendSound
 ---
 ## SendSound
 ```lua
-client:SendSound(); -- void
+Client:SendSound(); -- void
 ```

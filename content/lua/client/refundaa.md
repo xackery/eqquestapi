@@ -6,5 +6,5 @@ menuTitle: RefundAA
 ---
 ## RefundAA
 ```lua
-client:RefundAA(); -- void
+Client:RefundAA(); -- void
 ```

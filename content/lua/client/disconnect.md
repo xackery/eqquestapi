@@ -6,5 +6,5 @@ menuTitle: Disconnect
 ---
 ## Disconnect
 ```lua
-client:Disconnect(); -- void
+Client:Disconnect(); -- void
 ```

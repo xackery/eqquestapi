@@ -6,5 +6,5 @@ menuTitle: GetStartZone
 ---
 ## GetStartZone
 ```lua
-client:GetStartZone(); -- int
+Client:GetStartZone(); -- number
 ```

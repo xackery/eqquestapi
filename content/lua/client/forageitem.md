@@ -6,5 +6,5 @@ menuTitle: ForageItem
 ---
 ## ForageItem
 ```lua
-client:ForageItem(bool guarantee); -- void
+Client:ForageItem(bool guarantee); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetBaseCHA
 ---
 ## GetBaseCHA
 ```lua
-client:GetBaseCHA(); -- int
+Client:GetBaseCHA(); -- number
 ```

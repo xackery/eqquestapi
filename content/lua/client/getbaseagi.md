@@ -6,5 +6,5 @@ menuTitle: GetBaseAGI
 ---
 ## GetBaseAGI
 ```lua
-client:GetBaseAGI(); -- int
+Client:GetBaseAGI(); -- number
 ```

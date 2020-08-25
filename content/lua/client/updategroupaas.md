@@ -6,5 +6,5 @@ menuTitle: UpdateGroupAAs
 ---
 ## UpdateGroupAAs
 ```lua
-client:UpdateGroupAAs(int points, uint32 type); -- void
+Client:UpdateGroupAAs(int points, uint32 type); -- void
 ```

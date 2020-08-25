@@ -6,5 +6,5 @@ menuTitle: GetRaid
 ---
 ## GetRaid
 ```lua
-client:GetRaid(); -- Lua_Raid
+Client:GetRaid(); -- unknown - Lua_Raid
 ```

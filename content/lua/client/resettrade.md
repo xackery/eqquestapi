@@ -6,5 +6,5 @@ menuTitle: ResetTrade
 ---
 ## ResetTrade
 ```lua
-client:ResetTrade(); -- void
+Client:ResetTrade(); -- void
 ```

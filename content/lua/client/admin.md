@@ -6,5 +6,5 @@ menuTitle: Admin
 ---
 ## Admin
 ```lua
-client:Admin(); -- int
+Client:Admin(); -- number
 ```

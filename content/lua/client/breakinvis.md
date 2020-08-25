@@ -6,5 +6,5 @@ menuTitle: BreakInvis
 ---
 ## BreakInvis
 ```lua
-client:BreakInvis(); -- void
+Client:BreakInvis(); -- void
 ```

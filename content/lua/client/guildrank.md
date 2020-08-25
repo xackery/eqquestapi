@@ -6,5 +6,5 @@ menuTitle: GuildRank
 ---
 ## GuildRank
 ```lua
-client:GuildRank(); -- int
+Client:GuildRank(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: TrainDiscBySpellID
 ---
 ## TrainDiscBySpellID
 ```lua
-client:TrainDiscBySpellID(int32 spell_id); -- void
+Client:TrainDiscBySpellID(int32 spell_id); -- void
 ```

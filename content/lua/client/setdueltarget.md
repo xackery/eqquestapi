@@ -6,5 +6,5 @@ menuTitle: SetDuelTarget
 ---
 ## SetDuelTarget
 ```lua
-client:SetDuelTarget(int c); -- void
+Client:SetDuelTarget(int c); -- void
 ```

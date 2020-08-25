@@ -6,5 +6,5 @@ menuTitle: UnscribeSpell
 ---
 ## UnscribeSpell
 ```lua
-client:UnscribeSpell(int slot, bool update_client); -- void
+Client:UnscribeSpell(int slot, bool update_client); -- void
 ```

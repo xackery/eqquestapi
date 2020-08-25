@@ -6,5 +6,5 @@ menuTitle: PutItemInInventory
 ---
 ## PutItemInInventory
 ```lua
-client:PutItemInInventory(int slot_id, Lua_ItemInst inst); -- bool
+Client:PutItemInInventory(int slot_id, Lua_ItemInst inst); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: DisableAreaManaRegen
 ---
 ## DisableAreaManaRegen
 ```lua
-client:DisableAreaManaRegen(); -- void
+Client:DisableAreaManaRegen(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetEbonCrystals
 ---
 ## GetEbonCrystals
 ```lua
-client:GetEbonCrystals(); -- uint32
+Client:GetEbonCrystals(); -- number
 ```

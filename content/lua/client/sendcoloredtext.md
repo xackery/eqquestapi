@@ -6,5 +6,5 @@ menuTitle: SendColoredText
 ---
 ## SendColoredText
 ```lua
-client:SendColoredText(uint32 type, std::string msg); -- void
+Client:SendColoredText(uint32 type, std::string msg); -- void
 ```

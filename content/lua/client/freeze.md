@@ -6,5 +6,5 @@ menuTitle: Freeze
 ---
 ## Freeze
 ```lua
-client:Freeze(); -- void
+Client:Freeze(); -- void
 ```

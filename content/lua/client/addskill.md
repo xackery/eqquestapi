@@ -6,5 +6,5 @@ menuTitle: AddSkill
 ---
 ## AddSkill
 ```lua
-client:AddSkill(int skill_id, int value); -- void
+Client:AddSkill(int skill_id, int value); -- void
 ```

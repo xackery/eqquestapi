@@ -6,5 +6,5 @@ menuTitle: CalcATK
 ---
 ## CalcATK
 ```lua
-client:CalcATK(); -- int
+Client:CalcATK(); -- number
 ```

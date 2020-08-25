@@ -6,5 +6,5 @@ menuTitle: Save
 ---
 ## Save
 ```lua
-client:Save(int commit_now); -- void
+Client:Save(int commit_now); -- void
 ```

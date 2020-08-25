@@ -6,5 +6,5 @@ menuTitle: CheckSpecializeIncrease
 ---
 ## CheckSpecializeIncrease
 ```lua
-client:CheckSpecializeIncrease(int spell_id); -- void
+Client:CheckSpecializeIncrease(int spell_id); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: Duck
 ---
 ## Duck
 ```lua
-client:Duck(); -- void
+Client:Duck(); -- void
 ```

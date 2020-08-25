@@ -6,5 +6,5 @@ menuTitle: GetInventory
 ---
 ## GetInventory
 ```lua
-client:GetInventory(); -- Lua_Inventory
+Client:GetInventory(); -- unknown - Lua_Inventory
 ```

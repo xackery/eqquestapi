@@ -6,5 +6,5 @@ menuTitle: GetGroupPoints
 ---
 ## GetGroupPoints
 ```lua
-client:GetGroupPoints(); -- uint32
+Client:GetGroupPoints(); -- number
 ```

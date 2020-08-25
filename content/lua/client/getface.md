@@ -6,5 +6,5 @@ menuTitle: GetFace
 ---
 ## GetFace
 ```lua
-client:GetFace(); -- int
+Client:GetFace(); -- number
 ```

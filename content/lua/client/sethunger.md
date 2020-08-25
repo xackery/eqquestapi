@@ -6,5 +6,5 @@ menuTitle: SetHunger
 ---
 ## SetHunger
 ```lua
-client:SetHunger(int in_hunger); -- void
+Client:SetHunger(int in_hunger); -- void
 ```

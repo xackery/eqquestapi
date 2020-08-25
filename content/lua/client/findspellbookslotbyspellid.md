@@ -6,5 +6,5 @@ menuTitle: FindSpellBookSlotBySpellID
 ---
 ## FindSpellBookSlotBySpellID
 ```lua
-client:FindSpellBookSlotBySpellID(int spell_id); -- int
+Client:FindSpellBookSlotBySpellID(int spell_id); -- number
 ```

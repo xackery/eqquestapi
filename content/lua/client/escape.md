@@ -6,5 +6,5 @@ menuTitle: Escape
 ---
 ## Escape
 ```lua
-client:Escape(); -- void
+Client:Escape(); -- void
 ```

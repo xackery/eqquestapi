@@ -6,5 +6,5 @@ menuTitle: Undye
 ---
 ## Undye
 ```lua
-client:Undye(); -- void
+Client:Undye(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SendWebLink
 ---
 ## SendWebLink
 ```lua
-client:SendWebLink(const char *site); -- void
+Client:SendWebLink(const char *site); -- void
 ```

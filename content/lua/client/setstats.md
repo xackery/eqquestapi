@@ -6,5 +6,5 @@ menuTitle: SetStats
 ---
 ## SetStats
 ```lua
-client:SetStats(int type, int value); -- void
+Client:SetStats(int type, int value); -- void
 ```

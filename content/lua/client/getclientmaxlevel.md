@@ -6,5 +6,5 @@ menuTitle: GetClientMaxLevel
 ---
 ## GetClientMaxLevel
 ```lua
-client:GetClientMaxLevel(); -- void
+Client:GetClientMaxLevel(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetPVP
 ---
 ## GetPVP
 ```lua
-client:GetPVP(); -- bool
+Client:GetPVP(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: OpenLFGuildWindow
 ---
 ## OpenLFGuildWindow
 ```lua
-client:OpenLFGuildWindow(); -- void
+Client:OpenLFGuildWindow(); -- void
 ```

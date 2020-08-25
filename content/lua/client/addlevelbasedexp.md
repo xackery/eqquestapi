@@ -6,5 +6,5 @@ menuTitle: AddLevelBasedExp
 ---
 ## AddLevelBasedExp
 ```lua
-client:AddLevelBasedExp(int exp_pct, int max_level, bool ignore_mods); -- void
+Client:AddLevelBasedExp(int exp_pct, int max_level, bool ignore_mods); -- void
 ```

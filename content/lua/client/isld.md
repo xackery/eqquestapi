@@ -6,5 +6,5 @@ menuTitle: IsLD
 ---
 ## IsLD
 ```lua
-client:IsLD(); -- bool
+Client:IsLD(); -- bool
 ```

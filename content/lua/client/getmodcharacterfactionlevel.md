@@ -6,5 +6,5 @@ menuTitle: GetModCharacterFactionLevel
 ---
 ## GetModCharacterFactionLevel
 ```lua
-client:GetModCharacterFactionLevel(int faction); -- int
+Client:GetModCharacterFactionLevel(int faction); -- number
 ```

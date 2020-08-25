@@ -6,5 +6,5 @@ menuTitle: SetBaseGender
 ---
 ## SetBaseGender
 ```lua
-client:SetBaseGender(int v); -- void
+Client:SetBaseGender(int v); -- void
 ```

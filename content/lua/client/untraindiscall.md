@@ -6,5 +6,5 @@ menuTitle: UntrainDiscAll
 ---
 ## UntrainDiscAll
 ```lua
-client:UntrainDiscAll(bool update_client); -- void
+Client:UntrainDiscAll(bool update_client); -- void
 ```

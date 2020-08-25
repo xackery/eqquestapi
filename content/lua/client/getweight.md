@@ -6,5 +6,5 @@ menuTitle: GetWeight
 ---
 ## GetWeight
 ```lua
-client:GetWeight(); -- int
+Client:GetWeight(); -- number
 ```

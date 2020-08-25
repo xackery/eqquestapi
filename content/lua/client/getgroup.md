@@ -6,5 +6,5 @@ menuTitle: GetGroup
 ---
 ## GetGroup
 ```lua
-client:GetGroup(); -- Lua_Group
+Client:GetGroup(); -- unknown - Lua_Group
 ```

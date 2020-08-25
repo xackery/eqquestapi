@@ -6,5 +6,5 @@ menuTitle: GuildID
 ---
 ## GuildID
 ```lua
-client:GuildID(); -- uint32
+Client:GuildID(); -- number
 ```

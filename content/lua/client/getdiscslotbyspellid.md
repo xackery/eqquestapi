@@ -6,5 +6,5 @@ menuTitle: GetDiscSlotBySpellID
 ---
 ## GetDiscSlotBySpellID
 ```lua
-client:GetDiscSlotBySpellID(int32 spell_id); -- int
+Client:GetDiscSlotBySpellID(int32 spell_id); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetCorpseCount
 ---
 ## GetCorpseCount
 ```lua
-client:GetCorpseCount(); -- int
+Client:GetCorpseCount(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: ScribeSpell
 ---
 ## ScribeSpell
 ```lua
-client:ScribeSpell(int spell_id, int slot, bool update_client); -- void
+Client:ScribeSpell(int spell_id, int slot, bool update_client); -- void
 ```

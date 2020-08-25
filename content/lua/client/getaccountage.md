@@ -6,5 +6,5 @@ menuTitle: GetAccountAge
 ---
 ## GetAccountAge
 ```lua
-client:GetAccountAge(); -- int
+Client:GetAccountAge(); -- number
 ```

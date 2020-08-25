@@ -6,5 +6,5 @@ menuTitle: SetHorseId
 ---
 ## SetHorseId
 ```lua
-client:SetHorseId(int id); -- void
+Client:SetHorseId(int id); -- void
 ```

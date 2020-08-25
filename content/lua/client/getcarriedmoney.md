@@ -6,5 +6,5 @@ menuTitle: GetCarriedMoney
 ---
 ## GetCarriedMoney
 ```lua
-client:GetCarriedMoney(); -- uint64
+Client:GetCarriedMoney(); -- number
 ```

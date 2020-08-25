@@ -6,5 +6,5 @@ menuTitle: KeyRingAdd
 ---
 ## KeyRingAdd
 ```lua
-client:KeyRingAdd(uint32 item); -- void
+Client:KeyRingAdd(uint32 item); -- void
 ```

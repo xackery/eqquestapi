@@ -6,5 +6,5 @@ menuTitle: UnmemSpellAll
 ---
 ## UnmemSpellAll
 ```lua
-client:UnmemSpellAll(bool update_client); -- void
+Client:UnmemSpellAll(bool update_client); -- void
 ```

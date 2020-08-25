@@ -6,5 +6,5 @@ menuTitle: SetFeigned
 ---
 ## SetFeigned
 ```lua
-client:SetFeigned(bool v); -- void
+Client:SetFeigned(bool v); -- void
 ```

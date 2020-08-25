@@ -6,5 +6,5 @@ menuTitle: SetLanguageSkill
 ---
 ## SetLanguageSkill
 ```lua
-client:SetLanguageSkill(int language, int value); -- void
+Client:SetLanguageSkill(int language, int value); -- void
 ```

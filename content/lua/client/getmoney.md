@@ -6,5 +6,5 @@ menuTitle: GetMoney
 ---
 ## GetMoney
 ```lua
-client:GetMoney(uint8 type, uint8 subtype); -- uint32
+Client:GetMoney(uint8 type, uint8 subtype); -- number
 ```

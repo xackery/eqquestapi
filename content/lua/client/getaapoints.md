@@ -6,5 +6,5 @@ menuTitle: GetAAPoints
 ---
 ## GetAAPoints
 ```lua
-client:GetAAPoints(); -- int
+Client:GetAAPoints(); -- number
 ```

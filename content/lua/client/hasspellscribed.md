@@ -6,5 +6,5 @@ menuTitle: HasSpellScribed
 ---
 ## HasSpellScribed
 ```lua
-client:HasSpellScribed(int spell_id); -- bool
+Client:HasSpellScribed(int spell_id); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: GetSpentAA
 ---
 ## GetSpentAA
 ```lua
-client:GetSpentAA(); -- int
+Client:GetSpentAA(); -- number
 ```

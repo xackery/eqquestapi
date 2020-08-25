@@ -6,5 +6,5 @@ menuTitle: GoFish
 ---
 ## GoFish
 ```lua
-client:GoFish(); -- void
+Client:GoFish(); -- void
 ```

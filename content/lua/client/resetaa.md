@@ -6,5 +6,5 @@ menuTitle: ResetAA
 ---
 ## ResetAA
 ```lua
-client:ResetAA(); -- void
+Client:ResetAA(); -- void
 ```

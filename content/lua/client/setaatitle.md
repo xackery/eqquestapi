@@ -6,5 +6,5 @@ menuTitle: SetAATitle
 ---
 ## SetAATitle
 ```lua
-client:SetAATitle(const char *title); -- void
+Client:SetAATitle(const char *title); -- void
 ```

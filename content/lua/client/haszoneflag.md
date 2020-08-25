@@ -6,5 +6,5 @@ menuTitle: HasZoneFlag
 ---
 ## HasZoneFlag
 ```lua
-client:HasZoneFlag(int zone_id); -- bool
+Client:HasZoneFlag(int zone_id); -- bool
 ```

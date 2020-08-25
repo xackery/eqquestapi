@@ -6,5 +6,5 @@ menuTitle: PushItemOnCursor
 ---
 ## PushItemOnCursor
 ```lua
-client:PushItemOnCursor(Lua_ItemInst inst); -- bool
+Client:PushItemOnCursor(Lua_ItemInst inst); -- bool
 ```

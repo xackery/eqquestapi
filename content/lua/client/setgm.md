@@ -6,5 +6,5 @@ menuTitle: SetGM
 ---
 ## SetGM
 ```lua
-client:SetGM(bool v); -- void
+Client:SetGM(bool v); -- void
 ```

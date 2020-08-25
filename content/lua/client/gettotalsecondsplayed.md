@@ -6,5 +6,5 @@ menuTitle: GetTotalSecondsPlayed
 ---
 ## GetTotalSecondsPlayed
 ```lua
-client:GetTotalSecondsPlayed(); -- uint32
+Client:GetTotalSecondsPlayed(); -- number
 ```

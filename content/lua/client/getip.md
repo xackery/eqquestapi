@@ -6,5 +6,5 @@ menuTitle: GetIP
 ---
 ## GetIP
 ```lua
-client:GetIP(); -- uint32
+Client:GetIP(); -- number
 ```

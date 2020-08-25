@@ -6,5 +6,5 @@ menuTitle: GetAccountFlag
 ---
 ## GetAccountFlag
 ```lua
-client:GetAccountFlag(std::string flag); -- std::string
+Client:GetAccountFlag(std::string flag); -- string
 ```

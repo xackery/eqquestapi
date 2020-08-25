@@ -6,5 +6,5 @@ menuTitle: MoveZoneInstanceRaid
 ---
 ## MoveZoneInstanceRaid
 ```lua
-client:MoveZoneInstanceRaid(uint16 instance_id); -- void
+Client:MoveZoneInstanceRaid(uint16 instance_id); -- void
 ```

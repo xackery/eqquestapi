@@ -6,5 +6,5 @@ menuTitle: IsTaskCompleted
 ---
 ## IsTaskCompleted
 ```lua
-client:IsTaskCompleted(int task); -- bool
+Client:IsTaskCompleted(int task); -- bool
 ```

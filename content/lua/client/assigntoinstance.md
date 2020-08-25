@@ -6,5 +6,5 @@ menuTitle: AssignToInstance
 ---
 ## AssignToInstance
 ```lua
-client:AssignToInstance(int instance_id); -- void
+Client:AssignToInstance(int instance_id); -- void
 ```

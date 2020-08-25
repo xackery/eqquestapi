@@ -6,5 +6,5 @@ menuTitle: GetClientVersionBit
 ---
 ## GetClientVersionBit
 ```lua
-client:GetClientVersionBit(); -- uint32
+Client:GetClientVersionBit(); -- number
 ```

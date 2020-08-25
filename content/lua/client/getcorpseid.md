@@ -6,5 +6,5 @@ menuTitle: GetCorpseID
 ---
 ## GetCorpseID
 ```lua
-client:GetCorpseID(int corpse); -- int
+Client:GetCorpseID(int corpse); -- number
 ```

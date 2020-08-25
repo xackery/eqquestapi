@@ -6,5 +6,5 @@ menuTitle: CalcPriceMod
 ---
 ## CalcPriceMod
 ```lua
-client:CalcPriceMod(Lua_Mob other, bool reverse); -- float
+Client:CalcPriceMod(Lua_Mob other, bool reverse); -- number
 ```

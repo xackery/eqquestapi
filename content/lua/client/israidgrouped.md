@@ -6,5 +6,5 @@ menuTitle: IsRaidGrouped
 ---
 ## IsRaidGrouped
 ```lua
-client:IsRaidGrouped(); -- bool
+Client:IsRaidGrouped(); -- bool
 ```

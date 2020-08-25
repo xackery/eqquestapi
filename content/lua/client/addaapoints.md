@@ -6,5 +6,5 @@ menuTitle: AddAAPoints
 ---
 ## AddAAPoints
 ```lua
-client:AddAAPoints(int points); -- void
+Client:AddAAPoints(int points); -- void
 ```

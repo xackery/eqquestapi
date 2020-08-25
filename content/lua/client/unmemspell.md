@@ -6,5 +6,5 @@ menuTitle: UnmemSpell
 ---
 ## UnmemSpell
 ```lua
-client:UnmemSpell(int slot, bool update_client); -- void
+Client:UnmemSpell(int slot, bool update_client); -- void
 ```

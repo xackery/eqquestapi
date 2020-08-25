@@ -6,5 +6,5 @@ menuTitle: SetDueling
 ---
 ## SetDueling
 ```lua
-client:SetDueling(bool v); -- void
+Client:SetDueling(bool v); -- void
 ```

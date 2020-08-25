@@ -6,5 +6,5 @@ menuTitle: Thirsty
 ---
 ## Thirsty
 ```lua
-client:Thirsty(); -- bool
+Client:Thirsty(); -- bool
 ```

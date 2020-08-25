@@ -6,5 +6,5 @@ menuTitle: IsDead
 ---
 ## IsDead
 ```lua
-client:IsDead(); -- bool
+Client:IsDead(); -- bool
 ```

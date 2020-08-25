@@ -6,5 +6,5 @@ menuTitle: MemmedCount
 ---
 ## MemmedCount
 ```lua
-client:MemmedCount(); -- int
+Client:MemmedCount(); -- number
 ```

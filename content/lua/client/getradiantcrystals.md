@@ -6,5 +6,5 @@ menuTitle: GetRadiantCrystals
 ---
 ## GetRadiantCrystals
 ```lua
-client:GetRadiantCrystals(); -- uint32
+Client:GetRadiantCrystals(); -- number
 ```

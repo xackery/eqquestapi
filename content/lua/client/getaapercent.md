@@ -6,5 +6,5 @@ menuTitle: GetAAPercent
 ---
 ## GetAAPercent
 ```lua
-client:GetAAPercent(); -- uint32
+Client:GetAAPercent(); -- number
 ```

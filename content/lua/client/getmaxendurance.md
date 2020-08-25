@@ -6,5 +6,5 @@ menuTitle: GetMaxEndurance
 ---
 ## GetMaxEndurance
 ```lua
-client:GetMaxEndurance(); -- int
+Client:GetMaxEndurance(); -- number
 ```

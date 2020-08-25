@@ -6,5 +6,5 @@ menuTitle: AccountID
 ---
 ## AccountID
 ```lua
-client:AccountID(); -- uint32
+Client:AccountID(); -- number
 ```

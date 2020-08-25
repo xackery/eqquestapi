@@ -6,5 +6,5 @@ menuTitle: MoveZoneInstance
 ---
 ## MoveZoneInstance
 ```lua
-client:MoveZoneInstance(uint16 instance_id); -- void
+Client:MoveZoneInstance(uint16 instance_id); -- void
 ```

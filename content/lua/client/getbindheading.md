@@ -6,5 +6,5 @@ menuTitle: GetBindHeading
 ---
 ## GetBindHeading
 ```lua
-client:GetBindHeading(int index); -- float
+Client:GetBindHeading(int index); -- number
 ```

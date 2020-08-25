@@ -6,5 +6,5 @@ menuTitle: GetDuelTarget
 ---
 ## GetDuelTarget
 ```lua
-client:GetDuelTarget(); -- int
+Client:GetDuelTarget(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetRawSkill
 ---
 ## GetRawSkill
 ```lua
-client:GetRawSkill(int skill_id); -- int
+Client:GetRawSkill(int skill_id); -- number
 ```

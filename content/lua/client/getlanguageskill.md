@@ -6,5 +6,5 @@ menuTitle: GetLanguageSkill
 ---
 ## GetLanguageSkill
 ```lua
-client:GetLanguageSkill(int skill_id); -- int
+Client:GetLanguageSkill(int skill_id); -- number
 ```

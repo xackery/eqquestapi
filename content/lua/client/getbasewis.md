@@ -6,5 +6,5 @@ menuTitle: GetBaseWIS
 ---
 ## GetBaseWIS
 ```lua
-client:GetBaseWIS(); -- int
+Client:GetBaseWIS(); -- number
 ```

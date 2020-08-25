@@ -6,5 +6,5 @@ menuTitle: GetClientVersion
 ---
 ## GetClientVersion
 ```lua
-client:GetClientVersion(); -- int
+Client:GetClientVersion(); -- number
 ```

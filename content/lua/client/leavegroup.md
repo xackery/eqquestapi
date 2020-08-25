@@ -6,5 +6,5 @@ menuTitle: LeaveGroup
 ---
 ## LeaveGroup
 ```lua
-client:LeaveGroup(); -- void
+Client:LeaveGroup(); -- void
 ```

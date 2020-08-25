@@ -6,5 +6,5 @@ menuTitle: GetEndurance
 ---
 ## GetEndurance
 ```lua
-client:GetEndurance(); -- int
+Client:GetEndurance(); -- number
 ```

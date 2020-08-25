@@ -6,5 +6,5 @@ menuTitle: SetStartZone
 ---
 ## SetStartZone
 ```lua
-client:SetStartZone(int zone_id, float x, float y, float z); -- void
+Client:SetStartZone(int zone_id, float x, float y, float z); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: CharacterID
 ---
 ## CharacterID
 ```lua
-client:CharacterID(); -- uint32
+Client:CharacterID(); -- number
 ```

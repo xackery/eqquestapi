@@ -6,5 +6,5 @@ menuTitle: GetAnon
 ---
 ## GetAnon
 ```lua
-client:GetAnon(); -- bool
+Client:GetAnon(); -- bool
 ```

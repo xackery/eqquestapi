@@ -6,5 +6,5 @@ menuTitle: TGB
 ---
 ## TGB
 ```lua
-client:TGB(); -- bool
+Client:TGB(); -- bool
 ```

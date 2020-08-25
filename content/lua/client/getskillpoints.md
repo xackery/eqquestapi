@@ -6,5 +6,5 @@ menuTitle: GetSkillPoints
 ---
 ## GetSkillPoints
 ```lua
-client:GetSkillPoints(); -- int
+Client:GetSkillPoints(); -- number
 ```

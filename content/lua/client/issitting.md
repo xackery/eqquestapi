@@ -6,5 +6,5 @@ menuTitle: IsSitting
 ---
 ## IsSitting
 ```lua
-client:IsSitting(); -- bool
+Client:IsSitting(); -- bool
 ```

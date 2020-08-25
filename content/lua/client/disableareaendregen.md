@@ -6,5 +6,5 @@ menuTitle: DisableAreaEndRegen
 ---
 ## DisableAreaEndRegen
 ```lua
-client:DisableAreaEndRegen(); -- void
+Client:DisableAreaEndRegen(); -- void
 ```

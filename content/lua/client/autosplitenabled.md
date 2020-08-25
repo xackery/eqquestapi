@@ -6,5 +6,5 @@ menuTitle: AutoSplitEnabled
 ---
 ## AutoSplitEnabled
 ```lua
-client:AutoSplitEnabled(); -- bool
+Client:AutoSplitEnabled(); -- bool
 ```

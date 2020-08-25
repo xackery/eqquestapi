@@ -6,5 +6,5 @@ menuTitle: UpdateTaskActivity
 ---
 ## UpdateTaskActivity
 ```lua
-client:UpdateTaskActivity(int task, int activity, int count); -- void
+Client:UpdateTaskActivity(int task, int activity, int count); -- void
 ```

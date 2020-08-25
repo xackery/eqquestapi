@@ -6,5 +6,5 @@ menuTitle: GetLDoNLosses
 ---
 ## GetLDoNLosses
 ```lua
-client:GetLDoNLosses(); -- int
+Client:GetLDoNLosses(); -- number
 ```

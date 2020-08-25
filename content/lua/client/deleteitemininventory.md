@@ -6,5 +6,5 @@ menuTitle: DeleteItemInInventory
 ---
 ## DeleteItemInInventory
 ```lua
-client:DeleteItemInInventory(int slot_id, int quantity, bool update_client); -- void
+Client:DeleteItemInInventory(int slot_id, int quantity, bool update_client); -- void
 ```

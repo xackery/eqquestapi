@@ -6,5 +6,5 @@ menuTitle: MovePCInstance
 ---
 ## MovePCInstance
 ```lua
-client:MovePCInstance(int zone, int instance, float x, float y, float z, float heading); -- void
+Client:MovePCInstance(int zone, int instance, float x, float y, float z, float heading); -- void
 ```

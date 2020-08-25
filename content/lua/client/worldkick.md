@@ -6,5 +6,5 @@ menuTitle: WorldKick
 ---
 ## WorldKick
 ```lua
-client:WorldKick(); -- void
+Client:WorldKick(); -- void
 ```

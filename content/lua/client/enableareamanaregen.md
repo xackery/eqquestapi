@@ -6,5 +6,5 @@ menuTitle: EnableAreaManaRegen
 ---
 ## EnableAreaManaRegen
 ```lua
-client:EnableAreaManaRegen(int value); -- void
+Client:EnableAreaManaRegen(int value); -- void
 ```

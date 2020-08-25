@@ -6,5 +6,5 @@ menuTitle: GetBaseDEX
 ---
 ## GetBaseDEX
 ```lua
-client:GetBaseDEX(); -- int
+Client:GetBaseDEX(); -- number
 ```

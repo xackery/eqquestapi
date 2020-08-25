@@ -6,5 +6,5 @@ menuTitle: Stand
 ---
 ## Stand
 ```lua
-client:Stand(); -- void
+Client:Stand(); -- void
 ```

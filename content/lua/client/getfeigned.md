@@ -6,5 +6,5 @@ menuTitle: GetFeigned
 ---
 ## GetFeigned
 ```lua
-client:GetFeigned(); -- bool
+Client:GetFeigned(); -- bool
 ```

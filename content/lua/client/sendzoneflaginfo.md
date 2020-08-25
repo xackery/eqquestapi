@@ -6,5 +6,5 @@ menuTitle: SendZoneFlagInfo
 ---
 ## SendZoneFlagInfo
 ```lua
-client:SendZoneFlagInfo(Lua_Client to); -- void
+Client:SendZoneFlagInfo(Lua_Client to); -- void
 ```

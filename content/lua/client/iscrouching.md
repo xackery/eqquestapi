@@ -6,5 +6,5 @@ menuTitle: IsCrouching
 ---
 ## IsCrouching
 ```lua
-client:IsCrouching(); -- bool
+Client:IsCrouching(); -- bool
 ```

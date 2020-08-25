@@ -6,5 +6,5 @@ menuTitle: GetRaidPoints
 ---
 ## GetRaidPoints
 ```lua
-client:GetRaidPoints(); -- uint32
+Client:GetRaidPoints(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: KeyRingCheck
 ---
 ## KeyRingCheck
 ```lua
-client:KeyRingCheck(uint32 item); -- bool
+Client:KeyRingCheck(uint32 item); -- bool
 ```

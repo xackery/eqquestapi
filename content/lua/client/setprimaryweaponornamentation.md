@@ -6,5 +6,5 @@ menuTitle: SetPrimaryWeaponOrnamentation
 ---
 ## SetPrimaryWeaponOrnamentation
 ```lua
-client:SetPrimaryWeaponOrnamentation(uint32 model_id); -- void
+Client:SetPrimaryWeaponOrnamentation(uint32 model_id); -- void
 ```

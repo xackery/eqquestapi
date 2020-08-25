@@ -6,5 +6,5 @@ menuTitle: GetEndurancePercent
 ---
 ## GetEndurancePercent
 ```lua
-client:GetEndurancePercent(); -- int
+Client:GetEndurancePercent(); -- number
 ```

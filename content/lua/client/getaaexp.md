@@ -6,5 +6,5 @@ menuTitle: GetAAExp
 ---
 ## GetAAExp
 ```lua
-client:GetAAExp(); -- uint32
+Client:GetAAExp(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: MovePC
 ---
 ## MovePC
 ```lua
-client:MovePC(int zone, float x, float y, float z, float heading); -- void
+Client:MovePC(int zone, float x, float y, float z, float heading); -- void
 ```

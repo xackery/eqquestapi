@@ -6,5 +6,5 @@ menuTitle: SetTitleSuffix
 ---
 ## SetTitleSuffix
 ```lua
-client:SetTitleSuffix(const char *text); -- void
+Client:SetTitleSuffix(const char *text); -- void
 ```
