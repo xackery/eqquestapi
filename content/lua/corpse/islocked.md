@@ -6,5 +6,5 @@ menuTitle: IsLocked
 ---
 ## IsLocked
 ```lua
-corpse:IsLocked(); -- bool
+Corpse:IsLocked(); -- bool
 ```

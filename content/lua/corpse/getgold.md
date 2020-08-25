@@ -6,5 +6,5 @@ menuTitle: GetGold
 ---
 ## GetGold
 ```lua
-corpse:GetGold(); -- uint32
+Corpse:GetGold(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetCharID
 ---
 ## GetCharID
 ```lua
-corpse:GetCharID(); -- uint32
+Corpse:GetCharID(); -- number
 ```

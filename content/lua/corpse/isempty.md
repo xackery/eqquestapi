@@ -6,5 +6,5 @@ menuTitle: IsEmpty
 ---
 ## IsEmpty
 ```lua
-corpse:IsEmpty(); -- bool
+Corpse:IsEmpty(); -- bool
 ```

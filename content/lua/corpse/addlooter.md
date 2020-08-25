@@ -6,5 +6,5 @@ menuTitle: AddLooter
 ---
 ## AddLooter
 ```lua
-corpse:AddLooter(Lua_Mob who); -- void
+Corpse:AddLooter(Lua_Mob who); -- void
 ```

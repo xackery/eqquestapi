@@ -6,5 +6,5 @@ menuTitle: RemoveItem
 ---
 ## RemoveItem
 ```lua
-corpse:RemoveItem(uint16 lootslot); -- void
+Corpse:RemoveItem(uint16 lootslot); -- void
 ```

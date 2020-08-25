@@ -6,5 +6,5 @@ menuTitle: GetSilver
 ---
 ## GetSilver
 ```lua
-corpse:GetSilver(); -- uint32
+Corpse:GetSilver(); -- number
 ```

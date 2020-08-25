@@ -6,5 +6,5 @@ menuTitle: Lock
 ---
 ## Lock
 ```lua
-corpse:Lock(); -- void
+Corpse:Lock(); -- void
 ```

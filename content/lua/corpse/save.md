@@ -6,5 +6,5 @@ menuTitle: Save
 ---
 ## Save
 ```lua
-corpse:Save(); -- bool
+Corpse:Save(); -- bool
 ```

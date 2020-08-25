@@ -6,5 +6,5 @@ menuTitle: SetDecayTimer
 ---
 ## SetDecayTimer
 ```lua
-corpse:SetDecayTimer(uint32 decaytime); -- void
+Corpse:SetDecayTimer(uint32 decaytime); -- void
 ```

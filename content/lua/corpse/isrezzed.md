@@ -6,5 +6,5 @@ menuTitle: IsRezzed
 ---
 ## IsRezzed
 ```lua
-corpse:IsRezzed(); -- bool
+Corpse:IsRezzed(); -- bool
 ```

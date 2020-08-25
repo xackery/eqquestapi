@@ -6,5 +6,5 @@ menuTitle: Depop
 ---
 ## Depop
 ```lua
-corpse:Depop(); -- void
+Corpse:Depop(); -- void
 ```

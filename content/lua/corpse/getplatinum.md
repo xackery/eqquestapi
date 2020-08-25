@@ -6,5 +6,5 @@ menuTitle: GetPlatinum
 ---
 ## GetPlatinum
 ```lua
-corpse:GetPlatinum(); -- uint32
+Corpse:GetPlatinum(); -- number
 ```

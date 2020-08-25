@@ -6,5 +6,5 @@ menuTitle: CountItems
 ---
 ## CountItems
 ```lua
-corpse:CountItems(); -- uint32
+Corpse:CountItems(); -- number
 ```

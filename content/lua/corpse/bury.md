@@ -6,5 +6,5 @@ menuTitle: Bury
 ---
 ## Bury
 ```lua
-corpse:Bury(); -- void
+Corpse:Bury(); -- void
 ```

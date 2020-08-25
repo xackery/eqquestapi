@@ -6,5 +6,5 @@ menuTitle: ResetLooter
 ---
 ## ResetLooter
 ```lua
-corpse:ResetLooter(); -- void
+Corpse:ResetLooter(); -- void
 ```

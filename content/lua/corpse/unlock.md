@@ -6,5 +6,5 @@ menuTitle: UnLock
 ---
 ## UnLock
 ```lua
-corpse:UnLock(); -- void
+Corpse:UnLock(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: AllowMobLoot
 ---
 ## AllowMobLoot
 ```lua
-corpse:AllowMobLoot(Lua_Mob them, uint8 slot); -- void
+Corpse:AllowMobLoot(Lua_Mob them, uint8 slot); -- void
 ```

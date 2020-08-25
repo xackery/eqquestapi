@@ -6,5 +6,5 @@ menuTitle: GetWornItem
 ---
 ## GetWornItem
 ```lua
-corpse:GetWornItem(int16 equipSlot); -- uint32
+Corpse:GetWornItem(int16 equipSlot); -- number
 ```

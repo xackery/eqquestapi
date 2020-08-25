@@ -6,5 +6,5 @@ menuTitle: Delete
 ---
 ## Delete
 ```lua
-corpse:Delete(); -- void
+Corpse:Delete(); -- void
 ```

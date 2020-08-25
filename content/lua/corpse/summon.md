@@ -6,5 +6,5 @@ menuTitle: Summon
 ---
 ## Summon
 ```lua
-corpse:Summon(Lua_Client client, bool spell, bool checkdistance); -- bool
+Corpse:Summon(Lua_Client client, bool spell, bool checkdistance); -- bool
 ```

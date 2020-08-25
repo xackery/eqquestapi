@@ -6,5 +6,5 @@ menuTitle: RemoveCash
 ---
 ## RemoveCash
 ```lua
-corpse:RemoveCash(); -- void
+Corpse:RemoveCash(); -- void
 ```

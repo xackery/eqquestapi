@@ -6,5 +6,5 @@ menuTitle: GetDecayTime
 ---
 ## GetDecayTime
 ```lua
-corpse:GetDecayTime(); -- uint32
+Corpse:GetDecayTime(); -- number
 ```
