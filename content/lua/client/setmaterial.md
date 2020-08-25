@@ -6,5 +6,5 @@ menuTitle: SetMaterial
 ---
 ## SetMaterial
 ```lua
-Client:SetMaterial(number slot_id, uint32 item_id); -- void
+Client:SetMaterial(number slot_id, number item_id); -- void
 ```

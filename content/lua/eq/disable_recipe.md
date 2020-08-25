@@ -6,5 +6,5 @@ menuTitle: disable_recipe
 ---
 ## disable_recipe
 ```lua
-eq.disable_recipe(uint32 recipe_id) -- bool
+eq.disable_recipe(number recipe_id) -- bool
 ```

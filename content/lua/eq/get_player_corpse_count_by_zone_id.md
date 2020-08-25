@@ -6,5 +6,5 @@ menuTitle: get_player_corpse_count_by_zone_id
 ---
 ## get_player_corpse_count_by_zone_id
 ```lua
-eq.get_player_corpse_count_by_zone_id(uint32 char_id, uint32 zone_id) -- int
+eq.get_player_corpse_count_by_zone_id(number char_id, number zone_id) -- int
 ```

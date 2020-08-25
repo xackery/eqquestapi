@@ -19,11 +19,11 @@ weight: 25
 - Object:[SetZ](setz)(float z); -- void
 - Object:[SetHeading](setheading)(float h); -- void
 - Object:[SetLocation](setlocation)(float x, float y, float z); -- void
-- Object:[SetItemID](setitemid)(uint32 item_id); -- void
+- Object:[SetItemID](setitemid)(number item_id); -- void
 - Object:[GetItemID](getitemid)(); -- number
-- Object:[SetIcon](seticon)(uint32 icon); -- void
+- Object:[SetIcon](seticon)(number icon); -- void
 - Object:[GetIcon](geticon)(); -- number
-- Object:[SetType](settype)(uint32 type); -- void
+- Object:[SetType](settype)(number type); -- void
 - Object:[GetType](gettype)(); -- number
 - Object:[GetDBID](getdbid)(); -- number
 - Object:[ClearUser](clearuser)(); -- void

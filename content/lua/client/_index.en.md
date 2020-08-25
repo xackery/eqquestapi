@@ -9,12 +9,12 @@ weight: 25
 - Client:[AccountID](accountid)() -- number
 - Client:[AccountName](accountname)() -- string
 - Client:[AddAAPoints](addaapoints)(number points) -- void
-- Client:[AddAlternateCurrencyValue](addalternatecurrencyvalue)(uint32 currency, number amount) -- void
-- Client:[AddCrystals](addcrystals)(uint32 radiant, uint32 ebon) -- void
-- Client:[AddEXP](addexp)(uint32 add_exp, number conlevel, bool resexp) -- void
+- Client:[AddAlternateCurrencyValue](addalternatecurrencyvalue)(number currency, number amount) -- void
+- Client:[AddCrystals](addcrystals)(number radiant, number ebon) -- void
+- Client:[AddEXP](addexp)(number add_exp, number conlevel, bool resexp) -- void
 - Client:[AddLevelBasedExp](addlevelbasedexp)(number exp_pct, number max_level, bool ignore_mods) -- void
-- Client:[AddMoneyToPP](addmoneytopp)(uint32 copper, uint32 silver, uint32 gold, uint32 platinum, bool update_client) -- void
-- Client:[AddPVPPoints](addpvppoints)(uint32 points) -- void
+- Client:[AddMoneyToPP](addmoneytopp)(number copper, number silver, number gold, number platinum, bool update_client) -- void
+- Client:[AddPVPPoints](addpvppoints)(number points) -- void
 - Client:[AddSkill](addskill)(number skill_id, number value) -- void
 - Client:[Admin](admin)() -- number
 - Client:[AssignTask](assigntask)(number task, number npc_id, bool enforce_level_requirement) -- void
@@ -31,7 +31,7 @@ weight: 25
 - Client:[CheckSpecializeIncrease](checkspecializeincrease)(number spell_id) -- void
 - Client:[ClearZoneFlag](clearzoneflag)(number zone_id) -- void
 - Client:[Connected](connected)() -- bool
-- Client:[DecreaseByID](decreasebyid)(uint32 type, number amt) -- bool
+- Client:[DecreaseByID](decreasebyid)(number type, number amt) -- bool
 - Client:[DeleteItemInInventory](deleteitemininventory)(number slot_id, number quantity, bool update_client) -- void
 - Client:[DisableAreaEndRegen](disableareaendregen)() -- void
 - Client:[DisableAreaHPRegen](disableareahpregen)() -- void
@@ -47,7 +47,7 @@ weight: 25
 - Client:[EnableAreaRegens](enablearearegens)(number value) -- void
 - Client:[Escape](escape)() -- void
 - Client:[FailTask](failtask)(number task) -- void
-- Client:[FilteredMessage](filteredmessage)(Mob *sender, uint32 type, number filter, const char *message) -- void
+- Client:[FilteredMessage](filteredmessage)(Mob *sender, number type, number filter, const char *message) -- void
 - Client:[FindMemmedSpellBySlot](findmemmedspellbyslot)(number slot) -- unknown - uint16
 - Client:[FindSpellBookSlotBySpellID](findspellbookslotbyspellid)(number spell_id) -- number
 - Client:[ForageItem](forageitem)(bool guarantee) -- void
@@ -59,7 +59,7 @@ weight: 25
 - Client:[GetAccountFlag](getaccountflag)(std::string flag) -- string
 - Client:[GetAggroCount](getaggrocount)() -- number
 - Client:[GetAllMoney](getallmoney)() -- unknown - uint64
-- Client:[GetAlternateCurrencyValue](getalternatecurrencyvalue)(uint32 currency) -- number
+- Client:[GetAlternateCurrencyValue](getalternatecurrencyvalue)(number currency) -- number
 - Client:[GetAnon](getanon)() -- bool
 - Client:[GetAugmentIDAt](getaugmentidat)(number slot_id, number aug_slot) -- number
 - Client:[GetBaseAGI](getbaseagi)() -- number
@@ -83,7 +83,7 @@ weight: 25
 - Client:[GetCorpseCount](getcorpsecount)() -- number
 - Client:[GetCorpseID](getcorpseid)(number corpse) -- number
 - Client:[GetCorpseItemAt](getcorpseitemat)(number corpse, number slot) -- number
-- Client:[GetDisciplineTimer](getdisciplinetimer)(uint32 timer_id) -- number
+- Client:[GetDisciplineTimer](getdisciplinetimer)(number timer_id) -- number
 - Client:[GetDiscSlotBySpellID](getdiscslotbyspellid)(int32 spell_id) -- number
 - Client:[GetDuelTarget](getdueltarget)() -- number
 - Client:[GetEbonCrystals](geteboncrystals)() -- number
@@ -91,7 +91,7 @@ weight: 25
 - Client:[GetEndurancePercent](getendurancepercent)() -- number
 - Client:[GetEXP](getexp)() -- number
 - Client:[GetFace](getface)() -- number
-- Client:[GetFactionLevel](getfactionlevel)(uint32 char_id, uint32 npc_id, uint32 race, uint32 class_, uint32 deity, uint32 faction, Lua_NPC npc) -- number
+- Client:[GetFactionLevel](getfactionlevel)(number char_id, number npc_id, number race, number class_, number deity, number faction, Lua_NPC npc) -- number
 - Client:[GetFeigned](getfeigned)() -- bool
 - Client:[GetGM](getgm)() -- bool
 - Client:[GetGroupPoints](getgrouppoints)() -- number
@@ -150,10 +150,10 @@ weight: 25
 - Client:[IsTaskActive](istaskactive)(number task) -- bool
 - Client:[IsTaskActivityActive](istaskactivityactive)(number task, number activity) -- bool
 - Client:[IsTaskCompleted](istaskcompleted)(number task) -- bool
-- Client:[KeyRingAdd](keyringadd)(uint32 item) -- void
-- Client:[KeyRingCheck](keyringcheck)(uint32 item) -- bool
+- Client:[KeyRingAdd](keyringadd)(number item) -- void
+- Client:[KeyRingCheck](keyringcheck)(number item) -- bool
 - Client:[Kick](kick)() -- void
-- Client:[LearnRecipe](learnrecipe)(uint32 recipe) -- void
+- Client:[LearnRecipe](learnrecipe)(number recipe) -- void
 - Client:[LeaveGroup](leavegroup)() -- void
 - Client:[MarkSingleCompassLoc](marksinglecompassloc)(float in_x, float in_y, float in_z, number count) -- void
 - Client:[MaxSkill](maxskill)(number skill_id) -- number
@@ -168,7 +168,7 @@ weight: 25
 - Client:[MoveZoneInstanceRaid](movezoneinstanceraid)(uint16 instance_id) -- void
 - Client:[MoveZoneRaid](movezoneraid)(const char *zone_short_name) -- void
 - Client:[NotifyNewTitlesAvailable](notifynewtitlesavailable)() -- void
-- Client:[NukeItem](nukeitem)(uint32 item_num, number where_to_check) -- void
+- Client:[NukeItem](nukeitem)(number item_num, number where_to_check) -- void
 - Client:[OpenLFGuildWindow](openlfguildwindow)() -- void
 - Client:[PushItemOnCursor](pushitemoncursor)(Lua_ItemInst inst) -- bool
 - Client:[PutItemInInventory](putitemininventory)(number slot_id, Lua_ItemInst inst) -- bool
@@ -177,14 +177,14 @@ weight: 25
 - Client:[QueuePacket](queuepacket)(Lua_Packet app, bool ack_req, number client_connection_status, number filter) -- void
 - Client:[RefundAA](refundaa)() -- void
 - Client:[ResetAA](resetaa)() -- void
-- Client:[ResetDisciplineTimer](resetdisciplinetimer)(uint32 timer_id) -- void
+- Client:[ResetDisciplineTimer](resetdisciplinetimer)(number timer_id) -- void
 - Client:[ResetTrade](resettrade)() -- void
 - Client:[Save](save)(number commit_now) -- void
 - Client:[SaveBackup](savebackup)() -- void
 - Client:[ScribeSpell](scribespell)(number spell_id, number slot, bool update_client) -- void
-- Client:[SendColoredText](sendcoloredtext)(uint32 type, std::string msg) -- void
+- Client:[SendColoredText](sendcoloredtext)(number type, std::string msg) -- void
 - Client:[SendItemScale](senditemscale)(Lua_ItemInst inst) -- void
-- Client:[SendMarqueeMessage](sendmarqueemessage)(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, std::string msg) -- void
+- Client:[SendMarqueeMessage](sendmarqueemessage)(number type, number priority, number fade_in, number fade_out, number duration, std::string msg) -- void
 - Client:[SendOPTranslocateConfirm](sendoptranslocateconfirm)(Lua_Mob caster, number spell_id) -- void
 - Client:[SendSound](sendsound)() -- void
 - Client:[SendToGuildHall](sendtoguildhall)() -- void
@@ -193,7 +193,7 @@ weight: 25
 - Client:[SetAAPoints](setaapoints)(number points) -- void
 - Client:[SetAATitle](setaatitle)(const char *title) -- void
 - Client:[SetAccountFlag](setaccountflag)(std::string flag, std::string val) -- void
-- Client:[SetAlternateCurrencyValue](setalternatecurrencyvalue)(uint32 currency, number amount) -- void
+- Client:[SetAlternateCurrencyValue](setalternatecurrencyvalue)(number currency, number amount) -- void
 - Client:[SetBaseClass](setbaseclass)(number v) -- void
 - Client:[SetBaseGender](setbasegender)(number v) -- void
 - Client:[SetBaseRace](setbaserace)(number v) -- void
@@ -204,27 +204,27 @@ weight: 25
 - Client:[SetDueling](setdueling)(bool v) -- void
 - Client:[SetDuelTarget](setdueltarget)(number c) -- void
 - Client:[SetEndurance](setendurance)(number endur) -- void
-- Client:[SetEXP](setexp)(uint32 set_exp, uint32 set_aaxp, bool resexp) -- void
-- Client:[SetFactionLevel](setfactionlevel)(uint32 char_id, uint32 npc_id, number char_class, number char_race, number char_deity) -- void
+- Client:[SetEXP](setexp)(number set_exp, number set_aaxp, bool resexp) -- void
+- Client:[SetFactionLevel](setfactionlevel)(number char_id, number npc_id, number char_class, number char_race, number char_deity) -- void
 - Client:[SetFeigned](setfeigned)(bool v) -- void
 - Client:[SetGM](setgm)(bool v) -- void
 - Client:[SetHorseId](sethorseid)(number id) -- void
 - Client:[SetHunger](sethunger)(number in_hunger) -- void
 - Client:[SetLanguageSkill](setlanguageskill)(number language, number value) -- void
-- Client:[SetMaterial](setmaterial)(number slot_id, uint32 item_id) -- void
-- Client:[SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)(uint32 model_id) -- void
+- Client:[SetMaterial](setmaterial)(number slot_id, number item_id) -- void
+- Client:[SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)(number model_id) -- void
 - Client:[SetPVP](setpvp)(bool v) -- void
-- Client:[SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)(uint32 model_id) -- void
+- Client:[SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)(number model_id) -- void
 - Client:[SetSkillPoints](setskillpoints)(number skill) -- void
 - Client:[SetStartZone](setstartzone)(number zone_id, float x, float y, float z) -- void
 - Client:[SetStats](setstats)(number type, number value) -- void
 - Client:[SetThirst](setthirst)(number in_thirst) -- void
-- Client:[SetTint](settint)(number slot_id, uint32 color) -- void
+- Client:[SetTint](settint)(number slot_id, number color) -- void
 - Client:[SetTitleSuffix](settitlesuffix)(const char *text) -- void
 - Client:[SetZoneFlag](setzoneflag)(number zone_id) -- void
-- Client:[Signal](signal)(uint32 id) -- void
+- Client:[Signal](signal)(number id) -- void
 - Client:[Stand](stand)() -- void
-- Client:[SummonItem](summonitem)(uint32 item_id, number charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5, bool attuned, number to_slot) -- void
+- Client:[SummonItem](summonitem)(number item_id, number charges, number aug1, number aug2, number aug3, number aug4, number aug5, bool attuned, number to_slot) -- void
 - Client:[TakeMoneyFromPP](takemoneyfrompp)(uint64 copper, bool update_client) -- bool
 - Client:[TGB](tgb)() -- bool
 - Client:[Thirsty](thirsty)() -- bool
@@ -238,8 +238,8 @@ weight: 25
 - Client:[UnscribeSpellAll](unscribespellall)(bool update_client) -- void
 - Client:[UntrainDisc](untraindisc)(number slot, bool update_client) -- void
 - Client:[UntrainDiscAll](untraindiscall)(bool update_client) -- void
-- Client:[UpdateGroupAAs](updategroupaas)(number points, uint32 type) -- void
-- Client:[UpdateLDoNPoints](updateldonpoints)(number points, uint32 theme) -- void
+- Client:[UpdateGroupAAs](updategroupaas)(number points, number type) -- void
+- Client:[UpdateLDoNPoints](updateldonpoints)(number points, number theme) -- void
 - Client:[UpdateTaskActivity](updatetaskactivity)(number task, number activity, number count) -- void
 - Client:[UseDiscipline](usediscipline)(number spell_id, number target_id) -- bool
 - Client:[WorldKick](worldkick)() -- void

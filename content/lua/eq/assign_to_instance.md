@@ -6,5 +6,5 @@ menuTitle: assign_to_instance
 ---
 ## assign_to_instance
 ```lua
-eq.assign_to_instance(uint32 instance_id) -- void
+eq.assign_to_instance(number instance_id) -- void
 ```

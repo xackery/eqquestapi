@@ -6,5 +6,5 @@ menuTitle: assign_to_instance_by_char_id
 ---
 ## assign_to_instance_by_char_id
 ```lua
-eq.assign_to_instance_by_char_id(uint32 instance_id, uint32 char_id) -- void
+eq.assign_to_instance_by_char_id(number instance_id, number char_id) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: AddPVPPoints
 ---
 ## AddPVPPoints
 ```lua
-Client:AddPVPPoints(uint32 points); -- void
+Client:AddPVPPoints(number points); -- void
 ```

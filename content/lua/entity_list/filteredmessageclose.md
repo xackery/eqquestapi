@@ -6,5 +6,5 @@ menuTitle: FilteredMessageClose
 ---
 ## FilteredMessageClose
 ```lua
-EntityList:FilteredMessageClose(Lua_Mob sender, bool skip_sender, float dist, uint32 type, number filter, const char *message); -- void
+EntityList:FilteredMessageClose(Lua_Mob sender, bool skip_sender, float dist, number type, number filter, const char *message); -- void
 ```

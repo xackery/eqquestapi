@@ -6,5 +6,5 @@ menuTitle: create_ground_object
 ---
 ## create_ground_object
 ```lua
-eq.create_ground_object(uint32 item_id, float x, float y, float z, float h) -- void
+eq.create_ground_object(number item_id, float x, float y, float z, float h) -- void
 ```

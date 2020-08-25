@@ -6,5 +6,5 @@ menuTitle: HasItemByLoreGroup
 ---
 ## HasItemByLoreGroup
 ```lua
-Inventory:HasItemByLoreGroup(uint32 loregroup, number where); -- number
+Inventory:HasItemByLoreGroup(number loregroup, number where); -- number
 ```

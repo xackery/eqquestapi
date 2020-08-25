@@ -6,5 +6,5 @@ menuTitle: world_wide_disable_task
 ---
 ## world_wide_disable_task
 ```lua
-eq.world_wide_disable_task(uint32 task_id) -- void
+eq.world_wide_disable_task(number task_id) -- void
 ```

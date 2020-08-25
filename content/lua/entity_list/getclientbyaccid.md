@@ -6,5 +6,5 @@ menuTitle: GetClientByAccID
 ---
 ## GetClientByAccID
 ```lua
-EntityList:GetClientByAccID(uint32 acct_id); -- unknown - Lua_Client
+EntityList:GetClientByAccID(number acct_id); -- unknown - Lua_Client
 ```

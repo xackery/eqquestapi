@@ -6,5 +6,5 @@ menuTitle: AddAlternateCurrencyValue
 ---
 ## AddAlternateCurrencyValue
 ```lua
-Client:AddAlternateCurrencyValue(uint32 currency, number amount); -- void
+Client:AddAlternateCurrencyValue(number currency, number amount); -- void
 ```

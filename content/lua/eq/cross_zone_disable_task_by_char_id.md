@@ -6,5 +6,5 @@ menuTitle: cross_zone_disable_task_by_char_id
 ---
 ## cross_zone_disable_task_by_char_id
 ```lua
-eq.cross_zone_disable_task_by_char_id(number character_id, uint32 task_id) -- void
+eq.cross_zone_disable_task_by_char_id(number character_id, number task_id) -- void
 ```

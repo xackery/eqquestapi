@@ -6,5 +6,5 @@ menuTitle: SetItemID
 ---
 ## SetItemID
 ```lua
-Object:SetItemID(uint32 item_id); -- void
+Object:SetItemID(number item_id); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: cross_zone_message_player_by_guild_id
 ---
 ## cross_zone_message_player_by_guild_id
 ```lua
-eq.cross_zone_message_player_by_guild_id(uint32 type, number guild_id, const char *message) -- void
+eq.cross_zone_message_player_by_guild_id(number type, number guild_id, const char *message) -- void
 ```

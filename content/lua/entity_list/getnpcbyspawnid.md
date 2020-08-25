@@ -6,5 +6,5 @@ menuTitle: GetNPCBySpawnID
 ---
 ## GetNPCBySpawnID
 ```lua
-EntityList:GetNPCBySpawnID(uint32 spawn_id); -- unknown - Lua_NPC
+EntityList:GetNPCBySpawnID(number spawn_id); -- unknown - Lua_NPC
 ```

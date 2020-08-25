@@ -6,5 +6,5 @@ menuTitle: get_group_id_by_char_id
 ---
 ## get_group_id_by_char_id
 ```lua
-eq.get_group_id_by_char_id(uint32 char_id) -- int
+eq.get_group_id_by_char_id(number char_id) -- int
 ```

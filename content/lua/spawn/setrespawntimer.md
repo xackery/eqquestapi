@@ -6,5 +6,5 @@ menuTitle: SetRespawnTimer
 ---
 ## SetRespawnTimer
 ```lua
-Spawn:SetRespawnTimer(uint32 newrespawntime); -- void
+Spawn:SetRespawnTimer(number newrespawntime); -- void
 ```

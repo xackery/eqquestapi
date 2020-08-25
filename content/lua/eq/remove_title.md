@@ -6,5 +6,5 @@ menuTitle: remove_title
 ---
 ## remove_title
 ```lua
-eq.remove_title(uint32 title_set) -- void
+eq.remove_title(number title_set) -- void
 ```

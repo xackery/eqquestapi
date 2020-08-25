@@ -6,5 +6,5 @@ menuTitle: NukeItem
 ---
 ## NukeItem
 ```lua
-Client:NukeItem(uint32 item_num, number where_to_check); -- void
+Client:NukeItem(number item_num, number where_to_check); -- void
 ```

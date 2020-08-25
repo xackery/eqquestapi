@@ -6,5 +6,5 @@ menuTitle: get_spell_name
 ---
 ## get_spell_name
 ```lua
-eq.get_spell_name(uint32 spell_id) -- string
+eq.get_spell_name(number spell_id) -- string
 ```

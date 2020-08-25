@@ -6,5 +6,5 @@ menuTitle: get_item_name
 ---
 ## get_item_name
 ```lua
-eq.get_item_name(uint32 item_id) -- string
+eq.get_item_name(number item_id) -- string
 ```

@@ -6,5 +6,5 @@ menuTitle: GetSpawnByID
 ---
 ## GetSpawnByID
 ```lua
-EntityList:GetSpawnByID(uint32 id); -- unknown - Lua_Spawn
+EntityList:GetSpawnByID(number id); -- unknown - Lua_Spawn
 ```

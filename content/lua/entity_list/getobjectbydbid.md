@@ -6,5 +6,5 @@ menuTitle: GetObjectByDBID
 ---
 ## GetObjectByDBID
 ```lua
-EntityList:GetObjectByDBID(uint32 db_id); -- unknown - Lua_Object
+EntityList:GetObjectByDBID(number db_id); -- unknown - Lua_Object
 ```

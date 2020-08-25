@@ -6,5 +6,5 @@ menuTitle: SetIcon
 ---
 ## SetIcon
 ```lua
-Object:SetIcon(uint32 icon); -- void
+Object:SetIcon(number icon); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetDisciplineTimer
 ---
 ## GetDisciplineTimer
 ```lua
-Client:GetDisciplineTimer(uint32 timer_id); -- number
+Client:GetDisciplineTimer(number timer_id); -- number
 ```

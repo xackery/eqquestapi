@@ -6,5 +6,5 @@ menuTitle: SetCopper
 ---
 ## SetCopper
 ```lua
-NPC:SetCopper(uint32 amt); -- void
+NPC:SetCopper(number amt); -- void
 ```

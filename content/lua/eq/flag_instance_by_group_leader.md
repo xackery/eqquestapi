@@ -6,5 +6,5 @@ menuTitle: flag_instance_by_group_leader
 ---
 ## flag_instance_by_group_leader
 ```lua
-eq.flag_instance_by_group_leader(uint32 zone, uint32 version) -- void
+eq.flag_instance_by_group_leader(number zone, number version) -- void
 ```

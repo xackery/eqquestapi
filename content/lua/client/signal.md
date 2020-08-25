@@ -6,5 +6,5 @@ menuTitle: Signal
 ---
 ## Signal
 ```lua
-Client:Signal(uint32 id); -- void
+Client:Signal(number id); -- void
 ```

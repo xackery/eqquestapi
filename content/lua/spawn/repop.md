@@ -6,5 +6,5 @@ menuTitle: Repop
 ---
 ## Repop
 ```lua
-Spawn:Repop(uint32 delay); -- void
+Spawn:Repop(number delay); -- void
 ```

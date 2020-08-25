@@ -6,5 +6,5 @@ menuTitle: SetCash
 ---
 ## SetCash
 ```lua
-Corpse:SetCash(uint32 copper, uint32 silver, uint32 gold, uint32 platinum); -- void
+Corpse:SetCash(number copper, number silver, number gold, number platinum); -- void
 ```

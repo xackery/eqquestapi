@@ -6,5 +6,5 @@ menuTitle: AddItem
 ---
 ## AddItem
 ```lua
-Corpse:AddItem(uint32 itemnum, uint16 charges, int16 slot, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5); -- void
+Corpse:AddItem(number itemnum, uint16 charges, int16 slot, number aug1, number aug2, number aug3, number aug4, number aug5); -- void
 ```

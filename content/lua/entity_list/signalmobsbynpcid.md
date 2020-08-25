@@ -6,5 +6,5 @@ menuTitle: SignalMobsByNPCID
 ---
 ## SignalMobsByNPCID
 ```lua
-EntityList:SignalMobsByNPCID(uint32 npc_id, number signal); -- void
+EntityList:SignalMobsByNPCID(number npc_id, number signal); -- void
 ```

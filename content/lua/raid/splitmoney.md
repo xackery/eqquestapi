@@ -6,5 +6,5 @@ menuTitle: SplitMoney
 ---
 ## SplitMoney
 ```lua
-Raid:SplitMoney(uint32 gid, uint32 copper, uint32 silver, uint32 gold, uint32 platinum, Lua_Client splitter); -- void
+Raid:SplitMoney(number gid, number copper, number silver, number gold, number platinum, Lua_Client splitter); -- void
 ```

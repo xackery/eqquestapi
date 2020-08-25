@@ -6,5 +6,5 @@ menuTitle: SetOpenType
 ---
 ## SetOpenType
 ```lua
-Door:SetOpenType(uint32 type); -- void
+Door:SetOpenType(number type); -- void
 ```

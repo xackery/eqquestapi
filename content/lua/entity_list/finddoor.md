@@ -6,5 +6,5 @@ menuTitle: FindDoor
 ---
 ## FindDoor
 ```lua
-EntityList:FindDoor(uint32 id); -- unknown - Lua_Door
+EntityList:FindDoor(number id); -- unknown - Lua_Door
 ```

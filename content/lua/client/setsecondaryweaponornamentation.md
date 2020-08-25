@@ -6,5 +6,5 @@ menuTitle: SetSecondaryWeaponOrnamentation
 ---
 ## SetSecondaryWeaponOrnamentation
 ```lua
-Client:SetSecondaryWeaponOrnamentation(uint32 model_id); -- void
+Client:SetSecondaryWeaponOrnamentation(number model_id); -- void
 ```

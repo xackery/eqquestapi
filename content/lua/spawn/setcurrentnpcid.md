@@ -6,5 +6,5 @@ menuTitle: SetCurrentNPCID
 ---
 ## SetCurrentNPCID
 ```lua
-Spawn:SetCurrentNPCID(uint32 nid); -- void
+Spawn:SetCurrentNPCID(number nid); -- void
 ```

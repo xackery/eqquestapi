@@ -6,5 +6,5 @@ menuTitle: SetTimer
 ---
 ## SetTimer
 ```lua
-ItemInst:SetTimer(std::string name, uint32 time); -- void
+ItemInst:SetTimer(std::string name, number time); -- void
 ```

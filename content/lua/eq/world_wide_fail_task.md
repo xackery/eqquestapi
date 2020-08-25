@@ -6,5 +6,5 @@ menuTitle: world_wide_fail_task
 ---
 ## world_wide_fail_task
 ```lua
-eq.world_wide_fail_task(uint32 task_id) -- void
+eq.world_wide_fail_task(number task_id) -- void
 ```

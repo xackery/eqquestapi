@@ -6,5 +6,5 @@ menuTitle: AddEXP
 ---
 ## AddEXP
 ```lua
-Client:AddEXP(uint32 add_exp, number conlevel, bool resexp); -- void
+Client:AddEXP(number add_exp, number conlevel, bool resexp); -- void
 ```

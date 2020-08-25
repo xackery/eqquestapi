@@ -6,5 +6,5 @@ menuTitle: LearnRecipe
 ---
 ## LearnRecipe
 ```lua
-Client:LearnRecipe(uint32 recipe); -- void
+Client:LearnRecipe(number recipe); -- void
 ```

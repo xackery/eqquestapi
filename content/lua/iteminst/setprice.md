@@ -6,5 +6,5 @@ menuTitle: SetPrice
 ---
 ## SetPrice
 ```lua
-ItemInst:SetPrice(uint32 price); -- void
+ItemInst:SetPrice(number price); -- void
 ```

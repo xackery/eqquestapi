@@ -6,5 +6,5 @@ menuTitle: cross_zone_signal_client_by_char_id
 ---
 ## cross_zone_signal_client_by_char_id
 ```lua
-eq.cross_zone_signal_client_by_char_id(uint32 character_id, number signal) -- void
+eq.cross_zone_signal_client_by_char_id(number character_id, number signal) -- void
 ```

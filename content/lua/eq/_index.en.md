@@ -19,8 +19,8 @@ weight: 25
 - eq.[repop_zone](repop_zone)() -- void
 - eq.[process_mobs_while_zone_empty](process_mobs_while_zone_empty)(bool on) -- void
 - eq.[is_disc_tome](is_disc_tome)(number item_id) -- bool
-- eq.[get_race_name](get_race_name)(uint32 race_id) -- string
-- eq.[get_spell_name](get_spell_name)(uint32 spell_id) -- string
+- eq.[get_race_name](get_race_name)(number race_id) -- string
+- eq.[get_spell_name](get_spell_name)(number spell_id) -- string
 - eq.[get_skill_name](get_skill_name)(number skill_id) -- string
 - eq.[safe_move](safe_move)() -- void
 - eq.[rain](rain)(number weather) -- void
@@ -44,15 +44,15 @@ weight: 25
 - eq.[enable_proximity_say](enable_proximity_say)() -- void
 - eq.[disable_proximity_say](disable_proximity_say)() -- void
 - eq.[set_anim](set_anim)(number npc_type, number anim_num) -- void
-- eq.[spawn_condition](spawn_condition)(const char *zone, uint32 instance_id, number condition_id, number value) -- void
-- eq.[get_spawn_condition](get_spawn_condition)(const char *zone, uint32 instance_id, number condition_id) -- int
+- eq.[spawn_condition](spawn_condition)(const char *zone, number instance_id, number condition_id, number value) -- void
+- eq.[get_spawn_condition](get_spawn_condition)(const char *zone, number instance_id, number condition_id) -- int
 - eq.[toggle_spawn_event](toggle_spawn_event)(number event_id, bool enable, bool strict, bool reset) -- void
-- eq.[summon_buried_player_corpse](summon_buried_player_corpse)(uint32 char_id, float x, float y, float z, float h) -- void
-- eq.[summon_all_player_corpses](summon_all_player_corpses)(uint32 char_id, float x, float y, float z, float h) -- void
-- eq.[get_player_corpse_count](get_player_corpse_count)(uint32 char_id) -- int
-- eq.[get_player_corpse_count_by_zone_id](get_player_corpse_count_by_zone_id)(uint32 char_id, uint32 zone_id) -- int
-- eq.[get_player_buried_corpse_count](get_player_buried_corpse_count)(uint32 char_id) -- int
-- eq.[bury_player_corpse](bury_player_corpse)(uint32 char_id) -- bool
+- eq.[summon_buried_player_corpse](summon_buried_player_corpse)(number char_id, float x, float y, float z, float h) -- void
+- eq.[summon_all_player_corpses](summon_all_player_corpses)(number char_id, float x, float y, float z, float h) -- void
+- eq.[get_player_corpse_count](get_player_corpse_count)(number char_id) -- int
+- eq.[get_player_corpse_count_by_zone_id](get_player_corpse_count_by_zone_id)(number char_id, number zone_id) -- int
+- eq.[get_player_buried_corpse_count](get_player_buried_corpse_count)(number char_id) -- int
+- eq.[bury_player_corpse](bury_player_corpse)(number char_id) -- bool
 - eq.[task_set_selector](task_set_selector)(number task_set) -- void
 - eq.[is_task_enabled](is_task_enabled)(number task) -- bool
 - eq.[is_task_active](is_task_active)(number task) -- bool
@@ -74,84 +74,84 @@ weight: 25
 - eq.[active_tasks_in_set](active_tasks_in_set)(number task_set) -- int
 - eq.[completed_tasks_in_set](completed_tasks_in_set)(number task_set) -- int
 - eq.[is_task_appropriate](is_task_appropriate)(number task) -- bool
-- eq.[get_task_name](get_task_name)(uint32 task_id) -- string
-- eq.[popup](popup)(const char *title, const char *text, uint32 id, uint32 buttons, uint32 duration) -- void
+- eq.[get_task_name](get_task_name)(number task_id) -- string
+- eq.[popup](popup)(const char *title, const char *text, number id, number buttons, number duration) -- void
 - eq.[clear_spawn_timers](clear_spawn_timers)() -- void
 - eq.[zone_emote](zone_emote)(number type, const char *str) -- void
 - eq.[world_emote](world_emote)(number type, const char *str) -- void
 - eq.[get_level](get_level)(number type) -- int
-- eq.[create_ground_object](create_ground_object)(uint32 item_id, float x, float y, float z, float h) -- void
+- eq.[create_ground_object](create_ground_object)(number item_id, float x, float y, float z, float h) -- void
 - eq.[create_ground_object_from_model](create_ground_object_from_model)(const char *model, float x, float y, float z, float h) -- void
 - eq.[create_door](create_door)(const char *model, float x, float y, float z, float h, number open_type, number size) -- void
 - eq.[modify_npc_stat](modify_npc_stat)(const char *id, const char *value) -- void
-- eq.[collect_items](collect_items)(uint32 item_id, bool remove) -- int
-- eq.[count_item](count_item)(uint32 item_id) -- int
-- eq.[update_spawn_timer](update_spawn_timer)(uint32 id, uint32 new_time) -- void
-- eq.[merchant_set_item](merchant_set_item)(uint32 npc_id, uint32 item_id) -- void
-- eq.[merchant_count_item](merchant_count_item)(uint32 npc_id, uint32 item_id) -- int
+- eq.[collect_items](collect_items)(number item_id, bool remove) -- int
+- eq.[count_item](count_item)(number item_id) -- int
+- eq.[update_spawn_timer](update_spawn_timer)(number id, number new_time) -- void
+- eq.[merchant_set_item](merchant_set_item)(number npc_id, number item_id) -- void
+- eq.[merchant_count_item](merchant_count_item)(number npc_id, number item_id) -- int
 - eq.[item_link](item_link)(number item_id) -- string
-- eq.[get_item_name](get_item_name)(uint32 item_id) -- string
+- eq.[get_item_name](get_item_name)(number item_id) -- string
 - eq.[say_link](say_link)(const char *phrase, bool silent, const char *link_name) -- string
 - eq.[get_char_id_by_name](get_char_id_by_name)(const char* name) -- uint32
 - eq.[get_class_name](get_class_name)(uint8 class_id) -- string
-- eq.[get_currency_id](get_currency_id)(uint32 item_id) -- int
+- eq.[get_currency_id](get_currency_id)(number item_id) -- int
 - eq.[get_currency_item_id](get_currency_item_id)(number currency_id) -- int
-- eq.[get_guild_id_by_char_id](get_guild_id_by_char_id)(uint32 char_id) -- int
-- eq.[get_group_id_by_char_id](get_group_id_by_char_id)(uint32 char_id) -- int
-- eq.[get_raid_id_by_char_id](get_raid_id_by_char_id)(uint32 char_id) -- int
-- eq.[create_instance](create_instance)(const char *zone, uint32 version, uint32 duration) -- uint32
-- eq.[destroy_instance](destroy_instance)(uint32 instance_id) -- void
-- eq.[update_instance_timer](update_instance_timer)(uint16 instance_id, uint32 new_duration) -- void
+- eq.[get_guild_id_by_char_id](get_guild_id_by_char_id)(number char_id) -- int
+- eq.[get_group_id_by_char_id](get_group_id_by_char_id)(number char_id) -- int
+- eq.[get_raid_id_by_char_id](get_raid_id_by_char_id)(number char_id) -- int
+- eq.[create_instance](create_instance)(const char *zone, number version, number duration) -- uint32
+- eq.[destroy_instance](destroy_instance)(number instance_id) -- void
+- eq.[update_instance_timer](update_instance_timer)(uint16 instance_id, number new_duration) -- void
 - eq.[get_instance_timer](get_instance_timer)() -- uint32
 - eq.[get_instance_timer_by_id](get_instance_timer_by_id)(uint16 instance_id) -- uint32
-- eq.[get_instance_id](get_instance_id)(const char *zone, uint32 version) -- int
-- eq.[get_instance_id_by_char_id](get_instance_id_by_char_id)(const char *zone, uint32 version, uint32 char_id) -- int
-- eq.[assign_to_instance](assign_to_instance)(uint32 instance_id) -- void
-- eq.[assign_to_instance_by_char_id](assign_to_instance_by_char_id)(uint32 instance_id, uint32 char_id) -- void
-- eq.[assign_group_to_instance](assign_group_to_instance)(uint32 instance_id) -- void
-- eq.[assign_raid_to_instance](assign_raid_to_instance)(uint32 instance_id) -- void
-- eq.[remove_from_instance](remove_from_instance)(uint32 instance_id) -- void
-- eq.[remove_from_instance_by_char_id](remove_from_instance_by_char_id)(uint32 instance_id, uint32 char_id) -- void
-- eq.[check_instance_by_char_id](check_instance_by_char_id)(uint32 instance_id, uint32 char_id) -- bool
-- eq.[remove_all_from_instance](remove_all_from_instance)(uint32 instance_id) -- void
-- eq.[flag_instance_by_group_leader](flag_instance_by_group_leader)(uint32 zone, uint32 version) -- void
-- eq.[flag_instance_by_raid_leader](flag_instance_by_raid_leader)(uint32 zone, uint32 version) -- void
+- eq.[get_instance_id](get_instance_id)(const char *zone, number version) -- int
+- eq.[get_instance_id_by_char_id](get_instance_id_by_char_id)(const char *zone, number version, number char_id) -- int
+- eq.[assign_to_instance](assign_to_instance)(number instance_id) -- void
+- eq.[assign_to_instance_by_char_id](assign_to_instance_by_char_id)(number instance_id, number char_id) -- void
+- eq.[assign_group_to_instance](assign_group_to_instance)(number instance_id) -- void
+- eq.[assign_raid_to_instance](assign_raid_to_instance)(number instance_id) -- void
+- eq.[remove_from_instance](remove_from_instance)(number instance_id) -- void
+- eq.[remove_from_instance_by_char_id](remove_from_instance_by_char_id)(number instance_id, number char_id) -- void
+- eq.[check_instance_by_char_id](check_instance_by_char_id)(number instance_id, number char_id) -- bool
+- eq.[remove_all_from_instance](remove_all_from_instance)(number instance_id) -- void
+- eq.[flag_instance_by_group_leader](flag_instance_by_group_leader)(number zone, number version) -- void
+- eq.[flag_instance_by_raid_leader](flag_instance_by_raid_leader)(number zone, number version) -- void
 - eq.[fly_mode](fly_mode)(number flymode) -- void
 - eq.[faction_value](faction_value)() -- int
-- eq.[check_title](check_title)(uint32 title_set) -- void
-- eq.[enable_title](enable_title)(uint32 title_set) -- void
-- eq.[remove_title](remove_title)(uint32 title_set) -- void
-- eq.[wear_change](wear_change)(uint32 slot, uint32 texture) -- void
-- eq.[voice_tell](voice_tell)(const char *str, uint32 macro_num, uint32 race_num, uint32 gender_num) -- void
+- eq.[check_title](check_title)(number title_set) -- void
+- eq.[enable_title](enable_title)(number title_set) -- void
+- eq.[remove_title](remove_title)(number title_set) -- void
+- eq.[wear_change](wear_change)(number slot, number texture) -- void
+- eq.[voice_tell](voice_tell)(const char *str, number macro_num, number race_num, number gender_num) -- void
 - eq.[send_mail](send_mail)(const char *to, const char *from, const char *subject, const char *message) -- void
-- eq.[cross_zone_assign_task_by_char_id](cross_zone_assign_task_by_char_id)(number character_id, uint32 task_id) -- void
-- eq.[cross_zone_assign_task_by_group_id](cross_zone_assign_task_by_group_id)(number group_id, uint32 task_id) -- void
-- eq.[cross_zone_assign_task_by_raid_id](cross_zone_assign_task_by_raid_id)(number raid_id, uint32 task_id) -- void
-- eq.[cross_zone_assign_task_by_guild_id](cross_zone_assign_task_by_guild_id)(number guild_id, uint32 task_id) -- void
-- eq.[cross_zone_cast_spell_by_char_id](cross_zone_cast_spell_by_char_id)(number character_id, uint32 spell_id) -- void
-- eq.[cross_zone_cast_spell_by_group_id](cross_zone_cast_spell_by_group_id)(number group_id, uint32 spell_id) -- void
-- eq.[cross_zone_cast_spell_by_raid_id](cross_zone_cast_spell_by_raid_id)(number raid_id, uint32 spell_id) -- void
-- eq.[cross_zone_cast_spell_by_guild_id](cross_zone_cast_spell_by_guild_id)(number guild_id, uint32 spell_id) -- void
-- eq.[cross_zone_disable_task_by_char_id](cross_zone_disable_task_by_char_id)(number character_id, uint32 task_id) -- void
-- eq.[cross_zone_disable_task_by_group_id](cross_zone_disable_task_by_group_id)(number group_id, uint32 task_id) -- void
-- eq.[cross_zone_disable_task_by_raid_id](cross_zone_disable_task_by_raid_id)(number raid_id, uint32 task_id) -- void
-- eq.[cross_zone_disable_task_by_guild_id](cross_zone_disable_task_by_guild_id)(number guild_id, uint32 task_id) -- void
-- eq.[cross_zone_enable_task_by_char_id](cross_zone_enable_task_by_char_id)(number character_id, uint32 task_id) -- void
-- eq.[cross_zone_enable_task_by_group_id](cross_zone_enable_task_by_group_id)(number group_id, uint32 task_id) -- void
-- eq.[cross_zone_enable_task_by_raid_id](cross_zone_enable_task_by_raid_id)(number raid_id, uint32 task_id) -- void
-- eq.[cross_zone_enable_task_by_guild_id](cross_zone_enable_task_by_guild_id)(number guild_id, uint32 task_id) -- void
-- eq.[cross_zone_fail_task_by_char_id](cross_zone_fail_task_by_char_id)(number character_id, uint32 task_id) -- void
-- eq.[cross_zone_fail_task_by_group_id](cross_zone_fail_task_by_group_id)(number group_id, uint32 task_id) -- void
-- eq.[cross_zone_fail_task_by_raid_id](cross_zone_fail_task_by_raid_id)(number raid_id, uint32 task_id) -- void
-- eq.[cross_zone_fail_task_by_guild_id](cross_zone_fail_task_by_guild_id)(number guild_id, uint32 task_id) -- void
-- eq.[cross_zone_marquee_by_char_id](cross_zone_marquee_by_char_id)(number character_id, uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_group_id](cross_zone_marquee_by_group_id)(number group_id, uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_raid_id](cross_zone_marquee_by_raid_id)(number raid_id, uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_guild_id](cross_zone_marquee_by_guild_id)(number guild_id, uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
-- eq.[cross_zone_message_player_by_name](cross_zone_message_player_by_name)(uint32 type, const char *character_name, const char *message) -- void
-- eq.[cross_zone_message_player_by_group_id](cross_zone_message_player_by_group_id)(uint32 type, number group_id, const char *message) -- void
-- eq.[cross_zone_message_player_by_raid_id](cross_zone_message_player_by_raid_id)(uint32 type, number raid_id, const char *message) -- void
-- eq.[cross_zone_message_player_by_guild_id](cross_zone_message_player_by_guild_id)(uint32 type, number guild_id, const char *message) -- void
+- eq.[cross_zone_assign_task_by_char_id](cross_zone_assign_task_by_char_id)(number character_id, number task_id) -- void
+- eq.[cross_zone_assign_task_by_group_id](cross_zone_assign_task_by_group_id)(number group_id, number task_id) -- void
+- eq.[cross_zone_assign_task_by_raid_id](cross_zone_assign_task_by_raid_id)(number raid_id, number task_id) -- void
+- eq.[cross_zone_assign_task_by_guild_id](cross_zone_assign_task_by_guild_id)(number guild_id, number task_id) -- void
+- eq.[cross_zone_cast_spell_by_char_id](cross_zone_cast_spell_by_char_id)(number character_id, number spell_id) -- void
+- eq.[cross_zone_cast_spell_by_group_id](cross_zone_cast_spell_by_group_id)(number group_id, number spell_id) -- void
+- eq.[cross_zone_cast_spell_by_raid_id](cross_zone_cast_spell_by_raid_id)(number raid_id, number spell_id) -- void
+- eq.[cross_zone_cast_spell_by_guild_id](cross_zone_cast_spell_by_guild_id)(number guild_id, number spell_id) -- void
+- eq.[cross_zone_disable_task_by_char_id](cross_zone_disable_task_by_char_id)(number character_id, number task_id) -- void
+- eq.[cross_zone_disable_task_by_group_id](cross_zone_disable_task_by_group_id)(number group_id, number task_id) -- void
+- eq.[cross_zone_disable_task_by_raid_id](cross_zone_disable_task_by_raid_id)(number raid_id, number task_id) -- void
+- eq.[cross_zone_disable_task_by_guild_id](cross_zone_disable_task_by_guild_id)(number guild_id, number task_id) -- void
+- eq.[cross_zone_enable_task_by_char_id](cross_zone_enable_task_by_char_id)(number character_id, number task_id) -- void
+- eq.[cross_zone_enable_task_by_group_id](cross_zone_enable_task_by_group_id)(number group_id, number task_id) -- void
+- eq.[cross_zone_enable_task_by_raid_id](cross_zone_enable_task_by_raid_id)(number raid_id, number task_id) -- void
+- eq.[cross_zone_enable_task_by_guild_id](cross_zone_enable_task_by_guild_id)(number guild_id, number task_id) -- void
+- eq.[cross_zone_fail_task_by_char_id](cross_zone_fail_task_by_char_id)(number character_id, number task_id) -- void
+- eq.[cross_zone_fail_task_by_group_id](cross_zone_fail_task_by_group_id)(number group_id, number task_id) -- void
+- eq.[cross_zone_fail_task_by_raid_id](cross_zone_fail_task_by_raid_id)(number raid_id, number task_id) -- void
+- eq.[cross_zone_fail_task_by_guild_id](cross_zone_fail_task_by_guild_id)(number guild_id, number task_id) -- void
+- eq.[cross_zone_marquee_by_char_id](cross_zone_marquee_by_char_id)(number character_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
+- eq.[cross_zone_marquee_by_group_id](cross_zone_marquee_by_group_id)(number group_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
+- eq.[cross_zone_marquee_by_raid_id](cross_zone_marquee_by_raid_id)(number raid_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
+- eq.[cross_zone_marquee_by_guild_id](cross_zone_marquee_by_guild_id)(number guild_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
+- eq.[cross_zone_message_player_by_name](cross_zone_message_player_by_name)(number type, const char *character_name, const char *message) -- void
+- eq.[cross_zone_message_player_by_group_id](cross_zone_message_player_by_group_id)(number type, number group_id, const char *message) -- void
+- eq.[cross_zone_message_player_by_raid_id](cross_zone_message_player_by_raid_id)(number type, number raid_id, const char *message) -- void
+- eq.[cross_zone_message_player_by_guild_id](cross_zone_message_player_by_guild_id)(number type, number guild_id, const char *message) -- void
 - eq.[cross_zone_move_player_by_char_id](cross_zone_move_player_by_char_id)(number character_id, const char *zone_short_name) -- void
 - eq.[cross_zone_move_player_by_group_id](cross_zone_move_player_by_group_id)(number group_id, const char *zone_short_name) -- void
 - eq.[cross_zone_move_player_by_raid_id](cross_zone_move_player_by_raid_id)(number raid_id, const char *zone_short_name) -- void
@@ -160,49 +160,49 @@ weight: 25
 - eq.[cross_zone_move_instance_by_group_id](cross_zone_move_instance_by_group_id)(number group_id, uint16 instance_id) -- void
 - eq.[cross_zone_move_instance_by_raid_id](cross_zone_move_instance_by_raid_id)(number raid_id, uint16 instance_id) -- void
 - eq.[cross_zone_move_instance_by_guild_id](cross_zone_move_instance_by_guild_id)(number guild_id, uint16 instance_id) -- void
-- eq.[cross_zone_remove_spell_by_char_id](cross_zone_remove_spell_by_char_id)(number character_id, uint32 spell_id) -- void
-- eq.[cross_zone_remove_spell_by_group_id](cross_zone_remove_spell_by_group_id)(number group_id, uint32 spell_id) -- void
-- eq.[cross_zone_remove_spell_by_raid_id](cross_zone_remove_spell_by_raid_id)(number raid_id, uint32 spell_id) -- void
-- eq.[cross_zone_remove_spell_by_guild_id](cross_zone_remove_spell_by_guild_id)(number guild_id, uint32 spell_id) -- void
-- eq.[cross_zone_remove_task_by_char_id](cross_zone_remove_task_by_char_id)(number character_id, uint32 task_id) -- void
-- eq.[cross_zone_remove_task_by_group_id](cross_zone_remove_task_by_group_id)(number group_id, uint32 task_id) -- void
-- eq.[cross_zone_remove_task_by_raid_id](cross_zone_remove_task_by_raid_id)(number raid_id, uint32 task_id) -- void
-- eq.[cross_zone_remove_task_by_guild_id](cross_zone_remove_task_by_guild_id)(number guild_id, uint32 task_id) -- void
-- eq.[cross_zone_reset_activity_by_char_id](cross_zone_reset_activity_by_char_id)(number character_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_group_id](cross_zone_reset_activity_by_group_id)(number group_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_raid_id](cross_zone_reset_activity_by_raid_id)(number raid_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_guild_id](cross_zone_reset_activity_by_guild_id)(number guild_id, uint32 task_id, number activity_id) -- void
+- eq.[cross_zone_remove_spell_by_char_id](cross_zone_remove_spell_by_char_id)(number character_id, number spell_id) -- void
+- eq.[cross_zone_remove_spell_by_group_id](cross_zone_remove_spell_by_group_id)(number group_id, number spell_id) -- void
+- eq.[cross_zone_remove_spell_by_raid_id](cross_zone_remove_spell_by_raid_id)(number raid_id, number spell_id) -- void
+- eq.[cross_zone_remove_spell_by_guild_id](cross_zone_remove_spell_by_guild_id)(number guild_id, number spell_id) -- void
+- eq.[cross_zone_remove_task_by_char_id](cross_zone_remove_task_by_char_id)(number character_id, number task_id) -- void
+- eq.[cross_zone_remove_task_by_group_id](cross_zone_remove_task_by_group_id)(number group_id, number task_id) -- void
+- eq.[cross_zone_remove_task_by_raid_id](cross_zone_remove_task_by_raid_id)(number raid_id, number task_id) -- void
+- eq.[cross_zone_remove_task_by_guild_id](cross_zone_remove_task_by_guild_id)(number guild_id, number task_id) -- void
+- eq.[cross_zone_reset_activity_by_char_id](cross_zone_reset_activity_by_char_id)(number character_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_reset_activity_by_group_id](cross_zone_reset_activity_by_group_id)(number group_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_reset_activity_by_raid_id](cross_zone_reset_activity_by_raid_id)(number raid_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_reset_activity_by_guild_id](cross_zone_reset_activity_by_guild_id)(number guild_id, number task_id, number activity_id) -- void
 - eq.[cross_zone_set_entity_variable_by_client_name](cross_zone_set_entity_variable_by_client_name)(const char *character_name, const char *variable_name, const char *variable_value) -- void
 - eq.[cross_zone_set_entity_variable_by_group_id](cross_zone_set_entity_variable_by_group_id)(number group_id, const char *variable_name, const char *variable_value) -- void
 - eq.[cross_zone_set_entity_variable_by_raid_id](cross_zone_set_entity_variable_by_raid_id)(number raid_id, const char *variable_name, const char *variable_value) -- void
 - eq.[cross_zone_set_entity_variable_by_guild_id](cross_zone_set_entity_variable_by_guild_id)(number guild_id, const char *variable_name, const char *variable_value) -- void
-- eq.[cross_zone_signal_client_by_char_id](cross_zone_signal_client_by_char_id)(uint32 character_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_group_id](cross_zone_signal_client_by_group_id)(uint32 group_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_raid_id](cross_zone_signal_client_by_raid_id)(uint32 raid_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_guild_id](cross_zone_signal_client_by_guild_id)(uint32 guild_id, number signal) -- void
+- eq.[cross_zone_signal_client_by_char_id](cross_zone_signal_client_by_char_id)(number character_id, number signal) -- void
+- eq.[cross_zone_signal_client_by_group_id](cross_zone_signal_client_by_group_id)(number group_id, number signal) -- void
+- eq.[cross_zone_signal_client_by_raid_id](cross_zone_signal_client_by_raid_id)(number raid_id, number signal) -- void
+- eq.[cross_zone_signal_client_by_guild_id](cross_zone_signal_client_by_guild_id)(number guild_id, number signal) -- void
 - eq.[cross_zone_signal_client_by_name](cross_zone_signal_client_by_name)(const char *character_name, number signal) -- void
-- eq.[cross_zone_signal_npc_by_npctype_id](cross_zone_signal_npc_by_npctype_id)(uint32 npctype_id, number signal) -- void
-- eq.[cross_zone_update_activity_by_char_id](cross_zone_update_activity_by_char_id)(number character_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_group_id](cross_zone_update_activity_by_group_id)(number group_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_raid_id](cross_zone_update_activity_by_raid_id)(number raid_id, uint32 task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_guild_id](cross_zone_update_activity_by_guild_id)(number guild_id, uint32 task_id, number activity_id) -- void
-- eq.[world_wide_assign_task](world_wide_assign_task)(uint32 task_id) -- void
-- eq.[world_wide_cast_spell](world_wide_cast_spell)(uint32 spell_id) -- void
-- eq.[world_wide_disable_task](world_wide_disable_task)(uint32 task_id) -- void
-- eq.[world_wide_enable_task](world_wide_enable_task)(uint32 task_id) -- void
-- eq.[world_wide_fail_task](world_wide_fail_task)(uint32 task_id) -- void
-- eq.[world_wide_marquee](world_wide_marquee)(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
-- eq.[world_wide_message](world_wide_message)(uint32 type, const char *message) -- void
+- eq.[cross_zone_signal_npc_by_npctype_id](cross_zone_signal_npc_by_npctype_id)(number npctype_id, number signal) -- void
+- eq.[cross_zone_update_activity_by_char_id](cross_zone_update_activity_by_char_id)(number character_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_update_activity_by_group_id](cross_zone_update_activity_by_group_id)(number group_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_update_activity_by_raid_id](cross_zone_update_activity_by_raid_id)(number raid_id, number task_id, number activity_id) -- void
+- eq.[cross_zone_update_activity_by_guild_id](cross_zone_update_activity_by_guild_id)(number guild_id, number task_id, number activity_id) -- void
+- eq.[world_wide_assign_task](world_wide_assign_task)(number task_id) -- void
+- eq.[world_wide_cast_spell](world_wide_cast_spell)(number spell_id) -- void
+- eq.[world_wide_disable_task](world_wide_disable_task)(number task_id) -- void
+- eq.[world_wide_enable_task](world_wide_enable_task)(number task_id) -- void
+- eq.[world_wide_fail_task](world_wide_fail_task)(number task_id) -- void
+- eq.[world_wide_marquee](world_wide_marquee)(number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
+- eq.[world_wide_message](world_wide_message)(number type, const char *message) -- void
 - eq.[world_wide_move](world_wide_move)(const char *zone_short_name) -- void
 - eq.[world_wide_move_instance](world_wide_move_instance)(uint16 instance_id) -- void
-- eq.[world_wide_remove_spell](world_wide_remove_spell)(uint32 spell_id) -- void
-- eq.[world_wide_remove_task](world_wide_remove_task)(uint32 task_id) -- void
-- eq.[world_wide_reset_activity](world_wide_reset_activity)(uint32 task_id, number activity_id) -- void
+- eq.[world_wide_remove_spell](world_wide_remove_spell)(number spell_id) -- void
+- eq.[world_wide_remove_task](world_wide_remove_task)(number task_id) -- void
+- eq.[world_wide_reset_activity](world_wide_reset_activity)(number task_id, number activity_id) -- void
 - eq.[world_wide_set_entity_variable_client](world_wide_set_entity_variable_client)(const char *variable_name, const char *variable_value) -- void
 - eq.[world_wide_set_entity_variable_npc](world_wide_set_entity_variable_npc)(const char *variable_name, const char *variable_value) -- void
-- eq.[world_wide_signal_client](world_wide_signal_client)(uint32 signal) -- void
-- eq.[world_wide_signal_npc](world_wide_signal_npc)(uint32 signal) -- void
-- eq.[world_wide_update_activity](world_wide_update_activity)(uint32 task_id, number activity_id) -- void
+- eq.[world_wide_signal_client](world_wide_signal_client)(number signal) -- void
+- eq.[world_wide_signal_npc](world_wide_signal_npc)(number signal) -- void
+- eq.[world_wide_update_activity](world_wide_update_activity)(number task_id, number activity_id) -- void
 - eq.[get_qglobals](get_qglobals)(lua_State *L, Lua_NPC npc, Lua_Client client) -- object
 - eq.[get_entity_list](get_entity_list)() -- Lua_EntityList
 - eq.[zone_group](zone_group)(const char* zone_name) -- void
@@ -216,7 +216,7 @@ weight: 25
 - eq.[add_area](add_area)(number id, number type, float min_x, float max_x, float min_y, float max_y, float min_z, float max_z) -- void
 - eq.[remove_area](remove_area)(number id) -- void
 - eq.[clear_areas](clear_areas)() -- void
-- eq.[remove_spawn_point](remove_spawn_point)(uint32 spawn2_id) -- void
+- eq.[remove_spawn_point](remove_spawn_point)(number spawn2_id) -- void
 - eq.[attack](attack)(const char *client_name) -- void
 - eq.[attack_npc](attack_npc)(number entity_id) -- void
 - eq.[attack_npc_type](attack_npc_type)(number npc_type) -- void
@@ -228,8 +228,8 @@ weight: 25
 - eq.[get_encounter](get_encounter)() -- string
 - eq.[map_opcodes](map_opcodes)() -- void
 - eq.[clear_opcode](clear_opcode)(number op) -- void
-- eq.[enable_recipe](enable_recipe)(uint32 recipe_id) -- bool
-- eq.[disable_recipe](disable_recipe)(uint32 recipe_id) -- bool
+- eq.[enable_recipe](enable_recipe)(number recipe_id) -- bool
+- eq.[disable_recipe](disable_recipe)(number recipe_id) -- bool
 - eq.[clear_npctype_cache](clear_npctype_cache)(number npctype_id) -- void
 - eq.[reloadzonestaticdata](reloadzonestaticdata)() -- void
 - eq.[clock](clock)() -- double

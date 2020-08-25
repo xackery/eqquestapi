@@ -6,5 +6,5 @@ menuTitle: SummonItem
 ---
 ## SummonItem
 ```lua
-Client:SummonItem(uint32 item_id, number charges, uint32 aug1, uint32 aug2, uint32 aug3, uint32 aug4, uint32 aug5, bool attuned, number to_slot); -- void
+Client:SummonItem(number item_id, number charges, number aug1, number aug2, number aug3, number aug4, number aug5, bool attuned, number to_slot); -- void
 ```

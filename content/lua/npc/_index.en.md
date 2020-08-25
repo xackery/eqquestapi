@@ -20,10 +20,10 @@ weight: 25
 - NPC:[GetSilver](getsilver)(); -- number
 - NPC:[GetGold](getgold)(); -- number
 - NPC:[GetPlatinum](getplatinum)(); -- number
-- NPC:[SetCopper](setcopper)(uint32 amt); -- void
-- NPC:[SetSilver](setsilver)(uint32 amt); -- void
-- NPC:[SetGold](setgold)(uint32 amt); -- void
-- NPC:[SetPlatinum](setplatinum)(uint32 amt); -- void
+- NPC:[SetCopper](setcopper)(number amt); -- void
+- NPC:[SetSilver](setsilver)(number amt); -- void
+- NPC:[SetGold](setgold)(number amt); -- void
+- NPC:[SetPlatinum](setplatinum)(number amt); -- void
 - NPC:[SetGrid](setgrid)(number grid); -- void
 - NPC:[SetSaveWaypoint](setsavewaypoint)(number wp); -- void
 - NPC:[GetWaypointMax](getwaypointmax)(); -- number
@@ -42,7 +42,7 @@ weight: 25
 - NPC:[SetTaunting](settaunting)(bool t); -- void
 - NPC:[IsTaunting](istaunting)(); -- bool
 - NPC:[PickPocket](pickpocket)(Lua_Client thief); -- void
-- NPC:[StartSwarmTimer](startswarmtimer)(uint32 duration); -- void
+- NPC:[StartSwarmTimer](startswarmtimer)(number duration); -- void
 - NPC:[DoClassAttacks](doclassattacks)(Lua_Mob target); -- void
 - NPC:[GetMaxWp](getmaxwp)(); -- number
 - NPC:[DisplayWaypointInfo](displaywaypointinfo)(Lua_Client to); -- void

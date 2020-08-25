@@ -6,5 +6,5 @@ menuTitle: world_wide_remove_task
 ---
 ## world_wide_remove_task
 ```lua
-eq.world_wide_remove_task(uint32 task_id) -- void
+eq.world_wide_remove_task(number task_id) -- void
 ```

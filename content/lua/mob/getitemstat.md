@@ -6,5 +6,5 @@ menuTitle: GetItemStat
 ---
 ## GetItemStat
 ```lua
-Mob:GetItemStat(uint32 itemid, const char* identifier); -- number
+Mob:GetItemStat(number itemid, const char* identifier); -- number
 ```

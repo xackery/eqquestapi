@@ -6,5 +6,5 @@ menuTitle: bury_player_corpse
 ---
 ## bury_player_corpse
 ```lua
-eq.bury_player_corpse(uint32 char_id) -- bool
+eq.bury_player_corpse(number char_id) -- bool
 ```

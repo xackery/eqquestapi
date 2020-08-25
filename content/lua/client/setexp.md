@@ -6,5 +6,5 @@ menuTitle: SetEXP
 ---
 ## SetEXP
 ```lua
-Client:SetEXP(uint32 set_exp, uint32 set_aaxp, bool resexp); -- void
+Client:SetEXP(number set_exp, number set_aaxp, bool resexp); -- void
 ```

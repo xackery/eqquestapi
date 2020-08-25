@@ -6,5 +6,5 @@ menuTitle: ResetDisciplineTimer
 ---
 ## ResetDisciplineTimer
 ```lua
-Client:ResetDisciplineTimer(uint32 timer_id); -- void
+Client:ResetDisciplineTimer(number timer_id); -- void
 ```

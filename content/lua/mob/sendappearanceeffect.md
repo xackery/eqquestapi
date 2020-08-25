@@ -6,5 +6,5 @@ menuTitle: SendAppearanceEffect
 ---
 ## SendAppearanceEffect
 ```lua
-Mob:SendAppearanceEffect(uint32 parm1, uint32 parm2, uint32 parm3, uint32 parm4, uint32 parm5, Lua_Client specific_target); -- void
+Mob:SendAppearanceEffect(number parm1, number parm2, number parm3, number parm4, number parm5, Lua_Client specific_target); -- void
 ```

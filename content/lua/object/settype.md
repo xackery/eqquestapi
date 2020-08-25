@@ -6,5 +6,5 @@ menuTitle: SetType
 ---
 ## SetType
 ```lua
-Object:SetType(uint32 type); -- void
+Object:SetType(number type); -- void
 ```

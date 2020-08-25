@@ -6,5 +6,5 @@ menuTitle: merchant_set_item
 ---
 ## merchant_set_item
 ```lua
-eq.merchant_set_item(uint32 npc_id, uint32 item_id) -- void
+eq.merchant_set_item(number npc_id, number item_id) -- void
 ```

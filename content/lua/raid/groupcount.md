@@ -6,5 +6,5 @@ menuTitle: GroupCount
 ---
 ## GroupCount
 ```lua
-Raid:GroupCount(uint32 group_id); -- number
+Raid:GroupCount(number group_id); -- number
 ```

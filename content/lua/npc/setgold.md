@@ -6,5 +6,5 @@ menuTitle: SetGold
 ---
 ## SetGold
 ```lua
-NPC:SetGold(uint32 amt); -- void
+NPC:SetGold(number amt); -- void
 ```

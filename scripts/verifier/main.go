@@ -198,6 +198,7 @@ func def(line string) error {
 	if len(params) == 0 && ok { //if a function exists
 		params = "()"
 	}
+	params = luaParams(params)
 
 	syntax := fmt.Sprintf("%s%s%s%s; -- %s", scope.class, delimiter, funcName, params, fs.returnType)
 
@@ -224,6 +225,7 @@ func function(line string) error {
 	class = strings.ReplaceAll(class, "*", "")
 	funcName := matches[0][3]
 	params := matches[0][4]
+	params = luaParams(params)
 	language := "lua"
 
 	key := fmt.Sprintf("%s.%s", strings.ToLower(class), strings.ToLower(funcName))
@@ -291,6 +293,7 @@ func generalFunction(line string) error {
 	fileClass := strings.ToLower(scope.class)
 	funcName := matches[0][2]
 	params := matches[0][3]
+	params = luaParams(params)
 	language := "lua"
 
 	syntax := fmt.Sprintf("%s.%s(%s) -- %s", scope.class, funcName, params, returnType)
@@ -441,4 +444,10 @@ func luaReturns(in string) string {
 		return "number"
 	}
 	return "unknown - " + in
+}
+
+func luaParams(in string) string {
+	in = strings.ReplaceAll(in, "int ", "number ")
+	in = strings.ReplaceAll(in, "uint32 ", "number ")
+	return in
 }

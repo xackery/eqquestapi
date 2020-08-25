@@ -6,5 +6,5 @@ menuTitle: Signal
 ---
 ## Signal
 ```lua
-Mob:Signal(uint32 id); -- void
+Mob:Signal(number id); -- void
 ```

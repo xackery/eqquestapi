@@ -6,5 +6,5 @@ menuTitle: wear_change
 ---
 ## wear_change
 ```lua
-eq.wear_change(uint32 slot, uint32 texture) -- void
+eq.wear_change(number slot, number texture) -- void
 ```

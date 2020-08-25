@@ -6,5 +6,5 @@ menuTitle: world_wide_assign_task
 ---
 ## world_wide_assign_task
 ```lua
-eq.world_wide_assign_task(uint32 task_id) -- void
+eq.world_wide_assign_task(number task_id) -- void
 ```

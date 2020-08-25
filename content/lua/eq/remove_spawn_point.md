@@ -6,5 +6,5 @@ menuTitle: remove_spawn_point
 ---
 ## remove_spawn_point
 ```lua
-eq.remove_spawn_point(uint32 spawn2_id) -- void
+eq.remove_spawn_point(number spawn2_id) -- void
 ```

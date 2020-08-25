@@ -6,5 +6,5 @@ menuTitle: remove_all_from_instance
 ---
 ## remove_all_from_instance
 ```lua
-eq.remove_all_from_instance(uint32 instance_id) -- void
+eq.remove_all_from_instance(number instance_id) -- void
 ```

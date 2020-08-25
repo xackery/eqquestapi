@@ -6,5 +6,5 @@ menuTitle: world_wide_signal_client
 ---
 ## world_wide_signal_client
 ```lua
-eq.world_wide_signal_client(uint32 signal) -- void
+eq.world_wide_signal_client(number signal) -- void
 ```

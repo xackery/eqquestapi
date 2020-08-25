@@ -16,7 +16,7 @@ weight: 25
 - Inventory:[HasItem](hasitem)(number item_id, number quantity, number where); -- number
 - Inventory:[HasSpaceForItem](hasspaceforitem)(Lua_Item item, number quantity); -- bool
 - Inventory:[HasItemByUse](hasitembyuse)(number use, uint8 quantity, uint8 where); -- number
-- Inventory:[HasItemByLoreGroup](hasitembyloregroup)(uint32 loregroup, number where); -- number
+- Inventory:[HasItemByLoreGroup](hasitembyloregroup)(number loregroup, number where); -- number
 - Inventory:[FindFreeSlot](findfreeslot)(bool for_bag, bool try_cursor, number min_size, bool is_arrow); -- number
 - Inventory:[CalcSlotId](calcslotid)(number slot_id, number bag_slot); -- number
 - Inventory:[CalcBagIdx](calcbagidx)(number slot_id); -- number

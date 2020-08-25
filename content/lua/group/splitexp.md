@@ -6,5 +6,5 @@ menuTitle: SplitExp
 ---
 ## SplitExp
 ```lua
-Group:SplitExp(uint32 exp, Lua_Mob other); -- void
+Group:SplitExp(number exp, Lua_Mob other); -- void
 ```

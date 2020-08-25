@@ -6,5 +6,5 @@ menuTitle: SetSilver
 ---
 ## SetSilver
 ```lua
-NPC:SetSilver(uint32 amt); -- void
+NPC:SetSilver(number amt); -- void
 ```

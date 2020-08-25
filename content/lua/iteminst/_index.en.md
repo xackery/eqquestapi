@@ -25,8 +25,8 @@ weight: 25
 - ItemInst:[GetCharges](getcharges)(); -- number
 - ItemInst:[SetCharges](setcharges)(number charges); -- void
 - ItemInst:[GetPrice](getprice)(); -- number
-- ItemInst:[SetPrice](setprice)(uint32 price); -- void
-- ItemInst:[SetColor](setcolor)(uint32 color); -- void
+- ItemInst:[SetPrice](setprice)(number price); -- void
+- ItemInst:[SetColor](setcolor)(number color); -- void
 - ItemInst:[GetColor](getcolor)(); -- number
 - ItemInst:[IsInstNoDrop](isinstnodrop)(); -- bool
 - ItemInst:[SetInstNoDrop](setinstnodrop)(bool flag); -- void
@@ -36,11 +36,11 @@ weight: 25
 - ItemInst:[SetScaling](setscaling)(bool v); -- void
 - ItemInst:[SetScale](setscale)(double scale_factor); -- void
 - ItemInst:[GetExp](getexp)(); -- number
-- ItemInst:[SetExp](setexp)(uint32 exp); -- void
-- ItemInst:[AddExp](addexp)(uint32 exp); -- void
+- ItemInst:[SetExp](setexp)(number exp); -- void
+- ItemInst:[AddExp](addexp)(number exp); -- void
 - ItemInst:[GetMaxEvolveLvl](getmaxevolvelvl)(); -- number
 - ItemInst:[GetKillsNeeded](getkillsneeded)(number current_level); -- number
 - ItemInst:[Clone](clone)(); -- unknown - Lua_ItemInst
-- ItemInst:[SetTimer](settimer)(std::string name, uint32 time); -- void
+- ItemInst:[SetTimer](settimer)(std::string name, number time); -- void
 - ItemInst:[StopTimer](stoptimer)(std::string name); -- void
 - ItemInst:[ClearTimers](cleartimers)(); -- void

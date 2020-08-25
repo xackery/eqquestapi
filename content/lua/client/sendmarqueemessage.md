@@ -6,5 +6,5 @@ menuTitle: SendMarqueeMessage
 ---
 ## SendMarqueeMessage
 ```lua
-Client:SendMarqueeMessage(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, std::string msg); -- void
+Client:SendMarqueeMessage(number type, number priority, number fade_in, number fade_out, number duration, std::string msg); -- void
 ```

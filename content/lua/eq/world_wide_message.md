@@ -6,5 +6,5 @@ menuTitle: world_wide_message
 ---
 ## world_wide_message
 ```lua
-eq.world_wide_message(uint32 type, const char *message) -- void
+eq.world_wide_message(number type, const char *message) -- void
 ```

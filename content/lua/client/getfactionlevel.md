@@ -6,5 +6,5 @@ menuTitle: GetFactionLevel
 ---
 ## GetFactionLevel
 ```lua
-Client:GetFactionLevel(uint32 char_id, uint32 npc_id, uint32 race, uint32 class_, uint32 deity, uint32 faction, Lua_NPC npc); -- number
+Client:GetFactionLevel(number char_id, number npc_id, number race, number class_, number deity, number faction, Lua_NPC npc); -- number
 ```

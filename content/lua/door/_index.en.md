@@ -19,17 +19,17 @@ weight: 25
 - Door:[SetLocation](setlocation)(float x, float y, float z); -- void
 - Door:[GetDoorDBID](getdoordbid)(); -- number
 - Door:[GetDoorID](getdoorid)(); -- number
-- Door:[SetSize](setsize)(uint32 sz); -- void
+- Door:[SetSize](setsize)(number sz); -- void
 - Door:[GetSize](getsize)(); -- number
-- Door:[SetIncline](setincline)(uint32 incline); -- void
+- Door:[SetIncline](setincline)(number incline); -- void
 - Door:[GetIncline](getincline)(); -- number
-- Door:[SetOpenType](setopentype)(uint32 type); -- void
+- Door:[SetOpenType](setopentype)(number type); -- void
 - Door:[GetOpenType](getopentype)(); -- number
 - Door:[SetDisableTimer](setdisabletimer)(bool flag); -- void
 - Door:[GetDisableTimer](getdisabletimer)(); -- bool
-- Door:[SetLockPick](setlockpick)(uint32 pick); -- void
+- Door:[SetLockPick](setlockpick)(number pick); -- void
 - Door:[GetLockPick](getlockpick)(); -- number
-- Door:[SetKeyItem](setkeyitem)(uint32 key); -- void
+- Door:[SetKeyItem](setkeyitem)(number key); -- void
 - Door:[GetKeyItem](getkeyitem)(); -- number
 - Door:[SetNoKeyring](setnokeyring)(number type); -- void
 - Door:[GetNoKeyring](getnokeyring)(); -- number

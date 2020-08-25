@@ -6,5 +6,5 @@ menuTitle: world_wide_marquee
 ---
 ## world_wide_marquee
 ```lua
-eq.world_wide_marquee(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, const char *message) -- void
+eq.world_wide_marquee(number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
 ```

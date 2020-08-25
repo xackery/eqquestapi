@@ -6,5 +6,5 @@ menuTitle: SplitMoney
 ---
 ## SplitMoney
 ```lua
-Group:SplitMoney(uint32 copper, uint32 silver, uint32 gold, uint32 platinum, Lua_Client splitter); -- void
+Group:SplitMoney(number copper, number silver, number gold, number platinum, Lua_Client splitter); -- void
 ```
