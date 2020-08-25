@@ -6,5 +6,5 @@ menuTitle: snow
 ---
 ## snow
 ```lua
-eq.snow(int weather) -- void
+eq.snow(number weather) -- void
 ```

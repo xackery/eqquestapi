@@ -61,8 +61,8 @@ weight: 25
 - StatBonuses:[inhibitmelee](inhibitmelee)(); -- unknown - int32
 - StatBonuses:[AggroRange](aggrorange)(); -- number
 - StatBonuses:[AssistRange](assistrange)(); -- number
-- StatBonuses:[skillmod](skillmod)(int idx); -- unknown - int32
-- StatBonuses:[skillmodmax](skillmodmax)(int idx); -- unknown - int32
+- StatBonuses:[skillmod](skillmod)(number idx); -- unknown - int32
+- StatBonuses:[skillmodmax](skillmodmax)(number idx); -- unknown - int32
 - StatBonuses:[singingMod](singingmod)(); -- number
 - StatBonuses:[Amplification](amplification)(); -- number
 - StatBonuses:[brassMod](brassmod)(); -- number
@@ -75,7 +75,7 @@ weight: 25
 - StatBonuses:[StrikeThrough](strikethrough)(); -- unknown - int32
 - StatBonuses:[MeleeMitigation](meleemitigation)(); -- unknown - int32
 - StatBonuses:[MeleeMitigationEffect](meleemitigationeffect)(); -- unknown - int32
-- StatBonuses:[CriticalHitChance](criticalhitchance)(int idx); -- unknown - int32
+- StatBonuses:[CriticalHitChance](criticalhitchance)(number idx); -- unknown - int32
 - StatBonuses:[CriticalSpellChance](criticalspellchance)(); -- unknown - int32
 - StatBonuses:[SpellCritDmgIncrease](spellcritdmgincrease)(); -- unknown - int32
 - StatBonuses:[SpellCritDmgIncNoStack](spellcritdmgincnostack)(); -- unknown - int32
@@ -101,9 +101,9 @@ weight: 25
 - StatBonuses:[StunResist](stunresist)(); -- unknown - int32
 - StatBonuses:[MeleeSkillCheck](meleeskillcheck)(); -- unknown - int32
 - StatBonuses:[MeleeSkillCheckSkill](meleeskillcheckskill)(); -- unknown - uint8
-- StatBonuses:[HitChanceEffect](hitchanceeffect)(int idx); -- unknown - int32
-- StatBonuses:[DamageModifier](damagemodifier)(int idx); -- unknown - int32
-- StatBonuses:[MinDamageModifier](mindamagemodifier)(int idx); -- unknown - int32
+- StatBonuses:[HitChanceEffect](hitchanceeffect)(number idx); -- unknown - int32
+- StatBonuses:[DamageModifier](damagemodifier)(number idx); -- unknown - int32
+- StatBonuses:[MinDamageModifier](mindamagemodifier)(number idx); -- unknown - int32
 - StatBonuses:[ProcChance](procchance)(); -- unknown - int32
 - StatBonuses:[ProcChanceSPA](procchancespa)(); -- unknown - int32
 - StatBonuses:[ExtraAttackChance](extraattackchance)(); -- unknown - int32
@@ -200,46 +200,46 @@ weight: 25
 - StatBonuses:[TradeSkillMastery](tradeskillmastery)(); -- unknown - uint8
 - StatBonuses:[NoBreakAESneak](nobreakaesneak)(); -- unknown - int16
 - StatBonuses:[FeignedCastOnChance](feignedcastonchance)(); -- unknown - int16
-- StatBonuses:[DivineSaveChance](divinesavechance)(int idx); -- unknown - int32
-- StatBonuses:[DeathSave](deathsave)(int idx); -- number
-- StatBonuses:[Accuracy](accuracy)(int idx); -- unknown - int32
-- StatBonuses:[SkillDmgTaken](skilldmgtaken)(int idx); -- unknown - int16
-- StatBonuses:[SpellTriggers](spelltriggers)(int idx); -- number
-- StatBonuses:[SpellOnKill](spellonkill)(int idx); -- number
-- StatBonuses:[SpellOnDeath](spellondeath)(int idx); -- number
-- StatBonuses:[CritDmgMod](critdmgmod)(int idx); -- unknown - int32
-- StatBonuses:[SkillReuseTime](skillreusetime)(int idx); -- unknown - int32
-- StatBonuses:[SkillDamageAmount](skilldamageamount)(int idx); -- unknown - int32
-- StatBonuses:[HPPercCap](hpperccap)(int idx); -- number
-- StatBonuses:[ManaPercCap](manaperccap)(int idx); -- number
-- StatBonuses:[EndPercCap](endperccap)(int idx); -- number
-- StatBonuses:[FocusEffects](focuseffects)(int idx); -- unknown - uint8
-- StatBonuses:[FocusEffectsWorn](focuseffectsworn)(int idx); -- unknown - int16
-- StatBonuses:[NegateAttacks](negateattacks)(int idx); -- number
-- StatBonuses:[MitigateMeleeRune](mitigatemeleerune)(int idx); -- number
-- StatBonuses:[MeleeThresholdGuard](meleethresholdguard)(int idx); -- number
-- StatBonuses:[SpellThresholdGuard](spellthresholdguard)(int idx); -- number
-- StatBonuses:[MitigateSpellRune](mitigatespellrune)(int idx); -- number
-- StatBonuses:[MitigateDotRune](mitigatedotrune)(int idx); -- number
-- StatBonuses:[ManaAbsorbPercentDamage](manaabsorbpercentdamage)(int idx); -- number
-- StatBonuses:[ImprovedTaunt](improvedtaunt)(int idx); -- unknown - int32
-- StatBonuses:[AbsorbMagicAtt](absorbmagicatt)(int idx); -- number
-- StatBonuses:[AStacker](astacker)(int idx); -- unknown - int32
-- StatBonuses:[BStacker](bstacker)(int idx); -- unknown - int32
-- StatBonuses:[CStacker](cstacker)(int idx); -- unknown - int32
-- StatBonuses:[DStacker](dstacker)(int idx); -- unknown - int32
-- StatBonuses:[LimitToSkill](limittoskill)(int idx); -- bool
-- StatBonuses:[SkillProc](skillproc)(int idx); -- number
-- StatBonuses:[SkillProcSuccess](skillprocsuccess)(int idx); -- number
-- StatBonuses:[SkillAttackProc](skillattackproc)(int idx); -- unknown - int32
-- StatBonuses:[SlayUndead](slayundead)(int idx); -- unknown - int32
-- StatBonuses:[GiveDoubleRiposte](givedoubleriposte)(int idx); -- unknown - int32
-- StatBonuses:[RaiseSkillCap](raiseskillcap)(int idx); -- number
-- StatBonuses:[SEResist](seresist)(int idx); -- unknown - int32
-- StatBonuses:[FinishingBlow](finishingblow)(int idx); -- unknown - int32
-- StatBonuses:[FinishingBlowLvl](finishingblowlvl)(int idx); -- number
-- StatBonuses:[HeadShot](headshot)(int idx); -- number
-- StatBonuses:[HSLevel](hslevel)(int idx); -- unknown - uint8
-- StatBonuses:[Assassinate](assassinate)(int idx); -- number
-- StatBonuses:[AssassinateLevel](assassinatelevel)(int idx); -- unknown - uint8
-- StatBonuses:[ReduceTradeskillFail](reducetradeskillfail)(int idx); -- unknown - int32
+- StatBonuses:[DivineSaveChance](divinesavechance)(number idx); -- unknown - int32
+- StatBonuses:[DeathSave](deathsave)(number idx); -- number
+- StatBonuses:[Accuracy](accuracy)(number idx); -- unknown - int32
+- StatBonuses:[SkillDmgTaken](skilldmgtaken)(number idx); -- unknown - int16
+- StatBonuses:[SpellTriggers](spelltriggers)(number idx); -- number
+- StatBonuses:[SpellOnKill](spellonkill)(number idx); -- number
+- StatBonuses:[SpellOnDeath](spellondeath)(number idx); -- number
+- StatBonuses:[CritDmgMod](critdmgmod)(number idx); -- unknown - int32
+- StatBonuses:[SkillReuseTime](skillreusetime)(number idx); -- unknown - int32
+- StatBonuses:[SkillDamageAmount](skilldamageamount)(number idx); -- unknown - int32
+- StatBonuses:[HPPercCap](hpperccap)(number idx); -- number
+- StatBonuses:[ManaPercCap](manaperccap)(number idx); -- number
+- StatBonuses:[EndPercCap](endperccap)(number idx); -- number
+- StatBonuses:[FocusEffects](focuseffects)(number idx); -- unknown - uint8
+- StatBonuses:[FocusEffectsWorn](focuseffectsworn)(number idx); -- unknown - int16
+- StatBonuses:[NegateAttacks](negateattacks)(number idx); -- number
+- StatBonuses:[MitigateMeleeRune](mitigatemeleerune)(number idx); -- number
+- StatBonuses:[MeleeThresholdGuard](meleethresholdguard)(number idx); -- number
+- StatBonuses:[SpellThresholdGuard](spellthresholdguard)(number idx); -- number
+- StatBonuses:[MitigateSpellRune](mitigatespellrune)(number idx); -- number
+- StatBonuses:[MitigateDotRune](mitigatedotrune)(number idx); -- number
+- StatBonuses:[ManaAbsorbPercentDamage](manaabsorbpercentdamage)(number idx); -- number
+- StatBonuses:[ImprovedTaunt](improvedtaunt)(number idx); -- unknown - int32
+- StatBonuses:[AbsorbMagicAtt](absorbmagicatt)(number idx); -- number
+- StatBonuses:[AStacker](astacker)(number idx); -- unknown - int32
+- StatBonuses:[BStacker](bstacker)(number idx); -- unknown - int32
+- StatBonuses:[CStacker](cstacker)(number idx); -- unknown - int32
+- StatBonuses:[DStacker](dstacker)(number idx); -- unknown - int32
+- StatBonuses:[LimitToSkill](limittoskill)(number idx); -- bool
+- StatBonuses:[SkillProc](skillproc)(number idx); -- number
+- StatBonuses:[SkillProcSuccess](skillprocsuccess)(number idx); -- number
+- StatBonuses:[SkillAttackProc](skillattackproc)(number idx); -- unknown - int32
+- StatBonuses:[SlayUndead](slayundead)(number idx); -- unknown - int32
+- StatBonuses:[GiveDoubleRiposte](givedoubleriposte)(number idx); -- unknown - int32
+- StatBonuses:[RaiseSkillCap](raiseskillcap)(number idx); -- number
+- StatBonuses:[SEResist](seresist)(number idx); -- unknown - int32
+- StatBonuses:[FinishingBlow](finishingblow)(number idx); -- unknown - int32
+- StatBonuses:[FinishingBlowLvl](finishingblowlvl)(number idx); -- number
+- StatBonuses:[HeadShot](headshot)(number idx); -- number
+- StatBonuses:[HSLevel](hslevel)(number idx); -- unknown - uint8
+- StatBonuses:[Assassinate](assassinate)(number idx); -- number
+- StatBonuses:[AssassinateLevel](assassinatelevel)(number idx); -- unknown - uint8
+- StatBonuses:[ReduceTradeskillFail](reducetradeskillfail)(number idx); -- unknown - int32

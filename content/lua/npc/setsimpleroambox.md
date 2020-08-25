@@ -6,5 +6,5 @@ menuTitle: SetSimpleRoamBox
 ---
 ## SetSimpleRoamBox
 ```lua
-NPC:SetSimpleRoamBox(float box_size, float move_distance, int move_delay); -- void
+NPC:SetSimpleRoamBox(float box_size, float move_distance, number move_delay); -- void
 ```

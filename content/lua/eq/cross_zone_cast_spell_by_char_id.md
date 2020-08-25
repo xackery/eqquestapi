@@ -6,5 +6,5 @@ menuTitle: cross_zone_cast_spell_by_char_id
 ---
 ## cross_zone_cast_spell_by_char_id
 ```lua
-eq.cross_zone_cast_spell_by_char_id(int character_id, uint32 spell_id) -- void
+eq.cross_zone_cast_spell_by_char_id(number character_id, uint32 spell_id) -- void
 ```

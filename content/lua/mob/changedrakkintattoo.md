@@ -6,5 +6,5 @@ menuTitle: ChangeDrakkinTattoo
 ---
 ## ChangeDrakkinTattoo
 ```lua
-Mob:ChangeDrakkinTattoo(int in); -- void
+Mob:ChangeDrakkinTattoo(number in); -- void
 ```

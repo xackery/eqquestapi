@@ -6,5 +6,5 @@ menuTitle: skillmod
 ---
 ## skillmod
 ```lua
-StatBonuses:skillmod(int idx); -- unknown - int32
+StatBonuses:skillmod(number idx); -- unknown - int32
 ```

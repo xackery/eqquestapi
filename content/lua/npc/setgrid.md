@@ -6,5 +6,5 @@ menuTitle: SetGrid
 ---
 ## SetGrid
 ```lua
-NPC:SetGrid(int grid); -- void
+NPC:SetGrid(number grid); -- void
 ```

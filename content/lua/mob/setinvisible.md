@@ -6,5 +6,5 @@ menuTitle: SetInvisible
 ---
 ## SetInvisible
 ```lua
-Mob:SetInvisible(int state); -- void
+Mob:SetInvisible(number state); -- void
 ```

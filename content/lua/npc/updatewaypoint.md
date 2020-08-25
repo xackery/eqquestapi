@@ -6,5 +6,5 @@ menuTitle: UpdateWaypoint
 ---
 ## UpdateWaypoint
 ```lua
-NPC:UpdateWaypoint(int wp); -- void
+NPC:UpdateWaypoint(number wp); -- void
 ```

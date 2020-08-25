@@ -6,5 +6,5 @@ menuTitle: CheckHealAggroAmount
 ---
 ## CheckHealAggroAmount
 ```lua
-Mob:CheckHealAggroAmount(int spell_id, uint32 heal_possible); -- number
+Mob:CheckHealAggroAmount(number spell_id, uint32 heal_possible); -- number
 ```

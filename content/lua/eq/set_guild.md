@@ -6,5 +6,5 @@ menuTitle: set_guild
 ---
 ## set_guild
 ```lua
-eq.set_guild(int guild_id, int rank) -- void
+eq.set_guild(number guild_id, number rank) -- void
 ```

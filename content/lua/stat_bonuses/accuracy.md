@@ -6,5 +6,5 @@ menuTitle: Accuracy
 ---
 ## Accuracy
 ```lua
-StatBonuses:Accuracy(int idx); -- unknown - int32
+StatBonuses:Accuracy(number idx); -- unknown - int32
 ```

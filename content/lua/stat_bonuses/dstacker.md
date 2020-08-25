@@ -6,5 +6,5 @@ menuTitle: DStacker
 ---
 ## DStacker
 ```lua
-StatBonuses:DStacker(int idx); -- unknown - int32
+StatBonuses:DStacker(number idx); -- unknown - int32
 ```

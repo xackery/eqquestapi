@@ -6,5 +6,5 @@ menuTitle: SetAA
 ---
 ## SetAA
 ```lua
-Mob:SetAA(int rank_id, int new_value, int charges); -- bool
+Mob:SetAA(number rank_id, number new_value, number charges); -- bool
 ```

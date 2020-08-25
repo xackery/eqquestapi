@@ -6,5 +6,5 @@ menuTitle: AddCash
 ---
 ## AddCash
 ```lua
-NPC:AddCash(int copper, int silver, int gold, int platinum); -- void
+NPC:AddCash(number copper, number silver, number gold, number platinum); -- void
 ```

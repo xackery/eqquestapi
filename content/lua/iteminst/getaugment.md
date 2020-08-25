@@ -6,5 +6,5 @@ menuTitle: GetAugment
 ---
 ## GetAugment
 ```lua
-ItemInst:GetAugment(int slot); -- unknown - Lua_ItemInst
+ItemInst:GetAugment(number slot); -- unknown - Lua_ItemInst
 ```

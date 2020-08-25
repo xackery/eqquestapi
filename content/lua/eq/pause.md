@@ -6,5 +6,5 @@ menuTitle: pause
 ---
 ## pause
 ```lua
-eq.pause(int duration) -- void
+eq.pause(number duration) -- void
 ```

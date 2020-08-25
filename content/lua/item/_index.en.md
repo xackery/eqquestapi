@@ -86,8 +86,8 @@ weight: 25
 - Item:[Accuracy](accuracy)(); -- number
 - Item:[CharmFileID](charmfileid)(); -- number
 - Item:[AugType](augtype)(); -- number
-- Item:[AugSlotType](augslottype)(int i); -- number
-- Item:[AugSlotVisible](augslotvisible)(int i); -- number
+- Item:[AugSlotType](augslottype)(number i); -- number
+- Item:[AugSlotVisible](augslotvisible)(number i); -- number
 - Item:[LDoNTheme](ldontheme)(); -- number
 - Item:[LDoNPrice](ldonprice)(); -- number
 - Item:[LDoNSold](ldonsold)(); -- number

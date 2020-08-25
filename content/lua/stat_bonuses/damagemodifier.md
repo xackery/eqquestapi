@@ -6,5 +6,5 @@ menuTitle: DamageModifier
 ---
 ## DamageModifier
 ```lua
-StatBonuses:DamageModifier(int idx); -- unknown - int32
+StatBonuses:DamageModifier(number idx); -- unknown - int32
 ```

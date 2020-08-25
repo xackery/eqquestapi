@@ -27,7 +27,7 @@ weight: 25
 - Corpse:[RemoveCash](removecash)(); -- void
 - Corpse:[IsEmpty](isempty)(); -- bool
 - Corpse:[SetDecayTimer](setdecaytimer)(uint32 decaytime); -- void
-- Corpse:[CanMobLoot](canmobloot)(int charid); -- bool
+- Corpse:[CanMobLoot](canmobloot)(number charid); -- bool
 - Corpse:[AllowMobLoot](allowmobloot)(Lua_Mob them, uint8 slot); -- void
 - Corpse:[Summon](summon)(Lua_Client client, bool spell, bool checkdistance); -- bool
 - Corpse:[GetCopper](getcopper)(); -- number

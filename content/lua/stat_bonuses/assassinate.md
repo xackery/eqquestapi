@@ -6,5 +6,5 @@ menuTitle: Assassinate
 ---
 ## Assassinate
 ```lua
-StatBonuses:Assassinate(int idx); -- number
+StatBonuses:Assassinate(number idx); -- number
 ```

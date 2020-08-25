@@ -6,5 +6,5 @@ menuTitle: GetItem
 ---
 ## GetItem
 ```lua
-Inventory:GetItem(int slot_id, int bag_slot); -- unknown - Lua_ItemInst
+Inventory:GetItem(number slot_id, number bag_slot); -- unknown - Lua_ItemInst
 ```

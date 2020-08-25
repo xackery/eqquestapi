@@ -6,5 +6,5 @@ menuTitle: ResistSpell
 ---
 ## ResistSpell
 ```lua
-Mob:ResistSpell(int resist_type, int spell_id, Lua_Mob caster, bool use_resist_override, int resist_override); -- number
+Mob:ResistSpell(number resist_type, number spell_id, Lua_Mob caster, bool use_resist_override, number resist_override); -- number
 ```

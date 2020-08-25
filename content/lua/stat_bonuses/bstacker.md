@@ -6,5 +6,5 @@ menuTitle: BStacker
 ---
 ## BStacker
 ```lua
-StatBonuses:BStacker(int idx); -- unknown - int32
+StatBonuses:BStacker(number idx); -- unknown - int32
 ```

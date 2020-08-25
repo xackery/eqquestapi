@@ -6,5 +6,5 @@ menuTitle: GetCorpseByID
 ---
 ## GetCorpseByID
 ```lua
-EntityList:GetCorpseByID(int id); -- unknown - Lua_Corpse
+EntityList:GetCorpseByID(number id); -- unknown - Lua_Corpse
 ```

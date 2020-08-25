@@ -6,5 +6,5 @@ menuTitle: Deities
 ---
 ## Deities
 ```lua
-Spell:Deities(int i); -- number
+Spell:Deities(number i); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: CStacker
 ---
 ## CStacker
 ```lua
-StatBonuses:CStacker(int idx); -- unknown - int32
+StatBonuses:CStacker(number idx); -- unknown - int32
 ```

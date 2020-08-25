@@ -6,5 +6,5 @@ menuTitle: CanMobLoot
 ---
 ## CanMobLoot
 ```lua
-Corpse:CanMobLoot(int charid); -- bool
+Corpse:CanMobLoot(number charid); -- bool
 ```

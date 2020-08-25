@@ -6,5 +6,5 @@ menuTitle: HitChanceEffect
 ---
 ## HitChanceEffect
 ```lua
-StatBonuses:HitChanceEffect(int idx); -- unknown - int32
+StatBonuses:HitChanceEffect(number idx); -- unknown - int32
 ```

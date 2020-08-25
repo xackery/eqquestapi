@@ -6,5 +6,5 @@ menuTitle: ImprovedTaunt
 ---
 ## ImprovedTaunt
 ```lua
-StatBonuses:ImprovedTaunt(int idx); -- unknown - int32
+StatBonuses:ImprovedTaunt(number idx); -- unknown - int32
 ```

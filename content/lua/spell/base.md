@@ -6,5 +6,5 @@ menuTitle: Base
 ---
 ## Base
 ```lua
-Spell:Base(int i); -- number
+Spell:Base(number i); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SkillProcSuccess
 ---
 ## SkillProcSuccess
 ```lua
-StatBonuses:SkillProcSuccess(int idx); -- number
+StatBonuses:SkillProcSuccess(number idx); -- number
 ```

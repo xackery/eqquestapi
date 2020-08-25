@@ -6,5 +6,5 @@ menuTitle: HeadShot
 ---
 ## HeadShot
 ```lua
-StatBonuses:HeadShot(int idx); -- number
+StatBonuses:HeadShot(number idx); -- number
 ```

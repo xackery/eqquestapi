@@ -6,5 +6,5 @@ menuTitle: BuffFadeBySlot
 ---
 ## BuffFadeBySlot
 ```lua
-Mob:BuffFadeBySlot(int slot, bool recalc_bonuses); -- void
+Mob:BuffFadeBySlot(number slot, bool recalc_bonuses); -- void
 ```

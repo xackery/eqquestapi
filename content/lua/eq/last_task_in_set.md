@@ -6,5 +6,5 @@ menuTitle: last_task_in_set
 ---
 ## last_task_in_set
 ```lua
-eq.last_task_in_set(int task_set) -- int
+eq.last_task_in_set(number task_set) -- int
 ```

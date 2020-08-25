@@ -6,5 +6,5 @@ menuTitle: CheckNoDrop
 ---
 ## CheckNoDrop
 ```lua
-Inventory:CheckNoDrop(int slot_id); -- bool
+Inventory:CheckNoDrop(number slot_id); -- bool
 ```

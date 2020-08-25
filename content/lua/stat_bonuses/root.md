@@ -6,5 +6,5 @@ menuTitle: Root
 ---
 ## Root
 ```lua
-StatBonuses:Root(int idx); -- unknown - int8
+StatBonuses:Root(number idx); -- unknown - int8
 ```

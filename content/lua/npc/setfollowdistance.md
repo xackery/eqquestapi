@@ -6,5 +6,5 @@ menuTitle: SetFollowDistance
 ---
 ## SetFollowDistance
 ```lua
-NPC:SetFollowDistance(int dist); -- void
+NPC:SetFollowDistance(number dist); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: CalcSlotFromMaterial
 ---
 ## CalcSlotFromMaterial
 ```lua
-Inventory:CalcSlotFromMaterial(int material); -- number
+Inventory:CalcSlotFromMaterial(number material); -- number
 ```

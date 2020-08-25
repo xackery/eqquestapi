@@ -6,5 +6,5 @@ menuTitle: SetTexture
 ---
 ## SetTexture
 ```lua
-Mob:SetTexture(int in); -- void
+Mob:SetTexture(number in); -- void
 ```

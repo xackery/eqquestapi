@@ -6,5 +6,5 @@ menuTitle: FocusEffects
 ---
 ## FocusEffects
 ```lua
-StatBonuses:FocusEffects(int idx); -- unknown - uint8
+StatBonuses:FocusEffects(number idx); -- unknown - uint8
 ```

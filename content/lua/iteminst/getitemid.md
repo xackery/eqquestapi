@@ -6,5 +6,5 @@ menuTitle: GetItemID
 ---
 ## GetItemID
 ```lua
-ItemInst:GetItemID(int slot); -- number
+ItemInst:GetItemID(number slot); -- number
 ```

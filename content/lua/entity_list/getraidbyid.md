@@ -6,5 +6,5 @@ menuTitle: GetRaidByID
 ---
 ## GetRaidByID
 ```lua
-EntityList:GetRaidByID(int id); -- unknown - Lua_Raid
+EntityList:GetRaidByID(number id); -- unknown - Lua_Raid
 ```

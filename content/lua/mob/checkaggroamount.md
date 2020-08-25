@@ -6,5 +6,5 @@ menuTitle: CheckAggroAmount
 ---
 ## CheckAggroAmount
 ```lua
-Mob:CheckAggroAmount(int spell_id, bool is_proc); -- number
+Mob:CheckAggroAmount(number spell_id, bool is_proc); -- number
 ```

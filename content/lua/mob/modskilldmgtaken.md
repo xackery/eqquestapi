@@ -6,5 +6,5 @@ menuTitle: ModSkillDmgTaken
 ---
 ## ModSkillDmgTaken
 ```lua
-Mob:ModSkillDmgTaken(int skill, int value); -- void
+Mob:ModSkillDmgTaken(number skill, number value); -- void
 ```

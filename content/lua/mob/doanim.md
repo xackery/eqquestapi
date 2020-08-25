@@ -6,5 +6,5 @@ menuTitle: DoAnim
 ---
 ## DoAnim
 ```lua
-Mob:DoAnim(int anim_num, int type, bool ackreq, int filter); -- void
+Mob:DoAnim(number anim_num, number type, bool ackreq, number filter); -- void
 ```

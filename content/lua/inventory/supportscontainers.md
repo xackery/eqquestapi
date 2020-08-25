@@ -6,5 +6,5 @@ menuTitle: SupportsContainers
 ---
 ## SupportsContainers
 ```lua
-Inventory:SupportsContainers(int slot_id); -- bool
+Inventory:SupportsContainers(number slot_id); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: update_task_activity
 ---
 ## update_task_activity
 ```lua
-eq.update_task_activity(int task, int activity, int count) -- void
+eq.update_task_activity(number task, number activity, number count) -- void
 ```

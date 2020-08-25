@@ -6,5 +6,5 @@ menuTitle: GetBuffSlotFromType
 ---
 ## GetBuffSlotFromType
 ```lua
-Mob:GetBuffSlotFromType(int slot); -- number
+Mob:GetBuffSlotFromType(number slot); -- number
 ```

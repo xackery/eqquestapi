@@ -6,5 +6,5 @@ menuTitle: RemoveItem
 ---
 ## RemoveItem
 ```lua
-NPC:RemoveItem(int item_id, int quantity, int slot); -- void
+NPC:RemoveItem(number item_id, number quantity, number slot); -- void
 ```

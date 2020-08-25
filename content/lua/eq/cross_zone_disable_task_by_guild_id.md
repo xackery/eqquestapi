@@ -6,5 +6,5 @@ menuTitle: cross_zone_disable_task_by_guild_id
 ---
 ## cross_zone_disable_task_by_guild_id
 ```lua
-eq.cross_zone_disable_task_by_guild_id(int guild_id, uint32 task_id) -- void
+eq.cross_zone_disable_task_by_guild_id(number guild_id, uint32 task_id) -- void
 ```

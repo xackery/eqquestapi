@@ -6,5 +6,5 @@ menuTitle: cross_zone_signal_npc_by_npctype_id
 ---
 ## cross_zone_signal_npc_by_npctype_id
 ```lua
-eq.cross_zone_signal_npc_by_npctype_id(uint32 npctype_id, int signal) -- void
+eq.cross_zone_signal_npc_by_npctype_id(uint32 npctype_id, number signal) -- void
 ```

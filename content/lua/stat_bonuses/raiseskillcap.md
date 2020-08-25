@@ -6,5 +6,5 @@ menuTitle: RaiseSkillCap
 ---
 ## RaiseSkillCap
 ```lua
-StatBonuses:RaiseSkillCap(int idx); -- number
+StatBonuses:RaiseSkillCap(number idx); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SetSaveWaypoint
 ---
 ## SetSaveWaypoint
 ```lua
-NPC:SetSaveWaypoint(int wp); -- void
+NPC:SetSaveWaypoint(number wp); -- void
 ```

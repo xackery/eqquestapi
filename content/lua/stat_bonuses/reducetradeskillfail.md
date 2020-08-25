@@ -6,5 +6,5 @@ menuTitle: ReduceTradeskillFail
 ---
 ## ReduceTradeskillFail
 ```lua
-StatBonuses:ReduceTradeskillFail(int idx); -- unknown - int32
+StatBonuses:ReduceTradeskillFail(number idx); -- unknown - int32
 ```

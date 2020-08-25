@@ -6,5 +6,5 @@ menuTitle: Say
 ---
 ## Say
 ```lua
-Mob:Say(const char* message, int language); -- void
+Mob:Say(const char* message, number language); -- void
 ```

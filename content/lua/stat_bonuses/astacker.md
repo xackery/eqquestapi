@@ -6,5 +6,5 @@ menuTitle: AStacker
 ---
 ## AStacker
 ```lua
-StatBonuses:AStacker(int idx); -- unknown - int32
+StatBonuses:AStacker(number idx); -- unknown - int32
 ```

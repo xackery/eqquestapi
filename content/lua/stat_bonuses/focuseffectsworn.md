@@ -6,5 +6,5 @@ menuTitle: FocusEffectsWorn
 ---
 ## FocusEffectsWorn
 ```lua
-StatBonuses:FocusEffectsWorn(int idx); -- unknown - int16
+StatBonuses:FocusEffectsWorn(number idx); -- unknown - int16
 ```

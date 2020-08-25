@@ -6,5 +6,5 @@ menuTitle: SetPrimSkill
 ---
 ## SetPrimSkill
 ```lua
-NPC:SetPrimSkill(int skill_id); -- void
+NPC:SetPrimSkill(number skill_id); -- void
 ```

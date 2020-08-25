@@ -6,5 +6,5 @@ menuTitle: EndPercCap
 ---
 ## EndPercCap
 ```lua
-StatBonuses:EndPercCap(int idx); -- number
+StatBonuses:EndPercCap(number idx); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SetMana
 ---
 ## SetMana
 ```lua
-Mob:SetMana(int mana); -- number
+Mob:SetMana(number mana); -- number
 ```

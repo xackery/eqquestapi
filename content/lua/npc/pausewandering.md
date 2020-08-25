@@ -6,5 +6,5 @@ menuTitle: PauseWandering
 ---
 ## PauseWandering
 ```lua
-NPC:PauseWandering(int pause_time); -- void
+NPC:PauseWandering(number pause_time); -- void
 ```

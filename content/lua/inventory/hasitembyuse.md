@@ -6,5 +6,5 @@ menuTitle: HasItemByUse
 ---
 ## HasItemByUse
 ```lua
-Inventory:HasItemByUse(int use, uint8 quantity, uint8 where); -- number
+Inventory:HasItemByUse(number use, uint8 quantity, uint8 where); -- number
 ```

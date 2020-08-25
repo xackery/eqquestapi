@@ -6,5 +6,5 @@ menuTitle: WriteFixedLengthString
 ---
 ## WriteFixedLengthString
 ```lua
-Packet:WriteFixedLengthString(int offset, std::string value, int string_length); -- void
+Packet:WriteFixedLengthString(number offset, std::string value, number string_length); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetOpcode
 ---
 ## SetOpcode
 ```lua
-Packet:SetOpcode(int op); -- void
+Packet:SetOpcode(number op); -- void
 ```

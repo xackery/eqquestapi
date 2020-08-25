@@ -6,5 +6,5 @@ menuTitle: world_emote
 ---
 ## world_emote
 ```lua
-eq.world_emote(int type, const char *str) -- void
+eq.world_emote(number type, const char *str) -- void
 ```

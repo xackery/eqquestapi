@@ -6,5 +6,5 @@ menuTitle: set_sky
 ---
 ## set_sky
 ```lua
-eq.set_sky(int sky) -- void
+eq.set_sky(number sky) -- void
 ```

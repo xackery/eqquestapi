@@ -6,5 +6,5 @@ menuTitle: ComponentCounts
 ---
 ## ComponentCounts
 ```lua
-Spell:ComponentCounts(int i); -- number
+Spell:ComponentCounts(number i); -- number
 ```

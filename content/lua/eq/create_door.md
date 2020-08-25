@@ -6,5 +6,5 @@ menuTitle: create_door
 ---
 ## create_door
 ```lua
-eq.create_door(const char *model, float x, float y, float z, float h, int open_type, int size) -- void
+eq.create_door(const char *model, float x, float y, float z, float h, number open_type, number size) -- void
 ```

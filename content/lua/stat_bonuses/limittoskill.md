@@ -6,5 +6,5 @@ menuTitle: LimitToSkill
 ---
 ## LimitToSkill
 ```lua
-StatBonuses:LimitToSkill(int idx); -- bool
+StatBonuses:LimitToSkill(number idx); -- bool
 ```

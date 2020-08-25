@@ -6,5 +6,5 @@ menuTitle: assign_task
 ---
 ## assign_task
 ```lua
-eq.assign_task(int task_id) -- void
+eq.assign_task(number task_id) -- void
 ```

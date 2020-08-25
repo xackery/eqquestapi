@@ -6,5 +6,5 @@ menuTitle: CheckNPCFactionAlly
 ---
 ## CheckNPCFactionAlly
 ```lua
-NPC:CheckNPCFactionAlly(int faction); -- number
+NPC:CheckNPCFactionAlly(number faction); -- number
 ```

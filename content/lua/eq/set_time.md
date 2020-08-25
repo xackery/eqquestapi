@@ -6,5 +6,5 @@ menuTitle: set_time
 ---
 ## set_time
 ```lua
-eq.set_time(int hour, int min) -- void
+eq.set_time(number hour, number min) -- void
 ```

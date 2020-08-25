@@ -6,5 +6,5 @@ menuTitle: SetSlotTint
 ---
 ## SetSlotTint
 ```lua
-Mob:SetSlotTint(int material_slot, int red_tint, int green_tint, int blue_tint); -- void
+Mob:SetSlotTint(number material_slot, number red_tint, number green_tint, number blue_tint); -- void
 ```

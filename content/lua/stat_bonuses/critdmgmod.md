@@ -6,5 +6,5 @@ menuTitle: CritDmgMod
 ---
 ## CritDmgMod
 ```lua
-StatBonuses:CritDmgMod(int idx); -- unknown - int32
+StatBonuses:CritDmgMod(number idx); -- unknown - int32
 ```

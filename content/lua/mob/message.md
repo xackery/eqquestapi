@@ -6,5 +6,5 @@ menuTitle: Message
 ---
 ## Message
 ```lua
-Mob:Message(int type, const char *message); -- void
+Mob:Message(number type, const char *message); -- void
 ```

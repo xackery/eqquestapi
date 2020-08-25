@@ -6,5 +6,5 @@ menuTitle: GetResist
 ---
 ## GetResist
 ```lua
-Mob:GetResist(int type); -- number
+Mob:GetResist(number type); -- number
 ```

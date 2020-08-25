@@ -6,5 +6,5 @@ menuTitle: ManaPercCap
 ---
 ## ManaPercCap
 ```lua
-StatBonuses:ManaPercCap(int idx); -- number
+StatBonuses:ManaPercCap(number idx); -- number
 ```

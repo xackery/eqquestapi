@@ -6,5 +6,5 @@ menuTitle: MitigateSpellRune
 ---
 ## MitigateSpellRune
 ```lua
-StatBonuses:MitigateSpellRune(int idx); -- number
+StatBonuses:MitigateSpellRune(number idx); -- number
 ```

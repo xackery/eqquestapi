@@ -6,5 +6,5 @@ menuTitle: DivineSaveChance
 ---
 ## DivineSaveChance
 ```lua
-StatBonuses:DivineSaveChance(int idx); -- unknown - int32
+StatBonuses:DivineSaveChance(number idx); -- unknown - int32
 ```

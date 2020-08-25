@@ -6,5 +6,5 @@ menuTitle: Classes
 ---
 ## Classes
 ```lua
-Spell:Classes(int i); -- number
+Spell:Classes(number i); -- number
 ```

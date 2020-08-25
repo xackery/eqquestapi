@@ -6,5 +6,5 @@ menuTitle: SetID
 ---
 ## SetID
 ```lua
-Object:SetID(int user); -- void
+Object:SetID(number user); -- void
 ```

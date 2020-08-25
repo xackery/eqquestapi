@@ -6,5 +6,5 @@ menuTitle: FinishingBlow
 ---
 ## FinishingBlow
 ```lua
-StatBonuses:FinishingBlow(int idx); -- unknown - int32
+StatBonuses:FinishingBlow(number idx); -- unknown - int32
 ```

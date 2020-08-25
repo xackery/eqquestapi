@@ -6,5 +6,5 @@ menuTitle: is_task_appropriate
 ---
 ## is_task_appropriate
 ```lua
-eq.is_task_appropriate(int task) -- bool
+eq.is_task_appropriate(number task) -- bool
 ```

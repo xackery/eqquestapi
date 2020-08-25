@@ -6,5 +6,5 @@ menuTitle: RemoveNimbusEffect
 ---
 ## RemoveNimbusEffect
 ```lua
-Mob:RemoveNimbusEffect(int effect_id); -- void
+Mob:RemoveNimbusEffect(number effect_id); -- void
 ```

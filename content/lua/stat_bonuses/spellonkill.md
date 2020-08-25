@@ -6,5 +6,5 @@ menuTitle: SpellOnKill
 ---
 ## SpellOnKill
 ```lua
-StatBonuses:SpellOnKill(int idx); -- number
+StatBonuses:SpellOnKill(number idx); -- number
 ```

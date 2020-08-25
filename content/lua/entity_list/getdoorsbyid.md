@@ -6,5 +6,5 @@ menuTitle: GetDoorsByID
 ---
 ## GetDoorsByID
 ```lua
-EntityList:GetDoorsByID(int id); -- unknown - Lua_Door
+EntityList:GetDoorsByID(number id); -- unknown - Lua_Door
 ```

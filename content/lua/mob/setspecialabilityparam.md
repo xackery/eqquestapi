@@ -6,5 +6,5 @@ menuTitle: SetSpecialAbilityParam
 ---
 ## SetSpecialAbilityParam
 ```lua
-Mob:SetSpecialAbilityParam(int ability, int param, int value); -- void
+Mob:SetSpecialAbilityParam(number ability, number param, number value); -- void
 ```

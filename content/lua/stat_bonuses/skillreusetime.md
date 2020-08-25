@@ -6,5 +6,5 @@ menuTitle: SkillReuseTime
 ---
 ## SkillReuseTime
 ```lua
-StatBonuses:SkillReuseTime(int idx); -- unknown - int32
+StatBonuses:SkillReuseTime(number idx); -- unknown - int32
 ```

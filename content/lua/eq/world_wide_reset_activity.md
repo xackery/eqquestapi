@@ -6,5 +6,5 @@ menuTitle: world_wide_reset_activity
 ---
 ## world_wide_reset_activity
 ```lua
-eq.world_wide_reset_activity(uint32 task_id, int activity_id) -- void
+eq.world_wide_reset_activity(uint32 task_id, number activity_id) -- void
 ```

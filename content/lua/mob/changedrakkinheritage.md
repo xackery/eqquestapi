@@ -6,5 +6,5 @@ menuTitle: ChangeDrakkinHeritage
 ---
 ## ChangeDrakkinHeritage
 ```lua
-Mob:ChangeDrakkinHeritage(int in); -- void
+Mob:ChangeDrakkinHeritage(number in); -- void
 ```

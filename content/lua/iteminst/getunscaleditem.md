@@ -6,5 +6,5 @@ menuTitle: GetUnscaledItem
 ---
 ## GetUnscaledItem
 ```lua
-ItemInst:GetUnscaledItem(int slot); -- unknown - Lua_Item
+ItemInst:GetUnscaledItem(number slot); -- unknown - Lua_Item
 ```

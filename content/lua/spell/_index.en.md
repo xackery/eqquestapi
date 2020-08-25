@@ -11,7 +11,7 @@ weight: 25
 - Spell:[AEMaxTargets](aemaxtargets)(); -- number
 - Spell:[AllowRest](allowrest)(); -- bool
 - Spell:[AoeRange](aoerange)(); -- number
-- Spell:[Base](base)(int i); -- number
+- Spell:[Base](base)(number i); -- number
 - Spell:[BaseDiff](basediff)(); -- number
 - Spell:[BonusHate](bonushate)(); -- number
 - Spell:[BuffdurationFormula](buffdurationformula)(); -- number
@@ -21,18 +21,18 @@ weight: 25
 - Spell:[CastOnYou](castonyou)(); -- string
 - Spell:[CastRestriction](castrestriction)(); -- number
 - Spell:[CastTime](casttime)(); -- number
-- Spell:[Classes](classes)(int i); -- number
-- Spell:[ComponentCounts](componentcounts)(int i); -- number
-- Spell:[Components](components)(int i); -- number
+- Spell:[Classes](classes)(number i); -- number
+- Spell:[ComponentCounts](componentcounts)(number i); -- number
+- Spell:[Components](components)(number i); -- number
 - Spell:[DamageShieldType](damageshieldtype)(); -- number
-- Spell:[Deities](deities)(int i); -- number
+- Spell:[Deities](deities)(number i); -- number
 - Spell:[DescNum](descnum)(); -- number
 - Spell:[DirectionalEnd](directionalend)(); -- number
 - Spell:[DirectionalStart](directionalstart)(); -- number
 - Spell:[DisallowSit](disallowsit)(); -- number
 - Spell:[DispelFlag](dispelflag)(); -- number
 - Spell:[EffectDescNum](effectdescnum)(); -- number
-- Spell:[EffectID](effectid)(int i); -- number
+- Spell:[EffectID](effectid)(number i); -- number
 - Spell:[EndurCost](endurcost)(); -- number
 - Spell:[EndurTimerIndex](endurtimerindex)(); -- number
 - Spell:[EndurUpkeep](endurupkeep)(); -- number
@@ -42,7 +42,7 @@ weight: 25
 - Spell:[ID](id)(); -- number
 - Spell:[InCombat](incombat)(); -- bool
 - Spell:[Mana](mana)(); -- number
-- Spell:[Max](max)(int i); -- number
+- Spell:[Max](max)(number i); -- number
 - Spell:[MaxDist](maxdist)(); -- number
 - Spell:[MaxDistMod](maxdistmod)(); -- number
 - Spell:[MaxResist](maxresist)(); -- number
@@ -52,7 +52,7 @@ weight: 25
 - Spell:[MinResist](minresist)(); -- number
 - Spell:[Name](name)(); -- string
 - Spell:[NimbusEffect](nimbuseffect)(); -- number
-- Spell:[NoexpendReagent](noexpendreagent)(int i); -- number
+- Spell:[NoexpendReagent](noexpendreagent)(number i); -- number
 - Spell:[NumHits](numhits)(); -- number
 - Spell:[OtherCasts](othercasts)(); -- string
 - Spell:[OutOfCombat](outofcombat)(); -- bool

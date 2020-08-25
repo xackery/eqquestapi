@@ -6,5 +6,5 @@ menuTitle: NoexpendReagent
 ---
 ## NoexpendReagent
 ```lua
-Spell:NoexpendReagent(int i); -- number
+Spell:NoexpendReagent(number i); -- number
 ```

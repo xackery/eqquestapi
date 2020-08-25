@@ -6,5 +6,5 @@ menuTitle: NegateAttacks
 ---
 ## NegateAttacks
 ```lua
-StatBonuses:NegateAttacks(int idx); -- number
+StatBonuses:NegateAttacks(number idx); -- number
 ```

@@ -8,9 +8,9 @@ weight: 25
 ## Group Methods (Lua)
 - Group:[DisbandGroup](disbandgroup)(); -- void
 - Group:[IsGroupMember](isgroupmember)(Lua_Mob mob); -- bool
-- Group:[CastGroupSpell](castgroupspell)(Lua_Mob caster, int spell_id); -- void
+- Group:[CastGroupSpell](castgroupspell)(Lua_Mob caster, number spell_id); -- void
 - Group:[SplitExp](splitexp)(uint32 exp, Lua_Mob other); -- void
-- Group:[GroupMessage](groupmessage)(Lua_Mob sender, int language, const char *message); -- void
+- Group:[GroupMessage](groupmessage)(Lua_Mob sender, number language, const char *message); -- void
 - Group:[GetTotalGroupDamage](gettotalgroupdamage)(Lua_Mob other); -- number
 - Group:[SplitMoney](splitmoney)(uint32 copper, uint32 silver, uint32 gold, uint32 platinum, Lua_Client splitter); -- void
 - Group:[SetLeader](setleader)(Lua_Mob leader); -- void
@@ -22,4 +22,4 @@ weight: 25
 - Group:[GetLowestLevel](getlowestlevel)(); -- number
 - Group:[TeleportGroup](teleportgroup)(Lua_Mob sender, uint32 zone_id, uint32 instance_id, float x, float y, float z, float h); -- void
 - Group:[GetID](getid)(); -- number
-- Group:[GetMember](getmember)(int index); -- unknown - Lua_Mob
+- Group:[GetMember](getmember)(number index); -- unknown - Lua_Mob

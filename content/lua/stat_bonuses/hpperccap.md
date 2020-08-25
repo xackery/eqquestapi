@@ -6,5 +6,5 @@ menuTitle: HPPercCap
 ---
 ## HPPercCap
 ```lua
-StatBonuses:HPPercCap(int idx); -- number
+StatBonuses:HPPercCap(number idx); -- number
 ```

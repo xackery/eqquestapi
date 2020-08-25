@@ -6,5 +6,5 @@ menuTitle: SkillAttackProc
 ---
 ## SkillAttackProc
 ```lua
-StatBonuses:SkillAttackProc(int idx); -- unknown - int32
+StatBonuses:SkillAttackProc(number idx); -- unknown - int32
 ```

@@ -6,5 +6,5 @@ menuTitle: cross_zone_reset_activity_by_char_id
 ---
 ## cross_zone_reset_activity_by_char_id
 ```lua
-eq.cross_zone_reset_activity_by_char_id(int character_id, uint32 task_id, int activity_id) -- void
+eq.cross_zone_reset_activity_by_char_id(number character_id, uint32 task_id, number activity_id) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: AssassinateLevel
 ---
 ## AssassinateLevel
 ```lua
-StatBonuses:AssassinateLevel(int idx); -- unknown - uint8
+StatBonuses:AssassinateLevel(number idx); -- unknown - uint8
 ```

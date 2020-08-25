@@ -6,5 +6,5 @@ menuTitle: InterruptSpell
 ---
 ## InterruptSpell
 ```lua
-Mob:InterruptSpell(int spell_id); -- void
+Mob:InterruptSpell(number spell_id); -- void
 ```

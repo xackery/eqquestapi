@@ -31,7 +31,7 @@ weight: 25
 - Door:[GetLockPick](getlockpick)(); -- number
 - Door:[SetKeyItem](setkeyitem)(uint32 key); -- void
 - Door:[GetKeyItem](getkeyitem)(); -- number
-- Door:[SetNoKeyring](setnokeyring)(int type); -- void
+- Door:[SetNoKeyring](setnokeyring)(number type); -- void
 - Door:[GetNoKeyring](getnokeyring)(); -- number
 - Door:[CreateDatabaseEntry](createdatabaseentry)(); -- void
 - Door:[ForceOpen](forceopen)(Lua_Mob sender, bool alt_mode); -- void

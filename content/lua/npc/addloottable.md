@@ -6,5 +6,5 @@ menuTitle: AddLootTable
 ---
 ## AddLootTable
 ```lua
-NPC:AddLootTable(int id); -- void
+NPC:AddLootTable(number id); -- void
 ```

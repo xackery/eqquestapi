@@ -6,5 +6,5 @@ menuTitle: HasItem
 ---
 ## HasItem
 ```lua
-Inventory:HasItem(int item_id, int quantity, int where); -- number
+Inventory:HasItem(number item_id, number quantity, number where); -- number
 ```

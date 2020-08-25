@@ -6,5 +6,5 @@ menuTitle: Max
 ---
 ## Max
 ```lua
-Spell:Max(int i); -- number
+Spell:Max(number i); -- number
 ```

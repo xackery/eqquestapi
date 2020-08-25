@@ -6,5 +6,5 @@ menuTitle: MitigateMeleeRune
 ---
 ## MitigateMeleeRune
 ```lua
-StatBonuses:MitigateMeleeRune(int idx); -- number
+StatBonuses:MitigateMeleeRune(number idx); -- number
 ```

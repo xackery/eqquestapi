@@ -6,5 +6,5 @@ menuTitle: SpellThresholdGuard
 ---
 ## SpellThresholdGuard
 ```lua
-StatBonuses:SpellThresholdGuard(int idx); -- number
+StatBonuses:SpellThresholdGuard(number idx); -- number
 ```

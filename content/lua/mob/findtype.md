@@ -6,5 +6,5 @@ menuTitle: FindType
 ---
 ## FindType
 ```lua
-Mob:FindType(int type, bool offensive, int threshold); -- bool
+Mob:FindType(number type, bool offensive, number threshold); -- bool
 ```

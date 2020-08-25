@@ -6,5 +6,5 @@ menuTitle: SignalAllClients
 ---
 ## SignalAllClients
 ```lua
-EntityList:SignalAllClients(int signal); -- void
+EntityList:SignalAllClients(number signal); -- void
 ```

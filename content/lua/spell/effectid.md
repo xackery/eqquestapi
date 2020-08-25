@@ -6,5 +6,5 @@ menuTitle: EffectID
 ---
 ## EffectID
 ```lua
-Spell:EffectID(int i); -- number
+Spell:EffectID(number i); -- number
 ```

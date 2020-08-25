@@ -6,5 +6,5 @@ menuTitle: SetSwarmTarget
 ---
 ## SetSwarmTarget
 ```lua
-NPC:SetSwarmTarget(int target); -- void
+NPC:SetSwarmTarget(number target); -- void
 ```

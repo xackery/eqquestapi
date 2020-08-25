@@ -6,5 +6,5 @@ menuTitle: CastSpell
 ---
 ## CastSpell
 ```lua
-Mob:CastSpell(int spell_id, int target_id, int slot, int cast_time, int mana_cost, int item_slot); -- bool
+Mob:CastSpell(number spell_id, number target_id, number slot, number cast_time, number mana_cost, number item_slot); -- bool
 ```

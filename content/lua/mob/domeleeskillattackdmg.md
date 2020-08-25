@@ -6,5 +6,5 @@ menuTitle: DoMeleeSkillAttackDmg
 ---
 ## DoMeleeSkillAttackDmg
 ```lua
-Mob:DoMeleeSkillAttackDmg(Lua_Mob other, int weapon_damage, int skill, int chance_mod, int focus, bool can_riposte); -- void
+Mob:DoMeleeSkillAttackDmg(Lua_Mob other, number weapon_damage, number skill, number chance_mod, number focus, bool can_riposte); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: AbsorbMagicAtt
 ---
 ## AbsorbMagicAtt
 ```lua
-StatBonuses:AbsorbMagicAtt(int idx); -- number
+StatBonuses:AbsorbMagicAtt(number idx); -- number
 ```

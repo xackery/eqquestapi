@@ -6,5 +6,5 @@ menuTitle: task_time_left
 ---
 ## task_time_left
 ```lua
-eq.task_time_left(int task_id) -- int
+eq.task_time_left(number task_id) -- int
 ```

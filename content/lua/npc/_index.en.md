@@ -6,13 +6,13 @@ weight: 25
 ---
 
 ## Npc Methods (Lua)
-- NPC:[Signal](signal)(int id); -- void
-- NPC:[CheckNPCFactionAlly](checknpcfactionally)(int faction); -- number
-- NPC:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4, int aug5, int aug6); -- void
-- NPC:[AddLootTable](addloottable)(int id); -- void
-- NPC:[RemoveItem](removeitem)(int item_id, int quantity, int slot); -- void
+- NPC:[Signal](signal)(number id); -- void
+- NPC:[CheckNPCFactionAlly](checknpcfactionally)(number faction); -- number
+- NPC:[AddItem](additem)(number item_id, number charges, bool equip, number aug1, number aug2, number aug3, number aug4, number aug5, number aug6); -- void
+- NPC:[AddLootTable](addloottable)(number id); -- void
+- NPC:[RemoveItem](removeitem)(number item_id, number quantity, number slot); -- void
 - NPC:[ClearItemList](clearitemlist)(); -- void
-- NPC:[AddCash](addcash)(int copper, int silver, int gold, int platinum); -- void
+- NPC:[AddCash](addcash)(number copper, number silver, number gold, number platinum); -- void
 - NPC:[RemoveCash](removecash)(); -- void
 - NPC:[CountLoot](countloot)(); -- number
 - NPC:[GetLoottableID](getloottableid)(); -- number
@@ -24,21 +24,21 @@ weight: 25
 - NPC:[SetSilver](setsilver)(uint32 amt); -- void
 - NPC:[SetGold](setgold)(uint32 amt); -- void
 - NPC:[SetPlatinum](setplatinum)(uint32 amt); -- void
-- NPC:[SetGrid](setgrid)(int grid); -- void
-- NPC:[SetSaveWaypoint](setsavewaypoint)(int wp); -- void
+- NPC:[SetGrid](setgrid)(number grid); -- void
+- NPC:[SetSaveWaypoint](setsavewaypoint)(number wp); -- void
 - NPC:[GetWaypointMax](getwaypointmax)(); -- number
 - NPC:[GetGrid](getgrid)(); -- number
 - NPC:[GetNPCFactionID](getnpcfactionid)(); -- number
 - NPC:[GetPrimaryFaction](getprimaryfaction)(); -- number
 - NPC:[GetNPCHate](getnpchate)(Lua_Mob ent); -- number
 - NPC:[IsOnHatelist](isonhatelist)(Lua_Mob ent); -- bool
-- NPC:[SetNPCFactionID](setnpcfactionid)(int id); -- void
+- NPC:[SetNPCFactionID](setnpcfactionid)(number id); -- void
 - NPC:[GetMaxDMG](getmaxdmg)(); -- number
 - NPC:[GetMinDMG](getmindmg)(); -- number
 - NPC:[IsAnimal](isanimal)(); -- bool
 - NPC:[GetPetSpellID](getpetspellid)(); -- number
-- NPC:[SetPetSpellID](setpetspellid)(int id); -- void
-- NPC:[GetMaxDamage](getmaxdamage)(int level); -- number
+- NPC:[SetPetSpellID](setpetspellid)(number id); -- void
+- NPC:[GetMaxDamage](getmaxdamage)(number level); -- number
 - NPC:[SetTaunting](settaunting)(bool t); -- void
 - NPC:[IsTaunting](istaunting)(); -- bool
 - NPC:[PickPocket](pickpocket)(Lua_Client thief); -- void
@@ -47,18 +47,18 @@ weight: 25
 - NPC:[GetMaxWp](getmaxwp)(); -- number
 - NPC:[DisplayWaypointInfo](displaywaypointinfo)(Lua_Client to); -- void
 - NPC:[CalculateNewWaypoint](calculatenewwaypoint)(); -- void
-- NPC:[AssignWaypoints](assignwaypoints)(int grid); -- void
+- NPC:[AssignWaypoints](assignwaypoints)(number grid); -- void
 - NPC:[SetWaypointPause](setwaypointpause)(); -- void
-- NPC:[UpdateWaypoint](updatewaypoint)(int wp); -- void
+- NPC:[UpdateWaypoint](updatewaypoint)(number wp); -- void
 - NPC:[StopWandering](stopwandering)(); -- void
 - NPC:[ResumeWandering](resumewandering)(); -- void
-- NPC:[PauseWandering](pausewandering)(int pause_time); -- void
+- NPC:[PauseWandering](pausewandering)(number pause_time); -- void
 - NPC:[MoveTo](moveto)(float x, float y, float z, float h, bool save); -- void
 - NPC:[NextGuardPosition](nextguardposition)(); -- void
 - NPC:[SaveGuardSpot](saveguardspot)(float x, float y, float z, float heading); -- void
 - NPC:[IsGuarding](isguarding)(); -- bool
-- NPC:[SetFollowID](setfollowid)(int id); -- void
-- NPC:[SetFollowDistance](setfollowdistance)(int dist); -- void
+- NPC:[SetFollowID](setfollowid)(number id); -- void
+- NPC:[SetFollowDistance](setfollowdistance)(number dist); -- void
 - NPC:[SetFollowCanRun](setfollowcanrun)(bool v); -- void
 - NPC:[GetFollowID](getfollowid)(); -- number
 - NPC:[GetFollowDistance](getfollowdistance)(); -- number
@@ -72,19 +72,19 @@ weight: 25
 - NPC:[GetGuardPointX](getguardpointx)(); -- number
 - NPC:[GetGuardPointY](getguardpointy)(); -- number
 - NPC:[GetGuardPointZ](getguardpointz)(); -- number
-- NPC:[SetPrimSkill](setprimskill)(int skill_id); -- void
-- NPC:[SetSecSkill](setsecskill)(int skill_id); -- void
-- NPC:[SetSimpleRoamBox](setsimpleroambox)(float box_size, float move_distance, int move_delay); -- void
+- NPC:[SetPrimSkill](setprimskill)(number skill_id); -- void
+- NPC:[SetSecSkill](setsecskill)(number skill_id); -- void
+- NPC:[SetSimpleRoamBox](setsimpleroambox)(float box_size, float move_distance, number move_delay); -- void
 - NPC:[GetPrimSkill](getprimskill)(); -- number
 - NPC:[GetSecSkill](getsecskill)(); -- number
 - NPC:[GetSwarmOwner](getswarmowner)(); -- number
 - NPC:[GetSwarmTarget](getswarmtarget)(); -- number
-- NPC:[SetSwarmTarget](setswarmtarget)(int target); -- void
+- NPC:[SetSwarmTarget](setswarmtarget)(number target); -- void
 - NPC:[ModifyNPCStat](modifynpcstat)(const char *stat, const char *value); -- void
-- NPC:[AddAISpell](addaispell)(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust, int min_hp, int max_hp); -- void
-- NPC:[RemoveAISpell](removeaispell)(int spell_id); -- void
-- NPC:[SetSpellFocusDMG](setspellfocusdmg)(int focus); -- void
-- NPC:[SetSpellFocusHeal](setspellfocusheal)(int focus); -- void
+- NPC:[AddAISpell](addaispell)(number priority, number spell_id, number type, number mana_cost, number recast_delay, number resist_adjust, number min_hp, number max_hp); -- void
+- NPC:[RemoveAISpell](removeaispell)(number spell_id); -- void
+- NPC:[SetSpellFocusDMG](setspellfocusdmg)(number focus); -- void
+- NPC:[SetSpellFocusHeal](setspellfocusheal)(number focus); -- void
 - NPC:[GetSpellFocusDMG](getspellfocusdmg)(); -- number
 - NPC:[GetSpellFocusHeal](getspellfocusheal)(); -- number
 - NPC:[GetSlowMitigation](getslowmitigation)(); -- number

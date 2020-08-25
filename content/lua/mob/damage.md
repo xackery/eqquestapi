@@ -6,5 +6,5 @@ menuTitle: Damage
 ---
 ## Damage
 ```lua
-Mob:Damage(Lua_Mob from, int damage, int spell_id, int attack_skill, bool avoidable, int buffslot, bool buff_tic); -- void
+Mob:Damage(Lua_Mob from, number damage, number spell_id, number attack_skill, bool avoidable, number buffslot, bool buff_tic); -- void
 ```

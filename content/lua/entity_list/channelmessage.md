@@ -6,5 +6,5 @@ menuTitle: ChannelMessage
 ---
 ## ChannelMessage
 ```lua
-EntityList:ChannelMessage(Lua_Mob from, int channel_num, int language, const char *message); -- void
+EntityList:ChannelMessage(Lua_Mob from, number channel_num, number language, const char *message); -- void
 ```

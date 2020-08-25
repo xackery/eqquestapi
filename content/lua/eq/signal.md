@@ -6,5 +6,5 @@ menuTitle: signal
 ---
 ## signal
 ```lua
-eq.signal(int npc_id, int signal_id) -- void
+eq.signal(number npc_id, number signal_id) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: AugSlotType
 ---
 ## AugSlotType
 ```lua
-Item:AugSlotType(int i); -- number
+Item:AugSlotType(number i); -- number
 ```

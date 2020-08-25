@@ -6,5 +6,5 @@ menuTitle: WriteDouble
 ---
 ## WriteDouble
 ```lua
-Packet:WriteDouble(int offset, double value); -- void
+Packet:WriteDouble(number offset, double value); -- void
 ```

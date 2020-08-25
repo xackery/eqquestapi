@@ -6,5 +6,5 @@ menuTitle: BuffFadeBySpellID
 ---
 ## BuffFadeBySpellID
 ```lua
-Mob:BuffFadeBySpellID(int spell_id); -- void
+Mob:BuffFadeBySpellID(number spell_id); -- void
 ```

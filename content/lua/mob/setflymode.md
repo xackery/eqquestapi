@@ -6,5 +6,5 @@ menuTitle: SetFlyMode
 ---
 ## SetFlyMode
 ```lua
-Mob:SetFlyMode(int in); -- void
+Mob:SetFlyMode(number in); -- void
 ```

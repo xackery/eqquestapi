@@ -6,5 +6,5 @@ menuTitle: FinishingBlowLvl
 ---
 ## FinishingBlowLvl
 ```lua
-StatBonuses:FinishingBlowLvl(int idx); -- number
+StatBonuses:FinishingBlowLvl(number idx); -- number
 ```

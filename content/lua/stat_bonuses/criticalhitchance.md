@@ -6,5 +6,5 @@ menuTitle: CriticalHitChance
 ---
 ## CriticalHitChance
 ```lua
-StatBonuses:CriticalHitChance(int idx); -- unknown - int32
+StatBonuses:CriticalHitChance(number idx); -- unknown - int32
 ```

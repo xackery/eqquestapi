@@ -6,5 +6,5 @@ menuTitle: GetMobID
 ---
 ## GetMobID
 ```lua
-EntityList:GetMobID(int id); -- unknown - Lua_Mob
+EntityList:GetMobID(number id); -- unknown - Lua_Mob
 ```

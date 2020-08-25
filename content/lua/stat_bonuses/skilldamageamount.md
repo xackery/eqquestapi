@@ -6,5 +6,5 @@ menuTitle: SkillDamageAmount
 ---
 ## SkillDamageAmount
 ```lua
-StatBonuses:SkillDamageAmount(int idx); -- unknown - int32
+StatBonuses:SkillDamageAmount(number idx); -- unknown - int32
 ```

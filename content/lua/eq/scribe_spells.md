@@ -6,5 +6,5 @@ menuTitle: scribe_spells
 ---
 ## scribe_spells
 ```lua
-eq.scribe_spells(int max) -- int
+eq.scribe_spells(number max) -- int
 ```

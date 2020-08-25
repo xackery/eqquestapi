@@ -6,5 +6,5 @@ menuTitle: MitigateDotRune
 ---
 ## MitigateDotRune
 ```lua
-StatBonuses:MitigateDotRune(int idx); -- number
+StatBonuses:MitigateDotRune(number idx); -- number
 ```

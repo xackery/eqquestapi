@@ -6,5 +6,5 @@ menuTitle: SlayUndead
 ---
 ## SlayUndead
 ```lua
-StatBonuses:SlayUndead(int idx); -- unknown - int32
+StatBonuses:SlayUndead(number idx); -- unknown - int32
 ```

@@ -6,5 +6,5 @@ menuTitle: GiveDoubleRiposte
 ---
 ## GiveDoubleRiposte
 ```lua
-StatBonuses:GiveDoubleRiposte(int idx); -- unknown - int32
+StatBonuses:GiveDoubleRiposte(number idx); -- unknown - int32
 ```

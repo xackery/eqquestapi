@@ -6,5 +6,5 @@ menuTitle: cross_zone_remove_spell_by_raid_id
 ---
 ## cross_zone_remove_spell_by_raid_id
 ```lua
-eq.cross_zone_remove_spell_by_raid_id(int raid_id, uint32 spell_id) -- void
+eq.cross_zone_remove_spell_by_raid_id(number raid_id, uint32 spell_id) -- void
 ```

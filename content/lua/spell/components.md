@@ -6,5 +6,5 @@ menuTitle: Components
 ---
 ## Components
 ```lua
-Spell:Components(int i); -- number
+Spell:Components(number i); -- number
 ```

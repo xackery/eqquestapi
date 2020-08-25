@@ -6,5 +6,5 @@ menuTitle: WearChange
 ---
 ## WearChange
 ```lua
-Mob:WearChange(int material_slot, int texture, uint32 color); -- void
+Mob:WearChange(number material_slot, number texture, uint32 color); -- void
 ```

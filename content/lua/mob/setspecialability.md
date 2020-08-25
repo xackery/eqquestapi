@@ -6,5 +6,5 @@ menuTitle: SetSpecialAbility
 ---
 ## SetSpecialAbility
 ```lua
-Mob:SetSpecialAbility(int ability, int level); -- void
+Mob:SetSpecialAbility(number ability, number level); -- void
 ```

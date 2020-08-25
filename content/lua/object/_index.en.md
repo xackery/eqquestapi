@@ -27,11 +27,11 @@ weight: 25
 - Object:[GetType](gettype)(); -- number
 - Object:[GetDBID](getdbid)(); -- number
 - Object:[ClearUser](clearuser)(); -- void
-- Object:[SetID](setid)(int user); -- void
+- Object:[SetID](setid)(number user); -- void
 - Object:[GetID](getid)(); -- number
 - Object:[Save](save)(); -- bool
 - Object:[VarSave](varsave)(); -- number
-- Object:[DeleteItem](deleteitem)(int index); -- void
+- Object:[DeleteItem](deleteitem)(number index); -- void
 - Object:[StartDecay](startdecay)(); -- void
 - Object:[IsGroundSpawn](isgroundspawn)(); -- bool
 - Object:[Close](close)(); -- void

@@ -6,5 +6,5 @@ menuTitle: GetAAByAAID
 ---
 ## GetAAByAAID
 ```lua
-Mob:GetAAByAAID(int id); -- number
+Mob:GetAAByAAID(number id); -- number
 ```

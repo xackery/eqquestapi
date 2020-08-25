@@ -6,5 +6,5 @@ menuTitle: AddItem
 ---
 ## AddItem
 ```lua
-NPC:AddItem(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4, int aug5, int aug6); -- void
+NPC:AddItem(number item_id, number charges, bool equip, number aug1, number aug2, number aug3, number aug4, number aug5, number aug6); -- void
 ```

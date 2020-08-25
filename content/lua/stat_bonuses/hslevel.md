@@ -6,5 +6,5 @@ menuTitle: HSLevel
 ---
 ## HSLevel
 ```lua
-StatBonuses:HSLevel(int idx); -- unknown - uint8
+StatBonuses:HSLevel(number idx); -- unknown - uint8
 ```

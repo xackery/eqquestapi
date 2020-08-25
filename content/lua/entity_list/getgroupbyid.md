@@ -6,5 +6,5 @@ menuTitle: GetGroupByID
 ---
 ## GetGroupByID
 ```lua
-EntityList:GetGroupByID(int id); -- unknown - Lua_Group
+EntityList:GetGroupByID(number id); -- unknown - Lua_Group
 ```

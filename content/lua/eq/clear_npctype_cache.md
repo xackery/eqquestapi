@@ -6,5 +6,5 @@ menuTitle: clear_npctype_cache
 ---
 ## clear_npctype_cache
 ```lua
-eq.clear_npctype_cache(int npctype_id) -- void
+eq.clear_npctype_cache(number npctype_id) -- void
 ```

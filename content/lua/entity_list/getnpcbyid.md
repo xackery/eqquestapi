@@ -6,5 +6,5 @@ menuTitle: GetNPCByID
 ---
 ## GetNPCByID
 ```lua
-EntityList:GetNPCByID(int id); -- unknown - Lua_NPC
+EntityList:GetNPCByID(number id); -- unknown - Lua_NPC
 ```

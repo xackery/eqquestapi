@@ -6,5 +6,5 @@ menuTitle: GetItem
 ---
 ## GetItem
 ```lua
-ItemInst:GetItem(int slot); -- unknown - Lua_Item
+ItemInst:GetItem(number slot); -- unknown - Lua_Item
 ```

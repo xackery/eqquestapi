@@ -6,5 +6,5 @@ menuTitle: BuffFadeByEffect
 ---
 ## BuffFadeByEffect
 ```lua
-Mob:BuffFadeByEffect(int effect_id, int skipslot); -- void
+Mob:BuffFadeByEffect(number effect_id, number skipslot); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: FindBuffBySlot
 ---
 ## FindBuffBySlot
 ```lua
-Mob:FindBuffBySlot(int slot); -- unknown - uint16
+Mob:FindBuffBySlot(number slot); -- unknown - uint16
 ```

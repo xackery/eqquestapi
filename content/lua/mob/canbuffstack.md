@@ -6,5 +6,5 @@ menuTitle: CanBuffStack
 ---
 ## CanBuffStack
 ```lua
-Mob:CanBuffStack(int spell_id, int caster_level, bool fail_if_overwrite); -- number
+Mob:CanBuffStack(number spell_id, number caster_level, bool fail_if_overwrite); -- number
 ```

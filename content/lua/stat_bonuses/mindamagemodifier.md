@@ -6,5 +6,5 @@ menuTitle: MinDamageModifier
 ---
 ## MinDamageModifier
 ```lua
-StatBonuses:MinDamageModifier(int idx); -- unknown - int32
+StatBonuses:MinDamageModifier(number idx); -- unknown - int32
 ```

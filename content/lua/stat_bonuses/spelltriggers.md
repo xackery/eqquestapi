@@ -6,5 +6,5 @@ menuTitle: SpellTriggers
 ---
 ## SpellTriggers
 ```lua
-StatBonuses:SpellTriggers(int idx); -- number
+StatBonuses:SpellTriggers(number idx); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: AugSlotVisible
 ---
 ## AugSlotVisible
 ```lua
-Item:AugSlotVisible(int i); -- number
+Item:AugSlotVisible(number i); -- number
 ```

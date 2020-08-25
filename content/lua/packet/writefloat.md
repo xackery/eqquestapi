@@ -6,5 +6,5 @@ menuTitle: WriteFloat
 ---
 ## WriteFloat
 ```lua
-Packet:WriteFloat(int offset, float value); -- void
+Packet:WriteFloat(number offset, float value); -- void
 ```

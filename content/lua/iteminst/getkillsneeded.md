@@ -6,5 +6,5 @@ menuTitle: GetKillsNeeded
 ---
 ## GetKillsNeeded
 ```lua
-ItemInst:GetKillsNeeded(int current_level); -- number
+ItemInst:GetKillsNeeded(number current_level); -- number
 ```

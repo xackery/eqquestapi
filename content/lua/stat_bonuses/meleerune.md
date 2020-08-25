@@ -6,5 +6,5 @@ menuTitle: MeleeRune
 ---
 ## MeleeRune
 ```lua
-StatBonuses:MeleeRune(int idx); -- number
+StatBonuses:MeleeRune(number idx); -- number
 ```

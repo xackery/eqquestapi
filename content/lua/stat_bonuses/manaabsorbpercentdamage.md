@@ -6,5 +6,5 @@ menuTitle: ManaAbsorbPercentDamage
 ---
 ## ManaAbsorbPercentDamage
 ```lua
-StatBonuses:ManaAbsorbPercentDamage(int idx); -- number
+StatBonuses:ManaAbsorbPercentDamage(number idx); -- number
 ```

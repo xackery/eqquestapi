@@ -6,5 +6,5 @@ menuTitle: DeleteItem
 ---
 ## DeleteItem
 ```lua
-Inventory:DeleteItem(int slot_id, int quantity); -- bool
+Inventory:DeleteItem(number slot_id, number quantity); -- bool
 ```

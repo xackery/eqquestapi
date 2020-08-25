@@ -6,5 +6,5 @@ menuTitle: GetMember
 ---
 ## GetMember
 ```lua
-Raid:GetMember(int index); -- unknown - Lua_Client
+Raid:GetMember(number index); -- unknown - Lua_Client
 ```

@@ -6,5 +6,5 @@ menuTitle: Formula
 ---
 ## Formula
 ```lua
-Spell:Formula(int i); -- number
+Spell:Formula(number i); -- number
 ```

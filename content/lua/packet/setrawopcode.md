@@ -6,5 +6,5 @@ menuTitle: SetRawOpcode
 ---
 ## SetRawOpcode
 ```lua
-Packet:SetRawOpcode(int op); -- void
+Packet:SetRawOpcode(number op); -- void
 ```

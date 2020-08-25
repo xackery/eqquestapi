@@ -6,5 +6,5 @@ menuTitle: add_area
 ---
 ## add_area
 ```lua
-eq.add_area(int id, int type, float min_x, float max_x, float min_y, float max_y, float min_z, float max_z) -- void
+eq.add_area(number id, number type, float min_x, float max_x, float min_y, float max_y, float min_z, float max_z) -- void
 ```

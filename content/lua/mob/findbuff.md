@@ -6,5 +6,5 @@ menuTitle: FindBuff
 ---
 ## FindBuff
 ```lua
-Mob:FindBuff(int spell_id); -- bool
+Mob:FindBuff(number spell_id); -- bool
 ```

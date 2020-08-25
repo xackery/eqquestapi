@@ -6,5 +6,5 @@ menuTitle: SetCurrentWP
 ---
 ## SetCurrentWP
 ```lua
-Mob:SetCurrentWP(int wp); -- void
+Mob:SetCurrentWP(number wp); -- void
 ```

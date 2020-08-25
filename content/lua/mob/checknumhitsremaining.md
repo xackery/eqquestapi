@@ -6,5 +6,5 @@ menuTitle: CheckNumHitsRemaining
 ---
 ## CheckNumHitsRemaining
 ```lua
-Mob:CheckNumHitsRemaining(int type, int32 buff_slot, uint16 spell_id); -- void
+Mob:CheckNumHitsRemaining(number type, int32 buff_slot, uint16 spell_id); -- void
 ```

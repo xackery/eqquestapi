@@ -6,5 +6,5 @@ menuTitle: SEResist
 ---
 ## SEResist
 ```lua
-StatBonuses:SEResist(int idx); -- unknown - int32
+StatBonuses:SEResist(number idx); -- unknown - int32
 ```

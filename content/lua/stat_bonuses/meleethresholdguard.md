@@ -6,5 +6,5 @@ menuTitle: MeleeThresholdGuard
 ---
 ## MeleeThresholdGuard
 ```lua
-StatBonuses:MeleeThresholdGuard(int idx); -- number
+StatBonuses:MeleeThresholdGuard(number idx); -- number
 ```

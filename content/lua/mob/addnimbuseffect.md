@@ -6,5 +6,5 @@ menuTitle: AddNimbusEffect
 ---
 ## AddNimbusEffect
 ```lua
-Mob:AddNimbusEffect(int effect_id); -- void
+Mob:AddNimbusEffect(number effect_id); -- void
 ```

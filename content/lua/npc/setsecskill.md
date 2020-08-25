@@ -6,5 +6,5 @@ menuTitle: SetSecSkill
 ---
 ## SetSecSkill
 ```lua
-NPC:SetSecSkill(int skill_id); -- void
+NPC:SetSecSkill(number skill_id); -- void
 ```

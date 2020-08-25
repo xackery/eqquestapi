@@ -6,5 +6,5 @@ menuTitle: DeathSave
 ---
 ## DeathSave
 ```lua
-StatBonuses:DeathSave(int idx); -- number
+StatBonuses:DeathSave(number idx); -- number
 ```

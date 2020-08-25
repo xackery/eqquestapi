@@ -6,5 +6,5 @@ menuTitle: SkillDmgTaken
 ---
 ## SkillDmgTaken
 ```lua
-StatBonuses:SkillDmgTaken(int idx); -- unknown - int16
+StatBonuses:SkillDmgTaken(number idx); -- unknown - int16
 ```

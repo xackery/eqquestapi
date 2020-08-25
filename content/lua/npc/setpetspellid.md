@@ -6,5 +6,5 @@ menuTitle: SetPetSpellID
 ---
 ## SetPetSpellID
 ```lua
-NPC:SetPetSpellID(int id); -- void
+NPC:SetPetSpellID(number id); -- void
 ```

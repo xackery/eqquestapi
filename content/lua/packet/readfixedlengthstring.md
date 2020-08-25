@@ -6,5 +6,5 @@ menuTitle: ReadFixedLengthString
 ---
 ## ReadFixedLengthString
 ```lua
-Packet:ReadFixedLengthString(int offset, int string_length); -- string
+Packet:ReadFixedLengthString(number offset, number string_length); -- string
 ```

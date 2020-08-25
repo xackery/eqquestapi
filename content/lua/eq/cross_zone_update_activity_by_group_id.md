@@ -6,5 +6,5 @@ menuTitle: cross_zone_update_activity_by_group_id
 ---
 ## cross_zone_update_activity_by_group_id
 ```lua
-eq.cross_zone_update_activity_by_group_id(int group_id, uint32 task_id, int activity_id) -- void
+eq.cross_zone_update_activity_by_group_id(number group_id, uint32 task_id, number activity_id) -- void
 ```
