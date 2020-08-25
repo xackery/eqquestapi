@@ -5,7 +5,8 @@ menuTitle: Client
 weight: 25
 ---
 
-## Client Methods (Lua)- client:[AccountID](accountid)(); -- uint32
+## Client Methods (Lua)
+- client:[AccountID](accountid)(); -- uint32
 - client:[AddAAPoints](addaapoints)(int points); -- void
 - client:[AddAlternateCurrencyValue](addalternatecurrencyvalue)(uint32 currency, int amount); -- void
 - client:[AddCrystals](addcrystals)(uint32 radiant, uint32 ebon); -- void

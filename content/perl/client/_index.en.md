@@ -5,7 +5,8 @@ menuTitle: Client
 weight: 25
 ---
 
-## Client Methods (Perl)- $client->[AccountID](accountid)()
+## Client Methods (Perl)
+- $client->[AccountID](accountid)()
 - $client->[AccountName](accountname)()
 - $client->[AddAAPoints](addaapoints)(uint32 points)
 - $client->[AddAlternateCurrencyValue](addalternatecurrencyvalue)(uint32 currency_id, int32 amount)

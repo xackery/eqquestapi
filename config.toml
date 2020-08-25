@@ -23,7 +23,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "EQCodex"
+title = "Quest API"
 weight = 1
 languageName = "English"
 
@@ -51,7 +51,7 @@ weight = 30
 
 
 [Languages.fr]
-title = "EQCodex"
+title = "Quest API"
 weight = 2
 languageName = "Français"
 

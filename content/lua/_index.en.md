@@ -6,4 +6,4 @@ chapter: true
 
 ### Lua
 
-{{% children depth="4" %}}
+{{% children depth="3" %}}

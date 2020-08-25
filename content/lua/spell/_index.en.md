@@ -1,81 +1,82 @@
 ---
-date: 2016-04-09T16:50:16+02:00
+date: 2020-08-24T16:50:16+02:00
 title: Spell
 menuTitle: Spell
 weight: 25
 ---
 
-spell:GetAEDuration(); -- uint32
-spell:GetAEMaxTargets(); -- int
-spell:GetActivated(); -- int
-spell:GetAllowRest(); -- bool
-spell:GetAoeRange(); -- float
-spell:GetBase(int i); -- int
-spell:GetBase2(int i); -- int
-spell:GetBaseDiff(); -- int
-spell:GetBonusHate(); -- int
-spell:GetBuffDuration(); -- uint32
-spell:GetBuffdurationFormula(); -- uint32
-spell:GetCanMGB(); -- int
-spell:GetCastRestriction(); -- int
-spell:GetCastTime(); -- uint32
-spell:GetCastingAnim(); -- int
-spell:GetClasses(int i); -- int
-spell:GetComponentCounts(int i); -- int
-spell:GetComponents(int i); -- int
-spell:GetDamageShieldType(); -- int
-spell:GetDeities(int i); -- int
-spell:GetDescNum(); -- int
-spell:GetDirectionalEnd(); -- float
-spell:GetDirectionalStart(); -- float
-spell:GetDisallowSit(); -- int
-spell:GetDispelFlag(); -- int
-spell:GetEffectDescNum(); -- int
-spell:GetEffectID(int i); -- int
-spell:GetEndurCost(); -- int
-spell:GetEndurTimerIndex(); -- int
-spell:GetEndurUpkeep(); -- int
-spell:GetEnvironmentType(); -- int
-spell:GetFormula(int i); -- int
-spell:GetGoodEffect(); -- int
-spell:GetHateAdded(); -- int
-spell:GetID(); -- int
-spell:GetInCombat(); -- bool
-spell:GetMana(); -- int
-spell:GetMax(int i); -- int
-spell:GetMaxDist(); -- float
-spell:GetMaxDistMod(); -- float
-spell:GetMaxResist(); -- int
-spell:GetMaxTargets(); -- int
-spell:GetMinDist(); -- float
-spell:GetMinDistMod(); -- float
-spell:GetMinRange(); -- float
-spell:GetMinResist(); -- int
-spell:GetNimbusEffect(); -- int
-spell:GetNoexpendReagent(int i); -- int
-spell:GetNumHits(); -- int
-spell:GetOutOfCombat(); -- bool
-spell:GetPVPResistBase(); -- int
-spell:GetPVPResistCalc(); -- int
-spell:GetPVPResistCap(); -- int
-spell:GetPersistDeath(); -- bool
-spell:GetPowerfulFlag(); -- int
-spell:GetPushBack(); -- float
-spell:GetPushUp(); -- float
-spell:GetRange(); -- float
-spell:GetRecastTime(); -- uint32
-spell:GetRecourseLink(); -- int
-spell:GetRecoveryTime(); -- uint32
-spell:GetResistDiff(); -- int
-spell:GetResistType(); -- int
-spell:GetShortBuffBox(); -- int
-spell:GetSkill(); -- int
-spell:GetSpellAffectIndex(); -- int
-spell:GetSpellCategory(); -- int
-spell:GetSpellGroup(); -- int
-spell:GetTargetType(); -- int
-spell:GetTimeOfDay(); -- int
-spell:GetUninterruptable(); -- int
-spell:GetViralTargets(); -- int
-spell:GetViralTimer(); -- int
-spell:GetZoneType(); -- int
+## Spell Methods (Lua)
+- spell:[GetAEDuration](getaeduration)(); -- uint32
+- spell:[GetAEMaxTargets](getaemaxtargets)(); -- int
+- spell:[GetActivated](getactivated)(); -- int
+- spell:[GetAllowRest](getallowrest)(); -- bool
+- spell:[GetAoeRange](getaoerange)(); -- float
+- spell:[GetBase](getbase)(int i); -- int
+- spell:[GetBase2](getbase2)(int i); -- int
+- spell:[GetBaseDiff](getbasediff)(); -- int
+- spell:[GetBonusHate](getbonushate)(); -- int
+- spell:[GetBuffDuration](getbuffduration)(); -- uint32
+- spell:[GetBuffdurationFormula](getbuffdurationformula)(); -- uint32
+- spell:[GetCanMGB](getcanmgb)(); -- int
+- spell:[GetCastRestriction](getcastrestriction)(); -- int
+- spell:[GetCastTime](getcasttime)(); -- uint32
+- spell:[GetCastingAnim](getcastinganim)(); -- int
+- spell:[GetClasses](getclasses)(int i); -- int
+- spell:[GetComponentCounts](getcomponentcounts)(int i); -- int
+- spell:[GetComponents](getcomponents)(int i); -- int
+- spell:[GetDamageShieldType](getdamageshieldtype)(); -- int
+- spell:[GetDeities](getdeities)(int i); -- int
+- spell:[GetDescNum](getdescnum)(); -- int
+- spell:[GetDirectionalEnd](getdirectionalend)(); -- float
+- spell:[GetDirectionalStart](getdirectionalstart)(); -- float
+- spell:[GetDisallowSit](getdisallowsit)(); -- int
+- spell:[GetDispelFlag](getdispelflag)(); -- int
+- spell:[GetEffectDescNum](geteffectdescnum)(); -- int
+- spell:[GetEffectID](geteffectid)(int i); -- int
+- spell:[GetEndurCost](getendurcost)(); -- int
+- spell:[GetEndurTimerIndex](getendurtimerindex)(); -- int
+- spell:[GetEndurUpkeep](getendurupkeep)(); -- int
+- spell:[GetEnvironmentType](getenvironmenttype)(); -- int
+- spell:[GetFormula](getformula)(int i); -- int
+- spell:[GetGoodEffect](getgoodeffect)(); -- int
+- spell:[GetHateAdded](gethateadded)(); -- int
+- spell:[GetID](getid)(); -- int
+- spell:[GetInCombat](getincombat)(); -- bool
+- spell:[GetMana](getmana)(); -- int
+- spell:[GetMax](getmax)(int i); -- int
+- spell:[GetMaxDist](getmaxdist)(); -- float
+- spell:[GetMaxDistMod](getmaxdistmod)(); -- float
+- spell:[GetMaxResist](getmaxresist)(); -- int
+- spell:[GetMaxTargets](getmaxtargets)(); -- int
+- spell:[GetMinDist](getmindist)(); -- float
+- spell:[GetMinDistMod](getmindistmod)(); -- float
+- spell:[GetMinRange](getminrange)(); -- float
+- spell:[GetMinResist](getminresist)(); -- int
+- spell:[GetNimbusEffect](getnimbuseffect)(); -- int
+- spell:[GetNoexpendReagent](getnoexpendreagent)(int i); -- int
+- spell:[GetNumHits](getnumhits)(); -- int
+- spell:[GetOutOfCombat](getoutofcombat)(); -- bool
+- spell:[GetPVPResistBase](getpvpresistbase)(); -- int
+- spell:[GetPVPResistCalc](getpvpresistcalc)(); -- int
+- spell:[GetPVPResistCap](getpvpresistcap)(); -- int
+- spell:[GetPersistDeath](getpersistdeath)(); -- bool
+- spell:[GetPowerfulFlag](getpowerfulflag)(); -- int
+- spell:[GetPushBack](getpushback)(); -- float
+- spell:[GetPushUp](getpushup)(); -- float
+- spell:[GetRange](getrange)(); -- float
+- spell:[GetRecastTime](getrecasttime)(); -- uint32
+- spell:[GetRecourseLink](getrecourselink)(); -- int
+- spell:[GetRecoveryTime](getrecoverytime)(); -- uint32
+- spell:[GetResistDiff](getresistdiff)(); -- int
+- spell:[GetResistType](getresisttype)(); -- int
+- spell:[GetShortBuffBox](getshortbuffbox)(); -- int
+- spell:[GetSkill](getskill)(); -- int
+- spell:[GetSpellAffectIndex](getspellaffectindex)(); -- int
+- spell:[GetSpellCategory](getspellcategory)(); -- int
+- spell:[GetSpellGroup](getspellgroup)(); -- int
+- spell:[GetTargetType](gettargettype)(); -- int
+- spell:[GetTimeOfDay](gettimeofday)(); -- int
+- spell:[GetUninterruptable](getuninterruptable)(); -- int
+- spell:[GetViralTargets](getviraltargets)(); -- int
+- spell:[GetViralTimer](getviraltimer)(); -- int
+- spell:[GetZoneType](getzonetype)(); -- int
