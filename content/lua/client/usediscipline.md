@@ -6,5 +6,5 @@ menuTitle: UseDiscipline
 ---
 ## UseDiscipline
 ```lua
-Client:UseDiscipline(int spell_id, int target_id); -- bool
+Client:UseDiscipline(number spell_id, number target_id); -- bool
 ```

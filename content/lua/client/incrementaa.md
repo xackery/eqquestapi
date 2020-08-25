@@ -6,5 +6,5 @@ menuTitle: IncrementAA
 ---
 ## IncrementAA
 ```lua
-Client:IncrementAA(int aa); -- void
+Client:IncrementAA(number aa); -- void
 ```

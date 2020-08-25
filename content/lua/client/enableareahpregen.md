@@ -6,5 +6,5 @@ menuTitle: EnableAreaHPRegen
 ---
 ## EnableAreaHPRegen
 ```lua
-Client:EnableAreaHPRegen(int value); -- void
+Client:EnableAreaHPRegen(number value); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: IsTaskActive
 ---
 ## IsTaskActive
 ```lua
-Client:IsTaskActive(int task); -- bool
+Client:IsTaskActive(number task); -- bool
 ```

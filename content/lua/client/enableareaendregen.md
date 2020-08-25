@@ -6,5 +6,5 @@ menuTitle: EnableAreaEndRegen
 ---
 ## EnableAreaEndRegen
 ```lua
-Client:EnableAreaEndRegen(int value); -- void
+Client:EnableAreaEndRegen(number value); -- void
 ```

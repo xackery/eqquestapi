@@ -6,5 +6,5 @@ menuTitle: GetCharacterFactionLevel
 ---
 ## GetCharacterFactionLevel
 ```lua
-Client:GetCharacterFactionLevel(int faction_id); -- number
+Client:GetCharacterFactionLevel(number faction_id); -- number
 ```

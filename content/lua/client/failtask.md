@@ -6,5 +6,5 @@ menuTitle: FailTask
 ---
 ## FailTask
 ```lua
-Client:FailTask(int task); -- void
+Client:FailTask(number task); -- void
 ```

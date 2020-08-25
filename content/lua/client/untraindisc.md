@@ -6,5 +6,5 @@ menuTitle: UntrainDisc
 ---
 ## UntrainDisc
 ```lua
-Client:UntrainDisc(int slot, bool update_client); -- void
+Client:UntrainDisc(number slot, bool update_client); -- void
 ```

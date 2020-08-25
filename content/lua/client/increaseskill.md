@@ -6,5 +6,5 @@ menuTitle: IncreaseSkill
 ---
 ## IncreaseSkill
 ```lua
-Client:IncreaseSkill(int skill_id, int value); -- void
+Client:IncreaseSkill(number skill_id, number value); -- void
 ```

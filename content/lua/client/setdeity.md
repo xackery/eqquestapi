@@ -6,5 +6,5 @@ menuTitle: SetDeity
 ---
 ## SetDeity
 ```lua
-Client:SetDeity(int v); -- void
+Client:SetDeity(number v); -- void
 ```

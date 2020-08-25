@@ -6,5 +6,5 @@ menuTitle: SetClientMaxLevel
 ---
 ## SetClientMaxLevel
 ```lua
-Client:SetClientMaxLevel(int value); -- void
+Client:SetClientMaxLevel(number value); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: DropItem
 ---
 ## DropItem
 ```lua
-Client:DropItem(int slot_id); -- void
+Client:DropItem(number slot_id); -- void
 ```

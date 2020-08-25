@@ -6,5 +6,5 @@ menuTitle: SendOPTranslocateConfirm
 ---
 ## SendOPTranslocateConfirm
 ```lua
-Client:SendOPTranslocateConfirm(Lua_Mob caster, int spell_id); -- void
+Client:SendOPTranslocateConfirm(Lua_Mob caster, number spell_id); -- void
 ```

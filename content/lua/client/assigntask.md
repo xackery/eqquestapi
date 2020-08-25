@@ -6,5 +6,5 @@ menuTitle: AssignTask
 ---
 ## AssignTask
 ```lua
-Client:AssignTask(int task, int npc_id, bool enforce_level_requirement); -- void
+Client:AssignTask(number task, number npc_id, bool enforce_level_requirement); -- void
 ```

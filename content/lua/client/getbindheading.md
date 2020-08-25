@@ -6,5 +6,5 @@ menuTitle: GetBindHeading
 ---
 ## GetBindHeading
 ```lua
-Client:GetBindHeading(int index); -- number
+Client:GetBindHeading(number index); -- number
 ```

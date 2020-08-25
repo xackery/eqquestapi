@@ -6,5 +6,5 @@ menuTitle: GetItemIDAt
 ---
 ## GetItemIDAt
 ```lua
-Client:GetItemIDAt(int slot_id); -- number
+Client:GetItemIDAt(number slot_id); -- number
 ```

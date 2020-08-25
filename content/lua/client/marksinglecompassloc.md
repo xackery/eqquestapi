@@ -6,5 +6,5 @@ menuTitle: MarkSingleCompassLoc
 ---
 ## MarkSingleCompassLoc
 ```lua
-Client:MarkSingleCompassLoc(float in_x, float in_y, float in_z, int count); -- void
+Client:MarkSingleCompassLoc(float in_x, float in_y, float in_z, number count); -- void
 ```

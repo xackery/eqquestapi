@@ -6,5 +6,5 @@ menuTitle: FindMemmedSpellBySlot
 ---
 ## FindMemmedSpellBySlot
 ```lua
-Client:FindMemmedSpellBySlot(int slot); -- unknown - uint16
+Client:FindMemmedSpellBySlot(number slot); -- unknown - uint16
 ```

@@ -6,5 +6,5 @@ menuTitle: ClearZoneFlag
 ---
 ## ClearZoneFlag
 ```lua
-Client:ClearZoneFlag(int zone_id); -- void
+Client:ClearZoneFlag(number zone_id); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetNextAvailableSpellBookSlot
 ---
 ## GetNextAvailableSpellBookSlot
 ```lua
-Client:GetNextAvailableSpellBookSlot(int start); -- number
+Client:GetNextAvailableSpellBookSlot(number start); -- number
 ```

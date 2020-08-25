@@ -6,5 +6,5 @@ menuTitle: GetCorpseItemAt
 ---
 ## GetCorpseItemAt
 ```lua
-Client:GetCorpseItemAt(int corpse, int slot); -- number
+Client:GetCorpseItemAt(number corpse, number slot); -- number
 ```

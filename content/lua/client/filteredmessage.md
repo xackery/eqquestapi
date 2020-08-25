@@ -6,5 +6,5 @@ menuTitle: FilteredMessage
 ---
 ## FilteredMessage
 ```lua
-Client:FilteredMessage(Mob *sender, uint32 type, int filter, const char *message); -- void
+Client:FilteredMessage(Mob *sender, uint32 type, number filter, const char *message); -- void
 ```

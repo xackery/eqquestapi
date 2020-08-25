@@ -6,5 +6,5 @@ menuTitle: HasSkill
 ---
 ## HasSkill
 ```lua
-Client:HasSkill(int skill_id); -- bool
+Client:HasSkill(number skill_id); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: SetBaseClass
 ---
 ## SetBaseClass
 ```lua
-Client:SetBaseClass(int v); -- void
+Client:SetBaseClass(number v); -- void
 ```

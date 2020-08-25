@@ -6,5 +6,5 @@ menuTitle: SetBindPoint
 ---
 ## SetBindPoint
 ```lua
-Client:SetBindPoint(int to_zone, int to_instance, float new_x, float new_y, float new_z); -- void
+Client:SetBindPoint(number to_zone, number to_instance, float new_x, float new_y, float new_z); -- void
 ```

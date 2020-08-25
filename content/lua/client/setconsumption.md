@@ -6,5 +6,5 @@ menuTitle: SetConsumption
 ---
 ## SetConsumption
 ```lua
-Client:SetConsumption(int in_hunger, int in_thirst); -- void
+Client:SetConsumption(number in_hunger, number in_thirst); -- void
 ```

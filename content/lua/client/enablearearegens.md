@@ -6,5 +6,5 @@ menuTitle: EnableAreaRegens
 ---
 ## EnableAreaRegens
 ```lua
-Client:EnableAreaRegens(int value); -- void
+Client:EnableAreaRegens(number value); -- void
 ```

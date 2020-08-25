@@ -6,5 +6,5 @@ menuTitle: GetLDoNPointsTheme
 ---
 ## GetLDoNPointsTheme
 ```lua
-Client:GetLDoNPointsTheme(int theme); -- number
+Client:GetLDoNPointsTheme(number theme); -- number
 ```

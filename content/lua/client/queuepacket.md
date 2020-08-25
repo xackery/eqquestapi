@@ -6,5 +6,5 @@ menuTitle: QueuePacket
 ---
 ## QueuePacket
 ```lua
-Client:QueuePacket(Lua_Packet app, bool ack_req, int client_connection_status, int filter); -- void
+Client:QueuePacket(Lua_Packet app, bool ack_req, number client_connection_status, number filter); -- void
 ```

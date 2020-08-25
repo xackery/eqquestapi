@@ -6,5 +6,5 @@ menuTitle: CanHaveSkill
 ---
 ## CanHaveSkill
 ```lua
-Client:CanHaveSkill(int skill_id); -- bool
+Client:CanHaveSkill(number skill_id); -- bool
 ```

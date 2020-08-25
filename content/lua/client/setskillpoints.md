@@ -6,5 +6,5 @@ menuTitle: SetSkillPoints
 ---
 ## SetSkillPoints
 ```lua
-Client:SetSkillPoints(int skill); -- void
+Client:SetSkillPoints(number skill); -- void
 ```

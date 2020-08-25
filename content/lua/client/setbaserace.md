@@ -6,5 +6,5 @@ menuTitle: SetBaseRace
 ---
 ## SetBaseRace
 ```lua
-Client:SetBaseRace(int v); -- void
+Client:SetBaseRace(number v); -- void
 ```

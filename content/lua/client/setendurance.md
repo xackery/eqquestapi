@@ -6,5 +6,5 @@ menuTitle: SetEndurance
 ---
 ## SetEndurance
 ```lua
-Client:SetEndurance(int endur); -- void
+Client:SetEndurance(number endur); -- void
 ```

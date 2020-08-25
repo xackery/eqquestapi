@@ -6,5 +6,5 @@ menuTitle: MemSpell
 ---
 ## MemSpell
 ```lua
-Client:MemSpell(int spell_id, int slot, bool update_client); -- void
+Client:MemSpell(number spell_id, number slot, bool update_client); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetTint
 ---
 ## SetTint
 ```lua
-Client:SetTint(int slot_id, uint32 color); -- void
+Client:SetTint(number slot_id, uint32 color); -- void
 ```

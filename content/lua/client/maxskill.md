@@ -6,5 +6,5 @@ menuTitle: MaxSkill
 ---
 ## MaxSkill
 ```lua
-Client:MaxSkill(int skill_id); -- number
+Client:MaxSkill(number skill_id); -- number
 ```

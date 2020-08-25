@@ -6,5 +6,5 @@ menuTitle: SetZoneFlag
 ---
 ## SetZoneFlag
 ```lua
-Client:SetZoneFlag(int zone_id); -- void
+Client:SetZoneFlag(number zone_id); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetThirst
 ---
 ## SetThirst
 ```lua
-Client:SetThirst(int in_thirst); -- void
+Client:SetThirst(number in_thirst); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetInstrumentMod
 ---
 ## GetInstrumentMod
 ```lua
-Client:GetInstrumentMod(int spell_id); -- number
+Client:GetInstrumentMod(number spell_id); -- number
 ```
