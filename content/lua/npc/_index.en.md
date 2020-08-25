@@ -72,6 +72,7 @@ weight: 25
 - npc:[GetWaypointMax](getwaypointmax)(); -- int
 - npc:[IsAnimal](isanimal)(); -- bool
 - npc:[IsGuarding](isguarding)(); -- bool
+- npc:[IsTaunting](istaunting)(); -- bool
 - npc:[IsOnHatelist](isonhatelist)(Lua_Mob ent); -- bool
 - npc:[MerchantCloseShop](merchantcloseshop)(); -- void
 - npc:[MerchantOpenShop](merchantopenshop)(); -- void
