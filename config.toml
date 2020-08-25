@@ -3,7 +3,7 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 
 title = "Quest API"
-theme = "hugo-theme-learn"
+theme = "questapi"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
