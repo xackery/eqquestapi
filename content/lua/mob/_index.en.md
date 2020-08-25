@@ -122,6 +122,7 @@ weight: 25
 - mob:[FindType](findtype)(int type); -- bool
 - mob:[FindType](findtype)(int type, bool offensive); -- bool
 - mob:[FindType](findtype)(int type, bool offensive, int threshold); -- bool
+- mob:[GetDisplayAC](getdisplayac)(); -- int
 - mob:[GMMove](gmmove)(double x, double y, double z); -- void
 - mob:[GMMove](gmmove)(double x, double y, double z, double heading); -- void
 - mob:[GMMove](gmmove)(double x, double y, double z, double heading, bool send_update); -- void
