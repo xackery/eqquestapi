@@ -1,10 +1,10 @@
 ---
-title: Lua SetClassMaxLevel
+title: Lua SetClientMaxLevel
 weight: 1
 hidden: true
-menuTitle: SetClassMaxLevel
+menuTitle: SetClientMaxLevel
 ---
-## SetClassMaxLevel
+## SetClientMaxLevel
 ```lua
 client:SetClientMaxLevel(int value); -- void
 ```
