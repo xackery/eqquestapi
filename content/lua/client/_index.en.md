@@ -92,6 +92,7 @@ weight: 25
 - client:[GetBindZoneID](getbindzoneid)(int index); -- uint32
 - client:[GetCarriedMoney](getcarriedmoney)(); -- uint64
 - client:[GetCharacterFactionLevel](getcharacterfactionlevel)(int faction_id); -- int
+- client:[GetClientMaxLevel](getclientmaxlevel)(); -- void
 - client:[GetClientVersion](getclientversion)(); -- int
 - client:[GetClientVersionBit](getclientversionbit)(); -- uint32
 - client:[GetCorpseCount](getcorpsecount)(); -- int
@@ -188,6 +189,7 @@ weight: 25
 - client:[MoveZoneInstance](movezoneinstance)(uint16 instance_id); -- void
 - client:[MoveZoneInstanceGroup](movezoneinstancegroup)(uint16 instance_id); -- void
 - client:[MoveZoneInstanceRaid](movezoneinstanceraid)(uint16 instance_id); -- void
+- client:[NotifyNewTitlesAvailable](notifynewtitlesavailable)(); -- void
 - client:[NukeItem](nukeitem)(uint32 item_num); -- void
 - client:[NukeItem](nukeitem)(uint32 item_num, int where_to_check); -- void
 - client:[OpenLFGuildWindow](openlfguildwindow)(); -- void
@@ -221,6 +223,7 @@ weight: 25
 - client:[SendMarqueeMessage](sendmarqueemessage)(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, std::string msg); -- void
 - client:[SendOPTranslocateConfirm](sendoptranslocateconfirm)(Lua_Mob caster, int spell_id); -- void
 - client:[SendSound](sendsound)(); -- void
+- client:[SendToGuildhall](sendtoguildhall)(); -- void
 - client:[SendWebLink](sendweblink)(const char *site); -- void
 - client:[SendZoneFlagInfo](sendzoneflaginfo)(Lua_Client to); -- void
 - client:[SetAAPoints](setaapoints)(int points); -- void
@@ -236,6 +239,7 @@ weight: 25
 - client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x); -- void
 - client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x, float new_y); -- void
 - client:[SetBindPoint](setbindpoint)(int to_zone, int to_instance, float new_x, float new_y, float new_z); -- void
+- client:[SetClientMaxLevel](setclientmaxlevel)(int value); -- void
 - client:[SetConsumption](setconsumption)(int in_hunger, int in_thirst); -- void
 - client:[SetDeity](setdeity)(int v); -- void
 - client:[SetDuelTarget](setdueltarget)(int c); -- void
