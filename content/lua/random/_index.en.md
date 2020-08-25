@@ -6,3 +6,7 @@ weight: 25
 ---
 
 ## Random Methods (Lua)
+- Random.[Int](int); -- 
+- Random.[Real](real); -- 
+- Random.[Roll](roll); -- 
+- Random.[RollReal](rollreal); -- 
