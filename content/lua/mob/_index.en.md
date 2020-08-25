@@ -6,384 +6,281 @@ weight: 25
 ---
 
 ## Mob Methods (Lua)
-- mob:[AddNimbusEffect](addnimbuseffect)(int effect_id); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate, int damage); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate, int damage, bool yell_for_help); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate, int damage, bool yell_for_help, bool frenzy); -- void
-- mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate, int damage, bool yell_for_help, bool frenzy, bool buff_tic); -- void
-- mob:[Attack](attack)(Lua_Mob other); -- bool
-- mob:[Attack](attack)(Lua_Mob other, int hand); -- bool
-- mob:[Attack](attack)(Lua_Mob other, int hand, bool from_riposte); -- bool
-- mob:[Attack](attack)(Lua_Mob other, int hand, bool from_riposte, bool is_strikethrough); -- bool
-- mob:[Attack](attack)(Lua_Mob other, int hand, bool from_riposte, bool is_strikethrough, bool is_from_spell); -- bool
-- mob:[AttackAnimation](attackanimation)(int Hand, Lua_ItemInst weapon); -- int
-- mob:[BehindMob](behindmob)(); -- bool
-- mob:[BehindMob](behindmob)(Lua_Mob other); -- bool
-- mob:[BehindMob](behindmob)(Lua_Mob other, float x); -- bool
-- mob:[BehindMob](behindmob)(Lua_Mob other, float x, float y); -- bool
-- mob:[BuffCount](buffcount)(); -- uint32
-- mob:[BuffFadeAll](bufffadeall)(); -- void
-- mob:[BuffFadeByEffect](bufffadebyeffect)(int effect_id); -- void
-- mob:[BuffFadeByEffect](bufffadebyeffect)(int effect_id, int skipslot); -- void
-- mob:[BuffFadeBySlot](bufffadebyslot)(int slot); -- void
-- mob:[BuffFadeBySlot](bufffadebyslot)(int slot, bool recalc_bonuses); -- void
-- mob:[BuffFadeBySpellID](bufffadebyspellid)(int spell_id); -- void
-- mob:[CalculateDistance](calculatedistance)(double x, double y, double z); -- float
-- mob:[CalculateHeadingToTarget](calculateheadingtotarget)(double in_x, double in_y); -- double
-- mob:[CameraEffect](cameraeffect)(uint32 duration, uint32 intensity); -- void
-- mob:[CameraEffect](cameraeffect)(uint32 duration, uint32 intensity, Lua_Client c); -- void
-- mob:[CameraEffect](cameraeffect)(uint32 duration, uint32 intensity, Lua_Client c, bool global); -- void
-- mob:[CanBuffStack](canbuffstack)(int spell_id, int caster_level); -- int
-- mob:[CanBuffStack](canbuffstack)(int spell_id, int caster_level, bool fail_if_overwrite); -- int
-- mob:[CanThisClassBlock](canthisclassblock)(); -- bool
-- mob:[CanThisClassDodge](canthisclassdodge)(); -- bool
-- mob:[CanThisClassDoubleAttack](canthisclassdoubleattack)(); -- bool
-- mob:[CanThisClassDualWield](canthisclassdualwield)(); -- bool
-- mob:[CanThisClassParry](canthisclassparry)(); -- bool
-- mob:[CanThisClassRiposte](canthisclassriposte)(); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time, int mana_cost); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time, int mana_cost, int item_slot); -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time, int mana_cost, int item_slot, int timer,; -- bool
-- mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time, int mana_cost, int item_slot, int timer,; -- bool
-- mob:[ChangeBeard](changebeard)(int in); -- void
-- mob:[ChangeBeardColor](changebeardcolor)(int in); -- void
-- mob:[ChangeDrakkinDetails](changedrakkindetails)(int in); -- void
-- mob:[ChangeDrakkinHeritage](changedrakkinheritage)(int in); -- void
-- mob:[ChangeDrakkinTattoo](changedrakkintattoo)(int in); -- void
-- mob:[ChangeEyeColor1](changeeyecolor1)(int in); -- void
-- mob:[ChangeEyeColor2](changeeyecolor2)(int in); -- void
-- mob:[ChangeGender](changegender)(int in); -- void
-- mob:[ChangeHairColor](changehaircolor)(int in); -- void
-- mob:[ChangeHairStyle](changehairstyle)(int in); -- void
-- mob:[ChangeHelmTexture](changehelmtexture)(int in); -- void
-- mob:[ChangeLuclinFace](changeluclinface)(int in); -- void
-- mob:[ChangeRace](changerace)(int in); -- void
-- mob:[ChangeSize](changesize)(double in_size); -- void
-- mob:[ChangeSize](changesize)(double in_size, bool no_restriction); -- void
-- mob:[ChangeTexture](changetexture)(int in); -- void
-- mob:[Charmed](charmed)(); -- bool
-- mob:[CheckAggro](checkaggro)(Lua_Mob other); -- bool
-- mob:[CheckAggroAmount](checkaggroamount)(int spell_id); -- int
-- mob:[CheckAggroAmount](checkaggroamount)(int spell_id, bool is_proc); -- int
-- mob:[CheckHealAggroAmount](checkhealaggroamount)(int spell_id); -- int
-- mob:[CheckHealAggroAmount](checkhealaggroamount)(int spell_id, uint32 heal_possible); -- int
-- mob:[CheckLoS](checklos)(Lua_Mob other); -- bool
-- mob:[CheckLoSToLoc](checklostoloc)(double x, double y, double z); -- bool
-- mob:[CheckLoSToLoc](checklostoloc)(double x, double y, double z, double mob_size); -- bool
-- mob:[CheckNumHitsRemaining](checknumhitsremaining)(int type, int32 buff_slot, uint16 spell_id); -- void
-- mob:[ClearSpecialAbilities](clearspecialabilities)(); -- void
-- mob:[CombatRange](combatrange)(Lua_Mob other); -- bool
-- mob:[Damage](damage)(Lua_Mob from, int damage, int spell_id, int attack_skill); -- void
-- mob:[Damage](damage)(Lua_Mob from, int damage, int spell_id, int attack_skill, bool avoidable); -- void
-- mob:[Damage](damage)(Lua_Mob from, int damage, int spell_id, int attack_skill, bool avoidable, int buffslot); -- void
-- mob:[Damage](damage)(Lua_Mob from, int damage, int spell_id, int attack_skill, bool avoidable, int buffslot, bool buff_tic); -- void
-- mob:[DelGlobal](delglobal)(const char *varname); -- void
-- mob:[Depop](depop)(); -- void
-- mob:[Depop](depop)(bool start_spawn_timer); -- void
-- mob:[DivineAura](divineaura)(); -- bool
-- mob:[DoAnim](doanim)(int anim_num); -- void
-- mob:[DoAnim](doanim)(int anim_num, int type); -- void
-- mob:[DoAnim](doanim)(int anim_num, int type, bool ackreq); -- void
-- mob:[DoAnim](doanim)(int anim_num, int type, bool ackreq, int filter); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo, int weapon_damage); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo, int weapon_damage, int chance_mod); -- void
-- mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo, int weapon_damage, int chance_mod,; -- void
-- mob:[DoKnockback](doknockback)(Lua_Mob caster, uint32 pushback, uint32 pushup); -- void
-- mob:[DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, int weapon_damage, int skill); -- void
-- mob:[DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, int weapon_damage, int skill, int chance_mod); -- void
-- mob:[DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, int weapon_damage, int skill, int chance_mod, int focus); -- void
-- mob:[DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, int weapon_damage, int skill, int chance_mod, int focus, bool can_riposte); -- void
-- mob:[DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, int skill, int max_damage); -- void
-- mob:[DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, int skill, int max_damage, int min_damage); -- void
-- mob:[DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, int skill, int max_damage, int min_damage, int hate_override); -- void
-- mob:[DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, int skill, int max_damage, int min_damage, int hate_override, int reuse_time); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage, int chance_mod); -- void
-- mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage, int chance_mod,; -- void
-- mob:[DoubleAggro](doubleaggro)(Lua_Mob other); -- void
-- mob:[Emote](emote)(const char *message); -- void
-- mob:[EntityVariableExists](entityvariableexists)(const char *name); -- bool
-- mob:[FaceTarget](facetarget)(Lua_Mob target); -- void
-- mob:[FindBuff](findbuff)(int spell_id); -- bool
-- mob:[FindBuffBySlot](findbuffbyslot)(int slot); -- uint16
-- mob:[FindGroundZ](findgroundz)(double x, double y); -- double
-- mob:[FindGroundZ](findgroundz)(double x, double y, double z); -- double
-- mob:[FindType](findtype)(int type); -- bool
-- mob:[FindType](findtype)(int type, bool offensive); -- bool
-- mob:[FindType](findtype)(int type, bool offensive, int threshold); -- bool
-- mob:[GetDisplayAC](getdisplayac)(); -- int
-- mob:[GMMove](gmmove)(double x, double y, double z); -- void
-- mob:[GMMove](gmmove)(double x, double y, double z, double heading); -- void
-- mob:[GMMove](gmmove)(double x, double y, double z, double heading, bool send_update); -- void
-- mob:[Gate](gate)(); -- void
-- mob:[GetAA](getaa)(int id); -- int
-- mob:[GetAABonuses](getaabonuses)(); -- Lua_StatBonuses
-- mob:[GetAAByAAID](getaabyaaid)(int id); -- int
-- mob:[GetAC](getac)(); -- int
-- mob:[GetAGI](getagi)(); -- int
-- mob:[GetATK](getatk)(); -- int
-- mob:[GetAggroRange](getaggrorange)(); -- float
-- mob:[GetAllowBeneficial](getallowbeneficial)(); -- bool
-- mob:[GetAppearance](getappearance)(); -- uint32
-- mob:[GetAssistRange](getassistrange)(); -- float
-- mob:[GetBaseGender](getbasegender)(); -- int
-- mob:[GetBaseRace](getbaserace)(); -- int
-- mob:[GetBaseSize](getbasesize)(); -- float
-- mob:[GetBeard](getbeard)(); -- int
-- mob:[GetBeardColor](getbeardcolor)(); -- int
-- mob:[GetBodyType](getbodytype)(); -- int
-- mob:[GetBuffSlotFromType](getbuffslotfromtype)(int slot); -- int
-- mob:[GetCHA](getcha)(); -- int
-- mob:[GetCR](getcr)(); -- int
-- mob:[GetCasterLevel](getcasterlevel)(int spell_id); -- int
-- mob:[GetClass](getclass)(); -- int
-- mob:[GetCorruption](getcorruption)(); -- int
-- mob:[GetDEX](getdex)(); -- int
-- mob:[GetDR](getdr)(); -- int
-- mob:[GetDamageAmount](getdamageamount)(Lua_Mob target); -- uint32
-- mob:[GetDeity](getdeity)(); -- int
-- mob:[GetDrakkinDetails](getdrakkindetails)(); -- int
-- mob:[GetDrakkinHeritage](getdrakkinheritage)(); -- int
-- mob:[GetDrakkinTattoo](getdrakkintattoo)(); -- int
-- mob:[GetEyeColor1](geteyecolor1)(); -- int
-- mob:[GetEyeColor2](geteyecolor2)(); -- int
-- mob:[GetFR](getfr)(); -- int
-- mob:[GetFcDamageAmtIncoming](getfcdamageamtincoming)(Lua_Mob caster, uint32 spell_id, bool use_skill, uint16 skill); -- int
-- mob:[GetFlurryChance](getflurrychance)(); -- int
-- mob:[GetGender](getgender)(); -- int
-- mob:[GetGlobal](getglobal)(const char *varname); -- std::string
-- mob:[GetHP](gethp)(); -- int
-- mob:[GetHPRatio](gethpratio)(); -- double
-- mob:[GetHairColor](gethaircolor)(); -- int
-- mob:[GetHairStyle](gethairstyle)(); -- int
-- mob:[GetHandToHandDamage](gethandtohanddamage)(); -- int
-- mob:[GetHandToHandDelay](gethandtohanddelay)(); -- int
-- mob:[GetHaste](gethaste)(); -- int
-- mob:[GetHateAmount](gethateamount)(Lua_Mob target); -- uint32
-- mob:[GetHateAmount](gethateamount)(Lua_Mob target, bool is_damage); -- uint32
-- mob:[GetHateDamageTop](gethatedamagetop)(Lua_Mob other); -- Lua_Mob
-- mob:[GetHateList](gethatelist)(); -- Lua_HateList
-- mob:[GetHateRandom](gethaterandom)(); -- Lua_Mob
-- mob:[GetHateTop](gethatetop)(); -- Lua_Mob
-- mob:[GetHeading](getheading)(); -- double
-- mob:[GetHelmTexture](gethelmtexture)(); -- int
-- mob:[GetHerosForgeModel](getherosforgemodel)(uint8 material_slot); -- uint32
-- mob:[GetINT](getint)(); -- int
-- mob:[GetInvul](getinvul)(); -- bool
-- mob:[GetItemBonuses](getitembonuses)(); -- Lua_StatBonuses
-- mob:[GetItemHPBonuses](getitemhpbonuses)(); -- int
-- mob:[GetItemStat](getitemstat)(uint32 itemid, const char* identifier); -- int
-- mob:[GetLevel](getlevel)(); -- int
-- mob:[GetLevelCon](getlevelcon)(int my, int other); -- uint32
-- mob:[GetLevelCon](getlevelcon)(int other); -- uint32
-- mob:[GetLuclinFace](getluclinface)(); -- int
-- mob:[GetMR](getmr)(); -- int
-- mob:[GetMana](getmana)(); -- int
-- mob:[GetManaRatio](getmanaratio)(); -- double
-- mob:[GetMaxAGI](getmaxagi)(); -- int
-- mob:[GetMaxCHA](getmaxcha)(); -- int
-- mob:[GetMaxDEX](getmaxdex)(); -- int
-- mob:[GetMaxHP](getmaxhp)(); -- int
-- mob:[GetMaxINT](getmaxint)(); -- int
-- mob:[GetMaxMana](getmaxmana)(); -- int
-- mob:[GetMaxSTA](getmaxsta)(); -- int
-- mob:[GetMaxSTR](getmaxstr)(); -- int
-- mob:[GetMaxWIS](getmaxwis)(); -- int
-- mob:[GetMeleeDamageMod_SE](getmeleedamagemod_se)(uint16 skill); -- int16
-- mob:[GetMeleeMinDamageMod_SE](getmeleemindamagemod_se)(uint16 skill); -- int16
-- mob:[GetMeleeMitigation](getmeleemitigation)(); -- int32
-- mob:[GetModSkillDmgTaken](getmodskilldmgtaken)(int skill); -- int
-- mob:[GetModVulnerability](getmodvulnerability)(int resist); -- int
-- mob:[GetNPCTypeID](getnpctypeid)(); -- int
-- mob:[GetNimbusEffect1](getnimbuseffect1)(); -- uint8
-- mob:[GetNimbusEffect2](getnimbuseffect2)(); -- uint8
-- mob:[GetNimbusEffect3](getnimbuseffect3)(); -- uint8
-- mob:[GetOrigBodyType](getorigbodytype)(); -- int
-- mob:[GetOwner](getowner)(); -- Lua_Mob
-- mob:[GetPR](getpr)(); -- int
-- mob:[GetPet](getpet)(); -- Lua_Mob
-- mob:[GetPetOrder](getpetorder)(); -- int
-- mob:[GetPhR](getphr)(); -- int
-- mob:[GetRace](getrace)(); -- int
-- mob:[GetResist](getresist)(int type); -- int
-- mob:[GetReverseFactionCon](getreversefactioncon)(Lua_Mob other); -- int
-- mob:[GetRunspeed](getrunspeed)(); -- double
-- mob:[GetSTA](getsta)(); -- int
-- mob:[GetSTR](getstr)(); -- int
-- mob:[GetSize](getsize)(); -- double
-- mob:[GetSkill](getskill)(int skill); -- int
-- mob:[GetSkillDmgAmt](getskilldmgamt)(uint16 skill); -- int
-- mob:[GetSkillDmgTaken](getskilldmgtaken)(int skill); -- int
-- mob:[GetSpecialAbility](getspecialability)(int ability); -- int
-- mob:[GetSpecialAbilityParam](getspecialabilityparam)(int ability, int param); -- int
-- mob:[GetSpecializeSkillValue](getspecializeskillvalue)(int spell_id); -- int
-- mob:[GetSpellBonuses](getspellbonuses)(); -- Lua_StatBonuses
-- mob:[GetSpellHPBonuses](getspellhpbonuses)(); -- int
-- mob:[GetTarget](gettarget)(); -- Lua_Mob
-- mob:[GetTexture](gettexture)(); -- int
-- mob:[GetWIS](getwis)(); -- int
-- mob:[GetWalkspeed](getwalkspeed)(); -- double
-- mob:[GetWaypointH](getwaypointh)(); -- double
-- mob:[GetWaypointID](getwaypointid)(); -- int
-- mob:[GetWaypointPause](getwaypointpause)(); -- double
-- mob:[GetWaypointX](getwaypointx)(); -- double
-- mob:[GetWaypointY](getwaypointy)(); -- double
-- mob:[GetWaypointZ](getwaypointz)(); -- double
-- mob:[GetWeaponDamage](getweapondamage)(Lua_Mob against, Lua_ItemInst weapon); -- int
-- mob:[GetWeaponDamageBonus](getweapondamagebonus)(Lua_Item weapon, bool offhand); -- int
-- mob:[GetX](getx)(); -- double
-- mob:[GetY](gety)(); -- double
-- mob:[GetZ](getz)(); -- double
-- mob:[GotoBind](gotobind)(); -- void
-- mob:[HalveAggro](halveaggro)(Lua_Mob other); -- void
-- mob:[HasNPCSpecialAtk](hasnpcspecialatk)(const char *parse); -- bool
-- mob:[HasOwner](hasowner)(); -- bool
-- mob:[HasPet](haspet)(); -- bool
-- mob:[HasProcs](hasprocs)(); -- bool
-- mob:[HasShieldEquiped](hasshieldequiped)(); -- bool
-- mob:[HasTwoHandBluntEquiped](hastwohandbluntequiped)(); -- bool
-- mob:[HasTwoHanderEquipped](hastwohanderequipped)(); -- bool
-- mob:[Heal](heal)(); -- void
-- mob:[HealDamage](healdamage)(uint32 amount); -- void
-- mob:[HealDamage](healdamage)(uint32 amount, Lua_Mob other); -- void
-- mob:[InterruptSpell](interruptspell)(); -- void
-- mob:[InterruptSpell](interruptspell)(int spell_id); -- void
-- mob:[IsAIControlled](isaicontrolled)(); -- bool
-- mob:[IsAmnesiad](isamnesiad)(); -- bool
-- mob:[IsAttackAllowed](isattackallowed)(Lua_Mob target, bool isSpellAttack); -- bool
-- mob:[IsBeneficialAllowed](isbeneficialallowed)(Lua_Mob target); -- bool
-- mob:[IsBerserk](isberserk)(); -- bool
-- mob:[IsBlind](isblind)(); -- bool
-- mob:[IsCasting](iscasting)(); -- bool
-- mob:[IsEliteMaterialItem](iselitematerialitem)(uint8 material_slot); -- uint32
-- mob:[IsEngaged](isengaged)(); -- bool
-- mob:[IsEnraged](isenraged)(); -- bool
-- mob:[IsFeared](isfeared)(); -- bool
-- mob:[IsImmuneToSpell](isimmunetospell)(int spell_id, Lua_Mob caster); -- bool
-- mob:[IsInvisible](isinvisible)(); -- bool
-- mob:[IsInvisible](isinvisible)(Lua_Mob other); -- bool
-- mob:[IsMeleeDisabled](ismeleedisabled)(); -- bool
-- mob:[IsMezzed](ismezzed)(); -- bool
-- mob:[IsMoving](ismoving)(); -- bool
-- mob:[IsPet](ispet)(); -- bool
-- mob:[IsRoamer](isroamer)(); -- bool
-- mob:[IsRooted](isrooted)(); -- bool
-- mob:[IsRunning](isrunning)(); -- bool
-- mob:[IsSilenced](issilenced)(); -- bool
-- mob:[IsStunned](isstunned)(); -- bool
-- mob:[IsTargetable](istargetable)(); -- bool
-- mob:[IsTargeted](istargeted)(); -- bool
-- mob:[IsWarriorClass](iswarriorclass)(); -- bool
-- mob:[Kill](kill)(); -- void
-- mob:[Mesmerize](mesmerize)(); -- void
-- mob:[Message](message)(int type, const char *message); -- void
-- mob:[MessageString](messagestring)(int type, int string_id, uint32 distance); -- void
-- mob:[ModSkillDmgTaken](modskilldmgtaken)(int skill, int value); -- void
-- mob:[ModVulnerability](modvulnerability)(int resist, int value); -- void
-- mob:[NPCSpecialAttacks](npcspecialattacks)(const char *parse, int perm); -- void
-- mob:[NPCSpecialAttacks](npcspecialattacks)(const char *parse, int perm, bool reset); -- void
-- mob:[NPCSpecialAttacks](npcspecialattacks)(const char *parse, int perm, bool reset, bool remove); -- void
-- mob:[NavigateTo](navigateto)(double x, double y, double z); -- void
-- mob:[ProcessSpecialAbilities](processspecialabilities)(std::string str); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow, double speed); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow, double speed, double angle); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow, double speed, double angle, double tilt); -- void
-- mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow, double speed, double angle, double tilt, double arc); -- void
-- mob:[QuestSay](questsay)(Lua_Client client, const char *message); -- void
-- mob:[RandomizeFeatures](randomizefeatures)(bool send_illusion, bool save_variables); -- void
-- mob:[RangedAttack](rangedattack)(Lua_Mob other); -- void
-- mob:[RemoveNimbusEffect](removenimbuseffect)(int effect_id); -- void
-- mob:[ResistSpell](resistspell)(int resist_type, int spell_id, Lua_Mob caster); -- double
-- mob:[ResistSpell](resistspell)(int resist_type, int spell_id, Lua_Mob caster, bool use_resist_override); -- double
-- mob:[ResistSpell](resistspell)(int resist_type, int spell_id, Lua_Mob caster, bool use_resist_override, int resist_override); -- double
-- mob:[ResistSpell](resistspell)(int resist_type, int spell_id, Lua_Mob caster, bool use_resist_override, int resist_override,; -- double
-- mob:[RunTo](runto)(double x, double y, double z); -- void
-- mob:[Say](say)(const char *message); -- void
-- mob:[Say](say)(const char* message, int language); -- void
-- mob:[SeeHide](seehide)(); -- bool
-- mob:[SeeImprovedHide](seeimprovedhide)(); -- bool
-- mob:[SeeInvisible](seeinvisible)(); -- uint8
-- mob:[SeeInvisibleUndead](seeinvisibleundead)(); -- bool
-- mob:[SendAppearanceEffect](sendappearanceeffect)(uint32 parm1, uint32 parm2, uint32 parm3, uint32 parm4, uint32 parm5); -- void
-- mob:[SendAppearanceEffect](sendappearanceeffect)(uint32 parm1, uint32 parm2, uint32 parm3, uint32 parm4, uint32 parm5, Lua_Client specific_target); -- void
-- mob:[SendBeginCast](sendbegincast)(int spell_id, int cast_time); -- void
-- mob:[SendSpellEffect](sendspelleffect)(uint32 effect_id, uint32 duration, uint32 finish_delay, bool zone_wide, uint32 unk020); -- void
-- mob:[SendSpellEffect](sendspelleffect)(uint32 effect_id, uint32 duration, uint32 finish_delay, bool zone_wide, uint32 unk020, bool perm_effect); -- void
-- mob:[SendSpellEffect](sendspelleffect)(uint32 effect_id, uint32 duration, uint32 finish_delay, bool zone_wide, uint32 unk020, bool perm_effect,; -- void
-- mob:[SendTo](sendto)(double x, double y, double z); -- void
-- mob:[SendToFixZ](sendtofixz)(double x, double y, double z); -- void
-- mob:[SendWearChange](sendwearchange)(int material_slot); -- void
-- mob:[SetAA](setaa)(int rank_id, int new_value); -- bool
-- mob:[SetAA](setaa)(int rank_id, int new_value, int charges); -- bool
-- mob:[SetAllowBeneficial](setallowbeneficial)(bool value); -- void
-- mob:[SetAppearance](setappearance)(int app); -- void
-- mob:[SetAppearance](setappearance)(int app, bool ignore_self); -- void
-- mob:[SetBodyType](setbodytype)(int new_body, bool overwrite_orig); -- void
-- mob:[SetCurrentWP](setcurrentwp)(int wp); -- void
-- mob:[SetDestructibleObject](setdestructibleobject)(bool set); -- void
-- mob:[SetDisableMelee](setdisablemelee)(bool disable); -- void
-- mob:[SetEntityVariable](setentityvariable)(const char *name, const char *value); -- void
-- mob:[SetExtraHaste](setextrahaste)(int haste); -- void
-- mob:[SetFlurryChance](setflurrychance)(int value); -- void
-- mob:[SetFlyMode](setflymode)(int in); -- void
-- mob:[SetGender](setgender)(int in); -- void
-- mob:[SetGlobal](setglobal)(const char *varname, const char *newvalue, int options, const char *duration); -- void
-- mob:[SetGlobal](setglobal)(const char *varname, const char *newvalue, int options, const char *duration, Lua_Mob other); -- void
-- mob:[SetHP](sethp)(int hp); -- void
-- mob:[SetHate](sethate)(Lua_Mob other); -- void
-- mob:[SetHate](sethate)(Lua_Mob other, int hate); -- void
-- mob:[SetHate](sethate)(Lua_Mob other, int hate, int damage); -- void
-- mob:[SetHeading](setheading)(double in); -- void
-- mob:[SetInvisible](setinvisible)(int state); -- void
-- mob:[SetInvul](setinvul)(bool value); -- void
-- mob:[SetLevel](setlevel)(int level); -- void
-- mob:[SetLevel](setlevel)(int level, bool command); -- void
-- mob:[SetMana](setmana)(int mana); -- int
-- mob:[SetOOCRegen](setoocregen)(int regen); -- void
-- mob:[SetPetOrder](setpetorder)(int order); -- void
-- mob:[SetPseudoRoot](setpseudoroot)(bool in); -- void
-- mob:[SetRace](setrace)(int in); -- void
-- mob:[SetRunning](setrunning)(bool running); -- void
-- mob:[SetSlotTint](setslottint)(int material_slot, int red_tint, int green_tint, int blue_tint); -- void
-- mob:[SetSpecialAbility](setspecialability)(int ability, int level); -- void
-- mob:[SetSpecialAbilityParam](setspecialabilityparam)(int ability, int param, int value); -- void
-- mob:[SetTarget](settarget)(Lua_Mob t); -- void
-- mob:[SetTargetable](settargetable)(bool on); -- void
-- mob:[SetTexture](settexture)(int in); -- void
-- mob:[Shout](shout)(const char *message); -- void
-- mob:[Shout](shout)(const char* message, int language); -- void
-- mob:[Signal](signal)(uint32 id); -- void
-- mob:[SpellEffect](spelleffect)(Lua_Mob caster, int spell_id, double partial); -- void
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target); -- bool
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot); -- bool
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot, int mana_used); -- bool
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot, int mana_used, uint32 inventory_slot); -- bool
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot, int mana_used, uint32 inventory_slot, int resist_adjust); -- bool
-- mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot, int mana_used, uint32 inventory_slot, int resist_adjust, bool proc); -- bool
-- mob:[Spin](spin)(); -- void
-- mob:[StopNavigation](stopnavigation)(); -- void
-- mob:[Stun](stun)(int duration); -- void
-- mob:[TarGlobal](targlobal)(const char *varname, const char *value, const char *duration, int npc_id, int char_id, int zone_id); -- void
-- mob:[TempName](tempname)(); -- void
-- mob:[TempName](tempname)(const char *newname); -- void
-- mob:[ThrowingAttack](throwingattack)(Lua_Mob other); -- void
-- mob:[TryFinishingBlow](tryfinishingblow)(Lua_Mob defender, int &damage); -- bool
-- mob:[TryMoveAlong](trymovealong)(float distance, float angle); -- void
-- mob:[TryMoveAlong](trymovealong)(float distance, float angle, bool send); -- void
-- mob:[UnStun](unstun)(); -- void
-- mob:[WalkTo](walkto)(double x, double y, double z); -- void
-- mob:[WearChange](wearchange)(int material_slot, int texture, uint32 color); -- void
-- mob:[WipeHateList](wipehatelist)(); -- void
+- Mob:[GetName](getname)(); -- string
+- Mob:[Depop](depop)(bool start_spawn_timer); -- void
+- Mob:[BehindMob](behindmob)(Lua_Mob other, float x, float y); -- bool
+- Mob:[SetLevel](setlevel)(int level, bool command); -- void
+- Mob:[IsMoving](ismoving)(); -- bool
+- Mob:[GotoBind](gotobind)(); -- void
+- Mob:[Attack](attack)(Lua_Mob other, int hand, bool from_riposte, bool is_strikethrough, bool is_from_spell, luabind::adl::object opts); -- bool
+- Mob:[Damage](damage)(Lua_Mob from, int damage, int spell_id, int attack_skill, bool avoidable, int buffslot, bool buff_tic); -- void
+- Mob:[RangedAttack](rangedattack)(Lua_Mob other); -- void
+- Mob:[ThrowingAttack](throwingattack)(Lua_Mob other); -- void
+- Mob:[Heal](heal)(); -- void
+- Mob:[HealDamage](healdamage)(uint32 amount, Lua_Mob other); -- void
+- Mob:[GetLevelCon](getlevelcon)(int my, int other); -- number
+- Mob:[SetHP](sethp)(int hp); -- void
+- Mob:[DoAnim](doanim)(int anim_num, int type, bool ackreq, int filter); -- void
+- Mob:[ChangeSize](changesize)(double in_size, bool no_restriction); -- void
+- Mob:[RandomizeFeatures](randomizefeatures)(bool send_illusion, bool save_variables); -- void
+- Mob:[GMMove](gmmove)(double x, double y, double z, double heading, bool send_update); -- void
+- Mob:[TryMoveAlong](trymovealong)(float distance, float angle, bool send); -- void
+- Mob:[HasProcs](hasprocs)(); -- bool
+- Mob:[IsInvisible](isinvisible)(Lua_Mob other); -- bool
+- Mob:[SetInvisible](setinvisible)(int state); -- void
+- Mob:[FindBuff](findbuff)(int spell_id); -- bool
+- Mob:[FindBuffBySlot](findbuffbyslot)(int slot); -- unknown - uint16
+- Mob:[BuffCount](buffcount)(); -- number
+- Mob:[FindType](findtype)(int type, bool offensive, int threshold); -- bool
+- Mob:[GetBuffSlotFromType](getbuffslotfromtype)(int slot); -- number
+- Mob:[GetBaseRace](getbaserace)(); -- number
+- Mob:[GetBaseGender](getbasegender)(); -- number
+- Mob:[GetDeity](getdeity)(); -- number
+- Mob:[GetRace](getrace)(); -- number
+- Mob:[GetGender](getgender)(); -- number
+- Mob:[GetTexture](gettexture)(); -- number
+- Mob:[GetHelmTexture](gethelmtexture)(); -- number
+- Mob:[GetHairColor](gethaircolor)(); -- number
+- Mob:[GetBeardColor](getbeardcolor)(); -- number
+- Mob:[GetHairStyle](gethairstyle)(); -- number
+- Mob:[GetLuclinFace](getluclinface)(); -- number
+- Mob:[GetDrakkinHeritage](getdrakkinheritage)(); -- number
+- Mob:[GetDrakkinTattoo](getdrakkintattoo)(); -- number
+- Mob:[GetDrakkinDetails](getdrakkindetails)(); -- number
+- Mob:[GetClass](getclass)(); -- number
+- Mob:[GetCleanName](getcleanname)(); -- string
+- Mob:[GetTarget](gettarget)(); -- unknown - Lua_Mob
+- Mob:[SetTarget](settarget)(Lua_Mob t); -- void
+- Mob:[GetHPRatio](gethpratio)(); -- number
+- Mob:[IsWarriorClass](iswarriorclass)(); -- bool
+- Mob:[GetMaxHP](getmaxhp)(); -- number
+- Mob:[GetItemStat](getitemstat)(uint32 itemid, const char* identifier); -- number
+- Mob:[GetItemHPBonuses](getitemhpbonuses)(); -- number
+- Mob:[GetSpellHPBonuses](getspellhpbonuses)(); -- number
+- Mob:[GetWalkspeed](getwalkspeed)(); -- number
+- Mob:[GetRunspeed](getrunspeed)(); -- number
+- Mob:[GetCasterLevel](getcasterlevel)(int spell_id); -- number
+- Mob:[GetMaxMana](getmaxmana)(); -- number
+- Mob:[GetMana](getmana)(); -- number
+- Mob:[SetMana](setmana)(int mana); -- number
+- Mob:[GetManaRatio](getmanaratio)(); -- number
+- Mob:[GetAC](getac)(); -- number
+- Mob:[GetDisplayAC](getdisplayac)(); -- number
+- Mob:[GetATK](getatk)(); -- number
+- Mob:[GetSTR](getstr)(); -- number
+- Mob:[GetSTA](getsta)(); -- number
+- Mob:[GetDEX](getdex)(); -- number
+- Mob:[GetAGI](getagi)(); -- number
+- Mob:[GetINT](getint)(); -- number
+- Mob:[GetWIS](getwis)(); -- number
+- Mob:[GetCHA](getcha)(); -- number
+- Mob:[GetMR](getmr)(); -- number
+- Mob:[GetFR](getfr)(); -- number
+- Mob:[GetPR](getpr)(); -- number
+- Mob:[GetCR](getcr)(); -- number
+- Mob:[GetCorruption](getcorruption)(); -- number
+- Mob:[GetPhR](getphr)(); -- number
+- Mob:[GetMaxSTR](getmaxstr)(); -- number
+- Mob:[GetMaxSTA](getmaxsta)(); -- number
+- Mob:[GetMaxDEX](getmaxdex)(); -- number
+- Mob:[GetMaxAGI](getmaxagi)(); -- number
+- Mob:[GetMaxINT](getmaxint)(); -- number
+- Mob:[GetMaxWIS](getmaxwis)(); -- number
+- Mob:[GetMaxCHA](getmaxcha)(); -- number
+- Mob:[ResistSpell](resistspell)(int resist_type, int spell_id, Lua_Mob caster, bool use_resist_override, int resist_override); -- number
+- Mob:[GetSpecializeSkillValue](getspecializeskillvalue)(int spell_id); -- number
+- Mob:[GetNPCTypeID](getnpctypeid)(); -- number
+- Mob:[IsTargeted](istargeted)(); -- bool
+- Mob:[GetX](getx)(); -- number
+- Mob:[GetY](gety)(); -- number
+- Mob:[GetZ](getz)(); -- number
+- Mob:[GetHeading](getheading)(); -- number
+- Mob:[GetWaypointX](getwaypointx)(); -- number
+- Mob:[GetWaypointY](getwaypointy)(); -- number
+- Mob:[GetWaypointZ](getwaypointz)(); -- number
+- Mob:[GetWaypointH](getwaypointh)(); -- number
+- Mob:[GetWaypointPause](getwaypointpause)(); -- number
+- Mob:[GetWaypointID](getwaypointid)(); -- number
+- Mob:[SetCurrentWP](setcurrentwp)(int wp); -- void
+- Mob:[GetSize](getsize)(); -- number
+- Mob:[Message](message)(int type, const char *message); -- void
+- Mob:[MessageString](messagestring)(int type, int string_id, uint32 distance); -- void
+- Mob:[Say](say)(const char* message, int language); -- void
+- Mob:[QuestSay](questsay)(Lua_Client client, const char *message, luabind::adl::object opts); -- void
+- Mob:[Shout](shout)(const char* message, int language); -- void
+- Mob:[Emote](emote)(const char *message); -- void
+- Mob:[InterruptSpell](interruptspell)(int spell_id); -- void
+- Mob:[CastSpell](castspell)(int spell_id, int target_id, int slot, int cast_time, int mana_cost, int item_slot); -- bool
+- Mob:[SpellFinished](spellfinished)(int spell_id, Lua_Mob target, int slot, int mana_used, uint32 inventory_slot, int resist_adjust, bool proc); -- bool
+- Mob:[SendBeginCast](sendbegincast)(int spell_id, int cast_time); -- void
+- Mob:[SpellEffect](spelleffect)(Lua_Mob caster, int spell_id, double partial); -- void
+- Mob:[GetPet](getpet)(); -- unknown - Lua_Mob
+- Mob:[GetOwner](getowner)(); -- unknown - Lua_Mob
+- Mob:[GetHateList](gethatelist)(); -- unknown - Lua_HateList
+- Mob:[GetHateTop](gethatetop)(); -- unknown - Lua_Mob
+- Mob:[GetHateDamageTop](gethatedamagetop)(Lua_Mob other); -- unknown - Lua_Mob
+- Mob:[GetHateRandom](gethaterandom)(); -- unknown - Lua_Mob
+- Mob:[AddToHateList](addtohatelist)(Lua_Mob other, int hate, int damage, bool yell_for_help, bool frenzy, bool buff_tic); -- void
+- Mob:[SetHate](sethate)(Lua_Mob other, int hate, int damage); -- void
+- Mob:[HalveAggro](halveaggro)(Lua_Mob other); -- void
+- Mob:[DoubleAggro](doubleaggro)(Lua_Mob other); -- void
+- Mob:[GetHateAmount](gethateamount)(Lua_Mob target, bool is_damage); -- number
+- Mob:[GetDamageAmount](getdamageamount)(Lua_Mob target); -- number
+- Mob:[WipeHateList](wipehatelist)(); -- void
+- Mob:[CheckAggro](checkaggro)(Lua_Mob other); -- bool
+- Mob:[Stun](stun)(int duration); -- void
+- Mob:[UnStun](unstun)(); -- void
+- Mob:[IsStunned](isstunned)(); -- bool
+- Mob:[Spin](spin)(); -- void
+- Mob:[CanThisClassDoubleAttack](canthisclassdoubleattack)(); -- bool
+- Mob:[CanThisClassDualWield](canthisclassdualwield)(); -- bool
+- Mob:[CanThisClassRiposte](canthisclassriposte)(); -- bool
+- Mob:[CanThisClassDodge](canthisclassdodge)(); -- bool
+- Mob:[CanThisClassParry](canthisclassparry)(); -- bool
+- Mob:[CanThisClassBlock](canthisclassblock)(); -- bool
+- Mob:[SetInvul](setinvul)(bool value); -- void
+- Mob:[GetInvul](getinvul)(); -- bool
+- Mob:[SetExtraHaste](setextrahaste)(int haste); -- void
+- Mob:[GetHaste](gethaste)(); -- number
+- Mob:[GetHandToHandDamage](gethandtohanddamage)(); -- number
+- Mob:[GetHandToHandDelay](gethandtohanddelay)(); -- number
+- Mob:[Mesmerize](mesmerize)(); -- void
+- Mob:[IsMezzed](ismezzed)(); -- bool
+- Mob:[IsEnraged](isenraged)(); -- bool
+- Mob:[GetReverseFactionCon](getreversefactioncon)(Lua_Mob other); -- number
+- Mob:[IsAIControlled](isaicontrolled)(); -- bool
+- Mob:[GetAggroRange](getaggrorange)(); -- number
+- Mob:[GetAssistRange](getassistrange)(); -- number
+- Mob:[SetPetOrder](setpetorder)(int order); -- void
+- Mob:[GetPetOrder](getpetorder)(); -- number
+- Mob:[IsRoamer](isroamer)(); -- bool
+- Mob:[IsRooted](isrooted)(); -- bool
+- Mob:[IsEngaged](isengaged)(); -- bool
+- Mob:[FaceTarget](facetarget)(Lua_Mob target); -- void
+- Mob:[SetHeading](setheading)(double in); -- void
+- Mob:[CalculateHeadingToTarget](calculateheadingtotarget)(double in_x, double in_y); -- number
+- Mob:[RunTo](runto)(double x, double y, double z); -- void
+- Mob:[WalkTo](walkto)(double x, double y, double z); -- void
+- Mob:[NavigateTo](navigateto)(double x, double y, double z); -- void
+- Mob:[StopNavigation](stopnavigation)(); -- void
+- Mob:[CalculateDistance](calculatedistance)(double x, double y, double z); -- number
+- Mob:[SendTo](sendto)(double x, double y, double z); -- void
+- Mob:[SendToFixZ](sendtofixz)(double x, double y, double z); -- void
+- Mob:[NPCSpecialAttacks](npcspecialattacks)(const char *parse, int perm, bool reset, bool remove); -- void
+- Mob:[GetResist](getresist)(int type); -- number
+- Mob:[Charmed](charmed)(); -- bool
+- Mob:[CheckAggroAmount](checkaggroamount)(int spell_id, bool is_proc); -- number
+- Mob:[CheckHealAggroAmount](checkhealaggroamount)(int spell_id, uint32 heal_possible); -- number
+- Mob:[GetAA](getaa)(int id); -- number
+- Mob:[GetAAByAAID](getaabyaaid)(int id); -- number
+- Mob:[SetAA](setaa)(int rank_id, int new_value, int charges); -- bool
+- Mob:[DivineAura](divineaura)(); -- bool
+- Mob:[SetOOCRegen](setoocregen)(int regen); -- void
+- Mob:[GetEntityVariable](getentityvariable); -- 
+- Mob:[SetEntityVariable](setentityvariable)(const char *name, const char *value); -- void
+- Mob:[EntityVariableExists](entityvariableexists)(const char *name); -- bool
+- Mob:[Signal](signal)(uint32 id); -- void
+- Mob:[CombatRange](combatrange)(Lua_Mob other); -- bool
+- Mob:[DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, int skill, int max_damage, int min_damage, int hate_override, int reuse_time); -- void
+- Mob:[DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage, int chance_mod); -- void
+- Mob:[DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, int weapon_damage, int skill, int chance_mod, int focus, bool can_riposte); -- void
+- Mob:[DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo, int weapon_damage, int chance_mod); -- void
+- Mob:[CheckLoS](checklos)(Lua_Mob other); -- bool
+- Mob:[CheckLoSToLoc](checklostoloc)(double x, double y, double z, double mob_size); -- bool
+- Mob:[FindGroundZ](findgroundz)(double x, double y, double z); -- number
+- Mob:[ProjectileAnimation](projectileanimation)(Lua_Mob to, int item_id, bool is_arrow, double speed, double angle, double tilt, double arc); -- void
+- Mob:[HasNPCSpecialAtk](hasnpcspecialatk)(const char *parse); -- bool
+- Mob:[SendAppearanceEffect](sendappearanceeffect)(uint32 parm1, uint32 parm2, uint32 parm3, uint32 parm4, uint32 parm5, Lua_Client specific_target); -- void
+- Mob:[SetFlyMode](setflymode)(int in); -- void
+- Mob:[SetTexture](settexture)(int in); -- void
+- Mob:[SetRace](setrace)(int in); -- void
+- Mob:[SetGender](setgender)(int in); -- void
+- Mob:[SendIllusionPacket](sendillusionpacket)(luabind::adl::object illusion); -- void
+- Mob:[ChangeRace](changerace)(int in); -- void
+- Mob:[ChangeGender](changegender)(int in); -- void
+- Mob:[ChangeTexture](changetexture)(int in); -- void
+- Mob:[ChangeHelmTexture](changehelmtexture)(int in); -- void
+- Mob:[ChangeHairColor](changehaircolor)(int in); -- void
+- Mob:[ChangeBeardColor](changebeardcolor)(int in); -- void
+- Mob:[ChangeHairStyle](changehairstyle)(int in); -- void
+- Mob:[ChangeLuclinFace](changeluclinface)(int in); -- void
+- Mob:[ChangeDrakkinHeritage](changedrakkinheritage)(int in); -- void
+- Mob:[ChangeDrakkinTattoo](changedrakkintattoo)(int in); -- void
+- Mob:[ChangeDrakkinDetails](changedrakkindetails)(int in); -- void
+- Mob:[CameraEffect](cameraeffect)(uint32 duration, uint32 intensity, Lua_Client c, bool global); -- void
+- Mob:[SendSpellEffect](sendspelleffect)(uint32 effect_id, uint32 duration, uint32 finish_delay, bool zone_wide, uint32 unk020, bool perm_effect); -- void
+- Mob:[TempName](tempname)(const char *newname); -- void
+- Mob:[GetGlobal](getglobal)(const char *varname); -- string
+- Mob:[SetGlobal](setglobal)(const char *varname, const char *newvalue, int options, const char *duration, Lua_Mob other); -- void
+- Mob:[TarGlobal](targlobal)(const char *varname, const char *value, const char *duration, int npc_id, int char_id, int zone_id); -- void
+- Mob:[DelGlobal](delglobal)(const char *varname); -- void
+- Mob:[SetSlotTint](setslottint)(int material_slot, int red_tint, int green_tint, int blue_tint); -- void
+- Mob:[WearChange](wearchange)(int material_slot, int texture, uint32 color); -- void
+- Mob:[DoKnockback](doknockback)(Lua_Mob caster, uint32 pushback, uint32 pushup); -- void
+- Mob:[AddNimbusEffect](addnimbuseffect)(int effect_id); -- void
+- Mob:[RemoveNimbusEffect](removenimbuseffect)(int effect_id); -- void
+- Mob:[IsFeared](isfeared)(); -- bool
+- Mob:[IsBlind](isblind)(); -- bool
+- Mob:[IsRunning](isrunning)(); -- bool
+- Mob:[SetRunning](setrunning)(bool running); -- void
+- Mob:[SetBodyType](setbodytype)(int new_body, bool overwrite_orig); -- void
+- Mob:[SetTargetable](settargetable)(bool on); -- void
+- Mob:[ModSkillDmgTaken](modskilldmgtaken)(int skill, int value); -- void
+- Mob:[GetModSkillDmgTaken](getmodskilldmgtaken)(int skill); -- number
+- Mob:[GetSkillDmgTaken](getskilldmgtaken)(int skill); -- number
+- Mob:[GetFcDamageAmtIncoming](getfcdamageamtincoming)(Lua_Mob caster, uint32 spell_id, bool use_skill, uint16 skill); -- number
+- Mob:[GetSkillDmgAmt](getskilldmgamt)(uint16 skill); -- number
+- Mob:[SetAllowBeneficial](setallowbeneficial)(bool value); -- void
+- Mob:[GetAllowBeneficial](getallowbeneficial)(); -- bool
+- Mob:[IsBeneficialAllowed](isbeneficialallowed)(Lua_Mob target); -- bool
+- Mob:[ModVulnerability](modvulnerability)(int resist, int value); -- void
+- Mob:[GetModVulnerability](getmodvulnerability)(int resist); -- number
+- Mob:[SetDisableMelee](setdisablemelee)(bool disable); -- void
+- Mob:[IsMeleeDisabled](ismeleedisabled)(); -- bool
+- Mob:[SetFlurryChance](setflurrychance)(int value); -- void
+- Mob:[GetFlurryChance](getflurrychance)(); -- number
+- Mob:[GetSpecialAbility](getspecialability)(int ability); -- number
+- Mob:[GetSpecialAbilityParam](getspecialabilityparam)(int ability, int param); -- number
+- Mob:[SetSpecialAbility](setspecialability)(int ability, int level); -- void
+- Mob:[SetSpecialAbilityParam](setspecialabilityparam)(int ability, int param, int value); -- void
+- Mob:[ClearSpecialAbilities](clearspecialabilities)(); -- void
+- Mob:[ProcessSpecialAbilities](processspecialabilities)(std::string str); -- void
+- Mob:[GetAppearance](getappearance)(); -- number
+- Mob:[SetAppearance](setappearance)(int app, bool ignore_self); -- void
+- Mob:[SetDestructibleObject](setdestructibleobject)(bool set); -- void
+- Mob:[IsImmuneToSpell](isimmunetospell)(int spell_id, Lua_Mob caster); -- bool
+- Mob:[BuffFadeBySpellID](bufffadebyspellid)(int spell_id); -- void
+- Mob:[BuffFadeByEffect](bufffadebyeffect)(int effect_id, int skipslot); -- void
+- Mob:[BuffFadeAll](bufffadeall)(); -- void
+- Mob:[BuffFadeBySlot](bufffadebyslot)(int slot, bool recalc_bonuses); -- void
+- Mob:[CanBuffStack](canbuffstack)(int spell_id, int caster_level, bool fail_if_overwrite); -- number
+- Mob:[SetPseudoRoot](setpseudoroot)(bool in); -- void
+- Mob:[SeeInvisible](seeinvisible)(); -- unknown - uint8
+- Mob:[SeeInvisibleUndead](seeinvisibleundead)(); -- bool
+- Mob:[SeeHide](seehide)(); -- bool
+- Mob:[SeeImprovedHide](seeimprovedhide)(); -- bool
+- Mob:[IsTargetable](istargetable)(); -- bool
+- Mob:[HasShieldEquiped](hasshieldequiped)(); -- bool
+- Mob:[HasTwoHandBluntEquiped](hastwohandbluntequiped)(); -- bool
+- Mob:[HasTwoHanderEquipped](hastwohanderequipped)(); -- bool
+- Mob:[GetHerosForgeModel](getherosforgemodel)(uint8 material_slot); -- number
+- Mob:[IsEliteMaterialItem](iselitematerialitem)(uint8 material_slot); -- number
+- Mob:[GetBaseSize](getbasesize)(); -- number
+- Mob:[HasOwner](hasowner)(); -- bool
+- Mob:[IsPet](ispet)(); -- bool
+- Mob:[HasPet](haspet)(); -- bool
+- Mob:[IsSilenced](issilenced)(); -- bool
+- Mob:[IsAmnesiad](isamnesiad)(); -- bool
+- Mob:[GetMeleeMitigation](getmeleemitigation)(); -- unknown - int32
+- Mob:[GetWeaponDamageBonus](getweapondamagebonus)(Lua_Item weapon, bool offhand); -- number
+- Mob:[GetItemBonuses](getitembonuses)(); -- unknown - Lua_StatBonuses
+- Mob:[GetSpellBonuses](getspellbonuses)(); -- unknown - Lua_StatBonuses
+- Mob:[GetAABonuses](getaabonuses)(); -- unknown - Lua_StatBonuses
+- Mob:[IsAttackAllowed](isattackallowed)(Lua_Mob target, bool isSpellAttack); -- bool
+- Mob:[IsCasting](iscasting)(); -- bool
+- Mob:[AttackAnimation](attackanimation)(int Hand, Lua_ItemInst weapon); -- number
+- Mob:[IsBerserk](isberserk)(); -- bool
+- Mob:[TryFinishingBlow](tryfinishingblow)(Lua_Mob defender, int &damage); -- bool
+- Mob:[GetBodyType](getbodytype)(); -- number
+- Mob:[GetOrigBodyType](getorigbodytype)(); -- number
+- Mob:[CheckNumHitsRemaining](checknumhitsremaining)(int type, int32 buff_slot, uint16 spell_id); -- void

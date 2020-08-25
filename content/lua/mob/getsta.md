@@ -6,5 +6,5 @@ menuTitle: GetSTA
 ---
 ## GetSTA
 ```lua
-mob:GetSTA(); -- int
+Mob:GetSTA(); -- number
 ```

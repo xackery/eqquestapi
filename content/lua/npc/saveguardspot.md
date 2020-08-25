@@ -6,5 +6,5 @@ menuTitle: SaveGuardSpot
 ---
 ## SaveGuardSpot
 ```lua
-npc:SaveGuardSpot(float x, float y, float z, float heading); -- void
+NPC:SaveGuardSpot(float x, float y, float z, float heading); -- void
 ```

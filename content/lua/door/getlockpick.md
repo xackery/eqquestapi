@@ -6,5 +6,5 @@ menuTitle: GetLockPick
 ---
 ## GetLockPick
 ```lua
-door:GetLockPick(); -- uint32
+Door:GetLockPick(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetNPCTypeID
 ---
 ## GetNPCTypeID
 ```lua
-mob:GetNPCTypeID(); -- int
+Mob:GetNPCTypeID(); -- number
 ```

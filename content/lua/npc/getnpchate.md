@@ -6,5 +6,5 @@ menuTitle: GetNPCHate
 ---
 ## GetNPCHate
 ```lua
-npc:GetNPCHate(Lua_Mob ent); -- int
+NPC:GetNPCHate(Lua_Mob ent); -- number
 ```

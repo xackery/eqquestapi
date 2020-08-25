@@ -6,5 +6,5 @@ menuTitle: SetLocation
 ---
 ## SetLocation
 ```lua
-object:SetLocation(float x, float y, float z); -- void
+Object:SetLocation(float x, float y, float z); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: IsBlind
 ---
 ## IsBlind
 ```lua
-mob:IsBlind(); -- bool
+Mob:IsBlind(); -- bool
 ```

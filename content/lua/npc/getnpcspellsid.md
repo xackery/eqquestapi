@@ -6,5 +6,5 @@ menuTitle: GetNPCSpellsID
 ---
 ## GetNPCSpellsID
 ```lua
-npc:GetNPCSpellsID(); -- int
+NPC:GetNPCSpellsID(); -- number
 ```

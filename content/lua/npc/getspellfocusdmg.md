@@ -6,5 +6,5 @@ menuTitle: GetSpellFocusDMG
 ---
 ## GetSpellFocusDMG
 ```lua
-npc:GetSpellFocusDMG(); -- int
+NPC:GetSpellFocusDMG(); -- number
 ```

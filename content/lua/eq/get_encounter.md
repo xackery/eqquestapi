@@ -6,5 +6,5 @@ menuTitle: get_encounter
 ---
 ## get_encounter
 ```lua
-eq:get_encounter(); -- std::string
+eq.get_encounter() -- string
 ```

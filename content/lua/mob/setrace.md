@@ -6,5 +6,5 @@ menuTitle: SetRace
 ---
 ## SetRace
 ```lua
-mob:SetRace(int in); -- void
+Mob:SetRace(int in); -- void
 ```

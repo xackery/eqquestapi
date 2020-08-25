@@ -6,5 +6,5 @@ menuTitle: GetBeardColor
 ---
 ## GetBeardColor
 ```lua
-mob:GetBeardColor(); -- int
+Mob:GetBeardColor(); -- number
 ```

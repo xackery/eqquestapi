@@ -6,5 +6,5 @@ menuTitle: world_wide_move
 ---
 ## world_wide_move
 ```lua
-eq:world_wide_move(string zone_short_name, uint8 min_status, uint8 max_status); -- void
+eq.world_wide_move(const char *zone_short_name) -- void
 ```

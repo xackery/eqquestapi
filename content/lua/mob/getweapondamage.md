@@ -6,5 +6,5 @@ menuTitle: GetWeaponDamage
 ---
 ## GetWeaponDamage
 ```lua
-mob:GetWeaponDamage(Lua_Mob against, Lua_ItemInst weapon); -- int
+Mob:GetWeaponDamage(Lua_Mob against, Lua_ItemInst weapon); -- number
 ```

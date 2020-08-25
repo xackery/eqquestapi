@@ -6,5 +6,5 @@ menuTitle: SetPseudoRoot
 ---
 ## SetPseudoRoot
 ```lua
-mob:SetPseudoRoot(bool in); -- void
+Mob:SetPseudoRoot(bool in); -- void
 ```

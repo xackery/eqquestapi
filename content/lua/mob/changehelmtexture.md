@@ -6,5 +6,5 @@ menuTitle: ChangeHelmTexture
 ---
 ## ChangeHelmTexture
 ```lua
-mob:ChangeHelmTexture(int in); -- void
+Mob:ChangeHelmTexture(int in); -- void
 ```

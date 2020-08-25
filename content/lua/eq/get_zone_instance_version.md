@@ -6,5 +6,5 @@ menuTitle: get_zone_instance_version
 ---
 ## get_zone_instance_version
 ```lua
-eq:get_zone_instance_version(); -- int
+eq.get_zone_instance_version() -- int
 ```

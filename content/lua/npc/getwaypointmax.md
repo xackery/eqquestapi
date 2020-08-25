@@ -6,5 +6,5 @@ menuTitle: GetWaypointMax
 ---
 ## GetWaypointMax
 ```lua
-npc:GetWaypointMax(); -- int
+NPC:GetWaypointMax(); -- number
 ```

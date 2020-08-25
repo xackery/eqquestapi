@@ -6,5 +6,5 @@ menuTitle: DoKnockback
 ---
 ## DoKnockback
 ```lua
-mob:DoKnockback(Lua_Mob caster, uint32 pushback, uint32 pushup); -- void
+Mob:DoKnockback(Lua_Mob caster, uint32 pushback, uint32 pushup); -- void
 ```

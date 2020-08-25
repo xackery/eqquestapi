@@ -6,5 +6,5 @@ menuTitle: MessageClose
 ---
 ## MessageClose
 ```lua
-entity_list:MessageClose(Lua_Mob sender, bool skip_sender, float dist, uint32 type, const char *message); -- void
+EntityList:MessageClose(Lua_Mob sender, bool skip_sender, float dist, uint32 type, const char *message); -- void
 ```

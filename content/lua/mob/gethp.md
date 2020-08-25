@@ -6,5 +6,5 @@ menuTitle: GetHP
 ---
 ## GetHP
 ```lua
-mob:GetHP(); -- int
+Mob:GetHP(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SetTarget
 ---
 ## SetTarget
 ```lua
-mob:SetTarget(Lua_Mob t); -- void
+Mob:SetTarget(Lua_Mob t); -- void
 ```

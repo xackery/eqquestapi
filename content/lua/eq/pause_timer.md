@@ -6,5 +6,5 @@ menuTitle: pause_timer
 ---
 ## pause_timer
 ```lua
-eq:pause_timer(const char *timer); -- void
+eq.pause_timer(const char *timer) -- void
 ```

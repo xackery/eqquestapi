@@ -6,5 +6,5 @@ menuTitle: GetTotalGroupDamage
 ---
 ## GetTotalGroupDamage
 ```lua
-group:GetTotalGroupDamage(Lua_Mob other); -- uint32
+Group:GetTotalGroupDamage(Lua_Mob other); -- number
 ```

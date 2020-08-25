@@ -6,5 +6,5 @@ menuTitle: SetZ
 ---
 ## SetZ
 ```lua
-door:SetZ(float z); -- void
+Door:SetZ(float z); -- void
 ```

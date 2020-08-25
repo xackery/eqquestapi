@@ -6,5 +6,5 @@ menuTitle: set_global
 ---
 ## set_global
 ```lua
-eq:set_global(const char *name, const char *value, int options, const char *duration); -- void
+eq.set_global(const char *name, const char *value, int options, const char *duration) -- void
 ```

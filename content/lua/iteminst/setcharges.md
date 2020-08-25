@@ -6,5 +6,5 @@ menuTitle: SetCharges
 ---
 ## SetCharges
 ```lua
-iteminst:SetCharges(int charges); -- void
+ItemInst:SetCharges(int charges); -- void
 ```

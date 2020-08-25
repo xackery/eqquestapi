@@ -6,5 +6,5 @@ menuTitle: GetClientList
 ---
 ## GetClientList
 ```lua
-entity_list:GetClientList(); -- Lua_Client_List
+EntityList:GetClientList(); -- unknown - Lua_Client_List
 ```

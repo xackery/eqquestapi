@@ -6,5 +6,5 @@ menuTitle: IsCasting
 ---
 ## IsCasting
 ```lua
-mob:IsCasting(); -- bool
+Mob:IsCasting(); -- bool
 ```

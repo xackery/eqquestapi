@@ -6,5 +6,5 @@ menuTitle: SetIncline
 ---
 ## SetIncline
 ```lua
-door:SetIncline(uint32 incline); -- void
+Door:SetIncline(uint32 incline); -- void
 ```

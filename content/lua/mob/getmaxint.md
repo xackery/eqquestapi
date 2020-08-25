@@ -6,5 +6,5 @@ menuTitle: GetMaxINT
 ---
 ## GetMaxINT
 ```lua
-mob:GetMaxINT(); -- int
+Mob:GetMaxINT(); -- number
 ```

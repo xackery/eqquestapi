@@ -6,5 +6,5 @@ menuTitle: Disable
 ---
 ## Disable
 ```lua
-spawn:Disable(); -- void
+Spawn:Disable(); -- void
 ```

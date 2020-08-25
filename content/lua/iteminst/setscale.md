@@ -6,5 +6,5 @@ menuTitle: SetScale
 ---
 ## SetScale
 ```lua
-iteminst:SetScale(double scale_factor); -- void
+ItemInst:SetScale(double scale_factor); -- void
 ```

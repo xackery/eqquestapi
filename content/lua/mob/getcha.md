@@ -6,5 +6,5 @@ menuTitle: GetCHA
 ---
 ## GetCHA
 ```lua
-mob:GetCHA(); -- int
+Mob:GetCHA(); -- number
 ```

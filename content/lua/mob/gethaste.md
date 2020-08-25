@@ -6,5 +6,5 @@ menuTitle: GetHaste
 ---
 ## GetHaste
 ```lua
-mob:GetHaste(); -- int
+Mob:GetHaste(); -- number
 ```

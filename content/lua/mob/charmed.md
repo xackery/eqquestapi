@@ -6,5 +6,5 @@ menuTitle: Charmed
 ---
 ## Charmed
 ```lua
-mob:Charmed(); -- bool
+Mob:Charmed(); -- bool
 ```

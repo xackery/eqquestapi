@@ -6,5 +6,5 @@ menuTitle: SetNoKeyring
 ---
 ## SetNoKeyring
 ```lua
-door:SetNoKeyring(int type); -- void
+Door:SetNoKeyring(int type); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetX
 ---
 ## GetX
 ```lua
-object:GetX(); -- float
+Object:GetX(); -- number
 ```

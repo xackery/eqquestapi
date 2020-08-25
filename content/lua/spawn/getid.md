@@ -6,5 +6,5 @@ menuTitle: GetID
 ---
 ## GetID
 ```lua
-spawn:GetID(); -- uint32
+Spawn:GetID(); -- number
 ```

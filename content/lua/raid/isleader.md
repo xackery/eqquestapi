@@ -6,5 +6,5 @@ menuTitle: IsLeader
 ---
 ## IsLeader
 ```lua
-raid:IsLeader(const char *c); -- bool
+Raid:IsLeader(Lua_Client c); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: cross_zone_remove_spell_by_char_id
 ---
 ## cross_zone_remove_spell_by_char_id
 ```lua
-eq:cross_zone_remove_spell_by_char_id(character_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_char_id(int character_id, uint32 spell_id) -- void
 ```

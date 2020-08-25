@@ -6,5 +6,5 @@ menuTitle: GetY
 ---
 ## GetY
 ```lua
-spawn:GetY(); -- float
+Spawn:GetY(); -- number
 ```

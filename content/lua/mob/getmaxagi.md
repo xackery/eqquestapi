@@ -6,5 +6,5 @@ menuTitle: GetMaxAGI
 ---
 ## GetMaxAGI
 ```lua
-mob:GetMaxAGI(); -- int
+Mob:GetMaxAGI(); -- number
 ```

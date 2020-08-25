@@ -6,5 +6,5 @@ menuTitle: SetVariance
 ---
 ## SetVariance
 ```lua
-spawn:SetVariance(uint32 newvariance); -- void
+Spawn:SetVariance(uint32 newvariance); -- void
 ```

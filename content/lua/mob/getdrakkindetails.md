@@ -6,5 +6,5 @@ menuTitle: GetDrakkinDetails
 ---
 ## GetDrakkinDetails
 ```lua
-mob:GetDrakkinDetails(); -- int
+Mob:GetDrakkinDetails(); -- number
 ```

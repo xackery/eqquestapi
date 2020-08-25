@@ -6,5 +6,5 @@ menuTitle: GetHerosForgeModel
 ---
 ## GetHerosForgeModel
 ```lua
-mob:GetHerosForgeModel(uint8 material_slot); -- uint32
+Mob:GetHerosForgeModel(uint8 material_slot); -- number
 ```

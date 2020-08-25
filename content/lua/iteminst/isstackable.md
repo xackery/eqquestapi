@@ -6,5 +6,5 @@ menuTitle: IsStackable
 ---
 ## IsStackable
 ```lua
-iteminst:IsStackable(); -- bool
+ItemInst:IsStackable(); -- bool
 ```

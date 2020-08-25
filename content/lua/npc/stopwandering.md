@@ -6,5 +6,5 @@ menuTitle: StopWandering
 ---
 ## StopWandering
 ```lua
-npc:StopWandering(); -- void
+NPC:StopWandering(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetWaypointID
 ---
 ## GetWaypointID
 ```lua
-mob:GetWaypointID(); -- int
+Mob:GetWaypointID(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetColor
 ---
 ## GetColor
 ```lua
-iteminst:GetColor(); -- uint32
+ItemInst:GetColor(); -- number
 ```

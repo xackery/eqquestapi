@@ -6,5 +6,5 @@ menuTitle: EntityVariableExists
 ---
 ## EntityVariableExists
 ```lua
-mob:EntityVariableExists(const char *name); -- bool
+Mob:EntityVariableExists(const char *name); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: task_explored_area
 ---
 ## task_explored_area
 ```lua
-eq:task_explored_area(int explore_id); -- void
+eq.task_explored_area(int explore_id) -- void
 ```

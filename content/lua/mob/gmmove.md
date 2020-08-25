@@ -6,5 +6,5 @@ menuTitle: GMMove
 ---
 ## GMMove
 ```lua
-mob:GMMove(double x, double y, double z, double heading, bool send_update); -- void
+Mob:GMMove(double x, double y, double z, double heading, bool send_update); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: HalveAggro
 ---
 ## HalveAggro
 ```lua
-entity_list:HalveAggro(Lua_Mob who); -- void
+EntityList:HalveAggro(Lua_Mob who); -- void
 ```

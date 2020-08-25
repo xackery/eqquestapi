@@ -6,5 +6,5 @@ menuTitle: Depop
 ---
 ## Depop
 ```lua
-spawn:Depop(); -- void
+Spawn:Depop(); -- void
 ```

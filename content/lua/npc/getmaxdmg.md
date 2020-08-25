@@ -6,5 +6,5 @@ menuTitle: GetMaxDMG
 ---
 ## GetMaxDMG
 ```lua
-npc:GetMaxDMG(); -- uint32
+NPC:GetMaxDMG(); -- number
 ```

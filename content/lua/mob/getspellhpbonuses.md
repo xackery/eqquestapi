@@ -6,5 +6,5 @@ menuTitle: GetSpellHPBonuses
 ---
 ## GetSpellHPBonuses
 ```lua
-mob:GetSpellHPBonuses(); -- int
+Mob:GetSpellHPBonuses(); -- number
 ```

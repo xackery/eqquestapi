@@ -6,5 +6,5 @@ menuTitle: NPCPointerValid
 ---
 ## NPCPointerValid
 ```lua
-spawn:NPCPointerValid(); -- bool
+Spawn:NPCPointerValid(); -- bool
 ```

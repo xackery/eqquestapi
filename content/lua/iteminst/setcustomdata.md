@@ -6,5 +6,5 @@ menuTitle: SetCustomData
 ---
 ## SetCustomData
 ```lua
-iteminst:SetCustomData(std::string identifier, std::string value); -- void
+ItemInst:SetCustomData(std::string identifier, bool value); -- void
 ```

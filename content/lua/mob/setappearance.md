@@ -6,5 +6,5 @@ menuTitle: SetAppearance
 ---
 ## SetAppearance
 ```lua
-mob:SetAppearance(int app, bool ignore_self); -- void
+Mob:SetAppearance(int app, bool ignore_self); -- void
 ```

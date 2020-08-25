@@ -6,5 +6,5 @@ menuTitle: GetAugmentType
 ---
 ## GetAugmentType
 ```lua
-iteminst:GetAugmentType(); -- int
+ItemInst:GetAugmentType(); -- number
 ```

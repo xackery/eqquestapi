@@ -6,5 +6,5 @@ menuTitle: IsFeared
 ---
 ## IsFeared
 ```lua
-mob:IsFeared(); -- bool
+Mob:IsFeared(); -- bool
 ```

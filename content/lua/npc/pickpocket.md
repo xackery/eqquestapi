@@ -6,5 +6,5 @@ menuTitle: PickPocket
 ---
 ## PickPocket
 ```lua
-npc:PickPocket(Lua_Client thief); -- void
+NPC:PickPocket(Lua_Client thief); -- void
 ```

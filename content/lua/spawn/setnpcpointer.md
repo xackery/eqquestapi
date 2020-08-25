@@ -6,5 +6,5 @@ menuTitle: SetNPCPointer
 ---
 ## SetNPCPointer
 ```lua
-spawn:SetNPCPointer(Lua_NPC n); -- void
+Spawn:SetNPCPointer(Lua_NPC n); -- void
 ```

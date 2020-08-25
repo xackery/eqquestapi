@@ -6,5 +6,5 @@ menuTitle: GetAGI
 ---
 ## GetAGI
 ```lua
-mob:GetAGI(); -- int
+Mob:GetAGI(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: RemoveFromHateLists
 ---
 ## RemoveFromHateLists
 ```lua
-entity_list:RemoveFromHateLists(Lua_Mob who, bool set_to_one); -- void
+EntityList:RemoveFromHateLists(Lua_Mob who, bool set_to_one); -- void
 ```

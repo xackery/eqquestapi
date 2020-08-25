@@ -6,5 +6,5 @@ menuTitle: GetWIS
 ---
 ## GetWIS
 ```lua
-mob:GetWIS(); -- int
+Mob:GetWIS(); -- number
 ```

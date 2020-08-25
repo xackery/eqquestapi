@@ -6,5 +6,5 @@ menuTitle: SetInvul
 ---
 ## SetInvul
 ```lua
-mob:SetInvul(bool value); -- void
+Mob:SetInvul(bool value); -- void
 ```

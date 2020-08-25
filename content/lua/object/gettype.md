@@ -6,5 +6,5 @@ menuTitle: GetType
 ---
 ## GetType
 ```lua
-object:GetType(); -- uint32
+Object:GetType(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: safe_move
 ---
 ## safe_move
 ```lua
-eq:safe_move(); -- void
+eq.safe_move() -- void
 ```

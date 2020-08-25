@@ -6,5 +6,5 @@ menuTitle: GetSilver
 ---
 ## GetSilver
 ```lua
-npc:GetSilver(); -- uint32
+NPC:GetSilver(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: CalculateHeadingToTarget
 ---
 ## CalculateHeadingToTarget
 ```lua
-mob:CalculateHeadingToTarget(double in_x, double in_y); -- double
+Mob:CalculateHeadingToTarget(double in_x, double in_y); -- number
 ```

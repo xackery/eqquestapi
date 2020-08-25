@@ -6,5 +6,5 @@ menuTitle: ChangeDrakkinDetails
 ---
 ## ChangeDrakkinDetails
 ```lua
-mob:ChangeDrakkinDetails(int in); -- void
+Mob:ChangeDrakkinDetails(int in); -- void
 ```

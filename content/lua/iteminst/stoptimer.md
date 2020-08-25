@@ -6,5 +6,5 @@ menuTitle: StopTimer
 ---
 ## StopTimer
 ```lua
-iteminst:StopTimer(std::string name); -- void
+ItemInst:StopTimer(std::string name); -- void
 ```

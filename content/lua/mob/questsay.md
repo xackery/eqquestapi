@@ -6,5 +6,5 @@ menuTitle: QuestSay
 ---
 ## QuestSay
 ```lua
-mob:QuestSay(Lua_Client client, const char *message); -- void
+Mob:QuestSay(Lua_Client client, const char *message, luabind::adl::object opts); -- void
 ```

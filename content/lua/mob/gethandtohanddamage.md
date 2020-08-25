@@ -6,5 +6,5 @@ menuTitle: GetHandToHandDamage
 ---
 ## GetHandToHandDamage
 ```lua
-mob:GetHandToHandDamage(); -- int
+Mob:GetHandToHandDamage(); -- number
 ```

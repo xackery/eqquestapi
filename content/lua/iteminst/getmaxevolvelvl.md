@@ -6,5 +6,5 @@ menuTitle: GetMaxEvolveLvl
 ---
 ## GetMaxEvolveLvl
 ```lua
-iteminst:GetMaxEvolveLvl(); -- int
+ItemInst:GetMaxEvolveLvl(); -- number
 ```

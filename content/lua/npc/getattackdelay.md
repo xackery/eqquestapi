@@ -6,5 +6,5 @@ menuTitle: GetAttackDelay
 ---
 ## GetAttackDelay
 ```lua
-npc:GetAttackDelay(); -- int
+NPC:GetAttackDelay(); -- number
 ```

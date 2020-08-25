@@ -6,5 +6,5 @@ menuTitle: RunTo
 ---
 ## RunTo
 ```lua
-mob:RunTo(double x, double y, double z); -- void
+Mob:RunTo(double x, double y, double z); -- void
 ```

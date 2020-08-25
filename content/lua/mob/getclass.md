@@ -6,5 +6,5 @@ menuTitle: GetClass
 ---
 ## GetClass
 ```lua
-mob:GetClass(); -- int
+Mob:GetClass(); -- number
 ```

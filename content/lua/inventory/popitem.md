@@ -6,5 +6,5 @@ menuTitle: PopItem
 ---
 ## PopItem
 ```lua
-inventory:PopItem(int slot_id); -- Lua_ItemInst
+Inventory:PopItem(int slot_id); -- unknown - Lua_ItemInst
 ```

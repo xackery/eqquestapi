@@ -6,5 +6,5 @@ menuTitle: GetSpawnKillCount
 ---
 ## GetSpawnKillCount
 ```lua
-npc:GetSpawnKillCount(); -- int
+NPC:GetSpawnKillCount(); -- number
 ```

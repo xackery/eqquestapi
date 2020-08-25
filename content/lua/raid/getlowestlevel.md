@@ -6,5 +6,5 @@ menuTitle: GetLowestLevel
 ---
 ## GetLowestLevel
 ```lua
-raid:GetLowestLevel(); -- int
+Raid:GetLowestLevel(); -- number
 ```

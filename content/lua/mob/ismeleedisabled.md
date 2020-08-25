@@ -6,5 +6,5 @@ menuTitle: IsMeleeDisabled
 ---
 ## IsMeleeDisabled
 ```lua
-mob:IsMeleeDisabled(); -- bool
+Mob:IsMeleeDisabled(); -- bool
 ```

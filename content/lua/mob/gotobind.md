@@ -6,5 +6,5 @@ menuTitle: GotoBind
 ---
 ## GotoBind
 ```lua
-mob:GotoBind(); -- void
+Mob:GotoBind(); -- void
 ```

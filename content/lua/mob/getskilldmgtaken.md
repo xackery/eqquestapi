@@ -6,5 +6,5 @@ menuTitle: GetSkillDmgTaken
 ---
 ## GetSkillDmgTaken
 ```lua
-mob:GetSkillDmgTaken(int skill); -- int
+Mob:GetSkillDmgTaken(int skill); -- number
 ```

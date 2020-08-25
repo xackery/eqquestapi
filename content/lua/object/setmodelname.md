@@ -6,5 +6,5 @@ menuTitle: SetModelName
 ---
 ## SetModelName
 ```lua
-object:SetModelName(const char *name); -- void
+Object:SetModelName(const char *name); -- void
 ```

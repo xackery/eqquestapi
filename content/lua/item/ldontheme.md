@@ -1,0 +1,10 @@
+---
+title: Lua LDoNTheme
+weight: 1
+hidden: true
+menuTitle: LDoNTheme
+---
+## LDoNTheme
+```lua
+Item:LDoNTheme(); -- number
+```

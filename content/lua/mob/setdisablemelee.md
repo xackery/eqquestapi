@@ -6,5 +6,5 @@ menuTitle: SetDisableMelee
 ---
 ## SetDisableMelee
 ```lua
-mob:SetDisableMelee(bool disable); -- void
+Mob:SetDisableMelee(bool disable); -- void
 ```

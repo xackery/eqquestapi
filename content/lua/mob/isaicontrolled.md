@@ -6,5 +6,5 @@ menuTitle: IsAIControlled
 ---
 ## IsAIControlled
 ```lua
-mob:IsAIControlled(); -- bool
+Mob:IsAIControlled(); -- bool
 ```

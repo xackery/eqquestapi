@@ -6,5 +6,5 @@ menuTitle: CalculateDistance
 ---
 ## CalculateDistance
 ```lua
-mob:CalculateDistance(double x, double y, double z); -- float
+Mob:CalculateDistance(double x, double y, double z); -- number
 ```

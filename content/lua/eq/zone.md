@@ -6,5 +6,5 @@ menuTitle: zone
 ---
 ## zone
 ```lua
-eq:zone(const char *zone_name); -- void
+eq.zone(const char* zone_name) -- void
 ```

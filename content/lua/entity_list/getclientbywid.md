@@ -6,5 +6,5 @@ menuTitle: GetClientByWID
 ---
 ## GetClientByWID
 ```lua
-entity_list:GetClientByWID(uint32 wid); -- Lua_Client
+EntityList:GetClientByWID(uint32 wid); -- unknown - Lua_Client
 ```

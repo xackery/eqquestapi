@@ -6,5 +6,5 @@ menuTitle: ForceClose
 ---
 ## ForceClose
 ```lua
-door:ForceClose(Lua_Mob sender, bool alt_mode); -- void
+Door:ForceClose(Lua_Mob sender, bool alt_mode); -- void
 ```

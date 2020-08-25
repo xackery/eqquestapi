@@ -6,5 +6,5 @@ menuTitle: IsAmnesiad
 ---
 ## IsAmnesiad
 ```lua
-mob:IsAmnesiad(); -- bool
+Mob:IsAmnesiad(); -- bool
 ```

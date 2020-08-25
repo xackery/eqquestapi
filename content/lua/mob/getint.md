@@ -6,5 +6,5 @@ menuTitle: GetINT
 ---
 ## GetINT
 ```lua
-mob:GetINT(); -- int
+Mob:GetINT(); -- number
 ```

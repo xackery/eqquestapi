@@ -6,5 +6,5 @@ menuTitle: GetGroupByMob
 ---
 ## GetGroupByMob
 ```lua
-entity_list:GetGroupByMob(Lua_Mob mob); -- Lua_Group
+EntityList:GetGroupByMob(Lua_Mob mob); -- unknown - Lua_Group
 ```

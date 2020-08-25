@@ -6,5 +6,5 @@ menuTitle: GetMaxSTR
 ---
 ## GetMaxSTR
 ```lua
-mob:GetMaxSTR(); -- int
+Mob:GetMaxSTR(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: remove_area
 ---
 ## remove_area
 ```lua
-eq:remove_area(int id); -- void
+eq.remove_area(int id) -- void
 ```

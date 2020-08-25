@@ -6,5 +6,5 @@ menuTitle: GetGroupByLeaderName
 ---
 ## GetGroupByLeaderName
 ```lua
-entity_list:GetGroupByLeaderName(const char *name); -- Lua_Group
+EntityList:GetGroupByLeaderName(const char *name); -- unknown - Lua_Group
 ```

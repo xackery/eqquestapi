@@ -6,5 +6,5 @@ menuTitle: GetDoorsByDBID
 ---
 ## GetDoorsByDBID
 ```lua
-entity_list:GetDoorsByDBID(uint32 db_id); -- Lua_Door
+EntityList:GetDoorsByDBID(uint32 db_id); -- unknown - Lua_Door
 ```

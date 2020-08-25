@@ -6,5 +6,5 @@ menuTitle: GetGroupNumber
 ---
 ## GetGroupNumber
 ```lua
-raid:GetGroupNumber(int index); -- int
+Raid:GetGroupNumber(int index); -- number
 ```

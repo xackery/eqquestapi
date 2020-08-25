@@ -6,5 +6,5 @@ menuTitle: GetSwarmTarget
 ---
 ## GetSwarmTarget
 ```lua
-npc:GetSwarmTarget(); -- int
+NPC:GetSwarmTarget(); -- number
 ```

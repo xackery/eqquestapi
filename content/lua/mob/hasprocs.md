@@ -6,5 +6,5 @@ menuTitle: HasProcs
 ---
 ## HasProcs
 ```lua
-mob:HasProcs(); -- bool
+Mob:HasProcs(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: IsMezzed
 ---
 ## IsMezzed
 ```lua
-mob:IsMezzed(); -- bool
+Mob:IsMezzed(); -- bool
 ```

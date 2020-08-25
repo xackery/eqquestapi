@@ -6,5 +6,5 @@ menuTitle: SetPetOrder
 ---
 ## SetPetOrder
 ```lua
-mob:SetPetOrder(int order); -- void
+Mob:SetPetOrder(int order); -- void
 ```

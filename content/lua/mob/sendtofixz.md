@@ -6,5 +6,5 @@ menuTitle: SendToFixZ
 ---
 ## SendToFixZ
 ```lua
-mob:SendToFixZ(double x, double y, double z); -- void
+Mob:SendToFixZ(double x, double y, double z); -- void
 ```

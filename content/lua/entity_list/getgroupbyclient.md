@@ -6,5 +6,5 @@ menuTitle: GetGroupByClient
 ---
 ## GetGroupByClient
 ```lua
-entity_list:GetGroupByClient(Lua_Client client); -- Lua_Group
+EntityList:GetGroupByClient(Lua_Client client); -- unknown - Lua_Group
 ```

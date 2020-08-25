@@ -6,5 +6,5 @@ menuTitle: active_speak_task
 ---
 ## active_speak_task
 ```lua
-eq:active_speak_task(); -- int
+eq.active_speak_task() -- int
 ```

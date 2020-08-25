@@ -6,5 +6,5 @@ menuTitle: SetKeyItem
 ---
 ## SetKeyItem
 ```lua
-door:SetKeyItem(uint32 key); -- void
+Door:SetKeyItem(uint32 key); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetNPCFactionID
 ---
 ## GetNPCFactionID
 ```lua
-npc:GetNPCFactionID(); -- int
+NPC:GetNPCFactionID(); -- number
 ```

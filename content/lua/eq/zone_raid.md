@@ -6,5 +6,5 @@ menuTitle: zone_raid
 ---
 ## zone_raid
 ```lua
-eq:zone_raid(const char *zone_name); -- void
+eq.zone_raid(const char* zone_name) -- void
 ```

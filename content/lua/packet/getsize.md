@@ -6,5 +6,5 @@ menuTitle: GetSize
 ---
 ## GetSize
 ```lua
-packet:GetSize(); -- int
+Packet:GetSize(); -- number
 ```

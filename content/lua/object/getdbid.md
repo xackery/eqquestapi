@@ -6,5 +6,5 @@ menuTitle: GetDBID
 ---
 ## GetDBID
 ```lua
-object:GetDBID(); -- uint32
+Object:GetDBID(); -- number
 ```

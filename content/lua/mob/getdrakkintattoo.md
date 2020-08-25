@@ -6,5 +6,5 @@ menuTitle: GetDrakkinTattoo
 ---
 ## GetDrakkinTattoo
 ```lua
-mob:GetDrakkinTattoo(); -- int
+Mob:GetDrakkinTattoo(); -- number
 ```

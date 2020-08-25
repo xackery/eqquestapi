@@ -6,5 +6,5 @@ menuTitle: SetDisableTimer
 ---
 ## SetDisableTimer
 ```lua
-door:SetDisableTimer(bool flag); -- void
+Door:SetDisableTimer(bool flag); -- void
 ```

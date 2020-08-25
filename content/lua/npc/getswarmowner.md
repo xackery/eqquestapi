@@ -6,5 +6,5 @@ menuTitle: GetSwarmOwner
 ---
 ## GetSwarmOwner
 ```lua
-npc:GetSwarmOwner(); -- int
+NPC:GetSwarmOwner(); -- number
 ```

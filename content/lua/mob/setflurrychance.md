@@ -6,5 +6,5 @@ menuTitle: SetFlurryChance
 ---
 ## SetFlurryChance
 ```lua
-mob:SetFlurryChance(int value); -- void
+Mob:SetFlurryChance(int value); -- void
 ```

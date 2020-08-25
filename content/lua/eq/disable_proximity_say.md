@@ -6,5 +6,5 @@ menuTitle: disable_proximity_say
 ---
 ## disable_proximity_say
 ```lua
-eq:disable_proximity_say(); -- void
+eq.disable_proximity_say() -- void
 ```

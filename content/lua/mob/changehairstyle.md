@@ -6,5 +6,5 @@ menuTitle: ChangeHairStyle
 ---
 ## ChangeHairStyle
 ```lua
-mob:ChangeHairStyle(int in); -- void
+Mob:ChangeHairStyle(int in); -- void
 ```

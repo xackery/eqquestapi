@@ -6,5 +6,5 @@ menuTitle: respawn
 ---
 ## respawn
 ```lua
-eq:respawn(int npc_type, int grid); -- void
+eq.respawn(int npc_type, int grid) -- void
 ```

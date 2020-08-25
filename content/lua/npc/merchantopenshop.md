@@ -6,5 +6,5 @@ menuTitle: MerchantOpenShop
 ---
 ## MerchantOpenShop
 ```lua
-npc:MerchantOpenShop(); -- void
+NPC:MerchantOpenShop(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: cross_zone_remove_spell_by_group_id
 ---
 ## cross_zone_remove_spell_by_group_id
 ```lua
-eq:cross_zone_remove_spell_by_group_id(group_id, spell_id, min_status, max_status); -- void
+eq.cross_zone_remove_spell_by_group_id(int group_id, uint32 spell_id) -- void
 ```

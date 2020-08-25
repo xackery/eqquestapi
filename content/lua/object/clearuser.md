@@ -6,5 +6,5 @@ menuTitle: ClearUser
 ---
 ## ClearUser
 ```lua
-object:ClearUser(); -- void
+Object:ClearUser(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: count_item
 ---
 ## count_item
 ```lua
-eq:count_item(uint32 item_id); -- int
+eq.count_item(uint32 item_id) -- int
 ```

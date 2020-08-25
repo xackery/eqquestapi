@@ -6,5 +6,5 @@ menuTitle: GetSpecialAbilityParam
 ---
 ## GetSpecialAbilityParam
 ```lua
-mob:GetSpecialAbilityParam(int ability, int param); -- int
+Mob:GetSpecialAbilityParam(int ability, int param); -- number
 ```

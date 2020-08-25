@@ -6,5 +6,5 @@ menuTitle: IsEquipable
 ---
 ## IsEquipable
 ```lua
-iteminst:IsEquipable(int slot_id); -- bool
+ItemInst:IsEquipable(int slot_id); -- bool
 ```

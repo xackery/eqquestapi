@@ -6,5 +6,5 @@ menuTitle: VarSave
 ---
 ## VarSave
 ```lua
-object:VarSave(); -- uint32
+Object:VarSave(); -- number
 ```

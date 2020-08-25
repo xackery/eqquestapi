@@ -6,5 +6,5 @@ menuTitle: GetMaxWIS
 ---
 ## GetMaxWIS
 ```lua
-mob:GetMaxWIS(); -- int
+Mob:GetMaxWIS(); -- number
 ```

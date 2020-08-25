@@ -6,5 +6,5 @@ menuTitle: GetCasterLevel
 ---
 ## GetCasterLevel
 ```lua
-mob:GetCasterLevel(int spell_id); -- int
+Mob:GetCasterLevel(int spell_id); -- number
 ```

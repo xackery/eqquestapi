@@ -6,5 +6,5 @@ menuTitle: enable_proximity_say
 ---
 ## enable_proximity_say
 ```lua
-eq:enable_proximity_say(); -- void
+eq.enable_proximity_say() -- void
 ```

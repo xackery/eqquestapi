@@ -6,5 +6,5 @@ menuTitle: GetReverseFactionCon
 ---
 ## GetReverseFactionCon
 ```lua
-mob:GetReverseFactionCon(Lua_Mob other); -- int
+Mob:GetReverseFactionCon(Lua_Mob other); -- number
 ```

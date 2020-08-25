@@ -6,5 +6,5 @@ menuTitle: GetHighestLevel
 ---
 ## GetHighestLevel
 ```lua
-group:GetHighestLevel(); -- int
+Group:GetHighestLevel(); -- number
 ```

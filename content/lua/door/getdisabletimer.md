@@ -6,5 +6,5 @@ menuTitle: GetDisableTimer
 ---
 ## GetDisableTimer
 ```lua
-door:GetDisableTimer(); -- bool
+Door:GetDisableTimer(); -- bool
 ```

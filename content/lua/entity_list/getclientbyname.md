@@ -6,5 +6,5 @@ menuTitle: GetClientByName
 ---
 ## GetClientByName
 ```lua
-entity_list:GetClientByName(const char *name); -- Lua_Client
+EntityList:GetClientByName(const char *name); -- unknown - Lua_Client
 ```

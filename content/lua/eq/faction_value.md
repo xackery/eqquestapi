@@ -6,5 +6,5 @@ menuTitle: faction_value
 ---
 ## faction_value
 ```lua
-eq:faction_value(); -- int
+eq.faction_value() -- int
 ```

@@ -6,5 +6,5 @@ menuTitle: remove_from_instance
 ---
 ## remove_from_instance
 ```lua
-eq:remove_from_instance(uint32 instance_id); -- void
+eq.remove_from_instance(uint32 instance_id) -- void
 ```

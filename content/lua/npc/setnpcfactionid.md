@@ -6,5 +6,5 @@ menuTitle: SetNPCFactionID
 ---
 ## SetNPCFactionID
 ```lua
-npc:SetNPCFactionID(int id); -- void
+NPC:SetNPCFactionID(int id); -- void
 ```

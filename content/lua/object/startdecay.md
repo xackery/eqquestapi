@@ -6,5 +6,5 @@ menuTitle: StartDecay
 ---
 ## StartDecay
 ```lua
-object:StartDecay(); -- void
+Object:StartDecay(); -- void
 ```

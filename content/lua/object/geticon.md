@@ -6,5 +6,5 @@ menuTitle: GetIcon
 ---
 ## GetIcon
 ```lua
-object:GetIcon(); -- uint32
+Object:GetIcon(); -- number
 ```

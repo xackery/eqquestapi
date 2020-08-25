@@ -6,5 +6,5 @@ menuTitle: GetMaxDEX
 ---
 ## GetMaxDEX
 ```lua
-mob:GetMaxDEX(); -- int
+Mob:GetMaxDEX(); -- number
 ```

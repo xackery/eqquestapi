@@ -6,5 +6,5 @@ menuTitle: CanItemFitInContainer
 ---
 ## CanItemFitInContainer
 ```lua
-inventory:CanItemFitInContainer(Lua_Item item, Lua_Item container); -- bool
+Inventory:CanItemFitInContainer(Lua_Item item, Lua_Item container); -- bool
 ```

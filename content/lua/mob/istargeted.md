@@ -6,5 +6,5 @@ menuTitle: IsTargeted
 ---
 ## IsTargeted
 ```lua
-mob:IsTargeted(); -- bool
+Mob:IsTargeted(); -- bool
 ```

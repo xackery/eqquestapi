@@ -6,5 +6,5 @@ menuTitle: stop
 ---
 ## stop
 ```lua
-eq:stop(); -- void
+eq.stop() -- void
 ```

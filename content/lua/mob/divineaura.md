@@ -6,5 +6,5 @@ menuTitle: DivineAura
 ---
 ## DivineAura
 ```lua
-mob:DivineAura(); -- bool
+Mob:DivineAura(); -- bool
 ```

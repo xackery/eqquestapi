@@ -6,5 +6,5 @@ menuTitle: debug
 ---
 ## debug
 ```lua
-eq:debug(std::string message, int level); -- void
+eq.debug; -- 
 ```

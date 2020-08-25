@@ -6,5 +6,5 @@ menuTitle: GetMeleeMitigation
 ---
 ## GetMeleeMitigation
 ```lua
-mob:GetMeleeMitigation(); -- int32
+Mob:GetMeleeMitigation(); -- unknown - int32
 ```

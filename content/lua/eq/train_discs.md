@@ -6,5 +6,5 @@ menuTitle: train_discs
 ---
 ## train_discs
 ```lua
-eq:train_discs(int max, int min); -- int
+eq.train_discs(int max) -- int
 ```

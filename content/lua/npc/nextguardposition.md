@@ -6,5 +6,5 @@ menuTitle: NextGuardPosition
 ---
 ## NextGuardPosition
 ```lua
-npc:NextGuardPosition(); -- void
+NPC:NextGuardPosition(); -- void
 ```

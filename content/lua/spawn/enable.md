@@ -6,5 +6,5 @@ menuTitle: Enable
 ---
 ## Enable
 ```lua
-spawn:Enable(); -- void
+Spawn:Enable(); -- void
 ```

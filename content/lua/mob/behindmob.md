@@ -6,5 +6,5 @@ menuTitle: BehindMob
 ---
 ## BehindMob
 ```lua
-mob:BehindMob(Lua_Mob other, float x, float y); -- bool
+Mob:BehindMob(Lua_Mob other, float x, float y); -- bool
 ```

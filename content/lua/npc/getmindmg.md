@@ -6,5 +6,5 @@ menuTitle: GetMinDMG
 ---
 ## GetMinDMG
 ```lua
-npc:GetMinDMG(); -- uint32
+NPC:GetMinDMG(); -- number
 ```

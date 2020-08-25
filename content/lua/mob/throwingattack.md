@@ -6,5 +6,5 @@ menuTitle: ThrowingAttack
 ---
 ## ThrowingAttack
 ```lua
-mob:ThrowingAttack(Lua_Mob other); -- void
+Mob:ThrowingAttack(Lua_Mob other); -- void
 ```

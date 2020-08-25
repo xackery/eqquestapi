@@ -6,5 +6,5 @@ menuTitle: SetFollowID
 ---
 ## SetFollowID
 ```lua
-npc:SetFollowID(int id); -- void
+NPC:SetFollowID(int id); -- void
 ```

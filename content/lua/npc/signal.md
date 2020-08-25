@@ -6,5 +6,5 @@ menuTitle: Signal
 ---
 ## Signal
 ```lua
-npc:Signal(int id); -- void
+NPC:Signal(int id); -- void
 ```

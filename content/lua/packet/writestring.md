@@ -6,5 +6,5 @@ menuTitle: WriteString
 ---
 ## WriteString
 ```lua
-packet:WriteString(int offset, std::string value); -- void
+Packet:WriteString(int offset, std::string value); -- void
 ```

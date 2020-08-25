@@ -6,5 +6,5 @@ menuTitle: IsMobSpawnedByNpcTypeID
 ---
 ## IsMobSpawnedByNpcTypeID
 ```lua
-entity_list:IsMobSpawnedByNpcTypeID(int npc_type); -- bool
+EntityList:IsMobSpawnedByNpcTypeID(int npc_type); -- bool
 ```

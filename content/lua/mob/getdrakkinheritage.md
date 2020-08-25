@@ -6,5 +6,5 @@ menuTitle: GetDrakkinHeritage
 ---
 ## GetDrakkinHeritage
 ```lua
-mob:GetDrakkinHeritage(); -- int
+Mob:GetDrakkinHeritage(); -- number
 ```

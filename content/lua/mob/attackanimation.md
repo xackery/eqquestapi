@@ -6,5 +6,5 @@ menuTitle: AttackAnimation
 ---
 ## AttackAnimation
 ```lua
-mob:AttackAnimation(int Hand, Lua_ItemInst weapon); -- int
+Mob:AttackAnimation(int Hand, Lua_ItemInst weapon); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: get_char_id_by_name
 ---
 ## get_char_id_by_name
 ```lua
-eq:get_char_id_by_name(string name); -- int
+eq.get_char_id_by_name(const char* name) -- uint32
 ```

@@ -6,5 +6,5 @@ menuTitle: GetAttackSpeed
 ---
 ## GetAttackSpeed
 ```lua
-npc:GetAttackSpeed(); -- float
+NPC:GetAttackSpeed(); -- number
 ```

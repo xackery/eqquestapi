@@ -6,5 +6,5 @@ menuTitle: GetBeard
 ---
 ## GetBeard
 ```lua
-mob:GetBeard(); -- int
+Mob:GetBeard(); -- number
 ```

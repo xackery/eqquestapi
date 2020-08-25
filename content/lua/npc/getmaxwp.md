@@ -6,5 +6,5 @@ menuTitle: GetMaxWp
 ---
 ## GetMaxWp
 ```lua
-npc:GetMaxWp(); -- int
+NPC:GetMaxWp(); -- number
 ```

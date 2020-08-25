@@ -6,5 +6,5 @@ menuTitle: GetSpawnPointH
 ---
 ## GetSpawnPointH
 ```lua
-npc:GetSpawnPointH(); -- float
+NPC:GetSpawnPointH(); -- number
 ```

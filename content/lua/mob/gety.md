@@ -6,5 +6,5 @@ menuTitle: GetY
 ---
 ## GetY
 ```lua
-mob:GetY(); -- double
+Mob:GetY(); -- number
 ```

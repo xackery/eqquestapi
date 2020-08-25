@@ -6,5 +6,5 @@ menuTitle: GetHateList
 ---
 ## GetHateList
 ```lua
-mob:GetHateList(); -- Lua_HateList
+Mob:GetHateList(); -- unknown - Lua_HateList
 ```

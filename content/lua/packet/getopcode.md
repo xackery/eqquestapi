@@ -6,5 +6,5 @@ menuTitle: GetOpcode
 ---
 ## GetOpcode
 ```lua
-packet:GetOpcode(); -- int
+Packet:GetOpcode(); -- number
 ```

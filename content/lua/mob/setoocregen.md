@@ -6,5 +6,5 @@ menuTitle: SetOOCRegen
 ---
 ## SetOOCRegen
 ```lua
-mob:SetOOCRegen(int regen); -- void
+Mob:SetOOCRegen(int regen); -- void
 ```

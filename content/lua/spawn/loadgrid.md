@@ -6,5 +6,5 @@ menuTitle: LoadGrid
 ---
 ## LoadGrid
 ```lua
-spawn:LoadGrid(); -- void
+Spawn:LoadGrid(); -- void
 ```

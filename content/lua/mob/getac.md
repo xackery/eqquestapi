@@ -6,5 +6,5 @@ menuTitle: GetAC
 ---
 ## GetAC
 ```lua
-mob:GetAC(); -- int
+Mob:GetAC(); -- number
 ```

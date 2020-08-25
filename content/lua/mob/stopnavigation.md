@@ -6,5 +6,5 @@ menuTitle: StopNavigation
 ---
 ## StopNavigation
 ```lua
-mob:StopNavigation(); -- void
+Mob:StopNavigation(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetEntityVariable
 ---
 ## SetEntityVariable
 ```lua
-object:SetEntityVariable(const char *name, const char *value); -- void
+Object:SetEntityVariable(const char *name, const char *value); -- void
 ```

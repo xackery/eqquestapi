@@ -6,5 +6,5 @@ menuTitle: GetAA
 ---
 ## GetAA
 ```lua
-mob:GetAA(int id); -- int
+Mob:GetAA(int id); -- number
 ```

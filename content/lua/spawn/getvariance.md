@@ -6,5 +6,5 @@ menuTitle: GetVariance
 ---
 ## GetVariance
 ```lua
-spawn:GetVariance(); -- uint32
+Spawn:GetVariance(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SeeImprovedHide
 ---
 ## SeeImprovedHide
 ```lua
-mob:SeeImprovedHide(); -- bool
+Mob:SeeImprovedHide(); -- bool
 ```

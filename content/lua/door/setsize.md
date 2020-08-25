@@ -6,5 +6,5 @@ menuTitle: SetSize
 ---
 ## SetSize
 ```lua
-door:SetSize(uint32 sz); -- void
+Door:SetSize(uint32 sz); -- void
 ```

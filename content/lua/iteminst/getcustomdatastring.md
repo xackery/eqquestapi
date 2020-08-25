@@ -6,5 +6,5 @@ menuTitle: GetCustomDataString
 ---
 ## GetCustomDataString
 ```lua
-iteminst:GetCustomDataString(); -- std::string
+ItemInst:GetCustomDataString(); -- string
 ```

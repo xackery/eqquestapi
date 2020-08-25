@@ -6,5 +6,5 @@ menuTitle: get_level
 ---
 ## get_level
 ```lua
-eq:get_level(int type); -- int
+eq.get_level(int type) -- int
 ```

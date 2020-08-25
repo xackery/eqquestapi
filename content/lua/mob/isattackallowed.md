@@ -6,5 +6,5 @@ menuTitle: IsAttackAllowed
 ---
 ## IsAttackAllowed
 ```lua
-mob:IsAttackAllowed(Lua_Mob target, bool isSpellAttack); -- bool
+Mob:IsAttackAllowed(Lua_Mob target, bool isSpellAttack); -- bool
 ```

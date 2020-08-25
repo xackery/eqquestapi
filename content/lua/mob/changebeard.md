@@ -6,5 +6,5 @@ menuTitle: ChangeBeard
 ---
 ## ChangeBeard
 ```lua
-mob:ChangeBeard(int in); -- void
+Mob:ChangeBeard(int in); -- void
 ```

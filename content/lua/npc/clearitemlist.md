@@ -6,5 +6,5 @@ menuTitle: ClearItemList
 ---
 ## ClearItemList
 ```lua
-npc:ClearItemList(); -- void
+NPC:ClearItemList(); -- void
 ```

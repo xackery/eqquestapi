@@ -6,5 +6,5 @@ menuTitle: GetSpawnList
 ---
 ## GetSpawnList
 ```lua
-entity_list:GetSpawnList(); -- Lua_Spawn_List
+EntityList:GetSpawnList(); -- unknown - Lua_Spawn_List
 ```

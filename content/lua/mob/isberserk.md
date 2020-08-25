@@ -6,5 +6,5 @@ menuTitle: IsBerserk
 ---
 ## IsBerserk
 ```lua
-mob:IsBerserk(); -- bool
+Mob:IsBerserk(); -- bool
 ```

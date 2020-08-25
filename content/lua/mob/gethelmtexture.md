@@ -6,5 +6,5 @@ menuTitle: GetHelmTexture
 ---
 ## GetHelmTexture
 ```lua
-mob:GetHelmTexture(); -- int
+Mob:GetHelmTexture(); -- number
 ```

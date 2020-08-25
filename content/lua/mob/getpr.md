@@ -6,5 +6,5 @@ menuTitle: GetPR
 ---
 ## GetPR
 ```lua
-mob:GetPR(); -- int
+Mob:GetPR(); -- number
 ```

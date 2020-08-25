@@ -6,112 +6,95 @@ weight: 25
 ---
 
 ## Npc Methods (Lua)
-- npc:[AI_SetRoambox](ai_setroambox)(float dist, float max_x, float min_x, float max_y, float min_y); -- void
-- npc:[AI_SetRoambox](ai_setroambox)(float dist, float max_x, float min_x, float max_y, float min_y, uint32 delay, uint32 mindelay); -- void
-- npc:[AddAISpell](addaispell)(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust); -- void
-- npc:[AddAISpell](addaispell)(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust, int min_hp, int max_hp); -- void
-- npc:[AddCash](addcash)(int copper, int silver, int gold, int platinum); -- void
-- npc:[AddItem](additem)(int item_id, int charges); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4, int aug5); -- void
-- npc:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4, int aug5, int aug6); -- void
-- npc:[AddLootTable](addloottable)(); -- void
-- npc:[AddLootTable](addloottable)(int id); -- void
-- npc:[AssignWaypoints](assignwaypoints)(int grid); -- void
-- npc:[CalculateNewWaypoint](calculatenewwaypoint)(); -- void
-- npc:[CheckNPCFactionAlly](checknpcfactionally)(int faction); -- int
-- npc:[ClearItemList](clearitemlist)(); -- void
-- npc:[CountLoot](countloot)(); -- int
-- npc:[DisplayWaypointInfo](displaywaypointinfo)(Lua_Client to); -- void
-- npc:[DoClassAttacks](doclassattacks)(Lua_Mob target); -- void
-- npc:[GetAccuracyRating](getaccuracyrating)(); -- int
-- npc:[GetAttackDelay](getattackdelay)(); -- int
-- npc:[GetAttackSpeed](getattackspeed)(); -- float
-- npc:[GetAvoidanceRating](getavoidancerating)(); -- int
-- npc:[GetCopper](getcopper)(); -- uint32
-- npc:[GetFollowCanRun](getfollowcanrun)(); -- bool
-- npc:[GetFollowDistance](getfollowdistance)(); -- int
-- npc:[GetFollowID](getfollowid)(); -- int
-- npc:[GetGold](getgold)(); -- uint32
-- npc:[GetGrid](getgrid)(); -- int
-- npc:[GetGuardPointX](getguardpointx)(); -- float
-- npc:[GetGuardPointY](getguardpointy)(); -- float
-- npc:[GetGuardPointZ](getguardpointz)(); -- float
-- npc:[GetLoottableID](getloottableid)(); -- int
-- npc:[GetMaxDMG](getmaxdmg)(); -- uint32
-- npc:[GetMaxDamage](getmaxdamage)(int level); -- uint32
-- npc:[GetMaxWp](getmaxwp)(); -- int
-- npc:[GetMinDMG](getmindmg)(); -- uint32
-- npc:[GetNPCFactionID](getnpcfactionid)(); -- int
-- npc:[GetNPCHate](getnpchate)(Lua_Mob ent); -- int
-- npc:[GetNPCSpellsID](getnpcspellsid)(); -- int
-- npc:[GetPetSpellID](getpetspellid)(); -- int
-- npc:[GetPlatinum](getplatinum)(); -- uint32
-- npc:[GetPrimSkill](getprimskill)(); -- int
-- npc:[GetPrimaryFaction](getprimaryfaction)(); -- int
-- npc:[GetRawAC](getrawac)(); -- int
-- npc:[GetScore](getscore)(); -- int
-- npc:[GetSecSkill](getsecskill)(); -- int
-- npc:[GetSilver](getsilver)(); -- uint32
-- npc:[GetSlowMitigation](getslowmitigation)(); -- float
-- npc:[GetSp2](getsp2)(); -- uint32
-- npc:[GetSpawnKillCount](getspawnkillcount)(); -- int
-- npc:[GetSpawnPointH](getspawnpointh)(); -- float
-- npc:[GetSpawnPointID](getspawnpointid)(); -- int
-- npc:[GetSpawnPointX](getspawnpointx)(); -- float
-- npc:[GetSpawnPointY](getspawnpointy)(); -- float
-- npc:[GetSpawnPointZ](getspawnpointz)(); -- float
-- npc:[GetSpellFocusDMG](getspellfocusdmg)(); -- int
-- npc:[GetSpellFocusHeal](getspellfocusheal)(); -- int
-- npc:[GetSwarmOwner](getswarmowner)(); -- int
-- npc:[GetSwarmTarget](getswarmtarget)(); -- int
-- npc:[GetWaypointMax](getwaypointmax)(); -- int
-- npc:[IsAnimal](isanimal)(); -- bool
-- npc:[IsGuarding](isguarding)(); -- bool
-- npc:[IsTaunting](istaunting)(); -- bool
-- npc:[IsOnHatelist](isonhatelist)(Lua_Mob ent); -- bool
-- npc:[MerchantCloseShop](merchantcloseshop)(); -- void
-- npc:[MerchantOpenShop](merchantopenshop)(); -- void
-- npc:[ModifyNPCStat](modifynpcstat)(const char *stat, const char *value); -- void
-- npc:[MoveTo](moveto)(float x, float y, float z, float h, bool save); -- void
-- npc:[NextGuardPosition](nextguardposition)(); -- void
-- npc:[PauseWandering](pausewandering)(int pause_time); -- void
-- npc:[PickPocket](pickpocket)(Lua_Client thief); -- void
-- npc:[RecalculateSkills](recalculateskills)(); -- void
-- npc:[RemoveAISpell](removeaispell)(int spell_id); -- void
-- npc:[RemoveCash](removecash)(); -- void
-- npc:[RemoveItem](removeitem)(int item_id); -- void
-- npc:[RemoveItem](removeitem)(int item_id, int quantity); -- void
-- npc:[RemoveItem](removeitem)(int item_id, int quantity, int slot); -- void
-- npc:[ResumeWandering](resumewandering)(); -- void
-- npc:[SaveGuardSpot](saveguardspot)(float x, float y, float z, float heading); -- void
-- npc:[SetCopper](setcopper)(uint32 amt); -- void
-- npc:[SetFollowCanRun](setfollowcanrun)(bool v); -- void
-- npc:[SetFollowDistance](setfollowdistance)(int dist); -- void
-- npc:[SetFollowID](setfollowid)(int id); -- void
-- npc:[SetGold](setgold)(uint32 amt); -- void
-- npc:[SetGrid](setgrid)(int grid); -- void
-- npc:[SetNPCFactionID](setnpcfactionid)(int id); -- void
-- npc:[SetPetSpellID](setpetspellid)(int id); -- void
-- npc:[SetPlatinum](setplatinum)(uint32 amt); -- void
-- npc:[SetPrimSkill](setprimskill)(int skill_id); -- void
-- npc:[SetSaveWaypoint](setsavewaypoint)(int wp); -- void
-- npc:[SetSecSkill](setsecskill)(int skill_id); -- void
-- npc:[SetSilver](setsilver)(uint32 amt); -- void
-- npc:[SetSimpleRoamBox](setsimpleroambox)(float box_size); -- void
-- npc:[SetSimpleRoamBox](setsimpleroambox)(float box_size, float move_distance); -- void
-- npc:[SetSimpleRoamBox](setsimpleroambox)(float box_size, float move_distance, int move_delay); -- void
-- npc:[SetSp2](setsp2)(int sg2); -- void
-- npc:[SetSpellFocusDMG](setspellfocusdmg)(int focus); -- void
-- npc:[SetSpellFocusHeal](setspellfocusheal)(int focus); -- void
-- npc:[SetSwarmTarget](setswarmtarget)(int target); -- void
-- npc:[SetTaunting](settaunting)(bool t); -- void
-- npc:[SetWaypointPause](setwaypointpause)(); -- void
-- npc:[Signal](signal)(int id); -- void
-- npc:[StartSwarmTimer](startswarmtimer)(uint32 duration); -- void
-- npc:[StopWandering](stopwandering)(); -- void
-- npc:[UpdateWaypoint](updatewaypoint)(int wp); -- void
+- NPC:[Signal](signal)(int id); -- void
+- NPC:[CheckNPCFactionAlly](checknpcfactionally)(int faction); -- number
+- NPC:[AddItem](additem)(int item_id, int charges, bool equip, int aug1, int aug2, int aug3, int aug4, int aug5, int aug6); -- void
+- NPC:[AddLootTable](addloottable)(int id); -- void
+- NPC:[RemoveItem](removeitem)(int item_id, int quantity, int slot); -- void
+- NPC:[ClearItemList](clearitemlist)(); -- void
+- NPC:[AddCash](addcash)(int copper, int silver, int gold, int platinum); -- void
+- NPC:[RemoveCash](removecash)(); -- void
+- NPC:[CountLoot](countloot)(); -- number
+- NPC:[GetLoottableID](getloottableid)(); -- number
+- NPC:[GetCopper](getcopper)(); -- number
+- NPC:[GetSilver](getsilver)(); -- number
+- NPC:[GetGold](getgold)(); -- number
+- NPC:[GetPlatinum](getplatinum)(); -- number
+- NPC:[SetCopper](setcopper)(uint32 amt); -- void
+- NPC:[SetSilver](setsilver)(uint32 amt); -- void
+- NPC:[SetGold](setgold)(uint32 amt); -- void
+- NPC:[SetPlatinum](setplatinum)(uint32 amt); -- void
+- NPC:[SetGrid](setgrid)(int grid); -- void
+- NPC:[SetSaveWaypoint](setsavewaypoint)(int wp); -- void
+- NPC:[GetWaypointMax](getwaypointmax)(); -- number
+- NPC:[GetGrid](getgrid)(); -- number
+- NPC:[GetNPCFactionID](getnpcfactionid)(); -- number
+- NPC:[GetPrimaryFaction](getprimaryfaction)(); -- number
+- NPC:[GetNPCHate](getnpchate)(Lua_Mob ent); -- number
+- NPC:[IsOnHatelist](isonhatelist)(Lua_Mob ent); -- bool
+- NPC:[SetNPCFactionID](setnpcfactionid)(int id); -- void
+- NPC:[GetMaxDMG](getmaxdmg)(); -- number
+- NPC:[GetMinDMG](getmindmg)(); -- number
+- NPC:[IsAnimal](isanimal)(); -- bool
+- NPC:[GetPetSpellID](getpetspellid)(); -- number
+- NPC:[SetPetSpellID](setpetspellid)(int id); -- void
+- NPC:[GetMaxDamage](getmaxdamage)(int level); -- number
+- NPC:[SetTaunting](settaunting)(bool t); -- void
+- NPC:[IsTaunting](istaunting)(); -- bool
+- NPC:[PickPocket](pickpocket)(Lua_Client thief); -- void
+- NPC:[StartSwarmTimer](startswarmtimer)(uint32 duration); -- void
+- NPC:[DoClassAttacks](doclassattacks)(Lua_Mob target); -- void
+- NPC:[GetMaxWp](getmaxwp)(); -- number
+- NPC:[DisplayWaypointInfo](displaywaypointinfo)(Lua_Client to); -- void
+- NPC:[CalculateNewWaypoint](calculatenewwaypoint)(); -- void
+- NPC:[AssignWaypoints](assignwaypoints)(int grid); -- void
+- NPC:[SetWaypointPause](setwaypointpause)(); -- void
+- NPC:[UpdateWaypoint](updatewaypoint)(int wp); -- void
+- NPC:[StopWandering](stopwandering)(); -- void
+- NPC:[ResumeWandering](resumewandering)(); -- void
+- NPC:[PauseWandering](pausewandering)(int pause_time); -- void
+- NPC:[MoveTo](moveto)(float x, float y, float z, float h, bool save); -- void
+- NPC:[NextGuardPosition](nextguardposition)(); -- void
+- NPC:[SaveGuardSpot](saveguardspot)(float x, float y, float z, float heading); -- void
+- NPC:[IsGuarding](isguarding)(); -- bool
+- NPC:[SetFollowID](setfollowid)(int id); -- void
+- NPC:[SetFollowDistance](setfollowdistance)(int dist); -- void
+- NPC:[SetFollowCanRun](setfollowcanrun)(bool v); -- void
+- NPC:[GetFollowID](getfollowid)(); -- number
+- NPC:[GetFollowDistance](getfollowdistance)(); -- number
+- NPC:[GetFollowCanRun](getfollowcanrun)(); -- bool
+- NPC:[GetNPCSpellsID](getnpcspellsid)(); -- number
+- NPC:[GetSpawnPointID](getspawnpointid)(); -- number
+- NPC:[GetSpawnPointX](getspawnpointx)(); -- number
+- NPC:[GetSpawnPointY](getspawnpointy)(); -- number
+- NPC:[GetSpawnPointZ](getspawnpointz)(); -- number
+- NPC:[GetSpawnPointH](getspawnpointh)(); -- number
+- NPC:[GetGuardPointX](getguardpointx)(); -- number
+- NPC:[GetGuardPointY](getguardpointy)(); -- number
+- NPC:[GetGuardPointZ](getguardpointz)(); -- number
+- NPC:[SetPrimSkill](setprimskill)(int skill_id); -- void
+- NPC:[SetSecSkill](setsecskill)(int skill_id); -- void
+- NPC:[SetSimpleRoamBox](setsimpleroambox)(float box_size, float move_distance, int move_delay); -- void
+- NPC:[GetPrimSkill](getprimskill)(); -- number
+- NPC:[GetSecSkill](getsecskill)(); -- number
+- NPC:[GetSwarmOwner](getswarmowner)(); -- number
+- NPC:[GetSwarmTarget](getswarmtarget)(); -- number
+- NPC:[SetSwarmTarget](setswarmtarget)(int target); -- void
+- NPC:[ModifyNPCStat](modifynpcstat)(const char *stat, const char *value); -- void
+- NPC:[AddAISpell](addaispell)(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust, int min_hp, int max_hp); -- void
+- NPC:[RemoveAISpell](removeaispell)(int spell_id); -- void
+- NPC:[SetSpellFocusDMG](setspellfocusdmg)(int focus); -- void
+- NPC:[SetSpellFocusHeal](setspellfocusheal)(int focus); -- void
+- NPC:[GetSpellFocusDMG](getspellfocusdmg)(); -- number
+- NPC:[GetSpellFocusHeal](getspellfocusheal)(); -- number
+- NPC:[GetSlowMitigation](getslowmitigation)(); -- number
+- NPC:[GetAttackSpeed](getattackspeed)(); -- number
+- NPC:[GetAttackDelay](getattackdelay)(); -- number
+- NPC:[GetAccuracyRating](getaccuracyrating)(); -- number
+- NPC:[GetSpawnKillCount](getspawnkillcount)(); -- number
+- NPC:[GetScore](getscore)(); -- number
+- NPC:[MerchantOpenShop](merchantopenshop)(); -- void
+- NPC:[MerchantCloseShop](merchantcloseshop)(); -- void
+- NPC:[GetRawAC](getrawac)(); -- number
+- NPC:[GetAvoidanceRating](getavoidancerating)(); -- number
+- NPC:[RecalculateSkills](recalculateskills)(); -- void

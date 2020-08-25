@@ -6,5 +6,5 @@ menuTitle: GetLuclinFace
 ---
 ## GetLuclinFace
 ```lua
-mob:GetLuclinFace(); -- int
+Mob:GetLuclinFace(); -- number
 ```

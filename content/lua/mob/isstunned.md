@@ -6,5 +6,5 @@ menuTitle: IsStunned
 ---
 ## IsStunned
 ```lua
-mob:IsStunned(); -- bool
+Mob:IsStunned(); -- bool
 ```

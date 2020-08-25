@@ -6,5 +6,5 @@ menuTitle: GetPrimaryFaction
 ---
 ## GetPrimaryFaction
 ```lua
-npc:GetPrimaryFaction(); -- int
+NPC:GetPrimaryFaction(); -- number
 ```

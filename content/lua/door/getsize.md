@@ -6,5 +6,5 @@ menuTitle: GetSize
 ---
 ## GetSize
 ```lua
-door:GetSize(); -- uint32
+Door:GetSize(); -- number
 ```

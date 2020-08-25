@@ -6,5 +6,5 @@ menuTitle: GetGrid
 ---
 ## GetGrid
 ```lua
-npc:GetGrid(); -- int
+NPC:GetGrid(); -- number
 ```

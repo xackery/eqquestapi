@@ -6,5 +6,5 @@ menuTitle: PutItem
 ---
 ## PutItem
 ```lua
-inventory:PutItem(int slot_id, Lua_ItemInst item); -- int
+Inventory:PutItem(int slot_id, Lua_ItemInst item); -- number
 ```

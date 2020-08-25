@@ -6,5 +6,5 @@ menuTitle: GetScore
 ---
 ## GetScore
 ```lua
-npc:GetScore(); -- int
+NPC:GetScore(); -- number
 ```

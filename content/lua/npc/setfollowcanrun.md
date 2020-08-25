@@ -6,5 +6,5 @@ menuTitle: SetFollowCanRun
 ---
 ## SetFollowCanRun
 ```lua
-npc:SetFollowCanRun(bool v); -- void
+NPC:SetFollowCanRun(bool v); -- void
 ```

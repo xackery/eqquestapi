@@ -6,5 +6,5 @@ menuTitle: CameraEffect
 ---
 ## CameraEffect
 ```lua
-mob:CameraEffect(uint32 duration, uint32 intensity, Lua_Client c, bool global); -- void
+Mob:CameraEffect(uint32 duration, uint32 intensity, Lua_Client c, bool global); -- void
 ```

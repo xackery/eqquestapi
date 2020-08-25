@@ -6,5 +6,5 @@ menuTitle: SetGender
 ---
 ## SetGender
 ```lua
-mob:SetGender(int in); -- void
+Mob:SetGender(int in); -- void
 ```

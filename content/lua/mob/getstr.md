@@ -6,5 +6,5 @@ menuTitle: GetSTR
 ---
 ## GetSTR
 ```lua
-mob:GetSTR(); -- int
+Mob:GetSTR(); -- number
 ```

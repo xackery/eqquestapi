@@ -6,5 +6,5 @@ menuTitle: Repop
 ---
 ## Repop
 ```lua
-object:Repop(); -- void
+Object:Repop(); -- void
 ```

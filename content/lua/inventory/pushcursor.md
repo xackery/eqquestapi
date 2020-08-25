@@ -6,5 +6,5 @@ menuTitle: PushCursor
 ---
 ## PushCursor
 ```lua
-inventory:PushCursor(Lua_ItemInst item); -- int
+Inventory:PushCursor(Lua_ItemInst item); -- number
 ```

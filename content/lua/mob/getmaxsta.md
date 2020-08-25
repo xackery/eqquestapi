@@ -6,5 +6,5 @@ menuTitle: GetMaxSTA
 ---
 ## GetMaxSTA
 ```lua
-mob:GetMaxSTA(); -- int
+Mob:GetMaxSTA(); -- number
 ```

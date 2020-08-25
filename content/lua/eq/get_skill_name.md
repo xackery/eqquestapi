@@ -6,5 +6,5 @@ menuTitle: get_skill_name
 ---
 ## get_skill_name
 ```lua
-eq:get_skill_name(int skill_id); -- std::string
+eq.get_skill_name(int skill_id) -- string
 ```

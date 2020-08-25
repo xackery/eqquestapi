@@ -6,5 +6,5 @@ menuTitle: CheckAggro
 ---
 ## CheckAggro
 ```lua
-mob:CheckAggro(Lua_Mob other); -- bool
+Mob:CheckAggro(Lua_Mob other); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: world_wide_signal_npc
 ---
 ## world_wide_signal_npc
 ```lua
-eq:world_wide_signal_npc(uint32 signal); -- void
+eq.world_wide_signal_npc(uint32 signal) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GroupMessage
 ---
 ## GroupMessage
 ```lua
-group:GroupMessage(Lua_Mob sender, int language, const char *message); -- void
+Group:GroupMessage(Lua_Mob sender, int language, const char *message); -- void
 ```

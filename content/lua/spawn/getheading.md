@@ -6,5 +6,5 @@ menuTitle: GetHeading
 ---
 ## GetHeading
 ```lua
-spawn:GetHeading(); -- float
+Spawn:GetHeading(); -- number
 ```

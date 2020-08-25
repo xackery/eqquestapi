@@ -6,5 +6,5 @@ menuTitle: move_to
 ---
 ## move_to
 ```lua
-eq:move_to(float x, float y, float z, float h, bool save_guard_spot); -- void
+eq.move_to(float x, float y, float z) -- void
 ```

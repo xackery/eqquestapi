@@ -6,5 +6,5 @@ menuTitle: ClearTimers
 ---
 ## ClearTimers
 ```lua
-iteminst:ClearTimers(); -- void
+ItemInst:ClearTimers(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: IsSilenced
 ---
 ## IsSilenced
 ```lua
-mob:IsSilenced(); -- bool
+Mob:IsSilenced(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: HasTwoHandBluntEquiped
 ---
 ## HasTwoHandBluntEquiped
 ```lua
-mob:HasTwoHandBluntEquiped(); -- bool
+Mob:HasTwoHandBluntEquiped(); -- bool
 ```

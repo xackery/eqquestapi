@@ -6,5 +6,5 @@ menuTitle: Attack
 ---
 ## Attack
 ```lua
-mob:Attack(Lua_Mob other, int hand, bool from_riposte, bool is_strikethrough, bool is_from_spell); -- bool
+Mob:Attack(Lua_Mob other, int hand, bool from_riposte, bool is_strikethrough, bool is_from_spell, luabind::adl::object opts); -- bool
 ```

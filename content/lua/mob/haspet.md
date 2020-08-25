@@ -6,5 +6,5 @@ menuTitle: HasPet
 ---
 ## HasPet
 ```lua
-mob:HasPet(); -- bool
+Mob:HasPet(); -- bool
 ```

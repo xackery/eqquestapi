@@ -6,5 +6,5 @@ menuTitle: IsEnraged
 ---
 ## IsEnraged
 ```lua
-mob:IsEnraged(); -- bool
+Mob:IsEnraged(); -- bool
 ```

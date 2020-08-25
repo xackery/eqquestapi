@@ -6,5 +6,5 @@ menuTitle: DoubleAggro
 ---
 ## DoubleAggro
 ```lua
-mob:DoubleAggro(Lua_Mob other); -- void
+Mob:DoubleAggro(Lua_Mob other); -- void
 ```

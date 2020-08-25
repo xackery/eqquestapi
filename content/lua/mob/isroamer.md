@@ -6,5 +6,5 @@ menuTitle: IsRoamer
 ---
 ## IsRoamer
 ```lua
-mob:IsRoamer(); -- bool
+Mob:IsRoamer(); -- bool
 ```

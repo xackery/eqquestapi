@@ -6,5 +6,5 @@ menuTitle: IsAnimal
 ---
 ## IsAnimal
 ```lua
-npc:IsAnimal(); -- bool
+NPC:IsAnimal(); -- bool
 ```

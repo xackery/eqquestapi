@@ -6,5 +6,5 @@ menuTitle: SetWaypointPause
 ---
 ## SetWaypointPause
 ```lua
-npc:SetWaypointPause(); -- void
+NPC:SetWaypointPause(); -- void
 ```

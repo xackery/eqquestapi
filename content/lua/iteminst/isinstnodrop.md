@@ -6,5 +6,5 @@ menuTitle: IsInstNoDrop
 ---
 ## IsInstNoDrop
 ```lua
-iteminst:IsInstNoDrop(); -- bool
+ItemInst:IsInstNoDrop(); -- bool
 ```

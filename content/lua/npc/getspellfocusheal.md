@@ -6,5 +6,5 @@ menuTitle: GetSpellFocusHeal
 ---
 ## GetSpellFocusHeal
 ```lua
-npc:GetSpellFocusHeal(); -- int
+NPC:GetSpellFocusHeal(); -- number
 ```

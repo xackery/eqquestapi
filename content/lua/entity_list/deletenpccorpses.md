@@ -6,5 +6,5 @@ menuTitle: DeleteNPCCorpses
 ---
 ## DeleteNPCCorpses
 ```lua
-entity_list:DeleteNPCCorpses(); -- int
+EntityList:DeleteNPCCorpses(); -- number
 ```

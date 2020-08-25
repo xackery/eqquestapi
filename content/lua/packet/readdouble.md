@@ -6,5 +6,5 @@ menuTitle: ReadDouble
 ---
 ## ReadDouble
 ```lua
-packet:ReadDouble(int offset); -- double
+Packet:ReadDouble(int offset); -- number
 ```

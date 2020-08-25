@@ -6,5 +6,5 @@ menuTitle: clear_proximity
 ---
 ## clear_proximity
 ```lua
-eq:clear_proximity(); -- void
+eq.clear_proximity() -- void
 ```

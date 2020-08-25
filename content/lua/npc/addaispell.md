@@ -6,5 +6,5 @@ menuTitle: AddAISpell
 ---
 ## AddAISpell
 ```lua
-npc:AddAISpell(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust, int min_hp, int max_hp); -- void
+NPC:AddAISpell(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust, int min_hp, int max_hp); -- void
 ```

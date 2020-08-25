@@ -6,5 +6,5 @@ menuTitle: OpenDoorsNear
 ---
 ## OpenDoorsNear
 ```lua
-entity_list:OpenDoorsNear(Lua_Mob opener); -- void
+EntityList:OpenDoorsNear(Lua_Mob opener); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: IsRaidMember
 ---
 ## IsRaidMember
 ```lua
-raid:IsRaidMember(const char *name); -- bool
+Raid:IsRaidMember(const char *name); -- bool
 ```

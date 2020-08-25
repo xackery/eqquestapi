@@ -6,5 +6,5 @@ menuTitle: GetSpawnPointID
 ---
 ## GetSpawnPointID
 ```lua
-npc:GetSpawnPointID(); -- int
+NPC:GetSpawnPointID(); -- number
 ```

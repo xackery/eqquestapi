@@ -6,5 +6,5 @@ menuTitle: get_class_name
 ---
 ## get_class_name
 ```lua
-eq:get_class_name(uint8 class_id, uint8 level); -- std::string
+eq.get_class_name(uint8 class_id) -- string
 ```

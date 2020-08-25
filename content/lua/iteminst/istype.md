@@ -6,5 +6,5 @@ menuTitle: IsType
 ---
 ## IsType
 ```lua
-iteminst:IsType(int item_class); -- bool
+ItemInst:IsType(int item_class); -- bool
 ```

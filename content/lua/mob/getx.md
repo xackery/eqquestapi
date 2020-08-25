@@ -6,5 +6,5 @@ menuTitle: GetX
 ---
 ## GetX
 ```lua
-mob:GetX(); -- double
+Mob:GetX(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: fail_task
 ---
 ## fail_task
 ```lua
-eq:fail_task(int task_id); -- void
+eq.fail_task(int task_id) -- void
 ```

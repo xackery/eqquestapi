@@ -6,5 +6,5 @@ menuTitle: SpawnGroupID
 ---
 ## SpawnGroupID
 ```lua
-spawn:SpawnGroupID(); -- uint32
+Spawn:SpawnGroupID(); -- number
 ```

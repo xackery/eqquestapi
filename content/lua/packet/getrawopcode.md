@@ -6,5 +6,5 @@ menuTitle: GetRawOpcode
 ---
 ## GetRawOpcode
 ```lua
-packet:GetRawOpcode(); -- int
+Packet:GetRawOpcode(); -- number
 ```

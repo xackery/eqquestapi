@@ -6,5 +6,5 @@ menuTitle: MessageString
 ---
 ## MessageString
 ```lua
-mob:MessageString(int type, int string_id, uint32 distance); -- void
+Mob:MessageString(int type, int string_id, uint32 distance); -- void
 ```

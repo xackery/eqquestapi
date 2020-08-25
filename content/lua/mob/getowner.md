@@ -6,5 +6,5 @@ menuTitle: GetOwner
 ---
 ## GetOwner
 ```lua
-mob:GetOwner(); -- Lua_Mob
+Mob:GetOwner(); -- unknown - Lua_Mob
 ```

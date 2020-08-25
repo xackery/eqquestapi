@@ -6,5 +6,5 @@ menuTitle: GetRaidByClient
 ---
 ## GetRaidByClient
 ```lua
-entity_list:GetRaidByClient(Lua_Client client); -- Lua_Raid
+EntityList:GetRaidByClient(Lua_Client client); -- unknown - Lua_Raid
 ```

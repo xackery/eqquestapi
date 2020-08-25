@@ -6,5 +6,5 @@ menuTitle: GetFlurryChance
 ---
 ## GetFlurryChance
 ```lua
-mob:GetFlurryChance(); -- int
+Mob:GetFlurryChance(); -- number
 ```

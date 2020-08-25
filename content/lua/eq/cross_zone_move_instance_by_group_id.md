@@ -6,5 +6,5 @@ menuTitle: cross_zone_move_instance_by_group_id
 ---
 ## cross_zone_move_instance_by_group_id
 ```lua
-eq:cross_zone_move_instance_by_group_id(group_id, instance_id, min_status, max_status); -- void
+eq.cross_zone_move_instance_by_group_id(int group_id, uint16 instance_id) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetY
 ---
 ## SetY
 ```lua
-door:SetY(float y); -- void
+Door:SetY(float y); -- void
 ```

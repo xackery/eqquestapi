@@ -6,5 +6,5 @@ menuTitle: StartSwarmTimer
 ---
 ## StartSwarmTimer
 ```lua
-npc:StartSwarmTimer(uint32 duration); -- void
+NPC:StartSwarmTimer(uint32 duration); -- void
 ```

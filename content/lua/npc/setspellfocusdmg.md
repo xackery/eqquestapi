@@ -6,5 +6,5 @@ menuTitle: SetSpellFocusDMG
 ---
 ## SetSpellFocusDMG
 ```lua
-npc:SetSpellFocusDMG(int focus); -- void
+NPC:SetSpellFocusDMG(int focus); -- void
 ```

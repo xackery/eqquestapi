@@ -6,5 +6,5 @@ menuTitle: create_guild
 ---
 ## create_guild
 ```lua
-eq:create_guild(const char *name, const char *leader); -- void
+eq.create_guild(const char *name, const char *leader) -- void
 ```

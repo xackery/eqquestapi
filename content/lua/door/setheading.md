@@ -6,5 +6,5 @@ menuTitle: SetHeading
 ---
 ## SetHeading
 ```lua
-door:SetHeading(float h); -- void
+Door:SetHeading(float h); -- void
 ```

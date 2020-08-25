@@ -6,5 +6,5 @@ menuTitle: GetTarget
 ---
 ## GetTarget
 ```lua
-mob:GetTarget(); -- Lua_Mob
+Mob:GetTarget(); -- unknown - Lua_Mob
 ```

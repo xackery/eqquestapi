@@ -6,5 +6,5 @@ menuTitle: GetLevel
 ---
 ## GetLevel
 ```lua
-mob:GetLevel(); -- int
+Mob:GetLevel(); -- number
 ```

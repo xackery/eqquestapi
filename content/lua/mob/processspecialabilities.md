@@ -6,5 +6,5 @@ menuTitle: ProcessSpecialAbilities
 ---
 ## ProcessSpecialAbilities
 ```lua
-mob:ProcessSpecialAbilities(std::string str); -- void
+Mob:ProcessSpecialAbilities(std::string str); -- void
 ```

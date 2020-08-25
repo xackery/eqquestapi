@@ -6,5 +6,5 @@ menuTitle: GetItemScriptID
 ---
 ## GetItemScriptID
 ```lua
-iteminst:GetItemScriptID(); -- uint32
+ItemInst:GetItemScriptID(); -- number
 ```

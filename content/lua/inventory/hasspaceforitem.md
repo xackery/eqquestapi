@@ -6,5 +6,5 @@ menuTitle: HasSpaceForItem
 ---
 ## HasSpaceForItem
 ```lua
-inventory:HasSpaceForItem(Lua_Item item, int quantity); -- bool
+Inventory:HasSpaceForItem(Lua_Item item, int quantity); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: GetRawAC
 ---
 ## GetRawAC
 ```lua
-npc:GetRawAC(); -- int
+NPC:GetRawAC(); -- number
 ```

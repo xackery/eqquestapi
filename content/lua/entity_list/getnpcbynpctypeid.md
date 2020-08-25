@@ -6,5 +6,5 @@ menuTitle: GetNPCByNPCTypeID
 ---
 ## GetNPCByNPCTypeID
 ```lua
-entity_list:GetNPCByNPCTypeID(int npc_type); -- Lua_NPC
+EntityList:GetNPCByNPCTypeID(int npc_type); -- unknown - Lua_NPC
 ```

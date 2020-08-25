@@ -6,5 +6,5 @@ menuTitle: GetAggroRange
 ---
 ## GetAggroRange
 ```lua
-mob:GetAggroRange(); -- float
+Mob:GetAggroRange(); -- number
 ```

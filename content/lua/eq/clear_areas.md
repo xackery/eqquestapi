@@ -6,5 +6,5 @@ menuTitle: clear_areas
 ---
 ## clear_areas
 ```lua
-eq:clear_areas(); -- void
+eq.clear_areas() -- void
 ```

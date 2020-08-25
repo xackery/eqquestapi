@@ -6,5 +6,5 @@ menuTitle: CalcSlotId
 ---
 ## CalcSlotId
 ```lua
-inventory:CalcSlotId(int slot_id, int bag_slot); -- int
+Inventory:CalcSlotId(int slot_id, int bag_slot); -- number
 ```

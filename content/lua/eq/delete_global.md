@@ -6,5 +6,5 @@ menuTitle: delete_global
 ---
 ## delete_global
 ```lua
-eq:delete_global(const char *name); -- void
+eq.delete_global(const char *name) -- void
 ```

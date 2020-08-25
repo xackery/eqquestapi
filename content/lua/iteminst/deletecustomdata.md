@@ -6,5 +6,5 @@ menuTitle: DeleteCustomData
 ---
 ## DeleteCustomData
 ```lua
-iteminst:DeleteCustomData(std::string identifier); -- void
+ItemInst:DeleteCustomData(std::string identifier); -- void
 ```

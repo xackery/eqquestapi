@@ -6,5 +6,5 @@ menuTitle: GetTexture
 ---
 ## GetTexture
 ```lua
-mob:GetTexture(); -- int
+Mob:GetTexture(); -- number
 ```

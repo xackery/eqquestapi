@@ -6,5 +6,5 @@ menuTitle: GetIncline
 ---
 ## GetIncline
 ```lua
-door:GetIncline(); -- uint32
+Door:GetIncline(); -- number
 ```

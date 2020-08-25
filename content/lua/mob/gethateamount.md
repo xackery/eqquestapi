@@ -6,5 +6,5 @@ menuTitle: GetHateAmount
 ---
 ## GetHateAmount
 ```lua
-mob:GetHateAmount(Lua_Mob target, bool is_damage); -- uint32
+Mob:GetHateAmount(Lua_Mob target, bool is_damage); -- number
 ```

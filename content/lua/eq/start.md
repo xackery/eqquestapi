@@ -6,5 +6,5 @@ menuTitle: start
 ---
 ## start
 ```lua
-eq:start(int wp); -- void
+eq.start(int wp) -- void
 ```

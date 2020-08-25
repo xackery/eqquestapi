@@ -6,5 +6,5 @@ menuTitle: GetSlowMitigation
 ---
 ## GetSlowMitigation
 ```lua
-npc:GetSlowMitigation(); -- float
+NPC:GetSlowMitigation(); -- number
 ```

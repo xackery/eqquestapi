@@ -6,5 +6,5 @@ menuTitle: GetZ
 ---
 ## GetZ
 ```lua
-spawn:GetZ(); -- float
+Spawn:GetZ(); -- number
 ```

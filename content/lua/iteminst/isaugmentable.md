@@ -6,5 +6,5 @@ menuTitle: IsAugmentable
 ---
 ## IsAugmentable
 ```lua
-iteminst:IsAugmentable(); -- bool
+ItemInst:IsAugmentable(); -- bool
 ```

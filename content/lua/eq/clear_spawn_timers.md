@@ -6,5 +6,5 @@ menuTitle: clear_spawn_timers
 ---
 ## clear_spawn_timers
 ```lua
-eq:clear_spawn_timers(); -- void
+eq.clear_spawn_timers() -- void
 ```

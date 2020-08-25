@@ -6,5 +6,5 @@ menuTitle: GetDisplayAC
 ---
 ## GetDisplayAC
 ```lua
-mob:GetDisplayAC(); -- int
+Mob:GetDisplayAC(); -- number
 ```

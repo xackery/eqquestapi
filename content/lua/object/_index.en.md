@@ -6,35 +6,35 @@ weight: 25
 ---
 
 ## Object Methods (Lua)
-- object:[ClearUser](clearuser)(); -- void
-- object:[Close](close)(); -- void
-- object:[Delete](delete)(); -- void
-- object:[Delete](delete)(bool reset_state); -- void
-- object:[DeleteItem](deleteitem)(int index); -- void
-- object:[Depop](depop)(); -- void
-- object:[EntityVariableExists](entityvariableexists)(const char *name); -- bool
-- object:[GetDBID](getdbid)(); -- uint32
-- object:[GetHeading](getheading)(); -- float
-- object:[GetID](getid)(); -- int
-- object:[GetIcon](geticon)(); -- uint32
-- object:[GetItemID](getitemid)(); -- uint32
-- object:[GetType](gettype)(); -- uint32
-- object:[GetX](getx)(); -- float
-- object:[GetY](gety)(); -- float
-- object:[GetZ](getz)(); -- float
-- object:[IsGroundSpawn](isgroundspawn)(); -- bool
-- object:[Repop](repop)(); -- void
-- object:[Save](save)(); -- bool
-- object:[SetEntityVariable](setentityvariable)(const char *name, const char *value); -- void
-- object:[SetHeading](setheading)(float h); -- void
-- object:[SetID](setid)(int user); -- void
-- object:[SetIcon](seticon)(uint32 icon); -- void
-- object:[SetItemID](setitemid)(uint32 item_id); -- void
-- object:[SetLocation](setlocation)(float x, float y, float z); -- void
-- object:[SetModelName](setmodelname)(const char *name); -- void
-- object:[SetType](settype)(uint32 type); -- void
-- object:[SetX](setx)(float x); -- void
-- object:[SetY](sety)(float y); -- void
-- object:[SetZ](setz)(float z); -- void
-- object:[StartDecay](startdecay)(); -- void
-- object:[VarSave](varsave)(); -- uint32
+- Object:[Depop](depop)(); -- void
+- Object:[Repop](repop)(); -- void
+- Object:[SetModelName](setmodelname)(const char *name); -- void
+- Object:[GetModelName](getmodelname)(); -- string
+- Object:[GetX](getx)(); -- number
+- Object:[GetY](gety)(); -- number
+- Object:[GetZ](getz)(); -- number
+- Object:[GetHeading](getheading)(); -- number
+- Object:[SetX](setx)(float x); -- void
+- Object:[SetY](sety)(float y); -- void
+- Object:[SetZ](setz)(float z); -- void
+- Object:[SetHeading](setheading)(float h); -- void
+- Object:[SetLocation](setlocation)(float x, float y, float z); -- void
+- Object:[SetItemID](setitemid)(uint32 item_id); -- void
+- Object:[GetItemID](getitemid)(); -- number
+- Object:[SetIcon](seticon)(uint32 icon); -- void
+- Object:[GetIcon](geticon)(); -- number
+- Object:[SetType](settype)(uint32 type); -- void
+- Object:[GetType](gettype)(); -- number
+- Object:[GetDBID](getdbid)(); -- number
+- Object:[ClearUser](clearuser)(); -- void
+- Object:[SetID](setid)(int user); -- void
+- Object:[GetID](getid)(); -- number
+- Object:[Save](save)(); -- bool
+- Object:[VarSave](varsave)(); -- number
+- Object:[DeleteItem](deleteitem)(int index); -- void
+- Object:[StartDecay](startdecay)(); -- void
+- Object:[IsGroundSpawn](isgroundspawn)(); -- bool
+- Object:[Close](close)(); -- void
+- Object:[GetEntityVariable](getentityvariable)(const char *name); -- string
+- Object:[SetEntityVariable](setentityvariable)(const char *name, const char *value); -- void
+- Object:[EntityVariableExists](entityvariableexists)(const char *name); -- bool

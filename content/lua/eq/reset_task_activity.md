@@ -6,5 +6,5 @@ menuTitle: reset_task_activity
 ---
 ## reset_task_activity
 ```lua
-eq:reset_task_activity(int task, int activity); -- void
+eq.reset_task_activity(int task, int activity) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: IsRooted
 ---
 ## IsRooted
 ```lua
-mob:IsRooted(); -- bool
+Mob:IsRooted(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: ForceDespawn
 ---
 ## ForceDespawn
 ```lua
-spawn:ForceDespawn(); -- void
+Spawn:ForceDespawn(); -- void
 ```

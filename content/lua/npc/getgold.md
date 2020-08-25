@@ -6,5 +6,5 @@ menuTitle: GetGold
 ---
 ## GetGold
 ```lua
-npc:GetGold(); -- uint32
+NPC:GetGold(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetSkillDmgAmt
 ---
 ## GetSkillDmgAmt
 ```lua
-mob:GetSkillDmgAmt(uint16 skill); -- int
+Mob:GetSkillDmgAmt(uint16 skill); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetGroup
 ---
 ## GetGroup
 ```lua
-raid:GetGroup(const char *c); -- int
+Raid:GetGroup(Lua_Client c); -- number
 ```

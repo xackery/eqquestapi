@@ -6,5 +6,5 @@ menuTitle: SetTargetable
 ---
 ## SetTargetable
 ```lua
-mob:SetTargetable(bool on); -- void
+Mob:SetTargetable(bool on); -- void
 ```

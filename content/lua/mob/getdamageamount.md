@@ -6,5 +6,5 @@ menuTitle: GetDamageAmount
 ---
 ## GetDamageAmount
 ```lua
-mob:GetDamageAmount(Lua_Mob target); -- uint32
+Mob:GetDamageAmount(Lua_Mob target); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: TryFinishingBlow
 ---
 ## TryFinishingBlow
 ```lua
-mob:TryFinishingBlow(Lua_Mob defender, int &damage); -- bool
+Mob:TryFinishingBlow(Lua_Mob defender, int &damage); -- bool
 ```

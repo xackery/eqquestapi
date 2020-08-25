@@ -6,5 +6,5 @@ menuTitle: GetPhR
 ---
 ## GetPhR
 ```lua
-mob:GetPhR(); -- int
+Mob:GetPhR(); -- number
 ```

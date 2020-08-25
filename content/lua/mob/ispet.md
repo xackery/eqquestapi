@@ -6,5 +6,5 @@ menuTitle: IsPet
 ---
 ## IsPet
 ```lua
-mob:IsPet(); -- bool
+Mob:IsPet(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: DoClassAttacks
 ---
 ## DoClassAttacks
 ```lua
-npc:DoClassAttacks(Lua_Mob target); -- void
+NPC:DoClassAttacks(Lua_Mob target); -- void
 ```

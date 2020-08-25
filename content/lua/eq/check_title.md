@@ -6,5 +6,5 @@ menuTitle: check_title
 ---
 ## check_title
 ```lua
-eq:check_title(uint32 title_set); -- void
+eq.check_title(uint32 title_set) -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: SetTimer
 ---
 ## SetTimer
 ```lua
-spawn:SetTimer(uint32 duration); -- void
+Spawn:SetTimer(uint32 duration); -- void
 ```

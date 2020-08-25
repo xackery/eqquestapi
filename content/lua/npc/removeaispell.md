@@ -6,5 +6,5 @@ menuTitle: RemoveAISpell
 ---
 ## RemoveAISpell
 ```lua
-npc:RemoveAISpell(int spell_id); -- void
+NPC:RemoveAISpell(int spell_id); -- void
 ```

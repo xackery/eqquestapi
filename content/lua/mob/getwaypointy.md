@@ -6,5 +6,5 @@ menuTitle: GetWaypointY
 ---
 ## GetWaypointY
 ```lua
-mob:GetWaypointY(); -- double
+Mob:GetWaypointY(); -- number
 ```

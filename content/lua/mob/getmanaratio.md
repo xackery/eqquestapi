@@ -6,5 +6,5 @@ menuTitle: GetManaRatio
 ---
 ## GetManaRatio
 ```lua
-mob:GetManaRatio(); -- double
+Mob:GetManaRatio(); -- number
 ```

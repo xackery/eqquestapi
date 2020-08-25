@@ -6,5 +6,5 @@ menuTitle: GetClientByID
 ---
 ## GetClientByID
 ```lua
-entity_list:GetClientByID(int id); -- Lua_Client
+EntityList:GetClientByID(int id); -- unknown - Lua_Client
 ```

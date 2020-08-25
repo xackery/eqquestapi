@@ -6,5 +6,5 @@ menuTitle: GetInvul
 ---
 ## GetInvul
 ```lua
-mob:GetInvul(); -- bool
+Mob:GetInvul(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: GetCorruption
 ---
 ## GetCorruption
 ```lua
-mob:GetCorruption(); -- int
+Mob:GetCorruption(); -- number
 ```

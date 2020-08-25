@@ -6,5 +6,5 @@ menuTitle: IsGroundSpawn
 ---
 ## IsGroundSpawn
 ```lua
-object:IsGroundSpawn(); -- bool
+Object:IsGroundSpawn(); -- bool
 ```

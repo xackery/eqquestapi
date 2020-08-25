@@ -6,5 +6,5 @@ menuTitle: IsImmuneToSpell
 ---
 ## IsImmuneToSpell
 ```lua
-mob:IsImmuneToSpell(int spell_id, Lua_Mob caster); -- bool
+Mob:IsImmuneToSpell(int spell_id, Lua_Mob caster); -- bool
 ```

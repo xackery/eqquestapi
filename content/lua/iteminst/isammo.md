@@ -6,5 +6,5 @@ menuTitle: IsAmmo
 ---
 ## IsAmmo
 ```lua
-iteminst:IsAmmo(); -- bool
+ItemInst:IsAmmo(); -- bool
 ```

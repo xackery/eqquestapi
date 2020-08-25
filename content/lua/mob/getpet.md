@@ -6,5 +6,5 @@ menuTitle: GetPet
 ---
 ## GetPet
 ```lua
-mob:GetPet(); -- Lua_Mob
+Mob:GetPet(); -- unknown - Lua_Mob
 ```

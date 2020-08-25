@@ -6,5 +6,5 @@ menuTitle: GetDR
 ---
 ## GetDR
 ```lua
-mob:GetDR(); -- int
+Mob:GetDR(); -- number
 ```

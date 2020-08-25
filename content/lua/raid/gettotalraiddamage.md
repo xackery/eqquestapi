@@ -6,5 +6,5 @@ menuTitle: GetTotalRaidDamage
 ---
 ## GetTotalRaidDamage
 ```lua
-raid:GetTotalRaidDamage(Lua_Mob other); -- uint32
+Raid:GetTotalRaidDamage(Lua_Mob other); -- number
 ```

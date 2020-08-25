@@ -6,5 +6,5 @@ menuTitle: ChangeSize
 ---
 ## ChangeSize
 ```lua
-mob:ChangeSize(double in_size, bool no_restriction); -- void
+Mob:ChangeSize(double in_size, bool no_restriction); -- void
 ```

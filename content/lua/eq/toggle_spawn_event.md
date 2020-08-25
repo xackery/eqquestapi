@@ -6,5 +6,5 @@ menuTitle: toggle_spawn_event
 ---
 ## toggle_spawn_event
 ```lua
-eq:toggle_spawn_event(int event_id, bool enable, bool strict, bool reset); -- void
+eq.toggle_spawn_event(int event_id, bool enable, bool strict, bool reset) -- void
 ```

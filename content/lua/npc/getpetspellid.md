@@ -6,5 +6,5 @@ menuTitle: GetPetSpellID
 ---
 ## GetPetSpellID
 ```lua
-npc:GetPetSpellID(); -- int
+NPC:GetPetSpellID(); -- number
 ```

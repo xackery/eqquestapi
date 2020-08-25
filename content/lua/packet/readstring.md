@@ -6,5 +6,5 @@ menuTitle: ReadString
 ---
 ## ReadString
 ```lua
-packet:ReadString(int offset); -- std::string
+Packet:ReadString(int offset); -- string
 ```

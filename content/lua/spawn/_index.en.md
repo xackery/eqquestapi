@@ -6,29 +6,27 @@ weight: 25
 ---
 
 ## Spawn Methods (Lua)
-- spawn:[CurrentNPCID](currentnpcid)(); -- uint32
-- spawn:[Depop](depop)(); -- void
-- spawn:[Disable](disable)(); -- void
-- spawn:[Enable](enable)(); -- void
-- spawn:[Enabled](enabled)(); -- bool
-- spawn:[ForceDespawn](forcedespawn)(); -- void
-- spawn:[GetHeading](getheading)(); -- float
-- spawn:[GetID](getid)(); -- uint32
-- spawn:[GetKillCount](getkillcount)(); -- uint32
-- spawn:[GetSpawnCondition](getspawncondition)(); -- uint32
-- spawn:[GetVariance](getvariance)(); -- uint32
-- spawn:[GetX](getx)(); -- float
-- spawn:[GetY](gety)(); -- float
-- spawn:[GetZ](getz)(); -- float
-- spawn:[LoadGrid](loadgrid)(); -- void
-- spawn:[NPCPointerValid](npcpointervalid)(); -- bool
-- spawn:[Repop](repop)(); -- void
-- spawn:[Repop](repop)(uint32 delay); -- void
-- spawn:[Reset](reset)(); -- void
-- spawn:[RespawnTimer](respawntimer)(); -- uint32
-- spawn:[SetCurrentNPCID](setcurrentnpcid)(uint32 nid); -- void
-- spawn:[SetNPCPointer](setnpcpointer)(Lua_NPC n); -- void
-- spawn:[SetRespawnTimer](setrespawntimer)(uint32 newrespawntime); -- void
-- spawn:[SetTimer](settimer)(uint32 duration); -- void
-- spawn:[SetVariance](setvariance)(uint32 newvariance); -- void
-- spawn:[SpawnGroupID](spawngroupid)(); -- uint32
+- Spawn:[LoadGrid](loadgrid)(); -- void
+- Spawn:[Enable](enable)(); -- void
+- Spawn:[Disable](disable)(); -- void
+- Spawn:[Enabled](enabled)(); -- bool
+- Spawn:[Reset](reset)(); -- void
+- Spawn:[Depop](depop)(); -- void
+- Spawn:[Repop](repop)(uint32 delay); -- void
+- Spawn:[ForceDespawn](forcedespawn)(); -- void
+- Spawn:[GetID](getid)(); -- number
+- Spawn:[GetX](getx)(); -- number
+- Spawn:[GetY](gety)(); -- number
+- Spawn:[GetZ](getz)(); -- number
+- Spawn:[GetHeading](getheading)(); -- number
+- Spawn:[SetRespawnTimer](setrespawntimer)(uint32 newrespawntime); -- void
+- Spawn:[SetVariance](setvariance)(uint32 newvariance); -- void
+- Spawn:[GetVariance](getvariance)(); -- number
+- Spawn:[SpawnGroupID](spawngroupid)(); -- number
+- Spawn:[CurrentNPCID](currentnpcid)(); -- number
+- Spawn:[SetCurrentNPCID](setcurrentnpcid)(uint32 nid); -- void
+- Spawn:[GetSpawnCondition](getspawncondition)(); -- number
+- Spawn:[NPCPointerValid](npcpointervalid)(); -- bool
+- Spawn:[SetNPCPointer](setnpcpointer)(Lua_NPC n); -- void
+- Spawn:[SetTimer](settimer)(uint32 duration); -- void
+- Spawn:[GetKillCount](getkillcount)(); -- number

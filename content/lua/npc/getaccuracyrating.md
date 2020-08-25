@@ -6,5 +6,5 @@ menuTitle: GetAccuracyRating
 ---
 ## GetAccuracyRating
 ```lua
-npc:GetAccuracyRating(); -- int
+NPC:GetAccuracyRating(); -- number
 ```

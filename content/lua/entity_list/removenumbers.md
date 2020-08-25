@@ -6,5 +6,5 @@ menuTitle: RemoveNumbers
 ---
 ## RemoveNumbers
 ```lua
-entity_list:RemoveNumbers(const char *name); -- std::string
+EntityList:RemoveNumbers(const char *name); -- string
 ```

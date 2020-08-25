@@ -6,5 +6,5 @@ menuTitle: BuffFadeAll
 ---
 ## BuffFadeAll
 ```lua
-mob:BuffFadeAll(); -- void
+Mob:BuffFadeAll(); -- void
 ```

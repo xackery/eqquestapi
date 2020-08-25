@@ -6,5 +6,5 @@ menuTitle: FaceTarget
 ---
 ## FaceTarget
 ```lua
-mob:FaceTarget(Lua_Mob target); -- void
+Mob:FaceTarget(Lua_Mob target); -- void
 ```

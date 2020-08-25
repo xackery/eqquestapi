@@ -6,5 +6,5 @@ menuTitle: GetNPCList
 ---
 ## GetNPCList
 ```lua
-entity_list:GetNPCList(); -- Lua_NPC_List
+EntityList:GetNPCList(); -- unknown - Lua_NPC_List
 ```

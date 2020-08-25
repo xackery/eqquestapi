@@ -6,5 +6,5 @@ menuTitle: DisplayWaypointInfo
 ---
 ## DisplayWaypointInfo
 ```lua
-npc:DisplayWaypointInfo(Lua_Client to); -- void
+NPC:DisplayWaypointInfo(Lua_Client to); -- void
 ```

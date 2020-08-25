@@ -6,5 +6,5 @@ menuTitle: Depop
 ---
 ## Depop
 ```lua
-mob:Depop(bool start_spawn_timer); -- void
+Mob:Depop(bool start_spawn_timer); -- void
 ```

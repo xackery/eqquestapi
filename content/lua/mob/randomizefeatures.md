@@ -6,5 +6,5 @@ menuTitle: RandomizeFeatures
 ---
 ## RandomizeFeatures
 ```lua
-mob:RandomizeFeatures(bool send_illusion, bool save_variables); -- void
+Mob:RandomizeFeatures(bool send_illusion, bool save_variables); -- void
 ```

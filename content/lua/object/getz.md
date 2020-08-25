@@ -6,5 +6,5 @@ menuTitle: GetZ
 ---
 ## GetZ
 ```lua
-object:GetZ(); -- float
+Object:GetZ(); -- number
 ```

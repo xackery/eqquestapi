@@ -6,5 +6,5 @@ menuTitle: get_owner
 ---
 ## get_owner
 ```lua
-eq:get_owner(); -- Lua_Mob
+eq.get_owner() -- Lua_Mob
 ```

@@ -6,5 +6,5 @@ menuTitle: rain
 ---
 ## rain
 ```lua
-eq:rain(int weather); -- void
+eq.rain(int weather) -- void
 ```

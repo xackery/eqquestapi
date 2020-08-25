@@ -6,5 +6,5 @@ menuTitle: IsTaunting
 ---
 ## IsTaunting
 ```lua
-npc:IsTaunting(); -- bool
+NPC:IsTaunting(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: GetAssistRange
 ---
 ## GetAssistRange
 ```lua
-mob:GetAssistRange(); -- float
+Mob:GetAssistRange(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: ClearSpecialAbilities
 ---
 ## ClearSpecialAbilities
 ```lua
-mob:ClearSpecialAbilities(); -- void
+Mob:ClearSpecialAbilities(); -- void
 ```

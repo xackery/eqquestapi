@@ -6,5 +6,5 @@ menuTitle: get_zone_instance_id
 ---
 ## get_zone_instance_id
 ```lua
-eq:get_zone_instance_id(); -- int
+eq.get_zone_instance_id() -- int
 ```

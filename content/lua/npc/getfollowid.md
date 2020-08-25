@@ -6,5 +6,5 @@ menuTitle: GetFollowID
 ---
 ## GetFollowID
 ```lua
-npc:GetFollowID(); -- int
+NPC:GetFollowID(); -- number
 ```

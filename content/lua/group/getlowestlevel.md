@@ -6,5 +6,5 @@ menuTitle: GetLowestLevel
 ---
 ## GetLowestLevel
 ```lua
-group:GetLowestLevel(); -- int
+Group:GetLowestLevel(); -- number
 ```

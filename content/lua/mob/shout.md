@@ -6,5 +6,5 @@ menuTitle: Shout
 ---
 ## Shout
 ```lua
-mob:Shout(const char* message, int language); -- void
+Mob:Shout(const char* message, int language); -- void
 ```

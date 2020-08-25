@@ -6,5 +6,5 @@ menuTitle: GetGender
 ---
 ## GetGender
 ```lua
-mob:GetGender(); -- int
+Mob:GetGender(); -- number
 ```

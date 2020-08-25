@@ -6,5 +6,5 @@ menuTitle: GetCorpseByName
 ---
 ## GetCorpseByName
 ```lua
-entity_list:GetCorpseByName(const char *name); -- Lua_Corpse
+EntityList:GetCorpseByName(const char *name); -- unknown - Lua_Corpse
 ```

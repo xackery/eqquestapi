@@ -6,5 +6,5 @@ menuTitle: GetItemHPBonuses
 ---
 ## GetItemHPBonuses
 ```lua
-mob:GetItemHPBonuses(); -- int
+Mob:GetItemHPBonuses(); -- number
 ```

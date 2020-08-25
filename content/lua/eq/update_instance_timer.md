@@ -6,5 +6,5 @@ menuTitle: update_instance_timer
 ---
 ## update_instance_timer
 ```lua
-eq:update_instance_timer(uint16 instance_id, uint32 new_duration); -- void
+eq.update_instance_timer(uint16 instance_id, uint32 new_duration) -- void
 ```

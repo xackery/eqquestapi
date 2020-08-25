@@ -6,5 +6,5 @@ menuTitle: completed_tasks_in_set
 ---
 ## completed_tasks_in_set
 ```lua
-eq:completed_tasks_in_set(int task_set); -- int
+eq.completed_tasks_in_set(int task_set) -- int
 ```

@@ -6,5 +6,5 @@ menuTitle: GetFollowCanRun
 ---
 ## GetFollowCanRun
 ```lua
-npc:GetFollowCanRun(); -- bool
+NPC:GetFollowCanRun(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: CanAddHateForMob
 ---
 ## CanAddHateForMob
 ```lua
-entity_list:CanAddHateForMob(Lua_Mob p); -- bool
+EntityList:CanAddHateForMob(Lua_Mob p); -- bool
 ```

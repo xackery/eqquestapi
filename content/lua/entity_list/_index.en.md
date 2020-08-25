@@ -6,66 +6,61 @@ weight: 25
 ---
 
 ## Entity List Methods (Lua)
-- entity_list:[CanAddHateForMob](canaddhateformob)(Lua_Mob p); -- bool
-- entity_list:[ChannelMessage](channelmessage)(Lua_Mob from, int channel_num, int language, const char *message); -- void
-- entity_list:[ClearClientPetitionQueue](clearclientpetitionqueue)(); -- void
-- entity_list:[ClearFeignAggro](clearfeignaggro)(Lua_Mob who); -- void
-- entity_list:[DeleteNPCCorpses](deletenpccorpses)(); -- int
-- entity_list:[DeletePlayerCorpses](deleteplayercorpses)(); -- int
-- entity_list:[DoubleAggro](doubleaggro)(Lua_Mob who); -- void
-- entity_list:[Fighting](fighting)(Lua_Mob who); -- bool
-- entity_list:[FilteredMessageClose](filteredmessageclose)(Lua_Mob sender, bool skip_sender, float dist, uint32 type, int filter, const char *message); -- void
-- entity_list:[FindDoor](finddoor)(uint32 id); -- Lua_Door
-- entity_list:[GetClientByAccID](getclientbyaccid)(uint32 acct_id); -- Lua_Client
-- entity_list:[GetClientByCharID](getclientbycharid)(uint32 char_id); -- Lua_Client
-- entity_list:[GetClientByID](getclientbyid)(int id); -- Lua_Client
-- entity_list:[GetClientByName](getclientbyname)(const char *name); -- Lua_Client
-- entity_list:[GetClientByWID](getclientbywid)(uint32 wid); -- Lua_Client
-- entity_list:[GetClientList](getclientlist)(); -- Lua_Client_List
-- entity_list:[GetCorpseByID](getcorpsebyid)(int id); -- Lua_Corpse
-- entity_list:[GetCorpseByName](getcorpsebyname)(const char *name); -- Lua_Corpse
-- entity_list:[GetCorpseByOwner](getcorpsebyowner)(Lua_Client client); -- Lua_Corpse
-- entity_list:[GetCorpseList](getcorpselist)(); -- Lua_Corpse_List
-- entity_list:[GetDoorsByDBID](getdoorsbydbid)(uint32 db_id); -- Lua_Door
-- entity_list:[GetDoorsByDoorID](getdoorsbydoorid)(uint32 door_id); -- Lua_Door
-- entity_list:[GetDoorsByID](getdoorsbyid)(int id); -- Lua_Door
-- entity_list:[GetDoorsList](getdoorslist)(); -- Lua_Doors_List
-- entity_list:[GetGroupByClient](getgroupbyclient)(Lua_Client client); -- Lua_Group
-- entity_list:[GetGroupByID](getgroupbyid)(int id); -- Lua_Group
-- entity_list:[GetGroupByLeaderName](getgroupbyleadername)(const char *name); -- Lua_Group
-- entity_list:[GetGroupByMob](getgroupbymob)(Lua_Mob mob); -- Lua_Group
-- entity_list:[GetMob](getmob)(const char *name); -- Lua_Mob
-- entity_list:[GetMob](getmob)(int id); -- Lua_Mob
-- entity_list:[GetMobByNpcTypeID](getmobbynpctypeid)(int npc_type); -- Lua_Mob
-- entity_list:[GetMobID](getmobid)(int id); -- Lua_Mob
-- entity_list:[GetMobList](getmoblist)(); -- Lua_Mob_List
-- entity_list:[GetNPCByID](getnpcbyid)(int id); -- Lua_NPC
-- entity_list:[GetNPCByNPCTypeID](getnpcbynpctypeid)(int npc_type); -- Lua_NPC
-- entity_list:[GetNPCBySpawnID](getnpcbyspawnid)(int spawn_id); -- Lua_NPC
-- entity_list:[GetNPCList](getnpclist)(); -- Lua_NPC_List
-- entity_list:[GetObjectByDBID](getobjectbydbid)(uint32 db_id); -- Lua_Object
-- entity_list:[GetObjectByID](getobjectbyid)(int id); -- Lua_Object
-- entity_list:[GetObjectList](getobjectlist)(); -- Lua_Object_List
-- entity_list:[GetRaidByClient](getraidbyclient)(Lua_Client client); -- Lua_Raid
-- entity_list:[GetRaidByID](getraidbyid)(int id); -- Lua_Raid
-- entity_list:[GetRandomClient](getrandomclient)(float x, float y, float z, float dist); -- Lua_Client
-- entity_list:[GetRandomClient](getrandomclient)(float x, float y, float z, float dist, Lua_Client exclude); -- Lua_Client
-- entity_list:[GetShuffledClientList](getshuffledclientlist)(); -- Lua_Client_List
-- entity_list:[GetSpawnByID](getspawnbyid)(uint32 id); -- Lua_Spawn
-- entity_list:[GetSpawnList](getspawnlist)(); -- Lua_Spawn_List
-- entity_list:[HalveAggro](halveaggro)(Lua_Mob who); -- void
-- entity_list:[IsMobSpawnedByNpcTypeID](ismobspawnedbynpctypeid)(int npc_type); -- bool
-- entity_list:[MakeNameUnique](makenameunique)(const char *name); -- std::string
-- entity_list:[Message](message)(uint32 guild_dbid, uint32 type, const char *message); -- void
-- entity_list:[MessageClose](messageclose)(Lua_Mob sender, bool skip_sender, float dist, uint32 type, const char *message); -- void
-- entity_list:[MessageGroup](messagegroup)(Lua_Mob who, bool skip_close, uint32 type, const char *message); -- void
-- entity_list:[MessageStatus](messagestatus)(uint32 guild_dbid, int min_status, uint32 type, const char *message); -- void
-- entity_list:[OpenDoorsNear](opendoorsnear)(Lua_Mob opener); -- void
-- entity_list:[RemoveFromHateLists](removefromhatelists)(Lua_Mob who); -- void
-- entity_list:[RemoveFromHateLists](removefromhatelists)(Lua_Mob who, bool set_to_one); -- void
-- entity_list:[RemoveFromTargets](removefromtargets)(Lua_Mob mob); -- void
-- entity_list:[RemoveFromTargets](removefromtargets)(Lua_Mob mob, bool RemoveFromXTargets); -- void
-- entity_list:[RemoveNumbers](removenumbers)(const char *name); -- std::string
-- entity_list:[ReplaceWithTarget](replacewithtarget)(Lua_Mob target, Lua_Mob new_target); -- void
-- entity_list:[SignalAllClients](signalallclients)(int signal); -- void
-- entity_list:[SignalMobsByNPCID](signalmobsbynpcid)(uint32 npc_id, int signal); -- void
+- EntityList:[GetMobID](getmobid)(int id); -- unknown - Lua_Mob
+- EntityList:[GetMobByNpcTypeID](getmobbynpctypeid)(int npc_type); -- unknown - Lua_Mob
+- EntityList:[IsMobSpawnedByNpcTypeID](ismobspawnedbynpctypeid)(int npc_type); -- bool
+- EntityList:[GetNPCByID](getnpcbyid)(int id); -- unknown - Lua_NPC
+- EntityList:[GetNPCByNPCTypeID](getnpcbynpctypeid)(int npc_type); -- unknown - Lua_NPC
+- EntityList:[GetNPCBySpawnID](getnpcbyspawnid)(uint32 spawn_id); -- unknown - Lua_NPC
+- EntityList:[GetClientByName](getclientbyname)(const char *name); -- unknown - Lua_Client
+- EntityList:[GetClientByAccID](getclientbyaccid)(uint32 acct_id); -- unknown - Lua_Client
+- EntityList:[GetClientByID](getclientbyid)(int id); -- unknown - Lua_Client
+- EntityList:[GetClientByCharID](getclientbycharid)(uint32 char_id); -- unknown - Lua_Client
+- EntityList:[GetClientByWID](getclientbywid)(uint32 wid); -- unknown - Lua_Client
+- EntityList:[GetObjectByID](getobjectbyid)(int id); -- unknown - Lua_Object
+- EntityList:[GetObjectByDBID](getobjectbydbid)(uint32 db_id); -- unknown - Lua_Object
+- EntityList:[GetDoorsByID](getdoorsbyid)(int id); -- unknown - Lua_Door
+- EntityList:[GetDoorsByDBID](getdoorsbydbid)(uint32 db_id); -- unknown - Lua_Door
+- EntityList:[GetDoorsByDoorID](getdoorsbydoorid)(uint32 door_id); -- unknown - Lua_Door
+- EntityList:[FindDoor](finddoor)(uint32 id); -- unknown - Lua_Door
+- EntityList:[GetGroupByMob](getgroupbymob)(Lua_Mob mob); -- unknown - Lua_Group
+- EntityList:[GetGroupByClient](getgroupbyclient)(Lua_Client client); -- unknown - Lua_Group
+- EntityList:[GetGroupByID](getgroupbyid)(int id); -- unknown - Lua_Group
+- EntityList:[GetGroupByLeaderName](getgroupbyleadername)(const char *name); -- unknown - Lua_Group
+- EntityList:[GetRaidByID](getraidbyid)(int id); -- unknown - Lua_Raid
+- EntityList:[GetRaidByClient](getraidbyclient)(Lua_Client client); -- unknown - Lua_Raid
+- EntityList:[GetCorpseByOwner](getcorpsebyowner)(Lua_Client client); -- unknown - Lua_Corpse
+- EntityList:[GetCorpseByID](getcorpsebyid)(int id); -- unknown - Lua_Corpse
+- EntityList:[GetCorpseByName](getcorpsebyname)(const char *name); -- unknown - Lua_Corpse
+- EntityList:[GetSpawnByID](getspawnbyid)(uint32 id); -- unknown - Lua_Spawn
+- EntityList:[ClearClientPetitionQueue](clearclientpetitionqueue)(); -- void
+- EntityList:[CanAddHateForMob](canaddhateformob)(Lua_Mob p); -- bool
+- EntityList:[Message](message)(uint32 guild_dbid, uint32 type, const char *message); -- void
+- EntityList:[MessageStatus](messagestatus)(uint32 guild_dbid, int min_status, uint32 type, const char *message); -- void
+- EntityList:[MessageClose](messageclose)(Lua_Mob sender, bool skip_sender, float dist, uint32 type, const char *message); -- void
+- EntityList:[FilteredMessageClose](filteredmessageclose)(Lua_Mob sender, bool skip_sender, float dist, uint32 type, int filter, const char *message); -- void
+- EntityList:[RemoveFromTargets](removefromtargets)(Lua_Mob mob, bool RemoveFromXTargets); -- void
+- EntityList:[ReplaceWithTarget](replacewithtarget)(Lua_Mob target, Lua_Mob new_target); -- void
+- EntityList:[OpenDoorsNear](opendoorsnear)(Lua_Mob opener); -- void
+- EntityList:[MakeNameUnique](makenameunique)(const char *name); -- string
+- EntityList:[RemoveNumbers](removenumbers)(const char *name); -- string
+- EntityList:[SignalMobsByNPCID](signalmobsbynpcid)(uint32 npc_id, int signal); -- void
+- EntityList:[DeleteNPCCorpses](deletenpccorpses)(); -- number
+- EntityList:[DeletePlayerCorpses](deleteplayercorpses)(); -- number
+- EntityList:[HalveAggro](halveaggro)(Lua_Mob who); -- void
+- EntityList:[DoubleAggro](doubleaggro)(Lua_Mob who); -- void
+- EntityList:[ClearFeignAggro](clearfeignaggro)(Lua_Mob who); -- void
+- EntityList:[Fighting](fighting)(Lua_Mob who); -- bool
+- EntityList:[RemoveFromHateLists](removefromhatelists)(Lua_Mob who, bool set_to_one); -- void
+- EntityList:[MessageGroup](messagegroup)(Lua_Mob who, bool skip_close, uint32 type, const char *message); -- void
+- EntityList:[GetRandomClient](getrandomclient)(float x, float y, float z, float dist, Lua_Client exclude); -- unknown - Lua_Client
+- EntityList:[GetMobList](getmoblist)(); -- unknown - Lua_Mob_List
+- EntityList:[GetClientList](getclientlist)(); -- unknown - Lua_Client_List
+- EntityList:[GetShuffledClientList](getshuffledclientlist)(); -- unknown - Lua_Client_List
+- EntityList:[GetNPCList](getnpclist)(); -- unknown - Lua_NPC_List
+- EntityList:[GetCorpseList](getcorpselist)(); -- unknown - Lua_Corpse_List
+- EntityList:[GetObjectList](getobjectlist)(); -- unknown - Lua_Object_List
+- EntityList:[GetDoorsList](getdoorslist)(); -- unknown - Lua_Doors_List
+- EntityList:[GetSpawnList](getspawnlist)(); -- unknown - Lua_Spawn_List
+- EntityList:[SignalAllClients](signalallclients)(int signal); -- void
+- EntityList:[ChannelMessage](channelmessage)(Lua_Mob from, int channel_num, int language, const char *message); -- void

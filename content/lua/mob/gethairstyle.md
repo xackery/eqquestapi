@@ -6,5 +6,5 @@ menuTitle: GetHairStyle
 ---
 ## GetHairStyle
 ```lua
-mob:GetHairStyle(); -- int
+Mob:GetHairStyle(); -- number
 ```

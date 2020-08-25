@@ -6,5 +6,5 @@ menuTitle: SetX
 ---
 ## SetX
 ```lua
-object:SetX(float x); -- void
+Object:SetX(float x); -- void
 ```

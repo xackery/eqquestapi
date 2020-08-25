@@ -6,5 +6,5 @@ menuTitle: CheckLoSToLoc
 ---
 ## CheckLoSToLoc
 ```lua
-mob:CheckLoSToLoc(double x, double y, double z, double mob_size); -- bool
+Mob:CheckLoSToLoc(double x, double y, double z, double mob_size); -- bool
 ```

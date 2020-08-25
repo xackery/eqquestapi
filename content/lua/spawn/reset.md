@@ -6,5 +6,5 @@ menuTitle: Reset
 ---
 ## Reset
 ```lua
-spawn:Reset(); -- void
+Spawn:Reset(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: DoubleAggro
 ---
 ## DoubleAggro
 ```lua
-entity_list:DoubleAggro(Lua_Mob who); -- void
+EntityList:DoubleAggro(Lua_Mob who); -- void
 ```

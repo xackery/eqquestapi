@@ -6,5 +6,5 @@ menuTitle: UnStun
 ---
 ## UnStun
 ```lua
-mob:UnStun(); -- void
+Mob:UnStun(); -- void
 ```

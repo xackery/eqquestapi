@@ -6,5 +6,5 @@ menuTitle: SetLockPick
 ---
 ## SetLockPick
 ```lua
-door:SetLockPick(uint32 pick); -- void
+Door:SetLockPick(uint32 pick); -- void
 ```

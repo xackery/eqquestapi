@@ -6,5 +6,5 @@ menuTitle: ClearClientPetitionQueue
 ---
 ## ClearClientPetitionQueue
 ```lua
-entity_list:ClearClientPetitionQueue(); -- void
+EntityList:ClearClientPetitionQueue(); -- void
 ```

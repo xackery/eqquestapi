@@ -6,5 +6,5 @@ menuTitle: GetRandomClient
 ---
 ## GetRandomClient
 ```lua
-entity_list:GetRandomClient(float x, float y, float z, float dist, Lua_Client exclude); -- Lua_Client
+EntityList:GetRandomClient(float x, float y, float z, float dist, Lua_Client exclude); -- unknown - Lua_Client
 ```

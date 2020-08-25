@@ -6,5 +6,5 @@ menuTitle: SetInstNoDrop
 ---
 ## SetInstNoDrop
 ```lua
-iteminst:SetInstNoDrop(bool flag); -- void
+ItemInst:SetInstNoDrop(bool flag); -- void
 ```

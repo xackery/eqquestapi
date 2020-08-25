@@ -6,5 +6,5 @@ menuTitle: GroupCount
 ---
 ## GroupCount
 ```lua
-group:GroupCount(); -- int
+Group:GroupCount(); -- number
 ```

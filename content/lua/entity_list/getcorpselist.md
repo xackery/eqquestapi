@@ -6,5 +6,5 @@ menuTitle: GetCorpseList
 ---
 ## GetCorpseList
 ```lua
-entity_list:GetCorpseList(); -- Lua_Corpse_List
+EntityList:GetCorpseList(); -- unknown - Lua_Corpse_List
 ```

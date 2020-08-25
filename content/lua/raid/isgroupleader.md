@@ -6,5 +6,5 @@ menuTitle: IsGroupLeader
 ---
 ## IsGroupLeader
 ```lua
-raid:IsGroupLeader(const char *name); -- bool
+Raid:IsGroupLeader(const char *name); -- bool
 ```

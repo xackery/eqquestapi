@@ -6,5 +6,5 @@ menuTitle: Stun
 ---
 ## Stun
 ```lua
-mob:Stun(int duration); -- void
+Mob:Stun(int duration); -- void
 ```

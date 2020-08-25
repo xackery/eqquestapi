@@ -6,5 +6,5 @@ menuTitle: stop_all_timers
 ---
 ## stop_all_timers
 ```lua
-eq:stop_all_timers(Lua_Mob mob); -- void
+eq.stop_all_timers() -- void
 ```

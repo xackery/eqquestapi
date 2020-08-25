@@ -6,5 +6,5 @@ menuTitle: SetRunning
 ---
 ## SetRunning
 ```lua
-mob:SetRunning(bool running); -- void
+Mob:SetRunning(bool running); -- void
 ```

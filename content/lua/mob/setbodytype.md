@@ -6,5 +6,5 @@ menuTitle: SetBodyType
 ---
 ## SetBodyType
 ```lua
-mob:SetBodyType(int new_body, bool overwrite_orig); -- void
+Mob:SetBodyType(int new_body, bool overwrite_orig); -- void
 ```

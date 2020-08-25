@@ -6,5 +6,5 @@ menuTitle: get_quest_item
 ---
 ## get_quest_item
 ```lua
-eq:get_quest_item(); -- Lua_ItemInst
+eq.get_quest_item() -- Lua_ItemInst
 ```

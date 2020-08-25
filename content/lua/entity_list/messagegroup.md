@@ -6,5 +6,5 @@ menuTitle: MessageGroup
 ---
 ## MessageGroup
 ```lua
-entity_list:MessageGroup(Lua_Mob who, bool skip_close, uint32 type, const char *message); -- void
+EntityList:MessageGroup(Lua_Mob who, bool skip_close, uint32 type, const char *message); -- void
 ```

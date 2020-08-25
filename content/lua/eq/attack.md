@@ -6,5 +6,5 @@ menuTitle: attack
 ---
 ## attack
 ```lua
-eq:attack(const char *client_name); -- void
+eq.attack(const char *client_name) -- void
 ```

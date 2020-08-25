@@ -6,5 +6,5 @@ menuTitle: IsBeneficialAllowed
 ---
 ## IsBeneficialAllowed
 ```lua
-mob:IsBeneficialAllowed(Lua_Mob target); -- bool
+Mob:IsBeneficialAllowed(Lua_Mob target); -- bool
 ```

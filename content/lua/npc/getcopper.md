@@ -6,5 +6,5 @@ menuTitle: GetCopper
 ---
 ## GetCopper
 ```lua
-npc:GetCopper(); -- uint32
+NPC:GetCopper(); -- number
 ```

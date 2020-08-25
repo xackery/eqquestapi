@@ -6,5 +6,5 @@ menuTitle: IsRunning
 ---
 ## IsRunning
 ```lua
-mob:IsRunning(); -- bool
+Mob:IsRunning(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: resume_timer
 ---
 ## resume_timer
 ```lua
-eq:resume_timer(const char *timer); -- void
+eq.resume_timer(const char *timer) -- void
 ```

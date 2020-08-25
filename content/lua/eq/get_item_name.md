@@ -6,5 +6,5 @@ menuTitle: get_item_name
 ---
 ## get_item_name
 ```lua
-eq:get_item_name(uint32 item_id) -- std::string
+eq.get_item_name(uint32 item_id) -- string
 ```

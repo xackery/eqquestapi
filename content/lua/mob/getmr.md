@@ -6,5 +6,5 @@ menuTitle: GetMR
 ---
 ## GetMR
 ```lua
-mob:GetMR(); -- int
+Mob:GetMR(); -- number
 ```

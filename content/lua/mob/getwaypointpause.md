@@ -6,5 +6,5 @@ menuTitle: GetWaypointPause
 ---
 ## GetWaypointPause
 ```lua
-mob:GetWaypointPause(); -- double
+Mob:GetWaypointPause(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SwapItem
 ---
 ## SwapItem
 ```lua
-inventory:SwapItem(int source_slot, int destination_slot); -- bool
+Inventory:SwapItem(int source_slot, int destination_slot); -- bool
 ```

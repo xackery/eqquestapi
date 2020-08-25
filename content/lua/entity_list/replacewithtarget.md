@@ -6,5 +6,5 @@ menuTitle: ReplaceWithTarget
 ---
 ## ReplaceWithTarget
 ```lua
-entity_list:ReplaceWithTarget(Lua_Mob target, Lua_Mob new_target); -- void
+EntityList:ReplaceWithTarget(Lua_Mob target, Lua_Mob new_target); -- void
 ```

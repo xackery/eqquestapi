@@ -6,5 +6,5 @@ menuTitle: NPCSpecialAttacks
 ---
 ## NPCSpecialAttacks
 ```lua
-mob:NPCSpecialAttacks(const char *parse, int perm, bool reset, bool remove); -- void
+Mob:NPCSpecialAttacks(const char *parse, int perm, bool reset, bool remove); -- void
 ```

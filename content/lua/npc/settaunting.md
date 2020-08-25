@@ -6,5 +6,5 @@ menuTitle: SetTaunting
 ---
 ## SetTaunting
 ```lua
-npc:SetTaunting(bool t); -- void
+NPC:SetTaunting(bool t); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetHateRandom
 ---
 ## GetHateRandom
 ```lua
-mob:GetHateRandom(); -- Lua_Mob
+Mob:GetHateRandom(); -- unknown - Lua_Mob
 ```

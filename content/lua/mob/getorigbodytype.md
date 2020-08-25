@@ -6,5 +6,5 @@ menuTitle: GetOrigBodyType
 ---
 ## GetOrigBodyType
 ```lua
-mob:GetOrigBodyType(); -- int
+Mob:GetOrigBodyType(); -- number
 ```

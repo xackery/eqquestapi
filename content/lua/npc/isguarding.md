@@ -6,5 +6,5 @@ menuTitle: IsGuarding
 ---
 ## IsGuarding
 ```lua
-npc:IsGuarding(); -- bool
+NPC:IsGuarding(); -- bool
 ```

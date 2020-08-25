@@ -6,5 +6,5 @@ menuTitle: get_instance_timer
 ---
 ## get_instance_timer
 ```lua
-eq:get_instance_timer(); -- uint32
+eq.get_instance_timer() -- uint32
 ```

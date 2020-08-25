@@ -6,5 +6,5 @@ menuTitle: SetExtraHaste
 ---
 ## SetExtraHaste
 ```lua
-mob:SetExtraHaste(int haste); -- void
+Mob:SetExtraHaste(int haste); -- void
 ```

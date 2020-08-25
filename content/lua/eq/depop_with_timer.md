@@ -6,5 +6,5 @@ menuTitle: depop_with_timer
 ---
 ## depop_with_timer
 ```lua
-eq:depop_with_timer(int npc_type); -- void
+eq.depop_with_timer() -- void
 ```

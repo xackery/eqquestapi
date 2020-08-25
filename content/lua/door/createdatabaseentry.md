@@ -6,5 +6,5 @@ menuTitle: CreateDatabaseEntry
 ---
 ## CreateDatabaseEntry
 ```lua
-door:CreateDatabaseEntry(); -- void
+Door:CreateDatabaseEntry(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: Heal
 ---
 ## Heal
 ```lua
-mob:Heal(); -- void
+Mob:Heal(); -- void
 ```

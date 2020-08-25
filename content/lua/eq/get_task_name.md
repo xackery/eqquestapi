@@ -6,5 +6,5 @@ menuTitle: get_task_name
 ---
 ## get_task_name
 ```lua
-eq:get_task_name(uint32 task_id); -- std::string
+eq.get_task_name(uint32 task_id) -- string
 ```

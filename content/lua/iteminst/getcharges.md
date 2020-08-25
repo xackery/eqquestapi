@@ -6,5 +6,5 @@ menuTitle: GetCharges
 ---
 ## GetCharges
 ```lua
-iteminst:GetCharges(); -- int
+ItemInst:GetCharges(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetKeyItem
 ---
 ## GetKeyItem
 ```lua
-door:GetKeyItem(); -- uint32
+Door:GetKeyItem(); -- number
 ```

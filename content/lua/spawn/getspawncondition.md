@@ -6,5 +6,5 @@ menuTitle: GetSpawnCondition
 ---
 ## GetSpawnCondition
 ```lua
-spawn:GetSpawnCondition(); -- uint32
+Spawn:GetSpawnCondition(); -- number
 ```

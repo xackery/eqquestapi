@@ -6,5 +6,5 @@ menuTitle: Save
 ---
 ## Save
 ```lua
-object:Save(); -- bool
+Object:Save(); -- bool
 ```

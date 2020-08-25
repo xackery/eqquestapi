@@ -6,5 +6,5 @@ menuTitle: TryMoveAlong
 ---
 ## TryMoveAlong
 ```lua
-mob:TryMoveAlong(float distance, float angle, bool send); -- void
+Mob:TryMoveAlong(float distance, float angle, bool send); -- void
 ```

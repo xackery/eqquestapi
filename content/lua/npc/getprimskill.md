@@ -6,5 +6,5 @@ menuTitle: GetPrimSkill
 ---
 ## GetPrimSkill
 ```lua
-npc:GetPrimSkill(); -- int
+NPC:GetPrimSkill(); -- number
 ```

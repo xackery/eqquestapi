@@ -6,5 +6,5 @@ menuTitle: SetHP
 ---
 ## SetHP
 ```lua
-mob:SetHP(int hp); -- void
+Mob:SetHP(int hp); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: CalculateNewWaypoint
 ---
 ## CalculateNewWaypoint
 ```lua
-npc:CalculateNewWaypoint(); -- void
+NPC:CalculateNewWaypoint(); -- void
 ```

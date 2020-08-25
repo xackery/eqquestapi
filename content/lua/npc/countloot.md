@@ -6,5 +6,5 @@ menuTitle: CountLoot
 ---
 ## CountLoot
 ```lua
-npc:CountLoot(); -- int
+NPC:CountLoot(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetDoorID
 ---
 ## GetDoorID
 ```lua
-door:GetDoorID(); -- uint32
+Door:GetDoorID(); -- number
 ```

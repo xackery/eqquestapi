@@ -6,5 +6,5 @@ menuTitle: IsWarriorClass
 ---
 ## IsWarriorClass
 ```lua
-mob:IsWarriorClass(); -- bool
+Mob:IsWarriorClass(); -- bool
 ```

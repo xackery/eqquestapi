@@ -6,5 +6,5 @@ menuTitle: GetZ
 ---
 ## GetZ
 ```lua
-mob:GetZ(); -- double
+Mob:GetZ(); -- number
 ```

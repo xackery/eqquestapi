@@ -6,5 +6,5 @@ menuTitle: map_opcodes
 ---
 ## map_opcodes
 ```lua
-eq:map_opcodes(); -- void
+eq.map_opcodes() -- void
 ```

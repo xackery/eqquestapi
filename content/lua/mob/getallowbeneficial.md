@@ -6,5 +6,5 @@ menuTitle: GetAllowBeneficial
 ---
 ## GetAllowBeneficial
 ```lua
-mob:GetAllowBeneficial(); -- bool
+Mob:GetAllowBeneficial(); -- bool
 ```

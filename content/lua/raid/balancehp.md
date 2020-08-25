@@ -6,5 +6,5 @@ menuTitle: BalanceHP
 ---
 ## BalanceHP
 ```lua
-raid:BalanceHP(int penalty, uint32 group_id); -- void
+Raid:BalanceHP(int penalty, uint32 group_id); -- void
 ```

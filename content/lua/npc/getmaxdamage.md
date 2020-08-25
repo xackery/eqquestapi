@@ -6,5 +6,5 @@ menuTitle: GetMaxDamage
 ---
 ## GetMaxDamage
 ```lua
-npc:GetMaxDamage(int level); -- uint32
+NPC:GetMaxDamage(int level); -- number
 ```

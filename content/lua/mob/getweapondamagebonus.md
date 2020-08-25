@@ -6,5 +6,5 @@ menuTitle: GetWeaponDamageBonus
 ---
 ## GetWeaponDamageBonus
 ```lua
-mob:GetWeaponDamageBonus(Lua_Item weapon, bool offhand); -- int
+Mob:GetWeaponDamageBonus(Lua_Item weapon, bool offhand); -- number
 ```

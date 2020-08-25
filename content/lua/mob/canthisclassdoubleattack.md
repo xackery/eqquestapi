@@ -6,5 +6,5 @@ menuTitle: CanThisClassDoubleAttack
 ---
 ## CanThisClassDoubleAttack
 ```lua
-mob:CanThisClassDoubleAttack(); -- bool
+Mob:CanThisClassDoubleAttack(); -- bool
 ```

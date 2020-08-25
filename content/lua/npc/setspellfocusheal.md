@@ -6,5 +6,5 @@ menuTitle: SetSpellFocusHeal
 ---
 ## SetSpellFocusHeal
 ```lua
-npc:SetSpellFocusHeal(int focus); -- void
+NPC:SetSpellFocusHeal(int focus); -- void
 ```

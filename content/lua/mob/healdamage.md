@@ -6,5 +6,5 @@ menuTitle: HealDamage
 ---
 ## HealDamage
 ```lua
-mob:HealDamage(uint32 amount, Lua_Mob other); -- void
+Mob:HealDamage(uint32 amount, Lua_Mob other); -- void
 ```

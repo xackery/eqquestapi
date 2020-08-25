@@ -6,5 +6,5 @@ menuTitle: GetY
 ---
 ## GetY
 ```lua
-door:GetY(); -- float
+Door:GetY(); -- number
 ```

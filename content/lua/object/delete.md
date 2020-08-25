@@ -6,5 +6,5 @@ menuTitle: Delete
 ---
 ## Delete
 ```lua
-object:Delete(bool reset_state); -- void
+Object:Delete(bool reset_state); -- void
 ```

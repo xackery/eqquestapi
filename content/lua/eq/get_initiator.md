@@ -6,5 +6,5 @@ menuTitle: get_initiator
 ---
 ## get_initiator
 ```lua
-eq:get_initiator(); -- Lua_Client
+eq.get_initiator() -- Lua_Client
 ```

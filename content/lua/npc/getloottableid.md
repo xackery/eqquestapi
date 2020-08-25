@@ -6,5 +6,5 @@ menuTitle: GetLoottableID
 ---
 ## GetLoottableID
 ```lua
-npc:GetLoottableID(); -- int
+NPC:GetLoottableID(); -- number
 ```

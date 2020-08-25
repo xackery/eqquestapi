@@ -6,5 +6,5 @@ menuTitle: CurrentNPCID
 ---
 ## CurrentNPCID
 ```lua
-spawn:CurrentNPCID(); -- uint32
+Spawn:CurrentNPCID(); -- number
 ```

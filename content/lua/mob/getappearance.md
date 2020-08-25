@@ -6,5 +6,5 @@ menuTitle: GetAppearance
 ---
 ## GetAppearance
 ```lua
-mob:GetAppearance(); -- uint32
+Mob:GetAppearance(); -- number
 ```

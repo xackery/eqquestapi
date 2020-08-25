@@ -6,5 +6,5 @@ menuTitle: Spin
 ---
 ## Spin
 ```lua
-mob:Spin(); -- void
+Mob:Spin(); -- void
 ```

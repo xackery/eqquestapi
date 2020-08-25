@@ -6,5 +6,5 @@ menuTitle: GetClientByIndex
 ---
 ## GetClientByIndex
 ```lua
-raid:GetClientByIndex(int index); -- Lua_Client
+Raid:GetClientByIndex(int index); -- unknown - Lua_Client
 ```

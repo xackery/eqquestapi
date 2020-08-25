@@ -6,5 +6,5 @@ menuTitle: GetSpellBonuses
 ---
 ## GetSpellBonuses
 ```lua
-mob:GetSpellBonuses(); -- Lua_StatBonuses
+Mob:GetSpellBonuses(); -- unknown - Lua_StatBonuses
 ```

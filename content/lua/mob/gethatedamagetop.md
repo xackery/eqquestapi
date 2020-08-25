@@ -6,5 +6,5 @@ menuTitle: GetHateDamageTop
 ---
 ## GetHateDamageTop
 ```lua
-mob:GetHateDamageTop(Lua_Mob other); -- Lua_Mob
+Mob:GetHateDamageTop(Lua_Mob other); -- unknown - Lua_Mob
 ```

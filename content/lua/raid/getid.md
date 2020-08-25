@@ -6,5 +6,5 @@ menuTitle: GetID
 ---
 ## GetID
 ```lua
-raid:GetID(); -- int
+Raid:GetID(); -- number
 ```

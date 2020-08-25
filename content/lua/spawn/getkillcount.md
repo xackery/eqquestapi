@@ -6,5 +6,5 @@ menuTitle: GetKillCount
 ---
 ## GetKillCount
 ```lua
-spawn:GetKillCount(); -- uint32
+Spawn:GetKillCount(); -- number
 ```

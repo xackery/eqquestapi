@@ -6,5 +6,5 @@ menuTitle: Clone
 ---
 ## Clone
 ```lua
-iteminst:Clone(); -- Lua_ItemInst
+ItemInst:Clone(); -- unknown - Lua_ItemInst
 ```

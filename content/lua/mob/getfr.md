@@ -6,5 +6,5 @@ menuTitle: GetFR
 ---
 ## GetFR
 ```lua
-mob:GetFR(); -- int
+Mob:GetFR(); -- number
 ```

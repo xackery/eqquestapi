@@ -6,5 +6,5 @@ menuTitle: Kill
 ---
 ## Kill
 ```lua
-mob:Kill(); -- void
+Mob:Kill(); -- void
 ```

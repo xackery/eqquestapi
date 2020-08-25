@@ -6,34 +6,33 @@ weight: 25
 ---
 
 ## Door Methods (Lua)
-- door:[CreateDatabaseEntry](createdatabaseentry)(); -- void
-- door:[ForceClose](forceclose)(Lua_Mob sender); -- void
-- door:[ForceClose](forceclose)(Lua_Mob sender, bool alt_mode); -- void
-- door:[ForceOpen](forceopen)(Lua_Mob sender); -- void
-- door:[ForceOpen](forceopen)(Lua_Mob sender, bool alt_mode); -- void
-- door:[GetDisableTimer](getdisabletimer)(); -- bool
-- door:[GetDoorDBID](getdoordbid)(); -- uint32
-- door:[GetDoorID](getdoorid)(); -- uint32
-- door:[GetHeading](getheading)(); -- float
-- door:[GetIncline](getincline)(); -- uint32
-- door:[GetKeyItem](getkeyitem)(); -- uint32
-- door:[GetLockPick](getlockpick)(); -- uint32
-- door:[GetNoKeyring](getnokeyring)(); -- int
-- door:[GetOpenType](getopentype)(); -- uint32
-- door:[GetSize](getsize)(); -- uint32
-- door:[GetX](getx)(); -- float
-- door:[GetY](gety)(); -- float
-- door:[GetZ](getz)(); -- float
-- door:[SetDisableTimer](setdisabletimer)(bool flag); -- void
-- door:[SetDoorName](setdoorname)(const char *name); -- void
-- door:[SetHeading](setheading)(float h); -- void
-- door:[SetIncline](setincline)(uint32 incline); -- void
-- door:[SetKeyItem](setkeyitem)(uint32 key); -- void
-- door:[SetLocation](setlocation)(float x, float y, float z); -- void
-- door:[SetLockPick](setlockpick)(uint32 pick); -- void
-- door:[SetNoKeyring](setnokeyring)(int type); -- void
-- door:[SetOpenType](setopentype)(uint32 type); -- void
-- door:[SetSize](setsize)(uint32 sz); -- void
-- door:[SetX](setx)(float x); -- void
-- door:[SetY](sety)(float y); -- void
-- door:[SetZ](setz)(float z); -- void
+- Door:[SetDoorName](setdoorname)(const char *name); -- void
+- Door:[GetDoorName](getdoorname)(); -- string
+- Door:[GetX](getx)(); -- number
+- Door:[GetY](gety)(); -- number
+- Door:[GetZ](getz)(); -- number
+- Door:[GetHeading](getheading)(); -- number
+- Door:[SetX](setx)(float x); -- void
+- Door:[SetY](sety)(float y); -- void
+- Door:[SetZ](setz)(float z); -- void
+- Door:[SetHeading](setheading)(float h); -- void
+- Door:[SetLocation](setlocation)(float x, float y, float z); -- void
+- Door:[GetDoorDBID](getdoordbid)(); -- number
+- Door:[GetDoorID](getdoorid)(); -- number
+- Door:[SetSize](setsize)(uint32 sz); -- void
+- Door:[GetSize](getsize)(); -- number
+- Door:[SetIncline](setincline)(uint32 incline); -- void
+- Door:[GetIncline](getincline)(); -- number
+- Door:[SetOpenType](setopentype)(uint32 type); -- void
+- Door:[GetOpenType](getopentype)(); -- number
+- Door:[SetDisableTimer](setdisabletimer)(bool flag); -- void
+- Door:[GetDisableTimer](getdisabletimer)(); -- bool
+- Door:[SetLockPick](setlockpick)(uint32 pick); -- void
+- Door:[GetLockPick](getlockpick)(); -- number
+- Door:[SetKeyItem](setkeyitem)(uint32 key); -- void
+- Door:[GetKeyItem](getkeyitem)(); -- number
+- Door:[SetNoKeyring](setnokeyring)(int type); -- void
+- Door:[GetNoKeyring](getnokeyring)(); -- number
+- Door:[CreateDatabaseEntry](createdatabaseentry)(); -- void
+- Door:[ForceOpen](forceopen)(Lua_Mob sender, bool alt_mode); -- void
+- Door:[ForceClose](forceclose)(Lua_Mob sender, bool alt_mode); -- void

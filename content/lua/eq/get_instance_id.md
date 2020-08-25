@@ -6,5 +6,5 @@ menuTitle: get_instance_id
 ---
 ## get_instance_id
 ```lua
-eq:get_instance_id(const char *zone, uint32 version); -- int
+eq.get_instance_id(const char *zone, uint32 version) -- int
 ```

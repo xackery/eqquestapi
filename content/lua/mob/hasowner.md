@@ -6,5 +6,5 @@ menuTitle: HasOwner
 ---
 ## HasOwner
 ```lua
-mob:HasOwner(); -- bool
+Mob:HasOwner(); -- bool
 ```

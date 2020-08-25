@@ -6,5 +6,5 @@ menuTitle: SetDestructibleObject
 ---
 ## SetDestructibleObject
 ```lua
-mob:SetDestructibleObject(bool set); -- void
+Mob:SetDestructibleObject(bool set); -- void
 ```

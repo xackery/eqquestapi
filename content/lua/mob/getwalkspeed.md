@@ -6,5 +6,5 @@ menuTitle: GetWalkspeed
 ---
 ## GetWalkspeed
 ```lua
-mob:GetWalkspeed(); -- double
+Mob:GetWalkspeed(); -- number
 ```

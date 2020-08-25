@@ -6,5 +6,5 @@ menuTitle: MakeNameUnique
 ---
 ## MakeNameUnique
 ```lua
-entity_list:MakeNameUnique(const char *name); -- std::string
+EntityList:MakeNameUnique(const char *name); -- string
 ```

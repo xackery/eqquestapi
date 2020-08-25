@@ -6,5 +6,5 @@ menuTitle: TempName
 ---
 ## TempName
 ```lua
-mob:TempName(const char *newname); -- void
+Mob:TempName(const char *newname); -- void
 ```

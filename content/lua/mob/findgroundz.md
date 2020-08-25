@@ -6,5 +6,5 @@ menuTitle: FindGroundZ
 ---
 ## FindGroundZ
 ```lua
-mob:FindGroundZ(double x, double y, double z); -- double
+Mob:FindGroundZ(double x, double y, double z); -- number
 ```

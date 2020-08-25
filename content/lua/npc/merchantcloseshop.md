@@ -6,5 +6,5 @@ menuTitle: MerchantCloseShop
 ---
 ## MerchantCloseShop
 ```lua
-npc:MerchantCloseShop(); -- void
+NPC:MerchantCloseShop(); -- void
 ```

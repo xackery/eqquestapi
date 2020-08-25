@@ -6,5 +6,5 @@ menuTitle: GetMaxMana
 ---
 ## GetMaxMana
 ```lua
-mob:GetMaxMana(); -- int
+Mob:GetMaxMana(); -- number
 ```

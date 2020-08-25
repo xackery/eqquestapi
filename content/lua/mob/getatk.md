@@ -6,5 +6,5 @@ menuTitle: GetATK
 ---
 ## GetATK
 ```lua
-mob:GetATK(); -- int
+Mob:GetATK(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: GetMember
 ---
 ## GetMember
 ```lua
-group:GetMember(int index); -- Lua_Mob
+Group:GetMember(int index); -- unknown - Lua_Mob
 ```

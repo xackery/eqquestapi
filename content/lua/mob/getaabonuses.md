@@ -6,5 +6,5 @@ menuTitle: GetAABonuses
 ---
 ## GetAABonuses
 ```lua
-mob:GetAABonuses(); -- Lua_StatBonuses
+Mob:GetAABonuses(); -- unknown - Lua_StatBonuses
 ```

@@ -6,5 +6,5 @@ menuTitle: clock
 ---
 ## clock
 ```lua
-eq:clock(); -- double
+eq.clock() -- double
 ```

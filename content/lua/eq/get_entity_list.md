@@ -6,5 +6,5 @@ menuTitle: get_entity_list
 ---
 ## get_entity_list
 ```lua
-eq:get_entity_list(); -- Lua_EntityList
+eq.get_entity_list() -- Lua_EntityList
 ```

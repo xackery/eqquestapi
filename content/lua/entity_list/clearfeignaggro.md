@@ -6,5 +6,5 @@ menuTitle: ClearFeignAggro
 ---
 ## ClearFeignAggro
 ```lua
-entity_list:ClearFeignAggro(Lua_Mob who); -- void
+EntityList:ClearFeignAggro(Lua_Mob who); -- void
 ```

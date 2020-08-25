@@ -6,5 +6,5 @@ menuTitle: ChangeRace
 ---
 ## ChangeRace
 ```lua
-mob:ChangeRace(int in); -- void
+Mob:ChangeRace(int in); -- void
 ```

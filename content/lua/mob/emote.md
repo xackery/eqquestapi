@@ -6,5 +6,5 @@ menuTitle: Emote
 ---
 ## Emote
 ```lua
-mob:Emote(const char *message); -- void
+Mob:Emote(const char *message); -- void
 ```

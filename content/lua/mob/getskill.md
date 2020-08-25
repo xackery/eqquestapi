@@ -6,5 +6,5 @@ menuTitle: GetSkill
 ---
 ## GetSkill
 ```lua
-mob:GetSkill(int skill); -- int
+Mob:GetSkill(int skill); -- number
 ```

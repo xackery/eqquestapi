@@ -6,5 +6,5 @@ menuTitle: SetDoorName
 ---
 ## SetDoorName
 ```lua
-door:SetDoorName(const char *name); -- void
+Door:SetDoorName(const char *name); -- void
 ```

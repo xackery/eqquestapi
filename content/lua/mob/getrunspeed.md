@@ -6,5 +6,5 @@ menuTitle: GetRunspeed
 ---
 ## GetRunspeed
 ```lua
-mob:GetRunspeed(); -- double
+Mob:GetRunspeed(); -- number
 ```

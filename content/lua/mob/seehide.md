@@ -6,5 +6,5 @@ menuTitle: SeeHide
 ---
 ## SeeHide
 ```lua
-mob:SeeHide(); -- bool
+Mob:SeeHide(); -- bool
 ```

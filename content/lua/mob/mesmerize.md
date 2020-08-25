@@ -6,5 +6,5 @@ menuTitle: Mesmerize
 ---
 ## Mesmerize
 ```lua
-mob:Mesmerize(); -- void
+Mob:Mesmerize(); -- void
 ```

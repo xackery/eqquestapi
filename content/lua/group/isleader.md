@@ -6,5 +6,5 @@ menuTitle: IsLeader
 ---
 ## IsLeader
 ```lua
-group:IsLeader(Lua_Mob leader); -- bool
+Group:IsLeader(Lua_Mob leader); -- bool
 ```

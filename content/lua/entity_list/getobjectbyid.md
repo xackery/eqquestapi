@@ -6,5 +6,5 @@ menuTitle: GetObjectByID
 ---
 ## GetObjectByID
 ```lua
-entity_list:GetObjectByID(int id); -- Lua_Object
+EntityList:GetObjectByID(int id); -- unknown - Lua_Object
 ```

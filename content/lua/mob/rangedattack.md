@@ -6,5 +6,5 @@ menuTitle: RangedAttack
 ---
 ## RangedAttack
 ```lua
-mob:RangedAttack(Lua_Mob other); -- void
+Mob:RangedAttack(Lua_Mob other); -- void
 ```

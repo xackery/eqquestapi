@@ -6,5 +6,5 @@ menuTitle: GetSecSkill
 ---
 ## GetSecSkill
 ```lua
-npc:GetSecSkill(); -- int
+NPC:GetSecSkill(); -- number
 ```

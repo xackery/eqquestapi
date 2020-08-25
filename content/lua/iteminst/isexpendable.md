@@ -6,5 +6,5 @@ menuTitle: IsExpendable
 ---
 ## IsExpendable
 ```lua
-iteminst:IsExpendable(); -- bool
+ItemInst:IsExpendable(); -- bool
 ```

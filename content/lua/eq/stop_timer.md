@@ -6,5 +6,5 @@ menuTitle: stop_timer
 ---
 ## stop_timer
 ```lua
-eq:stop_timer(const char *timer, Lua_Mob mob); -- void
+eq.stop_timer(const char *timer) -- void
 ```

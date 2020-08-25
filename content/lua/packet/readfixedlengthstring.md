@@ -6,5 +6,5 @@ menuTitle: ReadFixedLengthString
 ---
 ## ReadFixedLengthString
 ```lua
-packet:ReadFixedLengthString(int offset, int string_length); -- std::string
+Packet:ReadFixedLengthString(int offset, int string_length); -- string
 ```

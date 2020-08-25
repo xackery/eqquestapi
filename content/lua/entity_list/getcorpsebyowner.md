@@ -6,5 +6,5 @@ menuTitle: GetCorpseByOwner
 ---
 ## GetCorpseByOwner
 ```lua
-entity_list:GetCorpseByOwner(Lua_Client client); -- Lua_Corpse
+EntityList:GetCorpseByOwner(Lua_Client client); -- unknown - Lua_Corpse
 ```

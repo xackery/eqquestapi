@@ -6,5 +6,5 @@ menuTitle: CanThisClassDodge
 ---
 ## CanThisClassDodge
 ```lua
-mob:CanThisClassDodge(); -- bool
+Mob:CanThisClassDodge(); -- bool
 ```

@@ -6,5 +6,5 @@ menuTitle: ModifyNPCStat
 ---
 ## ModifyNPCStat
 ```lua
-npc:ModifyNPCStat(const char *stat, const char *value); -- void
+NPC:ModifyNPCStat(const char *stat, const char *value); -- void
 ```

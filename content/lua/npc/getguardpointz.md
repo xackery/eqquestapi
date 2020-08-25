@@ -6,5 +6,5 @@ menuTitle: GetGuardPointZ
 ---
 ## GetGuardPointZ
 ```lua
-npc:GetGuardPointZ(); -- float
+NPC:GetGuardPointZ(); -- number
 ```

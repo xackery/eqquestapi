@@ -6,5 +6,5 @@ menuTitle: GetPetOrder
 ---
 ## GetPetOrder
 ```lua
-mob:GetPetOrder(); -- int
+Mob:GetPetOrder(); -- number
 ```

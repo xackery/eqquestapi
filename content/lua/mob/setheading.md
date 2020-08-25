@@ -6,5 +6,5 @@ menuTitle: SetHeading
 ---
 ## SetHeading
 ```lua
-mob:SetHeading(double in); -- void
+Mob:SetHeading(double in); -- void
 ```

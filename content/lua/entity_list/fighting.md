@@ -6,5 +6,5 @@ menuTitle: Fighting
 ---
 ## Fighting
 ```lua
-entity_list:Fighting(Lua_Mob who); -- bool
+EntityList:Fighting(Lua_Mob who); -- bool
 ```

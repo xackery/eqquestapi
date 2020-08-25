@@ -6,5 +6,5 @@ menuTitle: SetLevel
 ---
 ## SetLevel
 ```lua
-mob:SetLevel(int level, bool command); -- void
+Mob:SetLevel(int level, bool command); -- void
 ```

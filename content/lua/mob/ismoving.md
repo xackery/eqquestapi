@@ -6,5 +6,5 @@ menuTitle: IsMoving
 ---
 ## IsMoving
 ```lua
-mob:IsMoving(); -- bool
+Mob:IsMoving(); -- bool
 ```

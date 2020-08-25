@@ -6,5 +6,5 @@ menuTitle: GetMobByNpcTypeID
 ---
 ## GetMobByNpcTypeID
 ```lua
-entity_list:GetMobByNpcTypeID(int npc_type); -- Lua_Mob
+EntityList:GetMobByNpcTypeID(int npc_type); -- unknown - Lua_Mob
 ```

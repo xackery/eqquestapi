@@ -6,5 +6,5 @@ menuTitle: SeeInvisible
 ---
 ## SeeInvisible
 ```lua
-mob:SeeInvisible(); -- uint8
+Mob:SeeInvisible(); -- unknown - uint8
 ```

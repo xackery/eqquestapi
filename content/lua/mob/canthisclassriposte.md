@@ -6,5 +6,5 @@ menuTitle: CanThisClassRiposte
 ---
 ## CanThisClassRiposte
 ```lua
-mob:CanThisClassRiposte(); -- bool
+Mob:CanThisClassRiposte(); -- bool
 ```

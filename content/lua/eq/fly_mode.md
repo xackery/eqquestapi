@@ -6,5 +6,5 @@ menuTitle: fly_mode
 ---
 ## fly_mode
 ```lua
-eq:fly_mode(int flymode); -- void
+eq.fly_mode(int flymode) -- void
 ```

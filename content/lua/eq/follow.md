@@ -6,5 +6,5 @@ menuTitle: follow
 ---
 ## follow
 ```lua
-eq:follow(int entity_id, int distance); -- void
+eq.follow(int entity_id) -- void
 ```

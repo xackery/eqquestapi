@@ -6,5 +6,5 @@ menuTitle: GetAugmentItemID
 ---
 ## GetAugmentItemID
 ```lua
-iteminst:GetAugmentItemID(int slot); -- uint32
+ItemInst:GetAugmentItemID(int slot); -- number
 ```

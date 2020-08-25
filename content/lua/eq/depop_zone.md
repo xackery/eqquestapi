@@ -6,5 +6,5 @@ menuTitle: depop_zone
 ---
 ## depop_zone
 ```lua
-eq:depop_zone(bool start_spawn_status); -- void
+eq.depop_zone(bool start_spawn_status) -- void
 ```

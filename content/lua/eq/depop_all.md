@@ -6,5 +6,5 @@ menuTitle: depop_all
 ---
 ## depop_all
 ```lua
-eq:depop_all(int npc_type); -- void
+eq.depop_all() -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: CanThisClassParry
 ---
 ## CanThisClassParry
 ```lua
-mob:CanThisClassParry(); -- bool
+Mob:CanThisClassParry(); -- bool
 ```

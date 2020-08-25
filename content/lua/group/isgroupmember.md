@@ -6,5 +6,5 @@ menuTitle: IsGroupMember
 ---
 ## IsGroupMember
 ```lua
-group:IsGroupMember(Lua_Mob mob); -- bool
+Group:IsGroupMember(Lua_Mob mob); -- bool
 ```

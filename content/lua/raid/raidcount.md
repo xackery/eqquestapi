@@ -6,5 +6,5 @@ menuTitle: RaidCount
 ---
 ## RaidCount
 ```lua
-raid:RaidCount(); -- int
+Raid:RaidCount(); -- number
 ```

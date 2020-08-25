@@ -6,5 +6,5 @@ menuTitle: GetOpenType
 ---
 ## GetOpenType
 ```lua
-door:GetOpenType(); -- uint32
+Door:GetOpenType(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: SetPlatinum
 ---
 ## SetPlatinum
 ```lua
-npc:SetPlatinum(uint32 amt); -- void
+NPC:SetPlatinum(uint32 amt); -- void
 ```

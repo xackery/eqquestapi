@@ -6,5 +6,5 @@ menuTitle: GetID
 ---
 ## GetID
 ```lua
-group:GetID(); -- int
+Group:GetID(); -- number
 ```

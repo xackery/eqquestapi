@@ -6,5 +6,5 @@ menuTitle: SetScaling
 ---
 ## SetScaling
 ```lua
-iteminst:SetScaling(bool v); -- void
+ItemInst:SetScaling(bool v); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: ResumeWandering
 ---
 ## ResumeWandering
 ```lua
-npc:ResumeWandering(); -- void
+NPC:ResumeWandering(); -- void
 ```

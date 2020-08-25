@@ -6,5 +6,5 @@ menuTitle: GetHPRatio
 ---
 ## GetHPRatio
 ```lua
-mob:GetHPRatio(); -- double
+Mob:GetHPRatio(); -- number
 ```

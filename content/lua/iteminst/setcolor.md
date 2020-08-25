@@ -6,5 +6,5 @@ menuTitle: SetColor
 ---
 ## SetColor
 ```lua
-iteminst:SetColor(uint32 color); -- void
+ItemInst:SetColor(uint32 color); -- void
 ```

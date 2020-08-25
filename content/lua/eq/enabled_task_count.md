@@ -6,5 +6,5 @@ menuTitle: enabled_task_count
 ---
 ## enabled_task_count
 ```lua
-eq:enabled_task_count(int task_set); -- int
+eq.enabled_task_count(int task_set) -- int
 ```

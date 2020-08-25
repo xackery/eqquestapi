@@ -6,5 +6,5 @@ menuTitle: get_zone_weather
 ---
 ## get_zone_weather
 ```lua
-eq:get_zone_weather(); -- int
+eq.get_zone_weather() -- int
 ```

@@ -6,5 +6,5 @@ menuTitle: GetFollowDistance
 ---
 ## GetFollowDistance
 ```lua
-npc:GetFollowDistance(); -- int
+NPC:GetFollowDistance(); -- number
 ```

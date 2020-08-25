@@ -6,5 +6,5 @@ menuTitle: GetDEX
 ---
 ## GetDEX
 ```lua
-mob:GetDEX(); -- int
+Mob:GetDEX(); -- number
 ```

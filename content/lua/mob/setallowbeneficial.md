@@ -6,5 +6,5 @@ menuTitle: SetAllowBeneficial
 ---
 ## SetAllowBeneficial
 ```lua
-mob:SetAllowBeneficial(bool value); -- void
+Mob:SetAllowBeneficial(bool value); -- void
 ```

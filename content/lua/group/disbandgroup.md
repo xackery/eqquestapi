@@ -6,5 +6,5 @@ menuTitle: DisbandGroup
 ---
 ## DisbandGroup
 ```lua
-group:DisbandGroup(); -- void
+Group:DisbandGroup(); -- void
 ```

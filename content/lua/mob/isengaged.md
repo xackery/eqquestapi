@@ -6,5 +6,5 @@ menuTitle: IsEngaged
 ---
 ## IsEngaged
 ```lua
-mob:IsEngaged(); -- bool
+Mob:IsEngaged(); -- bool
 ```

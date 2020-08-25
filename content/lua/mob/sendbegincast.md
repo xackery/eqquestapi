@@ -6,5 +6,5 @@ menuTitle: SendBeginCast
 ---
 ## SendBeginCast
 ```lua
-mob:SendBeginCast(int spell_id, int cast_time); -- void
+Mob:SendBeginCast(int spell_id, int cast_time); -- void
 ```

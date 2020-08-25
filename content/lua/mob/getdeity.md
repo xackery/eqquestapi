@@ -6,5 +6,5 @@ menuTitle: GetDeity
 ---
 ## GetDeity
 ```lua
-mob:GetDeity(); -- int
+Mob:GetDeity(); -- number
 ```

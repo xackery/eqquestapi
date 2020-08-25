@@ -6,5 +6,5 @@ menuTitle: is_paused_timer
 ---
 ## is_paused_timer
 ```lua
-eq:is_paused_timer(const char *timer); -- bool
+eq.is_paused_timer(const char *timer) -- bool
 ```

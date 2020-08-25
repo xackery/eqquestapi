@@ -6,5 +6,5 @@ menuTitle: SetZ
 ---
 ## SetZ
 ```lua
-object:SetZ(float z); -- void
+Object:SetZ(float z); -- void
 ```

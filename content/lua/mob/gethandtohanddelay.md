@@ -6,5 +6,5 @@ menuTitle: GetHandToHandDelay
 ---
 ## GetHandToHandDelay
 ```lua
-mob:GetHandToHandDelay(); -- int
+Mob:GetHandToHandDelay(); -- number
 ```

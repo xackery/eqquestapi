@@ -6,5 +6,5 @@ menuTitle: GetLeader
 ---
 ## GetLeader
 ```lua
-group:GetLeader(); -- Lua_Mob
+Group:GetLeader(); -- unknown - Lua_Mob
 ```

@@ -6,5 +6,5 @@ menuTitle: path_resume
 ---
 ## path_resume
 ```lua
-eq:path_resume(); -- void
+eq.path_resume() -- void
 ```

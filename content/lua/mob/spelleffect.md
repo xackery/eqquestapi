@@ -6,5 +6,5 @@ menuTitle: SpellEffect
 ---
 ## SpellEffect
 ```lua
-mob:SpellEffect(Lua_Mob caster, int spell_id, double partial); -- void
+Mob:SpellEffect(Lua_Mob caster, int spell_id, double partial); -- void
 ```

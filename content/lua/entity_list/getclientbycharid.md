@@ -6,5 +6,5 @@ menuTitle: GetClientByCharID
 ---
 ## GetClientByCharID
 ```lua
-entity_list:GetClientByCharID(uint32 char_id); -- Lua_Client
+EntityList:GetClientByCharID(uint32 char_id); -- unknown - Lua_Client
 ```

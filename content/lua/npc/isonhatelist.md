@@ -6,5 +6,5 @@ menuTitle: IsOnHatelist
 ---
 ## IsOnHatelist
 ```lua
-npc:IsOnHatelist(Lua_Mob ent); -- bool
+NPC:IsOnHatelist(Lua_Mob ent); -- bool
 ```

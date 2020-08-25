@@ -6,5 +6,5 @@ menuTitle: GetGlobal
 ---
 ## GetGlobal
 ```lua
-mob:GetGlobal(const char *varname); -- std::string
+Mob:GetGlobal(const char *varname); -- string
 ```

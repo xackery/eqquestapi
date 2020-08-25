@@ -6,5 +6,5 @@ menuTitle: CanThisClassDualWield
 ---
 ## CanThisClassDualWield
 ```lua
-mob:CanThisClassDualWield(); -- bool
+Mob:CanThisClassDualWield(); -- bool
 ```

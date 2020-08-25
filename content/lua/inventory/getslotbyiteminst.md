@@ -6,5 +6,5 @@ menuTitle: GetSlotByItemInst
 ---
 ## GetSlotByItemInst
 ```lua
-inventory:GetSlotByItemInst(Lua_ItemInst inst); -- int
+Inventory:GetSlotByItemInst(Lua_ItemInst inst); -- number
 ```

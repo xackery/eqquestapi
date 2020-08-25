@@ -6,5 +6,5 @@ menuTitle: GetAvoidanceRating
 ---
 ## GetAvoidanceRating
 ```lua
-npc:GetAvoidanceRating(); -- int
+NPC:GetAvoidanceRating(); -- number
 ```

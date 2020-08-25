@@ -6,5 +6,5 @@ menuTitle: repop_zone
 ---
 ## repop_zone
 ```lua
-eq:repop_zone(); -- void
+eq.repop_zone() -- void
 ```

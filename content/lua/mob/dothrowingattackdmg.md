@@ -6,5 +6,5 @@ menuTitle: DoThrowingAttackDmg
 ---
 ## DoThrowingAttackDmg
 ```lua
-mob:DoThrowingAttackDmg(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage, int chance_mod,; -- void
+Mob:DoThrowingAttackDmg(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, int weapon_damage, int chance_mod); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetMaxHP
 ---
 ## GetMaxHP
 ```lua
-mob:GetMaxHP(); -- int
+Mob:GetMaxHP(); -- number
 ```

@@ -6,5 +6,5 @@ menuTitle: ReadFloat
 ---
 ## ReadFloat
 ```lua
-packet:ReadFloat(int offset); -- float
+Packet:ReadFloat(int offset); -- number
 ```

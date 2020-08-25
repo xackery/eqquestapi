@@ -6,5 +6,5 @@ menuTitle: HasNPCSpecialAtk
 ---
 ## HasNPCSpecialAtk
 ```lua
-mob:HasNPCSpecialAtk(const char *parse); -- bool
+Mob:HasNPCSpecialAtk(const char *parse); -- bool
 ```

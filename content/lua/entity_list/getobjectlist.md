@@ -6,5 +6,5 @@ menuTitle: GetObjectList
 ---
 ## GetObjectList
 ```lua
-entity_list:GetObjectList(); -- Lua_Object_List
+EntityList:GetObjectList(); -- unknown - Lua_Object_List
 ```

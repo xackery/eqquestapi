@@ -6,5 +6,5 @@ menuTitle: HalveAggro
 ---
 ## HalveAggro
 ```lua
-mob:HalveAggro(Lua_Mob other); -- void
+Mob:HalveAggro(Lua_Mob other); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetSize
 ---
 ## GetSize
 ```lua
-mob:GetSize(); -- double
+Mob:GetSize(); -- number
 ```

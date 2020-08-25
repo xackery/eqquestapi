@@ -6,5 +6,5 @@ menuTitle: assign_group_to_instance
 ---
 ## assign_group_to_instance
 ```lua
-eq:assign_group_to_instance(uint32 instance_id); -- void
+eq.assign_group_to_instance(uint32 instance_id) -- void
 ```

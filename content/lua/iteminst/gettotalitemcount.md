@@ -6,5 +6,5 @@ menuTitle: GetTotalItemCount
 ---
 ## GetTotalItemCount
 ```lua
-iteminst:GetTotalItemCount(); -- int
+ItemInst:GetTotalItemCount(); -- number
 ```

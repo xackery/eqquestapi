@@ -6,5 +6,5 @@ menuTitle: BuffCount
 ---
 ## BuffCount
 ```lua
-mob:BuffCount(); -- uint32
+Mob:BuffCount(); -- number
 ```

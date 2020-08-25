@@ -6,5 +6,5 @@ menuTitle: IsWeapon
 ---
 ## IsWeapon
 ```lua
-iteminst:IsWeapon(); -- bool
+ItemInst:IsWeapon(); -- bool
 ```

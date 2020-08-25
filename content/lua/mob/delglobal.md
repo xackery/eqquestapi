@@ -6,5 +6,5 @@ menuTitle: DelGlobal
 ---
 ## DelGlobal
 ```lua
-mob:DelGlobal(const char *varname); -- void
+Mob:DelGlobal(const char *varname); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: summon_buried_player_corpse
 ---
 ## summon_buried_player_corpse
 ```lua
-eq:summon_buried_player_corpse(uint32 char_id, float x, float y, float z, float h); -- void
+eq.summon_buried_player_corpse(uint32 char_id, float x, float y, float z, float h) -- void
 ```

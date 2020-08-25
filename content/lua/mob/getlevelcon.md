@@ -6,5 +6,5 @@ menuTitle: GetLevelCon
 ---
 ## GetLevelCon
 ```lua
-mob:GetLevelCon(int other); -- uint32
+Mob:GetLevelCon(int my, int other); -- number
 ```

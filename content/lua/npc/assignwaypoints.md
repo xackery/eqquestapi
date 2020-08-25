@@ -6,5 +6,5 @@ menuTitle: AssignWaypoints
 ---
 ## AssignWaypoints
 ```lua
-npc:AssignWaypoints(int grid); -- void
+NPC:AssignWaypoints(int grid); -- void
 ```

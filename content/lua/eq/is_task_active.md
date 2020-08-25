@@ -6,5 +6,5 @@ menuTitle: is_task_active
 ---
 ## is_task_active
 ```lua
-eq:is_task_active(int task); -- bool
+eq.is_task_active(int task) -- bool
 ```

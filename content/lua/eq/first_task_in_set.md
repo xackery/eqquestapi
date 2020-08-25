@@ -6,5 +6,5 @@ menuTitle: first_task_in_set
 ---
 ## first_task_in_set
 ```lua
-eq:first_task_in_set(int task_set); -- int
+eq.first_task_in_set(int task_set) -- int
 ```

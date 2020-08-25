@@ -6,5 +6,5 @@ menuTitle: SeeInvisibleUndead
 ---
 ## SeeInvisibleUndead
 ```lua
-mob:SeeInvisibleUndead(); -- bool
+Mob:SeeInvisibleUndead(); -- bool
 ```

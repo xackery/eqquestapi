@@ -6,5 +6,5 @@ menuTitle: DeleteItem
 ---
 ## DeleteItem
 ```lua
-object:DeleteItem(int index); -- void
+Object:DeleteItem(int index); -- void
 ```

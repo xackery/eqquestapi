@@ -6,5 +6,5 @@ menuTitle: SetLeader
 ---
 ## SetLeader
 ```lua
-group:SetLeader(Lua_Mob leader); -- void
+Group:SetLeader(Lua_Mob leader); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetMana
 ---
 ## GetMana
 ```lua
-mob:GetMana(); -- int
+Mob:GetMana(); -- number
 ```

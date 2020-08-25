@@ -6,5 +6,5 @@ menuTitle: GetNoKeyring
 ---
 ## GetNoKeyring
 ```lua
-door:GetNoKeyring(); -- int
+Door:GetNoKeyring(); -- number
 ```

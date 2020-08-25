@@ -6,5 +6,5 @@ menuTitle: Close
 ---
 ## Close
 ```lua
-object:Close(); -- void
+Object:Close(); -- void
 ```

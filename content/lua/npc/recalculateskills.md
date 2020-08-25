@@ -6,5 +6,5 @@ menuTitle: RecalculateSkills
 ---
 ## RecalculateSkills
 ```lua
-npc:RecalculateSkills(); -- void
+NPC:RecalculateSkills(); -- void
 ```

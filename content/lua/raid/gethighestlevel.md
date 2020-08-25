@@ -6,5 +6,5 @@ menuTitle: GetHighestLevel
 ---
 ## GetHighestLevel
 ```lua
-raid:GetHighestLevel(); -- int
+Raid:GetHighestLevel(); -- number
 ```

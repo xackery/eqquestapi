@@ -6,5 +6,5 @@ menuTitle: CheckLoS
 ---
 ## CheckLoS
 ```lua
-mob:CheckLoS(Lua_Mob other); -- bool
+Mob:CheckLoS(Lua_Mob other); -- bool
 ```

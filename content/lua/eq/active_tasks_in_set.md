@@ -6,5 +6,5 @@ menuTitle: active_tasks_in_set
 ---
 ## active_tasks_in_set
 ```lua
-eq:active_tasks_in_set(int task_set); -- int
+eq.active_tasks_in_set(int task_set) -- int
 ```

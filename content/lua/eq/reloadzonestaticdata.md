@@ -6,5 +6,5 @@ menuTitle: reloadzonestaticdata
 ---
 ## reloadzonestaticdata
 ```lua
-eq:reloadzonestaticdata(); -- void
+eq.reloadzonestaticdata() -- void
 ```

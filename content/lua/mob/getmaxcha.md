@@ -6,5 +6,5 @@ menuTitle: GetMaxCHA
 ---
 ## GetMaxCHA
 ```lua
-mob:GetMaxCHA(); -- int
+Mob:GetMaxCHA(); -- number
 ```

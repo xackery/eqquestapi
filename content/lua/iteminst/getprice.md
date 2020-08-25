@@ -6,5 +6,5 @@ menuTitle: GetPrice
 ---
 ## GetPrice
 ```lua
-iteminst:GetPrice(); -- uint32
+ItemInst:GetPrice(); -- number
 ```

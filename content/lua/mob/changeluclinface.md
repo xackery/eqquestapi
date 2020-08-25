@@ -6,5 +6,5 @@ menuTitle: ChangeLuclinFace
 ---
 ## ChangeLuclinFace
 ```lua
-mob:ChangeLuclinFace(int in); -- void
+Mob:ChangeLuclinFace(int in); -- void
 ```

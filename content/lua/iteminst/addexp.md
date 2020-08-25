@@ -6,5 +6,5 @@ menuTitle: AddExp
 ---
 ## AddExp
 ```lua
-iteminst:AddExp(uint32 exp); -- void
+ItemInst:AddExp(uint32 exp); -- void
 ```

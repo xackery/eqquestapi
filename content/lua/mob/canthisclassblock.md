@@ -6,5 +6,5 @@ menuTitle: CanThisClassBlock
 ---
 ## CanThisClassBlock
 ```lua
-mob:CanThisClassBlock(); -- bool
+Mob:CanThisClassBlock(); -- bool
 ```

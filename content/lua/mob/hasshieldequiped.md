@@ -6,5 +6,5 @@ menuTitle: HasShieldEquiped
 ---
 ## HasShieldEquiped
 ```lua
-mob:HasShieldEquiped(); -- bool
+Mob:HasShieldEquiped(); -- bool
 ```

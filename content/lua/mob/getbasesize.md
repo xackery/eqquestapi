@@ -6,5 +6,5 @@ menuTitle: GetBaseSize
 ---
 ## GetBaseSize
 ```lua
-mob:GetBaseSize(); -- float
+Mob:GetBaseSize(); -- number
 ```

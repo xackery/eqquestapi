@@ -6,5 +6,5 @@ menuTitle: update_spawn_timer
 ---
 ## update_spawn_timer
 ```lua
-eq:update_spawn_timer(uint32 id, uint32 new_time); -- void
+eq.update_spawn_timer(uint32 id, uint32 new_time) -- void
 ```

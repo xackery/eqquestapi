@@ -6,5 +6,5 @@ menuTitle: HasTwoHanderEquipped
 ---
 ## HasTwoHanderEquipped
 ```lua
-mob:HasTwoHanderEquipped(); -- bool
+Mob:HasTwoHanderEquipped(); -- bool
 ```

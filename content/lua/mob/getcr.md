@@ -6,5 +6,5 @@ menuTitle: GetCR
 ---
 ## GetCR
 ```lua
-mob:GetCR(); -- int
+Mob:GetCR(); -- number
 ```

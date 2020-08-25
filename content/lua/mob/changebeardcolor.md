@@ -6,5 +6,5 @@ menuTitle: ChangeBeardColor
 ---
 ## ChangeBeardColor
 ```lua
-mob:ChangeBeardColor(int in); -- void
+Mob:ChangeBeardColor(int in); -- void
 ```

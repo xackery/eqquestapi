@@ -6,5 +6,5 @@ menuTitle: get_currency_id
 ---
 ## get_currency_id
 ```lua
-eq:get_currency_id(uint32 item_id); -- int
+eq.get_currency_id(uint32 item_id) -- int
 ```

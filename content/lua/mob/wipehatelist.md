@@ -6,5 +6,5 @@ menuTitle: WipeHateList
 ---
 ## WipeHateList
 ```lua
-mob:WipeHateList(); -- void
+Mob:WipeHateList(); -- void
 ```

@@ -6,5 +6,5 @@ menuTitle: GetSpecializeSkillValue
 ---
 ## GetSpecializeSkillValue
 ```lua
-mob:GetSpecializeSkillValue(int spell_id); -- int
+Mob:GetSpecializeSkillValue(int spell_id); -- number
 ```

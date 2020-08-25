@@ -6,5 +6,5 @@ menuTitle: get_instance_timer_by_id
 ---
 ## get_instance_timer_by_id
 ```lua
-eq:get_instance_timer_by_id(uint16 instance_id); -- uint32
+eq.get_instance_timer_by_id(uint16 instance_id) -- uint32
 ```

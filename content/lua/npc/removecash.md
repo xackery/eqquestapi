@@ -6,5 +6,5 @@ menuTitle: RemoveCash
 ---
 ## RemoveCash
 ```lua
-npc:RemoveCash(); -- void
+NPC:RemoveCash(); -- void
 ```

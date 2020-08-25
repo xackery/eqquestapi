@@ -6,32 +6,22 @@ weight: 25
 ---
 
 ## Inventory Methods (Lua)
-- inventory:[CalcBagIdx](calcbagidx)(int slot_id); -- int
-- inventory:[CalcMaterialFromSlot](calcmaterialfromslot)(int equipslot); -- int
-- inventory:[CalcSlotFromMaterial](calcslotfrommaterial)(int material); -- int
-- inventory:[CalcSlotId](calcslotid)(int slot_id); -- int
-- inventory:[CalcSlotId](calcslotid)(int slot_id, int bag_slot); -- int
-- inventory:[CanItemFitInContainer](canitemfitincontainer)(Lua_Item item, Lua_Item container); -- bool
-- inventory:[CheckNoDrop](checknodrop)(int slot_id); -- bool
-- inventory:[DeleteItem](deleteitem)(int slot_id); -- bool
-- inventory:[DeleteItem](deleteitem)(int slot_id, int quantity); -- bool
-- inventory:[FindFreeSlot](findfreeslot)(bool for_bag, bool try_cursor); -- int
-- inventory:[FindFreeSlot](findfreeslot)(bool for_bag, bool try_cursor, int min_size); -- int
-- inventory:[FindFreeSlot](findfreeslot)(bool for_bag, bool try_cursor, int min_size, bool is_arrow); -- int
-- inventory:[GetItem](getitem)(int slot_id); -- Lua_ItemInst
-- inventory:[GetItem](getitem)(int slot_id, int bag_slot); -- Lua_ItemInst
-- inventory:[GetSlotByItemInst](getslotbyiteminst)(Lua_ItemInst inst); -- int
-- inventory:[HasItem](hasitem)(int item_id); -- int
-- inventory:[HasItem](hasitem)(int item_id, int quantity); -- int
-- inventory:[HasItem](hasitem)(int item_id, int quantity, int where); -- int
-- inventory:[HasItemByLoreGroup](hasitembyloregroup)(uint32 loregroup); -- int
-- inventory:[HasItemByLoreGroup](hasitembyloregroup)(uint32 loregroup, int where); -- int
-- inventory:[HasItemByUse](hasitembyuse)(int use); -- int
-- inventory:[HasItemByUse](hasitembyuse)(int use, uint8 quantity); -- int
-- inventory:[HasItemByUse](hasitembyuse)(int use, uint8 quantity, uint8 where); -- int
-- inventory:[HasSpaceForItem](hasspaceforitem)(Lua_Item item, int quantity); -- bool
-- inventory:[PopItem](popitem)(int slot_id); -- Lua_ItemInst
-- inventory:[PushCursor](pushcursor)(Lua_ItemInst item); -- int
-- inventory:[PutItem](putitem)(int slot_id, Lua_ItemInst item); -- int
-- inventory:[SupportsContainers](supportscontainers)(int slot_id); -- bool
-- inventory:[SwapItem](swapitem)(int source_slot, int destination_slot); -- bool
+- Inventory:[GetItem](getitem)(int slot_id, int bag_slot); -- unknown - Lua_ItemInst
+- Inventory:[PutItem](putitem)(int slot_id, Lua_ItemInst item); -- number
+- Inventory:[PushCursor](pushcursor)(Lua_ItemInst item); -- number
+- Inventory:[SwapItem](swapitem)(int source_slot, int destination_slot); -- bool
+- Inventory:[DeleteItem](deleteitem)(int slot_id, int quantity); -- bool
+- Inventory:[CheckNoDrop](checknodrop)(int slot_id); -- bool
+- Inventory:[PopItem](popitem)(int slot_id); -- unknown - Lua_ItemInst
+- Inventory:[HasItem](hasitem)(int item_id, int quantity, int where); -- number
+- Inventory:[HasSpaceForItem](hasspaceforitem)(Lua_Item item, int quantity); -- bool
+- Inventory:[HasItemByUse](hasitembyuse)(int use, uint8 quantity, uint8 where); -- number
+- Inventory:[HasItemByLoreGroup](hasitembyloregroup)(uint32 loregroup, int where); -- number
+- Inventory:[FindFreeSlot](findfreeslot)(bool for_bag, bool try_cursor, int min_size, bool is_arrow); -- number
+- Inventory:[CalcSlotId](calcslotid)(int slot_id, int bag_slot); -- number
+- Inventory:[CalcBagIdx](calcbagidx)(int slot_id); -- number
+- Inventory:[CalcSlotFromMaterial](calcslotfrommaterial)(int material); -- number
+- Inventory:[CalcMaterialFromSlot](calcmaterialfromslot)(int equipslot); -- number
+- Inventory:[CanItemFitInContainer](canitemfitincontainer)(Lua_Item item, Lua_Item container); -- bool
+- Inventory:[SupportsContainers](supportscontainers)(int slot_id); -- bool
+- Inventory:[GetSlotByItemInst](getslotbyiteminst)(Lua_ItemInst inst); -- number

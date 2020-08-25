@@ -6,5 +6,5 @@ menuTitle: GetRace
 ---
 ## GetRace
 ```lua
-mob:GetRace(); -- int
+Mob:GetRace(); -- number
 ```
