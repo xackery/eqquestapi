@@ -1,5 +1,5 @@
 ---
-title: Perl spawn_condition
+title: spawn_condition
 weight: 1
 hidden: true
 menuTitle: spawn_condition

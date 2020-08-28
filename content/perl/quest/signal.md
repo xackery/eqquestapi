@@ -1,5 +1,5 @@
 ---
-title: Perl signal
+title: signal
 weight: 1
 hidden: true
 menuTitle: signal

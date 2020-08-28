@@ -1,5 +1,5 @@
 ---
-title: Perl GetWaypointY
+title: GetWaypointY
 weight: 1
 hidden: true
 menuTitle: GetWaypointY

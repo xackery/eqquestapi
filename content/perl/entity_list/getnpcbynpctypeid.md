@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCByNPCTypeID
+title: GetNPCByNPCTypeID
 weight: 1
 hidden: true
 menuTitle: GetNPCByNPCTypeID

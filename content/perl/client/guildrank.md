@@ -1,5 +1,5 @@
 ---
-title: Perl GuildRank
+title: GuildRank
 weight: 1
 hidden: true
 menuTitle: GuildRank

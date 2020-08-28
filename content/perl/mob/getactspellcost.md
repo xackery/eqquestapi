@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellCost
+title: GetActSpellCost
 weight: 1
 hidden: true
 menuTitle: GetActSpellCost

@@ -1,5 +1,5 @@
 ---
-title: Perl CalculateDistance
+title: CalculateDistance
 weight: 1
 hidden: true
 menuTitle: CalculateDistance

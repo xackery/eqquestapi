@@ -1,5 +1,5 @@
 ---
-title: Perl resettaskactivity
+title: resettaskactivity
 weight: 1
 hidden: true
 menuTitle: resettaskactivity

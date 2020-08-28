@@ -1,5 +1,5 @@
 ---
-title: Perl GetGroupByClient
+title: GetGroupByClient
 weight: 1
 hidden: true
 menuTitle: GetGroupByClient

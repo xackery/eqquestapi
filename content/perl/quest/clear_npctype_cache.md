@@ -1,5 +1,5 @@
 ---
-title: Perl clear_npctype_cache
+title: clear_npctype_cache
 weight: 1
 hidden: true
 menuTitle: clear_npctype_cache

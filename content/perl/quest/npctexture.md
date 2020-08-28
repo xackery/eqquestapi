@@ -1,5 +1,5 @@
 ---
-title: Perl npctexture
+title: npctexture
 weight: 1
 hidden: true
 menuTitle: npctexture

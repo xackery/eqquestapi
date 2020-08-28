@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellFocusDMG
+title: GetSpellFocusDMG
 weight: 1
 hidden: true
 menuTitle: GetSpellFocusDMG

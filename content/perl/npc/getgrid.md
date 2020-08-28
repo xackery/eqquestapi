@@ -1,5 +1,5 @@
 ---
-title: Perl GetGrid
+title: GetGrid
 weight: 1
 hidden: true
 menuTitle: GetGrid

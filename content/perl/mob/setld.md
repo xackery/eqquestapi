@@ -1,5 +1,5 @@
 ---
-title: Perl SetLD
+title: SetLD
 weight: 1
 hidden: true
 menuTitle: SetLD

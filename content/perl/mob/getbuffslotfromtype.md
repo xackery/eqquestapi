@@ -1,5 +1,5 @@
 ---
-title: Perl GetBuffSlotFromType
+title: GetBuffSlotFromType
 weight: 1
 hidden: true
 menuTitle: GetBuffSlotFromType

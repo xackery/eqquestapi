@@ -1,5 +1,5 @@
 ---
-title: Perl GetModelName
+title: GetModelName
 weight: 1
 hidden: true
 menuTitle: GetModelName

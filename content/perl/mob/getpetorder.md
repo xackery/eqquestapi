@@ -1,5 +1,5 @@
 ---
-title: Perl GetPetOrder
+title: GetPetOrder
 weight: 1
 hidden: true
 menuTitle: GetPetOrder

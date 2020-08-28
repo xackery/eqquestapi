@@ -1,5 +1,5 @@
 ---
-title: Perl IsObject
+title: IsObject
 weight: 1
 hidden: true
 menuTitle: IsObject

@@ -1,5 +1,5 @@
 ---
-title: Perl DoThrowingAttackDmg
+title: DoThrowingAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoThrowingAttackDmg

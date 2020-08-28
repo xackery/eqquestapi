@@ -1,5 +1,5 @@
 ---
-title: Perl Dia Wind
+title: Dia Wind
 weight: 1
 hidden: true
 menuTitle: Dia Wind

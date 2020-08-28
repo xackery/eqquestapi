@@ -1,5 +1,5 @@
 ---
-title: Perl GetIcon
+title: GetIcon
 weight: 1
 hidden: true
 menuTitle: GetIcon

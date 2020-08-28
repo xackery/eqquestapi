@@ -1,5 +1,5 @@
 ---
-title: Perl SetEXP
+title: SetEXP
 weight: 1
 hidden: true
 menuTitle: SetEXP

@@ -1,5 +1,5 @@
 ---
-title: Perl SetShieldTarget
+title: SetShieldTarget
 weight: 1
 hidden: true
 menuTitle: SetShieldTarget

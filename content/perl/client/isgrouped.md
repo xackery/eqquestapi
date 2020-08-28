@@ -1,5 +1,5 @@
 ---
-title: Perl IsGrouped
+title: IsGrouped
 weight: 1
 hidden: true
 menuTitle: IsGrouped

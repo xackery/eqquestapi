@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidecastspell
+title: worldwidecastspell
 weight: 1
 hidden: true
 menuTitle: worldwidecastspell

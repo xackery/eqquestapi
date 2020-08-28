@@ -1,5 +1,5 @@
 ---
-title: Perl GetAccuracyRating
+title: GetAccuracyRating
 weight: 1
 hidden: true
 menuTitle: GetAccuracyRating

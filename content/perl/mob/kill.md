@@ -1,5 +1,5 @@
 ---
-title: Perl Kill
+title: Kill
 weight: 1
 hidden: true
 menuTitle: Kill

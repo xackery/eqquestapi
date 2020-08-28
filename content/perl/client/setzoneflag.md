@@ -1,5 +1,5 @@
 ---
-title: Perl SetZoneFlag
+title: SetZoneFlag
 weight: 1
 hidden: true
 menuTitle: SetZoneFlag

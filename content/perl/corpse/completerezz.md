@@ -1,5 +1,5 @@
 ---
-title: Perl CompleteRezz
+title: CompleteRezz
 weight: 1
 hidden: true
 menuTitle: CompleteRezz

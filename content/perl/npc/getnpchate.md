@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCHate
+title: GetNPCHate
 weight: 1
 hidden: true
 menuTitle: GetNPCHate

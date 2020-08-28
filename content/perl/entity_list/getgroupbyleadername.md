@@ -1,5 +1,5 @@
 ---
-title: Perl GetGroupByLeaderName
+title: GetGroupByLeaderName
 weight: 1
 hidden: true
 menuTitle: GetGroupByLeaderName

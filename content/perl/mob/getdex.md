@@ -1,5 +1,5 @@
 ---
-title: Perl GetDEX
+title: GetDEX
 weight: 1
 hidden: true
 menuTitle: GetDEX

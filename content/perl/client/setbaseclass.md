@@ -1,5 +1,5 @@
 ---
-title: Perl SetBaseClass
+title: SetBaseClass
 weight: 1
 hidden: true
 menuTitle: SetBaseClass

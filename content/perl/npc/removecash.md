@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveCash
+title: RemoveCash
 weight: 1
 hidden: true
 menuTitle: RemoveCash

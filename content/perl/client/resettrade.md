@@ -1,5 +1,5 @@
 ---
-title: Perl ResetTrade
+title: ResetTrade
 weight: 1
 hidden: true
 menuTitle: ResetTrade

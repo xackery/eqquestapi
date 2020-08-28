@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllObjects
+title: RemoveAllObjects
 weight: 1
 hidden: true
 menuTitle: RemoveAllObjects

@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCList
+title: GetNPCList
 weight: 1
 hidden: true
 menuTitle: GetNPCList

@@ -1,5 +1,5 @@
 ---
-title: Perl CanThisClassDodge
+title: CanThisClassDodge
 weight: 1
 hidden: true
 menuTitle: CanThisClassDodge

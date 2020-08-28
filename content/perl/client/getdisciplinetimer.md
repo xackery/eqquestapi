@@ -1,5 +1,5 @@
 ---
-title: Perl GetDisciplineTimer
+title: GetDisciplineTimer
 weight: 1
 hidden: true
 menuTitle: GetDisciplineTimer

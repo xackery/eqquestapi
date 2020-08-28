@@ -1,5 +1,5 @@
 ---
-title: Perl SetAllowBeneficial
+title: SetAllowBeneficial
 weight: 1
 hidden: true
 menuTitle: SetAllowBeneficial

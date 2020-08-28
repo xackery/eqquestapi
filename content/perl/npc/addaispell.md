@@ -1,5 +1,5 @@
 ---
-title: Perl AddAISpell
+title: AddAISpell
 weight: 1
 hidden: true
 menuTitle: AddAISpell

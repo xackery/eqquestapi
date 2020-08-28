@@ -1,5 +1,5 @@
 ---
-title: Perl HasPet
+title: HasPet
 weight: 1
 hidden: true
 menuTitle: HasPet

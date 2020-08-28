@@ -1,5 +1,5 @@
 ---
-title: Perl GetPetSpellID
+title: GetPetSpellID
 weight: 1
 hidden: true
 menuTitle: GetPetSpellID

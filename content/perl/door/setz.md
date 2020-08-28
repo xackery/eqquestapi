@@ -1,5 +1,5 @@
 ---
-title: Perl SetZ
+title: SetZ
 weight: 1
 hidden: true
 menuTitle: SetZ

@@ -1,5 +1,5 @@
 ---
-title: Perl SendAppearanceEffect
+title: SendAppearanceEffect
 weight: 1
 hidden: true
 menuTitle: SendAppearanceEffect

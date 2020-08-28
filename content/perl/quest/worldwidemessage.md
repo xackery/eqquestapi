@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidemessage
+title: worldwidemessage
 weight: 1
 hidden: true
 menuTitle: worldwidemessage

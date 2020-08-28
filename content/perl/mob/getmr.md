@@ -1,5 +1,5 @@
 ---
-title: Perl GetMR
+title: GetMR
 weight: 1
 hidden: true
 menuTitle: GetMR

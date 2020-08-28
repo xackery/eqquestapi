@@ -1,5 +1,5 @@
 ---
-title: Perl GetTotalGroupDamage
+title: GetTotalGroupDamage
 weight: 1
 hidden: true
 menuTitle: GetTotalGroupDamage

@@ -1,5 +1,5 @@
 ---
-title: Perl SendColoredText
+title: SendColoredText
 weight: 1
 hidden: true
 menuTitle: SendColoredText

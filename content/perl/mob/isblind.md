@@ -1,5 +1,5 @@
 ---
-title: Perl IsBlind
+title: IsBlind
 weight: 1
 hidden: true
 menuTitle: IsBlind

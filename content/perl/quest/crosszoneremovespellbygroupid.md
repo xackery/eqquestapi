@@ -1,5 +1,5 @@
 ---
-title: Perl crosszoneremovespellbygroupid
+title: crosszoneremovespellbygroupid
 weight: 1
 hidden: true
 menuTitle: crosszoneremovespellbygroupid

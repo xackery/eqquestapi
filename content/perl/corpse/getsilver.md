@@ -1,5 +1,5 @@
 ---
-title: Perl GetSilver
+title: GetSilver
 weight: 1
 hidden: true
 menuTitle: GetSilver

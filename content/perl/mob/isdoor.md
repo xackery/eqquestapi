@@ -1,5 +1,5 @@
 ---
-title: Perl IsDoor
+title: IsDoor
 weight: 1
 hidden: true
 menuTitle: IsDoor

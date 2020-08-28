@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxWIS
+title: GetMaxWIS
 weight: 1
 hidden: true
 menuTitle: GetMaxWIS

@@ -1,5 +1,5 @@
 ---
-title: Perl resume
+title: resume
 weight: 1
 hidden: true
 menuTitle: resume

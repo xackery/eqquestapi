@@ -1,5 +1,6 @@
 ---
-title: Perl AddAAPoints
+title: AddAAPoints
+searchtitle: Client AddAAPoints
 weight: 1
 hidden: true
 menuTitle: AddAAPoints

@@ -1,5 +1,5 @@
 ---
-title: Perl CastToMob
+title: CastToMob
 weight: 1
 hidden: true
 menuTitle: CastToMob

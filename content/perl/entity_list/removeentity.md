@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveEntity
+title: RemoveEntity
 weight: 1
 hidden: true
 menuTitle: RemoveEntity

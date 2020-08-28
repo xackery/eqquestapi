@@ -1,5 +1,5 @@
 ---
-title: Perl SetRace
+title: SetRace
 weight: 1
 hidden: true
 menuTitle: SetRace

@@ -1,5 +1,5 @@
 ---
-title: Perl getguildnamebyid
+title: getguildnamebyid
 weight: 1
 hidden: true
 menuTitle: getguildnamebyid

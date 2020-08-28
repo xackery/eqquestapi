@@ -1,5 +1,5 @@
 ---
-title: Perl HasNPCSpecialAtk
+title: HasNPCSpecialAtk
 weight: 1
 hidden: true
 menuTitle: HasNPCSpecialAtk

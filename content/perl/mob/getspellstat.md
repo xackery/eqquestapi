@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellStat
+title: GetSpellStat
 weight: 1
 hidden: true
 menuTitle: GetSpellStat

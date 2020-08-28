@@ -1,5 +1,5 @@
 ---
-title: Perl InsertDoor
+title: InsertDoor
 weight: 1
 hidden: true
 menuTitle: InsertDoor

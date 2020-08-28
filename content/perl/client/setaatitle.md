@@ -1,5 +1,5 @@
 ---
-title: Perl SetAATitle
+title: SetAATitle
 weight: 1
 hidden: true
 menuTitle: SetAATitle

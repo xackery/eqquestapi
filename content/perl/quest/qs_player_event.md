@@ -1,5 +1,5 @@
 ---
-title: Perl qs_player_event
+title: qs_player_event
 weight: 1
 hidden: true
 menuTitle: qs_player_event

@@ -1,5 +1,5 @@
 ---
-title: Perl GrantAlternateAdvancementAbility
+title: GrantAlternateAdvancementAbility
 weight: 1
 hidden: true
 menuTitle: GrantAlternateAdvancementAbility

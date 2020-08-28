@@ -1,5 +1,5 @@
 ---
-title: Perl GetHPRatio
+title: GetHPRatio
 weight: 1
 hidden: true
 menuTitle: GetHPRatio

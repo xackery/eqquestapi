@@ -1,5 +1,5 @@
 ---
-title: Perl WipeHateList
+title: WipeHateList
 weight: 1
 hidden: true
 menuTitle: WipeHateList

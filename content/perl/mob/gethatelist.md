@@ -1,5 +1,5 @@
 ---
-title: Perl GetHateList
+title: GetHateList
 weight: 1
 hidden: true
 menuTitle: GetHateList

@@ -1,5 +1,5 @@
 ---
-title: Perl doanim
+title: doanim
 weight: 1
 hidden: true
 menuTitle: doanim

@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpecialAbilityParam
+title: GetSpecialAbilityParam
 weight: 1
 hidden: true
 menuTitle: GetSpecialAbilityParam

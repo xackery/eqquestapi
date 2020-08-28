@@ -1,5 +1,5 @@
 ---
-title: Perl toggledoorstate
+title: toggledoorstate
 weight: 1
 hidden: true
 menuTitle: toggledoorstate

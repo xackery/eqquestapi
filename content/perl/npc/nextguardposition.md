@@ -1,5 +1,5 @@
 ---
-title: Perl NextGuardPosition
+title: NextGuardPosition
 weight: 1
 hidden: true
 menuTitle: NextGuardPosition

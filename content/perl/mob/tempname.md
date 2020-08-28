@@ -1,5 +1,5 @@
 ---
-title: Perl TempName
+title: TempName
 weight: 1
 hidden: true
 menuTitle: TempName

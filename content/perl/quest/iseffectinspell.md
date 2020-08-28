@@ -1,5 +1,5 @@
 ---
-title: Perl IsEffectInSpell
+title: IsEffectInSpell
 weight: 1
 hidden: true
 menuTitle: IsEffectInSpell

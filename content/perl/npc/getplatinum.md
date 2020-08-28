@@ -1,5 +1,5 @@
 ---
-title: Perl GetPlatinum
+title: GetPlatinum
 weight: 1
 hidden: true
 menuTitle: GetPlatinum

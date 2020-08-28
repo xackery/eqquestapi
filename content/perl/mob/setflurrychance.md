@@ -1,5 +1,5 @@
 ---
-title: Perl SetFlurryChance
+title: SetFlurryChance
 weight: 1
 hidden: true
 menuTitle: SetFlurryChance

@@ -1,5 +1,5 @@
 ---
-title: Perl GetY
+title: GetY
 weight: 1
 hidden: true
 menuTitle: GetY

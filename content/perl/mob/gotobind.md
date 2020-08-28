@@ -1,5 +1,5 @@
 ---
-title: Perl GoToBind
+title: GoToBind
 weight: 1
 hidden: true
 menuTitle: GoToBind

@@ -1,5 +1,5 @@
 ---
-title: Perl GetHandToHandDamage
+title: GetHandToHandDamage
 weight: 1
 hidden: true
 menuTitle: GetHandToHandDamage

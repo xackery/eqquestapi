@@ -1,5 +1,5 @@
 ---
-title: Perl GetNimbusEffect3
+title: GetNimbusEffect3
 weight: 1
 hidden: true
 menuTitle: GetNimbusEffect3

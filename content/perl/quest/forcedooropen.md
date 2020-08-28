@@ -1,5 +1,5 @@
 ---
-title: Perl forcedooropen
+title: forcedooropen
 weight: 1
 hidden: true
 menuTitle: forcedooropen

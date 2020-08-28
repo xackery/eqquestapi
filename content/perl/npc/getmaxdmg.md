@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxDMG
+title: GetMaxDMG
 weight: 1
 hidden: true
 menuTitle: GetMaxDMG

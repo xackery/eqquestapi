@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateGroupAAs
+title: UpdateGroupAAs
 weight: 1
 hidden: true
 menuTitle: UpdateGroupAAs

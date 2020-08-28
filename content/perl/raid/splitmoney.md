@@ -1,5 +1,5 @@
 ---
-title: Perl SplitMoney
+title: SplitMoney
 weight: 1
 hidden: true
 menuTitle: SplitMoney

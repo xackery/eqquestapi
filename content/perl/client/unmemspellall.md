@@ -1,5 +1,5 @@
 ---
-title: Perl UnmemSpellAll
+title: UnmemSpellAll
 weight: 1
 hidden: true
 menuTitle: UnmemSpellAll

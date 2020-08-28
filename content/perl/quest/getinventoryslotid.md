@@ -1,5 +1,5 @@
 ---
-title: Perl getinventoryslotid
+title: getinventoryslotid
 weight: 1
 hidden: true
 menuTitle: getinventoryslotid

@@ -1,5 +1,5 @@
 ---
-title: Perl FindMemmedSpellBySlot
+title: FindMemmedSpellBySlot
 weight: 1
 hidden: true
 menuTitle: FindMemmedSpellBySlot

@@ -1,5 +1,5 @@
 ---
-title: Perl CanBuffStack
+title: CanBuffStack
 weight: 1
 hidden: true
 menuTitle: CanBuffStack

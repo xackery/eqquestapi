@@ -1,5 +1,5 @@
 ---
-title: Perl CastToNPC
+title: CastToNPC
 weight: 1
 hidden: true
 menuTitle: CastToNPC

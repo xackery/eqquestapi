@@ -1,5 +1,5 @@
 ---
-title: Perl SetCopper
+title: SetCopper
 weight: 1
 hidden: true
 menuTitle: SetCopper

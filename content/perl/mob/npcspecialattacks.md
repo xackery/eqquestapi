@@ -1,5 +1,5 @@
 ---
-title: Perl NPCSpecialAttacks
+title: NPCSpecialAttacks
 weight: 1
 hidden: true
 menuTitle: NPCSpecialAttacks

@@ -1,5 +1,5 @@
 ---
-title: Perl GetSTA
+title: GetSTA
 weight: 1
 hidden: true
 menuTitle: GetSTA

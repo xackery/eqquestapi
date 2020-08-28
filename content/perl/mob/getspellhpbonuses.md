@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellHPBonuses
+title: GetSpellHPBonuses
 weight: 1
 hidden: true
 menuTitle: GetSpellHPBonuses

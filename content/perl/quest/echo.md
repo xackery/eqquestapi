@@ -1,5 +1,5 @@
 ---
-title: Perl echo
+title: echo
 weight: 1
 hidden: true
 menuTitle: echo

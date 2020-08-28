@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllNPCs
+title: RemoveAllNPCs
 weight: 1
 hidden: true
 menuTitle: RemoveAllNPCs

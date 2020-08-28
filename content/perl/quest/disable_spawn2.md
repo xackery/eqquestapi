@@ -1,5 +1,5 @@
 ---
-title: Perl disable_spawn2
+title: disable_spawn2
 weight: 1
 hidden: true
 menuTitle: disable_spawn2

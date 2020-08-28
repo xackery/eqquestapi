@@ -1,5 +1,5 @@
 ---
-title: Perl getspellname
+title: getspellname
 weight: 1
 hidden: true
 menuTitle: getspellname

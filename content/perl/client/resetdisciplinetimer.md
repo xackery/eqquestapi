@@ -1,5 +1,5 @@
 ---
-title: Perl ResetDisciplineTimer
+title: ResetDisciplineTimer
 weight: 1
 hidden: true
 menuTitle: ResetDisciplineTimer

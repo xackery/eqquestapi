@@ -1,5 +1,5 @@
 ---
-title: Perl TypesTempPet
+title: TypesTempPet
 weight: 1
 hidden: true
 menuTitle: TypesTempPet

@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientByAccID
+title: GetClientByAccID
 weight: 1
 hidden: true
 menuTitle: GetClientByAccID

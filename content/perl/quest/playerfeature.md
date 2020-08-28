@@ -1,5 +1,5 @@
 ---
-title: Perl playerfeature
+title: playerfeature
 weight: 1
 hidden: true
 menuTitle: playerfeature

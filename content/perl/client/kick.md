@@ -1,5 +1,5 @@
 ---
-title: Perl Kick
+title: Kick
 weight: 1
 hidden: true
 menuTitle: Kick

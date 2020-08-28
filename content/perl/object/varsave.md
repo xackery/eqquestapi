@@ -1,5 +1,5 @@
 ---
-title: Perl VarSave
+title: VarSave
 weight: 1
 hidden: true
 menuTitle: VarSave

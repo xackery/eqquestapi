@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveMeleeProc
+title: RemoveMeleeProc
 weight: 1
 hidden: true
 menuTitle: RemoveMeleeProc

@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllMobs
+title: RemoveAllMobs
 weight: 1
 hidden: true
 menuTitle: RemoveAllMobs

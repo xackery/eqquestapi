@@ -1,5 +1,5 @@
 ---
-title: Perl sfollow
+title: sfollow
 weight: 1
 hidden: true
 menuTitle: sfollow

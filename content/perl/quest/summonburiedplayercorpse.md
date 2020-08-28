@@ -1,5 +1,5 @@
 ---
-title: Perl summonburiedplayercorpse
+title: summonburiedplayercorpse
 weight: 1
 hidden: true
 menuTitle: summonburiedplayercorpse

@@ -1,5 +1,5 @@
 ---
-title: Perl completedtasksinset
+title: completedtasksinset
 weight: 1
 hidden: true
 menuTitle: completedtasksinset

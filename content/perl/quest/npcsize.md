@@ -1,5 +1,5 @@
 ---
-title: Perl npcsize
+title: npcsize
 weight: 1
 hidden: true
 menuTitle: npcsize

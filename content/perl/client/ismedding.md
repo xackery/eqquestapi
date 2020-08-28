@@ -1,5 +1,5 @@
 ---
-title: Perl IsMedding
+title: IsMedding
 weight: 1
 hidden: true
 menuTitle: IsMedding

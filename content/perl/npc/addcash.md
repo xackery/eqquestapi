@@ -1,5 +1,5 @@
 ---
-title: Perl AddCash
+title: AddCash
 weight: 1
 hidden: true
 menuTitle: AddCash

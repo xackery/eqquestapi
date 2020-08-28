@@ -1,5 +1,5 @@
 ---
-title: Perl ClearSpecialAbilities
+title: ClearSpecialAbilities
 weight: 1
 hidden: true
 menuTitle: ClearSpecialAbilities

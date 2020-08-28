@@ -1,5 +1,5 @@
 ---
-title: Perl ding
+title: ding
 weight: 1
 hidden: true
 menuTitle: ding

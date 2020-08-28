@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateZoneHeader
+title: UpdateZoneHeader
 weight: 1
 hidden: true
 menuTitle: UpdateZoneHeader

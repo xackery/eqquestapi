@@ -1,5 +1,5 @@
 ---
-title: Perl GetInvul
+title: GetInvul
 weight: 1
 hidden: true
 menuTitle: GetInvul

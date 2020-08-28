@@ -1,5 +1,5 @@
 ---
-title: Perl SetWaypointPause
+title: SetWaypointPause
 weight: 1
 hidden: true
 menuTitle: SetWaypointPause

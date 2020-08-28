@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidesetentityvariableclient
+title: worldwidesetentityvariableclient
 weight: 1
 hidden: true
 menuTitle: worldwidesetentityvariableclient

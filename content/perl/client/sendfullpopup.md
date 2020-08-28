@@ -1,5 +1,5 @@
 ---
-title: Perl SendFullPopup
+title: SendFullPopup
 weight: 1
 hidden: true
 menuTitle: SendFullPopup

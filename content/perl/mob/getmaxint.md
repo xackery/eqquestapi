@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxINT
+title: GetMaxINT
 weight: 1
 hidden: true
 menuTitle: GetMaxINT

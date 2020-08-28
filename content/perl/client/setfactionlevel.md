@@ -1,5 +1,5 @@
 ---
-title: Perl SetFactionLevel
+title: SetFactionLevel
 weight: 1
 hidden: true
 menuTitle: SetFactionLevel

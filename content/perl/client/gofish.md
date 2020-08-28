@@ -1,5 +1,5 @@
 ---
-title: Perl GoFish
+title: GoFish
 weight: 1
 hidden: true
 menuTitle: GoFish

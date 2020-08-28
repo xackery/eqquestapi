@@ -1,5 +1,5 @@
 ---
-title: Perl rain
+title: rain
 weight: 1
 hidden: true
 menuTitle: rain

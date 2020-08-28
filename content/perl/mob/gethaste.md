@@ -1,5 +1,5 @@
 ---
-title: Perl GetHaste
+title: GetHaste
 weight: 1
 hidden: true
 menuTitle: GetHaste

@@ -1,5 +1,5 @@
 ---
-title: Perl FlagInstanceByGroupLeader
+title: FlagInstanceByGroupLeader
 weight: 1
 hidden: true
 menuTitle: FlagInstanceByGroupLeader

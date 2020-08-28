@@ -1,5 +1,5 @@
 ---
-title: Perl Damage
+title: Damage
 weight: 1
 hidden: true
 menuTitle: Damage

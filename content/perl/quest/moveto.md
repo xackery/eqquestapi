@@ -1,5 +1,5 @@
 ---
-title: Perl moveto
+title: moveto
 weight: 1
 hidden: true
 menuTitle: moveto

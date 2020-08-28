@@ -1,5 +1,5 @@
 ---
-title: Perl NukeItem
+title: NukeItem
 weight: 1
 hidden: true
 menuTitle: NukeItem

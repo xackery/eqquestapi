@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellCasttime
+title: GetActSpellCasttime
 weight: 1
 hidden: true
 menuTitle: GetActSpellCasttime

@@ -1,5 +1,5 @@
 ---
-title: Perl Spin
+title: Spin
 weight: 1
 hidden: true
 menuTitle: Spin

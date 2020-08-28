@@ -1,5 +1,5 @@
 ---
-title: Perl GetMobByID
+title: GetMobByID
 weight: 1
 hidden: true
 menuTitle: GetMobByID

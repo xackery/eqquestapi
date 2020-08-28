@@ -1,5 +1,5 @@
 ---
-title: Perl GetZ
+title: GetZ
 weight: 1
 hidden: true
 menuTitle: GetZ

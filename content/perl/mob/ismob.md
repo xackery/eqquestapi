@@ -1,5 +1,5 @@
 ---
-title: Perl IsMob
+title: IsMob
 weight: 1
 hidden: true
 menuTitle: IsMob

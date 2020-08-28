@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellTargetType
+title: GetSpellTargetType
 weight: 1
 hidden: true
 menuTitle: GetSpellTargetType

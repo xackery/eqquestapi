@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseGender
+title: GetBaseGender
 weight: 1
 hidden: true
 menuTitle: GetBaseGender

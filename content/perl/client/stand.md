@@ -1,5 +1,5 @@
 ---
-title: Perl Stand
+title: Stand
 weight: 1
 hidden: true
 menuTitle: Stand

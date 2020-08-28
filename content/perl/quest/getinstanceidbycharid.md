@@ -1,5 +1,5 @@
 ---
-title: Perl GetInstanceIDByCharID
+title: GetInstanceIDByCharID
 weight: 1
 hidden: true
 menuTitle: GetInstanceIDByCharID

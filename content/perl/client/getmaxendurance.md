@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxEndurance
+title: GetMaxEndurance
 weight: 1
 hidden: true
 menuTitle: GetMaxEndurance

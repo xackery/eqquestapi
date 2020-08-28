@@ -1,5 +1,5 @@
 ---
-title: Perl set_rule
+title: set_rule
 weight: 1
 hidden: true
 menuTitle: set_rule

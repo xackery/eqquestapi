@@ -1,5 +1,5 @@
 ---
-title: Perl GetIP
+title: GetIP
 weight: 1
 hidden: true
 menuTitle: GetIP

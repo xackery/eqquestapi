@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateInstanceTimer
+title: UpdateInstanceTimer
 weight: 1
 hidden: true
 menuTitle: UpdateInstanceTimer

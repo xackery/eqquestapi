@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellDuration
+title: GetActSpellDuration
 weight: 1
 hidden: true
 menuTitle: GetActSpellDuration

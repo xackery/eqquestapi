@@ -1,5 +1,5 @@
 ---
-title: Perl SetIncline
+title: SetIncline
 weight: 1
 hidden: true
 menuTitle: SetIncline

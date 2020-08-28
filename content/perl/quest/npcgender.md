@@ -1,5 +1,5 @@
 ---
-title: Perl npcgender
+title: npcgender
 weight: 1
 hidden: true
 menuTitle: npcgender

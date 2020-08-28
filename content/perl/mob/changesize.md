@@ -1,5 +1,5 @@
 ---
-title: Perl ChangeSize
+title: ChangeSize
 weight: 1
 hidden: true
 menuTitle: ChangeSize

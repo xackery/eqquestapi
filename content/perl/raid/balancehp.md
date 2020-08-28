@@ -1,5 +1,5 @@
 ---
-title: Perl BalanceHP
+title: BalanceHP
 weight: 1
 hidden: true
 menuTitle: BalanceHP

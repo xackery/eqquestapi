@@ -1,5 +1,5 @@
 ---
-title: Perl AddLevelBasedExp
+title: AddLevelBasedExp
 weight: 1
 hidden: true
 menuTitle: AddLevelBasedExp

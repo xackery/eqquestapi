@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidemoveinstance
+title: worldwidemoveinstance
 weight: 1
 hidden: true
 menuTitle: worldwidemoveinstance

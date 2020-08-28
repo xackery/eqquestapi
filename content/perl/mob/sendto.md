@@ -1,5 +1,5 @@
 ---
-title: Perl SendTo
+title: SendTo
 weight: 1
 hidden: true
 menuTitle: SendTo

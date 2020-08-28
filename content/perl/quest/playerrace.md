@@ -1,5 +1,5 @@
 ---
-title: Perl playerrace
+title: playerrace
 weight: 1
 hidden: true
 menuTitle: playerrace

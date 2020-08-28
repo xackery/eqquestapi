@@ -1,5 +1,5 @@
 ---
-title: Perl OpenDoorsNear
+title: OpenDoorsNear
 weight: 1
 hidden: true
 menuTitle: OpenDoorsNear

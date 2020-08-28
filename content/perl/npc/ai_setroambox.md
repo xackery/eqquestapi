@@ -1,5 +1,5 @@
 ---
-title: Perl AI_SetRoambox
+title: AI_SetRoambox
 weight: 1
 hidden: true
 menuTitle: AI_SetRoambox

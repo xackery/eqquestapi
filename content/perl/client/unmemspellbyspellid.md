@@ -1,5 +1,5 @@
 ---
-title: Perl UnmemSpellBySpellID
+title: UnmemSpellBySpellID
 weight: 1
 hidden: true
 menuTitle: UnmemSpellBySpellID

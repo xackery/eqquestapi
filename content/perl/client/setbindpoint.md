@@ -1,5 +1,5 @@
 ---
-title: Perl SetBindPoint
+title: SetBindPoint
 weight: 1
 hidden: true
 menuTitle: SetBindPoint

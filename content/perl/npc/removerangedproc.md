@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveRangedProc
+title: RemoveRangedProc
 weight: 1
 hidden: true
 menuTitle: RemoveRangedProc

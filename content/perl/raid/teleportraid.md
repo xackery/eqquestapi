@@ -1,5 +1,5 @@
 ---
-title: Perl TeleportRaid
+title: TeleportRaid
 weight: 1
 hidden: true
 menuTitle: TeleportRaid

@@ -1,5 +1,5 @@
 ---
-title: Perl worldwideremovespell
+title: worldwideremovespell
 weight: 1
 hidden: true
 menuTitle: worldwideremovespell

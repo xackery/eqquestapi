@@ -1,5 +1,5 @@
 ---
-title: Perl GetHateRandom
+title: GetHateRandom
 weight: 1
 hidden: true
 menuTitle: GetHateRandom

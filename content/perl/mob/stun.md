@@ -1,5 +1,5 @@
 ---
-title: Perl Stun
+title: Stun
 weight: 1
 hidden: true
 menuTitle: Stun

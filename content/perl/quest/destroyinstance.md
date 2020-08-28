@@ -1,5 +1,5 @@
 ---
-title: Perl DestroyInstance
+title: DestroyInstance
 weight: 1
 hidden: true
 menuTitle: DestroyInstance

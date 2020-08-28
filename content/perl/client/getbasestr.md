@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseSTR
+title: GetBaseSTR
 weight: 1
 hidden: true
 menuTitle: GetBaseSTR

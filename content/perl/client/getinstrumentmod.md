@@ -1,5 +1,5 @@
 ---
-title: Perl GetInstrumentMod
+title: GetInstrumentMod
 weight: 1
 hidden: true
 menuTitle: GetInstrumentMod

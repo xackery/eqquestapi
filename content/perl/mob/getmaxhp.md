@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxHP
+title: GetMaxHP
 weight: 1
 hidden: true
 menuTitle: GetMaxHP

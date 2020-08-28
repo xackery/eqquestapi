@@ -1,5 +1,5 @@
 ---
-title: Perl SetBodyType
+title: SetBodyType
 weight: 1
 hidden: true
 menuTitle: SetBodyType

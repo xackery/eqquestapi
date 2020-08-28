@@ -1,5 +1,5 @@
 ---
-title: Perl get_data_expires
+title: get_data_expires
 weight: 1
 hidden: true
 menuTitle: get_data_expires

@@ -1,5 +1,5 @@
 ---
-title: Perl QuestReward
+title: QuestReward
 weight: 1
 hidden: true
 menuTitle: QuestReward

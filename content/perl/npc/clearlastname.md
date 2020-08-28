@@ -1,5 +1,5 @@
 ---
-title: Perl ClearLastName
+title: ClearLastName
 weight: 1
 hidden: true
 menuTitle: ClearLastName

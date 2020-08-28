@@ -1,5 +1,5 @@
 ---
-title: Perl KeyRingAdd
+title: KeyRingAdd
 weight: 1
 hidden: true
 menuTitle: KeyRingAdd

@@ -1,5 +1,5 @@
 ---
-title: Perl Say
+title: Say
 weight: 1
 hidden: true
 menuTitle: Say

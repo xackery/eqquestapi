@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientByIndex
+title: GetClientByIndex
 weight: 1
 hidden: true
 menuTitle: GetClientByIndex

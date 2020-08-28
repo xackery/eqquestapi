@@ -1,5 +1,5 @@
 ---
-title: Perl GetCustomItemData
+title: GetCustomItemData
 weight: 1
 hidden: true
 menuTitle: GetCustomItemData

@@ -1,5 +1,5 @@
 ---
-title: Perl GetTotalSecondsPlayed
+title: GetTotalSecondsPlayed
 weight: 1
 hidden: true
 menuTitle: GetTotalSecondsPlayed

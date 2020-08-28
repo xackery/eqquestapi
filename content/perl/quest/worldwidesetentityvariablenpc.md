@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidesetentityvariablenpc
+title: worldwidesetentityvariablenpc
 weight: 1
 hidden: true
 menuTitle: worldwidesetentityvariablenpc

@@ -1,5 +1,5 @@
 ---
-title: Perl respawn
+title: respawn
 weight: 1
 hidden: true
 menuTitle: respawn

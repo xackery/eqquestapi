@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidemarquee
+title: worldwidemarquee
 weight: 1
 hidden: true
 menuTitle: worldwidemarquee

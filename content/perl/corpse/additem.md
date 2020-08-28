@@ -1,5 +1,5 @@
 ---
-title: Perl AddItem
+title: AddItem
 weight: 1
 hidden: true
 menuTitle: AddItem

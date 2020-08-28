@@ -1,5 +1,5 @@
 ---
-title: Perl Heal
+title: Heal
 weight: 1
 hidden: true
 menuTitle: Heal

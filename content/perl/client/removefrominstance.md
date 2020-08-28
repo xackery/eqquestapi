@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveFromInstance
+title: RemoveFromInstance
 weight: 1
 hidden: true
 menuTitle: RemoveFromInstance

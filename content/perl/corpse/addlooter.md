@@ -1,5 +1,5 @@
 ---
-title: Perl AddLooter
+title: AddLooter
 weight: 1
 hidden: true
 menuTitle: AddLooter

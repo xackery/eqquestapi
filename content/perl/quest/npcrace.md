@@ -1,5 +1,5 @@
 ---
-title: Perl npcrace
+title: npcrace
 weight: 1
 hidden: true
 menuTitle: npcrace

@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellBookSlotBySpellID
+title: GetSpellBookSlotBySpellID
 weight: 1
 hidden: true
 menuTitle: GetSpellBookSlotBySpellID

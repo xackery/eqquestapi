@@ -1,5 +1,5 @@
 ---
-title: Perl PlayMP3
+title: PlayMP3
 weight: 1
 hidden: true
 menuTitle: PlayMP3

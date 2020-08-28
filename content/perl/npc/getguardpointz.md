@@ -1,5 +1,5 @@
 ---
-title: Perl GetGuardPointZ
+title: GetGuardPointZ
 weight: 1
 hidden: true
 menuTitle: GetGuardPointZ

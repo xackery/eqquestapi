@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveItem
+title: RemoveItem
 weight: 1
 hidden: true
 menuTitle: RemoveItem

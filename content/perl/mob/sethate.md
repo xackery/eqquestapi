@@ -1,5 +1,5 @@
 ---
-title: Perl SetHate
+title: SetHate
 weight: 1
 hidden: true
 menuTitle: SetHate

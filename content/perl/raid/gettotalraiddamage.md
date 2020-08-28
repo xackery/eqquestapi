@@ -1,5 +1,5 @@
 ---
-title: Perl GetTotalRaidDamage
+title: GetTotalRaidDamage
 weight: 1
 hidden: true
 menuTitle: GetTotalRaidDamage

@@ -1,5 +1,5 @@
 ---
-title: Perl AddCrystals
+title: AddCrystals
 weight: 1
 hidden: true
 menuTitle: AddCrystals

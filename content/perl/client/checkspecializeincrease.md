@@ -1,5 +1,5 @@
 ---
-title: Perl CheckSpecializeIncrease
+title: CheckSpecializeIncrease
 weight: 1
 hidden: true
 menuTitle: CheckSpecializeIncrease

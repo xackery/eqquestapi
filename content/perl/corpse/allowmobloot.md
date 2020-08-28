@@ -1,5 +1,5 @@
 ---
-title: Perl AllowMobLoot
+title: AllowMobLoot
 weight: 1
 hidden: true
 menuTitle: AllowMobLoot

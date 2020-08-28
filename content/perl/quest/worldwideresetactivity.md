@@ -1,5 +1,5 @@
 ---
-title: Perl worldwideresetactivity
+title: worldwideresetactivity
 weight: 1
 hidden: true
 menuTitle: worldwideresetactivity

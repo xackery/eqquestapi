@@ -1,5 +1,5 @@
 ---
-title: Perl settarget
+title: settarget
 weight: 1
 hidden: true
 menuTitle: settarget

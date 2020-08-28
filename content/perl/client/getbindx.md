@@ -1,5 +1,5 @@
 ---
-title: Perl GetBindX
+title: GetBindX
 weight: 1
 hidden: true
 menuTitle: GetBindX

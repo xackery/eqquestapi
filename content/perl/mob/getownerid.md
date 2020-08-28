@@ -1,5 +1,5 @@
 ---
-title: Perl GetOwnerID
+title: GetOwnerID
 weight: 1
 hidden: true
 menuTitle: GetOwnerID

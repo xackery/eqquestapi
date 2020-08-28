@@ -1,5 +1,5 @@
 ---
-title: Perl gmmove
+title: gmmove
 weight: 1
 hidden: true
 menuTitle: gmmove

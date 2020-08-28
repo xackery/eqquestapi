@@ -1,5 +1,5 @@
 ---
-title: Perl SetFlyMode
+title: SetFlyMode
 weight: 1
 hidden: true
 menuTitle: SetFlyMode

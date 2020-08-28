@@ -1,5 +1,5 @@
 ---
-title: Perl IsNPCCorpse
+title: IsNPCCorpse
 weight: 1
 hidden: true
 menuTitle: IsNPCCorpse

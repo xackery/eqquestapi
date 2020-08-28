@@ -1,5 +1,5 @@
 ---
-title: Perl SetAAPoints
+title: SetAAPoints
 weight: 1
 hidden: true
 menuTitle: SetAAPoints

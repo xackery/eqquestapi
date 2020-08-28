@@ -1,5 +1,5 @@
 ---
-title: Perl SetHunger
+title: SetHunger
 weight: 1
 hidden: true
 menuTitle: SetHunger

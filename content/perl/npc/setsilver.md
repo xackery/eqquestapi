@@ -1,5 +1,5 @@
 ---
-title: Perl SetSilver
+title: SetSilver
 weight: 1
 hidden: true
 menuTitle: SetSilver

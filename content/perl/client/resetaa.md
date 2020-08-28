@@ -1,5 +1,5 @@
 ---
-title: Perl ResetAA
+title: ResetAA
 weight: 1
 hidden: true
 menuTitle: ResetAA

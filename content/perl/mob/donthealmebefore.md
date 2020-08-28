@@ -1,5 +1,5 @@
 ---
-title: Perl DontHealMeBefore
+title: DontHealMeBefore
 weight: 1
 hidden: true
 menuTitle: DontHealMeBefore

@@ -1,5 +1,5 @@
 ---
-title: Perl GetHP
+title: GetHP
 weight: 1
 hidden: true
 menuTitle: GetHP

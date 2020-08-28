@@ -1,5 +1,5 @@
 ---
-title: Perl EntityVariableExists
+title: EntityVariableExists
 weight: 1
 hidden: true
 menuTitle: EntityVariableExists

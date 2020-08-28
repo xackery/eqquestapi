@@ -1,5 +1,5 @@
 ---
-title: Perl crosszoneupdateactivitybyguildid
+title: crosszoneupdateactivitybyguildid
 weight: 1
 hidden: true
 menuTitle: crosszoneupdateactivitybyguildid

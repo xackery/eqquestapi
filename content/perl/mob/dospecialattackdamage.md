@@ -1,5 +1,5 @@
 ---
-title: Perl DoSpecialAttackDamage
+title: DoSpecialAttackDamage
 weight: 1
 hidden: true
 menuTitle: DoSpecialAttackDamage

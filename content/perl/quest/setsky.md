@@ -1,5 +1,5 @@
 ---
-title: Perl setsky
+title: setsky
 weight: 1
 hidden: true
 menuTitle: setsky

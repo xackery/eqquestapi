@@ -1,5 +1,5 @@
 ---
-title: Perl setglobal
+title: setglobal
 weight: 1
 hidden: true
 menuTitle: setglobal

@@ -1,5 +1,5 @@
 ---
-title: Perl HateSummon
+title: HateSummon
 weight: 1
 hidden: true
 menuTitle: HateSummon

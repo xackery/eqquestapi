@@ -1,5 +1,5 @@
 ---
-title: Perl delglobal
+title: delglobal
 weight: 1
 hidden: true
 menuTitle: delglobal

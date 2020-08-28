@@ -1,5 +1,5 @@
 ---
-title: Perl SpellFinished
+title: SpellFinished
 weight: 1
 hidden: true
 menuTitle: SpellFinished

@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseINT
+title: GetBaseINT
 weight: 1
 hidden: true
 menuTitle: GetBaseINT

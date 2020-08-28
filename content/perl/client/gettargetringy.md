@@ -1,5 +1,5 @@
 ---
-title: Perl GetTargetRingY
+title: GetTargetRingY
 weight: 1
 hidden: true
 menuTitle: GetTargetRingY

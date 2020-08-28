@@ -1,5 +1,5 @@
 ---
-title: Perl IsMezzed
+title: IsMezzed
 weight: 1
 hidden: true
 menuTitle: IsMezzed

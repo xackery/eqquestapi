@@ -1,5 +1,5 @@
 ---
-title: Perl get_data
+title: get_data
 weight: 1
 hidden: true
 menuTitle: get_data

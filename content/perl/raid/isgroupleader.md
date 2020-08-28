@@ -1,5 +1,5 @@
 ---
-title: Perl IsGroupLeader
+title: IsGroupLeader
 weight: 1
 hidden: true
 menuTitle: IsGroupLeader

@@ -1,5 +1,5 @@
 ---
-title: Perl MakeNameUnique
+title: MakeNameUnique
 weight: 1
 hidden: true
 menuTitle: MakeNameUnique

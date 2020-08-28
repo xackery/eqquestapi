@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxDEX
+title: GetMaxDEX
 weight: 1
 hidden: true
 menuTitle: GetMaxDEX

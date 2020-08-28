@@ -1,5 +1,5 @@
 ---
-title: Perl stoptimer
+title: stoptimer
 weight: 1
 hidden: true
 menuTitle: stoptimer

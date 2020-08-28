@@ -1,5 +1,5 @@
 ---
-title: Perl UnLock
+title: UnLock
 weight: 1
 hidden: true
 menuTitle: UnLock

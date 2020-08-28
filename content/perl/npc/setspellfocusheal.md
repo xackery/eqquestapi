@@ -1,5 +1,5 @@
 ---
-title: Perl SetSpellFocusHeal
+title: SetSpellFocusHeal
 weight: 1
 hidden: true
 menuTitle: SetSpellFocusHeal

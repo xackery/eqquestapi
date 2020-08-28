@@ -1,5 +1,5 @@
 ---
-title: Perl DoKnockback
+title: DoKnockback
 weight: 1
 hidden: true
 menuTitle: DoKnockback

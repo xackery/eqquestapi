@@ -1,5 +1,5 @@
 ---
-title: Perl LoadZoneFlags
+title: LoadZoneFlags
 weight: 1
 hidden: true
 menuTitle: LoadZoneFlags

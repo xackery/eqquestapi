@@ -1,5 +1,5 @@
 ---
-title: Perl SetTaunting
+title: SetTaunting
 weight: 1
 hidden: true
 menuTitle: SetTaunting

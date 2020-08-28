@@ -1,5 +1,5 @@
 ---
-title: Perl sethp
+title: sethp
 weight: 1
 hidden: true
 menuTitle: sethp

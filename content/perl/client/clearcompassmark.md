@@ -1,5 +1,5 @@
 ---
-title: Perl ClearCompassMark
+title: ClearCompassMark
 weight: 1
 hidden: true
 menuTitle: ClearCompassMark

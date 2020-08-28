@@ -1,5 +1,5 @@
 ---
-title: Perl SignalNPC
+title: SignalNPC
 weight: 1
 hidden: true
 menuTitle: SignalNPC

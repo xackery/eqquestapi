@@ -1,5 +1,5 @@
 ---
-title: Perl GetHerosForgeModel
+title: GetHerosForgeModel
 weight: 1
 hidden: true
 menuTitle: GetHerosForgeModel

@@ -1,5 +1,5 @@
 ---
-title: Perl MaxSkill
+title: MaxSkill
 weight: 1
 hidden: true
 menuTitle: MaxSkill

@@ -1,5 +1,5 @@
 ---
-title: Perl getskillname
+title: getskillname
 weight: 1
 hidden: true
 menuTitle: getskillname

@@ -1,5 +1,5 @@
 ---
-title: Perl SetMaterial
+title: SetMaterial
 weight: 1
 hidden: true
 menuTitle: SetMaterial

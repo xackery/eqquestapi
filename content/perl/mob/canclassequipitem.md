@@ -1,5 +1,5 @@
 ---
-title: Perl CanClassEquipItem
+title: CanClassEquipItem
 weight: 1
 hidden: true
 menuTitle: CanClassEquipItem

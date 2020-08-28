@@ -1,5 +1,5 @@
 ---
-title: Perl SendIllusion
+title: SendIllusion
 weight: 1
 hidden: true
 menuTitle: SendIllusion

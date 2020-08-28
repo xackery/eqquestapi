@@ -1,5 +1,5 @@
 ---
-title: Perl GetHighestLevel
+title: GetHighestLevel
 weight: 1
 hidden: true
 menuTitle: GetHighestLevel

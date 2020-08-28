@@ -1,5 +1,5 @@
 ---
-title: Perl CanThisClassParry
+title: CanThisClassParry
 weight: 1
 hidden: true
 menuTitle: CanThisClassParry

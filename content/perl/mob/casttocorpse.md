@@ -1,5 +1,5 @@
 ---
-title: Perl CastToCorpse
+title: CastToCorpse
 weight: 1
 hidden: true
 menuTitle: CastToCorpse

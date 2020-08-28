@@ -1,5 +1,5 @@
 ---
-title: Perl SetLockpick
+title: SetLockpick
 weight: 1
 hidden: true
 menuTitle: SetLockpick

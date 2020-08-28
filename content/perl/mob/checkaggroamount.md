@@ -1,5 +1,5 @@
 ---
-title: Perl CheckAggroAmount
+title: CheckAggroAmount
 weight: 1
 hidden: true
 menuTitle: CheckAggroAmount

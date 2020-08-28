@@ -1,5 +1,5 @@
 ---
-title: Perl attacknpc
+title: attacknpc
 weight: 1
 hidden: true
 menuTitle: attacknpc

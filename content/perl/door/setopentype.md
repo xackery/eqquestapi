@@ -1,5 +1,5 @@
 ---
-title: Perl SetOpenType
+title: SetOpenType
 weight: 1
 hidden: true
 menuTitle: SetOpenType

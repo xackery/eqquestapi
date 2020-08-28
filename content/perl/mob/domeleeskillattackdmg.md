@@ -1,5 +1,5 @@
 ---
-title: Perl DoMeleeSkillAttackDmg
+title: DoMeleeSkillAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoMeleeSkillAttackDmg

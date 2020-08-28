@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveDefensiveProc
+title: RemoveDefensiveProc
 weight: 1
 hidden: true
 menuTitle: RemoveDefensiveProc

@@ -1,5 +1,5 @@
 ---
-title: Perl GetWaypointMax
+title: GetWaypointMax
 weight: 1
 hidden: true
 menuTitle: GetWaypointMax

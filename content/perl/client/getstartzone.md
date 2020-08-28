@@ -1,5 +1,5 @@
 ---
-title: Perl GetStartZone
+title: GetStartZone
 weight: 1
 hidden: true
 menuTitle: GetStartZone

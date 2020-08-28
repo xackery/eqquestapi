@@ -1,5 +1,5 @@
 ---
-title: Perl zoneraid
+title: zoneraid
 weight: 1
 hidden: true
 menuTitle: zoneraid

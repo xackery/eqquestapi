@@ -1,5 +1,5 @@
 ---
-title: Perl GetCombatState
+title: GetCombatState
 weight: 1
 hidden: true
 menuTitle: GetCombatState

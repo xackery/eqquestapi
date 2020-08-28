@@ -1,5 +1,5 @@
 ---
-title: Perl get_rule
+title: get_rule
 weight: 1
 hidden: true
 menuTitle: get_rule

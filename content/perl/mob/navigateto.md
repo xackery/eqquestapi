@@ -1,5 +1,5 @@
 ---
-title: Perl NavigateTo
+title: NavigateTo
 weight: 1
 hidden: true
 menuTitle: NavigateTo

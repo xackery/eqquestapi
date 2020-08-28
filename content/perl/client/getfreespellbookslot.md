@@ -1,5 +1,5 @@
 ---
-title: Perl GetFreeSpellBookSlot
+title: GetFreeSpellBookSlot
 weight: 1
 hidden: true
 menuTitle: GetFreeSpellBookSlot

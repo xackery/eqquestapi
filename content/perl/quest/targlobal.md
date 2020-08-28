@@ -1,5 +1,5 @@
 ---
-title: Perl targlobal
+title: targlobal
 weight: 1
 hidden: true
 menuTitle: targlobal

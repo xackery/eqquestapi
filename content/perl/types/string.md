@@ -1,5 +1,5 @@
 ---
-title: Perl String
+title: String
 weight: 1
 hidden: true
 menuTitle: String

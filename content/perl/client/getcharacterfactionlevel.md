@@ -1,5 +1,5 @@
 ---
-title: Perl GetCharacterFactionLevel
+title: GetCharacterFactionLevel
 weight: 1
 hidden: true
 menuTitle: GetCharacterFactionLevel

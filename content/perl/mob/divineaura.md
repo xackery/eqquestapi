@@ -1,5 +1,5 @@
 ---
-title: Perl DivineAura
+title: DivineAura
 weight: 1
 hidden: true
 menuTitle: DivineAura

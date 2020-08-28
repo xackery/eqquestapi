@@ -1,5 +1,5 @@
 ---
-title: Perl GetCR
+title: GetCR
 weight: 1
 hidden: true
 menuTitle: GetCR

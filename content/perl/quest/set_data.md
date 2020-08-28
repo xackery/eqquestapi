@@ -1,5 +1,5 @@
 ---
-title: Perl set_data
+title: set_data
 weight: 1
 hidden: true
 menuTitle: set_data

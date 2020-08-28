@@ -1,5 +1,5 @@
 ---
-title: Perl clear_zone_flag
+title: clear_zone_flag
 weight: 1
 hidden: true
 menuTitle: clear_zone_flag

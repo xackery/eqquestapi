@@ -1,5 +1,5 @@
 ---
-title: Perl RogueAssassinate
+title: RogueAssassinate
 weight: 1
 hidden: true
 menuTitle: RogueAssassinate

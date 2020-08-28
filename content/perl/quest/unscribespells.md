@@ -1,5 +1,5 @@
 ---
-title: Perl unscribespells
+title: unscribespells
 weight: 1
 hidden: true
 menuTitle: unscribespells

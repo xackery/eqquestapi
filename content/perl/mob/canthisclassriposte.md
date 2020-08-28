@@ -1,5 +1,5 @@
 ---
-title: Perl CanThisClassRiposte
+title: CanThisClassRiposte
 weight: 1
 hidden: true
 menuTitle: CanThisClassRiposte

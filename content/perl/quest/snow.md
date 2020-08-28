@@ -1,5 +1,5 @@
 ---
-title: Perl snow
+title: snow
 weight: 1
 hidden: true
 menuTitle: snow

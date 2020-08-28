@@ -1,5 +1,5 @@
 ---
-title: Perl SetBecomeNPCLevel
+title: SetBecomeNPCLevel
 weight: 1
 hidden: true
 menuTitle: SetBecomeNPCLevel

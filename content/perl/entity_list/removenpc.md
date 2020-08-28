@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveNPC
+title: RemoveNPC
 weight: 1
 hidden: true
 menuTitle: RemoveNPC

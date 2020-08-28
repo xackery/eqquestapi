@@ -1,5 +1,5 @@
 ---
-title: Perl GetAggroRange
+title: GetAggroRange
 weight: 1
 hidden: true
 menuTitle: GetAggroRange

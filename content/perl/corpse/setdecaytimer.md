@@ -1,5 +1,5 @@
 ---
-title: Perl SetDecayTimer
+title: SetDecayTimer
 weight: 1
 hidden: true
 menuTitle: SetDecayTimer

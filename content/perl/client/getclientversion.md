@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientVersion
+title: GetClientVersion
 weight: 1
 hidden: true
 menuTitle: GetClientVersion

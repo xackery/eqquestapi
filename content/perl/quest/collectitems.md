@@ -1,5 +1,5 @@
 ---
-title: Perl collectitems
+title: collectitems
 weight: 1
 hidden: true
 menuTitle: collectitems

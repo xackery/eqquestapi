@@ -1,5 +1,5 @@
 ---
-title: Perl SetDeltas
+title: SetDeltas
 weight: 1
 hidden: true
 menuTitle: SetDeltas

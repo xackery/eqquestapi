@@ -1,5 +1,5 @@
 ---
-title: Perl GetAGI
+title: GetAGI
 weight: 1
 hidden: true
 menuTitle: GetAGI

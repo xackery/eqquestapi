@@ -1,5 +1,5 @@
 ---
-title: Perl itemlink
+title: itemlink
 weight: 1
 hidden: true
 menuTitle: itemlink

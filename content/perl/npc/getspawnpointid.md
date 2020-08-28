@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpawnPointID
+title: GetSpawnPointID
 weight: 1
 hidden: true
 menuTitle: GetSpawnPointID

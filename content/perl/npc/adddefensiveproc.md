@@ -1,5 +1,5 @@
 ---
-title: Perl AddDefensiveProc
+title: AddDefensiveProc
 weight: 1
 hidden: true
 menuTitle: AddDefensiveProc

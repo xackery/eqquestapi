@@ -1,5 +1,5 @@
 ---
-title: Perl GetLoottableID
+title: GetLoottableID
 weight: 1
 hidden: true
 menuTitle: GetLoottableID

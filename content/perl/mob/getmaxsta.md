@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxSTA
+title: GetMaxSTA
 weight: 1
 hidden: true
 menuTitle: GetMaxSTA

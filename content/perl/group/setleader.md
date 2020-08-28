@@ -1,5 +1,5 @@
 ---
-title: Perl SetLeader
+title: SetLeader
 weight: 1
 hidden: true
 menuTitle: SetLeader

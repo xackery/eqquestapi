@@ -1,5 +1,5 @@
 ---
-title: Perl GetHairStyle
+title: GetHairStyle
 weight: 1
 hidden: true
 menuTitle: GetHairStyle

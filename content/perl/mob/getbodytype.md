@@ -1,5 +1,5 @@
 ---
-title: Perl GetBodyType
+title: GetBodyType
 weight: 1
 hidden: true
 menuTitle: GetBodyType

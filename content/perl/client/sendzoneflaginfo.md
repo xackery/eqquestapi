@@ -1,5 +1,5 @@
 ---
-title: Perl SendZoneFlagInfo
+title: SendZoneFlagInfo
 weight: 1
 hidden: true
 menuTitle: SendZoneFlagInfo

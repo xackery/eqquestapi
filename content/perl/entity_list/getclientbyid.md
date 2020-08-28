@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientByID
+title: GetClientByID
 weight: 1
 hidden: true
 menuTitle: GetClientByID

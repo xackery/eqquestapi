@@ -1,5 +1,5 @@
 ---
-title: Perl IsMoving
+title: IsMoving
 weight: 1
 hidden: true
 menuTitle: IsMoving

@@ -1,5 +1,5 @@
 ---
-title: Perl safemove
+title: safemove
 weight: 1
 hidden: true
 menuTitle: safemove

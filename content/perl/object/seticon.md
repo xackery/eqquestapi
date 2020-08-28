@@ -1,5 +1,5 @@
 ---
-title: Perl SetIcon
+title: SetIcon
 weight: 1
 hidden: true
 menuTitle: SetIcon

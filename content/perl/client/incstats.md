@@ -1,5 +1,5 @@
 ---
-title: Perl IncStats
+title: IncStats
 weight: 1
 hidden: true
 menuTitle: IncStats

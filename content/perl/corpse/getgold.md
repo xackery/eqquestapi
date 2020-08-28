@@ -1,5 +1,5 @@
 ---
-title: Perl GetGold
+title: GetGold
 weight: 1
 hidden: true
 menuTitle: GetGold

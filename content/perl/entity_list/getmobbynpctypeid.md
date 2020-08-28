@@ -1,5 +1,5 @@
 ---
-title: Perl GetMobByNpcTypeID
+title: GetMobByNpcTypeID
 weight: 1
 hidden: true
 menuTitle: GetMobByNpcTypeID

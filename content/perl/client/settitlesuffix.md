@@ -1,5 +1,5 @@
 ---
-title: Perl SetTitleSuffix
+title: SetTitleSuffix
 weight: 1
 hidden: true
 menuTitle: SetTitleSuffix

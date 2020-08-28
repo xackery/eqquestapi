@@ -1,5 +1,5 @@
 ---
-title: Perl GetINT
+title: GetINT
 weight: 1
 hidden: true
 menuTitle: GetINT

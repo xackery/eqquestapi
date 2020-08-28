@@ -1,5 +1,5 @@
 ---
-title: Perl GetEndurance
+title: GetEndurance
 weight: 1
 hidden: true
 menuTitle: GetEndurance

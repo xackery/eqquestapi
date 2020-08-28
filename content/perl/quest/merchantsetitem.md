@@ -1,5 +1,5 @@
 ---
-title: Perl MerchantSetItem
+title: MerchantSetItem
 weight: 1
 hidden: true
 menuTitle: MerchantSetItem

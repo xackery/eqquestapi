@@ -1,5 +1,5 @@
 ---
-title: Perl GetPhR
+title: GetPhR
 weight: 1
 hidden: true
 menuTitle: GetPhR

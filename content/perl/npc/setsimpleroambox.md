@@ -1,5 +1,5 @@
 ---
-title: Perl SetSimpleRoamBox
+title: SetSimpleRoamBox
 weight: 1
 hidden: true
 menuTitle: SetSimpleRoamBox

@@ -1,5 +1,5 @@
 ---
-title: Perl countitem
+title: countitem
 weight: 1
 hidden: true
 menuTitle: countitem

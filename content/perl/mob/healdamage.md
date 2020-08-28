@@ -1,5 +1,5 @@
 ---
-title: Perl HealDamage
+title: HealDamage
 weight: 1
 hidden: true
 menuTitle: HealDamage

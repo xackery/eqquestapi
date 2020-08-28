@@ -1,5 +1,5 @@
 ---
-title: Perl ClearItemList
+title: ClearItemList
 weight: 1
 hidden: true
 menuTitle: ClearItemList

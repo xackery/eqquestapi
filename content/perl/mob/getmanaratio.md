@@ -1,5 +1,5 @@
 ---
-title: Perl GetManaRatio
+title: GetManaRatio
 weight: 1
 hidden: true
 menuTitle: GetManaRatio

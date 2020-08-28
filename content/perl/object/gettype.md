@@ -1,5 +1,5 @@
 ---
-title: Perl GetType
+title: GetType
 weight: 1
 hidden: true
 menuTitle: GetType

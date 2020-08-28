@@ -1,5 +1,5 @@
 ---
-title: Perl IsTaskCompleted
+title: IsTaskCompleted
 weight: 1
 hidden: true
 menuTitle: IsTaskCompleted

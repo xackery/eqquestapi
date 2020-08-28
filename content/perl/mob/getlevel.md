@@ -1,5 +1,5 @@
 ---
-title: Perl GetLevel
+title: GetLevel
 weight: 1
 hidden: true
 menuTitle: GetLevel

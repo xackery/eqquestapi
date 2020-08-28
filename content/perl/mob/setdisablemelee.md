@@ -1,5 +1,5 @@
 ---
-title: Perl SetDisableMelee
+title: SetDisableMelee
 weight: 1
 hidden: true
 menuTitle: SetDisableMelee

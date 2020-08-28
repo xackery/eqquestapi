@@ -1,5 +1,5 @@
 ---
-title: Perl SetScale
+title: SetScale
 weight: 1
 hidden: true
 menuTitle: SetScale

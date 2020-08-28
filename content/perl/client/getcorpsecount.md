@@ -1,5 +1,5 @@
 ---
-title: Perl GetCorpseCount
+title: GetCorpseCount
 weight: 1
 hidden: true
 menuTitle: GetCorpseCount

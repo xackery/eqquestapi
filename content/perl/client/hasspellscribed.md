@@ -1,5 +1,5 @@
 ---
-title: Perl HasSpellScribed
+title: HasSpellScribed
 weight: 1
 hidden: true
 menuTitle: HasSpellScribed

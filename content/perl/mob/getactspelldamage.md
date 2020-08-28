@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellDamage
+title: GetActSpellDamage
 weight: 1
 hidden: true
 menuTitle: GetActSpellDamage

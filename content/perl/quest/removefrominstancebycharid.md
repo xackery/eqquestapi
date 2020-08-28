@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveFromInstanceByCharID
+title: RemoveFromInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: RemoveFromInstanceByCharID

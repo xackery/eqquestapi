@@ -1,5 +1,5 @@
 ---
-title: Perl MoveZoneInstanceRaid
+title: MoveZoneInstanceRaid
 weight: 1
 hidden: true
 menuTitle: MoveZoneInstanceRaid

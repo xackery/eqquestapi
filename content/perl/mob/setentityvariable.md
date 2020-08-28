@@ -1,5 +1,5 @@
 ---
-title: Perl SetEntityVariable
+title: SetEntityVariable
 weight: 1
 hidden: true
 menuTitle: SetEntityVariable

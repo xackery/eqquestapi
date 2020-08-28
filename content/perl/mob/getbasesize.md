@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseSize
+title: GetBaseSize
 weight: 1
 hidden: true
 menuTitle: GetBaseSize

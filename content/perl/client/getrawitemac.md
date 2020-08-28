@@ -1,5 +1,5 @@
 ---
-title: Perl GetRawItemAC
+title: GetRawItemAC
 weight: 1
 hidden: true
 menuTitle: GetRawItemAC

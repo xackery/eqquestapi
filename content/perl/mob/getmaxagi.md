@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxAGI
+title: GetMaxAGI
 weight: 1
 hidden: true
 menuTitle: GetMaxAGI

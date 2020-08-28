@@ -1,5 +1,5 @@
 ---
-title: Perl enablerecipe
+title: enablerecipe
 weight: 1
 hidden: true
 menuTitle: enablerecipe

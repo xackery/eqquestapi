@@ -1,5 +1,5 @@
 ---
-title: Perl CreateInstance
+title: CreateInstance
 weight: 1
 hidden: true
 menuTitle: CreateInstance

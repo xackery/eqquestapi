@@ -1,5 +1,5 @@
 ---
-title: Perl GetPetType
+title: GetPetType
 weight: 1
 hidden: true
 menuTitle: GetPetType

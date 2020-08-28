@@ -1,5 +1,5 @@
 ---
-title: Perl HasTwoHanderEquipped
+title: HasTwoHanderEquipped
 weight: 1
 hidden: true
 menuTitle: HasTwoHanderEquipped

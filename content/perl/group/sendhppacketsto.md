@@ -1,5 +1,5 @@
 ---
-title: Perl SendHPPacketsTo
+title: SendHPPacketsTo
 weight: 1
 hidden: true
 menuTitle: SendHPPacketsTo

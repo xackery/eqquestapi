@@ -1,5 +1,5 @@
 ---
-title: Perl set_zone_flag
+title: set_zone_flag
 weight: 1
 hidden: true
 menuTitle: set_zone_flag

@@ -1,5 +1,5 @@
 ---
-title: Perl TGB
+title: TGB
 weight: 1
 hidden: true
 menuTitle: TGB

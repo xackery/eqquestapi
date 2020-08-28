@@ -1,5 +1,5 @@
 ---
-title: Perl IsTargeted
+title: IsTargeted
 weight: 1
 hidden: true
 menuTitle: IsTargeted

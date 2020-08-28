@@ -1,5 +1,5 @@
 ---
-title: Perl crosszoneresetactivitybyguildid
+title: crosszoneresetactivitybyguildid
 weight: 1
 hidden: true
 menuTitle: crosszoneresetactivitybyguildid

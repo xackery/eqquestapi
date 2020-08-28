@@ -1,5 +1,5 @@
 ---
-title: Perl getracename
+title: getracename
 weight: 1
 hidden: true
 menuTitle: getracename

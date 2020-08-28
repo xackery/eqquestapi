@@ -1,5 +1,5 @@
 ---
-title: Perl attacknpctype
+title: attacknpctype
 weight: 1
 hidden: true
 menuTitle: attacknpctype

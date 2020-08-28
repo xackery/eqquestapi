@@ -1,5 +1,5 @@
 ---
-title: Perl GetGroupByMob
+title: GetGroupByMob
 weight: 1
 hidden: true
 menuTitle: GetGroupByMob

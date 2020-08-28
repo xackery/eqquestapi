@@ -1,5 +1,5 @@
 ---
-title: Perl LeaveGroup
+title: LeaveGroup
 weight: 1
 hidden: true
 menuTitle: LeaveGroup

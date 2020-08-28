@@ -1,5 +1,5 @@
 ---
-title: Perl Gate
+title: Gate
 weight: 1
 hidden: true
 menuTitle: Gate

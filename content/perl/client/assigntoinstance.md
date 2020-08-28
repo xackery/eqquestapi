@@ -1,5 +1,5 @@
 ---
-title: Perl AssignToInstance
+title: AssignToInstance
 weight: 1
 hidden: true
 menuTitle: AssignToInstance

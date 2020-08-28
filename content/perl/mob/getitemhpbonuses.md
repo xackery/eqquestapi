@@ -1,5 +1,5 @@
 ---
-title: Perl GetItemHPBonuses
+title: GetItemHPBonuses
 weight: 1
 hidden: true
 menuTitle: GetItemHPBonuses

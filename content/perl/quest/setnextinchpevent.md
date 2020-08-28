@@ -1,5 +1,5 @@
 ---
-title: Perl setnextinchpevent
+title: setnextinchpevent
 weight: 1
 hidden: true
 menuTitle: setnextinchpevent

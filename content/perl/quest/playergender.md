@@ -1,5 +1,5 @@
 ---
-title: Perl playergender
+title: playergender
 weight: 1
 hidden: true
 menuTitle: playergender

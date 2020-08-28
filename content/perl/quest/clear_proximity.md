@@ -1,5 +1,5 @@
 ---
-title: Perl clear_proximity
+title: clear_proximity
 weight: 1
 hidden: true
 menuTitle: clear_proximity

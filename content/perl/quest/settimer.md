@@ -1,5 +1,5 @@
 ---
-title: Perl settimer
+title: settimer
 weight: 1
 hidden: true
 menuTitle: settimer

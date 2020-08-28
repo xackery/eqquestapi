@@ -1,5 +1,5 @@
 ---
-title: Perl GetMana
+title: GetMana
 weight: 1
 hidden: true
 menuTitle: GetMana

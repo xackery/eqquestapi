@@ -1,5 +1,5 @@
 ---
-title: Perl SetInvul
+title: SetInvul
 weight: 1
 hidden: true
 menuTitle: SetInvul

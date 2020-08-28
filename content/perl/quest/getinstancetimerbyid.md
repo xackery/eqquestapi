@@ -1,5 +1,5 @@
 ---
-title: Perl GetInstanceTimerByID
+title: GetInstanceTimerByID
 weight: 1
 hidden: true
 menuTitle: GetInstanceTimerByID

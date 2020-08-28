@@ -1,5 +1,5 @@
 ---
-title: Perl GetLDoNLosses
+title: GetLDoNLosses
 weight: 1
 hidden: true
 menuTitle: GetLDoNLosses

@@ -1,5 +1,5 @@
 ---
-title: Perl SendWebLink
+title: SendWebLink
 weight: 1
 hidden: true
 menuTitle: SendWebLink

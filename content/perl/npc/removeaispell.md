@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAISpell
+title: RemoveAISpell
 weight: 1
 hidden: true
 menuTitle: RemoveAISpell

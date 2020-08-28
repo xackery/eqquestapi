@@ -1,5 +1,5 @@
 ---
-title: Perl SetStats
+title: SetStats
 weight: 1
 hidden: true
 menuTitle: SetStats

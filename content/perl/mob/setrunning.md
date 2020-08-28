@@ -1,5 +1,5 @@
 ---
-title: Perl SetRunning
+title: SetRunning
 weight: 1
 hidden: true
 menuTitle: SetRunning

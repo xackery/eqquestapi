@@ -1,5 +1,5 @@
 ---
-title: Perl SetAA
+title: SetAA
 weight: 1
 hidden: true
 menuTitle: SetAA

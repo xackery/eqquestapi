@@ -1,5 +1,5 @@
 ---
-title: Perl playersize
+title: playersize
 weight: 1
 hidden: true
 menuTitle: playersize

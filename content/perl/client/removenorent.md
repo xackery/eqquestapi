@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveNoRent
+title: RemoveNoRent
 weight: 1
 hidden: true
 menuTitle: RemoveNoRent

@@ -1,5 +1,5 @@
 ---
-title: Perl failtask
+title: failtask
 weight: 1
 hidden: true
 menuTitle: failtask

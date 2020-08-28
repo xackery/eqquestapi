@@ -1,5 +1,5 @@
 ---
-title: Perl IsGuarding
+title: IsGuarding
 weight: 1
 hidden: true
 menuTitle: IsGuarding

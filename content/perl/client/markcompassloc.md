@@ -1,5 +1,5 @@
 ---
-title: Perl MarkCompassLoc
+title: MarkCompassLoc
 weight: 1
 hidden: true
 menuTitle: MarkCompassLoc

@@ -1,5 +1,5 @@
 ---
-title: Perl GetScore
+title: GetScore
 weight: 1
 hidden: true
 menuTitle: GetScore

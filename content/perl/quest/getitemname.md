@@ -1,5 +1,5 @@
 ---
-title: Perl getitemname
+title: getitemname
 weight: 1
 hidden: true
 menuTitle: getitemname

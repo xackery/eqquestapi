@@ -1,5 +1,5 @@
 ---
-title: Perl GetLevelCon
+title: GetLevelCon
 weight: 1
 hidden: true
 menuTitle: GetLevelCon

@@ -1,5 +1,5 @@
 ---
-title: Perl level
+title: level
 weight: 1
 hidden: true
 menuTitle: level

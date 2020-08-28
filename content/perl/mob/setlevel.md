@@ -1,5 +1,5 @@
 ---
-title: Perl SetLevel
+title: SetLevel
 weight: 1
 hidden: true
 menuTitle: SetLevel

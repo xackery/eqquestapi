@@ -1,5 +1,5 @@
 ---
-title: Perl SlotConvert2
+title: SlotConvert2
 weight: 1
 hidden: true
 menuTitle: SlotConvert2

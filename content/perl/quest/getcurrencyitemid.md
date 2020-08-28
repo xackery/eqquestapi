@@ -1,5 +1,5 @@
 ---
-title: Perl getcurrencyitemid
+title: getcurrencyitemid
 weight: 1
 hidden: true
 menuTitle: getcurrencyitemid

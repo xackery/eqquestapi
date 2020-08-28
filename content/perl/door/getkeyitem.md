@@ -1,5 +1,5 @@
 ---
-title: Perl GetKeyItem
+title: GetKeyItem
 weight: 1
 hidden: true
 menuTitle: GetKeyItem

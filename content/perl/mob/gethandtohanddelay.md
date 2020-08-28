@@ -1,5 +1,5 @@
 ---
-title: Perl GetHandToHandDelay
+title: GetHandToHandDelay
 weight: 1
 hidden: true
 menuTitle: GetHandToHandDelay

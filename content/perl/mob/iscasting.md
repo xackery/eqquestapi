@@ -1,5 +1,5 @@
 ---
-title: Perl IsCasting
+title: IsCasting
 weight: 1
 hidden: true
 menuTitle: IsCasting

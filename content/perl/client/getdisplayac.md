@@ -1,5 +1,5 @@
 ---
-title: Perl GetDisplayAC
+title: GetDisplayAC
 weight: 1
 hidden: true
 menuTitle: GetDisplayAC

@@ -1,5 +1,5 @@
 ---
-title: Perl IsRunning
+title: IsRunning
 weight: 1
 hidden: true
 menuTitle: IsRunning

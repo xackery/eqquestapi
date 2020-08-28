@@ -1,5 +1,5 @@
 ---
-title: Perl SummonItem
+title: SummonItem
 weight: 1
 hidden: true
 menuTitle: SummonItem

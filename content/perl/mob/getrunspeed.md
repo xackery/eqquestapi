@@ -1,5 +1,5 @@
 ---
-title: Perl GetRunspeed
+title: GetRunspeed
 weight: 1
 hidden: true
 menuTitle: GetRunspeed

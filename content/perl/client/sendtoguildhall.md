@@ -1,5 +1,5 @@
 ---
-title: Perl SendToGuildHall
+title: SendToGuildHall
 weight: 1
 hidden: true
 menuTitle: SendToGuildHall

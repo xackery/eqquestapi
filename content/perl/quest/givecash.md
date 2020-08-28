@@ -1,5 +1,5 @@
 ---
-title: Perl givecash
+title: givecash
 weight: 1
 hidden: true
 menuTitle: givecash

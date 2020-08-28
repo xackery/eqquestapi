@@ -1,5 +1,5 @@
 ---
-title: Perl ProcessSpecialAbilities
+title: ProcessSpecialAbilities
 weight: 1
 hidden: true
 menuTitle: ProcessSpecialAbilities

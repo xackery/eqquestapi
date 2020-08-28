@@ -1,5 +1,5 @@
 ---
-title: Perl CheckNPCFactionAlly
+title: CheckNPCFactionAlly
 weight: 1
 hidden: true
 menuTitle: CheckNPCFactionAlly

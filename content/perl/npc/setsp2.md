@@ -1,5 +1,5 @@
 ---
-title: Perl SetSp2
+title: SetSp2
 weight: 1
 hidden: true
 menuTitle: SetSp2

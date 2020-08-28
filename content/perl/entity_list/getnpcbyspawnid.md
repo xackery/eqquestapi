@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCBySpawnID
+title: GetNPCBySpawnID
 weight: 1
 hidden: true
 menuTitle: GetNPCBySpawnID

@@ -1,5 +1,5 @@
 ---
-title: Perl GetBindY
+title: GetBindY
 weight: 1
 hidden: true
 menuTitle: GetBindY

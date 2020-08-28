@@ -1,5 +1,5 @@
 ---
-title: Perl GetBeard
+title: GetBeard
 weight: 1
 hidden: true
 menuTitle: GetBeard

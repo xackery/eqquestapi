@@ -1,5 +1,5 @@
 ---
-title: Perl createBot
+title: createBot
 weight: 1
 hidden: true
 menuTitle: createBot

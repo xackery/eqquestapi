@@ -1,5 +1,5 @@
 ---
-title: Perl SetNPCFactionID
+title: SetNPCFactionID
 weight: 1
 hidden: true
 menuTitle: SetNPCFactionID

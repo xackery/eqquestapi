@@ -1,5 +1,5 @@
 ---
-title: Perl InZone
+title: InZone
 weight: 1
 hidden: true
 menuTitle: InZone

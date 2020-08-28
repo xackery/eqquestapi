@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpecializeSkillValue
+title: GetSpecializeSkillValue
 weight: 1
 hidden: true
 menuTitle: GetSpecializeSkillValue

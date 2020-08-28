@@ -1,5 +1,5 @@
 ---
-title: Perl setlanguage
+title: setlanguage
 weight: 1
 hidden: true
 menuTitle: setlanguage

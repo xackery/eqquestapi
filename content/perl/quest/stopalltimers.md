@@ -1,5 +1,5 @@
 ---
-title: Perl stopalltimers
+title: stopalltimers
 weight: 1
 hidden: true
 menuTitle: stopalltimers

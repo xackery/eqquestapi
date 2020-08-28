@@ -1,5 +1,5 @@
 ---
-title: Perl GetSp2
+title: GetSp2
 weight: 1
 hidden: true
 menuTitle: GetSp2

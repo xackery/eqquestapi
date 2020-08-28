@@ -1,5 +1,5 @@
 ---
-title: Perl AssignRaidToInstance
+title: AssignRaidToInstance
 weight: 1
 hidden: true
 menuTitle: AssignRaidToInstance

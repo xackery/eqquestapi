@@ -1,5 +1,5 @@
 ---
-title: Perl MemmedCount
+title: MemmedCount
 weight: 1
 hidden: true
 menuTitle: MemmedCount

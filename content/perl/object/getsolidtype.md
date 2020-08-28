@@ -1,5 +1,5 @@
 ---
-title: Perl GetSolidType
+title: GetSolidType
 weight: 1
 hidden: true
 menuTitle: GetSolidType

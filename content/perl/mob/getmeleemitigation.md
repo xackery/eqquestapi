@@ -1,5 +1,5 @@
 ---
-title: Perl GetMeleeMitigation
+title: GetMeleeMitigation
 weight: 1
 hidden: true
 menuTitle: GetMeleeMitigation

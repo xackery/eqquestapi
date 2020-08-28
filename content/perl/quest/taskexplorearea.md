@@ -1,5 +1,5 @@
 ---
-title: Perl taskexplorearea
+title: taskexplorearea
 weight: 1
 hidden: true
 menuTitle: taskexplorearea

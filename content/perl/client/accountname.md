@@ -1,5 +1,6 @@
 ---
-title: Perl AccountName
+title: AccountName
+searchtitle: Client AccountName 
 weight: 1
 hidden: true
 menuTitle: AccountName

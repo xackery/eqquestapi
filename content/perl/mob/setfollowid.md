@@ -1,5 +1,5 @@
 ---
-title: Perl SetFollowID
+title: SetFollowID
 weight: 1
 hidden: true
 menuTitle: SetFollowID

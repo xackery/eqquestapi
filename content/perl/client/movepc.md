@@ -1,5 +1,5 @@
 ---
-title: Perl MovePC
+title: MovePC
 weight: 1
 hidden: true
 menuTitle: MovePC

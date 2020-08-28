@@ -1,5 +1,5 @@
 ---
-title: Perl GetRadiantCrystals
+title: GetRadiantCrystals
 weight: 1
 hidden: true
 menuTitle: GetRadiantCrystals

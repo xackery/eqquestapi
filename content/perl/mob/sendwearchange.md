@@ -1,5 +1,5 @@
 ---
-title: Perl SendWearChange
+title: SendWearChange
 weight: 1
 hidden: true
 menuTitle: SendWearChange

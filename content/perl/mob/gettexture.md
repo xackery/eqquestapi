@@ -1,5 +1,5 @@
 ---
-title: Perl GetTexture
+title: GetTexture
 weight: 1
 hidden: true
 menuTitle: GetTexture

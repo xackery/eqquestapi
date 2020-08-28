@@ -1,5 +1,5 @@
 ---
-title: Perl SetThirst
+title: SetThirst
 weight: 1
 hidden: true
 menuTitle: SetThirst

@@ -1,5 +1,5 @@
 ---
-title: Perl GetItemInInventory
+title: GetItemInInventory
 weight: 1
 hidden: true
 menuTitle: GetItemInInventory

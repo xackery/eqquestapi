@@ -1,5 +1,5 @@
 ---
-title: Perl AutoSplitEnabled
+title: AutoSplitEnabled
 weight: 1
 hidden: true
 menuTitle: AutoSplitEnabled

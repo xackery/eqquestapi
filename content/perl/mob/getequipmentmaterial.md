@@ -1,5 +1,5 @@
 ---
-title: Perl GetEquipmentMaterial
+title: GetEquipmentMaterial
 weight: 1
 hidden: true
 menuTitle: GetEquipmentMaterial

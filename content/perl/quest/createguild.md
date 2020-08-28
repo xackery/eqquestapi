@@ -1,5 +1,5 @@
 ---
-title: Perl createguild
+title: createguild
 weight: 1
 hidden: true
 menuTitle: createguild

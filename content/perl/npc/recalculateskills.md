@@ -1,5 +1,5 @@
 ---
-title: Perl RecalculateSkills
+title: RecalculateSkills
 weight: 1
 hidden: true
 menuTitle: RecalculateSkills

@@ -1,5 +1,5 @@
 ---
-title: Perl SetHeading
+title: SetHeading
 weight: 1
 hidden: true
 menuTitle: SetHeading

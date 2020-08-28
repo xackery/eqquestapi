@@ -1,5 +1,5 @@
 ---
-title: Perl SetGrid
+title: SetGrid
 weight: 1
 hidden: true
 menuTitle: SetGrid

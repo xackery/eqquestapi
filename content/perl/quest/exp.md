@@ -1,5 +1,5 @@
 ---
-title: Perl exp
+title: exp
 weight: 1
 hidden: true
 menuTitle: exp

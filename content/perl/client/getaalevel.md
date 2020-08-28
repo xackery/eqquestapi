@@ -1,5 +1,5 @@
 ---
-title: Perl GetAALevel
+title: GetAALevel
 weight: 1
 hidden: true
 menuTitle: GetAALevel

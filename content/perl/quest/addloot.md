@@ -1,5 +1,5 @@
 ---
-title: Perl addloot
+title: addloot
 weight: 1
 hidden: true
 menuTitle: addloot

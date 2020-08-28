@@ -1,5 +1,5 @@
 ---
-title: Perl IsSilenced
+title: IsSilenced
 weight: 1
 hidden: true
 menuTitle: IsSilenced

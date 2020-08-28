@@ -1,5 +1,5 @@
 ---
-title: Perl npcfeature
+title: npcfeature
 weight: 1
 hidden: true
 menuTitle: npcfeature

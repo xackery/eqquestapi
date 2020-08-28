@@ -1,5 +1,5 @@
 ---
-title: Perl SetAlternateCurrencyValue
+title: SetAlternateCurrencyValue
 weight: 1
 hidden: true
 menuTitle: SetAlternateCurrencyValue

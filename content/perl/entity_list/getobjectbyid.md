@@ -1,5 +1,5 @@
 ---
-title: Perl GetObjectByID
+title: GetObjectByID
 weight: 1
 hidden: true
 menuTitle: GetObjectByID

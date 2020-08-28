@@ -1,5 +1,5 @@
 ---
-title: Perl ProjectileAnim
+title: ProjectileAnim
 weight: 1
 hidden: true
 menuTitle: ProjectileAnim

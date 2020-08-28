@@ -1,5 +1,5 @@
 ---
-title: Perl DoubleAggro
+title: DoubleAggro
 weight: 1
 hidden: true
 menuTitle: DoubleAggro

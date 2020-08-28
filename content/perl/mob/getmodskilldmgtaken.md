@@ -1,5 +1,5 @@
 ---
-title: Perl GetModSkillDmgTaken
+title: GetModSkillDmgTaken
 weight: 1
 hidden: true
 menuTitle: GetModSkillDmgTaken

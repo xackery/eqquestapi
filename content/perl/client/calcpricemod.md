@@ -1,5 +1,5 @@
 ---
-title: Perl CalcPriceMod
+title: CalcPriceMod
 weight: 1
 hidden: true
 menuTitle: CalcPriceMod

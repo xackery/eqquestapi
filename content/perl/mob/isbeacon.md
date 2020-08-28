@@ -1,5 +1,5 @@
 ---
-title: Perl IsBeacon
+title: IsBeacon
 weight: 1
 hidden: true
 menuTitle: IsBeacon

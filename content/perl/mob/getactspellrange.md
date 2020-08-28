@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellRange
+title: GetActSpellRange
 weight: 1
 hidden: true
 menuTitle: GetActSpellRange

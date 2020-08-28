@@ -1,5 +1,5 @@
 ---
-title: Perl GetAA
+title: GetAA
 weight: 1
 hidden: true
 menuTitle: GetAA

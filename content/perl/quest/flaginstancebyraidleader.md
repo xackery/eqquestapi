@@ -1,5 +1,5 @@
 ---
-title: Perl FlagInstanceByRaidLeader
+title: FlagInstanceByRaidLeader
 weight: 1
 hidden: true
 menuTitle: FlagInstanceByRaidLeader

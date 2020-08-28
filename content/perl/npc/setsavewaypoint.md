@@ -1,5 +1,5 @@
 ---
-title: Perl SetSaveWaypoint
+title: SetSaveWaypoint
 weight: 1
 hidden: true
 menuTitle: SetSaveWaypoint

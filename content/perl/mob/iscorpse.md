@@ -1,5 +1,5 @@
 ---
-title: Perl IsCorpse
+title: IsCorpse
 weight: 1
 hidden: true
 menuTitle: IsCorpse

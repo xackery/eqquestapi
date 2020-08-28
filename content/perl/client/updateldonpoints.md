@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateLDoNPoints
+title: UpdateLDoNPoints
 weight: 1
 hidden: true
 menuTitle: UpdateLDoNPoints

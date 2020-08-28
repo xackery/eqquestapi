@@ -1,5 +1,5 @@
 ---
-title: Perl GetLastName
+title: GetLastName
 weight: 1
 hidden: true
 menuTitle: GetLastName

@@ -1,5 +1,5 @@
 ---
-title: Perl HalveAggro
+title: HalveAggro
 weight: 1
 hidden: true
 menuTitle: HalveAggro

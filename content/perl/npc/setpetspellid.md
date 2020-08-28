@@ -1,5 +1,5 @@
 ---
-title: Perl SetPetSpellID
+title: SetPetSpellID
 weight: 1
 hidden: true
 menuTitle: SetPetSpellID

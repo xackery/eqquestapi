@@ -1,5 +1,5 @@
 ---
-title: Perl SetSwarmTarget
+title: SetSwarmTarget
 weight: 1
 hidden: true
 menuTitle: SetSwarmTarget

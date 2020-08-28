@@ -1,5 +1,5 @@
 ---
-title: Perl permagender
+title: permagender
 weight: 1
 hidden: true
 menuTitle: permagender

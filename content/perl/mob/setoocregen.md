@@ -1,5 +1,5 @@
 ---
-title: Perl SetOOCRegen
+title: SetOOCRegen
 weight: 1
 hidden: true
 menuTitle: SetOOCRegen

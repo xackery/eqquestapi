@@ -1,5 +1,5 @@
 ---
-title: Perl SetTarget
+title: SetTarget
 weight: 1
 hidden: true
 menuTitle: SetTarget

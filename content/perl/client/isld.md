@@ -1,5 +1,5 @@
 ---
-title: Perl IsLD
+title: IsLD
 weight: 1
 hidden: true
 menuTitle: IsLD

@@ -1,5 +1,5 @@
 ---
-title: Perl GetAttackDelay
+title: GetAttackDelay
 weight: 1
 hidden: true
 menuTitle: GetAttackDelay

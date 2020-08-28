@@ -1,5 +1,5 @@
 ---
-title: Perl Message_StringID
+title: Message_StringID
 weight: 1
 hidden: true
 menuTitle: Message_StringID

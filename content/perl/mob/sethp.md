@@ -1,5 +1,5 @@
 ---
-title: Perl SetHP
+title: SetHP
 weight: 1
 hidden: true
 menuTitle: SetHP

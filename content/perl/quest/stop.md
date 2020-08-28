@@ -1,5 +1,5 @@
 ---
-title: Perl stop
+title: stop
 weight: 1
 hidden: true
 menuTitle: stop

@@ -1,5 +1,5 @@
 ---
-title: Perl GetSlowMitigation
+title: GetSlowMitigation
 weight: 1
 hidden: true
 menuTitle: GetSlowMitigation

@@ -1,5 +1,5 @@
 ---
-title: Perl GetEntityVariable
+title: GetEntityVariable
 weight: 1
 hidden: true
 menuTitle: GetEntityVariable

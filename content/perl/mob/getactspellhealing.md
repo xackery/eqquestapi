@@ -1,5 +1,5 @@
 ---
-title: Perl GetActSpellHealing
+title: GetActSpellHealing
 weight: 1
 hidden: true
 menuTitle: GetActSpellHealing

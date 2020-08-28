@@ -1,5 +1,5 @@
 ---
-title: Perl GetCorruption
+title: GetCorruption
 weight: 1
 hidden: true
 menuTitle: GetCorruption

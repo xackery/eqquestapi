@@ -1,5 +1,5 @@
 ---
-title: Perl DisplayWaypointInfo
+title: DisplayWaypointInfo
 weight: 1
 hidden: true
 menuTitle: DisplayWaypointInfo

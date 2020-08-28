@@ -1,5 +1,5 @@
 ---
-title: Perl ModifyNPCStat
+title: ModifyNPCStat
 weight: 1
 hidden: true
 menuTitle: ModifyNPCStat

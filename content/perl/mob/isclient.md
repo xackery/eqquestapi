@@ -1,5 +1,5 @@
 ---
-title: Perl IsClient
+title: IsClient
 weight: 1
 hidden: true
 menuTitle: IsClient

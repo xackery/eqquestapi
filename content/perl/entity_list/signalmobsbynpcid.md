@@ -1,5 +1,5 @@
 ---
-title: Perl SignalMobsByNPCID
+title: SignalMobsByNPCID
 weight: 1
 hidden: true
 menuTitle: SignalMobsByNPCID

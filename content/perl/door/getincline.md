@@ -1,5 +1,5 @@
 ---
-title: Perl GetIncline
+title: GetIncline
 weight: 1
 hidden: true
 menuTitle: GetIncline

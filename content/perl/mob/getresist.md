@@ -1,5 +1,5 @@
 ---
-title: Perl GetResist
+title: GetResist
 weight: 1
 hidden: true
 menuTitle: GetResist

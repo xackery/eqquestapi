@@ -1,5 +1,5 @@
 ---
-title: Perl ChooseRandom
+title: ChooseRandom
 weight: 1
 hidden: true
 menuTitle: ChooseRandom

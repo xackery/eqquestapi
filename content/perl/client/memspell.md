@@ -1,5 +1,5 @@
 ---
-title: Perl MemSpell
+title: MemSpell
 weight: 1
 hidden: true
 menuTitle: MemSpell

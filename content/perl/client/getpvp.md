@@ -1,5 +1,5 @@
 ---
-title: Perl GetPVP
+title: GetPVP
 weight: 1
 hidden: true
 menuTitle: GetPVP

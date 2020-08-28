@@ -1,5 +1,5 @@
 ---
-title: Perl GetBindZ
+title: GetBindZ
 weight: 1
 hidden: true
 menuTitle: GetBindZ

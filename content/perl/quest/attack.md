@@ -1,5 +1,5 @@
 ---
-title: Perl attack
+title: attack
 weight: 1
 hidden: true
 menuTitle: attack

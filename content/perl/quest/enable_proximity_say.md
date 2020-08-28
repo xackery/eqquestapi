@@ -1,5 +1,5 @@
 ---
-title: Perl enable_proximity_say
+title: enable_proximity_say
 weight: 1
 hidden: true
 menuTitle: enable_proximity_say

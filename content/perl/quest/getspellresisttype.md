@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpellResistType
+title: GetSpellResistType
 weight: 1
 hidden: true
 menuTitle: GetSpellResistType

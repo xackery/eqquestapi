@@ -1,5 +1,5 @@
 ---
-title: Perl GetAssistRange
+title: GetAssistRange
 weight: 1
 hidden: true
 menuTitle: GetAssistRange

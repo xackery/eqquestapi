@@ -1,5 +1,5 @@
 ---
-title: Perl MessageClose
+title: MessageClose
 weight: 1
 hidden: true
 menuTitle: MessageClose

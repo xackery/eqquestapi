@@ -1,5 +1,5 @@
 ---
-title: Perl GetWeight
+title: GetWeight
 weight: 1
 hidden: true
 menuTitle: GetWeight

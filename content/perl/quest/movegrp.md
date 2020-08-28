@@ -1,5 +1,5 @@
 ---
-title: Perl movegrp
+title: movegrp
 weight: 1
 hidden: true
 menuTitle: movegrp

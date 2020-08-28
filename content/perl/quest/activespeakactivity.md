@@ -1,5 +1,5 @@
 ---
-title: Perl activespeakactivity
+title: activespeakactivity
 weight: 1
 hidden: true
 menuTitle: activespeakactivity

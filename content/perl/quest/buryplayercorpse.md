@@ -1,5 +1,5 @@
 ---
-title: Perl buryplayercorpse
+title: buryplayercorpse
 weight: 1
 hidden: true
 menuTitle: buryplayercorpse

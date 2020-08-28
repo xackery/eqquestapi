@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllTraps
+title: RemoveAllTraps
 weight: 1
 hidden: true
 menuTitle: RemoveAllTraps

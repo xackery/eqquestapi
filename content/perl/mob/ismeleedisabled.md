@@ -1,5 +1,5 @@
 ---
-title: Perl IsMeleeDisabled
+title: IsMeleeDisabled
 weight: 1
 hidden: true
 menuTitle: IsMeleeDisabled

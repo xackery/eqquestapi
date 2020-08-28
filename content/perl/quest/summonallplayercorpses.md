@@ -1,5 +1,5 @@
 ---
-title: Perl summonallplayercorpses
+title: summonallplayercorpses
 weight: 1
 hidden: true
 menuTitle: summonallplayercorpses

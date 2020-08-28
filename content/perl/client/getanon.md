@@ -1,5 +1,5 @@
 ---
-title: Perl GetAnon
+title: GetAnon
 weight: 1
 hidden: true
 menuTitle: GetAnon

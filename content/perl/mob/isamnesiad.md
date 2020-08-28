@@ -1,5 +1,5 @@
 ---
-title: Perl IsAmnesiad
+title: IsAmnesiad
 weight: 1
 hidden: true
 menuTitle: IsAmnesiad

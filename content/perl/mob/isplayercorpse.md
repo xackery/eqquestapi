@@ -1,5 +1,5 @@
 ---
-title: Perl IsPlayerCorpse
+title: IsPlayerCorpse
 weight: 1
 hidden: true
 menuTitle: IsPlayerCorpse

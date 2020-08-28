@@ -1,5 +1,5 @@
 ---
-title: Perl SetInvisible
+title: SetInvisible
 weight: 1
 hidden: true
 menuTitle: SetInvisible

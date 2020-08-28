@@ -1,5 +1,5 @@
 ---
-title: Perl ChangeLastName
+title: ChangeLastName
 weight: 1
 hidden: true
 menuTitle: ChangeLastName

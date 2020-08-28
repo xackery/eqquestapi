@@ -1,5 +1,5 @@
 ---
-title: Perl GetAAPoints
+title: GetAAPoints
 weight: 1
 hidden: true
 menuTitle: GetAAPoints

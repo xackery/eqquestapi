@@ -1,5 +1,5 @@
 ---
-title: Perl GetCarriedMoney
+title: GetCarriedMoney
 weight: 1
 hidden: true
 menuTitle: GetCarriedMoney

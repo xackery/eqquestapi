@@ -1,5 +1,5 @@
 ---
-title: Perl BuffFadeAll
+title: BuffFadeAll
 weight: 1
 hidden: true
 menuTitle: BuffFadeAll

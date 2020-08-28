@@ -1,5 +1,5 @@
 ---
-title: Perl SetEndurance
+title: SetEndurance
 weight: 1
 hidden: true
 menuTitle: SetEndurance

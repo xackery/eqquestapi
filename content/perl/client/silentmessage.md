@@ -1,5 +1,5 @@
 ---
-title: Perl SilentMessage
+title: SilentMessage
 weight: 1
 hidden: true
 menuTitle: SilentMessage

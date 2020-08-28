@@ -1,5 +1,5 @@
 ---
-title: Perl rebind
+title: rebind
 weight: 1
 hidden: true
 menuTitle: rebind

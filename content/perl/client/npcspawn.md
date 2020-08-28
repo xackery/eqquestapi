@@ -1,5 +1,5 @@
 ---
-title: Perl NPCSpawn
+title: NPCSpawn
 weight: 1
 hidden: true
 menuTitle: NPCSpawn

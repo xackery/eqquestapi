@@ -1,5 +1,5 @@
 ---
-title: Perl TeleportGroup
+title: TeleportGroup
 weight: 1
 hidden: true
 menuTitle: TeleportGroup

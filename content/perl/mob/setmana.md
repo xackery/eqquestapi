@@ -1,5 +1,5 @@
 ---
-title: Perl SetMana
+title: SetMana
 weight: 1
 hidden: true
 menuTitle: SetMana

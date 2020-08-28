@@ -1,5 +1,5 @@
 ---
-title: Perl GetDrakkinHeritage
+title: GetDrakkinHeritage
 weight: 1
 hidden: true
 menuTitle: GetDrakkinHeritage

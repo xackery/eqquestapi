@@ -1,5 +1,5 @@
 ---
-title: Perl DisbandGroup
+title: DisbandGroup
 weight: 1
 hidden: true
 menuTitle: DisbandGroup

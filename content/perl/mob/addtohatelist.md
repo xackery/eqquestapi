@@ -1,5 +1,5 @@
 ---
-title: Perl AddToHateList
+title: AddToHateList
 weight: 1
 hidden: true
 menuTitle: AddToHateList

@@ -1,5 +1,5 @@
 ---
-title: Perl GetMember
+title: GetMember
 weight: 1
 hidden: true
 menuTitle: GetMember

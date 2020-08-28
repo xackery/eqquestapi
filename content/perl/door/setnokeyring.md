@@ -1,5 +1,5 @@
 ---
-title: Perl SetNoKeyring
+title: SetNoKeyring
 weight: 1
 hidden: true
 menuTitle: SetNoKeyring

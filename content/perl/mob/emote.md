@@ -1,5 +1,5 @@
 ---
-title: Perl Emote
+title: Emote
 weight: 1
 hidden: true
 menuTitle: Emote

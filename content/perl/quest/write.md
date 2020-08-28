@@ -1,5 +1,5 @@
 ---
-title: Perl write
+title: write
 weight: 1
 hidden: true
 menuTitle: write

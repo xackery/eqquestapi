@@ -1,5 +1,5 @@
 ---
-title: Perl surname
+title: surname
 weight: 1
 hidden: true
 menuTitle: surname

@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllDoors
+title: RemoveAllDoors
 weight: 1
 hidden: true
 menuTitle: RemoveAllDoors

@@ -1,5 +1,5 @@
 ---
-title: Perl GetClassLevelFactor
+title: GetClassLevelFactor
 weight: 1
 hidden: true
 menuTitle: GetClassLevelFactor

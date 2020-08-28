@@ -1,5 +1,5 @@
 ---
-title: Perl IsLeader
+title: IsLeader
 weight: 1
 hidden: true
 menuTitle: IsLeader

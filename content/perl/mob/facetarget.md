@@ -1,5 +1,5 @@
 ---
-title: Perl FaceTarget
+title: FaceTarget
 weight: 1
 hidden: true
 menuTitle: FaceTarget

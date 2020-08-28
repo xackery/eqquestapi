@@ -1,5 +1,5 @@
 ---
-title: Perl Charmed
+title: Charmed
 weight: 1
 hidden: true
 menuTitle: Charmed

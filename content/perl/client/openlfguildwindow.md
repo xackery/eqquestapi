@@ -1,5 +1,5 @@
 ---
-title: Perl OpenLFGuildWindow
+title: OpenLFGuildWindow
 weight: 1
 hidden: true
 menuTitle: OpenLFGuildWindow

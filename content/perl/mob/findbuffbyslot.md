@@ -1,5 +1,5 @@
 ---
-title: Perl FindBuffBySlot
+title: FindBuffBySlot
 weight: 1
 hidden: true
 menuTitle: FindBuffBySlot

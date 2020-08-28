@@ -1,5 +1,5 @@
 ---
-title: Perl getclassname
+title: getclassname
 weight: 1
 hidden: true
 menuTitle: getclassname

@@ -1,5 +1,5 @@
 ---
-title: Perl Thirsty
+title: Thirsty
 weight: 1
 hidden: true
 menuTitle: Thirsty

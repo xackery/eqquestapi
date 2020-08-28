@@ -1,5 +1,5 @@
 ---
-title: Perl SetGM
+title: SetGM
 weight: 1
 hidden: true
 menuTitle: SetGM

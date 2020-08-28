@@ -1,5 +1,5 @@
 ---
-title: Perl voicetell
+title: voicetell
 weight: 1
 hidden: true
 menuTitle: voicetell

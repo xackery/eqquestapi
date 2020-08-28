@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxSTR
+title: GetMaxSTR
 weight: 1
 hidden: true
 menuTitle: GetMaxSTR

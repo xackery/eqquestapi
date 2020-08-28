@@ -1,5 +1,5 @@
 ---
-title: Perl IsImmuneToSpell
+title: IsImmuneToSpell
 weight: 1
 hidden: true
 menuTitle: IsImmuneToSpell

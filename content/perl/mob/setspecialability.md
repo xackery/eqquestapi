@@ -1,5 +1,5 @@
 ---
-title: Perl SetSpecialAbility
+title: SetSpecialAbility
 weight: 1
 hidden: true
 menuTitle: SetSpecialAbility

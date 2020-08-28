@@ -1,5 +1,5 @@
 ---
-title: Perl SetLocation
+title: SetLocation
 weight: 1
 hidden: true
 menuTitle: SetLocation

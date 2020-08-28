@@ -1,5 +1,5 @@
 ---
-title: Perl FindType
+title: FindType
 weight: 1
 hidden: true
 menuTitle: FindType

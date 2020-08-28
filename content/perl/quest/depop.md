@@ -1,5 +1,5 @@
 ---
-title: Perl depop
+title: depop
 weight: 1
 hidden: true
 menuTitle: depop

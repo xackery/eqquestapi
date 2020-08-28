@@ -1,5 +1,5 @@
 ---
-title: Perl IsFeared
+title: IsFeared
 weight: 1
 hidden: true
 menuTitle: IsFeared

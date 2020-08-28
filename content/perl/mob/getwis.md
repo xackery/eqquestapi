@@ -1,5 +1,5 @@
 ---
-title: Perl GetWIS
+title: GetWIS
 weight: 1
 hidden: true
 menuTitle: GetWIS

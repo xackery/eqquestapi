@@ -1,5 +1,5 @@
 ---
-title: Perl GetAugment
+title: GetAugment
 weight: 1
 hidden: true
 menuTitle: GetAugment

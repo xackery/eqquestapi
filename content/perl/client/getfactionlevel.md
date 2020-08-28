@@ -1,5 +1,5 @@
 ---
-title: Perl GetFactionLevel
+title: GetFactionLevel
 weight: 1
 hidden: true
 menuTitle: GetFactionLevel

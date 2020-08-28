@@ -1,5 +1,5 @@
 ---
-title: Perl KeyRingCheck
+title: KeyRingCheck
 weight: 1
 hidden: true
 menuTitle: KeyRingCheck

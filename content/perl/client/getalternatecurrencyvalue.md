@@ -1,5 +1,5 @@
 ---
-title: Perl GetAlternateCurrencyValue
+title: GetAlternateCurrencyValue
 weight: 1
 hidden: true
 menuTitle: GetAlternateCurrencyValue

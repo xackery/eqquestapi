@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxMana
+title: GetMaxMana
 weight: 1
 hidden: true
 menuTitle: GetMaxMana

@@ -1,5 +1,5 @@
 ---
-title: Perl DropItem
+title: DropItem
 weight: 1
 hidden: true
 menuTitle: DropItem

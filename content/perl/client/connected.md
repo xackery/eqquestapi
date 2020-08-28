@@ -1,5 +1,5 @@
 ---
-title: Perl Connected
+title: Connected
 weight: 1
 hidden: true
 menuTitle: Connected

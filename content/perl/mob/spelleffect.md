@@ -1,5 +1,5 @@
 ---
-title: Perl SpellEffect
+title: SpellEffect
 weight: 1
 hidden: true
 menuTitle: SpellEffect

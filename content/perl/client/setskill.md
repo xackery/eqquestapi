@@ -1,5 +1,5 @@
 ---
-title: Perl SetSkill
+title: SetSkill
 weight: 1
 hidden: true
 menuTitle: SetSkill

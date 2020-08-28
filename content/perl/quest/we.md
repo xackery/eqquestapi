@@ -1,5 +1,5 @@
 ---
-title: Perl we
+title: we
 weight: 1
 hidden: true
 menuTitle: we

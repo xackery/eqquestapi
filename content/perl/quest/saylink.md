@@ -1,5 +1,5 @@
 ---
-title: Perl saylink
+title: saylink
 weight: 1
 hidden: true
 menuTitle: saylink

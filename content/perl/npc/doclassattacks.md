@@ -1,5 +1,5 @@
 ---
-title: Perl DoClassAttacks
+title: DoClassAttacks
 weight: 1
 hidden: true
 menuTitle: DoClassAttacks

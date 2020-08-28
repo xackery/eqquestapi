@@ -1,5 +1,5 @@
 ---
-title: Perl LearnRecipe
+title: LearnRecipe
 weight: 1
 hidden: true
 menuTitle: LearnRecipe

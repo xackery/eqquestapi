@@ -1,5 +1,5 @@
 ---
-title: Perl CheckIncreaseSkill
+title: CheckIncreaseSkill
 weight: 1
 hidden: true
 menuTitle: CheckIncreaseSkill

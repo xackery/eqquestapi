@@ -1,5 +1,5 @@
 ---
-title: Perl IsBeneficialSpell
+title: IsBeneficialSpell
 weight: 1
 hidden: true
 menuTitle: IsBeneficialSpell

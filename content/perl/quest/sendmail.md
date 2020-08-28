@@ -1,5 +1,5 @@
 ---
-title: Perl SendMail
+title: SendMail
 weight: 1
 hidden: true
 menuTitle: SendMail

@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveCorpse
+title: RemoveCorpse
 weight: 1
 hidden: true
 menuTitle: RemoveCorpse

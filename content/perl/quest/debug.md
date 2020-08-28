@@ -1,5 +1,5 @@
 ---
-title: Perl debug
+title: debug
 weight: 1
 hidden: true
 menuTitle: debug

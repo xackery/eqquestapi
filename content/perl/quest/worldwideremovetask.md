@@ -1,5 +1,5 @@
 ---
-title: Perl worldwideremovetask
+title: worldwideremovetask
 weight: 1
 hidden: true
 menuTitle: worldwideremovetask

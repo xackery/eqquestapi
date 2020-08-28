@@ -1,5 +1,5 @@
 ---
-title: Perl Diablo Loot
+title: Diablo Loot
 weight: 1
 hidden: true
 menuTitle: Diablo Loot

@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllGroups
+title: RemoveAllGroups
 weight: 1
 hidden: true
 menuTitle: RemoveAllGroups

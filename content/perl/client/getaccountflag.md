@@ -1,5 +1,5 @@
 ---
-title: Perl GetAccountFlag
+title: GetAccountFlag
 weight: 1
 hidden: true
 menuTitle: GetAccountFlag

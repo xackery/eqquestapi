@@ -1,5 +1,5 @@
 ---
-title: Perl RangedAttack
+title: RangedAttack
 weight: 1
 hidden: true
 menuTitle: RangedAttack

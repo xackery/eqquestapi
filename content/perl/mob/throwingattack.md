@@ -1,5 +1,5 @@
 ---
-title: Perl ThrowingAttack
+title: ThrowingAttack
 weight: 1
 hidden: true
 menuTitle: ThrowingAttack

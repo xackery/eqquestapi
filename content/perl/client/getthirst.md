@@ -1,5 +1,5 @@
 ---
-title: Perl GetThirst
+title: GetThirst
 weight: 1
 hidden: true
 menuTitle: GetThirst

@@ -1,5 +1,5 @@
 ---
-title: Perl SetLanguageSkill
+title: SetLanguageSkill
 weight: 1
 hidden: true
 menuTitle: SetLanguageSkill

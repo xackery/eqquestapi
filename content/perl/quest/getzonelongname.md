@@ -1,5 +1,5 @@
 ---
-title: Perl GetZoneLongName
+title: GetZoneLongName
 weight: 1
 hidden: true
 menuTitle: GetZoneLongName

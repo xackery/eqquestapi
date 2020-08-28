@@ -1,5 +1,5 @@
 ---
-title: Perl pause
+title: pause
 weight: 1
 hidden: true
 menuTitle: pause

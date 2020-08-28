@@ -1,5 +1,5 @@
 ---
-title: Perl SplitExp
+title: SplitExp
 weight: 1
 hidden: true
 menuTitle: SplitExp

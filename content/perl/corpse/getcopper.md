@@ -1,5 +1,5 @@
 ---
-title: Perl GetCopper
+title: GetCopper
 weight: 1
 hidden: true
 menuTitle: GetCopper

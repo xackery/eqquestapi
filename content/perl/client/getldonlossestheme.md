@@ -1,5 +1,5 @@
 ---
-title: Perl GetLDoNLossesTheme
+title: GetLDoNLossesTheme
 weight: 1
 hidden: true
 menuTitle: GetLDoNLossesTheme

@@ -1,5 +1,5 @@
 ---
-title: Perl MoveZoneGroup
+title: MoveZoneGroup
 weight: 1
 hidden: true
 menuTitle: MoveZoneGroup

@@ -1,5 +1,5 @@
 ---
-title: Perl SetType
+title: SetType
 weight: 1
 hidden: true
 menuTitle: SetType

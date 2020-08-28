@@ -1,5 +1,5 @@
 ---
-title: Perl AssignToInstanceByCharID
+title: AssignToInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: AssignToInstanceByCharID

@@ -1,5 +1,5 @@
 ---
-title: Perl showgrid
+title: showgrid
 weight: 1
 hidden: true
 menuTitle: showgrid

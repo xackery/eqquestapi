@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateWho
+title: UpdateWho
 weight: 1
 hidden: true
 menuTitle: UpdateWho

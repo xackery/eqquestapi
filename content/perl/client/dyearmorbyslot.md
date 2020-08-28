@@ -1,5 +1,5 @@
 ---
-title: Perl DyeArmorBySlot
+title: DyeArmorBySlot
 weight: 1
 hidden: true
 menuTitle: DyeArmorBySlot

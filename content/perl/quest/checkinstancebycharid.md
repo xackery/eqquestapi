@@ -1,5 +1,5 @@
 ---
-title: Perl CheckInstanceByCharID
+title: CheckInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: CheckInstanceByCharID

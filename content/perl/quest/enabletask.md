@@ -1,5 +1,5 @@
 ---
-title: Perl enabletask
+title: enabletask
 weight: 1
 hidden: true
 menuTitle: enabletask

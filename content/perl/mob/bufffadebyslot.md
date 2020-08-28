@@ -1,5 +1,5 @@
 ---
-title: Perl BuffFadeBySlot
+title: BuffFadeBySlot
 weight: 1
 hidden: true
 menuTitle: BuffFadeBySlot

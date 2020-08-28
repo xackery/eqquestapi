@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateTaskActivity
+title: UpdateTaskActivity
 weight: 1
 hidden: true
 menuTitle: UpdateTaskActivity

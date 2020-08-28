@@ -1,5 +1,5 @@
 ---
-title: Perl BuffFadeBySpellID
+title: BuffFadeBySpellID
 weight: 1
 hidden: true
 menuTitle: BuffFadeBySpellID

@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidesignalnpc
+title: worldwidesignalnpc
 weight: 1
 hidden: true
 menuTitle: worldwidesignalnpc

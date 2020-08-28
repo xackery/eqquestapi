@@ -1,5 +1,5 @@
 ---
-title: Perl start
+title: start
 weight: 1
 hidden: true
 menuTitle: start

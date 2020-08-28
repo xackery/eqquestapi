@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseFace
+title: GetBaseFace
 weight: 1
 hidden: true
 menuTitle: GetBaseFace

@@ -1,5 +1,5 @@
 ---
-title: Perl IsAIControlled
+title: IsAIControlled
 weight: 1
 hidden: true
 menuTitle: IsAIControlled

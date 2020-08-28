@@ -1,5 +1,5 @@
 ---
-title: Perl GetPrimSkill
+title: GetPrimSkill
 weight: 1
 hidden: true
 menuTitle: GetPrimSkill

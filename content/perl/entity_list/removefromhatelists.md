@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveFromHateLists
+title: RemoveFromHateLists
 weight: 1
 hidden: true
 menuTitle: RemoveFromHateLists

@@ -1,5 +1,5 @@
 ---
-title: Perl SetSkillPoints
+title: SetSkillPoints
 weight: 1
 hidden: true
 menuTitle: SetSkillPoints

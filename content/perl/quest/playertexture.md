@@ -1,5 +1,5 @@
 ---
-title: Perl playertexture
+title: playertexture
 weight: 1
 hidden: true
 menuTitle: playertexture

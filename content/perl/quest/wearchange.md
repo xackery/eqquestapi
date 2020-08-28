@@ -1,5 +1,5 @@
 ---
-title: Perl wearchange
+title: wearchange
 weight: 1
 hidden: true
 menuTitle: wearchange

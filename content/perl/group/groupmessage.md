@@ -1,5 +1,5 @@
 ---
-title: Perl GroupMessage
+title: GroupMessage
 weight: 1
 hidden: true
 menuTitle: GroupMessage

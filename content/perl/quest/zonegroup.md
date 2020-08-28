@@ -1,5 +1,5 @@
 ---
-title: Perl zonegroup
+title: zonegroup
 weight: 1
 hidden: true
 menuTitle: zonegroup

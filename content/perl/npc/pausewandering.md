@@ -1,5 +1,5 @@
 ---
-title: Perl PauseWandering
+title: PauseWandering
 weight: 1
 hidden: true
 menuTitle: PauseWandering

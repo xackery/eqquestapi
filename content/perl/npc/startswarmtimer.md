@@ -1,5 +1,5 @@
 ---
-title: Perl StartSwarmTimer
+title: StartSwarmTimer
 weight: 1
 hidden: true
 menuTitle: StartSwarmTimer

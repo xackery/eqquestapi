@@ -1,5 +1,5 @@
 ---
-title: Perl SignalClient
+title: SignalClient
 weight: 1
 hidden: true
 menuTitle: SignalClient

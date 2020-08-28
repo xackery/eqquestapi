@@ -1,5 +1,5 @@
 ---
-title: Perl MessageGroup
+title: MessageGroup
 weight: 1
 hidden: true
 menuTitle: MessageGroup

@@ -1,5 +1,5 @@
 ---
-title: Perl GetGroupByID
+title: GetGroupByID
 weight: 1
 hidden: true
 menuTitle: GetGroupByID

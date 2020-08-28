@@ -1,5 +1,5 @@
 ---
-title: Perl CastToClient
+title: CastToClient
 weight: 1
 hidden: true
 menuTitle: CastToClient

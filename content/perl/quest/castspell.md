@@ -1,5 +1,5 @@
 ---
-title: Perl castspell
+title: castspell
 weight: 1
 hidden: true
 menuTitle: castspell

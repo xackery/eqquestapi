@@ -1,5 +1,5 @@
 ---
-title: Perl AssignGroupToInstance
+title: AssignGroupToInstance
 weight: 1
 hidden: true
 menuTitle: AssignGroupToInstance

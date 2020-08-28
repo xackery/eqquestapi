@@ -1,5 +1,5 @@
 ---
-title: Perl IsBeneficialAllowed
+title: IsBeneficialAllowed
 weight: 1
 hidden: true
 menuTitle: IsBeneficialAllowed

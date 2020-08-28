@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateSpawnTimer
+title: UpdateSpawnTimer
 weight: 1
 hidden: true
 menuTitle: UpdateSpawnTimer

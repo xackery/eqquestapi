@@ -1,5 +1,5 @@
 ---
-title: Perl GetEquipmentColor
+title: GetEquipmentColor
 weight: 1
 hidden: true
 menuTitle: GetEquipmentColor

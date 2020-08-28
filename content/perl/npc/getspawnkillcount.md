@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpawnKillCount
+title: GetSpawnKillCount
 weight: 1
 hidden: true
 menuTitle: GetSpawnKillCount

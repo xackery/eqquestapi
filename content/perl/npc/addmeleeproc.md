@@ -1,5 +1,5 @@
 ---
-title: Perl AddMeleeProc
+title: AddMeleeProc
 weight: 1
 hidden: true
 menuTitle: AddMeleeProc

@@ -1,5 +1,5 @@
 ---
-title: Perl Duck
+title: Duck
 weight: 1
 hidden: true
 menuTitle: Duck

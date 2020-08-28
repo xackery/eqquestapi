@@ -1,5 +1,5 @@
 ---
-title: Perl WorldKick
+title: WorldKick
 weight: 1
 hidden: true
 menuTitle: WorldKick

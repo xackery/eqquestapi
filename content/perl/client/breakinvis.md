@@ -1,5 +1,5 @@
 ---
-title: Perl BreakInvis
+title: BreakInvis
 weight: 1
 hidden: true
 menuTitle: BreakInvis

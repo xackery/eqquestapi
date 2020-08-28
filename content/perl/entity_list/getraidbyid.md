@@ -1,5 +1,5 @@
 ---
-title: Perl GetRaidByID
+title: GetRaidByID
 weight: 1
 hidden: true
 menuTitle: GetRaidByID

@@ -1,5 +1,5 @@
 ---
-title: Perl ReadBook
+title: ReadBook
 weight: 1
 hidden: true
 menuTitle: ReadBook

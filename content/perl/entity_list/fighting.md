@@ -1,5 +1,5 @@
 ---
-title: Perl Fighting
+title: Fighting
 weight: 1
 hidden: true
 menuTitle: Fighting

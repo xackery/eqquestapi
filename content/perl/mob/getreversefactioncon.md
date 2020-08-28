@@ -1,5 +1,5 @@
 ---
-title: Perl GetReverseFactionCon
+title: GetReverseFactionCon
 weight: 1
 hidden: true
 menuTitle: GetReverseFactionCon

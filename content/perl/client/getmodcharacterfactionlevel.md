@@ -1,5 +1,5 @@
 ---
-title: Perl GetModCharacterFactionLevel
+title: GetModCharacterFactionLevel
 weight: 1
 hidden: true
 menuTitle: GetModCharacterFactionLevel

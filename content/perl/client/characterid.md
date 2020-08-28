@@ -1,5 +1,5 @@
 ---
-title: Perl CharacterID
+title: CharacterID
 weight: 1
 hidden: true
 menuTitle: CharacterID

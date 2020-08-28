@@ -1,5 +1,5 @@
 ---
-title: Perl SendSound
+title: SendSound
 weight: 1
 hidden: true
 menuTitle: SendSound

@@ -1,5 +1,5 @@
 ---
-title: Perl scribespells
+title: scribespells
 weight: 1
 hidden: true
 menuTitle: scribespells

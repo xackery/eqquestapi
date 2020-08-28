@@ -1,5 +1,5 @@
 ---
-title: Perl GetRandomClient
+title: GetRandomClient
 weight: 1
 hidden: true
 menuTitle: GetRandomClient

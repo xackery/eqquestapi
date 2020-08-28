@@ -1,5 +1,6 @@
 ---
-title: Perl AddAlternateCurrencyValue
+title: AddAlternateCurrencyValue
+searchTitle: Perl Client AddAlternateCurrencyValue
 weight: 1
 hidden: true
 menuTitle: AddAlternateCurrencyValue

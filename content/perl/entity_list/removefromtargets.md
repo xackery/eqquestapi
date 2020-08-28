@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveFromTargets
+title: RemoveFromTargets
 weight: 1
 hidden: true
 menuTitle: RemoveFromTargets

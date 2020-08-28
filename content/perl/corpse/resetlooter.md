@@ -1,5 +1,5 @@
 ---
-title: Perl ResetLooter
+title: ResetLooter
 weight: 1
 hidden: true
 menuTitle: ResetLooter

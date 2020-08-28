@@ -1,5 +1,5 @@
 ---
-title: Perl ClearFeignMemory
+title: ClearFeignMemory
 weight: 1
 hidden: true
 menuTitle: ClearFeignMemory

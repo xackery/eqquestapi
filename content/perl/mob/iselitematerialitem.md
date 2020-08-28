@@ -1,5 +1,5 @@
 ---
-title: Perl IsEliteMaterialItem
+title: IsEliteMaterialItem
 weight: 1
 hidden: true
 menuTitle: IsEliteMaterialItem

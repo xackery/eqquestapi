@@ -1,5 +1,5 @@
 ---
-title: Perl CanHaveSkill
+title: CanHaveSkill
 weight: 1
 hidden: true
 menuTitle: CanHaveSkill

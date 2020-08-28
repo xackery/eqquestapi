@@ -1,5 +1,5 @@
 ---
-title: Perl GetWornItem
+title: GetWornItem
 weight: 1
 hidden: true
 menuTitle: GetWornItem

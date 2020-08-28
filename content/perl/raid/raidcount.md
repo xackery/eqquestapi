@@ -1,5 +1,5 @@
 ---
-title: Perl RaidCount
+title: RaidCount
 weight: 1
 hidden: true
 menuTitle: RaidCount

@@ -1,5 +1,5 @@
 ---
-title: Perl SetBecomeNPC
+title: SetBecomeNPC
 weight: 1
 hidden: true
 menuTitle: SetBecomeNPC

@@ -1,5 +1,5 @@
 ---
-title: Perl SetDueling
+title: SetDueling
 weight: 1
 hidden: true
 menuTitle: SetDueling

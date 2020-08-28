@@ -1,5 +1,5 @@
 ---
-title: Perl repopzone
+title: repopzone
 weight: 1
 hidden: true
 menuTitle: repopzone

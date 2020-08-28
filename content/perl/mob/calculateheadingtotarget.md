@@ -1,5 +1,5 @@
 ---
-title: Perl CalculateHeadingToTarget
+title: CalculateHeadingToTarget
 weight: 1
 hidden: true
 menuTitle: CalculateHeadingToTarget

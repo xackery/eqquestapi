@@ -1,5 +1,5 @@
 ---
-title: Perl Clear
+title: Clear
 weight: 1
 hidden: true
 menuTitle: Clear

@@ -1,5 +1,5 @@
 ---
-title: Perl SetTint
+title: SetTint
 weight: 1
 hidden: true
 menuTitle: SetTint

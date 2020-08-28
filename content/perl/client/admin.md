@@ -1,5 +1,5 @@
 ---
-title: Perl Admin
+title: Admin
 weight: 1
 hidden: true
 menuTitle: Admin

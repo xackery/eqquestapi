@@ -1,5 +1,5 @@
 ---
-title: Perl disablerecipe
+title: disablerecipe
 weight: 1
 hidden: true
 menuTitle: disablerecipe

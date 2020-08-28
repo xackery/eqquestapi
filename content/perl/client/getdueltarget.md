@@ -1,5 +1,5 @@
 ---
-title: Perl GetDuelTarget
+title: GetDuelTarget
 weight: 1
 hidden: true
 menuTitle: GetDuelTarget

@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveFromFeignMemory
+title: RemoveFromFeignMemory
 weight: 1
 hidden: true
 menuTitle: RemoveFromFeignMemory

@@ -1,5 +1,5 @@
 ---
-title: Perl Summon
+title: Summon
 weight: 1
 hidden: true
 menuTitle: Summon

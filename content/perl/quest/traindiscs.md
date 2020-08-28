@@ -1,5 +1,5 @@
 ---
-title: Perl traindiscs
+title: traindiscs
 weight: 1
 hidden: true
 menuTitle: traindiscs

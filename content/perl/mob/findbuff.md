@@ -1,5 +1,5 @@
 ---
-title: Perl FindBuff
+title: FindBuff
 weight: 1
 hidden: true
 menuTitle: FindBuff

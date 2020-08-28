@@ -1,5 +1,5 @@
 ---
-title: Perl GuildID
+title: GuildID
 weight: 1
 hidden: true
 menuTitle: GuildID

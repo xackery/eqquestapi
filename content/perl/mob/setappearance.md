@@ -1,5 +1,5 @@
 ---
-title: Perl SetAppearance
+title: SetAppearance
 weight: 1
 hidden: true
 menuTitle: SetAppearance

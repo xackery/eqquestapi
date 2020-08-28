@@ -1,5 +1,5 @@
 ---
-title: Perl GetAAPercent
+title: GetAAPercent
 weight: 1
 hidden: true
 menuTitle: GetAAPercent

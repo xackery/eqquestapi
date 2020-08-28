@@ -1,5 +1,5 @@
 ---
-title: Perl GetDR
+title: GetDR
 weight: 1
 hidden: true
 menuTitle: GetDR

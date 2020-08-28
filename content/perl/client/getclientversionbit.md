@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientVersionBit
+title: GetClientVersionBit
 weight: 1
 hidden: true
 menuTitle: GetClientVersionBit

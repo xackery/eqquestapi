@@ -1,5 +1,5 @@
 ---
-title: Perl GetSpentAA
+title: GetSpentAA
 weight: 1
 hidden: true
 menuTitle: GetSpentAA

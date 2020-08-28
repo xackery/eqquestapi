@@ -1,5 +1,5 @@
 ---
-title: Perl TrainDiscBySpellID
+title: TrainDiscBySpellID
 weight: 1
 hidden: true
 menuTitle: TrainDiscBySpellID

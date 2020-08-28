@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidefailtask
+title: worldwidefailtask
 weight: 1
 hidden: true
 menuTitle: worldwidefailtask

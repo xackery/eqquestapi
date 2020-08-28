@@ -1,5 +1,6 @@
 ---
-title: Perl AccountID
+title: AccountID
+searchtitle: Client AccountID
 weight: 1
 hidden: true
 menuTitle: AccountID

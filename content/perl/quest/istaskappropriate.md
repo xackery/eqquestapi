@@ -1,5 +1,5 @@
 ---
-title: Perl istaskappropriate
+title: istaskappropriate
 weight: 1
 hidden: true
 menuTitle: istaskappropriate

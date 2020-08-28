@@ -1,5 +1,5 @@
 ---
-title: Perl GetCorpseItemAt
+title: GetCorpseItemAt
 weight: 1
 hidden: true
 menuTitle: GetCorpseItemAt

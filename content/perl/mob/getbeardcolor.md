@@ -1,5 +1,5 @@
 ---
-title: Perl GetBeardColor
+title: GetBeardColor
 weight: 1
 hidden: true
 menuTitle: GetBeardColor

@@ -1,5 +1,5 @@
 ---
-title: Perl spawn2
+title: spawn2
 weight: 1
 hidden: true
 menuTitle: spawn2

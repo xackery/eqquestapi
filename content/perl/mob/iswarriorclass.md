@@ -1,5 +1,5 @@
 ---
-title: Perl IsWarriorClass
+title: IsWarriorClass
 weight: 1
 hidden: true
 menuTitle: IsWarriorClass

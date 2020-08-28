@@ -1,5 +1,5 @@
 ---
-title: Perl SetBaseGender
+title: SetBaseGender
 weight: 1
 hidden: true
 menuTitle: SetBaseGender

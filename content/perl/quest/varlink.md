@@ -1,5 +1,5 @@
 ---
-title: Perl varlink
+title: varlink
 weight: 1
 hidden: true
 menuTitle: varlink

@@ -1,5 +1,5 @@
 ---
-title: Perl AddEXP
+title: AddEXP
 weight: 1
 hidden: true
 menuTitle: AddEXP

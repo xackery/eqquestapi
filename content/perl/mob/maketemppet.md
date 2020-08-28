@@ -1,5 +1,5 @@
 ---
-title: Perl MakeTempPet
+title: MakeTempPet
 weight: 1
 hidden: true
 menuTitle: MakeTempPet

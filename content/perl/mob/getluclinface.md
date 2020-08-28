@@ -1,5 +1,5 @@
 ---
-title: Perl GetLuclinFace
+title: GetLuclinFace
 weight: 1
 hidden: true
 menuTitle: GetLuclinFace

@@ -1,5 +1,5 @@
 ---
-title: Perl SetFeigned
+title: SetFeigned
 weight: 1
 hidden: true
 menuTitle: SetFeigned

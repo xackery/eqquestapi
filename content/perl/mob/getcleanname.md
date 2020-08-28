@@ -1,5 +1,5 @@
 ---
-title: Perl GetCleanName
+title: GetCleanName
 weight: 1
 hidden: true
 menuTitle: GetCleanName

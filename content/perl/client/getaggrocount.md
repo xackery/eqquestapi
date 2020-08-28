@@ -1,5 +1,5 @@
 ---
-title: Perl GetAggroCount
+title: GetAggroCount
 weight: 1
 hidden: true
 menuTitle: GetAggroCount

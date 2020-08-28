@@ -1,5 +1,5 @@
 ---
-title: Perl DoArcheryAttackDmg
+title: DoArcheryAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoArcheryAttackDmg

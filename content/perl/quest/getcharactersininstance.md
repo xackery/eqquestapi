@@ -1,5 +1,5 @@
 ---
-title: Perl GetCharactersInInstance
+title: GetCharactersInInstance
 weight: 1
 hidden: true
 menuTitle: GetCharactersInInstance

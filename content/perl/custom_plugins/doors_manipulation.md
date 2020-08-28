@@ -1,5 +1,5 @@
 ---
-title: Perl Doors Manipulation
+title: Doors Manipulation
 weight: 1
 hidden: true
 menuTitle: Doors Manipulation

@@ -1,5 +1,5 @@
 ---
-title: Perl ExpeditionMessage
+title: ExpeditionMessage
 weight: 1
 hidden: true
 menuTitle: ExpeditionMessage

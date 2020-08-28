@@ -1,5 +1,5 @@
 ---
-title: Perl SetSize
+title: SetSize
 weight: 1
 hidden: true
 menuTitle: SetSize

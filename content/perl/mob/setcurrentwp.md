@@ -1,5 +1,5 @@
 ---
-title: Perl SetCurrentWP
+title: SetCurrentWP
 weight: 1
 hidden: true
 menuTitle: SetCurrentWP

@@ -1,5 +1,5 @@
 ---
-title: Perl GetPrimaryFaction
+title: GetPrimaryFaction
 weight: 1
 hidden: true
 menuTitle: GetPrimaryFaction

@@ -1,5 +1,5 @@
 ---
-title: Perl GetCHA
+title: GetCHA
 weight: 1
 hidden: true
 menuTitle: GetCHA

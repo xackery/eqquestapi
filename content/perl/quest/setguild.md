@@ -1,5 +1,5 @@
 ---
-title: Perl setguild
+title: setguild
 weight: 1
 hidden: true
 menuTitle: setguild

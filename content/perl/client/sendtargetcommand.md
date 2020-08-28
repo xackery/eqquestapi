@@ -1,5 +1,5 @@
 ---
-title: Perl SendTargetCommand
+title: SendTargetCommand
 weight: 1
 hidden: true
 menuTitle: SendTargetCommand

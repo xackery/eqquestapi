@@ -1,5 +1,5 @@
 ---
-title: Perl GetAAByAAID
+title: GetAAByAAID
 weight: 1
 hidden: true
 menuTitle: GetAAByAAID

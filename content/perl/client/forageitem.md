@@ -1,5 +1,5 @@
 ---
-title: Perl ForageItem
+title: ForageItem
 weight: 1
 hidden: true
 menuTitle: ForageItem

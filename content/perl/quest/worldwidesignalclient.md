@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidesignalclient
+title: worldwidesignalclient
 weight: 1
 hidden: true
 menuTitle: worldwidesignalclient

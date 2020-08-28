@@ -1,5 +1,5 @@
 ---
-title: Perl GetMinDMG
+title: GetMinDMG
 weight: 1
 hidden: true
 menuTitle: GetMinDMG

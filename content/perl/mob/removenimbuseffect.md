@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveNimbusEffect
+title: RemoveNimbusEffect
 weight: 1
 hidden: true
 menuTitle: RemoveNimbusEffect

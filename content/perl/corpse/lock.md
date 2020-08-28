@@ -1,5 +1,5 @@
 ---
-title: Perl Lock
+title: Lock
 weight: 1
 hidden: true
 menuTitle: Lock

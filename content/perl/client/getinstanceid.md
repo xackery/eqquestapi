@@ -1,5 +1,5 @@
 ---
-title: Perl GetInstanceID
+title: GetInstanceID
 weight: 1
 hidden: true
 menuTitle: GetInstanceID

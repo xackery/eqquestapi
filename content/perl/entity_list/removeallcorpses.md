@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveAllCorpses
+title: RemoveAllCorpses
 weight: 1
 hidden: true
 menuTitle: RemoveAllCorpses

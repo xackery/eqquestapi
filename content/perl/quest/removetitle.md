@@ -1,5 +1,5 @@
 ---
-title: Perl removetitle
+title: removetitle
 weight: 1
 hidden: true
 menuTitle: removetitle

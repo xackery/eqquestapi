@@ -1,5 +1,5 @@
 ---
-title: Perl SetSecSkill
+title: SetSecSkill
 weight: 1
 hidden: true
 menuTitle: SetSecSkill

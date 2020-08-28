@@ -1,5 +1,5 @@
 ---
-title: Perl SetExtraHaste
+title: SetExtraHaste
 weight: 1
 hidden: true
 menuTitle: SetExtraHaste

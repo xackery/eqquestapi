@@ -1,5 +1,5 @@
 ---
-title: Perl factionvalue
+title: factionvalue
 weight: 1
 hidden: true
 menuTitle: factionvalue

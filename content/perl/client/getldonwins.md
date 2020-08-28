@@ -1,5 +1,5 @@
 ---
-title: Perl GetLDoNWins
+title: GetLDoNWins
 weight: 1
 hidden: true
 menuTitle: GetLDoNWins

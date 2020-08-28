@@ -1,5 +1,5 @@
 ---
-title: Perl permarace
+title: permarace
 weight: 1
 hidden: true
 menuTitle: permarace

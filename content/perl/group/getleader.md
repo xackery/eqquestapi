@@ -1,5 +1,5 @@
 ---
-title: Perl GetLeader
+title: GetLeader
 weight: 1
 hidden: true
 menuTitle: GetLeader

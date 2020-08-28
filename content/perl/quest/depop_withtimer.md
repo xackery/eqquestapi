@@ -1,5 +1,5 @@
 ---
-title: Perl depop_withtimer
+title: depop_withtimer
 weight: 1
 hidden: true
 menuTitle: depop_withtimer

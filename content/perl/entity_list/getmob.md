@@ -1,5 +1,5 @@
 ---
-title: Perl GetMob
+title: GetMob
 weight: 1
 hidden: true
 menuTitle: GetMob

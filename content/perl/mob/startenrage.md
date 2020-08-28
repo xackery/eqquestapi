@@ -1,5 +1,5 @@
 ---
-title: Perl StartEnrage
+title: StartEnrage
 weight: 1
 hidden: true
 menuTitle: StartEnrage

@@ -1,5 +1,5 @@
 ---
-title: Perl IsEmpty
+title: IsEmpty
 weight: 1
 hidden: true
 menuTitle: IsEmpty

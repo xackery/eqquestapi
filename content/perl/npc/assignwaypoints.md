@@ -1,5 +1,5 @@
 ---
-title: Perl AssignWaypoints
+title: AssignWaypoints
 weight: 1
 hidden: true
 menuTitle: AssignWaypoints

@@ -1,5 +1,5 @@
 ---
-title: Perl CombatRange
+title: CombatRange
 weight: 1
 hidden: true
 menuTitle: CombatRange

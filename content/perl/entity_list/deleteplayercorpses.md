@@ -1,5 +1,5 @@
 ---
-title: Perl DeletePlayerCorpses
+title: DeletePlayerCorpses
 weight: 1
 hidden: true
 menuTitle: DeletePlayerCorpses

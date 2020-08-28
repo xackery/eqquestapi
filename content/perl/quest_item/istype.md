@@ -1,5 +1,5 @@
 ---
-title: Perl IsType
+title: IsType
 weight: 1
 hidden: true
 menuTitle: IsType

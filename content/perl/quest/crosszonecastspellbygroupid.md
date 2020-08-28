@@ -1,5 +1,5 @@
 ---
-title: Perl crosszonecastspellbygroupid
+title: crosszonecastspellbygroupid
 weight: 1
 hidden: true
 menuTitle: crosszonecastspellbygroupid

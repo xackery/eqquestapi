@@ -1,5 +1,5 @@
 ---
-title: Perl CastRezz
+title: CastRezz
 weight: 1
 hidden: true
 menuTitle: CastRezz

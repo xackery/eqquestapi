@@ -1,5 +1,5 @@
 ---
-title: Perl GetHelmTexture
+title: GetHelmTexture
 weight: 1
 hidden: true
 menuTitle: GetHelmTexture

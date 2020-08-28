@@ -1,5 +1,5 @@
 ---
-title: Perl SendToFixZ
+title: SendToFixZ
 weight: 1
 hidden: true
 menuTitle: SendToFixZ

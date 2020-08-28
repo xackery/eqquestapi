@@ -1,5 +1,5 @@
 ---
-title: Perl MerchantCountItem
+title: MerchantCountItem
 weight: 1
 hidden: true
 menuTitle: MerchantCountItem

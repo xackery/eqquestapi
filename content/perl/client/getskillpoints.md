@@ -1,5 +1,5 @@
 ---
-title: Perl GetSkillPoints
+title: GetSkillPoints
 weight: 1
 hidden: true
 menuTitle: GetSkillPoints

@@ -1,5 +1,5 @@
 ---
-title: Perl IncreaseSkill
+title: IncreaseSkill
 weight: 1
 hidden: true
 menuTitle: IncreaseSkill

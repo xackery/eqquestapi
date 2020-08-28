@@ -1,5 +1,5 @@
 ---
-title: Perl GetCharges
+title: GetCharges
 weight: 1
 hidden: true
 menuTitle: GetCharges

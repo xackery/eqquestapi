@@ -1,5 +1,5 @@
 ---
-title: Perl GetGroupPoints
+title: GetGroupPoints
 weight: 1
 hidden: true
 menuTitle: GetGroupPoints

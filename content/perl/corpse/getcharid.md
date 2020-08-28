@@ -1,5 +1,5 @@
 ---
-title: Perl GetCharID
+title: GetCharID
 weight: 1
 hidden: true
 menuTitle: GetCharID

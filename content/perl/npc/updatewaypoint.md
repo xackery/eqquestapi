@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateWaypoint
+title: UpdateWaypoint
 weight: 1
 hidden: true
 menuTitle: UpdateWaypoint

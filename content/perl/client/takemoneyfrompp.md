@@ -1,5 +1,5 @@
 ---
-title: Perl TakeMoneyFromPP
+title: TakeMoneyFromPP
 weight: 1
 hidden: true
 menuTitle: TakeMoneyFromPP

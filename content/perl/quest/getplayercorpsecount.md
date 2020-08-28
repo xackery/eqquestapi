@@ -1,5 +1,5 @@
 ---
-title: Perl getplayercorpsecount
+title: getplayercorpsecount
 weight: 1
 hidden: true
 menuTitle: getplayercorpsecount

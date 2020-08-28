@@ -1,5 +1,5 @@
 ---
-title: Perl GetRunAnimSpeed
+title: GetRunAnimSpeed
 weight: 1
 hidden: true
 menuTitle: GetRunAnimSpeed

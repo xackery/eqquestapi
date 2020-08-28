@@ -1,5 +1,5 @@
 ---
-title: Perl MerchantCloseShop
+title: MerchantCloseShop
 weight: 1
 hidden: true
 menuTitle: MerchantCloseShop

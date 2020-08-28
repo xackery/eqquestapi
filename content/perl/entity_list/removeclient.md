@@ -1,5 +1,5 @@
 ---
-title: Perl RemoveClient
+title: RemoveClient
 weight: 1
 hidden: true
 menuTitle: RemoveClient

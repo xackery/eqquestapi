@@ -1,5 +1,5 @@
 ---
-title: Perl CanThisClassDoubleAttack
+title: CanThisClassDoubleAttack
 weight: 1
 hidden: true
 menuTitle: CanThisClassDoubleAttack

@@ -1,5 +1,5 @@
 ---
-title: Perl SetGold
+title: SetGold
 weight: 1
 hidden: true
 menuTitle: SetGold

@@ -1,5 +1,5 @@
 ---
-title: Perl changedeity
+title: changedeity
 weight: 1
 hidden: true
 menuTitle: changedeity

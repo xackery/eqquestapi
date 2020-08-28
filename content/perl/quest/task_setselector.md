@@ -1,5 +1,5 @@
 ---
-title: Perl task_setselector
+title: task_setselector
 weight: 1
 hidden: true
 menuTitle: task_setselector

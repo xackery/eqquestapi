@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCFactionID
+title: GetNPCFactionID
 weight: 1
 hidden: true
 menuTitle: GetNPCFactionID

@@ -1,5 +1,5 @@
 ---
-title: Perl ResumeWandering
+title: ResumeWandering
 weight: 1
 hidden: true
 menuTitle: ResumeWandering

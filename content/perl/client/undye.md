@@ -1,5 +1,5 @@
 ---
-title: Perl Undye
+title: Undye
 weight: 1
 hidden: true
 menuTitle: Undye

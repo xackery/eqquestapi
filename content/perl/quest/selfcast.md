@@ -1,5 +1,5 @@
 ---
-title: Perl selfcast
+title: selfcast
 weight: 1
 hidden: true
 menuTitle: selfcast

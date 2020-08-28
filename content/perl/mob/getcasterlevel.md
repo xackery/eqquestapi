@@ -1,5 +1,5 @@
 ---
-title: Perl GetCasterLevel
+title: GetCasterLevel
 weight: 1
 hidden: true
 menuTitle: GetCasterLevel

@@ -1,5 +1,5 @@
 ---
-title: Perl GetDiscSlotBySpellID
+title: GetDiscSlotBySpellID
 weight: 1
 hidden: true
 menuTitle: GetDiscSlotBySpellID

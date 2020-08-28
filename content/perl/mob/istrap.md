@@ -1,5 +1,5 @@
 ---
-title: Perl IsTrap
+title: IsTrap
 weight: 1
 hidden: true
 menuTitle: IsTrap

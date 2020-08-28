@@ -1,5 +1,5 @@
 ---
-title: Perl GetDeity
+title: GetDeity
 weight: 1
 hidden: true
 menuTitle: GetDeity

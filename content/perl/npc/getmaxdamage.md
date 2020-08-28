@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxDamage
+title: GetMaxDamage
 weight: 1
 hidden: true
 menuTitle: GetMaxDamage

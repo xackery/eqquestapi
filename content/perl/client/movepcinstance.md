@@ -1,5 +1,5 @@
 ---
-title: Perl MovePCInstance
+title: MovePCInstance
 weight: 1
 hidden: true
 menuTitle: MovePCInstance

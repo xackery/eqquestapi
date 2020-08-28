@@ -1,5 +1,5 @@
 ---
-title: Perl setanim
+title: setanim
 weight: 1
 hidden: true
 menuTitle: setanim

@@ -1,5 +1,5 @@
 ---
-title: Perl HasShieldEquiped
+title: HasShieldEquiped
 weight: 1
 hidden: true
 menuTitle: HasShieldEquiped

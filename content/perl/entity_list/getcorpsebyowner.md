@@ -1,5 +1,5 @@
 ---
-title: Perl GetCorpseByOwner
+title: GetCorpseByOwner
 weight: 1
 hidden: true
 menuTitle: GetCorpseByOwner

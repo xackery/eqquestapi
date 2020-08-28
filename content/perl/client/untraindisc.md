@@ -1,5 +1,5 @@
 ---
-title: Perl UntrainDisc
+title: UntrainDisc
 weight: 1
 hidden: true
 menuTitle: UntrainDisc

@@ -1,5 +1,5 @@
 ---
-title: Perl GetDamageAmount
+title: GetDamageAmount
 weight: 1
 hidden: true
 menuTitle: GetDamageAmount

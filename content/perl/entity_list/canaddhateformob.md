@@ -1,5 +1,5 @@
 ---
-title: Perl CanAddHateForMob
+title: CanAddHateForMob
 weight: 1
 hidden: true
 menuTitle: CanAddHateForMob

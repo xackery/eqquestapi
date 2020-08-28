@@ -1,5 +1,5 @@
 ---
-title: Perl permaclass
+title: permaclass
 weight: 1
 hidden: true
 menuTitle: permaclass

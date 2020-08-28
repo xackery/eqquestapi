@@ -1,5 +1,5 @@
 ---
-title: Perl SetPrimaryWeaponOrnamentation
+title: SetPrimaryWeaponOrnamentation
 weight: 1
 hidden: true
 menuTitle: SetPrimaryWeaponOrnamentation

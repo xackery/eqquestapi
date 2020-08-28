@@ -1,5 +1,5 @@
 ---
-title: Perl GetSwarmOwner
+title: GetSwarmOwner
 weight: 1
 hidden: true
 menuTitle: GetSwarmOwner

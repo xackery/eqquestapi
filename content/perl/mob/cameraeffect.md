@@ -1,5 +1,5 @@
 ---
-title: Perl CameraEffect
+title: CameraEffect
 weight: 1
 hidden: true
 menuTitle: CameraEffect

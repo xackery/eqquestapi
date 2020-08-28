@@ -1,5 +1,5 @@
 ---
-title: Perl SeeImprovedHide
+title: SeeImprovedHide
 weight: 1
 hidden: true
 menuTitle: SeeImprovedHide

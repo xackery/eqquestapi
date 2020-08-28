@@ -1,5 +1,5 @@
 ---
-title: Perl AddRangedProc
+title: AddRangedProc
 weight: 1
 hidden: true
 menuTitle: AddRangedProc

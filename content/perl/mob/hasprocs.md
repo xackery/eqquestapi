@@ -1,5 +1,5 @@
 ---
-title: Perl HasProcs
+title: HasProcs
 weight: 1
 hidden: true
 menuTitle: HasProcs

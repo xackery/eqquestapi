@@ -1,5 +1,5 @@
 ---
-title: Perl SendOPTranslocateConfirm
+title: SendOPTranslocateConfirm
 weight: 1
 hidden: true
 menuTitle: SendOPTranslocateConfirm

@@ -1,5 +1,5 @@
 ---
-title: Perl MessageStatus
+title: MessageStatus
 weight: 1
 hidden: true
 menuTitle: MessageStatus

@@ -1,5 +1,5 @@
 ---
-title: Perl CheckLoS
+title: CheckLoS
 weight: 1
 hidden: true
 menuTitle: CheckLoS

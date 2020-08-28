@@ -1,5 +1,5 @@
 ---
-title: Perl CanMobLoot
+title: CanMobLoot
 weight: 1
 hidden: true
 menuTitle: CanMobLoot

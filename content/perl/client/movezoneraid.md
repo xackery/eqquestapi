@@ -1,5 +1,5 @@
 ---
-title: Perl MoveZoneRaid
+title: MoveZoneRaid
 weight: 1
 hidden: true
 menuTitle: MoveZoneRaid

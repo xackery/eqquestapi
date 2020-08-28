@@ -1,5 +1,5 @@
 ---
-title: Perl IsRaidMember
+title: IsRaidMember
 weight: 1
 hidden: true
 menuTitle: IsRaidMember

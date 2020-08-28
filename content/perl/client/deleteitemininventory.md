@@ -1,5 +1,5 @@
 ---
-title: Perl DeleteItemInInventory
+title: DeleteItemInInventory
 weight: 1
 hidden: true
 menuTitle: DeleteItemInInventory

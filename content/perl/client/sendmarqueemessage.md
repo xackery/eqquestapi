@@ -1,5 +1,5 @@
 ---
-title: Perl SendMarqueeMessage
+title: SendMarqueeMessage
 weight: 1
 hidden: true
 menuTitle: SendMarqueeMessage

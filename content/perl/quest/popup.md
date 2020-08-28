@@ -1,5 +1,5 @@
 ---
-title: Perl popup
+title: popup
 weight: 1
 hidden: true
 menuTitle: popup

@@ -1,5 +1,5 @@
 ---
-title: Perl Mesmerize
+title: Mesmerize
 weight: 1
 hidden: true
 menuTitle: Mesmerize

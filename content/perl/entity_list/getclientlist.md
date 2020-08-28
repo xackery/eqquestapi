@@ -1,5 +1,5 @@
 ---
-title: Perl GetClientList
+title: GetClientList
 weight: 1
 hidden: true
 menuTitle: GetClientList

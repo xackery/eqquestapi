@@ -1,5 +1,5 @@
 ---
-title: Perl GroupCount
+title: GroupCount
 weight: 1
 hidden: true
 menuTitle: GroupCount

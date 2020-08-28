@@ -1,5 +1,5 @@
 ---
-title: Perl unique_spawn
+title: unique_spawn
 weight: 1
 hidden: true
 menuTitle: unique_spawn

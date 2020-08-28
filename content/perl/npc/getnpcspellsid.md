@@ -1,5 +1,5 @@
 ---
-title: Perl GetNPCSpellsID
+title: GetNPCSpellsID
 weight: 1
 hidden: true
 menuTitle: GetNPCSpellsID

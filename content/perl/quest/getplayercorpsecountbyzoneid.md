@@ -1,5 +1,5 @@
 ---
-title: Perl getplayercorpsecountbyzoneid
+title: getplayercorpsecountbyzoneid
 weight: 1
 hidden: true
 menuTitle: getplayercorpsecountbyzoneid

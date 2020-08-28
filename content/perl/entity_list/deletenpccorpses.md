@@ -1,5 +1,5 @@
 ---
-title: Perl DeleteNPCCorpses
+title: DeleteNPCCorpses
 weight: 1
 hidden: true
 menuTitle: DeleteNPCCorpses

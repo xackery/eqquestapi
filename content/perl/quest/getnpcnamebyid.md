@@ -1,5 +1,5 @@
 ---
-title: Perl getnpcnamebyid
+title: getnpcnamebyid
 weight: 1
 hidden: true
 menuTitle: getnpcnamebyid

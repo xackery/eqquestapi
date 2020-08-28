@@ -1,5 +1,5 @@
 ---
-title: Perl GetSize
+title: GetSize
 weight: 1
 hidden: true
 menuTitle: GetSize

@@ -1,5 +1,5 @@
 ---
-title: Perl IsLocked
+title: IsLocked
 weight: 1
 hidden: true
 menuTitle: IsLocked

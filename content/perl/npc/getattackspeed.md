@@ -1,5 +1,5 @@
 ---
-title: Perl GetAttackSpeed
+title: GetAttackSpeed
 weight: 1
 hidden: true
 menuTitle: GetAttackSpeed

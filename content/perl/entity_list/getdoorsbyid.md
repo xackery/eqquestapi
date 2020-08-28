@@ -1,5 +1,5 @@
 ---
-title: Perl GetDoorsByID
+title: GetDoorsByID
 weight: 1
 hidden: true
 menuTitle: GetDoorsByID

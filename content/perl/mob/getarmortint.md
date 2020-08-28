@@ -1,5 +1,5 @@
 ---
-title: Perl GetArmorTint
+title: GetArmorTint
 weight: 1
 hidden: true
 menuTitle: GetArmorTint

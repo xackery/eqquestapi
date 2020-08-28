@@ -1,5 +1,5 @@
 ---
-title: Perl GetBindZoneID
+title: GetBindZoneID
 weight: 1
 hidden: true
 menuTitle: GetBindZoneID

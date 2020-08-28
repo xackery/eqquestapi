@@ -1,5 +1,5 @@
 ---
-title: Perl AddMoneyToPP
+title: AddMoneyToPP
 weight: 1
 hidden: true
 menuTitle: AddMoneyToPP

@@ -1,5 +1,5 @@
 ---
-title: Perl DontDotMeBefore
+title: DontDotMeBefore
 weight: 1
 hidden: true
 menuTitle: DontDotMeBefore

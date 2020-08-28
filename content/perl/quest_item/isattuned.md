@@ -1,5 +1,5 @@
 ---
-title: Perl IsAttuned
+title: IsAttuned
 weight: 1
 hidden: true
 menuTitle: IsAttuned

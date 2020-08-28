@@ -1,5 +1,5 @@
 ---
-title: Perl ValidMobByNpcTypeID
+title: ValidMobByNpcTypeID
 weight: 1
 hidden: true
 menuTitle: ValidMobByNpcTypeID

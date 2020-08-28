@@ -1,5 +1,5 @@
 ---
-title: Perl creategroundobject
+title: creategroundobject
 weight: 1
 hidden: true
 menuTitle: creategroundobject

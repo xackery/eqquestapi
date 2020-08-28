@@ -1,5 +1,5 @@
 ---
-title: Perl ClearClientPetitionQueue
+title: ClearClientPetitionQueue
 weight: 1
 hidden: true
 menuTitle: ClearClientPetitionQueue

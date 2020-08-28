@@ -1,5 +1,5 @@
 ---
-title: Perl GetRaidByClient
+title: GetRaidByClient
 weight: 1
 hidden: true
 menuTitle: GetRaidByClient

@@ -1,5 +1,5 @@
 ---
-title: Perl qs_send_query
+title: qs_send_query
 weight: 1
 hidden: true
 menuTitle: qs_send_query

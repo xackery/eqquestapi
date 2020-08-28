@@ -1,5 +1,5 @@
 ---
-title: Perl worldwidemove
+title: worldwidemove
 weight: 1
 hidden: true
 menuTitle: worldwidemove

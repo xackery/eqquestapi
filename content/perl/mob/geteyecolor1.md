@@ -1,5 +1,5 @@
 ---
-title: Perl GetEyeColor1
+title: GetEyeColor1
 weight: 1
 hidden: true
 menuTitle: GetEyeColor1

@@ -1,5 +1,5 @@
 ---
-title: Perl ClearFeignAggro
+title: ClearFeignAggro
 weight: 1
 hidden: true
 menuTitle: ClearFeignAggro

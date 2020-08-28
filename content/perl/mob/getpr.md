@@ -1,5 +1,5 @@
 ---
-title: Perl GetPR
+title: GetPR
 weight: 1
 hidden: true
 menuTitle: GetPR

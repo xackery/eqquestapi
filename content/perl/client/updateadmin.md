@@ -1,5 +1,5 @@
 ---
-title: Perl UpdateAdmin
+title: UpdateAdmin
 weight: 1
 hidden: true
 menuTitle: UpdateAdmin

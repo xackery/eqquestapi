@@ -1,5 +1,5 @@
 ---
-title: Perl getcharidbyname
+title: getcharidbyname
 weight: 1
 hidden: true
 menuTitle: getcharidbyname

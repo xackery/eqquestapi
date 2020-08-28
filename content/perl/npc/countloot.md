@@ -1,5 +1,5 @@
 ---
-title: Perl CountLoot
+title: CountLoot
 weight: 1
 hidden: true
 menuTitle: CountLoot

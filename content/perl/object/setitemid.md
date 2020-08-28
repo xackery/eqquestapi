@@ -1,5 +1,5 @@
 ---
-title: Perl SetItemID
+title: SetItemID
 weight: 1
 hidden: true
 menuTitle: SetItemID

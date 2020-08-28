@@ -1,5 +1,5 @@
 ---
-title: Perl SaveGuardSpot
+title: SaveGuardSpot
 weight: 1
 hidden: true
 menuTitle: SaveGuardSpot

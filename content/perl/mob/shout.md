@@ -1,5 +1,5 @@
 ---
-title: Perl Shout
+title: Shout
 weight: 1
 hidden: true
 menuTitle: Shout

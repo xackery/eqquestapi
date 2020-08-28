@@ -1,5 +1,5 @@
 ---
-title: Perl IncreaseLanguageSkill
+title: IncreaseLanguageSkill
 weight: 1
 hidden: true
 menuTitle: IncreaseLanguageSkill

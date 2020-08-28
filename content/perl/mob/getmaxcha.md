@@ -1,5 +1,5 @@
 ---
-title: Perl GetMaxCHA
+title: GetMaxCHA
 weight: 1
 hidden: true
 menuTitle: GetMaxCHA

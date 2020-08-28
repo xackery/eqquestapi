@@ -1,5 +1,5 @@
 ---
-title: Perl IsBecomeNPC
+title: IsBecomeNPC
 weight: 1
 hidden: true
 menuTitle: IsBecomeNPC

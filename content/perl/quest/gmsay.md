@@ -1,5 +1,5 @@
 ---
-title: Perl gmsay
+title: gmsay
 weight: 1
 hidden: true
 menuTitle: gmsay

@@ -1,5 +1,5 @@
 ---
-title: Perl follow
+title: follow
 weight: 1
 hidden: true
 menuTitle: follow

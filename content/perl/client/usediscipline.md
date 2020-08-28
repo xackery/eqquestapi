@@ -1,5 +1,5 @@
 ---
-title: Perl UseDiscipline
+title: UseDiscipline
 weight: 1
 hidden: true
 menuTitle: UseDiscipline

@@ -1,5 +1,5 @@
 ---
-title: Perl SetPetOrder
+title: SetPetOrder
 weight: 1
 hidden: true
 menuTitle: SetPetOrder

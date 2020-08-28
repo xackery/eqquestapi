@@ -1,5 +1,5 @@
 ---
-title: Perl GetTimeSeconds
+title: GetTimeSeconds
 weight: 1
 hidden: true
 menuTitle: GetTimeSeconds

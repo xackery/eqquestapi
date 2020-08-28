@@ -1,5 +1,5 @@
 ---
-title: Perl GetHorseId
+title: GetHorseId
 weight: 1
 hidden: true
 menuTitle: GetHorseId

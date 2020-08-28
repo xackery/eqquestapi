@@ -1,5 +1,5 @@
 ---
-title: Perl ResistSpell
+title: ResistSpell
 weight: 1
 hidden: true
 menuTitle: ResistSpell

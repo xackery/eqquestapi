@@ -1,5 +1,5 @@
 ---
-title: Perl SetX
+title: SetX
 weight: 1
 hidden: true
 menuTitle: SetX

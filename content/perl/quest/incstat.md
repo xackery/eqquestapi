@@ -1,5 +1,5 @@
 ---
-title: Perl incstat
+title: incstat
 weight: 1
 hidden: true
 menuTitle: incstat

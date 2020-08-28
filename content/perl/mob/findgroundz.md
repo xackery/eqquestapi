@@ -1,5 +1,5 @@
 ---
-title: Perl FindGroundZ
+title: FindGroundZ
 weight: 1
 hidden: true
 menuTitle: FindGroundZ

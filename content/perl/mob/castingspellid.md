@@ -1,5 +1,5 @@
 ---
-title: Perl CastingSpellID
+title: CastingSpellID
 weight: 1
 hidden: true
 menuTitle: CastingSpellID

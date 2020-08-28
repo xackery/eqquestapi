@@ -1,5 +1,5 @@
 ---
-title: Perl pvp
+title: pvp
 weight: 1
 hidden: true
 menuTitle: pvp

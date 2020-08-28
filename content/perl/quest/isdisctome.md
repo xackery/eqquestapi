@@ -1,5 +1,5 @@
 ---
-title: Perl isdisctome
+title: isdisctome
 weight: 1
 hidden: true
 menuTitle: isdisctome

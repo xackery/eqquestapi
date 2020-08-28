@@ -1,5 +1,5 @@
 ---
-title: Perl GetBaseRace
+title: GetBaseRace
 weight: 1
 hidden: true
 menuTitle: GetBaseRace

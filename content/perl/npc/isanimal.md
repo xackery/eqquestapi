@@ -1,5 +1,5 @@
 ---
-title: Perl IsAnimal
+title: IsAnimal
 weight: 1
 hidden: true
 menuTitle: IsAnimal

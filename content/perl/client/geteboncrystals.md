@@ -1,5 +1,5 @@
 ---
-title: Perl GetEbonCrystals
+title: GetEbonCrystals
 weight: 1
 hidden: true
 menuTitle: GetEbonCrystals
