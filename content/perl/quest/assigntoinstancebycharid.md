@@ -1,8 +1,10 @@
 ---
 title: AssignToInstanceByCharID
+searchTitle: Perl Quest AssignToInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: AssignToInstanceByCharID
+description: Assigns a single player to an instance via character ID
 ---
 
 #### AssignToInstanceByCharID

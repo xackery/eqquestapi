@@ -12,7 +12,7 @@ disqusShortname = "eqcodex"
 [params]
   editURL = "https://github.com/xackery/eqquestapi/edit/master/content/"
   description = "Quest API"
-  author = "Shin Noir"
+  author = "EQEmu Developer Community"
   showVisitedLinks = false
   disableBreadcrumb = false
   disableNextPrev = true
