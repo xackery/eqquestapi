@@ -426,13 +426,14 @@ func createStub(path string, language string, class string, funcName string, syn
 		return fmt.Errorf("create: %w", err)
 	}
 	funcPage := fmt.Sprintf(`---
-title: %s %s %s
+title: %s
+searchTitle: %s %s %s
 weight: 1
 hidden: true
 menuTitle: %s
 ---
 ## %s
-`, strings.Title(language), class, funcName, funcName, funcName)
+`, funcName, strings.Title(language), class, funcName, funcName, funcName)
 	funcPage += fmt.Sprintf("```%s\n%s\n```", strings.ToLower(language), syntax)
 	f.WriteString(funcPage)
 	f.Close()
