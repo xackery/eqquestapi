@@ -1,5 +1,6 @@
 ---
 title: AssignRaidToInstance
+searchTitle: Perl Quest AssignRaidToInstance
 weight: 1
 hidden: true
 menuTitle: AssignRaidToInstance

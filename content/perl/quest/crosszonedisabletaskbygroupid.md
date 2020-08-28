@@ -1,5 +1,6 @@
 ---
 title: crosszonedisabletaskbygroupid
+searchTitle: Perl Quest CrossZoneDisableTaskByGroupID
 weight: 1
 hidden: true
 menuTitle: crosszonedisabletaskbygroupid

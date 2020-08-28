@@ -1,5 +1,6 @@
 ---
 title: crosszonefailtaskbyraidid
+searchTitle: Perl Quest CrossZoneFailTaskByRaidID
 weight: 1
 hidden: true
 menuTitle: crosszonefailtaskbyraidid

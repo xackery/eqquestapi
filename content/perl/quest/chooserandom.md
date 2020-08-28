@@ -1,5 +1,6 @@
 ---
 title: ChooseRandom
+searchTitle: Perl Quest ChooseRandom
 weight: 1
 hidden: true
 menuTitle: ChooseRandom

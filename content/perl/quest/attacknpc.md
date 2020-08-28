@@ -1,5 +1,6 @@
 ---
 title: attacknpc
+searchTitle: Perl Quest AttackNPC
 weight: 1
 hidden: true
 menuTitle: attacknpc

@@ -1,5 +1,6 @@
 ---
 title: crosszonecastspellbyguildid
+searchTitle: Perl Quest CrossZoneCastSpellByGuildID
 weight: 1
 hidden: true
 menuTitle: crosszonecastspellbyguildid

@@ -1,5 +1,6 @@
 ---
 title: buryplayercorpse
+searchTitle: Perl Quest BuryPlayerCorpse
 weight: 1
 hidden: true
 menuTitle: buryplayercorpse

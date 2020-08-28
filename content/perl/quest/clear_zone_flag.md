@@ -1,5 +1,6 @@
 ---
 title: clear_zone_flag
+searchTitle: Perl Quest Clear Zone Flag
 weight: 1
 hidden: true
 menuTitle: clear_zone_flag

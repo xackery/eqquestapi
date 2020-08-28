@@ -1,5 +1,6 @@
 ---
 title: addldonpoints
+searchTitle: Perl Quest AddLDONPoints
 weight: 1
 hidden: true
 menuTitle: addldonpoints

@@ -1,5 +1,6 @@
 ---
 title: countitem
+searchTitle: Perl Quest CountItem
 weight: 1
 hidden: true
 menuTitle: countitem

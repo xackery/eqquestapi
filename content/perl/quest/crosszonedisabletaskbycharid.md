@@ -1,5 +1,6 @@
 ---
 title: crosszonedisabletaskbycharid
+searchTitle: Perl Quest CrossZoneDisableTaskByCharID
 weight: 1
 hidden: true
 menuTitle: crosszonedisabletaskbycharid

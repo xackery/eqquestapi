@@ -1,5 +1,6 @@
 ---
 title: changedeity
+searchTitle: Perl Quest ChangeDeity
 weight: 1
 hidden: true
 menuTitle: changedeity

@@ -1,5 +1,6 @@
 ---
 title: crosszonemoveinstancebycharid
+searchTitle: Perl Quest CrossZoneMoveInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: crosszonemoveinstancebycharid

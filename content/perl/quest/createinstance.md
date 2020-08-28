@@ -1,5 +1,6 @@
 ---
 title: CreateInstance
+searchTitle: Perl Quest CreateInstance
 weight: 1
 hidden: true
 menuTitle: CreateInstance

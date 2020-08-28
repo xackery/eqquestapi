@@ -1,5 +1,6 @@
 ---
 title: crosszonefailtaskbygroupid
+searchTitle: Perl Quest CrossZoneFailTaskByGroupID
 weight: 1
 hidden: true
 menuTitle: crosszonefailtaskbygroupid

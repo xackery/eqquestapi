@@ -1,5 +1,6 @@
 ---
 title: creategroundobjectfrommodel
+searchTitle: Perl Quest CreateGroundObjectFromModel
 weight: 1
 hidden: true
 menuTitle: creategroundobjectfrommodel

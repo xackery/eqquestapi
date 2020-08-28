@@ -1,5 +1,6 @@
 ---
 title: AssignGroupToInstance
+searchTitle: Perl Quest AssignGroupToInstance
 weight: 1
 hidden: true
 menuTitle: AssignGroupToInstance

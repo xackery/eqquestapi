@@ -1,5 +1,6 @@
 ---
 title: CheckInstanceByCharID
+searchTitle: Perl Quest CheckInstanceByCharID
 weight: 1
 hidden: true
 menuTitle: CheckInstanceByCharID

@@ -1,5 +1,6 @@
 ---
 title: activespeakactivity
+searchTitle: Perl Quest ActiveSpeakActivity
 weight: 1
 hidden: true
 menuTitle: activespeakactivity

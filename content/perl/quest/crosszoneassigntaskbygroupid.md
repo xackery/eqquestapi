@@ -1,5 +1,6 @@
 ---
 title: crosszoneassigntaskbygroupid
+searchTitle: Perl Quest CrossZoneAssignTaskByGroupID
 weight: 1
 hidden: true
 menuTitle: crosszoneassigntaskbygroupid

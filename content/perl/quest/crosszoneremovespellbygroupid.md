@@ -1,5 +1,6 @@
 ---
 title: crosszoneremovespellbygroupid
+searchTitle: Perl Quest CrossZoneRemoveSpellByGroupID
 weight: 1
 hidden: true
 menuTitle: crosszoneremovespellbygroupid

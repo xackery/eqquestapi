@@ -1,5 +1,6 @@
 ---
 title: clear_npctype_cache
+searchTitle: Perl Quest ClearNPCTypeCache
 weight: 1
 hidden: true
 menuTitle: clear_npctype_cache

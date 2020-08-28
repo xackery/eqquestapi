@@ -1,5 +1,6 @@
 ---
 title: attacknpctype
+searchTitle: Perl Quest AttackNPCType
 weight: 1
 hidden: true
 menuTitle: attacknpctype

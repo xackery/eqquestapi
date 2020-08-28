@@ -1,5 +1,6 @@
 ---
 title: castspell
+searchTitle: Perl Quest CastSpell
 weight: 1
 hidden: true
 menuTitle: castspell

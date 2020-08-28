@@ -1,5 +1,6 @@
 ---
 title: addldonloss
+searchTitle: Perl Quest AddLDONLoss
 weight: 1
 hidden: true
 menuTitle: addldonloss

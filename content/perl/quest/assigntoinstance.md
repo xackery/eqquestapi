@@ -1,5 +1,6 @@
 ---
 title: AssignToInstance
+searchTitle: Perl Quest AssignToInstance
 weight: 1
 hidden: true
 menuTitle: AssignToInstance

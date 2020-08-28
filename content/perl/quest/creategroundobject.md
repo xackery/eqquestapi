@@ -1,5 +1,6 @@
 ---
 title: creategroundobject
+searchTitle: Perl Quest CreateGroundObject
 weight: 1
 hidden: true
 menuTitle: creategroundobject

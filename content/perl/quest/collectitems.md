@@ -1,5 +1,6 @@
 ---
 title: collectitems
+searchTitle: Perl Quest CollectItems
 weight: 1
 hidden: true
 menuTitle: collectitems

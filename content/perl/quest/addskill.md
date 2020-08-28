@@ -1,5 +1,6 @@
 ---
 title: addskill
+searchTitle: Perl Quest AddSkill
 weight: 1
 hidden: true
 menuTitle: addskill

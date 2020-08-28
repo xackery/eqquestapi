@@ -1,5 +1,6 @@
 ---
 title: crosszonecastspellbygroupid
+searchTitle: Perl Quest CrossZoneCastSpellByGroupID
 weight: 1
 hidden: true
 menuTitle: crosszonecastspellbygroupid

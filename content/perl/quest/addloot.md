@@ -1,5 +1,6 @@
 ---
 title: addloot
+searchTitle: Perl Quest AddLoot
 weight: 1
 hidden: true
 menuTitle: addloot

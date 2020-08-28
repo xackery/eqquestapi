@@ -1,5 +1,6 @@
 ---
 title: createdoor
+searchTitle: Perl Quest CreateDoor
 weight: 1
 hidden: true
 menuTitle: createdoor

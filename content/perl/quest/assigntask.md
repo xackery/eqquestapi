@@ -1,5 +1,6 @@
 ---
 title: assigntask
+searchTitle: Perl Quest AssignTask
 weight: 1
 hidden: true
 menuTitle: assigntask

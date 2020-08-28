@@ -1,5 +1,6 @@
 ---
 title: createBot
+searchTitle: Perl Quest CreateBot
 weight: 1
 hidden: true
 menuTitle: createBot

@@ -1,5 +1,6 @@
 ---
 title: crosszoneremovespellbycharid
+searchTitle: Perl Quest CrossZoneRemoveSpellByCharID
 weight: 1
 hidden: true
 menuTitle: crosszoneremovespellbycharid

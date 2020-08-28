@@ -1,5 +1,6 @@
 ---
 title: crosszoneassigntaskbycharid
+searchTitle: Perl Quest CrossZoneAssignTaskByCharID
 weight: 1
 hidden: true
 menuTitle: crosszoneassigntaskbycharid
