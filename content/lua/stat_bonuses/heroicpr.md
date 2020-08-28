@@ -1,10 +1,11 @@
 ---
-title: Lua HeroicPR
+title: HeroicPR
+searchTitle: Lua StatBonuses HeroicPR
 weight: 1
 hidden: true
 menuTitle: HeroicPR
 ---
 ## HeroicPR
 ```lua
-StatBonuses:HeroicPR(); -- unknown - int32
+StatBonuses:HeroicPR(); -- number
 ```

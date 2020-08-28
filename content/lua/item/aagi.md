@@ -1,5 +1,6 @@
 ---
-title: Lua AAgi
+title: AAgi
+searchTitle: Lua Item AAgi
 weight: 1
 hidden: true
 menuTitle: AAgi

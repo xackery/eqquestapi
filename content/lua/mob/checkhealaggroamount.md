@@ -1,5 +1,6 @@
 ---
-title: Lua CheckHealAggroAmount
+title: CheckHealAggroAmount
+searchTitle: Lua Mob CheckHealAggroAmount
 weight: 1
 hidden: true
 menuTitle: CheckHealAggroAmount

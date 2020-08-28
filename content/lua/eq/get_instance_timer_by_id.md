@@ -1,5 +1,6 @@
 ---
-title: Lua get_instance_timer_by_id
+title: get_instance_timer_by_id
+searchTitle: Lua eq get_instance_timer_by_id
 weight: 1
 hidden: true
 menuTitle: get_instance_timer_by_id

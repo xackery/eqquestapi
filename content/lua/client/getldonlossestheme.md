@@ -1,5 +1,6 @@
 ---
-title: Lua GetLDoNLossesTheme
+title: GetLDoNLossesTheme
+searchTitle: Lua Client GetLDoNLossesTheme
 weight: 1
 hidden: true
 menuTitle: GetLDoNLossesTheme

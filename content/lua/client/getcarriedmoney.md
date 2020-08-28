@@ -1,5 +1,6 @@
 ---
-title: Lua GetCarriedMoney
+title: GetCarriedMoney
+searchTitle: Lua Client GetCarriedMoney
 weight: 1
 hidden: true
 menuTitle: GetCarriedMoney

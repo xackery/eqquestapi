@@ -1,5 +1,6 @@
 ---
-title: Lua IsBeneficialAllowed
+title: IsBeneficialAllowed
+searchTitle: Lua Mob IsBeneficialAllowed
 weight: 1
 hidden: true
 menuTitle: IsBeneficialAllowed

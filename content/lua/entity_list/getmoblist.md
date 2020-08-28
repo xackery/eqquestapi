@@ -1,5 +1,6 @@
 ---
-title: Lua GetMobList
+title: GetMobList
+searchTitle: Lua EntityList GetMobList
 weight: 1
 hidden: true
 menuTitle: GetMobList

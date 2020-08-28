@@ -1,10 +1,11 @@
 ---
-title: Lua HP
+title: HP
+searchTitle: Lua StatBonuses HP
 weight: 1
 hidden: true
 menuTitle: HP
 ---
 ## HP
 ```lua
-StatBonuses:HP(); -- unknown - int32
+StatBonuses:HP(); -- number
 ```

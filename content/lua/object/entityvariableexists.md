@@ -1,5 +1,6 @@
 ---
-title: Lua EntityVariableExists
+title: EntityVariableExists
+searchTitle: Lua Object EntityVariableExists
 weight: 1
 hidden: true
 menuTitle: EntityVariableExists

@@ -1,5 +1,6 @@
 ---
-title: Lua world_wide_set_entity_variable_npc
+title: world_wide_set_entity_variable_npc
+searchTitle: Lua eq world_wide_set_entity_variable_npc
 weight: 1
 hidden: true
 menuTitle: world_wide_set_entity_variable_npc

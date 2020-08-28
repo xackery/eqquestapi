@@ -1,5 +1,6 @@
 ---
-title: Lua GroupCount
+title: GroupCount
+searchTitle: Lua Raid GroupCount
 weight: 1
 hidden: true
 menuTitle: GroupCount

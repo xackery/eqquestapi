@@ -1,10 +1,11 @@
 ---
-title: Lua DoubleSpecialAttack
+title: DoubleSpecialAttack
+searchTitle: Lua StatBonuses DoubleSpecialAttack
 weight: 1
 hidden: true
 menuTitle: DoubleSpecialAttack
 ---
 ## DoubleSpecialAttack
 ```lua
-StatBonuses:DoubleSpecialAttack(); -- unknown - int32
+StatBonuses:DoubleSpecialAttack(); -- number
 ```

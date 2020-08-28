@@ -1,5 +1,6 @@
 ---
-title: Lua SetInvisible
+title: SetInvisible
+searchTitle: Lua Mob SetInvisible
 weight: 1
 hidden: true
 menuTitle: SetInvisible

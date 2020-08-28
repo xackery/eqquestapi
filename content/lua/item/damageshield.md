@@ -1,5 +1,6 @@
 ---
-title: Lua DamageShield
+title: DamageShield
+searchTitle: Lua Item DamageShield
 weight: 1
 hidden: true
 menuTitle: DamageShield

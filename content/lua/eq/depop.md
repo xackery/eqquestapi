@@ -1,5 +1,6 @@
 ---
-title: Lua depop
+title: depop
+searchTitle: Lua eq depop
 weight: 1
 hidden: true
 menuTitle: depop

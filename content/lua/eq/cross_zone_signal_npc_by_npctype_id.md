@@ -1,5 +1,6 @@
 ---
-title: Lua cross_zone_signal_npc_by_npctype_id
+title: cross_zone_signal_npc_by_npctype_id
+searchTitle: Lua eq cross_zone_signal_npc_by_npctype_id
 weight: 1
 hidden: true
 menuTitle: cross_zone_signal_npc_by_npctype_id

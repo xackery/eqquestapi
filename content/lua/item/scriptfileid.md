@@ -1,5 +1,6 @@
 ---
-title: Lua ScriptFileID
+title: ScriptFileID
+searchTitle: Lua Item ScriptFileID
 weight: 1
 hidden: true
 menuTitle: ScriptFileID

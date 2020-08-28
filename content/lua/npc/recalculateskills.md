@@ -1,5 +1,6 @@
 ---
-title: Lua RecalculateSkills
+title: RecalculateSkills
+searchTitle: Lua NPC RecalculateSkills
 weight: 1
 hidden: true
 menuTitle: RecalculateSkills

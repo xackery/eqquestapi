@@ -1,5 +1,6 @@
 ---
-title: Lua SetIcon
+title: SetIcon
+searchTitle: Lua Object SetIcon
 weight: 1
 hidden: true
 menuTitle: SetIcon

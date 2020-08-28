@@ -1,5 +1,6 @@
 ---
-title: Lua GetHairColor
+title: GetHairColor
+searchTitle: Lua Mob GetHairColor
 weight: 1
 hidden: true
 menuTitle: GetHairColor

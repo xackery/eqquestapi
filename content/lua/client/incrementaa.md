@@ -1,5 +1,6 @@
 ---
-title: Lua IncrementAA
+title: IncrementAA
+searchTitle: Lua Client IncrementAA
 weight: 1
 hidden: true
 menuTitle: IncrementAA

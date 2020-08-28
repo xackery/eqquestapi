@@ -1,5 +1,6 @@
 ---
-title: Lua set_guild
+title: set_guild
+searchTitle: Lua eq set_guild
 weight: 1
 hidden: true
 menuTitle: set_guild

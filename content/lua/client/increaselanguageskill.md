@@ -1,5 +1,6 @@
 ---
-title: Lua IncreaseLanguageSkill
+title: IncreaseLanguageSkill
+searchTitle: Lua Client IncreaseLanguageSkill
 weight: 1
 hidden: true
 menuTitle: IncreaseLanguageSkill

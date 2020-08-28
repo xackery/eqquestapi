@@ -1,5 +1,6 @@
 ---
-title: Lua GetAABonuses
+title: GetAABonuses
+searchTitle: Lua Mob GetAABonuses
 weight: 1
 hidden: true
 menuTitle: GetAABonuses

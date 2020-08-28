@@ -1,5 +1,6 @@
 ---
-title: Lua GetName
+title: GetName
+searchTitle: Lua Mob GetName
 weight: 1
 hidden: true
 menuTitle: GetName

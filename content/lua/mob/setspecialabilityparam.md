@@ -1,5 +1,6 @@
 ---
-title: Lua SetSpecialAbilityParam
+title: SetSpecialAbilityParam
+searchTitle: Lua Mob SetSpecialAbilityParam
 weight: 1
 hidden: true
 menuTitle: SetSpecialAbilityParam

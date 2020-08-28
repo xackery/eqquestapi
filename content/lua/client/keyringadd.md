@@ -1,5 +1,6 @@
 ---
-title: Lua KeyRingAdd
+title: KeyRingAdd
+searchTitle: Lua Client KeyRingAdd
 weight: 1
 hidden: true
 menuTitle: KeyRingAdd

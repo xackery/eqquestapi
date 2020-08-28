@@ -1,5 +1,6 @@
 ---
-title: Lua GetItemID
+title: GetItemID
+searchTitle: Lua Object GetItemID
 weight: 1
 hidden: true
 menuTitle: GetItemID

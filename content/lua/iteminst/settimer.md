@@ -1,5 +1,6 @@
 ---
-title: Lua SetTimer
+title: SetTimer
+searchTitle: Lua ItemInst SetTimer
 weight: 1
 hidden: true
 menuTitle: SetTimer

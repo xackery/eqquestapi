@@ -1,10 +1,11 @@
 ---
-title: Lua ReduceFallDamage
+title: ReduceFallDamage
+searchTitle: Lua StatBonuses ReduceFallDamage
 weight: 1
 hidden: true
 menuTitle: ReduceFallDamage
 ---
 ## ReduceFallDamage
 ```lua
-StatBonuses:ReduceFallDamage(); -- unknown - uint16
+StatBonuses:ReduceFallDamage(); -- number
 ```

@@ -1,5 +1,6 @@
 ---
-title: Lua percussionMod
+title: percussionMod
+searchTitle: Lua StatBonuses percussionMod
 weight: 1
 hidden: true
 menuTitle: percussionMod

@@ -1,5 +1,6 @@
 ---
-title: Lua EnableAreaHPRegen
+title: EnableAreaHPRegen
+searchTitle: Lua Client EnableAreaHPRegen
 weight: 1
 hidden: true
 menuTitle: EnableAreaHPRegen

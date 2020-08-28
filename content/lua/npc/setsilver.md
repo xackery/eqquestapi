@@ -1,5 +1,6 @@
 ---
-title: Lua SetSilver
+title: SetSilver
+searchTitle: Lua NPC SetSilver
 weight: 1
 hidden: true
 menuTitle: SetSilver

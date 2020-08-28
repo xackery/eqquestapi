@@ -1,5 +1,6 @@
 ---
-title: Lua SpellTriggers
+title: SpellTriggers
+searchTitle: Lua StatBonuses SpellTriggers
 weight: 1
 hidden: true
 menuTitle: SpellTriggers

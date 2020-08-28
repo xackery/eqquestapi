@@ -1,5 +1,6 @@
 ---
-title: Lua NavigateTo
+title: NavigateTo
+searchTitle: Lua Mob NavigateTo
 weight: 1
 hidden: true
 menuTitle: NavigateTo

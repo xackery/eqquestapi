@@ -1,5 +1,6 @@
 ---
-title: Lua SetModelName
+title: SetModelName
+searchTitle: Lua Object SetModelName
 weight: 1
 hidden: true
 menuTitle: SetModelName

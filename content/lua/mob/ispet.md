@@ -1,5 +1,6 @@
 ---
-title: Lua IsPet
+title: IsPet
+searchTitle: Lua Mob IsPet
 weight: 1
 hidden: true
 menuTitle: IsPet

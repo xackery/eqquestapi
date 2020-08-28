@@ -1,5 +1,6 @@
 ---
-title: Lua RecastDelay
+title: RecastDelay
+searchTitle: Lua Item RecastDelay
 weight: 1
 hidden: true
 menuTitle: RecastDelay

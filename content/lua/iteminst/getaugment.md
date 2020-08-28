@@ -1,5 +1,6 @@
 ---
-title: Lua GetAugment
+title: GetAugment
+searchTitle: Lua ItemInst GetAugment
 weight: 1
 hidden: true
 menuTitle: GetAugment

@@ -1,5 +1,6 @@
 ---
-title: Lua XPRateMod
+title: XPRateMod
+searchTitle: Lua StatBonuses XPRateMod
 weight: 1
 hidden: true
 menuTitle: XPRateMod

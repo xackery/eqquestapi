@@ -1,5 +1,6 @@
 ---
-title: Lua PVPResistCap
+title: PVPResistCap
+searchTitle: Lua Spell PVPResistCap
 weight: 1
 hidden: true
 menuTitle: PVPResistCap

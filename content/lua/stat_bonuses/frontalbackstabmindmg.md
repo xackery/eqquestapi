@@ -1,5 +1,6 @@
 ---
-title: Lua FrontalBackstabMinDmg
+title: FrontalBackstabMinDmg
+searchTitle: Lua StatBonuses FrontalBackstabMinDmg
 weight: 1
 hidden: true
 menuTitle: FrontalBackstabMinDmg

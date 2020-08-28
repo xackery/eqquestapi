@@ -1,5 +1,6 @@
 ---
-title: Lua RespawnTimer
+title: RespawnTimer
+searchTitle: Lua Spawn RespawnTimer
 weight: 1
 hidden: true
 menuTitle: RespawnTimer

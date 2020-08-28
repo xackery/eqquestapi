@@ -1,5 +1,6 @@
 ---
-title: Lua task_time_left
+title: task_time_left
+searchTitle: Lua eq task_time_left
 weight: 1
 hidden: true
 menuTitle: task_time_left

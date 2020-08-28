@@ -1,5 +1,6 @@
 ---
-title: Lua NoDrop
+title: NoDrop
+searchTitle: Lua Item NoDrop
 weight: 1
 hidden: true
 menuTitle: NoDrop

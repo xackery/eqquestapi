@@ -1,5 +1,6 @@
 ---
-title: Lua GetObjectByDBID
+title: GetObjectByDBID
+searchTitle: Lua EntityList GetObjectByDBID
 weight: 1
 hidden: true
 menuTitle: GetObjectByDBID

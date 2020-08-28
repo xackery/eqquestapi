@@ -1,5 +1,6 @@
 ---
-title: Lua SendToGuildHall
+title: SendToGuildHall
+searchTitle: Lua Client SendToGuildHall
 weight: 1
 hidden: true
 menuTitle: SendToGuildHall

@@ -1,5 +1,6 @@
 ---
-title: Lua SendWebLink
+title: SendWebLink
+searchTitle: Lua Client SendWebLink
 weight: 1
 hidden: true
 menuTitle: SendWebLink

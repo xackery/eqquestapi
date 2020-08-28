@@ -1,5 +1,6 @@
 ---
-title: Lua GiveDoubleAttack
+title: GiveDoubleAttack
+searchTitle: Lua StatBonuses GiveDoubleAttack
 weight: 1
 hidden: true
 menuTitle: GiveDoubleAttack

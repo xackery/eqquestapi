@@ -1,5 +1,6 @@
 ---
-title: Lua QueuePacket
+title: QueuePacket
+searchTitle: Lua Client QueuePacket
 weight: 1
 hidden: true
 menuTitle: QueuePacket

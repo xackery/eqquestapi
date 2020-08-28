@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeLuclinFace
+title: ChangeLuclinFace
+searchTitle: Lua Mob ChangeLuclinFace
 weight: 1
 hidden: true
 menuTitle: ChangeLuclinFace

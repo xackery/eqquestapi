@@ -1,5 +1,6 @@
 ---
-title: Lua SetOpcode
+title: SetOpcode
+searchTitle: Lua Packet SetOpcode
 weight: 1
 hidden: true
 menuTitle: SetOpcode

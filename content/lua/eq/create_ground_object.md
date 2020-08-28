@@ -1,5 +1,6 @@
 ---
-title: Lua create_ground_object
+title: create_ground_object
+searchTitle: Lua eq create_ground_object
 weight: 1
 hidden: true
 menuTitle: create_ground_object

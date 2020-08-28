@@ -1,5 +1,6 @@
 ---
-title: Lua IsLeader
+title: IsLeader
+searchTitle: Lua Raid IsLeader
 weight: 1
 hidden: true
 menuTitle: IsLeader

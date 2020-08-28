@@ -1,5 +1,6 @@
 ---
-title: Lua Emote
+title: Emote
+searchTitle: Lua Mob Emote
 weight: 1
 hidden: true
 menuTitle: Emote

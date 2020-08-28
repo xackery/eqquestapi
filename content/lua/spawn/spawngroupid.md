@@ -1,5 +1,6 @@
 ---
-title: Lua SpawnGroupID
+title: SpawnGroupID
+searchTitle: Lua Spawn SpawnGroupID
 weight: 1
 hidden: true
 menuTitle: SpawnGroupID

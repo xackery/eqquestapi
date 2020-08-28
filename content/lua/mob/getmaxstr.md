@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxSTR
+title: GetMaxSTR
+searchTitle: Lua Mob GetMaxSTR
 weight: 1
 hidden: true
 menuTitle: GetMaxSTR

@@ -1,5 +1,6 @@
 ---
-title: Lua SetSpellFocusDMG
+title: SetSpellFocusDMG
+searchTitle: Lua NPC SetSpellFocusDMG
 weight: 1
 hidden: true
 menuTitle: SetSpellFocusDMG

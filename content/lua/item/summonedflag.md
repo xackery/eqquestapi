@@ -1,5 +1,6 @@
 ---
-title: Lua SummonedFlag
+title: SummonedFlag
+searchTitle: Lua Item SummonedFlag
 weight: 1
 hidden: true
 menuTitle: SummonedFlag

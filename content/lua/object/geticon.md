@@ -1,5 +1,6 @@
 ---
-title: Lua GetIcon
+title: GetIcon
+searchTitle: Lua Object GetIcon
 weight: 1
 hidden: true
 menuTitle: GetIcon

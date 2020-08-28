@@ -1,5 +1,6 @@
 ---
-title: Lua ReverseDamageShield
+title: ReverseDamageShield
+searchTitle: Lua StatBonuses ReverseDamageShield
 weight: 1
 hidden: true
 menuTitle: ReverseDamageShield

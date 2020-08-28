@@ -1,5 +1,6 @@
 ---
-title: Lua PickPocket
+title: PickPocket
+searchTitle: Lua NPC PickPocket
 weight: 1
 hidden: true
 menuTitle: PickPocket

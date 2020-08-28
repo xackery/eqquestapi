@@ -1,5 +1,6 @@
 ---
-title: Lua UpdateWaypoint
+title: UpdateWaypoint
+searchTitle: Lua NPC UpdateWaypoint
 weight: 1
 hidden: true
 menuTitle: UpdateWaypoint

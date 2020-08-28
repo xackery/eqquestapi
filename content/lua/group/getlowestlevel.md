@@ -1,5 +1,6 @@
 ---
-title: Lua GetLowestLevel
+title: GetLowestLevel
+searchTitle: Lua Group GetLowestLevel
 weight: 1
 hidden: true
 menuTitle: GetLowestLevel

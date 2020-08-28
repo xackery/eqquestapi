@@ -1,5 +1,6 @@
 ---
-title: Lua GetAccuracyRating
+title: GetAccuracyRating
+searchTitle: Lua NPC GetAccuracyRating
 weight: 1
 hidden: true
 menuTitle: GetAccuracyRating

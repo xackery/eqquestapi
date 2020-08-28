@@ -1,5 +1,6 @@
 ---
-title: Lua WriteString
+title: WriteString
+searchTitle: Lua Packet WriteString
 weight: 1
 hidden: true
 menuTitle: WriteString

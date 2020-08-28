@@ -1,5 +1,6 @@
 ---
-title: Lua UnmemSpellBySpellID
+title: UnmemSpellBySpellID
+searchTitle: Lua Client UnmemSpellBySpellID
 weight: 1
 hidden: true
 menuTitle: UnmemSpellBySpellID

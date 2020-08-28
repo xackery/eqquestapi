@@ -1,5 +1,6 @@
 ---
-title: Lua Light
+title: Light
+searchTitle: Lua Item Light
 weight: 1
 hidden: true
 menuTitle: Light

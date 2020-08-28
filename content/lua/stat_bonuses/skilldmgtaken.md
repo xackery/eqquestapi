@@ -1,10 +1,11 @@
 ---
-title: Lua SkillDmgTaken
+title: SkillDmgTaken
+searchTitle: Lua StatBonuses SkillDmgTaken
 weight: 1
 hidden: true
 menuTitle: SkillDmgTaken
 ---
 ## SkillDmgTaken
 ```lua
-StatBonuses:SkillDmgTaken(number idx); -- unknown - int16
+StatBonuses:SkillDmgTaken(number idx); -- number
 ```

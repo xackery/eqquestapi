@@ -1,10 +1,11 @@
 ---
-title: Lua PetCriticalHit
+title: PetCriticalHit
+searchTitle: Lua StatBonuses PetCriticalHit
 weight: 1
 hidden: true
 menuTitle: PetCriticalHit
 ---
 ## PetCriticalHit
 ```lua
-StatBonuses:PetCriticalHit(); -- unknown - int32
+StatBonuses:PetCriticalHit(); -- number
 ```

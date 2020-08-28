@@ -1,5 +1,6 @@
 ---
-title: Lua is_task_completed
+title: is_task_completed
+searchTitle: Lua eq is_task_completed
 weight: 1
 hidden: true
 menuTitle: is_task_completed

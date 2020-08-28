@@ -1,5 +1,6 @@
 ---
-title: Lua GetCleanName
+title: GetCleanName
+searchTitle: Lua Mob GetCleanName
 weight: 1
 hidden: true
 menuTitle: GetCleanName

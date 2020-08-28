@@ -1,10 +1,11 @@
 ---
-title: Lua Root
+title: Root
+searchTitle: Lua StatBonuses Root
 weight: 1
 hidden: true
 menuTitle: Root
 ---
 ## Root
 ```lua
-StatBonuses:Root(number idx); -- unknown - int8
+StatBonuses:Root(number idx); -- number
 ```

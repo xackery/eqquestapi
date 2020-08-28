@@ -1,5 +1,6 @@
 ---
-title: Lua RecoveryTime
+title: RecoveryTime
+searchTitle: Lua Spell RecoveryTime
 weight: 1
 hidden: true
 menuTitle: RecoveryTime

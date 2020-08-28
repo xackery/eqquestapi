@@ -1,5 +1,6 @@
 ---
-title: Lua Deity
+title: Deity
+searchTitle: Lua Item Deity
 weight: 1
 hidden: true
 menuTitle: Deity

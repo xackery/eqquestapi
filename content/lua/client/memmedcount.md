@@ -1,5 +1,6 @@
 ---
-title: Lua MemmedCount
+title: MemmedCount
+searchTitle: Lua Client MemmedCount
 weight: 1
 hidden: true
 menuTitle: MemmedCount

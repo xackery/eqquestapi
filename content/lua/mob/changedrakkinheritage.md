@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeDrakkinHeritage
+title: ChangeDrakkinHeritage
+searchTitle: Lua Mob ChangeDrakkinHeritage
 weight: 1
 hidden: true
 menuTitle: ChangeDrakkinHeritage

@@ -1,5 +1,6 @@
 ---
-title: Lua SetPetOrder
+title: SetPetOrder
+searchTitle: Lua Mob SetPetOrder
 weight: 1
 hidden: true
 menuTitle: SetPetOrder

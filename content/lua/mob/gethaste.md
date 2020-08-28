@@ -1,5 +1,6 @@
 ---
-title: Lua GetHaste
+title: GetHaste
+searchTitle: Lua Mob GetHaste
 weight: 1
 hidden: true
 menuTitle: GetHaste

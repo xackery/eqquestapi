@@ -1,5 +1,6 @@
 ---
-title: Lua GetCorpseItemAt
+title: GetCorpseItemAt
+searchTitle: Lua Client GetCorpseItemAt
 weight: 1
 hidden: true
 menuTitle: GetCorpseItemAt

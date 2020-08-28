@@ -1,10 +1,11 @@
 ---
-title: Lua STACapMod
+title: STACapMod
+searchTitle: Lua StatBonuses STACapMod
 weight: 1
 hidden: true
 menuTitle: STACapMod
 ---
 ## STACapMod
 ```lua
-StatBonuses:STACapMod(); -- unknown - int32
+StatBonuses:STACapMod(); -- number
 ```

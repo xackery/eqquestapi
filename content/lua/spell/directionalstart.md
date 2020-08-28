@@ -1,5 +1,6 @@
 ---
-title: Lua DirectionalStart
+title: DirectionalStart
+searchTitle: Lua Spell DirectionalStart
 weight: 1
 hidden: true
 menuTitle: DirectionalStart

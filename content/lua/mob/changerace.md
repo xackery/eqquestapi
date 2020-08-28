@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeRace
+title: ChangeRace
+searchTitle: Lua Mob ChangeRace
 weight: 1
 hidden: true
 menuTitle: ChangeRace

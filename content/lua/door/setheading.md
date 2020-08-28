@@ -1,5 +1,6 @@
 ---
-title: Lua SetHeading
+title: SetHeading
+searchTitle: Lua Door SetHeading
 weight: 1
 hidden: true
 menuTitle: SetHeading

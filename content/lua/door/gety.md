@@ -1,5 +1,6 @@
 ---
-title: Lua GetY
+title: GetY
+searchTitle: Lua Door GetY
 weight: 1
 hidden: true
 menuTitle: GetY

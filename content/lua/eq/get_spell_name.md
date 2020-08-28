@@ -1,5 +1,6 @@
 ---
-title: Lua get_spell_name
+title: get_spell_name
+searchTitle: Lua eq get_spell_name
 weight: 1
 hidden: true
 menuTitle: get_spell_name

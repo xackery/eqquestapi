@@ -1,5 +1,6 @@
 ---
-title: Lua GetDiscSlotBySpellID
+title: GetDiscSlotBySpellID
+searchTitle: Lua Client GetDiscSlotBySpellID
 weight: 1
 hidden: true
 menuTitle: GetDiscSlotBySpellID

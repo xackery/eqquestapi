@@ -1,5 +1,6 @@
 ---
-title: Lua GetWeight
+title: GetWeight
+searchTitle: Lua Client GetWeight
 weight: 1
 hidden: true
 menuTitle: GetWeight

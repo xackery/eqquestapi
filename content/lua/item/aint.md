@@ -1,5 +1,6 @@
 ---
-title: Lua AInt
+title: AInt
+searchTitle: Lua Item AInt
 weight: 1
 hidden: true
 menuTitle: AInt

@@ -1,5 +1,6 @@
 ---
-title: Lua GetItemStat
+title: GetItemStat
+searchTitle: Lua Mob GetItemStat
 weight: 1
 hidden: true
 menuTitle: GetItemStat

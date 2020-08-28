@@ -1,10 +1,11 @@
 ---
-title: Lua DoubleRiposte
+title: DoubleRiposte
+searchTitle: Lua StatBonuses DoubleRiposte
 weight: 1
 hidden: true
 menuTitle: DoubleRiposte
 ---
 ## DoubleRiposte
 ```lua
-StatBonuses:DoubleRiposte(); -- unknown - int32
+StatBonuses:DoubleRiposte(); -- number
 ```

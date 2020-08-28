@@ -1,10 +1,11 @@
 ---
-title: Lua SkillAttackProc
+title: SkillAttackProc
+searchTitle: Lua StatBonuses SkillAttackProc
 weight: 1
 hidden: true
 menuTitle: SkillAttackProc
 ---
 ## SkillAttackProc
 ```lua
-StatBonuses:SkillAttackProc(number idx); -- unknown - int32
+StatBonuses:SkillAttackProc(number idx); -- number
 ```

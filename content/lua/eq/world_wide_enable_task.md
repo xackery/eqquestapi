@@ -1,5 +1,6 @@
 ---
-title: Lua world_wide_enable_task
+title: world_wide_enable_task
+searchTitle: Lua eq world_wide_enable_task
 weight: 1
 hidden: true
 menuTitle: world_wide_enable_task

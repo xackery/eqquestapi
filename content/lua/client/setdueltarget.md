@@ -1,5 +1,6 @@
 ---
-title: Lua SetDuelTarget
+title: SetDuelTarget
+searchTitle: Lua Client SetDuelTarget
 weight: 1
 hidden: true
 menuTitle: SetDuelTarget

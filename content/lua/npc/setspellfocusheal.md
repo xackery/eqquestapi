@@ -1,5 +1,6 @@
 ---
-title: Lua SetSpellFocusHeal
+title: SetSpellFocusHeal
+searchTitle: Lua NPC SetSpellFocusHeal
 weight: 1
 hidden: true
 menuTitle: SetSpellFocusHeal

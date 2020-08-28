@@ -1,5 +1,6 @@
 ---
-title: Lua SetEndurance
+title: SetEndurance
+searchTitle: Lua Client SetEndurance
 weight: 1
 hidden: true
 menuTitle: SetEndurance

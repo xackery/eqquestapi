@@ -1,5 +1,6 @@
 ---
-title: Lua GetHPRatio
+title: GetHPRatio
+searchTitle: Lua Mob GetHPRatio
 weight: 1
 hidden: true
 menuTitle: GetHPRatio

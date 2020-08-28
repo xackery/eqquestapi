@@ -1,5 +1,6 @@
 ---
-title: Lua next_task_in_set
+title: next_task_in_set
+searchTitle: Lua eq next_task_in_set
 weight: 1
 hidden: true
 menuTitle: next_task_in_set

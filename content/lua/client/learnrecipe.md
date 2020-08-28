@@ -1,5 +1,6 @@
 ---
-title: Lua LearnRecipe
+title: LearnRecipe
+searchTitle: Lua Client LearnRecipe
 weight: 1
 hidden: true
 menuTitle: LearnRecipe

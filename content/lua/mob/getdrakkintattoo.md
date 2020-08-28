@@ -1,5 +1,6 @@
 ---
-title: Lua GetDrakkinTattoo
+title: GetDrakkinTattoo
+searchTitle: Lua Mob GetDrakkinTattoo
 weight: 1
 hidden: true
 menuTitle: GetDrakkinTattoo

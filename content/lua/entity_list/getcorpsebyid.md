@@ -1,5 +1,6 @@
 ---
-title: Lua GetCorpseByID
+title: GetCorpseByID
+searchTitle: Lua EntityList GetCorpseByID
 weight: 1
 hidden: true
 menuTitle: GetCorpseByID

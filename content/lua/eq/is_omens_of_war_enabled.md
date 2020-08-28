@@ -1,5 +1,6 @@
 ---
-title: Lua is_omens_of_war_enabled
+title: is_omens_of_war_enabled
+searchTitle: Lua eq is_omens_of_war_enabled
 weight: 1
 hidden: true
 menuTitle: is_omens_of_war_enabled

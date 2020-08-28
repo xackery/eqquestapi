@@ -1,5 +1,6 @@
 ---
-title: Lua NotifyNewTitlesAvailable
+title: NotifyNewTitlesAvailable
+searchTitle: Lua Client NotifyNewTitlesAvailable
 weight: 1
 hidden: true
 menuTitle: NotifyNewTitlesAvailable

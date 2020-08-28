@@ -1,5 +1,6 @@
 ---
-title: Lua is_task_appropriate
+title: is_task_appropriate
+searchTitle: Lua eq is_task_appropriate
 weight: 1
 hidden: true
 menuTitle: is_task_appropriate

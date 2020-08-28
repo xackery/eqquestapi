@@ -1,5 +1,6 @@
 ---
-title: Lua IsCasting
+title: IsCasting
+searchTitle: Lua Mob IsCasting
 weight: 1
 hidden: true
 menuTitle: IsCasting

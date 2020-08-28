@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpawnPointY
+title: GetSpawnPointY
+searchTitle: Lua NPC GetSpawnPointY
 weight: 1
 hidden: true
 menuTitle: GetSpawnPointY

@@ -1,68 +1,68 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Stat Bonuses
-menuTitle: Stat Bonuses
+title: Stat_bonuses
+menuTitle: Stat_bonuses
 weight: 25
 ---
 
-## Stat Bonuses Methods (Lua)
-- StatBonuses:[AC](ac)(); -- unknown - int32
-- StatBonuses:[HP](hp)(); -- unknown - int32
-- StatBonuses:[HPRegen](hpregen)(); -- unknown - int32
-- StatBonuses:[MaxHP](maxhp)(); -- unknown - int32
-- StatBonuses:[ManaRegen](manaregen)(); -- unknown - int32
-- StatBonuses:[EnduranceRegen](enduranceregen)(); -- unknown - int32
-- StatBonuses:[ATK](atk)(); -- unknown - int32
-- StatBonuses:[STR](str)(); -- unknown - int32
-- StatBonuses:[STRCapMod](strcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicSTR](heroicstr)(); -- unknown - int32
-- StatBonuses:[STACapMod](stacapmod)(); -- unknown - int32
-- StatBonuses:[HeroicSTA](heroicsta)(); -- unknown - int32
-- StatBonuses:[DEX](dex)(); -- unknown - int32
-- StatBonuses:[DEXCapMod](dexcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicDEX](heroicdex)(); -- unknown - int32
-- StatBonuses:[AGI](agi)(); -- unknown - int32
-- StatBonuses:[AGICapMod](agicapmod)(); -- unknown - int32
-- StatBonuses:[HeroicAGI](heroicagi)(); -- unknown - int32
-- StatBonuses:[INTCapMod](intcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicINT](heroicint)(); -- unknown - int32
-- StatBonuses:[WIS](wis)(); -- unknown - int32
-- StatBonuses:[WISCapMod](wiscapmod)(); -- unknown - int32
-- StatBonuses:[HeroicWIS](heroicwis)(); -- unknown - int32
-- StatBonuses:[CHA](cha)(); -- unknown - int32
-- StatBonuses:[CHACapMod](chacapmod)(); -- unknown - int32
-- StatBonuses:[HeroicCHA](heroiccha)(); -- unknown - int32
-- StatBonuses:[MR](mr)(); -- unknown - int32
-- StatBonuses:[MRCapMod](mrcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicMR](heroicmr)(); -- unknown - int32
-- StatBonuses:[FR](fr)(); -- unknown - int32
-- StatBonuses:[FRCapMod](frcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicFR](heroicfr)(); -- unknown - int32
-- StatBonuses:[CR](cr)(); -- unknown - int32
-- StatBonuses:[CRCapMod](crcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicCR](heroiccr)(); -- unknown - int32
-- StatBonuses:[PRCapMod](prcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicPR](heroicpr)(); -- unknown - int32
-- StatBonuses:[DR](dr)(); -- unknown - int32
-- StatBonuses:[DRCapMod](drcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicDR](heroicdr)(); -- unknown - int32
-- StatBonuses:[Corrup](corrup)(); -- unknown - int32
-- StatBonuses:[CorrupCapMod](corrupcapmod)(); -- unknown - int32
-- StatBonuses:[HeroicCorrup](heroiccorrup)(); -- unknown - int32
-- StatBonuses:[DamageShieldSpellID](damageshieldspellid)(); -- unknown - uint16
+## Stat_bonuses Methods (Lua)
+- StatBonuses:[AC](ac)(); -- number
+- StatBonuses:[HP](hp)(); -- number
+- StatBonuses:[HPRegen](hpregen)(); -- number
+- StatBonuses:[MaxHP](maxhp)(); -- number
+- StatBonuses:[ManaRegen](manaregen)(); -- number
+- StatBonuses:[EnduranceRegen](enduranceregen)(); -- number
+- StatBonuses:[ATK](atk)(); -- number
+- StatBonuses:[STR](str)(); -- number
+- StatBonuses:[STRCapMod](strcapmod)(); -- number
+- StatBonuses:[HeroicSTR](heroicstr)(); -- number
+- StatBonuses:[STACapMod](stacapmod)(); -- number
+- StatBonuses:[HeroicSTA](heroicsta)(); -- number
+- StatBonuses:[DEX](dex)(); -- number
+- StatBonuses:[DEXCapMod](dexcapmod)(); -- number
+- StatBonuses:[HeroicDEX](heroicdex)(); -- number
+- StatBonuses:[AGI](agi)(); -- number
+- StatBonuses:[AGICapMod](agicapmod)(); -- number
+- StatBonuses:[HeroicAGI](heroicagi)(); -- number
+- StatBonuses:[INT](int)(); -- number
+- StatBonuses:[INTCapMod](intcapmod)(); -- number
+- StatBonuses:[HeroicINT](heroicint)(); -- number
+- StatBonuses:[WIS](wis)(); -- number
+- StatBonuses:[WISCapMod](wiscapmod)(); -- number
+- StatBonuses:[HeroicWIS](heroicwis)(); -- number
+- StatBonuses:[CHA](cha)(); -- number
+- StatBonuses:[CHACapMod](chacapmod)(); -- number
+- StatBonuses:[HeroicCHA](heroiccha)(); -- number
+- StatBonuses:[MR](mr)(); -- number
+- StatBonuses:[MRCapMod](mrcapmod)(); -- number
+- StatBonuses:[HeroicMR](heroicmr)(); -- number
+- StatBonuses:[FR](fr)(); -- number
+- StatBonuses:[FRCapMod](frcapmod)(); -- number
+- StatBonuses:[HeroicFR](heroicfr)(); -- number
+- StatBonuses:[CR](cr)(); -- number
+- StatBonuses:[CRCapMod](crcapmod)(); -- number
+- StatBonuses:[HeroicCR](heroiccr)(); -- number
+- StatBonuses:[PRCapMod](prcapmod)(); -- number
+- StatBonuses:[HeroicPR](heroicpr)(); -- number
+- StatBonuses:[DR](dr)(); -- number
+- StatBonuses:[DRCapMod](drcapmod)(); -- number
+- StatBonuses:[HeroicDR](heroicdr)(); -- number
+- StatBonuses:[Corrup](corrup)(); -- number
+- StatBonuses:[CorrupCapMod](corrupcapmod)(); -- number
+- StatBonuses:[HeroicCorrup](heroiccorrup)(); -- number
+- StatBonuses:[DamageShieldSpellID](damageshieldspellid)(); -- number
 - StatBonuses:[DamageShieldType](damageshieldtype)(); -- number
 - StatBonuses:[SpellDamageShield](spelldamageshield)(); -- number
 - StatBonuses:[SpellShield](spellshield)(); -- number
 - StatBonuses:[ReverseDamageShield](reversedamageshield)(); -- number
-- StatBonuses:[ReverseDamageShieldSpellID](reversedamageshieldspellid)(); -- unknown - uint16
+- StatBonuses:[ReverseDamageShieldSpellID](reversedamageshieldspellid)(); -- number
 - StatBonuses:[ReverseDamageShieldType](reversedamageshieldtype)(); -- number
 - StatBonuses:[movementspeed](movementspeed)(); -- number
-- StatBonuses:[haste](haste)(); -- unknown - int32
-- StatBonuses:[inhibitmelee](inhibitmelee)(); -- unknown - int32
+- StatBonuses:[haste](haste)(); -- number
+- StatBonuses:[inhibitmelee](inhibitmelee)(); -- number
 - StatBonuses:[AggroRange](aggrorange)(); -- number
 - StatBonuses:[AssistRange](assistrange)(); -- number
-- StatBonuses:[skillmod](skillmod)(number idx); -- unknown - int32
-- StatBonuses:[skillmodmax](skillmodmax)(number idx); -- unknown - int32
+- StatBonuses:[skillmod](skillmod)(number idx); -- number
+- StatBonuses:[skillmodmax](skillmodmax)(number idx); -- number
 - StatBonuses:[singingMod](singingmod)(); -- number
 - StatBonuses:[Amplification](amplification)(); -- number
 - StatBonuses:[brassMod](brassmod)(); -- number
@@ -70,151 +70,151 @@ weight: 25
 - StatBonuses:[windMod](windmod)(); -- number
 - StatBonuses:[stringedMod](stringedmod)(); -- number
 - StatBonuses:[songModCap](songmodcap)(); -- number
-- StatBonuses:[hatemod](hatemod)(); -- unknown - int8
-- StatBonuses:[EnduranceReduction](endurancereduction)(); -- unknown - int32
-- StatBonuses:[StrikeThrough](strikethrough)(); -- unknown - int32
-- StatBonuses:[MeleeMitigation](meleemitigation)(); -- unknown - int32
-- StatBonuses:[MeleeMitigationEffect](meleemitigationeffect)(); -- unknown - int32
-- StatBonuses:[CriticalHitChance](criticalhitchance)(number idx); -- unknown - int32
-- StatBonuses:[CriticalSpellChance](criticalspellchance)(); -- unknown - int32
-- StatBonuses:[SpellCritDmgIncrease](spellcritdmgincrease)(); -- unknown - int32
-- StatBonuses:[SpellCritDmgIncNoStack](spellcritdmgincnostack)(); -- unknown - int32
-- StatBonuses:[DotCritDmgIncrease](dotcritdmgincrease)(); -- unknown - int32
-- StatBonuses:[CriticalHealChance](criticalhealchance)(); -- unknown - int32
-- StatBonuses:[CriticalHealOverTime](criticalhealovertime)(); -- unknown - int32
-- StatBonuses:[CriticalDoTChance](criticaldotchance)(); -- unknown - int32
-- StatBonuses:[CrippBlowChance](crippblowchance)(); -- unknown - int32
-- StatBonuses:[AvoidMeleeChance](avoidmeleechance)(); -- unknown - int32
-- StatBonuses:[AvoidMeleeChanceEffect](avoidmeleechanceeffect)(); -- unknown - int32
-- StatBonuses:[RiposteChance](ripostechance)(); -- unknown - int32
-- StatBonuses:[DodgeChance](dodgechance)(); -- unknown - int32
-- StatBonuses:[ParryChance](parrychance)(); -- unknown - int32
-- StatBonuses:[DualWieldChance](dualwieldchance)(); -- unknown - int32
-- StatBonuses:[DoubleAttackChance](doubleattackchance)(); -- unknown - int32
-- StatBonuses:[TripleAttackChance](tripleattackchance)(); -- unknown - int32
-- StatBonuses:[DoubleRangedAttack](doublerangedattack)(); -- unknown - int32
-- StatBonuses:[ResistSpellChance](resistspellchance)(); -- unknown - int32
-- StatBonuses:[ResistFearChance](resistfearchance)(); -- unknown - int32
+- StatBonuses:[hatemod](hatemod)(); -- number
+- StatBonuses:[EnduranceReduction](endurancereduction)(); -- number
+- StatBonuses:[StrikeThrough](strikethrough)(); -- number
+- StatBonuses:[MeleeMitigation](meleemitigation)(); -- number
+- StatBonuses:[MeleeMitigationEffect](meleemitigationeffect)(); -- number
+- StatBonuses:[CriticalHitChance](criticalhitchance)(number idx); -- number
+- StatBonuses:[CriticalSpellChance](criticalspellchance)(); -- number
+- StatBonuses:[SpellCritDmgIncrease](spellcritdmgincrease)(); -- number
+- StatBonuses:[SpellCritDmgIncNoStack](spellcritdmgincnostack)(); -- number
+- StatBonuses:[DotCritDmgIncrease](dotcritdmgincrease)(); -- number
+- StatBonuses:[CriticalHealChance](criticalhealchance)(); -- number
+- StatBonuses:[CriticalHealOverTime](criticalhealovertime)(); -- number
+- StatBonuses:[CriticalDoTChance](criticaldotchance)(); -- number
+- StatBonuses:[CrippBlowChance](crippblowchance)(); -- number
+- StatBonuses:[AvoidMeleeChance](avoidmeleechance)(); -- number
+- StatBonuses:[AvoidMeleeChanceEffect](avoidmeleechanceeffect)(); -- number
+- StatBonuses:[RiposteChance](ripostechance)(); -- number
+- StatBonuses:[DodgeChance](dodgechance)(); -- number
+- StatBonuses:[ParryChance](parrychance)(); -- number
+- StatBonuses:[DualWieldChance](dualwieldchance)(); -- number
+- StatBonuses:[DoubleAttackChance](doubleattackchance)(); -- number
+- StatBonuses:[TripleAttackChance](tripleattackchance)(); -- number
+- StatBonuses:[DoubleRangedAttack](doublerangedattack)(); -- number
+- StatBonuses:[ResistSpellChance](resistspellchance)(); -- number
+- StatBonuses:[ResistFearChance](resistfearchance)(); -- number
 - StatBonuses:[Fearless](fearless)(); -- bool
 - StatBonuses:[IsFeared](isfeared)(); -- bool
 - StatBonuses:[IsBlind](isblind)(); -- bool
-- StatBonuses:[StunResist](stunresist)(); -- unknown - int32
-- StatBonuses:[MeleeSkillCheck](meleeskillcheck)(); -- unknown - int32
-- StatBonuses:[MeleeSkillCheckSkill](meleeskillcheckskill)(); -- unknown - uint8
-- StatBonuses:[HitChanceEffect](hitchanceeffect)(number idx); -- unknown - int32
-- StatBonuses:[DamageModifier](damagemodifier)(number idx); -- unknown - int32
-- StatBonuses:[MinDamageModifier](mindamagemodifier)(number idx); -- unknown - int32
-- StatBonuses:[ProcChance](procchance)(); -- unknown - int32
-- StatBonuses:[ProcChanceSPA](procchancespa)(); -- unknown - int32
-- StatBonuses:[ExtraAttackChance](extraattackchance)(); -- unknown - int32
-- StatBonuses:[DoTShielding](dotshielding)(); -- unknown - int32
-- StatBonuses:[FlurryChance](flurrychance)(); -- unknown - int32
-- StatBonuses:[HundredHands](hundredhands)(); -- unknown - int32
-- StatBonuses:[MeleeLifetap](meleelifetap)(); -- unknown - int32
-- StatBonuses:[Vampirism](vampirism)(); -- unknown - int32
-- StatBonuses:[HealRate](healrate)(); -- unknown - int32
-- StatBonuses:[MaxHPChange](maxhpchange)(); -- unknown - int32
-- StatBonuses:[HealAmt](healamt)(); -- unknown - int32
-- StatBonuses:[SpellDmg](spelldmg)(); -- unknown - int32
-- StatBonuses:[Clairvoyance](clairvoyance)(); -- unknown - int32
-- StatBonuses:[DSMitigation](dsmitigation)(); -- unknown - int32
-- StatBonuses:[DSMitigationOffHand](dsmitigationoffhand)(); -- unknown - int32
-- StatBonuses:[TwoHandBluntBlock](twohandbluntblock)(); -- unknown - int32
+- StatBonuses:[StunResist](stunresist)(); -- number
+- StatBonuses:[MeleeSkillCheck](meleeskillcheck)(); -- number
+- StatBonuses:[MeleeSkillCheckSkill](meleeskillcheckskill)(); -- number
+- StatBonuses:[HitChanceEffect](hitchanceeffect)(number idx); -- number
+- StatBonuses:[DamageModifier](damagemodifier)(number idx); -- number
+- StatBonuses:[MinDamageModifier](mindamagemodifier)(number idx); -- number
+- StatBonuses:[ProcChance](procchance)(); -- number
+- StatBonuses:[ProcChanceSPA](procchancespa)(); -- number
+- StatBonuses:[ExtraAttackChance](extraattackchance)(); -- number
+- StatBonuses:[DoTShielding](dotshielding)(); -- number
+- StatBonuses:[FlurryChance](flurrychance)(); -- number
+- StatBonuses:[HundredHands](hundredhands)(); -- number
+- StatBonuses:[MeleeLifetap](meleelifetap)(); -- number
+- StatBonuses:[Vampirism](vampirism)(); -- number
+- StatBonuses:[HealRate](healrate)(); -- number
+- StatBonuses:[MaxHPChange](maxhpchange)(); -- number
+- StatBonuses:[HealAmt](healamt)(); -- number
+- StatBonuses:[SpellDmg](spelldmg)(); -- number
+- StatBonuses:[Clairvoyance](clairvoyance)(); -- number
+- StatBonuses:[DSMitigation](dsmitigation)(); -- number
+- StatBonuses:[DSMitigationOffHand](dsmitigationoffhand)(); -- number
+- StatBonuses:[TwoHandBluntBlock](twohandbluntblock)(); -- number
 - StatBonuses:[ItemManaRegenCap](itemmanaregencap)(); -- number
-- StatBonuses:[GravityEffect](gravityeffect)(); -- unknown - int32
+- StatBonuses:[GravityEffect](gravityeffect)(); -- number
 - StatBonuses:[AntiGate](antigate)(); -- bool
 - StatBonuses:[MagicWeapon](magicweapon)(); -- bool
-- StatBonuses:[IncreaseBlockChance](increaseblockchance)(); -- unknown - int32
+- StatBonuses:[IncreaseBlockChance](increaseblockchance)(); -- number
 - StatBonuses:[PersistantCasting](persistantcasting)(); -- number
 - StatBonuses:[XPRateMod](xpratemod)(); -- number
 - StatBonuses:[BlockNextSpell](blocknextspell)(); -- bool
 - StatBonuses:[ImmuneToFlee](immunetoflee)(); -- bool
 - StatBonuses:[VoiceGraft](voicegraft)(); -- number
-- StatBonuses:[SpellProcChance](spellprocchance)(); -- unknown - int32
-- StatBonuses:[CharmBreakChance](charmbreakchance)(); -- unknown - int32
-- StatBonuses:[SongRange](songrange)(); -- unknown - int32
+- StatBonuses:[SpellProcChance](spellprocchance)(); -- number
+- StatBonuses:[CharmBreakChance](charmbreakchance)(); -- number
+- StatBonuses:[SongRange](songrange)(); -- number
 - StatBonuses:[HPToManaConvert](hptomanaconvert)(); -- number
 - StatBonuses:[NegateEffects](negateeffects)(); -- bool
 - StatBonuses:[TriggerMeleeThreshold](triggermeleethreshold)(); -- bool
 - StatBonuses:[TriggerSpellThreshold](triggerspellthreshold)(); -- bool
-- StatBonuses:[ShieldBlock](shieldblock)(); -- unknown - int32
-- StatBonuses:[BlockBehind](blockbehind)(); -- unknown - int32
+- StatBonuses:[ShieldBlock](shieldblock)(); -- number
+- StatBonuses:[BlockBehind](blockbehind)(); -- number
 - StatBonuses:[CriticalRegenDecay](criticalregendecay)(); -- bool
 - StatBonuses:[CriticalHealDecay](criticalhealdecay)(); -- bool
 - StatBonuses:[CriticalDotDecay](criticaldotdecay)(); -- bool
 - StatBonuses:[DivineAura](divineaura)(); -- bool
 - StatBonuses:[DistanceRemoval](distanceremoval)(); -- bool
-- StatBonuses:[FrenziedDevastation](frenzieddevastation)(); -- unknown - int32
+- StatBonuses:[FrenziedDevastation](frenzieddevastation)(); -- number
 - StatBonuses:[NegateIfCombat](negateifcombat)(); -- bool
-- StatBonuses:[Screech](screech)(); -- unknown - int8
-- StatBonuses:[AlterNPCLevel](alternpclevel)(); -- unknown - int32
+- StatBonuses:[Screech](screech)(); -- number
+- StatBonuses:[AlterNPCLevel](alternpclevel)(); -- number
 - StatBonuses:[BerserkSPA](berserkspa)(); -- bool
-- StatBonuses:[Metabolism](metabolism)(); -- unknown - int32
+- StatBonuses:[Metabolism](metabolism)(); -- number
 - StatBonuses:[Sanctuary](sanctuary)(); -- bool
-- StatBonuses:[FactionModPct](factionmodpct)(); -- unknown - int32
-- StatBonuses:[Packrat](packrat)(); -- unknown - int8
-- StatBonuses:[BuffSlotIncrease](buffslotincrease)(); -- unknown - uint8
+- StatBonuses:[FactionModPct](factionmodpct)(); -- number
+- StatBonuses:[Packrat](packrat)(); -- number
+- StatBonuses:[BuffSlotIncrease](buffslotincrease)(); -- number
 - StatBonuses:[DelayDeath](delaydeath)(); -- number
-- StatBonuses:[BaseMovementSpeed](basemovementspeed)(); -- unknown - int8
-- StatBonuses:[IncreaseRunSpeedCap](increaserunspeedcap)(); -- unknown - uint8
-- StatBonuses:[DoubleSpecialAttack](doublespecialattack)(); -- unknown - int32
-- StatBonuses:[FrontalStunResist](frontalstunresist)(); -- unknown - uint8
-- StatBonuses:[BindWound](bindwound)(); -- unknown - int32
-- StatBonuses:[MaxBindWound](maxbindwound)(); -- unknown - int32
-- StatBonuses:[ChannelChanceSpells](channelchancespells)(); -- unknown - int32
-- StatBonuses:[ChannelChanceItems](channelchanceitems)(); -- unknown - int32
-- StatBonuses:[SeeInvis](seeinvis)(); -- unknown - uint8
-- StatBonuses:[TripleBackstab](triplebackstab)(); -- unknown - uint8
+- StatBonuses:[BaseMovementSpeed](basemovementspeed)(); -- number
+- StatBonuses:[IncreaseRunSpeedCap](increaserunspeedcap)(); -- number
+- StatBonuses:[DoubleSpecialAttack](doublespecialattack)(); -- number
+- StatBonuses:[FrontalStunResist](frontalstunresist)(); -- number
+- StatBonuses:[BindWound](bindwound)(); -- number
+- StatBonuses:[MaxBindWound](maxbindwound)(); -- number
+- StatBonuses:[ChannelChanceSpells](channelchancespells)(); -- number
+- StatBonuses:[ChannelChanceItems](channelchanceitems)(); -- number
+- StatBonuses:[SeeInvis](seeinvis)(); -- number
+- StatBonuses:[TripleBackstab](triplebackstab)(); -- number
 - StatBonuses:[FrontalBackstabMinDmg](frontalbackstabmindmg)(); -- bool
-- StatBonuses:[FrontalBackstabChance](frontalbackstabchance)(); -- unknown - uint8
-- StatBonuses:[ConsumeProjectile](consumeprojectile)(); -- unknown - uint8
-- StatBonuses:[ForageAdditionalItems](forageadditionalitems)(); -- unknown - uint8
-- StatBonuses:[SalvageChance](salvagechance)(); -- unknown - uint8
+- StatBonuses:[FrontalBackstabChance](frontalbackstabchance)(); -- number
+- StatBonuses:[ConsumeProjectile](consumeprojectile)(); -- number
+- StatBonuses:[ForageAdditionalItems](forageadditionalitems)(); -- number
+- StatBonuses:[SalvageChance](salvagechance)(); -- number
 - StatBonuses:[ArcheryDamageModifier](archerydamagemodifier)(); -- number
 - StatBonuses:[SecondaryDmgInc](secondarydmginc)(); -- bool
 - StatBonuses:[GiveDoubleAttack](givedoubleattack)(); -- number
-- StatBonuses:[PetCriticalHit](petcriticalhit)(); -- unknown - int32
-- StatBonuses:[PetAvoidance](petavoidance)(); -- unknown - int32
-- StatBonuses:[CombatStability](combatstability)(); -- unknown - int32
-- StatBonuses:[DoubleRiposte](doubleriposte)(); -- unknown - int32
-- StatBonuses:[Ambidexterity](ambidexterity)(); -- unknown - int32
-- StatBonuses:[PetMaxHP](petmaxhp)(); -- unknown - int32
-- StatBonuses:[PetFlurry](petflurry)(); -- unknown - int32
-- StatBonuses:[MasteryofPast](masteryofpast)(); -- unknown - uint8
+- StatBonuses:[PetCriticalHit](petcriticalhit)(); -- number
+- StatBonuses:[PetAvoidance](petavoidance)(); -- number
+- StatBonuses:[CombatStability](combatstability)(); -- number
+- StatBonuses:[DoubleRiposte](doubleriposte)(); -- number
+- StatBonuses:[Ambidexterity](ambidexterity)(); -- number
+- StatBonuses:[PetMaxHP](petmaxhp)(); -- number
+- StatBonuses:[PetFlurry](petflurry)(); -- number
+- StatBonuses:[MasteryofPast](masteryofpast)(); -- number
 - StatBonuses:[GivePetGroupTarget](givepetgrouptarget)(); -- bool
-- StatBonuses:[RootBreakChance](rootbreakchance)(); -- unknown - int32
-- StatBonuses:[UnfailingDivinity](unfailingdivinity)(); -- unknown - int32
-- StatBonuses:[ItemHPRegenCap](itemhpregencap)(); -- unknown - int32
-- StatBonuses:[OffhandRiposteFail](offhandripostefail)(); -- unknown - int32
-- StatBonuses:[ItemATKCap](itematkcap)(); -- unknown - int32
-- StatBonuses:[ShieldEquipDmgMod](shieldequipdmgmod)(); -- unknown - int32
+- StatBonuses:[RootBreakChance](rootbreakchance)(); -- number
+- StatBonuses:[UnfailingDivinity](unfailingdivinity)(); -- number
+- StatBonuses:[ItemHPRegenCap](itemhpregencap)(); -- number
+- StatBonuses:[OffhandRiposteFail](offhandripostefail)(); -- number
+- StatBonuses:[ItemATKCap](itematkcap)(); -- number
+- StatBonuses:[ShieldEquipDmgMod](shieldequipdmgmod)(); -- number
 - StatBonuses:[TriggerOnValueAmount](triggeronvalueamount)(); -- bool
-- StatBonuses:[StunBashChance](stunbashchance)(); -- unknown - int8
-- StatBonuses:[IncreaseChanceMemwipe](increasechancememwipe)(); -- unknown - int8
-- StatBonuses:[CriticalMend](criticalmend)(); -- unknown - int8
-- StatBonuses:[ImprovedReclaimEnergy](improvedreclaimenergy)(); -- unknown - int32
-- StatBonuses:[PetMeleeMitigation](petmeleemitigation)(); -- unknown - int32
+- StatBonuses:[StunBashChance](stunbashchance)(); -- number
+- StatBonuses:[IncreaseChanceMemwipe](increasechancememwipe)(); -- number
+- StatBonuses:[CriticalMend](criticalmend)(); -- number
+- StatBonuses:[ImprovedReclaimEnergy](improvedreclaimenergy)(); -- number
+- StatBonuses:[PetMeleeMitigation](petmeleemitigation)(); -- number
 - StatBonuses:[IllusionPersistence](illusionpersistence)(); -- bool
 - StatBonuses:[ShroudofStealth](shroudofstealth)(); -- bool
-- StatBonuses:[ReduceFallDamage](reducefalldamage)(); -- unknown - uint16
-- StatBonuses:[TradeSkillMastery](tradeskillmastery)(); -- unknown - uint8
-- StatBonuses:[NoBreakAESneak](nobreakaesneak)(); -- unknown - int16
-- StatBonuses:[FeignedCastOnChance](feignedcastonchance)(); -- unknown - int16
-- StatBonuses:[DivineSaveChance](divinesavechance)(number idx); -- unknown - int32
+- StatBonuses:[ReduceFallDamage](reducefalldamage)(); -- number
+- StatBonuses:[TradeSkillMastery](tradeskillmastery)(); -- number
+- StatBonuses:[NoBreakAESneak](nobreakaesneak)(); -- number
+- StatBonuses:[FeignedCastOnChance](feignedcastonchance)(); -- number
+- StatBonuses:[DivineSaveChance](divinesavechance)(number idx); -- number
 - StatBonuses:[DeathSave](deathsave)(number idx); -- number
-- StatBonuses:[Accuracy](accuracy)(number idx); -- unknown - int32
-- StatBonuses:[SkillDmgTaken](skilldmgtaken)(number idx); -- unknown - int16
+- StatBonuses:[Accuracy](accuracy)(number idx); -- number
+- StatBonuses:[SkillDmgTaken](skilldmgtaken)(number idx); -- number
 - StatBonuses:[SpellTriggers](spelltriggers)(number idx); -- number
 - StatBonuses:[SpellOnKill](spellonkill)(number idx); -- number
 - StatBonuses:[SpellOnDeath](spellondeath)(number idx); -- number
-- StatBonuses:[CritDmgMod](critdmgmod)(number idx); -- unknown - int32
-- StatBonuses:[SkillReuseTime](skillreusetime)(number idx); -- unknown - int32
-- StatBonuses:[SkillDamageAmount](skilldamageamount)(number idx); -- unknown - int32
+- StatBonuses:[CritDmgMod](critdmgmod)(number idx); -- number
+- StatBonuses:[SkillReuseTime](skillreusetime)(number idx); -- number
+- StatBonuses:[SkillDamageAmount](skilldamageamount)(number idx); -- number
 - StatBonuses:[HPPercCap](hpperccap)(number idx); -- number
 - StatBonuses:[ManaPercCap](manaperccap)(number idx); -- number
 - StatBonuses:[EndPercCap](endperccap)(number idx); -- number
-- StatBonuses:[FocusEffects](focuseffects)(number idx); -- unknown - uint8
-- StatBonuses:[FocusEffectsWorn](focuseffectsworn)(number idx); -- unknown - int16
+- StatBonuses:[FocusEffects](focuseffects)(number idx); -- number
+- StatBonuses:[FocusEffectsWorn](focuseffectsworn)(number idx); -- number
 - StatBonuses:[NegateAttacks](negateattacks)(number idx); -- number
 - StatBonuses:[MitigateMeleeRune](mitigatemeleerune)(number idx); -- number
 - StatBonuses:[MeleeThresholdGuard](meleethresholdguard)(number idx); -- number
@@ -222,24 +222,24 @@ weight: 25
 - StatBonuses:[MitigateSpellRune](mitigatespellrune)(number idx); -- number
 - StatBonuses:[MitigateDotRune](mitigatedotrune)(number idx); -- number
 - StatBonuses:[ManaAbsorbPercentDamage](manaabsorbpercentdamage)(number idx); -- number
-- StatBonuses:[ImprovedTaunt](improvedtaunt)(number idx); -- unknown - int32
+- StatBonuses:[ImprovedTaunt](improvedtaunt)(number idx); -- number
 - StatBonuses:[AbsorbMagicAtt](absorbmagicatt)(number idx); -- number
-- StatBonuses:[AStacker](astacker)(number idx); -- unknown - int32
-- StatBonuses:[BStacker](bstacker)(number idx); -- unknown - int32
-- StatBonuses:[CStacker](cstacker)(number idx); -- unknown - int32
-- StatBonuses:[DStacker](dstacker)(number idx); -- unknown - int32
+- StatBonuses:[AStacker](astacker)(number idx); -- number
+- StatBonuses:[BStacker](bstacker)(number idx); -- number
+- StatBonuses:[CStacker](cstacker)(number idx); -- number
+- StatBonuses:[DStacker](dstacker)(number idx); -- number
 - StatBonuses:[LimitToSkill](limittoskill)(number idx); -- bool
 - StatBonuses:[SkillProc](skillproc)(number idx); -- number
 - StatBonuses:[SkillProcSuccess](skillprocsuccess)(number idx); -- number
-- StatBonuses:[SkillAttackProc](skillattackproc)(number idx); -- unknown - int32
-- StatBonuses:[SlayUndead](slayundead)(number idx); -- unknown - int32
-- StatBonuses:[GiveDoubleRiposte](givedoubleriposte)(number idx); -- unknown - int32
+- StatBonuses:[SkillAttackProc](skillattackproc)(number idx); -- number
+- StatBonuses:[SlayUndead](slayundead)(number idx); -- number
+- StatBonuses:[GiveDoubleRiposte](givedoubleriposte)(number idx); -- number
 - StatBonuses:[RaiseSkillCap](raiseskillcap)(number idx); -- number
-- StatBonuses:[SEResist](seresist)(number idx); -- unknown - int32
-- StatBonuses:[FinishingBlow](finishingblow)(number idx); -- unknown - int32
+- StatBonuses:[SEResist](seresist)(number idx); -- number
+- StatBonuses:[FinishingBlow](finishingblow)(number idx); -- number
 - StatBonuses:[FinishingBlowLvl](finishingblowlvl)(number idx); -- number
 - StatBonuses:[HeadShot](headshot)(number idx); -- number
-- StatBonuses:[HSLevel](hslevel)(number idx); -- unknown - uint8
+- StatBonuses:[HSLevel](hslevel)(number idx); -- number
 - StatBonuses:[Assassinate](assassinate)(number idx); -- number
-- StatBonuses:[AssassinateLevel](assassinatelevel)(number idx); -- unknown - uint8
-- StatBonuses:[ReduceTradeskillFail](reducetradeskillfail)(number idx); -- unknown - int32
+- StatBonuses:[AssassinateLevel](assassinatelevel)(number idx); -- number
+- StatBonuses:[ReduceTradeskillFail](reducetradeskillfail)(number idx); -- number

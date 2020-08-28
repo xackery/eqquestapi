@@ -1,5 +1,6 @@
 ---
-title: Lua RandomizeFeatures
+title: RandomizeFeatures
+searchTitle: Lua Mob RandomizeFeatures
 weight: 1
 hidden: true
 menuTitle: RandomizeFeatures

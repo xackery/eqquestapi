@@ -1,5 +1,6 @@
 ---
-title: Lua Races
+title: Races
+searchTitle: Lua Item Races
 weight: 1
 hidden: true
 menuTitle: Races

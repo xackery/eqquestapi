@@ -1,5 +1,6 @@
 ---
-title: Lua GetReverseFactionCon
+title: GetReverseFactionCon
+searchTitle: Lua Mob GetReverseFactionCon
 weight: 1
 hidden: true
 menuTitle: GetReverseFactionCon

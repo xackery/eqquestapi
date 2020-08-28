@@ -1,5 +1,6 @@
 ---
-title: Lua AddLooter
+title: AddLooter
+searchTitle: Lua Corpse AddLooter
 weight: 1
 hidden: true
 menuTitle: AddLooter

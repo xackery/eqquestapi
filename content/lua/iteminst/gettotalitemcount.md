@@ -1,5 +1,6 @@
 ---
-title: Lua GetTotalItemCount
+title: GetTotalItemCount
+searchTitle: Lua ItemInst GetTotalItemCount
 weight: 1
 hidden: true
 menuTitle: GetTotalItemCount

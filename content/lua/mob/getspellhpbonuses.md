@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpellHPBonuses
+title: GetSpellHPBonuses
+searchTitle: Lua Mob GetSpellHPBonuses
 weight: 1
 hidden: true
 menuTitle: GetSpellHPBonuses

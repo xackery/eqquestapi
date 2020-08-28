@@ -1,5 +1,4 @@
 ---
-date: 2020-08-24T16:50:16+02:00
 title: Raid
 menuTitle: Raid
 weight: 25

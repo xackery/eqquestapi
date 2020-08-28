@@ -1,5 +1,6 @@
 ---
-title: Lua HasSkill
+title: HasSkill
+searchTitle: Lua Client HasSkill
 weight: 1
 hidden: true
 menuTitle: HasSkill

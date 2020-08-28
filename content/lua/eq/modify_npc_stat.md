@@ -1,5 +1,6 @@
 ---
-title: Lua modify_npc_stat
+title: modify_npc_stat
+searchTitle: Lua eq modify_npc_stat
 weight: 1
 hidden: true
 menuTitle: modify_npc_stat

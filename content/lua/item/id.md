@@ -1,5 +1,6 @@
 ---
-title: Lua ID
+title: ID
+searchTitle: Lua Item ID
 weight: 1
 hidden: true
 menuTitle: ID

@@ -1,5 +1,6 @@
 ---
-title: Lua FailTask
+title: FailTask
+searchTitle: Lua Client FailTask
 weight: 1
 hidden: true
 menuTitle: FailTask

@@ -1,10 +1,11 @@
 ---
-title: Lua STA
+title: STA
+searchTitle: Lua StatBonuses STA
 weight: 1
 hidden: true
 menuTitle: STA
 ---
 ## STA
 ```lua
-StatBonuses:STA(); -- unknown - int32
+StatBonuses:STA(); -- number
 ```

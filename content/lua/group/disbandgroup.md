@@ -1,5 +1,6 @@
 ---
-title: Lua DisbandGroup
+title: DisbandGroup
+searchTitle: Lua Group DisbandGroup
 weight: 1
 hidden: true
 menuTitle: DisbandGroup

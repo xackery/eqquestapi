@@ -1,5 +1,6 @@
 ---
-title: Lua songModCap
+title: songModCap
+searchTitle: Lua StatBonuses songModCap
 weight: 1
 hidden: true
 menuTitle: songModCap

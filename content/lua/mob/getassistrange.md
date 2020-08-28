@@ -1,5 +1,6 @@
 ---
-title: Lua GetAssistRange
+title: GetAssistRange
+searchTitle: Lua Mob GetAssistRange
 weight: 1
 hidden: true
 menuTitle: GetAssistRange

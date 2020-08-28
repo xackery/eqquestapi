@@ -1,10 +1,11 @@
 ---
-title: Lua HeroicCHA
+title: HeroicCHA
+searchTitle: Lua StatBonuses HeroicCHA
 weight: 1
 hidden: true
 menuTitle: HeroicCHA
 ---
 ## HeroicCHA
 ```lua
-StatBonuses:HeroicCHA(); -- unknown - int32
+StatBonuses:HeroicCHA(); -- number
 ```

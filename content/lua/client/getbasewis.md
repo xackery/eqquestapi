@@ -1,5 +1,6 @@
 ---
-title: Lua GetBaseWIS
+title: GetBaseWIS
+searchTitle: Lua Client GetBaseWIS
 weight: 1
 hidden: true
 menuTitle: GetBaseWIS

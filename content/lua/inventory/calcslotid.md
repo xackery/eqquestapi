@@ -1,5 +1,6 @@
 ---
-title: Lua CalcSlotId
+title: CalcSlotId
+searchTitle: Lua Inventory CalcSlotId
 weight: 1
 hidden: true
 menuTitle: CalcSlotId

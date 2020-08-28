@@ -1,5 +1,6 @@
 ---
-title: Lua GetLevel
+title: GetLevel
+searchTitle: Lua Mob GetLevel
 weight: 1
 hidden: true
 menuTitle: GetLevel

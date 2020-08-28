@@ -1,5 +1,6 @@
 ---
-title: Lua SetDecayTimer
+title: SetDecayTimer
+searchTitle: Lua Corpse SetDecayTimer
 weight: 1
 hidden: true
 menuTitle: SetDecayTimer

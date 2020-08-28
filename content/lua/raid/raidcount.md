@@ -1,5 +1,6 @@
 ---
-title: Lua RaidCount
+title: RaidCount
+searchTitle: Lua Raid RaidCount
 weight: 1
 hidden: true
 menuTitle: RaidCount

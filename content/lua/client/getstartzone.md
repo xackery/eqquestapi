@@ -1,5 +1,6 @@
 ---
-title: Lua GetStartZone
+title: GetStartZone
+searchTitle: Lua Client GetStartZone
 weight: 1
 hidden: true
 menuTitle: GetStartZone

@@ -1,5 +1,6 @@
 ---
-title: Lua SummonItem
+title: SummonItem
+searchTitle: Lua Client SummonItem
 weight: 1
 hidden: true
 menuTitle: SummonItem

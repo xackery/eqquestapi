@@ -1,5 +1,6 @@
 ---
-title: Lua Color
+title: Color
+searchTitle: Lua Item Color
 weight: 1
 hidden: true
 menuTitle: Color

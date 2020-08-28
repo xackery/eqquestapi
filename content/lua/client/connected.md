@@ -1,5 +1,6 @@
 ---
-title: Lua Connected
+title: Connected
+searchTitle: Lua Client Connected
 weight: 1
 hidden: true
 menuTitle: Connected

@@ -1,5 +1,6 @@
 ---
-title: Lua SetDeity
+title: SetDeity
+searchTitle: Lua Client SetDeity
 weight: 1
 hidden: true
 menuTitle: SetDeity

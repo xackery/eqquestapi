@@ -1,5 +1,6 @@
 ---
-title: Lua faction_value
+title: faction_value
+searchTitle: Lua eq faction_value
 weight: 1
 hidden: true
 menuTitle: faction_value

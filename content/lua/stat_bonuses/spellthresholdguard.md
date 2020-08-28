@@ -1,5 +1,6 @@
 ---
-title: Lua SpellThresholdGuard
+title: SpellThresholdGuard
+searchTitle: Lua StatBonuses SpellThresholdGuard
 weight: 1
 hidden: true
 menuTitle: SpellThresholdGuard

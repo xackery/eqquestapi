@@ -1,5 +1,6 @@
 ---
-title: Lua FindSpellBookSlotBySpellID
+title: FindSpellBookSlotBySpellID
+searchTitle: Lua Client FindSpellBookSlotBySpellID
 weight: 1
 hidden: true
 menuTitle: FindSpellBookSlotBySpellID

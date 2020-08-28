@@ -1,5 +1,6 @@
 ---
-title: Lua IsNPCCorpse
+title: IsNPCCorpse
+searchTitle: Lua Entity IsNPCCorpse
 weight: 1
 hidden: true
 menuTitle: IsNPCCorpse

@@ -1,5 +1,6 @@
 ---
-title: Lua CharmFileID
+title: CharmFileID
+searchTitle: Lua Item CharmFileID
 weight: 1
 hidden: true
 menuTitle: CharmFileID

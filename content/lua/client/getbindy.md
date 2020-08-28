@@ -1,5 +1,6 @@
 ---
-title: Lua GetBindY
+title: GetBindY
+searchTitle: Lua Client GetBindY
 weight: 1
 hidden: true
 menuTitle: GetBindY

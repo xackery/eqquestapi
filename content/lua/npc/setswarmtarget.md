@@ -1,5 +1,6 @@
 ---
-title: Lua SetSwarmTarget
+title: SetSwarmTarget
+searchTitle: Lua NPC SetSwarmTarget
 weight: 1
 hidden: true
 menuTitle: SetSwarmTarget

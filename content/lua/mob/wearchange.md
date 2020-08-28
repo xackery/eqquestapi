@@ -1,5 +1,6 @@
 ---
-title: Lua WearChange
+title: WearChange
+searchTitle: Lua Mob WearChange
 weight: 1
 hidden: true
 menuTitle: WearChange

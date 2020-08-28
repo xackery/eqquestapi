@@ -1,5 +1,6 @@
 ---
-title: Lua Favor
+title: Favor
+searchTitle: Lua Item Favor
 weight: 1
 hidden: true
 menuTitle: Favor

@@ -1,5 +1,6 @@
 ---
-title: Lua Shielding
+title: Shielding
+searchTitle: Lua Item Shielding
 weight: 1
 hidden: true
 menuTitle: Shielding

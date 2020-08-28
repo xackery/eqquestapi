@@ -1,5 +1,6 @@
 ---
-title: Lua IsAnimal
+title: IsAnimal
+searchTitle: Lua NPC IsAnimal
 weight: 1
 hidden: true
 menuTitle: IsAnimal

@@ -1,5 +1,6 @@
 ---
-title: Lua TeleportGroup
+title: TeleportGroup
+searchTitle: Lua Group TeleportGroup
 weight: 1
 hidden: true
 menuTitle: TeleportGroup

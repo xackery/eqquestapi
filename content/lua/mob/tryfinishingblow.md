@@ -1,5 +1,6 @@
 ---
-title: Lua TryFinishingBlow
+title: TryFinishingBlow
+searchTitle: Lua Mob TryFinishingBlow
 weight: 1
 hidden: true
 menuTitle: TryFinishingBlow

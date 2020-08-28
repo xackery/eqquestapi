@@ -1,5 +1,6 @@
 ---
-title: Lua IncreaseSkill
+title: IncreaseSkill
+searchTitle: Lua Client IncreaseSkill
 weight: 1
 hidden: true
 menuTitle: IncreaseSkill

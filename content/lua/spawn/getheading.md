@@ -1,5 +1,6 @@
 ---
-title: Lua GetHeading
+title: GetHeading
+searchTitle: Lua Spawn GetHeading
 weight: 1
 hidden: true
 menuTitle: GetHeading

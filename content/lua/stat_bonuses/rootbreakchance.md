@@ -1,10 +1,11 @@
 ---
-title: Lua RootBreakChance
+title: RootBreakChance
+searchTitle: Lua StatBonuses RootBreakChance
 weight: 1
 hidden: true
 menuTitle: RootBreakChance
 ---
 ## RootBreakChance
 ```lua
-StatBonuses:RootBreakChance(); -- unknown - int32
+StatBonuses:RootBreakChance(); -- number
 ```

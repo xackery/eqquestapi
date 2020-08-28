@@ -1,5 +1,6 @@
 ---
-title: Lua set_timer
+title: set_timer
+searchTitle: Lua eq set_timer
 weight: 1
 hidden: true
 menuTitle: set_timer

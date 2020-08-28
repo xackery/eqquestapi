@@ -1,5 +1,6 @@
 ---
-title: Lua IsMob
+title: IsMob
+searchTitle: Lua Entity IsMob
 weight: 1
 hidden: true
 menuTitle: IsMob

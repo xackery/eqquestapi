@@ -1,5 +1,6 @@
 ---
-title: Lua MaxSkill
+title: MaxSkill
+searchTitle: Lua Client MaxSkill
 weight: 1
 hidden: true
 menuTitle: MaxSkill

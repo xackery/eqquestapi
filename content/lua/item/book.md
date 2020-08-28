@@ -1,5 +1,6 @@
 ---
-title: Lua Book
+title: Book
+searchTitle: Lua Item Book
 weight: 1
 hidden: true
 menuTitle: Book

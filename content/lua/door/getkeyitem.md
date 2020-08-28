@@ -1,5 +1,6 @@
 ---
-title: Lua GetKeyItem
+title: GetKeyItem
+searchTitle: Lua Door GetKeyItem
 weight: 1
 hidden: true
 menuTitle: GetKeyItem

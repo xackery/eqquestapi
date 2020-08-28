@@ -1,5 +1,6 @@
 ---
-title: Lua GetGroupByLeaderName
+title: GetGroupByLeaderName
+searchTitle: Lua EntityList GetGroupByLeaderName
 weight: 1
 hidden: true
 menuTitle: GetGroupByLeaderName

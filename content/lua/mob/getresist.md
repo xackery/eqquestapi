@@ -1,5 +1,6 @@
 ---
-title: Lua GetResist
+title: GetResist
+searchTitle: Lua Mob GetResist
 weight: 1
 hidden: true
 menuTitle: GetResist

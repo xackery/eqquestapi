@@ -1,5 +1,6 @@
 ---
-title: Lua GetLockPick
+title: GetLockPick
+searchTitle: Lua Door GetLockPick
 weight: 1
 hidden: true
 menuTitle: GetLockPick

@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
 title: Entity
 menuTitle: Entity
 weight: 25
 ---
 
-## Entity Methods (Lua)- Entity:[IsClient](isclient)(); -- bool
+## Entity Methods (Lua)
+- Entity:[IsClient](isclient)(); -- bool
 - Entity:[IsNPC](isnpc)(); -- bool
 - Entity:[IsMob](ismob)(); -- bool
 - Entity:[IsMerc](ismerc)(); -- bool

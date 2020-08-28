@@ -1,5 +1,6 @@
 ---
-title: Lua GetKillCount
+title: GetKillCount
+searchTitle: Lua Spawn GetKillCount
 weight: 1
 hidden: true
 menuTitle: GetKillCount

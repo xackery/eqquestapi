@@ -1,5 +1,6 @@
 ---
-title: Lua GetDisciplineTimer
+title: GetDisciplineTimer
+searchTitle: Lua Client GetDisciplineTimer
 weight: 1
 hidden: true
 menuTitle: GetDisciplineTimer

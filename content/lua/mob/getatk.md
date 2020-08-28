@@ -1,5 +1,6 @@
 ---
-title: Lua GetATK
+title: GetATK
+searchTitle: Lua Mob GetATK
 weight: 1
 hidden: true
 menuTitle: GetATK

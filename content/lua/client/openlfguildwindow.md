@@ -1,5 +1,6 @@
 ---
-title: Lua OpenLFGuildWindow
+title: OpenLFGuildWindow
+searchTitle: Lua Client OpenLFGuildWindow
 weight: 1
 hidden: true
 menuTitle: OpenLFGuildWindow

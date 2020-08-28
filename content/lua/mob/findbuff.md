@@ -1,5 +1,6 @@
 ---
-title: Lua FindBuff
+title: FindBuff
+searchTitle: Lua Mob FindBuff
 weight: 1
 hidden: true
 menuTitle: FindBuff

@@ -1,5 +1,6 @@
 ---
-title: Lua clear_npctype_cache
+title: clear_npctype_cache
+searchTitle: Lua eq clear_npctype_cache
 weight: 1
 hidden: true
 menuTitle: clear_npctype_cache

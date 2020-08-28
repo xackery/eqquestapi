@@ -1,5 +1,6 @@
 ---
-title: Lua CanThisClassRiposte
+title: CanThisClassRiposte
+searchTitle: Lua Mob CanThisClassRiposte
 weight: 1
 hidden: true
 menuTitle: CanThisClassRiposte

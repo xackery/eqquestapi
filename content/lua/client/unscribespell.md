@@ -1,5 +1,6 @@
 ---
-title: Lua UnscribeSpell
+title: UnscribeSpell
+searchTitle: Lua Client UnscribeSpell
 weight: 1
 hidden: true
 menuTitle: UnscribeSpell

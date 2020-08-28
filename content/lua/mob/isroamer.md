@@ -1,5 +1,6 @@
 ---
-title: Lua IsRoamer
+title: IsRoamer
+searchTitle: Lua Mob IsRoamer
 weight: 1
 hidden: true
 menuTitle: IsRoamer

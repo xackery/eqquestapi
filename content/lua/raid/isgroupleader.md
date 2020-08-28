@@ -1,5 +1,6 @@
 ---
-title: Lua IsGroupLeader
+title: IsGroupLeader
+searchTitle: Lua Raid IsGroupLeader
 weight: 1
 hidden: true
 menuTitle: IsGroupLeader

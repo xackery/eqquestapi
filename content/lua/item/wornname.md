@@ -1,5 +1,6 @@
 ---
-title: Lua WornName
+title: WornName
+searchTitle: Lua Item WornName
 weight: 1
 hidden: true
 menuTitle: WornName

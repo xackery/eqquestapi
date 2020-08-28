@@ -1,10 +1,11 @@
 ---
-title: Lua SpellProcChance
+title: SpellProcChance
+searchTitle: Lua StatBonuses SpellProcChance
 weight: 1
 hidden: true
 menuTitle: SpellProcChance
 ---
 ## SpellProcChance
 ```lua
-StatBonuses:SpellProcChance(); -- unknown - int32
+StatBonuses:SpellProcChance(); -- number
 ```

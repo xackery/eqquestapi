@@ -1,5 +1,6 @@
 ---
-title: Lua SpellFades
+title: SpellFades
+searchTitle: Lua Spell SpellFades
 weight: 1
 hidden: true
 menuTitle: SpellFades

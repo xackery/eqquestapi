@@ -1,5 +1,6 @@
 ---
-title: Lua get_skill_name
+title: get_skill_name
+searchTitle: Lua eq get_skill_name
 weight: 1
 hidden: true
 menuTitle: get_skill_name

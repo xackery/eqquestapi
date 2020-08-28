@@ -1,5 +1,6 @@
 ---
-title: Lua say_link
+title: say_link
+searchTitle: Lua eq say_link
 weight: 1
 hidden: true
 menuTitle: say_link

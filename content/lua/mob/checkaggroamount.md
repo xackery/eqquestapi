@@ -1,5 +1,6 @@
 ---
-title: Lua CheckAggroAmount
+title: CheckAggroAmount
+searchTitle: Lua Mob CheckAggroAmount
 weight: 1
 hidden: true
 menuTitle: CheckAggroAmount

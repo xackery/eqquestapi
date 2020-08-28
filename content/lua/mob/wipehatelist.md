@@ -1,5 +1,6 @@
 ---
-title: Lua WipeHateList
+title: WipeHateList
+searchTitle: Lua Mob WipeHateList
 weight: 1
 hidden: true
 menuTitle: WipeHateList

@@ -1,5 +1,6 @@
 ---
-title: Lua SetCurrentWP
+title: SetCurrentWP
+searchTitle: Lua Mob SetCurrentWP
 weight: 1
 hidden: true
 menuTitle: SetCurrentWP

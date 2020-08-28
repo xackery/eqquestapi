@@ -1,5 +1,6 @@
 ---
-title: Lua PauseWandering
+title: PauseWandering
+searchTitle: Lua NPC PauseWandering
 weight: 1
 hidden: true
 menuTitle: PauseWandering

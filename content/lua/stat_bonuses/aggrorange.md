@@ -1,5 +1,6 @@
 ---
-title: Lua AggroRange
+title: AggroRange
+searchTitle: Lua StatBonuses AggroRange
 weight: 1
 hidden: true
 menuTitle: AggroRange

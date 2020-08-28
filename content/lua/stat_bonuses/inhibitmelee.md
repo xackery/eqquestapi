@@ -1,10 +1,11 @@
 ---
-title: Lua inhibitmelee
+title: inhibitmelee
+searchTitle: Lua StatBonuses inhibitmelee
 weight: 1
 hidden: true
 menuTitle: inhibitmelee
 ---
 ## inhibitmelee
 ```lua
-StatBonuses:inhibitmelee(); -- unknown - int32
+StatBonuses:inhibitmelee(); -- number
 ```

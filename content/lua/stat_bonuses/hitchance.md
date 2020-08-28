@@ -1,10 +1,11 @@
 ---
-title: Lua HitChance
+title: HitChance
+searchTitle: Lua StatBonuses HitChance
 weight: 1
 hidden: true
 menuTitle: HitChance
 ---
 ## HitChance
 ```lua
-StatBonuses:HitChance(); -- unknown - int32
+StatBonuses:HitChance(); -- number
 ```

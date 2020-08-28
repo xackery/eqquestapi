@@ -1,5 +1,6 @@
 ---
-title: Lua FindType
+title: FindType
+searchTitle: Lua Mob FindType
 weight: 1
 hidden: true
 menuTitle: FindType

@@ -1,5 +1,6 @@
 ---
-title: Lua GetFcDamageAmtIncoming
+title: GetFcDamageAmtIncoming
+searchTitle: Lua Mob GetFcDamageAmtIncoming
 weight: 1
 hidden: true
 menuTitle: GetFcDamageAmtIncoming

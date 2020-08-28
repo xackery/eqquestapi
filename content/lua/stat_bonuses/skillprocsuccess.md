@@ -1,5 +1,6 @@
 ---
-title: Lua SkillProcSuccess
+title: SkillProcSuccess
+searchTitle: Lua StatBonuses SkillProcSuccess
 weight: 1
 hidden: true
 menuTitle: SkillProcSuccess

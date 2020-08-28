@@ -1,5 +1,6 @@
 ---
-title: Lua EnableAreaRegens
+title: EnableAreaRegens
+searchTitle: Lua Client EnableAreaRegens
 weight: 1
 hidden: true
 menuTitle: EnableAreaRegens

@@ -1,5 +1,6 @@
 ---
-title: Lua InCombat
+title: InCombat
+searchTitle: Lua Spell InCombat
 weight: 1
 hidden: true
 menuTitle: InCombat

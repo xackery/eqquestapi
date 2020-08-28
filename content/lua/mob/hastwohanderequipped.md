@@ -1,5 +1,6 @@
 ---
-title: Lua HasTwoHanderEquipped
+title: HasTwoHanderEquipped
+searchTitle: Lua Mob HasTwoHanderEquipped
 weight: 1
 hidden: true
 menuTitle: HasTwoHanderEquipped

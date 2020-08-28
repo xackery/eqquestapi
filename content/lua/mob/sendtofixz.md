@@ -1,5 +1,6 @@
 ---
-title: Lua SendToFixZ
+title: SendToFixZ
+searchTitle: Lua Mob SendToFixZ
 weight: 1
 hidden: true
 menuTitle: SendToFixZ

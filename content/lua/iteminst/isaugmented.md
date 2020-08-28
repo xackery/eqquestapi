@@ -1,5 +1,6 @@
 ---
-title: Lua IsAugmented
+title: IsAugmented
+searchTitle: Lua ItemInst IsAugmented
 weight: 1
 hidden: true
 menuTitle: IsAugmented

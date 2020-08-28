@@ -1,5 +1,6 @@
 ---
-title: Lua ClearZoneFlag
+title: ClearZoneFlag
+searchTitle: Lua Client ClearZoneFlag
 weight: 1
 hidden: true
 menuTitle: ClearZoneFlag

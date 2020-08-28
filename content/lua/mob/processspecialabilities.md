@@ -1,5 +1,6 @@
 ---
-title: Lua ProcessSpecialAbilities
+title: ProcessSpecialAbilities
+searchTitle: Lua Mob ProcessSpecialAbilities
 weight: 1
 hidden: true
 menuTitle: ProcessSpecialAbilities

@@ -1,5 +1,6 @@
 ---
-title: Lua get_currency_id
+title: get_currency_id
+searchTitle: Lua eq get_currency_id
 weight: 1
 hidden: true
 menuTitle: get_currency_id

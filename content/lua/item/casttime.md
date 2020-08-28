@@ -1,5 +1,6 @@
 ---
-title: Lua CastTime
+title: CastTime
+searchTitle: Lua Item CastTime
 weight: 1
 hidden: true
 menuTitle: CastTime

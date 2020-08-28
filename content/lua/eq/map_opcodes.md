@@ -1,5 +1,6 @@
 ---
-title: Lua map_opcodes
+title: map_opcodes
+searchTitle: Lua eq map_opcodes
 weight: 1
 hidden: true
 menuTitle: map_opcodes

@@ -1,5 +1,6 @@
 ---
-title: Lua AEDuration
+title: AEDuration
+searchTitle: Lua Spell AEDuration
 weight: 1
 hidden: true
 menuTitle: AEDuration

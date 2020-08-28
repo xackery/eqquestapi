@@ -1,5 +1,6 @@
 ---
-title: Lua Accuracy
+title: Accuracy
+searchTitle: Lua Item Accuracy
 weight: 1
 hidden: true
 menuTitle: Accuracy

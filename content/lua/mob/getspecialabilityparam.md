@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpecialAbilityParam
+title: GetSpecialAbilityParam
+searchTitle: Lua Mob GetSpecialAbilityParam
 weight: 1
 hidden: true
 menuTitle: GetSpecialAbilityParam

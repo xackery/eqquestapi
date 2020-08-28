@@ -1,5 +1,6 @@
 ---
-title: Lua CastToDoor
+title: CastToDoor
+searchTitle: Lua Entity CastToDoor
 weight: 1
 hidden: true
 menuTitle: CastToDoor

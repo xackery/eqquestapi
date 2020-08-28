@@ -1,5 +1,6 @@
 ---
-title: Lua GetGuardPointY
+title: GetGuardPointY
+searchTitle: Lua NPC GetGuardPointY
 weight: 1
 hidden: true
 menuTitle: GetGuardPointY

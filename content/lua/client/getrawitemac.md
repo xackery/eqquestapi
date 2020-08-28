@@ -1,5 +1,6 @@
 ---
-title: Lua GetRawItemAC
+title: GetRawItemAC
+searchTitle: Lua Client GetRawItemAC
 weight: 1
 hidden: true
 menuTitle: GetRawItemAC

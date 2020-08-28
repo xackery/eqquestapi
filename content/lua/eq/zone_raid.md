@@ -1,5 +1,6 @@
 ---
-title: Lua zone_raid
+title: zone_raid
+searchTitle: Lua eq zone_raid
 weight: 1
 hidden: true
 menuTitle: zone_raid

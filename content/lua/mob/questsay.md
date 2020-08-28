@@ -1,5 +1,6 @@
 ---
-title: Lua QuestSay
+title: QuestSay
+searchTitle: Lua Mob QuestSay
 weight: 1
 hidden: true
 menuTitle: QuestSay

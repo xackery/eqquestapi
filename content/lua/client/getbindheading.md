@@ -1,5 +1,6 @@
 ---
-title: Lua GetBindHeading
+title: GetBindHeading
+searchTitle: Lua Client GetBindHeading
 weight: 1
 hidden: true
 menuTitle: GetBindHeading

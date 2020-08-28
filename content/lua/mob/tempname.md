@@ -1,5 +1,6 @@
 ---
-title: Lua TempName
+title: TempName
+searchTitle: Lua Mob TempName
 weight: 1
 hidden: true
 menuTitle: TempName

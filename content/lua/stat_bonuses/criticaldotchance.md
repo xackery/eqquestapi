@@ -1,10 +1,11 @@
 ---
-title: Lua CriticalDoTChance
+title: CriticalDoTChance
+searchTitle: Lua StatBonuses CriticalDoTChance
 weight: 1
 hidden: true
 menuTitle: CriticalDoTChance
 ---
 ## CriticalDoTChance
 ```lua
-StatBonuses:CriticalDoTChance(); -- unknown - int32
+StatBonuses:CriticalDoTChance(); -- number
 ```

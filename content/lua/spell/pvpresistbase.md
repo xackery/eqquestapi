@@ -1,5 +1,6 @@
 ---
-title: Lua PVPResistBase
+title: PVPResistBase
+searchTitle: Lua Spell PVPResistBase
 weight: 1
 hidden: true
 menuTitle: PVPResistBase

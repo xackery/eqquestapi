@@ -1,5 +1,6 @@
 ---
-title: Lua get_player_corpse_count
+title: get_player_corpse_count
+searchTitle: Lua eq get_player_corpse_count
 weight: 1
 hidden: true
 menuTitle: get_player_corpse_count

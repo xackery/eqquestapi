@@ -1,5 +1,6 @@
 ---
-title: Lua HasSpellScribed
+title: HasSpellScribed
+searchTitle: Lua Client HasSpellScribed
 weight: 1
 hidden: true
 menuTitle: HasSpellScribed

@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpawnByID
+title: GetSpawnByID
+searchTitle: Lua EntityList GetSpawnByID
 weight: 1
 hidden: true
 menuTitle: GetSpawnByID

@@ -1,5 +1,6 @@
 ---
-title: Lua get_guild_id_by_char_id
+title: get_guild_id_by_char_id
+searchTitle: Lua eq get_guild_id_by_char_id
 weight: 1
 hidden: true
 menuTitle: get_guild_id_by_char_id

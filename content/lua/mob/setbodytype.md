@@ -1,5 +1,6 @@
 ---
-title: Lua SetBodyType
+title: SetBodyType
+searchTitle: Lua Mob SetBodyType
 weight: 1
 hidden: true
 menuTitle: SetBodyType

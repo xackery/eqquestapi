@@ -1,5 +1,6 @@
 ---
-title: Lua GetRawSkill
+title: GetRawSkill
+searchTitle: Lua Client GetRawSkill
 weight: 1
 hidden: true
 menuTitle: GetRawSkill

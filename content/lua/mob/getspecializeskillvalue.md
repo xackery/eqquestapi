@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpecializeSkillValue
+title: GetSpecializeSkillValue
+searchTitle: Lua Mob GetSpecializeSkillValue
 weight: 1
 hidden: true
 menuTitle: GetSpecializeSkillValue

@@ -1,5 +1,6 @@
 ---
-title: Lua SetPetSpellID
+title: SetPetSpellID
+searchTitle: Lua NPC SetPetSpellID
 weight: 1
 hidden: true
 menuTitle: SetPetSpellID

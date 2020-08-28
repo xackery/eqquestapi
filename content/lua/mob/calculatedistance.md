@@ -1,5 +1,6 @@
 ---
-title: Lua CalculateDistance
+title: CalculateDistance
+searchTitle: Lua Mob CalculateDistance
 weight: 1
 hidden: true
 menuTitle: CalculateDistance

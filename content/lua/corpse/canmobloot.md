@@ -1,5 +1,6 @@
 ---
-title: Lua CanMobLoot
+title: CanMobLoot
+searchTitle: Lua Corpse CanMobLoot
 weight: 1
 hidden: true
 menuTitle: CanMobLoot

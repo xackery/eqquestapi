@@ -1,5 +1,6 @@
 ---
-title: Lua NoTransfer
+title: NoTransfer
+searchTitle: Lua Item NoTransfer
 weight: 1
 hidden: true
 menuTitle: NoTransfer

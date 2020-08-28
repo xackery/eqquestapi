@@ -1,5 +1,6 @@
 ---
-title: Lua ReadFixedLengthString
+title: ReadFixedLengthString
+searchTitle: Lua Packet ReadFixedLengthString
 weight: 1
 hidden: true
 menuTitle: ReadFixedLengthString

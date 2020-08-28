@@ -1,5 +1,6 @@
 ---
-title: Lua GetSlotByItemInst
+title: GetSlotByItemInst
+searchTitle: Lua Inventory GetSlotByItemInst
 weight: 1
 hidden: true
 menuTitle: GetSlotByItemInst

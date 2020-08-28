@@ -1,5 +1,6 @@
 ---
-title: Lua Enabled
+title: Enabled
+searchTitle: Lua Spawn Enabled
 weight: 1
 hidden: true
 menuTitle: Enabled

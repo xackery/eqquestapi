@@ -1,5 +1,6 @@
 ---
-title: Lua SplitMoney
+title: SplitMoney
+searchTitle: Lua Group SplitMoney
 weight: 1
 hidden: true
 menuTitle: SplitMoney

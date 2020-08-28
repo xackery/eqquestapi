@@ -1,5 +1,6 @@
 ---
-title: Lua GMMove
+title: GMMove
+searchTitle: Lua Mob GMMove
 weight: 1
 hidden: true
 menuTitle: GMMove

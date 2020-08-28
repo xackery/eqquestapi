@@ -1,5 +1,6 @@
 ---
-title: Lua DeleteNPCCorpses
+title: DeleteNPCCorpses
+searchTitle: Lua EntityList DeleteNPCCorpses
 weight: 1
 hidden: true
 menuTitle: DeleteNPCCorpses

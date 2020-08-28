@@ -1,5 +1,6 @@
 ---
-title: Lua GetHeading
+title: GetHeading
+searchTitle: Lua Mob GetHeading
 weight: 1
 hidden: true
 menuTitle: GetHeading

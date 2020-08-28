@@ -1,5 +1,6 @@
 ---
-title: Lua AddMoneyToPP
+title: AddMoneyToPP
+searchTitle: Lua Client AddMoneyToPP
 weight: 1
 hidden: true
 menuTitle: AddMoneyToPP

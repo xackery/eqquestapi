@@ -1,5 +1,6 @@
 ---
-title: Lua LimitToSkill
+title: LimitToSkill
+searchTitle: Lua StatBonuses LimitToSkill
 weight: 1
 hidden: true
 menuTitle: LimitToSkill

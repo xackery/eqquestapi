@@ -1,5 +1,6 @@
 ---
-title: Lua get_quest_item
+title: get_quest_item
+searchTitle: Lua eq get_quest_item
 weight: 1
 hidden: true
 menuTitle: get_quest_item

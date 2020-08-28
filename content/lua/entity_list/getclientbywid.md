@@ -1,5 +1,6 @@
 ---
-title: Lua GetClientByWID
+title: GetClientByWID
+searchTitle: Lua EntityList GetClientByWID
 weight: 1
 hidden: true
 menuTitle: GetClientByWID

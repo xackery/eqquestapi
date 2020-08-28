@@ -1,5 +1,6 @@
 ---
-title: Lua IsTaskActivityActive
+title: IsTaskActivityActive
+searchTitle: Lua Client IsTaskActivityActive
 weight: 1
 hidden: true
 menuTitle: IsTaskActivityActive

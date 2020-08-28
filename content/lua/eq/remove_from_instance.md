@@ -1,5 +1,6 @@
 ---
-title: Lua remove_from_instance
+title: remove_from_instance
+searchTitle: Lua eq remove_from_instance
 weight: 1
 hidden: true
 menuTitle: remove_from_instance

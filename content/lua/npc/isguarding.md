@@ -1,5 +1,6 @@
 ---
-title: Lua IsGuarding
+title: IsGuarding
+searchTitle: Lua NPC IsGuarding
 weight: 1
 hidden: true
 menuTitle: IsGuarding

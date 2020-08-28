@@ -1,5 +1,6 @@
 ---
-title: Lua HalveAggro
+title: HalveAggro
+searchTitle: Lua Mob HalveAggro
 weight: 1
 hidden: true
 menuTitle: HalveAggro

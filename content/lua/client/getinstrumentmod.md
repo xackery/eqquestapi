@@ -1,5 +1,6 @@
 ---
-title: Lua GetInstrumentMod
+title: GetInstrumentMod
+searchTitle: Lua Client GetInstrumentMod
 weight: 1
 hidden: true
 menuTitle: GetInstrumentMod

@@ -1,5 +1,6 @@
 ---
-title: Lua TargetType
+title: TargetType
+searchTitle: Lua Spell TargetType
 weight: 1
 hidden: true
 menuTitle: TargetType

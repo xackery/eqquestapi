@@ -1,5 +1,6 @@
 ---
-title: Lua DoAnim
+title: DoAnim
+searchTitle: Lua Mob DoAnim
 weight: 1
 hidden: true
 menuTitle: DoAnim

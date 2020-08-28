@@ -1,5 +1,6 @@
 ---
-title: Lua DoubleAggro
+title: DoubleAggro
+searchTitle: Lua Mob DoubleAggro
 weight: 1
 hidden: true
 menuTitle: DoubleAggro

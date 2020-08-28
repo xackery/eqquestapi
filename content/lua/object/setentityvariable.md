@@ -1,5 +1,6 @@
 ---
-title: Lua SetEntityVariable
+title: SetEntityVariable
+searchTitle: Lua Object SetEntityVariable
 weight: 1
 hidden: true
 menuTitle: SetEntityVariable

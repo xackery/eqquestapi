@@ -1,5 +1,6 @@
 ---
-title: Lua CheckLoSToLoc
+title: CheckLoSToLoc
+searchTitle: Lua Mob CheckLoSToLoc
 weight: 1
 hidden: true
 menuTitle: CheckLoSToLoc

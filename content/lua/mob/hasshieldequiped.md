@@ -1,5 +1,6 @@
 ---
-title: Lua HasShieldEquiped
+title: HasShieldEquiped
+searchTitle: Lua Mob HasShieldEquiped
 weight: 1
 hidden: true
 menuTitle: HasShieldEquiped

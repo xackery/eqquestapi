@@ -1,5 +1,6 @@
 ---
-title: Lua Thirsty
+title: Thirsty
+searchTitle: Lua Client Thirsty
 weight: 1
 hidden: true
 menuTitle: Thirsty

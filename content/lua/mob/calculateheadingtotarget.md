@@ -1,5 +1,6 @@
 ---
-title: Lua CalculateHeadingToTarget
+title: CalculateHeadingToTarget
+searchTitle: Lua Mob CalculateHeadingToTarget
 weight: 1
 hidden: true
 menuTitle: CalculateHeadingToTarget

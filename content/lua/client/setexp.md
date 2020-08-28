@@ -1,5 +1,6 @@
 ---
-title: Lua SetEXP
+title: SetEXP
+searchTitle: Lua Client SetEXP
 weight: 1
 hidden: true
 menuTitle: SetEXP

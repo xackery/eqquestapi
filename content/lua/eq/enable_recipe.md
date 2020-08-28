@@ -1,5 +1,6 @@
 ---
-title: Lua enable_recipe
+title: enable_recipe
+searchTitle: Lua eq enable_recipe
 weight: 1
 hidden: true
 menuTitle: enable_recipe

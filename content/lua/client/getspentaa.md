@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpentAA
+title: GetSpentAA
+searchTitle: Lua Client GetSpentAA
 weight: 1
 hidden: true
 menuTitle: GetSpentAA

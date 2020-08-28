@@ -1,5 +1,6 @@
 ---
-title: Lua GetNPCHate
+title: GetNPCHate
+searchTitle: Lua NPC GetNPCHate
 weight: 1
 hidden: true
 menuTitle: GetNPCHate

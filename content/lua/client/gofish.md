@@ -1,5 +1,6 @@
 ---
-title: Lua GoFish
+title: GoFish
+searchTitle: Lua Client GoFish
 weight: 1
 hidden: true
 menuTitle: GoFish

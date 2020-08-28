@@ -1,5 +1,6 @@
 ---
-title: Lua GetBeard
+title: GetBeard
+searchTitle: Lua Mob GetBeard
 weight: 1
 hidden: true
 menuTitle: GetBeard

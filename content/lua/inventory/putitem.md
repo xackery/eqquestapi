@@ -1,5 +1,6 @@
 ---
-title: Lua PutItem
+title: PutItem
+searchTitle: Lua Inventory PutItem
 weight: 1
 hidden: true
 menuTitle: PutItem

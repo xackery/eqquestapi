@@ -1,5 +1,6 @@
 ---
-title: Lua TimeOfDay
+title: TimeOfDay
+searchTitle: Lua Spell TimeOfDay
 weight: 1
 hidden: true
 menuTitle: TimeOfDay

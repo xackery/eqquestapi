@@ -1,5 +1,6 @@
 ---
-title: Lua CastingAnim
+title: CastingAnim
+searchTitle: Lua Spell CastingAnim
 weight: 1
 hidden: true
 menuTitle: CastingAnim

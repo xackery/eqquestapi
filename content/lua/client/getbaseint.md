@@ -1,5 +1,6 @@
 ---
-title: Lua GetBaseINT
+title: GetBaseINT
+searchTitle: Lua Client GetBaseINT
 weight: 1
 hidden: true
 menuTitle: GetBaseINT

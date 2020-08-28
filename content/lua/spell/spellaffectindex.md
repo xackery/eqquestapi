@@ -1,5 +1,6 @@
 ---
-title: Lua SpellAffectIndex
+title: SpellAffectIndex
+searchTitle: Lua Spell SpellAffectIndex
 weight: 1
 hidden: true
 menuTitle: SpellAffectIndex

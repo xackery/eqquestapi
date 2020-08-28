@@ -1,5 +1,6 @@
 ---
-title: Lua BuffFadeBySpellID
+title: BuffFadeBySpellID
+searchTitle: Lua Mob BuffFadeBySpellID
 weight: 1
 hidden: true
 menuTitle: BuffFadeBySpellID

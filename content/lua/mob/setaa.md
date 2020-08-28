@@ -1,5 +1,6 @@
 ---
-title: Lua SetAA
+title: SetAA
+searchTitle: Lua Mob SetAA
 weight: 1
 hidden: true
 menuTitle: SetAA

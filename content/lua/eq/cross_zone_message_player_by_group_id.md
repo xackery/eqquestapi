@@ -1,5 +1,6 @@
 ---
-title: Lua cross_zone_message_player_by_group_id
+title: cross_zone_message_player_by_group_id
+searchTitle: Lua eq cross_zone_message_player_by_group_id
 weight: 1
 hidden: true
 menuTitle: cross_zone_message_player_by_group_id

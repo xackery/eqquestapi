@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeGender
+title: ChangeGender
+searchTitle: Lua Mob ChangeGender
 weight: 1
 hidden: true
 menuTitle: ChangeGender

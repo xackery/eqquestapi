@@ -1,5 +1,6 @@
 ---
-title: Lua add_area
+title: add_area
+searchTitle: Lua eq add_area
 weight: 1
 hidden: true
 menuTitle: add_area

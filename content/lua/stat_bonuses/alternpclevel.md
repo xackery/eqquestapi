@@ -1,10 +1,11 @@
 ---
-title: Lua AlterNPCLevel
+title: AlterNPCLevel
+searchTitle: Lua StatBonuses AlterNPCLevel
 weight: 1
 hidden: true
 menuTitle: AlterNPCLevel
 ---
 ## AlterNPCLevel
 ```lua
-StatBonuses:AlterNPCLevel(); -- unknown - int32
+StatBonuses:AlterNPCLevel(); -- number
 ```

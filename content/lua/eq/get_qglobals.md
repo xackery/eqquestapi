@@ -1,5 +1,6 @@
 ---
-title: Lua get_qglobals
+title: get_qglobals
+searchTitle: Lua eq get_qglobals
 weight: 1
 hidden: true
 menuTitle: get_qglobals

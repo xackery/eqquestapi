@@ -1,5 +1,6 @@
 ---
-title: Lua SetSecSkill
+title: SetSecSkill
+searchTitle: Lua NPC SetSecSkill
 weight: 1
 hidden: true
 menuTitle: SetSecSkill

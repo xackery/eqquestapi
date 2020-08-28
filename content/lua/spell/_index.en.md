@@ -1,85 +1,84 @@
 ---
-date: 2020-08-24T16:50:16+02:00
 title: Spell
 menuTitle: Spell
 weight: 25
 ---
 
 ## Spell Methods (Lua)
-- Spell:[Activated](activated)(); -- number
-- Spell:[AEDuration](aeduration)(); -- number
-- Spell:[AEMaxTargets](aemaxtargets)(); -- number
-- Spell:[AllowRest](allowrest)(); -- bool
-- Spell:[AoeRange](aoerange)(); -- number
-- Spell:[Base](base)(number i); -- number
-- Spell:[BaseDiff](basediff)(); -- number
-- Spell:[BonusHate](bonushate)(); -- number
-- Spell:[BuffdurationFormula](buffdurationformula)(); -- number
-- Spell:[CanMGB](canmgb)(); -- number
-- Spell:[CastingAnim](castinganim)(); -- number
-- Spell:[CastOnOther](castonother)(); -- string
-- Spell:[CastOnYou](castonyou)(); -- string
-- Spell:[CastRestriction](castrestriction)(); -- number
-- Spell:[CastTime](casttime)(); -- number
-- Spell:[Classes](classes)(number i); -- number
-- Spell:[ComponentCounts](componentcounts)(number i); -- number
-- Spell:[Components](components)(number i); -- number
-- Spell:[DamageShieldType](damageshieldtype)(); -- number
-- Spell:[Deities](deities)(number i); -- number
-- Spell:[DescNum](descnum)(); -- number
-- Spell:[DirectionalEnd](directionalend)(); -- number
-- Spell:[DirectionalStart](directionalstart)(); -- number
-- Spell:[DisallowSit](disallowsit)(); -- number
-- Spell:[DispelFlag](dispelflag)(); -- number
-- Spell:[EffectDescNum](effectdescnum)(); -- number
-- Spell:[EffectID](effectid)(number i); -- number
-- Spell:[EndurCost](endurcost)(); -- number
-- Spell:[EndurTimerIndex](endurtimerindex)(); -- number
-- Spell:[EndurUpkeep](endurupkeep)(); -- number
-- Spell:[EnvironmentType](environmenttype)(); -- number
-- Spell:[GoodEffect](goodeffect)(); -- number
-- Spell:[HateAdded](hateadded)(); -- number
 - Spell:[ID](id)(); -- number
-- Spell:[InCombat](incombat)(); -- bool
-- Spell:[Mana](mana)(); -- number
-- Spell:[Max](max)(number i); -- number
-- Spell:[MaxDist](maxdist)(); -- number
-- Spell:[MaxDistMod](maxdistmod)(); -- number
-- Spell:[MaxResist](maxresist)(); -- number
-- Spell:[MinDist](mindist)(); -- number
-- Spell:[MinDistMod](mindistmod)(); -- number
-- Spell:[MinRange](minrange)(); -- number
-- Spell:[MinResist](minresist)(); -- number
 - Spell:[Name](name)(); -- string
-- Spell:[NimbusEffect](nimbuseffect)(); -- number
-- Spell:[NoexpendReagent](noexpendreagent)(number i); -- number
-- Spell:[NumHits](numhits)(); -- number
+- Spell:[TeleportZone](teleportzone)(); -- string
+- Spell:[YouCast](youcast)(); -- string
 - Spell:[OtherCasts](othercasts)(); -- string
-- Spell:[OutOfCombat](outofcombat)(); -- bool
-- Spell:[PersistDeath](persistdeath)(); -- bool
-- Spell:[PowerfulFlag](powerfulflag)(); -- number
+- Spell:[CastOnYou](castonyou)(); -- string
+- Spell:[CastOnOther](castonother)(); -- string
+- Spell:[SpellFades](spellfades)(); -- string
+- Spell:[Range](range)(); -- number
+- Spell:[AoeRange](aoerange)(); -- number
 - Spell:[PushBack](pushback)(); -- number
 - Spell:[PushUp](pushup)(); -- number
+- Spell:[CastTime](casttime)(); -- number
+- Spell:[RecoveryTime](recoverytime)(); -- number
+- Spell:[RecastTime](recasttime)(); -- number
+- Spell:[BuffdurationFormula](buffdurationformula)(); -- number
+- Spell:[AEDuration](aeduration)(); -- number
+- Spell:[Mana](mana)(); -- number
+- Spell:[Base](base)(number i); -- number
+- Spell:[Max](max)(number i); -- number
+- Spell:[Components](components)(number i); -- number
+- Spell:[ComponentCounts](componentcounts)(number i); -- number
+- Spell:[NoexpendReagent](noexpendreagent)(number i); -- number
+- Spell:[GoodEffect](goodeffect)(); -- number
+- Spell:[Activated](activated)(); -- number
+- Spell:[ResistType](resisttype)(); -- number
+- Spell:[EffectID](effectid)(number i); -- number
+- Spell:[TargetType](targettype)(); -- number
+- Spell:[BaseDiff](basediff)(); -- number
+- Spell:[Skill](skill)(); -- number
+- Spell:[ZoneType](zonetype)(); -- number
+- Spell:[EnvironmentType](environmenttype)(); -- number
+- Spell:[TimeOfDay](timeofday)(); -- number
+- Spell:[Classes](classes)(number i); -- number
+- Spell:[CastingAnim](castinganim)(); -- number
+- Spell:[SpellAffectIndex](spellaffectindex)(); -- number
+- Spell:[DisallowSit](disallowsit)(); -- number
+- Spell:[Deities](deities)(number i); -- number
+- Spell:[Uninterruptable](uninterruptable)(); -- number
+- Spell:[ResistDiff](resistdiff)(); -- number
+- Spell:[RecourseLink](recourselink)(); -- number
+- Spell:[ShortBuffBox](shortbuffbox)(); -- number
+- Spell:[DescNum](descnum)(); -- number
+- Spell:[EffectDescNum](effectdescnum)(); -- number
+- Spell:[BonusHate](bonushate)(); -- number
+- Spell:[EndurCost](endurcost)(); -- number
+- Spell:[EndurTimerIndex](endurtimerindex)(); -- number
+- Spell:[HateAdded](hateadded)(); -- number
+- Spell:[EndurUpkeep](endurupkeep)(); -- number
+- Spell:[NumHits](numhits)(); -- number
 - Spell:[PVPResistBase](pvpresistbase)(); -- number
 - Spell:[PVPResistCalc](pvpresistcalc)(); -- number
 - Spell:[PVPResistCap](pvpresistcap)(); -- number
-- Spell:[Range](range)(); -- number
-- Spell:[RecastTime](recasttime)(); -- number
-- Spell:[RecourseLink](recourselink)(); -- number
-- Spell:[RecoveryTime](recoverytime)(); -- number
-- Spell:[ResistDiff](resistdiff)(); -- number
-- Spell:[ResistType](resisttype)(); -- number
-- Spell:[ShortBuffBox](shortbuffbox)(); -- number
-- Spell:[Skill](skill)(); -- number
-- Spell:[SpellAffectIndex](spellaffectindex)(); -- number
 - Spell:[SpellCategory](spellcategory)(); -- number
-- Spell:[SpellFades](spellfades)(); -- string
-- Spell:[SpellGroup](spellgroup)(); -- number
-- Spell:[TargetType](targettype)(); -- number
-- Spell:[TeleportZone](teleportzone)(); -- string
-- Spell:[TimeOfDay](timeofday)(); -- number
-- Spell:[Uninterruptable](uninterruptable)(); -- number
+- Spell:[CanMGB](canmgb)(); -- number
+- Spell:[DispelFlag](dispelflag)(); -- number
+- Spell:[MinResist](minresist)(); -- number
+- Spell:[MaxResist](maxresist)(); -- number
 - Spell:[ViralTargets](viraltargets)(); -- number
 - Spell:[ViralTimer](viraltimer)(); -- number
-- Spell:[YouCast](youcast)(); -- string
-- Spell:[ZoneType](zonetype)(); -- number
+- Spell:[NimbusEffect](nimbuseffect)(); -- number
+- Spell:[DirectionalStart](directionalstart)(); -- number
+- Spell:[DirectionalEnd](directionalend)(); -- number
+- Spell:[SpellGroup](spellgroup)(); -- number
+- Spell:[PowerfulFlag](powerfulflag)(); -- number
+- Spell:[CastRestriction](castrestriction)(); -- number
+- Spell:[AllowRest](allowrest)(); -- bool
+- Spell:[InCombat](incombat)(); -- bool
+- Spell:[OutOfCombat](outofcombat)(); -- bool
+- Spell:[AEMaxTargets](aemaxtargets)(); -- number
+- Spell:[PersistDeath](persistdeath)(); -- bool
+- Spell:[MinDist](mindist)(); -- number
+- Spell:[MinDistMod](mindistmod)(); -- number
+- Spell:[MaxDist](maxdist)(); -- number
+- Spell:[MaxDistMod](maxdistmod)(); -- number
+- Spell:[MinRange](minrange)(); -- number
+- Spell:[DamageShieldType](damageshieldtype)(); -- number

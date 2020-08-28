@@ -1,5 +1,6 @@
 ---
-title: Lua ScribeSpell
+title: ScribeSpell
+searchTitle: Lua Client ScribeSpell
 weight: 1
 hidden: true
 menuTitle: ScribeSpell

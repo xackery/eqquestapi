@@ -1,5 +1,6 @@
 ---
-title: Lua MeleeThresholdGuard
+title: MeleeThresholdGuard
+searchTitle: Lua StatBonuses MeleeThresholdGuard
 weight: 1
 hidden: true
 menuTitle: MeleeThresholdGuard

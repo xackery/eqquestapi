@@ -1,5 +1,6 @@
 ---
-title: Lua GuildRank
+title: GuildRank
+searchTitle: Lua Client GuildRank
 weight: 1
 hidden: true
 menuTitle: GuildRank

@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpecialAbility
+title: GetSpecialAbility
+searchTitle: Lua Mob GetSpecialAbility
 weight: 1
 hidden: true
 menuTitle: GetSpecialAbility

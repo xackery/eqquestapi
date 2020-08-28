@@ -1,10 +1,11 @@
 ---
-title: Lua Endurance
+title: Endurance
+searchTitle: Lua StatBonuses Endurance
 weight: 1
 hidden: true
 menuTitle: Endurance
 ---
 ## Endurance
 ```lua
-StatBonuses:Endurance(); -- unknown - int32
+StatBonuses:Endurance(); -- number
 ```

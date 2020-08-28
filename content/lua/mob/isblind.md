@@ -1,5 +1,6 @@
 ---
-title: Lua IsBlind
+title: IsBlind
+searchTitle: Lua Mob IsBlind
 weight: 1
 hidden: true
 menuTitle: IsBlind

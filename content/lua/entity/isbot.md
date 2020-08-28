@@ -1,5 +1,6 @@
 ---
-title: Lua IsBot
+title: IsBot
+searchTitle: Lua Entity IsBot
 weight: 1
 hidden: true
 menuTitle: IsBot

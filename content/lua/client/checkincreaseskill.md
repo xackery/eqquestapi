@@ -1,5 +1,6 @@
 ---
-title: Lua CheckIncreaseSkill
+title: CheckIncreaseSkill
+searchTitle: Lua Client CheckIncreaseSkill
 weight: 1
 hidden: true
 menuTitle: CheckIncreaseSkill

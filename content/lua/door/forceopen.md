@@ -1,5 +1,6 @@
 ---
-title: Lua ForceOpen
+title: ForceOpen
+searchTitle: Lua Door ForceOpen
 weight: 1
 hidden: true
 menuTitle: ForceOpen

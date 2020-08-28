@@ -1,5 +1,6 @@
 ---
-title: Lua EnvironmentType
+title: EnvironmentType
+searchTitle: Lua Spell EnvironmentType
 weight: 1
 hidden: true
 menuTitle: EnvironmentType

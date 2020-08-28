@@ -1,10 +1,11 @@
 ---
-title: Lua FRCapMod
+title: FRCapMod
+searchTitle: Lua StatBonuses FRCapMod
 weight: 1
 hidden: true
 menuTitle: FRCapMod
 ---
 ## FRCapMod
 ```lua
-StatBonuses:FRCapMod(); -- unknown - int32
+StatBonuses:FRCapMod(); -- number
 ```

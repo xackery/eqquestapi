@@ -1,5 +1,6 @@
 ---
-title: Lua HealDamage
+title: HealDamage
+searchTitle: Lua Mob HealDamage
 weight: 1
 hidden: true
 menuTitle: HealDamage

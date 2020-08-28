@@ -1,5 +1,6 @@
 ---
-title: Lua GetClientList
+title: GetClientList
+searchTitle: Lua EntityList GetClientList
 weight: 1
 hidden: true
 menuTitle: GetClientList

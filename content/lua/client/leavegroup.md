@@ -1,5 +1,6 @@
 ---
-title: Lua LeaveGroup
+title: LeaveGroup
+searchTitle: Lua Client LeaveGroup
 weight: 1
 hidden: true
 menuTitle: LeaveGroup

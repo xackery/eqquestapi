@@ -1,5 +1,6 @@
 ---
-title: Lua ProjectileAnimation
+title: ProjectileAnimation
+searchTitle: Lua Mob ProjectileAnimation
 weight: 1
 hidden: true
 menuTitle: ProjectileAnimation

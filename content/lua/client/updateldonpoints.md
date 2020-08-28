@@ -1,5 +1,6 @@
 ---
-title: Lua UpdateLDoNPoints
+title: UpdateLDoNPoints
+searchTitle: Lua Client UpdateLDoNPoints
 weight: 1
 hidden: true
 menuTitle: UpdateLDoNPoints

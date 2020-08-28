@@ -1,5 +1,6 @@
 ---
-title: Lua GetModCharacterFactionLevel
+title: GetModCharacterFactionLevel
+searchTitle: Lua Client GetModCharacterFactionLevel
 weight: 1
 hidden: true
 menuTitle: GetModCharacterFactionLevel

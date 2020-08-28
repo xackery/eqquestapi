@@ -1,5 +1,6 @@
 ---
-title: Lua MoveZoneRaid
+title: MoveZoneRaid
+searchTitle: Lua Client MoveZoneRaid
 weight: 1
 hidden: true
 menuTitle: MoveZoneRaid

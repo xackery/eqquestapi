@@ -1,5 +1,6 @@
 ---
-title: Lua SendBeginCast
+title: SendBeginCast
+searchTitle: Lua Mob SendBeginCast
 weight: 1
 hidden: true
 menuTitle: SendBeginCast

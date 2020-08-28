@@ -1,5 +1,6 @@
 ---
-title: Lua IsTaunting
+title: IsTaunting
+searchTitle: Lua NPC IsTaunting
 weight: 1
 hidden: true
 menuTitle: IsTaunting

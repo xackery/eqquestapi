@@ -1,5 +1,6 @@
 ---
-title: Lua AugRestrict
+title: AugRestrict
+searchTitle: Lua Item AugRestrict
 weight: 1
 hidden: true
 menuTitle: AugRestrict

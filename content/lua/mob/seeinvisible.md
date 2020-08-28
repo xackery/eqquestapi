@@ -1,10 +1,11 @@
 ---
-title: Lua SeeInvisible
+title: SeeInvisible
+searchTitle: Lua Mob SeeInvisible
 weight: 1
 hidden: true
 menuTitle: SeeInvisible
 ---
 ## SeeInvisible
 ```lua
-Mob:SeeInvisible(); -- unknown - uint8
+Mob:SeeInvisible(); -- number
 ```

@@ -1,5 +1,6 @@
 ---
-title: Lua WriteDouble
+title: WriteDouble
+searchTitle: Lua Packet WriteDouble
 weight: 1
 hidden: true
 menuTitle: WriteDouble

@@ -1,5 +1,6 @@
 ---
-title: Lua GetBindX
+title: GetBindX
+searchTitle: Lua Client GetBindX
 weight: 1
 hidden: true
 menuTitle: GetBindX

@@ -1,5 +1,6 @@
 ---
-title: Lua EnableAreaEndRegen
+title: EnableAreaEndRegen
+searchTitle: Lua Client EnableAreaEndRegen
 weight: 1
 hidden: true
 menuTitle: EnableAreaEndRegen

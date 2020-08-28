@@ -1,5 +1,6 @@
 ---
-title: Lua GetTotalRaidDamage
+title: GetTotalRaidDamage
+searchTitle: Lua Raid GetTotalRaidDamage
 weight: 1
 hidden: true
 menuTitle: GetTotalRaidDamage

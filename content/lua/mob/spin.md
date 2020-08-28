@@ -1,5 +1,6 @@
 ---
-title: Lua Spin
+title: Spin
+searchTitle: Lua Mob Spin
 weight: 1
 hidden: true
 menuTitle: Spin

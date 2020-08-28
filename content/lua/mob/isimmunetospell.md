@@ -1,5 +1,6 @@
 ---
-title: Lua IsImmuneToSpell
+title: IsImmuneToSpell
+searchTitle: Lua Mob IsImmuneToSpell
 weight: 1
 hidden: true
 menuTitle: IsImmuneToSpell

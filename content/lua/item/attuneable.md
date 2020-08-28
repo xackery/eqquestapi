@@ -1,5 +1,6 @@
 ---
-title: Lua Attuneable
+title: Attuneable
+searchTitle: Lua Item Attuneable
 weight: 1
 hidden: true
 menuTitle: Attuneable

@@ -1,5 +1,6 @@
 ---
-title: Lua CheckNPCFactionAlly
+title: CheckNPCFactionAlly
+searchTitle: Lua NPC CheckNPCFactionAlly
 weight: 1
 hidden: true
 menuTitle: CheckNPCFactionAlly

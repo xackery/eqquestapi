@@ -1,5 +1,6 @@
 ---
-title: Lua set_sky
+title: set_sky
+searchTitle: Lua eq set_sky
 weight: 1
 hidden: true
 menuTitle: set_sky

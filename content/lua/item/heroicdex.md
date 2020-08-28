@@ -1,5 +1,6 @@
 ---
-title: Lua HeroicDex
+title: HeroicDex
+searchTitle: Lua Item HeroicDex
 weight: 1
 hidden: true
 menuTitle: HeroicDex

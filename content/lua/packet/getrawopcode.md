@@ -1,5 +1,6 @@
 ---
-title: Lua GetRawOpcode
+title: GetRawOpcode
+searchTitle: Lua Packet GetRawOpcode
 weight: 1
 hidden: true
 menuTitle: GetRawOpcode

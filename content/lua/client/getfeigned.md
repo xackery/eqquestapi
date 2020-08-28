@@ -1,5 +1,6 @@
 ---
-title: Lua GetFeigned
+title: GetFeigned
+searchTitle: Lua Client GetFeigned
 weight: 1
 hidden: true
 menuTitle: GetFeigned

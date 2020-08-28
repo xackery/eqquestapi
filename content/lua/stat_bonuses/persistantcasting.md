@@ -1,5 +1,6 @@
 ---
-title: Lua PersistantCasting
+title: PersistantCasting
+searchTitle: Lua StatBonuses PersistantCasting
 weight: 1
 hidden: true
 menuTitle: PersistantCasting

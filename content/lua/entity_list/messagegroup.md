@@ -1,5 +1,6 @@
 ---
-title: Lua MessageGroup
+title: MessageGroup
+searchTitle: Lua EntityList MessageGroup
 weight: 1
 hidden: true
 menuTitle: MessageGroup

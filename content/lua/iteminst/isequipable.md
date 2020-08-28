@@ -1,5 +1,6 @@
 ---
-title: Lua IsEquipable
+title: IsEquipable
+searchTitle: Lua ItemInst IsEquipable
 weight: 1
 hidden: true
 menuTitle: IsEquipable

@@ -351,25 +351,33 @@ func checkDocumented(language string, fileClass string, funcName string, syntax 
 		break
 	}
 
-	path := fmt.Sprintf("../../content/%s/%s/%s.md", language, fileClass, strings.ToLower(funcName))
-
-	_, err := os.Stat(path)
-	if err != nil {
-		if !os.IsNotExist(err) {
-			return fmt.Errorf("stat %s: %w", path, err)
-		}
-		fmt.Printf("%s is not documented: %s\n", path, syntax)
-		err = createStub(path, language, funcName, syntax)
-		if err != nil {
-			return fmt.Errorf("create stub: %w", err)
-		}
-	}
-
-	//second check if index references it
-	path = fmt.Sprintf("../../content/%s/%s/_index.en.md", language, fileClass)
+	path := fmt.Sprintf("../../content/%s/%s/_index.en.md", language, fileClass)
 	f, err := os.Open(path)
 	if err != nil {
-		return fmt.Errorf("open: %w", err)
+		if !os.IsNotExist(err) {
+			return fmt.Errorf("open: %w", err)
+		}
+		dirPath := fmt.Sprintf("../../content/%s/%s/", language, fileClass)
+		err = os.MkdirAll(dirPath, 0766)
+		if err != nil {
+			return fmt.Errorf("mkdir: %w", err)
+		}
+		index := fmt.Sprintf(`---
+title: %s
+menuTitle: %s
+weight: 25
+---
+
+## %s Methods (%s)
+`, strings.Title(fileClass), strings.Title(fileClass), strings.Title(fileClass), strings.Title(language))
+		f, err = os.Create(path)
+		if err != nil {
+			return fmt.Errorf("open: %w", err)
+		}
+		_, err = f.WriteString(index)
+		if err != nil {
+			return fmt.Errorf("writeString %s: %w", path, err)
+		}
 	}
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
@@ -384,7 +392,7 @@ func checkDocumented(language string, fileClass string, funcName string, syntax 
 	if !isIndexed {
 		entry := "- " + syntax[0:strings.Index(syntax, funcName)] + "[" + funcName + "](" + strings.ToLower(funcName) + ")" + syntax[strings.Index(syntax, funcName)+len(funcName):]
 		fo, err := os.OpenFile(path,
-			os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0644)
+			os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0666)
 		if err != nil {
 			return fmt.Errorf("write: %w", err)
 		}
@@ -395,22 +403,36 @@ func checkDocumented(language string, fileClass string, funcName string, syntax 
 		fmt.Println("added", entry)
 	}
 
+	path = fmt.Sprintf("../../content/%s/%s/%s.md", language, fileClass, strings.ToLower(funcName))
+
+	_, err = os.Stat(path)
+	if err != nil {
+		if !os.IsNotExist(err) {
+			return fmt.Errorf("stat %s: %w", path, err)
+		}
+		fmt.Printf("%s is not documented: %s\n", path, syntax)
+		err = createStub(path, language, scope.class, funcName, syntax)
+		if err != nil {
+			return fmt.Errorf("create stub: %w", err)
+		}
+	}
+
 	return nil
 }
 
-func createStub(path string, language string, funcName string, syntax string) error {
+func createStub(path string, language string, class string, funcName string, syntax string) error {
 	f, err := os.Create(path)
 	if err != nil {
 		return fmt.Errorf("create: %w", err)
 	}
 	funcPage := fmt.Sprintf(`---
-title: %s %s
+title: %s %s %s
 weight: 1
 hidden: true
 menuTitle: %s
 ---
 ## %s
-`, strings.Title(language), funcName, funcName, funcName)
+`, strings.Title(language), class, funcName, funcName, funcName)
 	funcPage += fmt.Sprintf("```%s\n%s\n```", strings.ToLower(language), syntax)
 	f.WriteString(funcPage)
 	f.Close()
@@ -441,6 +463,16 @@ func luaReturns(in string) string {
 	case "double":
 		return "number"
 	case "uint64":
+		return "number"
+	case "int32":
+		return "number"
+	case "uint8":
+		return "number"
+	case "uint16":
+		return "number"
+	case "int8":
+		return "number"
+	case "int16":
 		return "number"
 	}
 	return "unknown - " + in

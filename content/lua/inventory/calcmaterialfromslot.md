@@ -1,5 +1,6 @@
 ---
-title: Lua CalcMaterialFromSlot
+title: CalcMaterialFromSlot
+searchTitle: Lua Inventory CalcMaterialFromSlot
 weight: 1
 hidden: true
 menuTitle: CalcMaterialFromSlot

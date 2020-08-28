@@ -1,5 +1,6 @@
 ---
-title: Lua GetHandToHandDelay
+title: GetHandToHandDelay
+searchTitle: Lua Mob GetHandToHandDelay
 weight: 1
 hidden: true
 menuTitle: GetHandToHandDelay

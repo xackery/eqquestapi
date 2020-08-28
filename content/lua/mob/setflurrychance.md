@@ -1,5 +1,6 @@
 ---
-title: Lua SetFlurryChance
+title: SetFlurryChance
+searchTitle: Lua Mob SetFlurryChance
 weight: 1
 hidden: true
 menuTitle: SetFlurryChance

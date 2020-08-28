@@ -1,10 +1,11 @@
 ---
-title: Lua ManaRegen
+title: ManaRegen
+searchTitle: Lua StatBonuses ManaRegen
 weight: 1
 hidden: true
 menuTitle: ManaRegen
 ---
 ## ManaRegen
 ```lua
-StatBonuses:ManaRegen(); -- unknown - int32
+StatBonuses:ManaRegen(); -- number
 ```

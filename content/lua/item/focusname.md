@@ -1,5 +1,6 @@
 ---
-title: Lua FocusName
+title: FocusName
+searchTitle: Lua Item FocusName
 weight: 1
 hidden: true
 menuTitle: FocusName

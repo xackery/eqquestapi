@@ -1,5 +1,6 @@
 ---
-title: Lua GetDisableTimer
+title: GetDisableTimer
+searchTitle: Lua Door GetDisableTimer
 weight: 1
 hidden: true
 menuTitle: GetDisableTimer

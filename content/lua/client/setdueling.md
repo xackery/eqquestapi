@@ -1,5 +1,6 @@
 ---
-title: Lua SetDueling
+title: SetDueling
+searchTitle: Lua Client SetDueling
 weight: 1
 hidden: true
 menuTitle: SetDueling

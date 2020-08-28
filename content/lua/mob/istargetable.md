@@ -1,5 +1,6 @@
 ---
-title: Lua IsTargetable
+title: IsTargetable
+searchTitle: Lua Mob IsTargetable
 weight: 1
 hidden: true
 menuTitle: IsTargetable

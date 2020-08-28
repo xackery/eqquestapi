@@ -1,10 +1,11 @@
 ---
-title: Lua AGI
+title: AGI
+searchTitle: Lua StatBonuses AGI
 weight: 1
 hidden: true
 menuTitle: AGI
 ---
 ## AGI
 ```lua
-StatBonuses:AGI(); -- unknown - int32
+StatBonuses:AGI(); -- number
 ```

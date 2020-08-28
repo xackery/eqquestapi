@@ -1,5 +1,6 @@
 ---
-title: Lua HasProcs
+title: HasProcs
+searchTitle: Lua Mob HasProcs
 weight: 1
 hidden: true
 menuTitle: HasProcs

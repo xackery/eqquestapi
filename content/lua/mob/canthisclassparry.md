@@ -1,5 +1,6 @@
 ---
-title: Lua CanThisClassParry
+title: CanThisClassParry
+searchTitle: Lua Mob CanThisClassParry
 weight: 1
 hidden: true
 menuTitle: CanThisClassParry

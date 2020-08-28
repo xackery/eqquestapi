@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeLastName
+title: ChangeLastName
+searchTitle: Lua Client ChangeLastName
 weight: 1
 hidden: true
 menuTitle: ChangeLastName

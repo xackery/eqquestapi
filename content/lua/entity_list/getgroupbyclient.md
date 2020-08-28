@@ -1,5 +1,6 @@
 ---
-title: Lua GetGroupByClient
+title: GetGroupByClient
+searchTitle: Lua EntityList GetGroupByClient
 weight: 1
 hidden: true
 menuTitle: GetGroupByClient

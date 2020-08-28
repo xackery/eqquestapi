@@ -1,5 +1,6 @@
 ---
-title: Lua DecreaseByID
+title: DecreaseByID
+searchTitle: Lua Client DecreaseByID
 weight: 1
 hidden: true
 menuTitle: DecreaseByID

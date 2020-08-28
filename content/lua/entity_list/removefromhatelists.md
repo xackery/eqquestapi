@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveFromHateLists
+title: RemoveFromHateLists
+searchTitle: Lua EntityList RemoveFromHateLists
 weight: 1
 hidden: true
 menuTitle: RemoveFromHateLists

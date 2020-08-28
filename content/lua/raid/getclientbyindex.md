@@ -1,5 +1,6 @@
 ---
-title: Lua GetClientByIndex
+title: GetClientByIndex
+searchTitle: Lua Raid GetClientByIndex
 weight: 1
 hidden: true
 menuTitle: GetClientByIndex

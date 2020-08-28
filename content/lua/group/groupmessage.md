@@ -1,5 +1,6 @@
 ---
-title: Lua GroupMessage
+title: GroupMessage
+searchTitle: Lua Group GroupMessage
 weight: 1
 hidden: true
 menuTitle: GroupMessage

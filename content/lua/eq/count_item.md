@@ -1,5 +1,6 @@
 ---
-title: Lua count_item
+title: count_item
+searchTitle: Lua eq count_item
 weight: 1
 hidden: true
 menuTitle: count_item

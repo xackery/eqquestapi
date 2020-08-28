@@ -1,5 +1,6 @@
 ---
-title: Lua scribe_spells
+title: scribe_spells
+searchTitle: Lua eq scribe_spells
 weight: 1
 hidden: true
 menuTitle: scribe_spells

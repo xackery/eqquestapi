@@ -1,12 +1,16 @@
-[{{ range $index, $page := .Site.Pages }}
+
+[{{ $counter := 0 }}{{ range $index, $page := .Site.Pages }}
+{{- if ne $page.Params.searchTitle "" -}}
 {{- if ne $page.Type "json" -}}
-{{- if and $index (gt $index 0) -}},{{- end }}
+{{- if and $index (gt $counter 0) -}},{{- end }}
+{{ $counter = add $counter 1 }}
 {
 	"uri": "{{ $page.Permalink }}",
-	"title": "{{ htmlEscape $page.Title}}",
+	"title": "{{ htmlEscape $page.Params.searchTitle}}",
 	"tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
 	"description": "{{ htmlEscape .Description}}",
-	"content": {{$page.Plain | jsonify}}
+	"content": ""
 }
+{{- end -}}
 {{- end -}}
 {{- end -}}]

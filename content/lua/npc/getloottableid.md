@@ -1,5 +1,6 @@
 ---
-title: Lua GetLoottableID
+title: GetLoottableID
+searchTitle: Lua NPC GetLoottableID
 weight: 1
 hidden: true
 menuTitle: GetLoottableID

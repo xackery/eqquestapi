@@ -1,5 +1,6 @@
 ---
-title: Lua ASta
+title: ASta
+searchTitle: Lua Item ASta
 weight: 1
 hidden: true
 menuTitle: ASta

@@ -1,5 +1,6 @@
 ---
-title: Lua ClearItemList
+title: ClearItemList
+searchTitle: Lua NPC ClearItemList
 weight: 1
 hidden: true
 menuTitle: ClearItemList

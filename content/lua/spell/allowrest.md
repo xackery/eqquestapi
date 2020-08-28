@@ -1,5 +1,6 @@
 ---
-title: Lua AllowRest
+title: AllowRest
+searchTitle: Lua Spell AllowRest
 weight: 1
 hidden: true
 menuTitle: AllowRest

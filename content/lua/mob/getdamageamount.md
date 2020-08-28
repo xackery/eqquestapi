@@ -1,5 +1,6 @@
 ---
-title: Lua GetDamageAmount
+title: GetDamageAmount
+searchTitle: Lua Mob GetDamageAmount
 weight: 1
 hidden: true
 menuTitle: GetDamageAmount

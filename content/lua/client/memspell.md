@@ -1,5 +1,6 @@
 ---
-title: Lua MemSpell
+title: MemSpell
+searchTitle: Lua Client MemSpell
 weight: 1
 hidden: true
 menuTitle: MemSpell

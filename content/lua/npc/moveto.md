@@ -1,5 +1,6 @@
 ---
-title: Lua MoveTo
+title: MoveTo
+searchTitle: Lua NPC MoveTo
 weight: 1
 hidden: true
 menuTitle: MoveTo

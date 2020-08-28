@@ -1,5 +1,6 @@
 ---
-title: Lua UntrainDisc
+title: UntrainDisc
+searchTitle: Lua Client UntrainDisc
 weight: 1
 hidden: true
 menuTitle: UntrainDisc

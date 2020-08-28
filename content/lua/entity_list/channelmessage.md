@@ -1,5 +1,6 @@
 ---
-title: Lua ChannelMessage
+title: ChannelMessage
+searchTitle: Lua EntityList ChannelMessage
 weight: 1
 hidden: true
 menuTitle: ChannelMessage

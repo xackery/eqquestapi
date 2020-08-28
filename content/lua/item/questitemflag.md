@@ -1,5 +1,6 @@
 ---
-title: Lua QuestItemFlag
+title: QuestItemFlag
+searchTitle: Lua Item QuestItemFlag
 weight: 1
 hidden: true
 menuTitle: QuestItemFlag

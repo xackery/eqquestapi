@@ -1,5 +1,6 @@
 ---
-title: Lua GetWaypointID
+title: GetWaypointID
+searchTitle: Lua Mob GetWaypointID
 weight: 1
 hidden: true
 menuTitle: GetWaypointID

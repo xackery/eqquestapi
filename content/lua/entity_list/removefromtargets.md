@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveFromTargets
+title: RemoveFromTargets
+searchTitle: Lua EntityList RemoveFromTargets
 weight: 1
 hidden: true
 menuTitle: RemoveFromTargets

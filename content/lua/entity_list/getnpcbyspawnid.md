@@ -1,5 +1,6 @@
 ---
-title: Lua GetNPCBySpawnID
+title: GetNPCBySpawnID
+searchTitle: Lua EntityList GetNPCBySpawnID
 weight: 1
 hidden: true
 menuTitle: GetNPCBySpawnID

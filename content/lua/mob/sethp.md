@@ -1,5 +1,6 @@
 ---
-title: Lua SetHP
+title: SetHP
+searchTitle: Lua Mob SetHP
 weight: 1
 hidden: true
 menuTitle: SetHP

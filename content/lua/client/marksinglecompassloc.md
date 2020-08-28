@@ -1,5 +1,6 @@
 ---
-title: Lua MarkSingleCompassLoc
+title: MarkSingleCompassLoc
+searchTitle: Lua Client MarkSingleCompassLoc
 weight: 1
 hidden: true
 menuTitle: MarkSingleCompassLoc

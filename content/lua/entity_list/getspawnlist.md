@@ -1,5 +1,6 @@
 ---
-title: Lua GetSpawnList
+title: GetSpawnList
+searchTitle: Lua EntityList GetSpawnList
 weight: 1
 hidden: true
 menuTitle: GetSpawnList

@@ -1,5 +1,6 @@
 ---
-title: Lua IsEliteMaterialItem
+title: IsEliteMaterialItem
+searchTitle: Lua Mob IsEliteMaterialItem
 weight: 1
 hidden: true
 menuTitle: IsEliteMaterialItem

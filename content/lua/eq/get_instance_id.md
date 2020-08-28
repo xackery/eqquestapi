@@ -1,5 +1,6 @@
 ---
-title: Lua get_instance_id
+title: get_instance_id
+searchTitle: Lua eq get_instance_id
 weight: 1
 hidden: true
 menuTitle: get_instance_id

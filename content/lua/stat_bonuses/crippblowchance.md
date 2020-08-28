@@ -1,10 +1,11 @@
 ---
-title: Lua CrippBlowChance
+title: CrippBlowChance
+searchTitle: Lua StatBonuses CrippBlowChance
 weight: 1
 hidden: true
 menuTitle: CrippBlowChance
 ---
 ## CrippBlowChance
 ```lua
-StatBonuses:CrippBlowChance(); -- unknown - int32
+StatBonuses:CrippBlowChance(); -- number
 ```

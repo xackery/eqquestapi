@@ -1,5 +1,6 @@
 ---
-title: Lua GetBaseGender
+title: GetBaseGender
+searchTitle: Lua Mob GetBaseGender
 weight: 1
 hidden: true
 menuTitle: GetBaseGender

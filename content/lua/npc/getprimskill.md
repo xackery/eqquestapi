@@ -1,5 +1,6 @@
 ---
-title: Lua GetPrimSkill
+title: GetPrimSkill
+searchTitle: Lua NPC GetPrimSkill
 weight: 1
 hidden: true
 menuTitle: GetPrimSkill

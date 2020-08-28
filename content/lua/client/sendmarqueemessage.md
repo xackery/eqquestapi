@@ -1,5 +1,6 @@
 ---
-title: Lua SendMarqueeMessage
+title: SendMarqueeMessage
+searchTitle: Lua Client SendMarqueeMessage
 weight: 1
 hidden: true
 menuTitle: SendMarqueeMessage

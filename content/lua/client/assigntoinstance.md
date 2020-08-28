@@ -1,5 +1,6 @@
 ---
-title: Lua AssignToInstance
+title: AssignToInstance
+searchTitle: Lua Client AssignToInstance
 weight: 1
 hidden: true
 menuTitle: AssignToInstance

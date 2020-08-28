@@ -1,5 +1,6 @@
 ---
-title: Lua Message
+title: Message
+searchTitle: Lua Mob Message
 weight: 1
 hidden: true
 menuTitle: Message

@@ -1,10 +1,11 @@
 ---
-title: Lua MeleeSkillCheckSkill
+title: MeleeSkillCheckSkill
+searchTitle: Lua StatBonuses MeleeSkillCheckSkill
 weight: 1
 hidden: true
 menuTitle: MeleeSkillCheckSkill
 ---
 ## MeleeSkillCheckSkill
 ```lua
-StatBonuses:MeleeSkillCheckSkill(); -- unknown - uint8
+StatBonuses:MeleeSkillCheckSkill(); -- number
 ```

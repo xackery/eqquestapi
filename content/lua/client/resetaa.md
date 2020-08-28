@@ -1,5 +1,6 @@
 ---
-title: Lua ResetAA
+title: ResetAA
+searchTitle: Lua Client ResetAA
 weight: 1
 hidden: true
 menuTitle: ResetAA

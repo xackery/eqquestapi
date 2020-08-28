@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_lost_dungeons_of_norrath
+title: is_current_expansion_lost_dungeons_of_norrath
+searchTitle: Lua eq is_current_expansion_lost_dungeons_of_norrath
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_lost_dungeons_of_norrath

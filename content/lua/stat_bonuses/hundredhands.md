@@ -1,10 +1,11 @@
 ---
-title: Lua HundredHands
+title: HundredHands
+searchTitle: Lua StatBonuses HundredHands
 weight: 1
 hidden: true
 menuTitle: HundredHands
 ---
 ## HundredHands
 ```lua
-StatBonuses:HundredHands(); -- unknown - int32
+StatBonuses:HundredHands(); -- number
 ```

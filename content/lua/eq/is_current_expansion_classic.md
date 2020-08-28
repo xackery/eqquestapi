@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_classic
+title: is_current_expansion_classic
+searchTitle: Lua eq is_current_expansion_classic
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_classic

@@ -1,5 +1,6 @@
 ---
-title: Lua GetCasterLevel
+title: GetCasterLevel
+searchTitle: Lua Mob GetCasterLevel
 weight: 1
 hidden: true
 menuTitle: GetCasterLevel

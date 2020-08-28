@@ -1,5 +1,6 @@
 ---
-title: Lua send_mail
+title: send_mail
+searchTitle: Lua eq send_mail
 weight: 1
 hidden: true
 menuTitle: send_mail

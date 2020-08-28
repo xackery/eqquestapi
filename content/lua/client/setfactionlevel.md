@@ -1,5 +1,6 @@
 ---
-title: Lua SetFactionLevel
+title: SetFactionLevel
+searchTitle: Lua Client SetFactionLevel
 weight: 1
 hidden: true
 menuTitle: SetFactionLevel

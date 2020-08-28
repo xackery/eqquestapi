@@ -1,5 +1,6 @@
 ---
-title: Lua CanBuffStack
+title: CanBuffStack
+searchTitle: Lua Mob CanBuffStack
 weight: 1
 hidden: true
 menuTitle: CanBuffStack

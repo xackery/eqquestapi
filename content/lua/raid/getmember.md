@@ -1,5 +1,6 @@
 ---
-title: Lua GetMember
+title: GetMember
+searchTitle: Lua Raid GetMember
 weight: 1
 hidden: true
 menuTitle: GetMember

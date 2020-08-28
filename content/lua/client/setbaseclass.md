@@ -1,5 +1,6 @@
 ---
-title: Lua SetBaseClass
+title: SetBaseClass
+searchTitle: Lua Client SetBaseClass
 weight: 1
 hidden: true
 menuTitle: SetBaseClass

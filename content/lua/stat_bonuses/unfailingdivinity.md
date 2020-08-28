@@ -1,10 +1,11 @@
 ---
-title: Lua UnfailingDivinity
+title: UnfailingDivinity
+searchTitle: Lua StatBonuses UnfailingDivinity
 weight: 1
 hidden: true
 menuTitle: UnfailingDivinity
 ---
 ## UnfailingDivinity
 ```lua
-StatBonuses:UnfailingDivinity(); -- unknown - int32
+StatBonuses:UnfailingDivinity(); -- number
 ```

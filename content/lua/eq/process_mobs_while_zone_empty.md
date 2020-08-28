@@ -1,5 +1,6 @@
 ---
-title: Lua process_mobs_while_zone_empty
+title: process_mobs_while_zone_empty
+searchTitle: Lua eq process_mobs_while_zone_empty
 weight: 1
 hidden: true
 menuTitle: process_mobs_while_zone_empty

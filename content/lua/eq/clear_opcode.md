@@ -1,5 +1,6 @@
 ---
-title: Lua clear_opcode
+title: clear_opcode
+searchTitle: Lua eq clear_opcode
 weight: 1
 hidden: true
 menuTitle: clear_opcode

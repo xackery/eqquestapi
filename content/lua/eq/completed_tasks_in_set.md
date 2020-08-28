@@ -1,5 +1,6 @@
 ---
-title: Lua completed_tasks_in_set
+title: completed_tasks_in_set
+searchTitle: Lua eq completed_tasks_in_set
 weight: 1
 hidden: true
 menuTitle: completed_tasks_in_set

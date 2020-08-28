@@ -1,5 +1,6 @@
 ---
-title: Lua respawn
+title: respawn
+searchTitle: Lua eq respawn
 weight: 1
 hidden: true
 menuTitle: respawn

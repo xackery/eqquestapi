@@ -1,5 +1,6 @@
 ---
-title: Lua null
+title: null
+searchTitle: Lua Item null
 weight: 1
 hidden: true
 menuTitle: null

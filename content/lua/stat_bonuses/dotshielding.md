@@ -1,10 +1,11 @@
 ---
-title: Lua DoTShielding
+title: DoTShielding
+searchTitle: Lua StatBonuses DoTShielding
 weight: 1
 hidden: true
 menuTitle: DoTShielding
 ---
 ## DoTShielding
 ```lua
-StatBonuses:DoTShielding(); -- unknown - int32
+StatBonuses:DoTShielding(); -- number
 ```

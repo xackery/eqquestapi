@@ -1,5 +1,6 @@
 ---
-title: Lua GetColor
+title: GetColor
+searchTitle: Lua ItemInst GetColor
 weight: 1
 hidden: true
 menuTitle: GetColor

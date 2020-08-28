@@ -1,5 +1,6 @@
 ---
-title: Lua FaceTarget
+title: FaceTarget
+searchTitle: Lua Mob FaceTarget
 weight: 1
 hidden: true
 menuTitle: FaceTarget

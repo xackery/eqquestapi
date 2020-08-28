@@ -1,10 +1,11 @@
 ---
-title: Lua BindWound
+title: BindWound
+searchTitle: Lua StatBonuses BindWound
 weight: 1
 hidden: true
 menuTitle: BindWound
 ---
 ## BindWound
 ```lua
-StatBonuses:BindWound(); -- unknown - int32
+StatBonuses:BindWound(); -- number
 ```

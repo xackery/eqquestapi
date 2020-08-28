@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxINT
+title: GetMaxINT
+searchTitle: Lua Mob GetMaxINT
 weight: 1
 hidden: true
 menuTitle: GetMaxINT

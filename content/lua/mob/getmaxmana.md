@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxMana
+title: GetMaxMana
+searchTitle: Lua Mob GetMaxMana
 weight: 1
 hidden: true
 menuTitle: GetMaxMana

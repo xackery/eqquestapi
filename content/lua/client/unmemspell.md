@@ -1,5 +1,6 @@
 ---
-title: Lua UnmemSpell
+title: UnmemSpell
+searchTitle: Lua Client UnmemSpell
 weight: 1
 hidden: true
 menuTitle: UnmemSpell

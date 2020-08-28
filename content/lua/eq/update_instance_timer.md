@@ -1,5 +1,6 @@
 ---
-title: Lua update_instance_timer
+title: update_instance_timer
+searchTitle: Lua eq update_instance_timer
 weight: 1
 hidden: true
 menuTitle: update_instance_timer

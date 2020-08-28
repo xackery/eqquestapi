@@ -1,5 +1,6 @@
 ---
-title: Lua IsGroundSpawn
+title: IsGroundSpawn
+searchTitle: Lua Object IsGroundSpawn
 weight: 1
 hidden: true
 menuTitle: IsGroundSpawn

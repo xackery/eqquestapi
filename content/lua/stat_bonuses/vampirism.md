@@ -1,10 +1,11 @@
 ---
-title: Lua Vampirism
+title: Vampirism
+searchTitle: Lua StatBonuses Vampirism
 weight: 1
 hidden: true
 menuTitle: Vampirism
 ---
 ## Vampirism
 ```lua
-StatBonuses:Vampirism(); -- unknown - int32
+StatBonuses:Vampirism(); -- number
 ```

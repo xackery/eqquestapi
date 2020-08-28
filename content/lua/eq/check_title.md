@@ -1,5 +1,6 @@
 ---
-title: Lua check_title
+title: check_title
+searchTitle: Lua eq check_title
 weight: 1
 hidden: true
 menuTitle: check_title

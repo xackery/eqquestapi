@@ -1,5 +1,6 @@
 ---
-title: Lua is_empires_of_kunark_enabled
+title: is_empires_of_kunark_enabled
+searchTitle: Lua eq is_empires_of_kunark_enabled
 weight: 1
 hidden: true
 menuTitle: is_empires_of_kunark_enabled

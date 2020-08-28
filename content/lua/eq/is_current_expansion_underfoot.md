@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_underfoot
+title: is_current_expansion_underfoot
+searchTitle: Lua eq is_current_expansion_underfoot
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_underfoot

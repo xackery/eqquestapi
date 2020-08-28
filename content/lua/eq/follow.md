@@ -1,5 +1,6 @@
 ---
-title: Lua follow
+title: follow
+searchTitle: Lua eq follow
 weight: 1
 hidden: true
 menuTitle: follow

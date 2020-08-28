@@ -1,5 +1,6 @@
 ---
-title: Lua VarSave
+title: VarSave
+searchTitle: Lua Object VarSave
 weight: 1
 hidden: true
 menuTitle: VarSave

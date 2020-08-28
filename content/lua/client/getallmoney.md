@@ -1,5 +1,6 @@
 ---
-title: Lua GetAllMoney
+title: GetAllMoney
+searchTitle: Lua Client GetAllMoney
 weight: 1
 hidden: true
 menuTitle: GetAllMoney

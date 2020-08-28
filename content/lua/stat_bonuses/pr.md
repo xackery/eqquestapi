@@ -1,10 +1,11 @@
 ---
-title: Lua PR
+title: PR
+searchTitle: Lua StatBonuses PR
 weight: 1
 hidden: true
 menuTitle: PR
 ---
 ## PR
 ```lua
-StatBonuses:PR(); -- unknown - int32
+StatBonuses:PR(); -- number
 ```

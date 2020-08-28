@@ -1,5 +1,6 @@
 ---
-title: Lua SpellGroup
+title: SpellGroup
+searchTitle: Lua Spell SpellGroup
 weight: 1
 hidden: true
 menuTitle: SpellGroup

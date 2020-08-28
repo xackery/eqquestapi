@@ -1,5 +1,6 @@
 ---
-title: Lua PointType
+title: PointType
+searchTitle: Lua Item PointType
 weight: 1
 hidden: true
 menuTitle: PointType

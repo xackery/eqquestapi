@@ -1,5 +1,6 @@
 ---
-title: Lua MovePC
+title: MovePC
+searchTitle: Lua Client MovePC
 weight: 1
 hidden: true
 menuTitle: MovePC

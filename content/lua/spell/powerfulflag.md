@@ -1,5 +1,6 @@
 ---
-title: Lua PowerfulFlag
+title: PowerfulFlag
+searchTitle: Lua Spell PowerfulFlag
 weight: 1
 hidden: true
 menuTitle: PowerfulFlag

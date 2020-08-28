@@ -1,5 +1,6 @@
 ---
-title: Lua SetAlternateCurrencyValue
+title: SetAlternateCurrencyValue
+searchTitle: Lua Client SetAlternateCurrencyValue
 weight: 1
 hidden: true
 menuTitle: SetAlternateCurrencyValue

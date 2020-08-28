@@ -1,5 +1,6 @@
 ---
-title: Lua clear_areas
+title: clear_areas
+searchTitle: Lua eq clear_areas
 weight: 1
 hidden: true
 menuTitle: clear_areas

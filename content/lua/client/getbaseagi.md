@@ -1,5 +1,6 @@
 ---
-title: Lua GetBaseAGI
+title: GetBaseAGI
+searchTitle: Lua Client GetBaseAGI
 weight: 1
 hidden: true
 menuTitle: GetBaseAGI

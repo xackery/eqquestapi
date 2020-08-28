@@ -1,5 +1,6 @@
 ---
-title: Lua Lock
+title: Lock
+searchTitle: Lua Corpse Lock
 weight: 1
 hidden: true
 menuTitle: Lock

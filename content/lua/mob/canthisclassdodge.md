@@ -1,5 +1,6 @@
 ---
-title: Lua CanThisClassDodge
+title: CanThisClassDodge
+searchTitle: Lua Mob CanThisClassDodge
 weight: 1
 hidden: true
 menuTitle: CanThisClassDodge

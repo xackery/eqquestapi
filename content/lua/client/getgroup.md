@@ -1,5 +1,6 @@
 ---
-title: Lua GetGroup
+title: GetGroup
+searchTitle: Lua Client GetGroup
 weight: 1
 hidden: true
 menuTitle: GetGroup

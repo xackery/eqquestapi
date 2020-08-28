@@ -1,5 +1,6 @@
 ---
-title: Lua Bury
+title: Bury
+searchTitle: Lua Corpse Bury
 weight: 1
 hidden: true
 menuTitle: Bury

@@ -1,5 +1,6 @@
 ---
-title: Lua GetSkillDmgTaken
+title: GetSkillDmgTaken
+searchTitle: Lua Mob GetSkillDmgTaken
 weight: 1
 hidden: true
 menuTitle: GetSkillDmgTaken

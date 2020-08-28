@@ -1,5 +1,6 @@
 ---
-title: Lua SetFollowCanRun
+title: SetFollowCanRun
+searchTitle: Lua NPC SetFollowCanRun
 weight: 1
 hidden: true
 menuTitle: SetFollowCanRun

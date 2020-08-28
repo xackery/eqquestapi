@@ -1,10 +1,11 @@
 ---
-title: Lua HeroicINT
+title: HeroicINT
+searchTitle: Lua StatBonuses HeroicINT
 weight: 1
 hidden: true
 menuTitle: HeroicINT
 ---
 ## HeroicINT
 ```lua
-StatBonuses:HeroicINT(); -- unknown - int32
+StatBonuses:HeroicINT(); -- number
 ```

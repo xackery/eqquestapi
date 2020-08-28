@@ -1,5 +1,6 @@
 ---
-title: Lua MagicWeapon
+title: MagicWeapon
+searchTitle: Lua StatBonuses MagicWeapon
 weight: 1
 hidden: true
 menuTitle: MagicWeapon

@@ -1,5 +1,6 @@
 ---
-title: Lua popup
+title: popup
+searchTitle: Lua eq popup
 weight: 1
 hidden: true
 menuTitle: popup

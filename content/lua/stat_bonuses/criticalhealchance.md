@@ -1,10 +1,11 @@
 ---
-title: Lua CriticalHealChance
+title: CriticalHealChance
+searchTitle: Lua StatBonuses CriticalHealChance
 weight: 1
 hidden: true
 menuTitle: CriticalHealChance
 ---
 ## CriticalHealChance
 ```lua
-StatBonuses:CriticalHealChance(); -- unknown - int32
+StatBonuses:CriticalHealChance(); -- number
 ```

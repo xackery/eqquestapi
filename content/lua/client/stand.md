@@ -1,5 +1,6 @@
 ---
-title: Lua Stand
+title: Stand
+searchTitle: Lua Client Stand
 weight: 1
 hidden: true
 menuTitle: Stand

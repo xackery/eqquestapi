@@ -1,5 +1,6 @@
 ---
-title: Lua GetTarget
+title: GetTarget
+searchTitle: Lua Mob GetTarget
 weight: 1
 hidden: true
 menuTitle: GetTarget

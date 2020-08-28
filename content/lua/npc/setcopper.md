@@ -1,5 +1,6 @@
 ---
-title: Lua SetCopper
+title: SetCopper
+searchTitle: Lua NPC SetCopper
 weight: 1
 hidden: true
 menuTitle: SetCopper

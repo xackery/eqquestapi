@@ -1,5 +1,6 @@
 ---
-title: Lua HasItemByLoreGroup
+title: HasItemByLoreGroup
+searchTitle: Lua Inventory HasItemByLoreGroup
 weight: 1
 hidden: true
 menuTitle: HasItemByLoreGroup

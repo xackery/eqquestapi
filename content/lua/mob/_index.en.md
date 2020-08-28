@@ -1,5 +1,4 @@
 ---
-date: 2020-08-24T16:50:16+02:00
 title: Mob
 menuTitle: Mob
 weight: 25
@@ -29,7 +28,7 @@ weight: 25
 - Mob:[IsInvisible](isinvisible)(Lua_Mob other); -- bool
 - Mob:[SetInvisible](setinvisible)(number state); -- void
 - Mob:[FindBuff](findbuff)(number spell_id); -- bool
-- Mob:[FindBuffBySlot](findbuffbyslot)(number slot); -- unknown - uint16
+- Mob:[FindBuffBySlot](findbuffbyslot)(number slot); -- number
 - Mob:[BuffCount](buffcount)(); -- number
 - Mob:[FindType](findtype)(number type, bool offensive, number threshold); -- bool
 - Mob:[GetBuffSlotFromType](getbuffslotfromtype)(number slot); -- number
@@ -255,7 +254,7 @@ weight: 25
 - Mob:[BuffFadeBySlot](bufffadebyslot)(number slot, bool recalc_bonuses); -- void
 - Mob:[CanBuffStack](canbuffstack)(number spell_id, number caster_level, bool fail_if_overwrite); -- number
 - Mob:[SetPseudoRoot](setpseudoroot)(bool in); -- void
-- Mob:[SeeInvisible](seeinvisible)(); -- unknown - uint8
+- Mob:[SeeInvisible](seeinvisible)(); -- number
 - Mob:[SeeInvisibleUndead](seeinvisibleundead)(); -- bool
 - Mob:[SeeHide](seehide)(); -- bool
 - Mob:[SeeImprovedHide](seeimprovedhide)(); -- bool
@@ -271,7 +270,7 @@ weight: 25
 - Mob:[HasPet](haspet)(); -- bool
 - Mob:[IsSilenced](issilenced)(); -- bool
 - Mob:[IsAmnesiad](isamnesiad)(); -- bool
-- Mob:[GetMeleeMitigation](getmeleemitigation)(); -- unknown - int32
+- Mob:[GetMeleeMitigation](getmeleemitigation)(); -- number
 - Mob:[GetWeaponDamageBonus](getweapondamagebonus)(Lua_Item weapon, bool offhand); -- number
 - Mob:[GetItemBonuses](getitembonuses)(); -- unknown - Lua_StatBonuses
 - Mob:[GetSpellBonuses](getspellbonuses)(); -- unknown - Lua_StatBonuses

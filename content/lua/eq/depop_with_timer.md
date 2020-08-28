@@ -1,5 +1,6 @@
 ---
-title: Lua depop_with_timer
+title: depop_with_timer
+searchTitle: Lua eq depop_with_timer
 weight: 1
 hidden: true
 menuTitle: depop_with_timer

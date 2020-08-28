@@ -1,5 +1,6 @@
 ---
-title: Lua HeadShot
+title: HeadShot
+searchTitle: Lua StatBonuses HeadShot
 weight: 1
 hidden: true
 menuTitle: HeadShot

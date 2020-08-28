@@ -1,5 +1,6 @@
 ---
-title: Lua PVPResistCalc
+title: PVPResistCalc
+searchTitle: Lua Spell PVPResistCalc
 weight: 1
 hidden: true
 menuTitle: PVPResistCalc

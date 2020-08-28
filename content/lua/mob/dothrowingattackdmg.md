@@ -1,5 +1,6 @@
 ---
-title: Lua DoThrowingAttackDmg
+title: DoThrowingAttackDmg
+searchTitle: Lua Mob DoThrowingAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoThrowingAttackDmg

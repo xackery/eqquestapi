@@ -1,5 +1,6 @@
 ---
-title: Lua GetLeader
+title: GetLeader
+searchTitle: Lua Group GetLeader
 weight: 1
 hidden: true
 menuTitle: GetLeader

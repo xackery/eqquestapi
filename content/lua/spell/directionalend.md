@@ -1,5 +1,6 @@
 ---
-title: Lua DirectionalEnd
+title: DirectionalEnd
+searchTitle: Lua Spell DirectionalEnd
 weight: 1
 hidden: true
 menuTitle: DirectionalEnd

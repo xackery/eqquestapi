@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxDEX
+title: GetMaxDEX
+searchTitle: Lua Mob GetMaxDEX
 weight: 1
 hidden: true
 menuTitle: GetMaxDEX

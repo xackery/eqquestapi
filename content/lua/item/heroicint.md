@@ -1,5 +1,6 @@
 ---
-title: Lua HeroicInt
+title: HeroicInt
+searchTitle: Lua Item HeroicInt
 weight: 1
 hidden: true
 menuTitle: HeroicInt

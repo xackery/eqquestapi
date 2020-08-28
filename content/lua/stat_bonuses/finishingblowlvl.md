@@ -1,5 +1,6 @@
 ---
-title: Lua FinishingBlowLvl
+title: FinishingBlowLvl
+searchTitle: Lua StatBonuses FinishingBlowLvl
 weight: 1
 hidden: true
 menuTitle: FinishingBlowLvl

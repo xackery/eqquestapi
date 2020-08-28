@@ -1,5 +1,6 @@
 ---
-title: Lua ArcheryDamageModifier
+title: ArcheryDamageModifier
+searchTitle: Lua StatBonuses ArcheryDamageModifier
 weight: 1
 hidden: true
 menuTitle: ArcheryDamageModifier

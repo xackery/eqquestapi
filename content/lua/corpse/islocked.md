@@ -1,5 +1,6 @@
 ---
-title: Lua IsLocked
+title: IsLocked
+searchTitle: Lua Corpse IsLocked
 weight: 1
 hidden: true
 menuTitle: IsLocked

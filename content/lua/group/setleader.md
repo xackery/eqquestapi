@@ -1,5 +1,6 @@
 ---
-title: Lua SetLeader
+title: SetLeader
+searchTitle: Lua Group SetLeader
 weight: 1
 hidden: true
 menuTitle: SetLeader

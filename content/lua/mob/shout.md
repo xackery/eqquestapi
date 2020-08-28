@@ -1,5 +1,6 @@
 ---
-title: Lua Shout
+title: Shout
+searchTitle: Lua Mob Shout
 weight: 1
 hidden: true
 menuTitle: Shout

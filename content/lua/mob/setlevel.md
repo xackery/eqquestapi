@@ -1,5 +1,6 @@
 ---
-title: Lua SetLevel
+title: SetLevel
+searchTitle: Lua Mob SetLevel
 weight: 1
 hidden: true
 menuTitle: SetLevel

@@ -1,5 +1,6 @@
 ---
-title: Lua CastRestriction
+title: CastRestriction
+searchTitle: Lua Spell CastRestriction
 weight: 1
 hidden: true
 menuTitle: CastRestriction

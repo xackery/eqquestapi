@@ -1,5 +1,6 @@
 ---
-title: Lua SendIllusionPacket
+title: SendIllusionPacket
+searchTitle: Lua Mob SendIllusionPacket
 weight: 1
 hidden: true
 menuTitle: SendIllusionPacket

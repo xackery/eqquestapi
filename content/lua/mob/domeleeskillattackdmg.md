@@ -1,5 +1,6 @@
 ---
-title: Lua DoMeleeSkillAttackDmg
+title: DoMeleeSkillAttackDmg
+searchTitle: Lua Mob DoMeleeSkillAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoMeleeSkillAttackDmg

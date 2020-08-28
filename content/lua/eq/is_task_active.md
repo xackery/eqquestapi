@@ -1,5 +1,6 @@
 ---
-title: Lua is_task_active
+title: is_task_active
+searchTitle: Lua eq is_task_active
 weight: 1
 hidden: true
 menuTitle: is_task_active

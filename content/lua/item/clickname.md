@@ -1,5 +1,6 @@
 ---
-title: Lua ClickName
+title: ClickName
+searchTitle: Lua Item ClickName
 weight: 1
 hidden: true
 menuTitle: ClickName

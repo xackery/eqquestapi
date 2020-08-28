@@ -1,5 +1,6 @@
 ---
-title: Lua IsRunning
+title: IsRunning
+searchTitle: Lua Mob IsRunning
 weight: 1
 hidden: true
 menuTitle: IsRunning

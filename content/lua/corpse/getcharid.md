@@ -1,5 +1,6 @@
 ---
-title: Lua GetCharID
+title: GetCharID
+searchTitle: Lua Corpse GetCharID
 weight: 1
 hidden: true
 menuTitle: GetCharID

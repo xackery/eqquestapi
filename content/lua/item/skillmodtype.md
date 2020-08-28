@@ -1,5 +1,6 @@
 ---
-title: Lua SkillModType
+title: SkillModType
+searchTitle: Lua Item SkillModType
 weight: 1
 hidden: true
 menuTitle: SkillModType

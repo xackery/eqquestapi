@@ -1,5 +1,6 @@
 ---
-title: Lua UpdateGroupAAs
+title: UpdateGroupAAs
+searchTitle: Lua Client UpdateGroupAAs
 weight: 1
 hidden: true
 menuTitle: UpdateGroupAAs

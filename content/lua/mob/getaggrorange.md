@@ -1,5 +1,6 @@
 ---
-title: Lua GetAggroRange
+title: GetAggroRange
+searchTitle: Lua Mob GetAggroRange
 weight: 1
 hidden: true
 menuTitle: GetAggroRange

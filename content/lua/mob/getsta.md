@@ -1,5 +1,6 @@
 ---
-title: Lua GetSTA
+title: GetSTA
+searchTitle: Lua Mob GetSTA
 weight: 1
 hidden: true
 menuTitle: GetSTA

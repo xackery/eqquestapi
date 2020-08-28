@@ -1,5 +1,6 @@
 ---
-title: Lua NukeItem
+title: NukeItem
+searchTitle: Lua Client NukeItem
 weight: 1
 hidden: true
 menuTitle: NukeItem

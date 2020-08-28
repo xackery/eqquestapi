@@ -1,5 +1,6 @@
 ---
-title: Lua last_task_in_set
+title: last_task_in_set
+searchTitle: Lua eq last_task_in_set
 weight: 1
 hidden: true
 menuTitle: last_task_in_set

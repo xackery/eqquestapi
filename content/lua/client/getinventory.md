@@ -1,5 +1,6 @@
 ---
-title: Lua GetInventory
+title: GetInventory
+searchTitle: Lua Client GetInventory
 weight: 1
 hidden: true
 menuTitle: GetInventory

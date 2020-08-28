@@ -1,5 +1,6 @@
 ---
-title: Lua FilteredMessageClose
+title: FilteredMessageClose
+searchTitle: Lua EntityList FilteredMessageClose
 weight: 1
 hidden: true
 menuTitle: FilteredMessageClose

@@ -1,5 +1,6 @@
 ---
-title: Lua task_explored_area
+title: task_explored_area
+searchTitle: Lua eq task_explored_area
 weight: 1
 hidden: true
 menuTitle: task_explored_area

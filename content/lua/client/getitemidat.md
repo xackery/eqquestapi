@@ -1,5 +1,6 @@
 ---
-title: Lua GetItemIDAt
+title: GetItemIDAt
+searchTitle: Lua Client GetItemIDAt
 weight: 1
 hidden: true
 menuTitle: GetItemIDAt

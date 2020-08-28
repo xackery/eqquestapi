@@ -1,5 +1,6 @@
 ---
-title: Lua SetBaseRace
+title: SetBaseRace
+searchTitle: Lua Client SetBaseRace
 weight: 1
 hidden: true
 menuTitle: SetBaseRace

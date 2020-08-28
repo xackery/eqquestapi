@@ -1,5 +1,6 @@
 ---
-title: Lua SetGrid
+title: SetGrid
+searchTitle: Lua NPC SetGrid
 weight: 1
 hidden: true
 menuTitle: SetGrid

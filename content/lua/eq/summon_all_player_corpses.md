@@ -1,5 +1,6 @@
 ---
-title: Lua summon_all_player_corpses
+title: summon_all_player_corpses
+searchTitle: Lua eq summon_all_player_corpses
 weight: 1
 hidden: true
 menuTitle: summon_all_player_corpses

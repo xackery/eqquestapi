@@ -1,5 +1,6 @@
 ---
-title: Lua SetSecondaryWeaponOrnamentation
+title: SetSecondaryWeaponOrnamentation
+searchTitle: Lua Client SetSecondaryWeaponOrnamentation
 weight: 1
 hidden: true
 menuTitle: SetSecondaryWeaponOrnamentation

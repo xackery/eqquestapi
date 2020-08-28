@@ -1,5 +1,6 @@
 ---
-title: Lua SetSimpleRoamBox
+title: SetSimpleRoamBox
+searchTitle: Lua NPC SetSimpleRoamBox
 weight: 1
 hidden: true
 menuTitle: SetSimpleRoamBox

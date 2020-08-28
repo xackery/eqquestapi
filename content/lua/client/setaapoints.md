@@ -1,5 +1,6 @@
 ---
-title: Lua SetAAPoints
+title: SetAAPoints
+searchTitle: Lua Client SetAAPoints
 weight: 1
 hidden: true
 menuTitle: SetAAPoints

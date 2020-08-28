@@ -1,5 +1,6 @@
 ---
-title: Lua CheckNoDrop
+title: CheckNoDrop
+searchTitle: Lua Inventory CheckNoDrop
 weight: 1
 hidden: true
 menuTitle: CheckNoDrop

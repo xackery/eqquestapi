@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_depths_of_darkhollow
+title: is_current_expansion_depths_of_darkhollow
+searchTitle: Lua eq is_current_expansion_depths_of_darkhollow
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_depths_of_darkhollow

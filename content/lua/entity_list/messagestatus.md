@@ -1,5 +1,6 @@
 ---
-title: Lua MessageStatus
+title: MessageStatus
+searchTitle: Lua EntityList MessageStatus
 weight: 1
 hidden: true
 menuTitle: MessageStatus

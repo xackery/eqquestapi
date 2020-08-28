@@ -1,5 +1,6 @@
 ---
-title: Lua TriggerSpellThreshold
+title: TriggerSpellThreshold
+searchTitle: Lua StatBonuses TriggerSpellThreshold
 weight: 1
 hidden: true
 menuTitle: TriggerSpellThreshold

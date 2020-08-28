@@ -1,5 +1,6 @@
 ---
-title: Lua SetIncline
+title: SetIncline
+searchTitle: Lua Door SetIncline
 weight: 1
 hidden: true
 menuTitle: SetIncline

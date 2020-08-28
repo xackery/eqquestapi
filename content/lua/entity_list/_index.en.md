@@ -1,11 +1,10 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Entity List
-menuTitle: Entity List
+title: Entity_list
+menuTitle: Entity_list
 weight: 25
 ---
 
-## Entity List Methods (Lua)
+## Entity_list Methods (Lua)
 - EntityList:[GetMobID](getmobid)(number id); -- unknown - Lua_Mob
 - EntityList:[GetMobByNpcTypeID](getmobbynpctypeid)(number npc_type); -- unknown - Lua_Mob
 - EntityList:[IsMobSpawnedByNpcTypeID](ismobspawnedbynpctypeid)(number npc_type); -- bool

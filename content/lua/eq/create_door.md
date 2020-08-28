@@ -1,5 +1,6 @@
 ---
-title: Lua create_door
+title: create_door
+searchTitle: Lua eq create_door
 weight: 1
 hidden: true
 menuTitle: create_door

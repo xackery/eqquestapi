@@ -1,5 +1,6 @@
 ---
-title: Lua NoexpendReagent
+title: NoexpendReagent
+searchTitle: Lua Spell NoexpendReagent
 weight: 1
 hidden: true
 menuTitle: NoexpendReagent

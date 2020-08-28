@@ -1,5 +1,6 @@
 ---
-title: Lua AllowMobLoot
+title: AllowMobLoot
+searchTitle: Lua Corpse AllowMobLoot
 weight: 1
 hidden: true
 menuTitle: AllowMobLoot

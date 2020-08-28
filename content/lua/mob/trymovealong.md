@@ -1,5 +1,6 @@
 ---
-title: Lua TryMoveAlong
+title: TryMoveAlong
+searchTitle: Lua Mob TryMoveAlong
 weight: 1
 hidden: true
 menuTitle: TryMoveAlong

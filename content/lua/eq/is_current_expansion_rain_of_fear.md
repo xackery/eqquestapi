@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_rain_of_fear
+title: is_current_expansion_rain_of_fear
+searchTitle: Lua eq is_current_expansion_rain_of_fear
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_rain_of_fear

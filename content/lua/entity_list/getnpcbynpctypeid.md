@@ -1,5 +1,6 @@
 ---
-title: Lua GetNPCByNPCTypeID
+title: GetNPCByNPCTypeID
+searchTitle: Lua EntityList GetNPCByNPCTypeID
 weight: 1
 hidden: true
 menuTitle: GetNPCByNPCTypeID

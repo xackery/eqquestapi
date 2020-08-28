@@ -1,5 +1,6 @@
 ---
-title: Lua BlockNextSpell
+title: BlockNextSpell
+searchTitle: Lua StatBonuses BlockNextSpell
 weight: 1
 hidden: true
 menuTitle: BlockNextSpell

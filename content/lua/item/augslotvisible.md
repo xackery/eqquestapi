@@ -1,5 +1,6 @@
 ---
-title: Lua AugSlotVisible
+title: AugSlotVisible
+searchTitle: Lua Item AugSlotVisible
 weight: 1
 hidden: true
 menuTitle: AugSlotVisible

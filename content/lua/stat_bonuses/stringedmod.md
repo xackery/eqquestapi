@@ -1,5 +1,6 @@
 ---
-title: Lua stringedMod
+title: stringedMod
+searchTitle: Lua StatBonuses stringedMod
 weight: 1
 hidden: true
 menuTitle: stringedMod

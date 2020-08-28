@@ -1,5 +1,6 @@
 ---
-title: Lua GetType
+title: GetType
+searchTitle: Lua Object GetType
 weight: 1
 hidden: true
 menuTitle: GetType

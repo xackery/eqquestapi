@@ -1,5 +1,6 @@
 ---
-title: Lua IsEngaged
+title: IsEngaged
+searchTitle: Lua Mob IsEngaged
 weight: 1
 hidden: true
 menuTitle: IsEngaged

@@ -1,10 +1,11 @@
 ---
-title: Lua ProcChance
+title: ProcChance
+searchTitle: Lua StatBonuses ProcChance
 weight: 1
 hidden: true
 menuTitle: ProcChance
 ---
 ## ProcChance
 ```lua
-StatBonuses:ProcChance(); -- unknown - int32
+StatBonuses:ProcChance(); -- number
 ```

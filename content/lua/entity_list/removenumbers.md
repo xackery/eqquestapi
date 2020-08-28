@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveNumbers
+title: RemoveNumbers
+searchTitle: Lua EntityList RemoveNumbers
 weight: 1
 hidden: true
 menuTitle: RemoveNumbers

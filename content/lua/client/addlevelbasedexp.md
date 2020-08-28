@@ -1,5 +1,6 @@
 ---
-title: Lua AddLevelBasedExp
+title: AddLevelBasedExp
+searchTitle: Lua Client AddLevelBasedExp
 weight: 1
 hidden: true
 menuTitle: AddLevelBasedExp

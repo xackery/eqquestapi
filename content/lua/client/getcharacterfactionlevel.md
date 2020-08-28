@@ -1,5 +1,6 @@
 ---
-title: Lua GetCharacterFactionLevel
+title: GetCharacterFactionLevel
+searchTitle: Lua Client GetCharacterFactionLevel
 weight: 1
 hidden: true
 menuTitle: GetCharacterFactionLevel

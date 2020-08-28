@@ -1,5 +1,6 @@
 ---
-title: Lua AddLootTable
+title: AddLootTable
+searchTitle: Lua NPC AddLootTable
 weight: 1
 hidden: true
 menuTitle: AddLootTable

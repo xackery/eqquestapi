@@ -1,5 +1,6 @@
 ---
-title: Lua Disable
+title: Disable
+searchTitle: Lua Spawn Disable
 weight: 1
 hidden: true
 menuTitle: Disable

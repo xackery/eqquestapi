@@ -1,5 +1,6 @@
 ---
-title: Lua GetPlatinum
+title: GetPlatinum
+searchTitle: Lua Corpse GetPlatinum
 weight: 1
 hidden: true
 menuTitle: GetPlatinum

@@ -1,10 +1,11 @@
 ---
-title: Lua BaseMovementSpeed
+title: BaseMovementSpeed
+searchTitle: Lua StatBonuses BaseMovementSpeed
 weight: 1
 hidden: true
 menuTitle: BaseMovementSpeed
 ---
 ## BaseMovementSpeed
 ```lua
-StatBonuses:BaseMovementSpeed(); -- unknown - int8
+StatBonuses:BaseMovementSpeed(); -- number
 ```

@@ -1,5 +1,6 @@
 ---
-title: Lua Assassinate
+title: Assassinate
+searchTitle: Lua StatBonuses Assassinate
 weight: 1
 hidden: true
 menuTitle: Assassinate

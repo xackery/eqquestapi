@@ -1,5 +1,6 @@
 ---
-title: Lua DeleteCustomData
+title: DeleteCustomData
+searchTitle: Lua ItemInst DeleteCustomData
 weight: 1
 hidden: true
 menuTitle: DeleteCustomData

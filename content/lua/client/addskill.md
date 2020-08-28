@@ -1,5 +1,6 @@
 ---
-title: Lua AddSkill
+title: AddSkill
+searchTitle: Lua Client AddSkill
 weight: 1
 hidden: true
 menuTitle: AddSkill

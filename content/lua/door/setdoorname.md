@@ -1,5 +1,6 @@
 ---
-title: Lua SetDoorName
+title: SetDoorName
+searchTitle: Lua Door SetDoorName
 weight: 1
 hidden: true
 menuTitle: SetDoorName

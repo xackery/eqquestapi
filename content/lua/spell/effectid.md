@@ -1,5 +1,6 @@
 ---
-title: Lua EffectID
+title: EffectID
+searchTitle: Lua Spell EffectID
 weight: 1
 hidden: true
 menuTitle: EffectID

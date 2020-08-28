@@ -1,5 +1,6 @@
 ---
-title: Lua SetCustomData
+title: SetCustomData
+searchTitle: Lua ItemInst SetCustomData
 weight: 1
 hidden: true
 menuTitle: SetCustomData

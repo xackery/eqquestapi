@@ -1,5 +1,6 @@
 ---
-title: Lua Escape
+title: Escape
+searchTitle: Lua Client Escape
 weight: 1
 hidden: true
 menuTitle: Escape

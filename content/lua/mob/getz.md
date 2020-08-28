@@ -1,5 +1,6 @@
 ---
-title: Lua GetZ
+title: GetZ
+searchTitle: Lua Mob GetZ
 weight: 1
 hidden: true
 menuTitle: GetZ

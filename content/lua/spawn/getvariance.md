@@ -1,5 +1,6 @@
 ---
-title: Lua GetVariance
+title: GetVariance
+searchTitle: Lua Spawn GetVariance
 weight: 1
 hidden: true
 menuTitle: GetVariance

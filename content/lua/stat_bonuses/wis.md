@@ -1,10 +1,11 @@
 ---
-title: Lua WIS
+title: WIS
+searchTitle: Lua StatBonuses WIS
 weight: 1
 hidden: true
 menuTitle: WIS
 ---
 ## WIS
 ```lua
-StatBonuses:WIS(); -- unknown - int32
+StatBonuses:WIS(); -- number
 ```

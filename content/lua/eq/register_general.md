@@ -1,5 +1,6 @@
 ---
-title: Lua register_general
+title: register_general
+searchTitle: Lua eq register_general
 weight: 1
 hidden: true
 menuTitle: register_general

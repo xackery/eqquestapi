@@ -1,5 +1,6 @@
 ---
-title: Lua Say
+title: Say
+searchTitle: Lua Mob Say
 weight: 1
 hidden: true
 menuTitle: Say

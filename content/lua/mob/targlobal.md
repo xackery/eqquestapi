@@ -1,5 +1,6 @@
 ---
-title: Lua TarGlobal
+title: TarGlobal
+searchTitle: Lua Mob TarGlobal
 weight: 1
 hidden: true
 menuTitle: TarGlobal

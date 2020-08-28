@@ -1,5 +1,6 @@
 ---
-title: Lua SetPrimaryWeaponOrnamentation
+title: SetPrimaryWeaponOrnamentation
+searchTitle: Lua Client SetPrimaryWeaponOrnamentation
 weight: 1
 hidden: true
 menuTitle: SetPrimaryWeaponOrnamentation

@@ -1,5 +1,6 @@
 ---
-title: Lua CalcPriceMod
+title: CalcPriceMod
+searchTitle: Lua Client CalcPriceMod
 weight: 1
 hidden: true
 menuTitle: CalcPriceMod

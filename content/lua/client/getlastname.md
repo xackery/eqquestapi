@@ -1,5 +1,6 @@
 ---
-title: Lua GetLastName
+title: GetLastName
+searchTitle: Lua Client GetLastName
 weight: 1
 hidden: true
 menuTitle: GetLastName

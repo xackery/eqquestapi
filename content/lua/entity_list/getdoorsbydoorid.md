@@ -1,5 +1,6 @@
 ---
-title: Lua GetDoorsByDoorID
+title: GetDoorsByDoorID
+searchTitle: Lua EntityList GetDoorsByDoorID
 weight: 1
 hidden: true
 menuTitle: GetDoorsByDoorID

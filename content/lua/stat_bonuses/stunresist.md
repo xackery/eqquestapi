@@ -1,10 +1,11 @@
 ---
-title: Lua StunResist
+title: StunResist
+searchTitle: Lua StatBonuses StunResist
 weight: 1
 hidden: true
 menuTitle: StunResist
 ---
 ## StunResist
 ```lua
-StatBonuses:StunResist(); -- unknown - int32
+StatBonuses:StunResist(); -- number
 ```

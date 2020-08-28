@@ -1,5 +1,6 @@
 ---
-title: Lua HeroicAgi
+title: HeroicAgi
+searchTitle: Lua Item HeroicAgi
 weight: 1
 hidden: true
 menuTitle: HeroicAgi

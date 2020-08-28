@@ -1,5 +1,6 @@
 ---
-title: Lua GetIP
+title: GetIP
+searchTitle: Lua Client GetIP
 weight: 1
 hidden: true
 menuTitle: GetIP

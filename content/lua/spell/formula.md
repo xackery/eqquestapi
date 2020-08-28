@@ -1,5 +1,6 @@
 ---
-title: Lua Formula
+title: Formula
+searchTitle: Lua Spell Formula
 weight: 1
 hidden: true
 menuTitle: Formula

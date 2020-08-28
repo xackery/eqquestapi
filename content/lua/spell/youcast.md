@@ -1,5 +1,6 @@
 ---
-title: Lua YouCast
+title: YouCast
+searchTitle: Lua Spell YouCast
 weight: 1
 hidden: true
 menuTitle: YouCast

@@ -1,5 +1,6 @@
 ---
-title: Lua IncStats
+title: IncStats
+searchTitle: Lua Client IncStats
 weight: 1
 hidden: true
 menuTitle: IncStats

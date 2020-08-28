@@ -1,5 +1,6 @@
 ---
-title: Lua SetVariance
+title: SetVariance
+searchTitle: Lua Spawn SetVariance
 weight: 1
 hidden: true
 menuTitle: SetVariance

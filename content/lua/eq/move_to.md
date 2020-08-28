@@ -1,5 +1,6 @@
 ---
-title: Lua move_to
+title: move_to
+searchTitle: Lua eq move_to
 weight: 1
 hidden: true
 menuTitle: move_to

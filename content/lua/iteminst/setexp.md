@@ -1,5 +1,6 @@
 ---
-title: Lua SetExp
+title: SetExp
+searchTitle: Lua ItemInst SetExp
 weight: 1
 hidden: true
 menuTitle: SetExp

@@ -1,5 +1,6 @@
 ---
-title: Lua DivineAura
+title: DivineAura
+searchTitle: Lua StatBonuses DivineAura
 weight: 1
 hidden: true
 menuTitle: DivineAura

@@ -1,5 +1,6 @@
 ---
-title: Lua GetTexture
+title: GetTexture
+searchTitle: Lua Mob GetTexture
 weight: 1
 hidden: true
 menuTitle: GetTexture

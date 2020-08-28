@@ -1,10 +1,11 @@
 ---
-title: Lua ConsumeProjectile
+title: ConsumeProjectile
+searchTitle: Lua StatBonuses ConsumeProjectile
 weight: 1
 hidden: true
 menuTitle: ConsumeProjectile
 ---
 ## ConsumeProjectile
 ```lua
-StatBonuses:ConsumeProjectile(); -- unknown - uint8
+StatBonuses:ConsumeProjectile(); -- number
 ```

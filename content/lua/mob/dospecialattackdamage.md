@@ -1,5 +1,6 @@
 ---
-title: Lua DoSpecialAttackDamage
+title: DoSpecialAttackDamage
+searchTitle: Lua Mob DoSpecialAttackDamage
 weight: 1
 hidden: true
 menuTitle: DoSpecialAttackDamage

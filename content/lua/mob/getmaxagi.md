@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxAGI
+title: GetMaxAGI
+searchTitle: Lua Mob GetMaxAGI
 weight: 1
 hidden: true
 menuTitle: GetMaxAGI

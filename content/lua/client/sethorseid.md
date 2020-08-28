@@ -1,5 +1,6 @@
 ---
-title: Lua SetHorseId
+title: SetHorseId
+searchTitle: Lua Client SetHorseId
 weight: 1
 hidden: true
 menuTitle: SetHorseId

@@ -1,5 +1,6 @@
 ---
-title: Lua GetEbonCrystals
+title: GetEbonCrystals
+searchTitle: Lua Client GetEbonCrystals
 weight: 1
 hidden: true
 menuTitle: GetEbonCrystals

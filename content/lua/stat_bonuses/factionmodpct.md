@@ -1,10 +1,11 @@
 ---
-title: Lua FactionModPct
+title: FactionModPct
+searchTitle: Lua StatBonuses FactionModPct
 weight: 1
 hidden: true
 menuTitle: FactionModPct
 ---
 ## FactionModPct
 ```lua
-StatBonuses:FactionModPct(); -- unknown - int32
+StatBonuses:FactionModPct(); -- number
 ```

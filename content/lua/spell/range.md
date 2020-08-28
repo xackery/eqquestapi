@@ -1,5 +1,6 @@
 ---
-title: Lua Range
+title: Range
+searchTitle: Lua Spell Range
 weight: 1
 hidden: true
 menuTitle: Range

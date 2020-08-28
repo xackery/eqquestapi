@@ -1,5 +1,6 @@
 ---
-title: Lua ComponentCounts
+title: ComponentCounts
+searchTitle: Lua Spell ComponentCounts
 weight: 1
 hidden: true
 menuTitle: ComponentCounts

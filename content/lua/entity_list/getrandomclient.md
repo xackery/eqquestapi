@@ -1,5 +1,6 @@
 ---
-title: Lua GetRandomClient
+title: GetRandomClient
+searchTitle: Lua EntityList GetRandomClient
 weight: 1
 hidden: true
 menuTitle: GetRandomClient

@@ -1,5 +1,6 @@
 ---
-title: Lua CastToObject
+title: CastToObject
+searchTitle: Lua Entity CastToObject
 weight: 1
 hidden: true
 menuTitle: CastToObject

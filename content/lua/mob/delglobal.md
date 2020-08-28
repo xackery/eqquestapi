@@ -1,5 +1,6 @@
 ---
-title: Lua DelGlobal
+title: DelGlobal
+searchTitle: Lua Mob DelGlobal
 weight: 1
 hidden: true
 menuTitle: DelGlobal

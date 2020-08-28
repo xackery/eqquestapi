@@ -1,5 +1,6 @@
 ---
-title: Lua GetFollowID
+title: GetFollowID
+searchTitle: Lua NPC GetFollowID
 weight: 1
 hidden: true
 menuTitle: GetFollowID

@@ -1,5 +1,6 @@
 ---
-title: Lua GetItem
+title: GetItem
+searchTitle: Lua Inventory GetItem
 weight: 1
 hidden: true
 menuTitle: GetItem

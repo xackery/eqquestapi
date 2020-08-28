@@ -1,5 +1,6 @@
 ---
-title: Lua GetAAPercent
+title: GetAAPercent
+searchTitle: Lua Client GetAAPercent
 weight: 1
 hidden: true
 menuTitle: GetAAPercent

@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeHairStyle
+title: ChangeHairStyle
+searchTitle: Lua Mob ChangeHairStyle
 weight: 1
 hidden: true
 menuTitle: ChangeHairStyle

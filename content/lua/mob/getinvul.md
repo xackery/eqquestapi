@@ -1,5 +1,6 @@
 ---
-title: Lua GetInvul
+title: GetInvul
+searchTitle: Lua Mob GetInvul
 weight: 1
 hidden: true
 menuTitle: GetInvul

@@ -1,5 +1,6 @@
 ---
-title: Lua AddItem
+title: AddItem
+searchTitle: Lua Corpse AddItem
 weight: 1
 hidden: true
 menuTitle: AddItem

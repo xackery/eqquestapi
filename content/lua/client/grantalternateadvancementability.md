@@ -1,5 +1,6 @@
 ---
-title: Lua GrantAlternateAdvancementAbility
+title: GrantAlternateAdvancementAbility
+searchTitle: Lua Client GrantAlternateAdvancementAbility
 weight: 1
 hidden: true
 menuTitle: GrantAlternateAdvancementAbility

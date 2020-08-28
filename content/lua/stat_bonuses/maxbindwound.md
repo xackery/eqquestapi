@@ -1,10 +1,11 @@
 ---
-title: Lua MaxBindWound
+title: MaxBindWound
+searchTitle: Lua StatBonuses MaxBindWound
 weight: 1
 hidden: true
 menuTitle: MaxBindWound
 ---
 ## MaxBindWound
 ```lua
-StatBonuses:MaxBindWound(); -- unknown - int32
+StatBonuses:MaxBindWound(); -- number
 ```

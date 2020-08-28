@@ -1,5 +1,6 @@
 ---
-title: Lua GetNPCSpellsID
+title: GetNPCSpellsID
+searchTitle: Lua NPC GetNPCSpellsID
 weight: 1
 hidden: true
 menuTitle: GetNPCSpellsID

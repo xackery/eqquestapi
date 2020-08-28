@@ -1,5 +1,6 @@
 ---
-title: Lua QuestReadBook
+title: QuestReadBook
+searchTitle: Lua Client QuestReadBook
 weight: 1
 hidden: true
 menuTitle: QuestReadBook

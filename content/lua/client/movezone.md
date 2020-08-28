@@ -1,5 +1,6 @@
 ---
-title: Lua MoveZone
+title: MoveZone
+searchTitle: Lua Client MoveZone
 weight: 1
 hidden: true
 menuTitle: MoveZone

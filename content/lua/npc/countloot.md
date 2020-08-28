@@ -1,5 +1,6 @@
 ---
-title: Lua CountLoot
+title: CountLoot
+searchTitle: Lua NPC CountLoot
 weight: 1
 hidden: true
 menuTitle: CountLoot

@@ -1,5 +1,6 @@
 ---
-title: Lua SetConsumption
+title: SetConsumption
+searchTitle: Lua Client SetConsumption
 weight: 1
 hidden: true
 menuTitle: SetConsumption

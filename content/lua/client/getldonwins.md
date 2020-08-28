@@ -1,5 +1,6 @@
 ---
-title: Lua GetLDoNWins
+title: GetLDoNWins
+searchTitle: Lua Client GetLDoNWins
 weight: 1
 hidden: true
 menuTitle: GetLDoNWins

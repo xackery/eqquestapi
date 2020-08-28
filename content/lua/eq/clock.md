@@ -1,5 +1,6 @@
 ---
-title: Lua clock
+title: clock
+searchTitle: Lua eq clock
 weight: 1
 hidden: true
 menuTitle: clock

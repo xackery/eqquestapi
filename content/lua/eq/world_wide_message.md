@@ -1,5 +1,6 @@
 ---
-title: Lua world_wide_message
+title: world_wide_message
+searchTitle: Lua eq world_wide_message
 weight: 1
 hidden: true
 menuTitle: world_wide_message

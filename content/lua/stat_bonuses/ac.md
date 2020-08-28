@@ -1,10 +1,11 @@
 ---
-title: Lua AC
+title: AC
+searchTitle: Lua StatBonuses AC
 weight: 1
 hidden: true
 menuTitle: AC
 ---
 ## AC
 ```lua
-StatBonuses:AC(); -- unknown - int32
+StatBonuses:AC(); -- number
 ```

@@ -1,5 +1,6 @@
 ---
-title: Lua FindGroundZ
+title: FindGroundZ
+searchTitle: Lua Mob FindGroundZ
 weight: 1
 hidden: true
 menuTitle: FindGroundZ

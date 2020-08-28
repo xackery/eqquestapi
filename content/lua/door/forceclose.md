@@ -1,5 +1,6 @@
 ---
-title: Lua ForceClose
+title: ForceClose
+searchTitle: Lua Door ForceClose
 weight: 1
 hidden: true
 menuTitle: ForceClose

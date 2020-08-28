@@ -1,5 +1,6 @@
 ---
-title: Lua ProcName
+title: ProcName
+searchTitle: Lua Item ProcName
 weight: 1
 hidden: true
 menuTitle: ProcName

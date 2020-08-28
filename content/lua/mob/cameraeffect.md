@@ -1,5 +1,6 @@
 ---
-title: Lua CameraEffect
+title: CameraEffect
+searchTitle: Lua Mob CameraEffect
 weight: 1
 hidden: true
 menuTitle: CameraEffect

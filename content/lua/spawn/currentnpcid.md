@@ -1,5 +1,6 @@
 ---
-title: Lua CurrentNPCID
+title: CurrentNPCID
+searchTitle: Lua Spawn CurrentNPCID
 weight: 1
 hidden: true
 menuTitle: CurrentNPCID

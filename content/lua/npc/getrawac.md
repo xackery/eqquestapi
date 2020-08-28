@@ -1,5 +1,6 @@
 ---
-title: Lua GetRawAC
+title: GetRawAC
+searchTitle: Lua NPC GetRawAC
 weight: 1
 hidden: true
 menuTitle: GetRawAC

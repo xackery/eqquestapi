@@ -1,5 +1,6 @@
 ---
-title: Lua WalkTo
+title: WalkTo
+searchTitle: Lua Mob WalkTo
 weight: 1
 hidden: true
 menuTitle: WalkTo

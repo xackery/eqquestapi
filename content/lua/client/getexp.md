@@ -1,5 +1,6 @@
 ---
-title: Lua GetEXP
+title: GetEXP
+searchTitle: Lua Client GetEXP
 weight: 1
 hidden: true
 menuTitle: GetEXP

@@ -1,10 +1,11 @@
 ---
-title: Lua AStacker
+title: AStacker
+searchTitle: Lua StatBonuses AStacker
 weight: 1
 hidden: true
 menuTitle: AStacker
 ---
 ## AStacker
 ```lua
-StatBonuses:AStacker(number idx); -- unknown - int32
+StatBonuses:AStacker(number idx); -- number
 ```

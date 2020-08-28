@@ -1,5 +1,6 @@
 ---
-title: Lua SetEntityVariable
+title: SetEntityVariable
+searchTitle: Lua Mob SetEntityVariable
 weight: 1
 hidden: true
 menuTitle: SetEntityVariable

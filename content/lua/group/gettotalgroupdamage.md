@@ -1,5 +1,6 @@
 ---
-title: Lua GetTotalGroupDamage
+title: GetTotalGroupDamage
+searchTitle: Lua Group GetTotalGroupDamage
 weight: 1
 hidden: true
 menuTitle: GetTotalGroupDamage

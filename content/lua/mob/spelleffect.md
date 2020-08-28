@@ -1,5 +1,6 @@
 ---
-title: Lua SpellEffect
+title: SpellEffect
+searchTitle: Lua Mob SpellEffect
 weight: 1
 hidden: true
 menuTitle: SpellEffect

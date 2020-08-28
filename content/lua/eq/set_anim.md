@@ -1,5 +1,6 @@
 ---
-title: Lua set_anim
+title: set_anim
+searchTitle: Lua eq set_anim
 weight: 1
 hidden: true
 menuTitle: set_anim

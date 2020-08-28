@@ -1,5 +1,6 @@
 ---
-title: Lua CastToClient
+title: CastToClient
+searchTitle: Lua Entity CastToClient
 weight: 1
 hidden: true
 menuTitle: CastToClient

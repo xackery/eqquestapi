@@ -1,5 +1,6 @@
 ---
-title: Lua GetFollowDistance
+title: GetFollowDistance
+searchTitle: Lua NPC GetFollowDistance
 weight: 1
 hidden: true
 menuTitle: GetFollowDistance

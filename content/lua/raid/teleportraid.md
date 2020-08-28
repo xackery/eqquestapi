@@ -1,5 +1,6 @@
 ---
-title: Lua TeleportRaid
+title: TeleportRaid
+searchTitle: Lua Raid TeleportRaid
 weight: 1
 hidden: true
 menuTitle: TeleportRaid

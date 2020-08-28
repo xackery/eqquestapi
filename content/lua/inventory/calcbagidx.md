@@ -1,5 +1,6 @@
 ---
-title: Lua CalcBagIdx
+title: CalcBagIdx
+searchTitle: Lua Inventory CalcBagIdx
 weight: 1
 hidden: true
 menuTitle: CalcBagIdx

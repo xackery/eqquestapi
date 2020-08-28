@@ -1,5 +1,6 @@
 ---
-title: Lua ResistSpell
+title: ResistSpell
+searchTitle: Lua Mob ResistSpell
 weight: 1
 hidden: true
 menuTitle: ResistSpell

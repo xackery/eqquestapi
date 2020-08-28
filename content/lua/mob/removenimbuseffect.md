@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveNimbusEffect
+title: RemoveNimbusEffect
+searchTitle: Lua Mob RemoveNimbusEffect
 weight: 1
 hidden: true
 menuTitle: RemoveNimbusEffect

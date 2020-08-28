@@ -1,5 +1,6 @@
 ---
-title: Lua GetPR
+title: GetPR
+searchTitle: Lua Mob GetPR
 weight: 1
 hidden: true
 menuTitle: GetPR

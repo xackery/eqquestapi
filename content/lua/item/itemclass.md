@@ -1,5 +1,6 @@
 ---
-title: Lua ItemClass
+title: ItemClass
+searchTitle: Lua Item ItemClass
 weight: 1
 hidden: true
 menuTitle: ItemClass

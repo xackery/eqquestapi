@@ -1,5 +1,6 @@
 ---
-title: Lua DropItem
+title: DropItem
+searchTitle: Lua Client DropItem
 weight: 1
 hidden: true
 menuTitle: DropItem

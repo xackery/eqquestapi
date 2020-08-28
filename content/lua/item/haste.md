@@ -1,5 +1,6 @@
 ---
-title: Lua Haste
+title: Haste
+searchTitle: Lua Item Haste
 weight: 1
 hidden: true
 menuTitle: Haste

@@ -1,10 +1,11 @@
 ---
-title: Lua PetMeleeMitigation
+title: PetMeleeMitigation
+searchTitle: Lua StatBonuses PetMeleeMitigation
 weight: 1
 hidden: true
 menuTitle: PetMeleeMitigation
 ---
 ## PetMeleeMitigation
 ```lua
-StatBonuses:PetMeleeMitigation(); -- unknown - int32
+StatBonuses:PetMeleeMitigation(); -- number
 ```

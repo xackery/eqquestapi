@@ -1,5 +1,6 @@
 ---
-title: Lua DoArcheryAttackDmg
+title: DoArcheryAttackDmg
+searchTitle: Lua Mob DoArcheryAttackDmg
 weight: 1
 hidden: true
 menuTitle: DoArcheryAttackDmg

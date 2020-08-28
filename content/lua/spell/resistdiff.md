@@ -1,5 +1,6 @@
 ---
-title: Lua ResistDiff
+title: ResistDiff
+searchTitle: Lua Spell ResistDiff
 weight: 1
 hidden: true
 menuTitle: ResistDiff

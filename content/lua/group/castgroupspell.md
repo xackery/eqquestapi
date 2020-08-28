@@ -1,5 +1,6 @@
 ---
-title: Lua CastGroupSpell
+title: CastGroupSpell
+searchTitle: Lua Group CastGroupSpell
 weight: 1
 hidden: true
 menuTitle: CastGroupSpell

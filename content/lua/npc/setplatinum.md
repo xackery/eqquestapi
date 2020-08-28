@@ -1,5 +1,6 @@
 ---
-title: Lua SetPlatinum
+title: SetPlatinum
+searchTitle: Lua NPC SetPlatinum
 weight: 1
 hidden: true
 menuTitle: SetPlatinum

@@ -1,5 +1,6 @@
 ---
-title: Lua MakeNameUnique
+title: MakeNameUnique
+searchTitle: Lua EntityList MakeNameUnique
 weight: 1
 hidden: true
 menuTitle: MakeNameUnique

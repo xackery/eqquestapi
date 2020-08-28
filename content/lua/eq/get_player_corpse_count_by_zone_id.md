@@ -1,5 +1,6 @@
 ---
-title: Lua get_player_corpse_count_by_zone_id
+title: get_player_corpse_count_by_zone_id
+searchTitle: Lua eq get_player_corpse_count_by_zone_id
 weight: 1
 hidden: true
 menuTitle: get_player_corpse_count_by_zone_id

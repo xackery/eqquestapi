@@ -1,10 +1,11 @@
 ---
-title: Lua CombatStability
+title: CombatStability
+searchTitle: Lua StatBonuses CombatStability
 weight: 1
 hidden: true
 menuTitle: CombatStability
 ---
 ## CombatStability
 ```lua
-StatBonuses:CombatStability(); -- unknown - int32
+StatBonuses:CombatStability(); -- number
 ```

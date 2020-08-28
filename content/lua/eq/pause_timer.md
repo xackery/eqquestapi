@@ -1,5 +1,6 @@
 ---
-title: Lua pause_timer
+title: pause_timer
+searchTitle: Lua eq pause_timer
 weight: 1
 hidden: true
 menuTitle: pause_timer

@@ -1,5 +1,6 @@
 ---
-title: Lua GetWalkspeed
+title: GetWalkspeed
+searchTitle: Lua Mob GetWalkspeed
 weight: 1
 hidden: true
 menuTitle: GetWalkspeed

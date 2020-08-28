@@ -1,5 +1,6 @@
 ---
-title: Lua Amplification
+title: Amplification
+searchTitle: Lua StatBonuses Amplification
 weight: 1
 hidden: true
 menuTitle: Amplification

@@ -1,10 +1,11 @@
 ---
-title: Lua SpellDmg
+title: SpellDmg
+searchTitle: Lua StatBonuses SpellDmg
 weight: 1
 hidden: true
 menuTitle: SpellDmg
 ---
 ## SpellDmg
 ```lua
-StatBonuses:SpellDmg(); -- unknown - int32
+StatBonuses:SpellDmg(); -- number
 ```

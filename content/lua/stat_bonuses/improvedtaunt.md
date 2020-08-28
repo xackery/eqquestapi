@@ -1,10 +1,11 @@
 ---
-title: Lua ImprovedTaunt
+title: ImprovedTaunt
+searchTitle: Lua StatBonuses ImprovedTaunt
 weight: 1
 hidden: true
 menuTitle: ImprovedTaunt
 ---
 ## ImprovedTaunt
 ```lua
-StatBonuses:ImprovedTaunt(number idx); -- unknown - int32
+StatBonuses:ImprovedTaunt(number idx); -- number
 ```

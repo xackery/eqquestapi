@@ -1,5 +1,6 @@
 ---
-title: Lua SetStartZone
+title: SetStartZone
+searchTitle: Lua Client SetStartZone
 weight: 1
 hidden: true
 menuTitle: SetStartZone

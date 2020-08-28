@@ -1,5 +1,6 @@
 ---
-title: Lua GetAugmentIDAt
+title: GetAugmentIDAt
+searchTitle: Lua Client GetAugmentIDAt
 weight: 1
 hidden: true
 menuTitle: GetAugmentIDAt

@@ -1,5 +1,6 @@
 ---
-title: Lua BaseDiff
+title: BaseDiff
+searchTitle: Lua Spell BaseDiff
 weight: 1
 hidden: true
 menuTitle: BaseDiff

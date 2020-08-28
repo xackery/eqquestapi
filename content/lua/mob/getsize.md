@@ -1,5 +1,6 @@
 ---
-title: Lua GetSize
+title: GetSize
+searchTitle: Lua Mob GetSize
 weight: 1
 hidden: true
 menuTitle: GetSize

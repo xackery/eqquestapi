@@ -1,5 +1,6 @@
 ---
-title: Lua SetDisableTimer
+title: SetDisableTimer
+searchTitle: Lua Door SetDisableTimer
 weight: 1
 hidden: true
 menuTitle: SetDisableTimer

@@ -1,5 +1,6 @@
 ---
-title: Lua PutItemInInventory
+title: PutItemInInventory
+searchTitle: Lua Client PutItemInInventory
 weight: 1
 hidden: true
 menuTitle: PutItemInInventory

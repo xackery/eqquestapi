@@ -1,5 +1,6 @@
 ---
-title: Lua SetThirst
+title: SetThirst
+searchTitle: Lua Client SetThirst
 weight: 1
 hidden: true
 menuTitle: SetThirst

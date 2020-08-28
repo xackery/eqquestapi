@@ -1,5 +1,6 @@
 ---
-title: Lua DoClassAttacks
+title: DoClassAttacks
+searchTitle: Lua NPC DoClassAttacks
 weight: 1
 hidden: true
 menuTitle: DoClassAttacks

@@ -1,5 +1,6 @@
 ---
-title: Lua ArtifactFlag
+title: ArtifactFlag
+searchTitle: Lua Item ArtifactFlag
 weight: 1
 hidden: true
 menuTitle: ArtifactFlag

@@ -1,10 +1,11 @@
 ---
-title: Lua PetMaxHP
+title: PetMaxHP
+searchTitle: Lua StatBonuses PetMaxHP
 weight: 1
 hidden: true
 menuTitle: PetMaxHP
 ---
 ## PetMaxHP
 ```lua
-StatBonuses:PetMaxHP(); -- unknown - int32
+StatBonuses:PetMaxHP(); -- number
 ```

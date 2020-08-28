@@ -1,10 +1,11 @@
 ---
-title: Lua ItemHPRegenCap
+title: ItemHPRegenCap
+searchTitle: Lua StatBonuses ItemHPRegenCap
 weight: 1
 hidden: true
 menuTitle: ItemHPRegenCap
 ---
 ## ItemHPRegenCap
 ```lua
-StatBonuses:ItemHPRegenCap(); -- unknown - int32
+StatBonuses:ItemHPRegenCap(); -- number
 ```

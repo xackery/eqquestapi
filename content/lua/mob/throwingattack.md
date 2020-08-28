@@ -1,5 +1,6 @@
 ---
-title: Lua ThrowingAttack
+title: ThrowingAttack
+searchTitle: Lua Mob ThrowingAttack
 weight: 1
 hidden: true
 menuTitle: ThrowingAttack

@@ -1,5 +1,6 @@
 ---
-title: Lua SendColoredText
+title: SendColoredText
+searchTitle: Lua Client SendColoredText
 weight: 1
 hidden: true
 menuTitle: SendColoredText

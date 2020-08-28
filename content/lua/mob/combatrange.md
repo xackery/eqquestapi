@@ -1,5 +1,6 @@
 ---
-title: Lua CombatRange
+title: CombatRange
+searchTitle: Lua Mob CombatRange
 weight: 1
 hidden: true
 menuTitle: CombatRange

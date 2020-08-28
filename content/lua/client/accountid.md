@@ -1,5 +1,6 @@
 ---
-title: Lua AccountID
+title: AccountID
+searchTitle: Lua Client AccountID
 weight: 1
 hidden: true
 menuTitle: AccountID

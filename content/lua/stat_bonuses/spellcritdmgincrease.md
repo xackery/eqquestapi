@@ -1,10 +1,11 @@
 ---
-title: Lua SpellCritDmgIncrease
+title: SpellCritDmgIncrease
+searchTitle: Lua StatBonuses SpellCritDmgIncrease
 weight: 1
 hidden: true
 menuTitle: SpellCritDmgIncrease
 ---
 ## SpellCritDmgIncrease
 ```lua
-StatBonuses:SpellCritDmgIncrease(); -- unknown - int32
+StatBonuses:SpellCritDmgIncrease(); -- number
 ```

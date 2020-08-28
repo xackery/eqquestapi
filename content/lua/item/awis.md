@@ -1,5 +1,6 @@
 ---
-title: Lua AWis
+title: AWis
+searchTitle: Lua Item AWis
 weight: 1
 hidden: true
 menuTitle: AWis

@@ -1,5 +1,6 @@
 ---
-title: Lua get_entity_list
+title: get_entity_list
+searchTitle: Lua eq get_entity_list
 weight: 1
 hidden: true
 menuTitle: get_entity_list

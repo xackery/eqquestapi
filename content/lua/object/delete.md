@@ -1,5 +1,6 @@
 ---
-title: Lua Delete
+title: Delete
+searchTitle: Lua Object Delete
 weight: 1
 hidden: true
 menuTitle: Delete

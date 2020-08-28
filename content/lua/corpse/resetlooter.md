@@ -1,5 +1,6 @@
 ---
-title: Lua ResetLooter
+title: ResetLooter
+searchTitle: Lua Corpse ResetLooter
 weight: 1
 hidden: true
 menuTitle: ResetLooter

@@ -1,5 +1,6 @@
 ---
-title: Lua CanThisClassDualWield
+title: CanThisClassDualWield
+searchTitle: Lua Mob CanThisClassDualWield
 weight: 1
 hidden: true
 menuTitle: CanThisClassDualWield

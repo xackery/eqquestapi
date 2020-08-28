@@ -1,5 +1,6 @@
 ---
-title: Lua CheckNumHitsRemaining
+title: CheckNumHitsRemaining
+searchTitle: Lua Mob CheckNumHitsRemaining
 weight: 1
 hidden: true
 menuTitle: CheckNumHitsRemaining

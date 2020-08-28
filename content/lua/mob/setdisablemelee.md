@@ -1,5 +1,6 @@
 ---
-title: Lua SetDisableMelee
+title: SetDisableMelee
+searchTitle: Lua Mob SetDisableMelee
 weight: 1
 hidden: true
 menuTitle: SetDisableMelee

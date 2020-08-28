@@ -1,5 +1,6 @@
 ---
-title: Lua IsEnraged
+title: IsEnraged
+searchTitle: Lua Mob IsEnraged
 weight: 1
 hidden: true
 menuTitle: IsEnraged

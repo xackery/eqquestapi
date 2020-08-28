@@ -1,5 +1,6 @@
 ---
-title: Lua GetRadiantCrystals
+title: GetRadiantCrystals
+searchTitle: Lua Client GetRadiantCrystals
 weight: 1
 hidden: true
 menuTitle: GetRadiantCrystals

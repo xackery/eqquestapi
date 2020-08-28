@@ -1,5 +1,6 @@
 ---
-title: Lua GetHorseId
+title: GetHorseId
+searchTitle: Lua Client GetHorseId
 weight: 1
 hidden: true
 menuTitle: GetHorseId

@@ -1,5 +1,6 @@
 ---
-title: Lua Components
+title: Components
+searchTitle: Lua Spell Components
 weight: 1
 hidden: true
 menuTitle: Components

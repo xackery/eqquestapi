@@ -1,5 +1,6 @@
 ---
-title: Lua voice_tell
+title: voice_tell
+searchTitle: Lua eq voice_tell
 weight: 1
 hidden: true
 menuTitle: voice_tell

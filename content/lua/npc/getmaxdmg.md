@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxDMG
+title: GetMaxDMG
+searchTitle: Lua NPC GetMaxDMG
 weight: 1
 hidden: true
 menuTitle: GetMaxDMG

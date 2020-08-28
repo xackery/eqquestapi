@@ -1,5 +1,6 @@
 ---
-title: Lua Classes
+title: Classes
+searchTitle: Lua Spell Classes
 weight: 1
 hidden: true
 menuTitle: Classes

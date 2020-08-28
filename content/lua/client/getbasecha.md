@@ -1,5 +1,6 @@
 ---
-title: Lua GetBaseCHA
+title: GetBaseCHA
+searchTitle: Lua Client GetBaseCHA
 weight: 1
 hidden: true
 menuTitle: GetBaseCHA

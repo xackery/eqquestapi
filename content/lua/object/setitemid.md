@@ -1,5 +1,6 @@
 ---
-title: Lua SetItemID
+title: SetItemID
+searchTitle: Lua Object SetItemID
 weight: 1
 hidden: true
 menuTitle: SetItemID

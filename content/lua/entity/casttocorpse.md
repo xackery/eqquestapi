@@ -1,5 +1,6 @@
 ---
-title: Lua CastToCorpse
+title: CastToCorpse
+searchTitle: Lua Entity CastToCorpse
 weight: 1
 hidden: true
 menuTitle: CastToCorpse

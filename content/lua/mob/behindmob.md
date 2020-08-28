@@ -1,5 +1,6 @@
 ---
-title: Lua BehindMob
+title: BehindMob
+searchTitle: Lua Mob BehindMob
 weight: 1
 hidden: true
 menuTitle: BehindMob

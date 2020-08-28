@@ -1,5 +1,6 @@
 ---
-title: Lua GetWaypointMax
+title: GetWaypointMax
+searchTitle: Lua NPC GetWaypointMax
 weight: 1
 hidden: true
 menuTitle: GetWaypointMax

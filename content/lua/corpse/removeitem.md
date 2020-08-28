@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveItem
+title: RemoveItem
+searchTitle: Lua Corpse RemoveItem
 weight: 1
 hidden: true
 menuTitle: RemoveItem

@@ -1,5 +1,6 @@
 ---
-title: Lua Clairvoyance
+title: Clairvoyance
+searchTitle: Lua Item Clairvoyance
 weight: 1
 hidden: true
 menuTitle: Clairvoyance

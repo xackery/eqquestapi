@@ -1,5 +1,6 @@
 ---
-title: Lua MovePCInstance
+title: MovePCInstance
+searchTitle: Lua Client MovePCInstance
 weight: 1
 hidden: true
 menuTitle: MovePCInstance

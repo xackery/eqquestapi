@@ -1,5 +1,6 @@
 ---
-title: Lua GetHateDamageTop
+title: GetHateDamageTop
+searchTitle: Lua Mob GetHateDamageTop
 weight: 1
 hidden: true
 menuTitle: GetHateDamageTop

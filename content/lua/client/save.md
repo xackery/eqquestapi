@@ -1,5 +1,6 @@
 ---
-title: Lua Save
+title: Save
+searchTitle: Lua Client Save
 weight: 1
 hidden: true
 menuTitle: Save

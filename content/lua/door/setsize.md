@@ -1,5 +1,6 @@
 ---
-title: Lua SetSize
+title: SetSize
+searchTitle: Lua Door SetSize
 weight: 1
 hidden: true
 menuTitle: SetSize

@@ -1,5 +1,6 @@
 ---
-title: Lua GetSwarmOwner
+title: GetSwarmOwner
+searchTitle: Lua NPC GetSwarmOwner
 weight: 1
 hidden: true
 menuTitle: GetSwarmOwner

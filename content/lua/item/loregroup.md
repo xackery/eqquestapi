@@ -1,5 +1,6 @@
 ---
-title: Lua LoreGroup
+title: LoreGroup
+searchTitle: Lua Item LoreGroup
 weight: 1
 hidden: true
 menuTitle: LoreGroup

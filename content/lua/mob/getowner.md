@@ -1,5 +1,6 @@
 ---
-title: Lua GetOwner
+title: GetOwner
+searchTitle: Lua Mob GetOwner
 weight: 1
 hidden: true
 menuTitle: GetOwner

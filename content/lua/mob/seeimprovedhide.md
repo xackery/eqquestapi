@@ -1,5 +1,6 @@
 ---
-title: Lua SeeImprovedHide
+title: SeeImprovedHide
+searchTitle: Lua Mob SeeImprovedHide
 weight: 1
 hidden: true
 menuTitle: SeeImprovedHide

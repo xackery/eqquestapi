@@ -1,5 +1,6 @@
 ---
-title: Lua is_depths_of_darkhollow_enabled
+title: is_depths_of_darkhollow_enabled
+searchTitle: Lua eq is_depths_of_darkhollow_enabled
 weight: 1
 hidden: true
 menuTitle: is_depths_of_darkhollow_enabled

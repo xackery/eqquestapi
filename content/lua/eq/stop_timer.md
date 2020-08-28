@@ -1,5 +1,6 @@
 ---
-title: Lua stop_timer
+title: stop_timer
+searchTitle: Lua eq stop_timer
 weight: 1
 hidden: true
 menuTitle: stop_timer

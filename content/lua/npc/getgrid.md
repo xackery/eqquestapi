@@ -1,5 +1,6 @@
 ---
-title: Lua GetGrid
+title: GetGrid
+searchTitle: Lua NPC GetGrid
 weight: 1
 hidden: true
 menuTitle: GetGrid

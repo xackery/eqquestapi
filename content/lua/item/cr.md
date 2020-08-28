@@ -1,5 +1,6 @@
 ---
-title: Lua CR
+title: CR
+searchTitle: Lua Item CR
 weight: 1
 hidden: true
 menuTitle: CR

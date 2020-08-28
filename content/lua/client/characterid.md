@@ -1,5 +1,6 @@
 ---
-title: Lua CharacterID
+title: CharacterID
+searchTitle: Lua Client CharacterID
 weight: 1
 hidden: true
 menuTitle: CharacterID

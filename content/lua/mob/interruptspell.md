@@ -1,5 +1,6 @@
 ---
-title: Lua InterruptSpell
+title: InterruptSpell
+searchTitle: Lua Mob InterruptSpell
 weight: 1
 hidden: true
 menuTitle: InterruptSpell

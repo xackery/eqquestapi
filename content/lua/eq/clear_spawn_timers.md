@@ -1,5 +1,6 @@
 ---
-title: Lua clear_spawn_timers
+title: clear_spawn_timers
+searchTitle: Lua eq clear_spawn_timers
 weight: 1
 hidden: true
 menuTitle: clear_spawn_timers

@@ -1,5 +1,6 @@
 ---
-title: Lua LoreFlag
+title: LoreFlag
+searchTitle: Lua Item LoreFlag
 weight: 1
 hidden: true
 menuTitle: LoreFlag

@@ -1,5 +1,6 @@
 ---
-title: Lua ReqLevel
+title: ReqLevel
+searchTitle: Lua Item ReqLevel
 weight: 1
 hidden: true
 menuTitle: ReqLevel

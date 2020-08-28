@@ -1,5 +1,6 @@
 ---
-title: Lua cross_zone_enable_task_by_guild_id
+title: cross_zone_enable_task_by_guild_id
+searchTitle: Lua eq cross_zone_enable_task_by_guild_id
 weight: 1
 hidden: true
 menuTitle: cross_zone_enable_task_by_guild_id

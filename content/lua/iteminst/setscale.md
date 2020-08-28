@@ -1,5 +1,6 @@
 ---
-title: Lua SetScale
+title: SetScale
+searchTitle: Lua ItemInst SetScale
 weight: 1
 hidden: true
 menuTitle: SetScale

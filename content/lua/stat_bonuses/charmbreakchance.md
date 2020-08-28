@@ -1,10 +1,11 @@
 ---
-title: Lua CharmBreakChance
+title: CharmBreakChance
+searchTitle: Lua StatBonuses CharmBreakChance
 weight: 1
 hidden: true
 menuTitle: CharmBreakChance
 ---
 ## CharmBreakChance
 ```lua
-StatBonuses:CharmBreakChance(); -- unknown - int32
+StatBonuses:CharmBreakChance(); -- number
 ```

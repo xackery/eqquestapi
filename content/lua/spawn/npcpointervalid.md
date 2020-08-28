@@ -1,5 +1,6 @@
 ---
-title: Lua NPCPointerValid
+title: NPCPointerValid
+searchTitle: Lua Spawn NPCPointerValid
 weight: 1
 hidden: true
 menuTitle: NPCPointerValid

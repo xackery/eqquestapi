@@ -1,5 +1,6 @@
 ---
-title: Lua StartSwarmTimer
+title: StartSwarmTimer
+searchTitle: Lua NPC StartSwarmTimer
 weight: 1
 hidden: true
 menuTitle: StartSwarmTimer

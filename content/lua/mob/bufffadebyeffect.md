@@ -1,5 +1,6 @@
 ---
-title: Lua BuffFadeByEffect
+title: BuffFadeByEffect
+searchTitle: Lua Mob BuffFadeByEffect
 weight: 1
 hidden: true
 menuTitle: BuffFadeByEffect

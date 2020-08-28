@@ -1,5 +1,6 @@
 ---
-title: Lua SetZ
+title: SetZ
+searchTitle: Lua Door SetZ
 weight: 1
 hidden: true
 menuTitle: SetZ

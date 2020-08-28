@@ -1,5 +1,6 @@
 ---
-title: Lua Charmed
+title: Charmed
+searchTitle: Lua Mob Charmed
 weight: 1
 hidden: true
 menuTitle: Charmed

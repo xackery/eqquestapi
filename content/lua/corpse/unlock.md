@@ -1,5 +1,6 @@
 ---
-title: Lua UnLock
+title: UnLock
+searchTitle: Lua Corpse UnLock
 weight: 1
 hidden: true
 menuTitle: UnLock

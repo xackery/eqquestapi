@@ -1,5 +1,6 @@
 ---
-title: Lua MoveZoneInstance
+title: MoveZoneInstance
+searchTitle: Lua Client MoveZoneInstance
 weight: 1
 hidden: true
 menuTitle: MoveZoneInstance

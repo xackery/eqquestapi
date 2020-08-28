@@ -1,5 +1,6 @@
 ---
-title: Lua collect_items
+title: collect_items
+searchTitle: Lua eq collect_items
 weight: 1
 hidden: true
 menuTitle: collect_items

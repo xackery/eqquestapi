@@ -1,5 +1,6 @@
 ---
-title: Lua repop_zone
+title: repop_zone
+searchTitle: Lua eq repop_zone
 weight: 1
 hidden: true
 menuTitle: repop_zone

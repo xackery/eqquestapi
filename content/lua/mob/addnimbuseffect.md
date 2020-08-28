@@ -1,5 +1,6 @@
 ---
-title: Lua AddNimbusEffect
+title: AddNimbusEffect
+searchTitle: Lua Mob AddNimbusEffect
 weight: 1
 hidden: true
 menuTitle: AddNimbusEffect

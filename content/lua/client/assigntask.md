@@ -1,5 +1,6 @@
 ---
-title: Lua AssignTask
+title: AssignTask
+searchTitle: Lua Client AssignTask
 weight: 1
 hidden: true
 menuTitle: AssignTask

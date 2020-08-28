@@ -1,5 +1,6 @@
 ---
-title: Lua SwapItem
+title: SwapItem
+searchTitle: Lua Inventory SwapItem
 weight: 1
 hidden: true
 menuTitle: SwapItem

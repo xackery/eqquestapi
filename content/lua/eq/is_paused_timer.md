@@ -1,5 +1,6 @@
 ---
-title: Lua is_paused_timer
+title: is_paused_timer
+searchTitle: Lua eq is_paused_timer
 weight: 1
 hidden: true
 menuTitle: is_paused_timer

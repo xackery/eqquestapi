@@ -1,5 +1,6 @@
 ---
-title: Lua ModifyNPCStat
+title: ModifyNPCStat
+searchTitle: Lua NPC ModifyNPCStat
 weight: 1
 hidden: true
 menuTitle: ModifyNPCStat

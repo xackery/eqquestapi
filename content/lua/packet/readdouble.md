@@ -1,5 +1,6 @@
 ---
-title: Lua ReadDouble
+title: ReadDouble
+searchTitle: Lua Packet ReadDouble
 weight: 1
 hidden: true
 menuTitle: ReadDouble

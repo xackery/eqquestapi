@@ -1,5 +1,6 @@
 ---
-title: Lua ExtraDmgSkill
+title: ExtraDmgSkill
+searchTitle: Lua Item ExtraDmgSkill
 weight: 1
 hidden: true
 menuTitle: ExtraDmgSkill

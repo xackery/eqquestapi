@@ -1,5 +1,6 @@
 ---
-title: Lua GetDrakkinDetails
+title: GetDrakkinDetails
+searchTitle: Lua Mob GetDrakkinDetails
 weight: 1
 hidden: true
 menuTitle: GetDrakkinDetails

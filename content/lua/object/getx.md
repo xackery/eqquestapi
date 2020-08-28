@@ -1,5 +1,6 @@
 ---
-title: Lua GetX
+title: GetX
+searchTitle: Lua Object GetX
 weight: 1
 hidden: true
 menuTitle: GetX

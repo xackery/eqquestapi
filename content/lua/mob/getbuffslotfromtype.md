@@ -1,5 +1,6 @@
 ---
-title: Lua GetBuffSlotFromType
+title: GetBuffSlotFromType
+searchTitle: Lua Mob GetBuffSlotFromType
 weight: 1
 hidden: true
 menuTitle: GetBuffSlotFromType

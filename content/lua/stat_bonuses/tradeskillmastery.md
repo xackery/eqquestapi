@@ -1,10 +1,11 @@
 ---
-title: Lua TradeSkillMastery
+title: TradeSkillMastery
+searchTitle: Lua StatBonuses TradeSkillMastery
 weight: 1
 hidden: true
 menuTitle: TradeSkillMastery
 ---
 ## TradeSkillMastery
 ```lua
-StatBonuses:TradeSkillMastery(); -- unknown - uint8
+StatBonuses:TradeSkillMastery(); -- number
 ```

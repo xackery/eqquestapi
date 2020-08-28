@@ -1,10 +1,11 @@
 ---
-title: Lua CriticalSpellChance
+title: CriticalSpellChance
+searchTitle: Lua StatBonuses CriticalSpellChance
 weight: 1
 hidden: true
 menuTitle: CriticalSpellChance
 ---
 ## CriticalSpellChance
 ```lua
-StatBonuses:CriticalSpellChance(); -- unknown - int32
+StatBonuses:CriticalSpellChance(); -- number
 ```

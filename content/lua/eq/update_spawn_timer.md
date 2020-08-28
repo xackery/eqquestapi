@@ -1,5 +1,6 @@
 ---
-title: Lua update_spawn_timer
+title: update_spawn_timer
+searchTitle: Lua eq update_spawn_timer
 weight: 1
 hidden: true
 menuTitle: update_spawn_timer

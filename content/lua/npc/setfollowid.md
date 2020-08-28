@@ -1,5 +1,6 @@
 ---
-title: Lua SetFollowID
+title: SetFollowID
+searchTitle: Lua NPC SetFollowID
 weight: 1
 hidden: true
 menuTitle: SetFollowID

@@ -1,5 +1,6 @@
 ---
-title: Lua AddCrystals
+title: AddCrystals
+searchTitle: Lua Client AddCrystals
 weight: 1
 hidden: true
 menuTitle: AddCrystals

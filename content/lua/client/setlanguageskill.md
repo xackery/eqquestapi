@@ -1,5 +1,6 @@
 ---
-title: Lua SetLanguageSkill
+title: SetLanguageSkill
+searchTitle: Lua Client SetLanguageSkill
 weight: 1
 hidden: true
 menuTitle: SetLanguageSkill

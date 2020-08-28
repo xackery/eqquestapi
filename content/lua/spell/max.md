@@ -1,5 +1,6 @@
 ---
-title: Lua Max
+title: Max
+searchTitle: Lua Spell Max
 weight: 1
 hidden: true
 menuTitle: Max

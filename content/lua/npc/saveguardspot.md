@@ -1,5 +1,6 @@
 ---
-title: Lua SaveGuardSpot
+title: SaveGuardSpot
+searchTitle: Lua NPC SaveGuardSpot
 weight: 1
 hidden: true
 menuTitle: SaveGuardSpot

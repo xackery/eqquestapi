@@ -1,5 +1,6 @@
 ---
-title: Lua IsWarriorClass
+title: IsWarriorClass
+searchTitle: Lua Mob IsWarriorClass
 weight: 1
 hidden: true
 menuTitle: IsWarriorClass

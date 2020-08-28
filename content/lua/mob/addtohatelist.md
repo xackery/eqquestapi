@@ -1,5 +1,6 @@
 ---
-title: Lua AddToHateList
+title: AddToHateList
+searchTitle: Lua Mob AddToHateList
 weight: 1
 hidden: true
 menuTitle: AddToHateList

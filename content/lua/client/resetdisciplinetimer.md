@@ -1,5 +1,6 @@
 ---
-title: Lua ResetDisciplineTimer
+title: ResetDisciplineTimer
+searchTitle: Lua Client ResetDisciplineTimer
 weight: 1
 hidden: true
 menuTitle: ResetDisciplineTimer

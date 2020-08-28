@@ -1,5 +1,6 @@
 ---
-title: Lua EndurTimerIndex
+title: EndurTimerIndex
+searchTitle: Lua Spell EndurTimerIndex
 weight: 1
 hidden: true
 menuTitle: EndurTimerIndex

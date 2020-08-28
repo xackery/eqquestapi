@@ -1,5 +1,6 @@
 ---
-title: Lua Kick
+title: Kick
+searchTitle: Lua Client Kick
 weight: 1
 hidden: true
 menuTitle: Kick

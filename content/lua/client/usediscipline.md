@@ -1,5 +1,6 @@
 ---
-title: Lua UseDiscipline
+title: UseDiscipline
+searchTitle: Lua Client UseDiscipline
 weight: 1
 hidden: true
 menuTitle: UseDiscipline

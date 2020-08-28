@@ -1,5 +1,6 @@
 ---
-title: Lua GetAvoidanceRating
+title: GetAvoidanceRating
+searchTitle: Lua NPC GetAvoidanceRating
 weight: 1
 hidden: true
 menuTitle: GetAvoidanceRating

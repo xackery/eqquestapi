@@ -1,5 +1,6 @@
 ---
-title: Lua SetDestructibleObject
+title: SetDestructibleObject
+searchTitle: Lua Mob SetDestructibleObject
 weight: 1
 hidden: true
 menuTitle: SetDestructibleObject

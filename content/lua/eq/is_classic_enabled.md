@@ -1,5 +1,6 @@
 ---
-title: Lua is_classic_enabled
+title: is_classic_enabled
+searchTitle: Lua eq is_classic_enabled
 weight: 1
 hidden: true
 menuTitle: is_classic_enabled

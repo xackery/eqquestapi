@@ -1,5 +1,6 @@
 ---
-title: Lua Signal
+title: Signal
+searchTitle: Lua NPC Signal
 weight: 1
 hidden: true
 menuTitle: Signal

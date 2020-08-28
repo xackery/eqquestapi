@@ -1,5 +1,6 @@
 ---
-title: Lua OpenDoorsNear
+title: OpenDoorsNear
+searchTitle: Lua EntityList OpenDoorsNear
 weight: 1
 hidden: true
 menuTitle: OpenDoorsNear

@@ -1,5 +1,6 @@
 ---
-title: Lua SendItemScale
+title: SendItemScale
+searchTitle: Lua Client SendItemScale
 weight: 1
 hidden: true
 menuTitle: SendItemScale

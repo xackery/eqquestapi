@@ -1,5 +1,6 @@
 ---
-title: Lua SendSound
+title: SendSound
+searchTitle: Lua Client SendSound
 weight: 1
 hidden: true
 menuTitle: SendSound

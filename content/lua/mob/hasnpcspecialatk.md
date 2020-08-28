@@ -1,5 +1,6 @@
 ---
-title: Lua HasNPCSpecialAtk
+title: HasNPCSpecialAtk
+searchTitle: Lua Mob HasNPCSpecialAtk
 weight: 1
 hidden: true
 menuTitle: HasNPCSpecialAtk

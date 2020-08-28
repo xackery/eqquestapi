@@ -1,5 +1,6 @@
 ---
-title: Lua Mesmerize
+title: Mesmerize
+searchTitle: Lua Mob Mesmerize
 weight: 1
 hidden: true
 menuTitle: Mesmerize

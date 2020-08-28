@@ -1,5 +1,6 @@
 ---
-title: Lua GetHerosForgeModel
+title: GetHerosForgeModel
+searchTitle: Lua Mob GetHerosForgeModel
 weight: 1
 hidden: true
 menuTitle: GetHerosForgeModel

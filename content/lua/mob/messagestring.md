@@ -1,5 +1,6 @@
 ---
-title: Lua MessageString
+title: MessageString
+searchTitle: Lua Mob MessageString
 weight: 1
 hidden: true
 menuTitle: MessageString

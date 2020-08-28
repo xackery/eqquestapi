@@ -1,10 +1,11 @@
 ---
-title: Lua IncreaseRunSpeedCap
+title: IncreaseRunSpeedCap
+searchTitle: Lua StatBonuses IncreaseRunSpeedCap
 weight: 1
 hidden: true
 menuTitle: IncreaseRunSpeedCap
 ---
 ## IncreaseRunSpeedCap
 ```lua
-StatBonuses:IncreaseRunSpeedCap(); -- unknown - uint8
+StatBonuses:IncreaseRunSpeedCap(); -- number
 ```

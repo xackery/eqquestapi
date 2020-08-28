@@ -1,5 +1,6 @@
 ---
-title: Lua UpdateTaskActivity
+title: UpdateTaskActivity
+searchTitle: Lua Client UpdateTaskActivity
 weight: 1
 hidden: true
 menuTitle: UpdateTaskActivity

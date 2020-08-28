@@ -1,10 +1,11 @@
 ---
-title: Lua HealRate
+title: HealRate
+searchTitle: Lua StatBonuses HealRate
 weight: 1
 hidden: true
 menuTitle: HealRate
 ---
 ## HealRate
 ```lua
-StatBonuses:HealRate(); -- unknown - int32
+StatBonuses:HealRate(); -- number
 ```

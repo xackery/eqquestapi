@@ -1,5 +1,6 @@
 ---
-title: Lua GetMember
+title: GetMember
+searchTitle: Lua Group GetMember
 weight: 1
 hidden: true
 menuTitle: GetMember

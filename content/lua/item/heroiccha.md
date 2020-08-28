@@ -1,5 +1,6 @@
 ---
-title: Lua HeroicCha
+title: HeroicCha
+searchTitle: Lua Item HeroicCha
 weight: 1
 hidden: true
 menuTitle: HeroicCha

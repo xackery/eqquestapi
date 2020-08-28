@@ -1,5 +1,6 @@
 ---
-title: Lua IsBeacon
+title: IsBeacon
+searchTitle: Lua Entity IsBeacon
 weight: 1
 hidden: true
 menuTitle: IsBeacon

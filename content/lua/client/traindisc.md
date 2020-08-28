@@ -1,5 +1,6 @@
 ---
-title: Lua TrainDisc
+title: TrainDisc
+searchTitle: Lua Client TrainDisc
 weight: 1
 hidden: true
 menuTitle: TrainDisc

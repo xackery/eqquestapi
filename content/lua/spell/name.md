@@ -1,5 +1,6 @@
 ---
-title: Lua Name
+title: Name
+searchTitle: Lua Spell Name
 weight: 1
 hidden: true
 menuTitle: Name

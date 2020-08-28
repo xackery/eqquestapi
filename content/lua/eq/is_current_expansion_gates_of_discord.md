@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_gates_of_discord
+title: is_current_expansion_gates_of_discord
+searchTitle: Lua eq is_current_expansion_gates_of_discord
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_gates_of_discord

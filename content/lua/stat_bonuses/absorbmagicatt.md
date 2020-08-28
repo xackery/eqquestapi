@@ -1,5 +1,6 @@
 ---
-title: Lua AbsorbMagicAtt
+title: AbsorbMagicAtt
+searchTitle: Lua StatBonuses AbsorbMagicAtt
 weight: 1
 hidden: true
 menuTitle: AbsorbMagicAtt

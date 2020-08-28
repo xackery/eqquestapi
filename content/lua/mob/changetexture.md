@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeTexture
+title: ChangeTexture
+searchTitle: Lua Mob ChangeTexture
 weight: 1
 hidden: true
 menuTitle: ChangeTexture

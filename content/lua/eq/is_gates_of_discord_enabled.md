@@ -1,5 +1,6 @@
 ---
-title: Lua is_gates_of_discord_enabled
+title: is_gates_of_discord_enabled
+searchTitle: Lua eq is_gates_of_discord_enabled
 weight: 1
 hidden: true
 menuTitle: is_gates_of_discord_enabled

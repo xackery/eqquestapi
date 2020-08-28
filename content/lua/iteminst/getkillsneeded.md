@@ -1,5 +1,6 @@
 ---
-title: Lua GetKillsNeeded
+title: GetKillsNeeded
+searchTitle: Lua ItemInst GetKillsNeeded
 weight: 1
 hidden: true
 menuTitle: GetKillsNeeded

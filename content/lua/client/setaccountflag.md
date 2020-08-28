@@ -1,5 +1,6 @@
 ---
-title: Lua SetAccountFlag
+title: SetAccountFlag
+searchTitle: Lua Client SetAccountFlag
 weight: 1
 hidden: true
 menuTitle: SetAccountFlag

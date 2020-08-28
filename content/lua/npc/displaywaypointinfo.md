@@ -1,5 +1,6 @@
 ---
-title: Lua DisplayWaypointInfo
+title: DisplayWaypointInfo
+searchTitle: Lua NPC DisplayWaypointInfo
 weight: 1
 hidden: true
 menuTitle: DisplayWaypointInfo

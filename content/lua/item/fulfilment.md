@@ -1,5 +1,6 @@
 ---
-title: Lua Fulfilment
+title: Fulfilment
+searchTitle: Lua Item Fulfilment
 weight: 1
 hidden: true
 menuTitle: Fulfilment

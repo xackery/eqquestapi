@@ -1,5 +1,6 @@
 ---
-title: Lua SetTitleSuffix
+title: SetTitleSuffix
+searchTitle: Lua Client SetTitleSuffix
 weight: 1
 hidden: true
 menuTitle: SetTitleSuffix

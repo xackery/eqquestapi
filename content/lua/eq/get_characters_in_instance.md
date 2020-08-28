@@ -1,5 +1,6 @@
 ---
-title: Lua get_characters_in_instance
+title: get_characters_in_instance
+searchTitle: Lua eq get_characters_in_instance
 weight: 1
 hidden: true
 menuTitle: get_characters_in_instance

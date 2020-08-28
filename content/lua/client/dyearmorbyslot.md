@@ -1,5 +1,6 @@
 ---
-title: Lua DyeArmorBySlot
+title: DyeArmorBySlot
+searchTitle: Lua Client DyeArmorBySlot
 weight: 1
 hidden: true
 menuTitle: DyeArmorBySlot

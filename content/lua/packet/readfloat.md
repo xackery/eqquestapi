@@ -1,5 +1,6 @@
 ---
-title: Lua ReadFloat
+title: ReadFloat
+searchTitle: Lua Packet ReadFloat
 weight: 1
 hidden: true
 menuTitle: ReadFloat

@@ -1,5 +1,6 @@
 ---
-title: Lua BalanceHP
+title: BalanceHP
+searchTitle: Lua Raid BalanceHP
 weight: 1
 hidden: true
 menuTitle: BalanceHP

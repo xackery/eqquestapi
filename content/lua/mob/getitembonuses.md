@@ -1,5 +1,6 @@
 ---
-title: Lua GetItemBonuses
+title: GetItemBonuses
+searchTitle: Lua Mob GetItemBonuses
 weight: 1
 hidden: true
 menuTitle: GetItemBonuses

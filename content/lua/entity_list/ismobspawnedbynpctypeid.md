@@ -1,5 +1,6 @@
 ---
-title: Lua IsMobSpawnedByNpcTypeID
+title: IsMobSpawnedByNpcTypeID
+searchTitle: Lua EntityList IsMobSpawnedByNpcTypeID
 weight: 1
 hidden: true
 menuTitle: IsMobSpawnedByNpcTypeID

@@ -1,5 +1,6 @@
 ---
-title: Lua GetClientVersionBit
+title: GetClientVersionBit
+searchTitle: Lua Client GetClientVersionBit
 weight: 1
 hidden: true
 menuTitle: GetClientVersionBit

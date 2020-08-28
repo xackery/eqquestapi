@@ -1,5 +1,6 @@
 ---
-title: Lua GetItemHPBonuses
+title: GetItemHPBonuses
+searchTitle: Lua Mob GetItemHPBonuses
 weight: 1
 hidden: true
 menuTitle: GetItemHPBonuses

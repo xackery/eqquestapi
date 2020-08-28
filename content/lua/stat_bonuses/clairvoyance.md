@@ -1,10 +1,11 @@
 ---
-title: Lua Clairvoyance
+title: Clairvoyance
+searchTitle: Lua StatBonuses Clairvoyance
 weight: 1
 hidden: true
 menuTitle: Clairvoyance
 ---
 ## Clairvoyance
 ```lua
-StatBonuses:Clairvoyance(); -- unknown - int32
+StatBonuses:Clairvoyance(); -- number
 ```

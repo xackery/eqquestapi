@@ -1,5 +1,6 @@
 ---
-title: Lua GetZ
+title: GetZ
+searchTitle: Lua Object GetZ
 weight: 1
 hidden: true
 menuTitle: GetZ

@@ -1,5 +1,6 @@
 ---
-title: Lua MitigateMeleeRune
+title: MitigateMeleeRune
+searchTitle: Lua StatBonuses MitigateMeleeRune
 weight: 1
 hidden: true
 menuTitle: MitigateMeleeRune

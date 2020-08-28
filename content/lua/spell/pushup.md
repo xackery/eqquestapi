@@ -1,5 +1,6 @@
 ---
-title: Lua PushUp
+title: PushUp
+searchTitle: Lua Spell PushUp
 weight: 1
 hidden: true
 menuTitle: PushUp

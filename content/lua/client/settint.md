@@ -1,5 +1,6 @@
 ---
-title: Lua SetTint
+title: SetTint
+searchTitle: Lua Client SetTint
 weight: 1
 hidden: true
 menuTitle: SetTint

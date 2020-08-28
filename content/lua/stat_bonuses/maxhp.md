@@ -1,10 +1,11 @@
 ---
-title: Lua MaxHP
+title: MaxHP
+searchTitle: Lua StatBonuses MaxHP
 weight: 1
 hidden: true
 menuTitle: MaxHP
 ---
 ## MaxHP
 ```lua
-StatBonuses:MaxHP(); -- unknown - int32
+StatBonuses:MaxHP(); -- number
 ```

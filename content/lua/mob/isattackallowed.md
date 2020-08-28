@@ -1,5 +1,6 @@
 ---
-title: Lua IsAttackAllowed
+title: IsAttackAllowed
+searchTitle: Lua Mob IsAttackAllowed
 weight: 1
 hidden: true
 menuTitle: IsAttackAllowed

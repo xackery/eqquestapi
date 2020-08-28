@@ -1,5 +1,6 @@
 ---
-title: Lua HasZoneFlag
+title: HasZoneFlag
+searchTitle: Lua Client HasZoneFlag
 weight: 1
 hidden: true
 menuTitle: HasZoneFlag

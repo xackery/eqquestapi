@@ -1,5 +1,6 @@
 ---
-title: Lua PotionBelt
+title: PotionBelt
+searchTitle: Lua Item PotionBelt
 weight: 1
 hidden: true
 menuTitle: PotionBelt

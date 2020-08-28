@@ -1,5 +1,6 @@
 ---
-title: Lua GetGroupNumber
+title: GetGroupNumber
+searchTitle: Lua Raid GetGroupNumber
 weight: 1
 hidden: true
 menuTitle: GetGroupNumber

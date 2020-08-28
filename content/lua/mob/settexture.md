@@ -1,5 +1,6 @@
 ---
-title: Lua SetTexture
+title: SetTexture
+searchTitle: Lua Mob SetTexture
 weight: 1
 hidden: true
 menuTitle: SetTexture

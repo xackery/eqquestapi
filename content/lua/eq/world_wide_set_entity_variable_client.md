@@ -1,5 +1,6 @@
 ---
-title: Lua world_wide_set_entity_variable_client
+title: world_wide_set_entity_variable_client
+searchTitle: Lua eq world_wide_set_entity_variable_client
 weight: 1
 hidden: true
 menuTitle: world_wide_set_entity_variable_client

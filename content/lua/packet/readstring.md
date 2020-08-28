@@ -1,5 +1,6 @@
 ---
-title: Lua ReadString
+title: ReadString
+searchTitle: Lua Packet ReadString
 weight: 1
 hidden: true
 menuTitle: ReadString

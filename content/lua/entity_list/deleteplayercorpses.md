@@ -1,5 +1,6 @@
 ---
-title: Lua DeletePlayerCorpses
+title: DeletePlayerCorpses
+searchTitle: Lua EntityList DeletePlayerCorpses
 weight: 1
 hidden: true
 menuTitle: DeletePlayerCorpses

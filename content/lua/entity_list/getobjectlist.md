@@ -1,5 +1,6 @@
 ---
-title: Lua GetObjectList
+title: GetObjectList
+searchTitle: Lua EntityList GetObjectList
 weight: 1
 hidden: true
 menuTitle: GetObjectList

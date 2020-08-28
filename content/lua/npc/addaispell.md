@@ -1,5 +1,6 @@
 ---
-title: Lua AddAISpell
+title: AddAISpell
+searchTitle: Lua NPC AddAISpell
 weight: 1
 hidden: true
 menuTitle: AddAISpell

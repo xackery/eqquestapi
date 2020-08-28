@@ -1,10 +1,11 @@
 ---
-title: Lua ATK
+title: ATK
+searchTitle: Lua StatBonuses ATK
 weight: 1
 hidden: true
 menuTitle: ATK
 ---
 ## ATK
 ```lua
-StatBonuses:ATK(); -- unknown - int32
+StatBonuses:ATK(); -- number
 ```

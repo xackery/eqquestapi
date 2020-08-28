@@ -1,5 +1,6 @@
 ---
-title: Lua AssignWaypoints
+title: AssignWaypoints
+searchTitle: Lua NPC AssignWaypoints
 weight: 1
 hidden: true
 menuTitle: AssignWaypoints

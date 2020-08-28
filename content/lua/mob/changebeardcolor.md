@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeBeardColor
+title: ChangeBeardColor
+searchTitle: Lua Mob ChangeBeardColor
 weight: 1
 hidden: true
 menuTitle: ChangeBeardColor

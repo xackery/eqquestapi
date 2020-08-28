@@ -1,5 +1,6 @@
 ---
-title: Lua VoiceGraft
+title: VoiceGraft
+searchTitle: Lua StatBonuses VoiceGraft
 weight: 1
 hidden: true
 menuTitle: VoiceGraft

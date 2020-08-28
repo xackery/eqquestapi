@@ -1,5 +1,6 @@
 ---
-title: Lua CanMGB
+title: CanMGB
+searchTitle: Lua Spell CanMGB
 weight: 1
 hidden: true
 menuTitle: CanMGB

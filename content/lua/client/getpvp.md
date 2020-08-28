@@ -1,5 +1,6 @@
 ---
-title: Lua GetPVP
+title: GetPVP
+searchTitle: Lua Client GetPVP
 weight: 1
 hidden: true
 menuTitle: GetPVP

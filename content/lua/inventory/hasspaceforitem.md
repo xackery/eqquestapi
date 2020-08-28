@@ -1,5 +1,6 @@
 ---
-title: Lua HasSpaceForItem
+title: HasSpaceForItem
+searchTitle: Lua Inventory HasSpaceForItem
 weight: 1
 hidden: true
 menuTitle: HasSpaceForItem

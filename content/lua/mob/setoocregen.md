@@ -1,5 +1,6 @@
 ---
-title: Lua SetOOCRegen
+title: SetOOCRegen
+searchTitle: Lua Mob SetOOCRegen
 weight: 1
 hidden: true
 menuTitle: SetOOCRegen

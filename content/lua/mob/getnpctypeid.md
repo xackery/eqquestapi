@@ -1,5 +1,6 @@
 ---
-title: Lua GetNPCTypeID
+title: GetNPCTypeID
+searchTitle: Lua Mob GetNPCTypeID
 weight: 1
 hidden: true
 menuTitle: GetNPCTypeID

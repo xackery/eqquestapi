@@ -1,5 +1,6 @@
 ---
-title: Lua CanHaveSkill
+title: CanHaveSkill
+searchTitle: Lua Client CanHaveSkill
 weight: 1
 hidden: true
 menuTitle: CanHaveSkill

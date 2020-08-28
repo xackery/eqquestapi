@@ -1,5 +1,6 @@
 ---
-title: Lua SetCash
+title: SetCash
+searchTitle: Lua Corpse SetCash
 weight: 1
 hidden: true
 menuTitle: SetCash

@@ -1,5 +1,6 @@
 ---
-title: Lua ViralTargets
+title: ViralTargets
+searchTitle: Lua Spell ViralTargets
 weight: 1
 hidden: true
 menuTitle: ViralTargets

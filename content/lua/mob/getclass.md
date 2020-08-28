@@ -1,5 +1,6 @@
 ---
-title: Lua GetClass
+title: GetClass
+searchTitle: Lua Mob GetClass
 weight: 1
 hidden: true
 menuTitle: GetClass

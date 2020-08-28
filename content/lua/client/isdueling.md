@@ -1,5 +1,6 @@
 ---
-title: Lua IsDueling
+title: IsDueling
+searchTitle: Lua Client IsDueling
 weight: 1
 hidden: true
 menuTitle: IsDueling

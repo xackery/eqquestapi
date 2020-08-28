@@ -1,5 +1,6 @@
 ---
-title: Lua Damage
+title: Damage
+searchTitle: Lua Mob Damage
 weight: 1
 hidden: true
 menuTitle: Damage

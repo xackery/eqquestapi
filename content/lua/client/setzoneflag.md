@@ -1,5 +1,6 @@
 ---
-title: Lua SetZoneFlag
+title: SetZoneFlag
+searchTitle: Lua Client SetZoneFlag
 weight: 1
 hidden: true
 menuTitle: SetZoneFlag

@@ -1,10 +1,11 @@
 ---
-title: Lua DoubleAttackChance
+title: DoubleAttackChance
+searchTitle: Lua StatBonuses DoubleAttackChance
 weight: 1
 hidden: true
 menuTitle: DoubleAttackChance
 ---
 ## DoubleAttackChance
 ```lua
-StatBonuses:DoubleAttackChance(); -- unknown - int32
+StatBonuses:DoubleAttackChance(); -- number
 ```

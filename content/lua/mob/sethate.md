@@ -1,5 +1,6 @@
 ---
-title: Lua SetHate
+title: SetHate
+searchTitle: Lua Mob SetHate
 weight: 1
 hidden: true
 menuTitle: SetHate

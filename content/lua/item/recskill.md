@@ -1,5 +1,6 @@
 ---
-title: Lua RecSkill
+title: RecSkill
+searchTitle: Lua Item RecSkill
 weight: 1
 hidden: true
 menuTitle: RecSkill

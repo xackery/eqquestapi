@@ -1,10 +1,11 @@
 ---
-title: Lua PetAvoidance
+title: PetAvoidance
+searchTitle: Lua StatBonuses PetAvoidance
 weight: 1
 hidden: true
 menuTitle: PetAvoidance
 ---
 ## PetAvoidance
 ```lua
-StatBonuses:PetAvoidance(); -- unknown - int32
+StatBonuses:PetAvoidance(); -- number
 ```

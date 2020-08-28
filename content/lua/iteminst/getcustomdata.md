@@ -1,5 +1,6 @@
 ---
-title: Lua GetCustomData
+title: GetCustomData
+searchTitle: Lua ItemInst GetCustomData
 weight: 1
 hidden: true
 menuTitle: GetCustomData

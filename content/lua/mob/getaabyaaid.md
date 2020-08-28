@@ -1,5 +1,6 @@
 ---
-title: Lua GetAAByAAID
+title: GetAAByAAID
+searchTitle: Lua Mob GetAAByAAID
 weight: 1
 hidden: true
 menuTitle: GetAAByAAID

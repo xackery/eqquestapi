@@ -1,5 +1,6 @@
 ---
-title: Lua MerchantOpenShop
+title: MerchantOpenShop
+searchTitle: Lua NPC MerchantOpenShop
 weight: 1
 hidden: true
 menuTitle: MerchantOpenShop

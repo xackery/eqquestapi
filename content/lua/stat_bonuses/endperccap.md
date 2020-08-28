@@ -1,5 +1,6 @@
 ---
-title: Lua EndPercCap
+title: EndPercCap
+searchTitle: Lua StatBonuses EndPercCap
 weight: 1
 hidden: true
 menuTitle: EndPercCap

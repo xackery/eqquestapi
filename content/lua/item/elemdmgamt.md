@@ -1,5 +1,6 @@
 ---
-title: Lua ElemDmgAmt
+title: ElemDmgAmt
+searchTitle: Lua Item ElemDmgAmt
 weight: 1
 hidden: true
 menuTitle: ElemDmgAmt

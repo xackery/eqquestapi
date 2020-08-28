@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxDamage
+title: GetMaxDamage
+searchTitle: Lua NPC GetMaxDamage
 weight: 1
 hidden: true
 menuTitle: GetMaxDamage

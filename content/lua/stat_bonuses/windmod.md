@@ -1,5 +1,6 @@
 ---
-title: Lua windMod
+title: windMod
+searchTitle: Lua StatBonuses windMod
 weight: 1
 hidden: true
 menuTitle: windMod

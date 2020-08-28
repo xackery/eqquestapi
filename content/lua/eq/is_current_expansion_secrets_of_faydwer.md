@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_secrets_of_faydwer
+title: is_current_expansion_secrets_of_faydwer
+searchTitle: Lua eq is_current_expansion_secrets_of_faydwer
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_secrets_of_faydwer

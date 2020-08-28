@@ -1,5 +1,6 @@
 ---
-title: Lua IsGroupMember
+title: IsGroupMember
+searchTitle: Lua Group IsGroupMember
 weight: 1
 hidden: true
 menuTitle: IsGroupMember

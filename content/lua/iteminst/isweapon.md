@@ -1,5 +1,6 @@
 ---
-title: Lua IsWeapon
+title: IsWeapon
+searchTitle: Lua ItemInst IsWeapon
 weight: 1
 hidden: true
 menuTitle: IsWeapon

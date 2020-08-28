@@ -1,5 +1,6 @@
 ---
-title: Lua MaxCharges
+title: MaxCharges
+searchTitle: Lua Item MaxCharges
 weight: 1
 hidden: true
 menuTitle: MaxCharges

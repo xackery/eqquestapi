@@ -1,5 +1,6 @@
 ---
-title: Lua CastSpell
+title: CastSpell
+searchTitle: Lua Mob CastSpell
 weight: 1
 hidden: true
 menuTitle: CastSpell

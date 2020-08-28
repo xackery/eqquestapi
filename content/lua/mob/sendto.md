@@ -1,5 +1,6 @@
 ---
-title: Lua SendTo
+title: SendTo
+searchTitle: Lua Mob SendTo
 weight: 1
 hidden: true
 menuTitle: SendTo

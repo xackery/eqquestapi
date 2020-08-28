@@ -1,5 +1,6 @@
 ---
-title: Lua disable_proximity_say
+title: disable_proximity_say
+searchTitle: Lua eq disable_proximity_say
 weight: 1
 hidden: true
 menuTitle: disable_proximity_say

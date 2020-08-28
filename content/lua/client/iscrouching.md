@@ -1,5 +1,6 @@
 ---
-title: Lua IsCrouching
+title: IsCrouching
+searchTitle: Lua Client IsCrouching
 weight: 1
 hidden: true
 menuTitle: IsCrouching

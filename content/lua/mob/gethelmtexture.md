@@ -1,5 +1,6 @@
 ---
-title: Lua GetHelmTexture
+title: GetHelmTexture
+searchTitle: Lua Mob GetHelmTexture
 weight: 1
 hidden: true
 menuTitle: GetHelmTexture

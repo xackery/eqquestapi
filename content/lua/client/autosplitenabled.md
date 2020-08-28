@@ -1,5 +1,6 @@
 ---
-title: Lua AutoSplitEnabled
+title: AutoSplitEnabled
+searchTitle: Lua Client AutoSplitEnabled
 weight: 1
 hidden: true
 menuTitle: AutoSplitEnabled

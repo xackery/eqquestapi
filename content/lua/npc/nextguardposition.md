@@ -1,5 +1,6 @@
 ---
-title: Lua NextGuardPosition
+title: NextGuardPosition
+searchTitle: Lua NPC NextGuardPosition
 weight: 1
 hidden: true
 menuTitle: NextGuardPosition

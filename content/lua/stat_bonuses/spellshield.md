@@ -1,5 +1,6 @@
 ---
-title: Lua SpellShield
+title: SpellShield
+searchTitle: Lua StatBonuses SpellShield
 weight: 1
 hidden: true
 menuTitle: SpellShield

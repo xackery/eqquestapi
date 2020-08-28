@@ -1,5 +1,6 @@
 ---
-title: Lua IsTaskCompleted
+title: IsTaskCompleted
+searchTitle: Lua Client IsTaskCompleted
 weight: 1
 hidden: true
 menuTitle: IsTaskCompleted

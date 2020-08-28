@@ -1,5 +1,6 @@
 ---
-title: Lua NumHits
+title: NumHits
+searchTitle: Lua Spell NumHits
 weight: 1
 hidden: true
 menuTitle: NumHits

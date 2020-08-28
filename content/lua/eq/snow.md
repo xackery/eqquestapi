@@ -1,5 +1,6 @@
 ---
-title: Lua snow
+title: snow
+searchTitle: Lua eq snow
 weight: 1
 hidden: true
 menuTitle: snow

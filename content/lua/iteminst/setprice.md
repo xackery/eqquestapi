@@ -1,5 +1,6 @@
 ---
-title: Lua SetPrice
+title: SetPrice
+searchTitle: Lua ItemInst SetPrice
 weight: 1
 hidden: true
 menuTitle: SetPrice

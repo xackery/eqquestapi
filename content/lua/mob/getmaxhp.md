@@ -1,5 +1,6 @@
 ---
-title: Lua GetMaxHP
+title: GetMaxHP
+searchTitle: Lua Mob GetMaxHP
 weight: 1
 hidden: true
 menuTitle: GetMaxHP

@@ -1,5 +1,6 @@
 ---
-title: Lua CalculateNewWaypoint
+title: CalculateNewWaypoint
+searchTitle: Lua NPC CalculateNewWaypoint
 weight: 1
 hidden: true
 menuTitle: CalculateNewWaypoint

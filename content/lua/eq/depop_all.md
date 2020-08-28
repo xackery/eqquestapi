@@ -1,5 +1,6 @@
 ---
-title: Lua depop_all
+title: depop_all
+searchTitle: Lua eq depop_all
 weight: 1
 hidden: true
 menuTitle: depop_all

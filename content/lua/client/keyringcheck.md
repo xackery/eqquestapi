@@ -1,5 +1,6 @@
 ---
-title: Lua KeyRingCheck
+title: KeyRingCheck
+searchTitle: Lua Client KeyRingCheck
 weight: 1
 hidden: true
 menuTitle: KeyRingCheck

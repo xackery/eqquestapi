@@ -1,5 +1,6 @@
 ---
-title: Lua Summon
+title: Summon
+searchTitle: Lua Corpse Summon
 weight: 1
 hidden: true
 menuTitle: Summon

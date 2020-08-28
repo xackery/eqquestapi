@@ -1,10 +1,11 @@
 ---
-title: Lua ShieldBlock
+title: ShieldBlock
+searchTitle: Lua StatBonuses ShieldBlock
 weight: 1
 hidden: true
 menuTitle: ShieldBlock
 ---
 ## ShieldBlock
 ```lua
-StatBonuses:ShieldBlock(); -- unknown - int32
+StatBonuses:ShieldBlock(); -- number
 ```

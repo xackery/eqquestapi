@@ -1,5 +1,6 @@
 ---
-title: Lua RecourseLink
+title: RecourseLink
+searchTitle: Lua Spell RecourseLink
 weight: 1
 hidden: true
 menuTitle: RecourseLink

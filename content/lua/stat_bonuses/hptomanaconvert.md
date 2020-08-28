@@ -1,5 +1,6 @@
 ---
-title: Lua HPToManaConvert
+title: HPToManaConvert
+searchTitle: Lua StatBonuses HPToManaConvert
 weight: 1
 hidden: true
 menuTitle: HPToManaConvert

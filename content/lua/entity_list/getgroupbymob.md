@@ -1,5 +1,6 @@
 ---
-title: Lua GetGroupByMob
+title: GetGroupByMob
+searchTitle: Lua EntityList GetGroupByMob
 weight: 1
 hidden: true
 menuTitle: GetGroupByMob

@@ -1,5 +1,6 @@
 ---
-title: Lua Heal
+title: Heal
+searchTitle: Lua Mob Heal
 weight: 1
 hidden: true
 menuTitle: Heal

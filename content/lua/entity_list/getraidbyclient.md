@@ -1,5 +1,6 @@
 ---
-title: Lua GetRaidByClient
+title: GetRaidByClient
+searchTitle: Lua EntityList GetRaidByClient
 weight: 1
 hidden: true
 menuTitle: GetRaidByClient

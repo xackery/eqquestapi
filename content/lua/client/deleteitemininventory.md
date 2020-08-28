@@ -1,5 +1,6 @@
 ---
-title: Lua DeleteItemInInventory
+title: DeleteItemInInventory
+searchTitle: Lua Client DeleteItemInInventory
 weight: 1
 hidden: true
 menuTitle: DeleteItemInInventory

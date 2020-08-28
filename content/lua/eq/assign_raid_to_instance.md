@@ -1,5 +1,6 @@
 ---
-title: Lua assign_raid_to_instance
+title: assign_raid_to_instance
+searchTitle: Lua eq assign_raid_to_instance
 weight: 1
 hidden: true
 menuTitle: assign_raid_to_instance

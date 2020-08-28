@@ -1,5 +1,6 @@
 ---
-title: Lua SetNoKeyring
+title: SetNoKeyring
+searchTitle: Lua Door SetNoKeyring
 weight: 1
 hidden: true
 menuTitle: SetNoKeyring

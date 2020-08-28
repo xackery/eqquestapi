@@ -1,10 +1,11 @@
 ---
-title: Lua DEXCapMod
+title: DEXCapMod
+searchTitle: Lua StatBonuses DEXCapMod
 weight: 1
 hidden: true
 menuTitle: DEXCapMod
 ---
 ## DEXCapMod
 ```lua
-StatBonuses:DEXCapMod(); -- unknown - int32
+StatBonuses:DEXCapMod(); -- number
 ```

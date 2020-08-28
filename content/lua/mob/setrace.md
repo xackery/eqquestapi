@@ -1,5 +1,6 @@
 ---
-title: Lua SetRace
+title: SetRace
+searchTitle: Lua Mob SetRace
 weight: 1
 hidden: true
 menuTitle: SetRace

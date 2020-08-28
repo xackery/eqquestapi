@@ -1,5 +1,6 @@
 ---
-title: Lua world_wide_move_instance
+title: world_wide_move_instance
+searchTitle: Lua eq world_wide_move_instance
 weight: 1
 hidden: true
 menuTitle: world_wide_move_instance

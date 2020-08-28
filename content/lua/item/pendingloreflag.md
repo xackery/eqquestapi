@@ -1,5 +1,6 @@
 ---
-title: Lua PendingLoreFlag
+title: PendingLoreFlag
+searchTitle: Lua Item PendingLoreFlag
 weight: 1
 hidden: true
 menuTitle: PendingLoreFlag

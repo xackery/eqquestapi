@@ -1,5 +1,6 @@
 ---
-title: Lua TakeMoneyFromPP
+title: TakeMoneyFromPP
+searchTitle: Lua Client TakeMoneyFromPP
 weight: 1
 hidden: true
 menuTitle: TakeMoneyFromPP

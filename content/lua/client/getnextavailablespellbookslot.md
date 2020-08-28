@@ -1,5 +1,6 @@
 ---
-title: Lua GetNextAvailableSpellBookSlot
+title: GetNextAvailableSpellBookSlot
+searchTitle: Lua Client GetNextAvailableSpellBookSlot
 weight: 1
 hidden: true
 menuTitle: GetNextAvailableSpellBookSlot

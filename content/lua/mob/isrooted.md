@@ -1,5 +1,6 @@
 ---
-title: Lua IsRooted
+title: IsRooted
+searchTitle: Lua Mob IsRooted
 weight: 1
 hidden: true
 menuTitle: IsRooted

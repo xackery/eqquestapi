@@ -1,5 +1,6 @@
 ---
-title: Lua GetAlternateCurrencyValue
+title: GetAlternateCurrencyValue
+searchTitle: Lua Client GetAlternateCurrencyValue
 weight: 1
 hidden: true
 menuTitle: GetAlternateCurrencyValue

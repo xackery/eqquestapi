@@ -1,5 +1,6 @@
 ---
-title: Lua CastToMob
+title: CastToMob
+searchTitle: Lua Entity CastToMob
 weight: 1
 hidden: true
 menuTitle: CastToMob

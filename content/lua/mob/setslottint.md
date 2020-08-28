@@ -1,5 +1,6 @@
 ---
-title: Lua SetSlotTint
+title: SetSlotTint
+searchTitle: Lua Mob SetSlotTint
 weight: 1
 hidden: true
 menuTitle: SetSlotTint

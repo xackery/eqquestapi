@@ -1,5 +1,6 @@
 ---
-title: Lua SetBindPoint
+title: SetBindPoint
+searchTitle: Lua Client SetBindPoint
 weight: 1
 hidden: true
 menuTitle: SetBindPoint

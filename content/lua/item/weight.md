@@ -1,5 +1,6 @@
 ---
-title: Lua Weight
+title: Weight
+searchTitle: Lua Item Weight
 weight: 1
 hidden: true
 menuTitle: Weight

@@ -1,5 +1,6 @@
 ---
-title: Lua ZoneType
+title: ZoneType
+searchTitle: Lua Spell ZoneType
 weight: 1
 hidden: true
 menuTitle: ZoneType

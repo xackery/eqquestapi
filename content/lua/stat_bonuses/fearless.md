@@ -1,5 +1,6 @@
 ---
-title: Lua Fearless
+title: Fearless
+searchTitle: Lua StatBonuses Fearless
 weight: 1
 hidden: true
 menuTitle: Fearless

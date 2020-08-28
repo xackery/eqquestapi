@@ -1,5 +1,6 @@
 ---
-title: Lua BenefitFlag
+title: BenefitFlag
+searchTitle: Lua Item BenefitFlag
 weight: 1
 hidden: true
 menuTitle: BenefitFlag

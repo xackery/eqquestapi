@@ -1,5 +1,6 @@
 ---
-title: Lua IDFile
+title: IDFile
+searchTitle: Lua Item IDFile
 weight: 1
 hidden: true
 menuTitle: IDFile

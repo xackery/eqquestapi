@@ -1,5 +1,6 @@
 ---
-title: Lua SetGlobal
+title: SetGlobal
+searchTitle: Lua Mob SetGlobal
 weight: 1
 hidden: true
 menuTitle: SetGlobal

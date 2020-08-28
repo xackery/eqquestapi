@@ -1,5 +1,6 @@
 ---
-title: Lua spawn_condition
+title: spawn_condition
+searchTitle: Lua eq spawn_condition
 weight: 1
 hidden: true
 menuTitle: spawn_condition

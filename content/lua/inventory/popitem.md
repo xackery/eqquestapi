@@ -1,5 +1,6 @@
 ---
-title: Lua PopItem
+title: PopItem
+searchTitle: Lua Inventory PopItem
 weight: 1
 hidden: true
 menuTitle: PopItem

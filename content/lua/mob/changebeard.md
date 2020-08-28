@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeBeard
+title: ChangeBeard
+searchTitle: Lua Mob ChangeBeard
 weight: 1
 hidden: true
 menuTitle: ChangeBeard

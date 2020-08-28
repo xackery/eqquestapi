@@ -1,5 +1,6 @@
 ---
-title: Lua path_resume
+title: path_resume
+searchTitle: Lua eq path_resume
 weight: 1
 hidden: true
 menuTitle: path_resume

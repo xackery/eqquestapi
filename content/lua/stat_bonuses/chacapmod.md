@@ -1,10 +1,11 @@
 ---
-title: Lua CHACapMod
+title: CHACapMod
+searchTitle: Lua StatBonuses CHACapMod
 weight: 1
 hidden: true
 menuTitle: CHACapMod
 ---
 ## CHACapMod
 ```lua
-StatBonuses:CHACapMod(); -- unknown - int32
+StatBonuses:CHACapMod(); -- number
 ```

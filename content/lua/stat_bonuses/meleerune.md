@@ -1,5 +1,6 @@
 ---
-title: Lua MeleeRune
+title: MeleeRune
+searchTitle: Lua StatBonuses MeleeRune
 weight: 1
 hidden: true
 menuTitle: MeleeRune

@@ -1,5 +1,6 @@
 ---
-title: Lua GetPVPPoints
+title: GetPVPPoints
+searchTitle: Lua Client GetPVPPoints
 weight: 1
 hidden: true
 menuTitle: GetPVPPoints

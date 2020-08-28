@@ -1,5 +1,6 @@
 ---
-title: Lua GetTotalSecondsPlayed
+title: GetTotalSecondsPlayed
+searchTitle: Lua Client GetTotalSecondsPlayed
 weight: 1
 hidden: true
 menuTitle: GetTotalSecondsPlayed

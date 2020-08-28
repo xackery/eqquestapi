@@ -1,5 +1,6 @@
 ---
-title: Lua GetSilver
+title: GetSilver
+searchTitle: Lua Corpse GetSilver
 weight: 1
 hidden: true
 menuTitle: GetSilver

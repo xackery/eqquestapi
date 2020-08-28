@@ -1,5 +1,6 @@
 ---
-title: Lua StopTimer
+title: StopTimer
+searchTitle: Lua ItemInst StopTimer
 weight: 1
 hidden: true
 menuTitle: StopTimer

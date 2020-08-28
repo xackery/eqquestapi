@@ -1,5 +1,6 @@
 ---
-title: Lua Icon
+title: Icon
+searchTitle: Lua Item Icon
 weight: 1
 hidden: true
 menuTitle: Icon

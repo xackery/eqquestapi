@@ -1,5 +1,6 @@
 ---
-title: Lua DoKnockback
+title: DoKnockback
+searchTitle: Lua Mob DoKnockback
 weight: 1
 hidden: true
 menuTitle: DoKnockback

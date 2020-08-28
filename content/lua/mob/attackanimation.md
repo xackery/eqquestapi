@@ -1,5 +1,6 @@
 ---
-title: Lua AttackAnimation
+title: AttackAnimation
+searchTitle: Lua Mob AttackAnimation
 weight: 1
 hidden: true
 menuTitle: AttackAnimation

@@ -1,5 +1,6 @@
 ---
-title: Lua SetFeigned
+title: SetFeigned
+searchTitle: Lua Client SetFeigned
 weight: 1
 hidden: true
 menuTitle: SetFeigned

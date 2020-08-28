@@ -1,5 +1,6 @@
 ---
-title: Lua GetHunger
+title: GetHunger
+searchTitle: Lua Client GetHunger
 weight: 1
 hidden: true
 menuTitle: GetHunger

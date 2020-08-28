@@ -1,5 +1,6 @@
 ---
-title: Lua UnFreeze
+title: UnFreeze
+searchTitle: Lua Client UnFreeze
 weight: 1
 hidden: true
 menuTitle: UnFreeze

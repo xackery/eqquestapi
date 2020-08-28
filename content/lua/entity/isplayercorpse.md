@@ -1,5 +1,6 @@
 ---
-title: Lua IsPlayerCorpse
+title: IsPlayerCorpse
+searchTitle: Lua Entity IsPlayerCorpse
 weight: 1
 hidden: true
 menuTitle: IsPlayerCorpse

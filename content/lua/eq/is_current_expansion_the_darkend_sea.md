@@ -1,5 +1,6 @@
 ---
-title: Lua is_current_expansion_the_darkend_sea
+title: is_current_expansion_the_darkend_sea
+searchTitle: Lua eq is_current_expansion_the_darkend_sea
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_the_darkend_sea

@@ -1,5 +1,6 @@
 ---
-title: Lua SplitExp
+title: SplitExp
+searchTitle: Lua Raid SplitExp
 weight: 1
 hidden: true
 menuTitle: SplitExp

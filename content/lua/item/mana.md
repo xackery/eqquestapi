@@ -1,5 +1,6 @@
 ---
-title: Lua Mana
+title: Mana
+searchTitle: Lua Item Mana
 weight: 1
 hidden: true
 menuTitle: Mana

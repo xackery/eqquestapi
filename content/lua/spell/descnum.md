@@ -1,5 +1,6 @@
 ---
-title: Lua DescNum
+title: DescNum
+searchTitle: Lua Spell DescNum
 weight: 1
 hidden: true
 menuTitle: DescNum

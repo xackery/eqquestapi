@@ -1,10 +1,11 @@
 ---
-title: Lua OffhandRiposteFail
+title: OffhandRiposteFail
+searchTitle: Lua StatBonuses OffhandRiposteFail
 weight: 1
 hidden: true
 menuTitle: OffhandRiposteFail
 ---
 ## OffhandRiposteFail
 ```lua
-StatBonuses:OffhandRiposteFail(); -- unknown - int32
+StatBonuses:OffhandRiposteFail(); -- number
 ```

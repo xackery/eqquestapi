@@ -1,5 +1,6 @@
 ---
-title: Lua Admin
+title: Admin
+searchTitle: Lua Client Admin
 weight: 1
 hidden: true
 menuTitle: Admin

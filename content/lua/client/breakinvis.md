@@ -1,5 +1,6 @@
 ---
-title: Lua BreakInvis
+title: BreakInvis
+searchTitle: Lua Client BreakInvis
 weight: 1
 hidden: true
 menuTitle: BreakInvis

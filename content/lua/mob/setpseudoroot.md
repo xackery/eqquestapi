@@ -1,5 +1,6 @@
 ---
-title: Lua SetPseudoRoot
+title: SetPseudoRoot
+searchTitle: Lua Mob SetPseudoRoot
 weight: 1
 hidden: true
 menuTitle: SetPseudoRoot

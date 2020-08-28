@@ -1,5 +1,6 @@
 ---
-title: Lua SetOpenType
+title: SetOpenType
+searchTitle: Lua Door SetOpenType
 weight: 1
 hidden: true
 menuTitle: SetOpenType

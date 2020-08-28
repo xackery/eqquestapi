@@ -1,5 +1,6 @@
 ---
-title: Lua SetLocation
+title: SetLocation
+searchTitle: Lua Door SetLocation
 weight: 1
 hidden: true
 menuTitle: SetLocation

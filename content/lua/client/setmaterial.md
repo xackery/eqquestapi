@@ -1,5 +1,6 @@
 ---
-title: Lua SetMaterial
+title: SetMaterial
+searchTitle: Lua Client SetMaterial
 weight: 1
 hidden: true
 menuTitle: SetMaterial

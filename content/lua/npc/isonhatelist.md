@@ -1,5 +1,6 @@
 ---
-title: Lua IsOnHatelist
+title: IsOnHatelist
+searchTitle: Lua NPC IsOnHatelist
 weight: 1
 hidden: true
 menuTitle: IsOnHatelist

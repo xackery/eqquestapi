@@ -1,5 +1,6 @@
 ---
-title: Lua MitigateSpellRune
+title: MitigateSpellRune
+searchTitle: Lua StatBonuses MitigateSpellRune
 weight: 1
 hidden: true
 menuTitle: MitigateSpellRune

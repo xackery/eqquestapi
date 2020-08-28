@@ -1,5 +1,6 @@
 ---
-title: Lua StopNavigation
+title: StopNavigation
+searchTitle: Lua Mob StopNavigation
 weight: 1
 hidden: true
 menuTitle: StopNavigation

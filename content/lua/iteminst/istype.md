@@ -1,5 +1,6 @@
 ---
-title: Lua IsType
+title: IsType
+searchTitle: Lua ItemInst IsType
 weight: 1
 hidden: true
 menuTitle: IsType

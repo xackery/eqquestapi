@@ -1,10 +1,11 @@
 ---
-title: Lua ProcChanceSPA
+title: ProcChanceSPA
+searchTitle: Lua StatBonuses ProcChanceSPA
 weight: 1
 hidden: true
 menuTitle: ProcChanceSPA
 ---
 ## ProcChanceSPA
 ```lua
-StatBonuses:ProcChanceSPA(); -- unknown - int32
+StatBonuses:ProcChanceSPA(); -- number
 ```

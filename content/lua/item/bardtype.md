@@ -1,5 +1,6 @@
 ---
-title: Lua BardType
+title: BardType
+searchTitle: Lua Item BardType
 weight: 1
 hidden: true
 menuTitle: BardType

@@ -1,5 +1,6 @@
 ---
-title: Lua AddCash
+title: AddCash
+searchTitle: Lua NPC AddCash
 weight: 1
 hidden: true
 menuTitle: AddCash

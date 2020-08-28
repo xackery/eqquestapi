@@ -1,5 +1,6 @@
 ---
-title: Lua SetGender
+title: SetGender
+searchTitle: Lua Mob SetGender
 weight: 1
 hidden: true
 menuTitle: SetGender

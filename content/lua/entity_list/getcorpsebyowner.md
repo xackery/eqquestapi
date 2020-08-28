@@ -1,5 +1,6 @@
 ---
-title: Lua GetCorpseByOwner
+title: GetCorpseByOwner
+searchTitle: Lua EntityList GetCorpseByOwner
 weight: 1
 hidden: true
 menuTitle: GetCorpseByOwner

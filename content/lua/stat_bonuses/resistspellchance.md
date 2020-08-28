@@ -1,10 +1,11 @@
 ---
-title: Lua ResistSpellChance
+title: ResistSpellChance
+searchTitle: Lua StatBonuses ResistSpellChance
 weight: 1
 hidden: true
 menuTitle: ResistSpellChance
 ---
 ## ResistSpellChance
 ```lua
-StatBonuses:ResistSpellChance(); -- unknown - int32
+StatBonuses:ResistSpellChance(); -- number
 ```

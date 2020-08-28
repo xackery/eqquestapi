@@ -1,5 +1,6 @@
 ---
-title: Lua SetBaseGender
+title: SetBaseGender
+searchTitle: Lua Client SetBaseGender
 weight: 1
 hidden: true
 menuTitle: SetBaseGender

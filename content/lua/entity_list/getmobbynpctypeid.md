@@ -1,5 +1,6 @@
 ---
-title: Lua GetMobByNpcTypeID
+title: GetMobByNpcTypeID
+searchTitle: Lua EntityList GetMobByNpcTypeID
 weight: 1
 hidden: true
 menuTitle: GetMobByNpcTypeID

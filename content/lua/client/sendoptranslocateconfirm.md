@@ -1,5 +1,6 @@
 ---
-title: Lua SendOPTranslocateConfirm
+title: SendOPTranslocateConfirm
+searchTitle: Lua Client SendOPTranslocateConfirm
 weight: 1
 hidden: true
 menuTitle: SendOPTranslocateConfirm

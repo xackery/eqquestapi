@@ -1,5 +1,6 @@
 ---
-title: Lua EnduranceRegen
+title: EnduranceRegen
+searchTitle: Lua Item EnduranceRegen
 weight: 1
 hidden: true
 menuTitle: EnduranceRegen

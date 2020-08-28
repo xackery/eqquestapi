@@ -1,5 +1,6 @@
 ---
-title: Lua GetCharges
+title: GetCharges
+searchTitle: Lua ItemInst GetCharges
 weight: 1
 hidden: true
 menuTitle: GetCharges

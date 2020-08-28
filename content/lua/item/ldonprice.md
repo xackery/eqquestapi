@@ -1,5 +1,6 @@
 ---
-title: Lua LDoNPrice
+title: LDoNPrice
+searchTitle: Lua Item LDoNPrice
 weight: 1
 hidden: true
 menuTitle: LDoNPrice

@@ -1,5 +1,6 @@
 ---
-title: Lua NPCSpecialAttacks
+title: NPCSpecialAttacks
+searchTitle: Lua Mob NPCSpecialAttacks
 weight: 1
 hidden: true
 menuTitle: NPCSpecialAttacks

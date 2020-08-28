@@ -1,5 +1,6 @@
 ---
-title: Lua Stun
+title: Stun
+searchTitle: Lua Mob Stun
 weight: 1
 hidden: true
 menuTitle: Stun

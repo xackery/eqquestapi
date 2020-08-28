@@ -1,10 +1,11 @@
 ---
-title: Lua CriticalHealOverTime
+title: CriticalHealOverTime
+searchTitle: Lua StatBonuses CriticalHealOverTime
 weight: 1
 hidden: true
 menuTitle: CriticalHealOverTime
 ---
 ## CriticalHealOverTime
 ```lua
-StatBonuses:CriticalHealOverTime(); -- unknown - int32
+StatBonuses:CriticalHealOverTime(); -- number
 ```

@@ -1,5 +1,6 @@
 ---
-title: Lua IsAmnesiad
+title: IsAmnesiad
+searchTitle: Lua Mob IsAmnesiad
 weight: 1
 hidden: true
 menuTitle: IsAmnesiad

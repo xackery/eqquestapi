@@ -1,5 +1,6 @@
 ---
-title: Lua WriteFixedLengthString
+title: WriteFixedLengthString
+searchTitle: Lua Packet WriteFixedLengthString
 weight: 1
 hidden: true
 menuTitle: WriteFixedLengthString

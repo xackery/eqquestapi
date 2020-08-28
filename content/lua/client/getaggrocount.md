@@ -1,5 +1,6 @@
 ---
-title: Lua GetAggroCount
+title: GetAggroCount
+searchTitle: Lua Client GetAggroCount
 weight: 1
 hidden: true
 menuTitle: GetAggroCount

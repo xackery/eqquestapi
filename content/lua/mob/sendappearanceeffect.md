@@ -1,5 +1,6 @@
 ---
-title: Lua SendAppearanceEffect
+title: SendAppearanceEffect
+searchTitle: Lua Mob SendAppearanceEffect
 weight: 1
 hidden: true
 menuTitle: SendAppearanceEffect

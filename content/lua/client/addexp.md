@@ -1,5 +1,6 @@
 ---
-title: Lua AddEXP
+title: AddEXP
+searchTitle: Lua Client AddEXP
 weight: 1
 hidden: true
 menuTitle: AddEXP

@@ -1,5 +1,6 @@
 ---
-title: Lua Depop
+title: Depop
+searchTitle: Lua Mob Depop
 weight: 1
 hidden: true
 menuTitle: Depop

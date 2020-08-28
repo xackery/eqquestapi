@@ -1,10 +1,11 @@
 ---
-title: Lua ParryChance
+title: ParryChance
+searchTitle: Lua StatBonuses ParryChance
 weight: 1
 hidden: true
 menuTitle: ParryChance
 ---
 ## ParryChance
 ```lua
-StatBonuses:ParryChance(); -- unknown - int32
+StatBonuses:ParryChance(); -- number
 ```

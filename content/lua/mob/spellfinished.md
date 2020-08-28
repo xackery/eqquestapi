@@ -1,5 +1,6 @@
 ---
-title: Lua SpellFinished
+title: SpellFinished
+searchTitle: Lua Mob SpellFinished
 weight: 1
 hidden: true
 menuTitle: SpellFinished

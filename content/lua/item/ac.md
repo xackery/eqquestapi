@@ -1,5 +1,6 @@
 ---
-title: Lua AC
+title: AC
+searchTitle: Lua Item AC
 weight: 1
 hidden: true
 menuTitle: AC

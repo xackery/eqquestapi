@@ -1,10 +1,11 @@
 ---
-title: Lua MinDamageModifier
+title: MinDamageModifier
+searchTitle: Lua StatBonuses MinDamageModifier
 weight: 1
 hidden: true
 menuTitle: MinDamageModifier
 ---
 ## MinDamageModifier
 ```lua
-StatBonuses:MinDamageModifier(number idx); -- unknown - int32
+StatBonuses:MinDamageModifier(number idx); -- number
 ```

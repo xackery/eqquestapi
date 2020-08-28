@@ -1,5 +1,6 @@
 ---
-title: Lua ClearFeignAggro
+title: ClearFeignAggro
+searchTitle: Lua EntityList ClearFeignAggro
 weight: 1
 hidden: true
 menuTitle: ClearFeignAggro

@@ -1,5 +1,6 @@
 ---
-title: Lua GetAnon
+title: GetAnon
+searchTitle: Lua Client GetAnon
 weight: 1
 hidden: true
 menuTitle: GetAnon

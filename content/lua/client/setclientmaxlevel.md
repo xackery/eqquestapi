@@ -1,5 +1,6 @@
 ---
-title: Lua SetClientMaxLevel
+title: SetClientMaxLevel
+searchTitle: Lua Client SetClientMaxLevel
 weight: 1
 hidden: true
 menuTitle: SetClientMaxLevel

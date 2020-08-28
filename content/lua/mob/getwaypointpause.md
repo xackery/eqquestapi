@@ -1,5 +1,6 @@
 ---
-title: Lua GetWaypointPause
+title: GetWaypointPause
+searchTitle: Lua Mob GetWaypointPause
 weight: 1
 hidden: true
 menuTitle: GetWaypointPause

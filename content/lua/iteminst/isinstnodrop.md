@@ -1,5 +1,6 @@
 ---
-title: Lua IsInstNoDrop
+title: IsInstNoDrop
+searchTitle: Lua ItemInst IsInstNoDrop
 weight: 1
 hidden: true
 menuTitle: IsInstNoDrop

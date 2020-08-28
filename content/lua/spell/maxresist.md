@@ -1,5 +1,6 @@
 ---
-title: Lua MaxResist
+title: MaxResist
+searchTitle: Lua Spell MaxResist
 weight: 1
 hidden: true
 menuTitle: MaxResist

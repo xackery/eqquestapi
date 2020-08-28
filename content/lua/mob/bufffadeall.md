@@ -1,5 +1,6 @@
 ---
-title: Lua BuffFadeAll
+title: BuffFadeAll
+searchTitle: Lua Mob BuffFadeAll
 weight: 1
 hidden: true
 menuTitle: BuffFadeAll

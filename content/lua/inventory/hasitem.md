@@ -1,5 +1,6 @@
 ---
-title: Lua HasItem
+title: HasItem
+searchTitle: Lua Inventory HasItem
 weight: 1
 hidden: true
 menuTitle: HasItem

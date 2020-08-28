@@ -1,5 +1,6 @@
 ---
-title: Lua SendSpellEffect
+title: SendSpellEffect
+searchTitle: Lua Mob SendSpellEffect
 weight: 1
 hidden: true
 menuTitle: SendSpellEffect

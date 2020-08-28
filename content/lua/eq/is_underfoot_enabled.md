@@ -1,5 +1,6 @@
 ---
-title: Lua is_underfoot_enabled
+title: is_underfoot_enabled
+searchTitle: Lua eq is_underfoot_enabled
 weight: 1
 hidden: true
 menuTitle: is_underfoot_enabled

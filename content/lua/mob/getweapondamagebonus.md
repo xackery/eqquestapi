@@ -1,5 +1,6 @@
 ---
-title: Lua GetWeaponDamageBonus
+title: GetWeaponDamageBonus
+searchTitle: Lua Mob GetWeaponDamageBonus
 weight: 1
 hidden: true
 menuTitle: GetWeaponDamageBonus

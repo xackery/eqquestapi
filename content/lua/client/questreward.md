@@ -1,5 +1,6 @@
 ---
-title: Lua QuestReward
+title: QuestReward
+searchTitle: Lua Client QuestReward
 weight: 1
 hidden: true
 menuTitle: QuestReward

@@ -1,5 +1,6 @@
 ---
-title: Lua SplitExp
+title: SplitExp
+searchTitle: Lua Group SplitExp
 weight: 1
 hidden: true
 menuTitle: SplitExp

@@ -1,5 +1,6 @@
 ---
-title: Lua RemoveAISpell
+title: RemoveAISpell
+searchTitle: Lua NPC RemoveAISpell
 weight: 1
 hidden: true
 menuTitle: RemoveAISpell

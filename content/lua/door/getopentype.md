@@ -1,5 +1,6 @@
 ---
-title: Lua GetOpenType
+title: GetOpenType
+searchTitle: Lua Door GetOpenType
 weight: 1
 hidden: true
 menuTitle: GetOpenType

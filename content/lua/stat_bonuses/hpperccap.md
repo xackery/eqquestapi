@@ -1,5 +1,6 @@
 ---
-title: Lua HPPercCap
+title: HPPercCap
+searchTitle: Lua StatBonuses HPPercCap
 weight: 1
 hidden: true
 menuTitle: HPPercCap

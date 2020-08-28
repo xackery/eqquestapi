@@ -1,5 +1,6 @@
 ---
-title: Lua SignalMobsByNPCID
+title: SignalMobsByNPCID
+searchTitle: Lua EntityList SignalMobsByNPCID
 weight: 1
 hidden: true
 menuTitle: SignalMobsByNPCID

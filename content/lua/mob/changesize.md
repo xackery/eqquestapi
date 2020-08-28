@@ -1,5 +1,6 @@
 ---
-title: Lua ChangeSize
+title: ChangeSize
+searchTitle: Lua Mob ChangeSize
 weight: 1
 hidden: true
 menuTitle: ChangeSize

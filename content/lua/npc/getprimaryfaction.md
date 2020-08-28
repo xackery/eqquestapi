@@ -1,5 +1,6 @@
 ---
-title: Lua GetPrimaryFaction
+title: GetPrimaryFaction
+searchTitle: Lua NPC GetPrimaryFaction
 weight: 1
 hidden: true
 menuTitle: GetPrimaryFaction

@@ -1,5 +1,6 @@
 ---
-title: Lua FindDoor
+title: FindDoor
+searchTitle: Lua EntityList FindDoor
 weight: 1
 hidden: true
 menuTitle: FindDoor

@@ -1,5 +1,6 @@
 ---
-title: Lua WriteFloat
+title: WriteFloat
+searchTitle: Lua Packet WriteFloat
 weight: 1
 hidden: true
 menuTitle: WriteFloat

@@ -1,5 +1,6 @@
 ---
-title: Lua BaneDmgRace
+title: BaneDmgRace
+searchTitle: Lua Item BaneDmgRace
 weight: 1
 hidden: true
 menuTitle: BaneDmgRace

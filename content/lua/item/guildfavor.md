@@ -1,5 +1,6 @@
 ---
-title: Lua GuildFavor
+title: GuildFavor
+searchTitle: Lua Item GuildFavor
 weight: 1
 hidden: true
 menuTitle: GuildFavor

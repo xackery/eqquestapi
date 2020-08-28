@@ -1,5 +1,6 @@
 ---
-title: Lua SplitMoney
+title: SplitMoney
+searchTitle: Lua Raid SplitMoney
 weight: 1
 hidden: true
 menuTitle: SplitMoney

@@ -1,5 +1,6 @@
 ---
-title: Lua GetRace
+title: GetRace
+searchTitle: Lua Mob GetRace
 weight: 1
 hidden: true
 menuTitle: GetRace

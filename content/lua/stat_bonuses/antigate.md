@@ -1,5 +1,6 @@
 ---
-title: Lua AntiGate
+title: AntiGate
+searchTitle: Lua StatBonuses AntiGate
 weight: 1
 hidden: true
 menuTitle: AntiGate

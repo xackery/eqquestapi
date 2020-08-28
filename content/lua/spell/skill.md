@@ -1,5 +1,6 @@
 ---
-title: Lua Skill
+title: Skill
+searchTitle: Lua Spell Skill
 weight: 1
 hidden: true
 menuTitle: Skill

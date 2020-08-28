@@ -1,5 +1,6 @@
 ---
-title: Lua GetUnscaledItem
+title: GetUnscaledItem
+searchTitle: Lua ItemInst GetUnscaledItem
 weight: 1
 hidden: true
 menuTitle: GetUnscaledItem

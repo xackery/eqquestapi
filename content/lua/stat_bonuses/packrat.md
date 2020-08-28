@@ -1,10 +1,11 @@
 ---
-title: Lua Packrat
+title: Packrat
+searchTitle: Lua StatBonuses Packrat
 weight: 1
 hidden: true
 menuTitle: Packrat
 ---
 ## Packrat
 ```lua
-StatBonuses:Packrat(); -- unknown - int8
+StatBonuses:Packrat(); -- number
 ```

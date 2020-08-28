@@ -1,5 +1,6 @@
 ---
-title: Lua MinDistMod
+title: MinDistMod
+searchTitle: Lua Spell MinDistMod
 weight: 1
 hidden: true
 menuTitle: MinDistMod

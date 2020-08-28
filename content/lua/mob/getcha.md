@@ -1,5 +1,6 @@
 ---
-title: Lua GetCHA
+title: GetCHA
+searchTitle: Lua Mob GetCHA
 weight: 1
 hidden: true
 menuTitle: GetCHA

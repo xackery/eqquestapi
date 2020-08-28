@@ -1,5 +1,6 @@
 ---
-title: Lua GetLDoNPointsTheme
+title: GetLDoNPointsTheme
+searchTitle: Lua Client GetLDoNPointsTheme
 weight: 1
 hidden: true
 menuTitle: GetLDoNPointsTheme

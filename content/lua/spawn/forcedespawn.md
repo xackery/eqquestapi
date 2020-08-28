@@ -1,5 +1,6 @@
 ---
-title: Lua ForceDespawn
+title: ForceDespawn
+searchTitle: Lua Spawn ForceDespawn
 weight: 1
 hidden: true
 menuTitle: ForceDespawn

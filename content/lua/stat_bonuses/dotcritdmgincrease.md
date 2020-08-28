@@ -1,10 +1,11 @@
 ---
-title: Lua DotCritDmgIncrease
+title: DotCritDmgIncrease
+searchTitle: Lua StatBonuses DotCritDmgIncrease
 weight: 1
 hidden: true
 menuTitle: DotCritDmgIncrease
 ---
 ## DotCritDmgIncrease
 ```lua
-StatBonuses:DotCritDmgIncrease(); -- unknown - int32
+StatBonuses:DotCritDmgIncrease(); -- number
 ```

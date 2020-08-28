@@ -1,5 +1,6 @@
 ---
-title: Lua RangedAttack
+title: RangedAttack
+searchTitle: Lua Mob RangedAttack
 weight: 1
 hidden: true
 menuTitle: RangedAttack

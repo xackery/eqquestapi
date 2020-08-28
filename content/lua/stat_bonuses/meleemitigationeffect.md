@@ -1,10 +1,11 @@
 ---
-title: Lua MeleeMitigationEffect
+title: MeleeMitigationEffect
+searchTitle: Lua StatBonuses MeleeMitigationEffect
 weight: 1
 hidden: true
 menuTitle: MeleeMitigationEffect
 ---
 ## MeleeMitigationEffect
 ```lua
-StatBonuses:MeleeMitigationEffect(); -- unknown - int32
+StatBonuses:MeleeMitigationEffect(); -- number
 ```

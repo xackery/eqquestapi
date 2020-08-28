@@ -1,5 +1,6 @@
 ---
-title: Lua SetNPCPointer
+title: SetNPCPointer
+searchTitle: Lua Spawn SetNPCPointer
 weight: 1
 hidden: true
 menuTitle: SetNPCPointer

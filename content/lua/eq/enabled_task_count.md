@@ -1,5 +1,6 @@
 ---
-title: Lua enabled_task_count
+title: enabled_task_count
+searchTitle: Lua eq enabled_task_count
 weight: 1
 hidden: true
 menuTitle: enabled_task_count

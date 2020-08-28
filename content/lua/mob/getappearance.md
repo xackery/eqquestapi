@@ -1,5 +1,6 @@
 ---
-title: Lua GetAppearance
+title: GetAppearance
+searchTitle: Lua Mob GetAppearance
 weight: 1
 hidden: true
 menuTitle: GetAppearance

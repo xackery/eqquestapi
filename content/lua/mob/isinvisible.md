@@ -1,5 +1,6 @@
 ---
-title: Lua IsInvisible
+title: IsInvisible
+searchTitle: Lua Mob IsInvisible
 weight: 1
 hidden: true
 menuTitle: IsInvisible

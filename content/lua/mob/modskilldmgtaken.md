@@ -1,5 +1,6 @@
 ---
-title: Lua ModSkillDmgTaken
+title: ModSkillDmgTaken
+searchTitle: Lua Mob ModSkillDmgTaken
 weight: 1
 hidden: true
 menuTitle: ModSkillDmgTaken

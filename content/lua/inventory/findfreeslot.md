@@ -1,5 +1,6 @@
 ---
-title: Lua FindFreeSlot
+title: FindFreeSlot
+searchTitle: Lua Inventory FindFreeSlot
 weight: 1
 hidden: true
 menuTitle: FindFreeSlot

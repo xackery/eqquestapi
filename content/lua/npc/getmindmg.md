@@ -1,5 +1,6 @@
 ---
-title: Lua GetMinDMG
+title: GetMinDMG
+searchTitle: Lua NPC GetMinDMG
 weight: 1
 hidden: true
 menuTitle: GetMinDMG

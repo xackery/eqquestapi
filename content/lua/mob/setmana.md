@@ -1,5 +1,6 @@
 ---
-title: Lua SetMana
+title: SetMana
+searchTitle: Lua Mob SetMana
 weight: 1
 hidden: true
 menuTitle: SetMana
