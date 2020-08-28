@@ -1,9 +1,9 @@
 ---
-title: Enums
-weight: 4
+title: Scripts
+weight: 0
 chapter: true
 ---
 
-### Enums
+### Scripts
 
 {{% children depth="3" %}}

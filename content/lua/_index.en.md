@@ -1,6 +1,6 @@
 ---
 title: Lua
-weight: -25
+weight: 2
 chapter: true
 ---
 

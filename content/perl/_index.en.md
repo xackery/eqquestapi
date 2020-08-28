@@ -1,6 +1,6 @@
 ---
 title: Perl
-weight: -25
+weight: 3
 chapter: true
 ---
 
