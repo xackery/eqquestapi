@@ -3,7 +3,6 @@ title: SpawnList Class
 menuTitle: SpawnList Class
 description: Lua SpawnList Class
 searchTitle: Lua SpawnList Class
-hidden: true
 weight: 25
 ---
 

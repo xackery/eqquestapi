@@ -1,0 +1,94 @@
+---
+title: MT Enum
+menuTitle: MT Enum
+description: Lua MT Enum
+searchTitle: Lua MT Enum
+weight: 25
+---
+## MessageType Enum
+- [NPCQuestSay](npcquestsay) -- {{% lua_type_number %}}
+- [Say](say) -- {{% lua_type_number %}}
+- [Tell](tell) -- {{% lua_type_number %}}
+- [Group](group) -- {{% lua_type_number %}}
+- [Guild](guild) -- {{% lua_type_number %}}
+- [OOC](ooc) -- {{% lua_type_number %}}
+- [Auction](auction) -- {{% lua_type_number %}}
+- [Shout](shout) -- {{% lua_type_number %}}
+- [Emote](emote) -- {{% lua_type_number %}}
+- [Spells](spells) -- {{% lua_type_number %}}
+- [YouHitOther](youhitother) -- {{% lua_type_number %}}
+- [OtherHitsYou](otherhitsyou) -- {{% lua_type_number %}}
+- [YouMissOther](youmissother) -- {{% lua_type_number %}}
+- [OtherMissesYou](othermissesyou) -- {{% lua_type_number %}}
+- [Broadcasts](broadcasts) -- {{% lua_type_number %}}
+- [Skills](skills) -- {{% lua_type_number %}}
+- [Disciplines](disciplines) -- {{% lua_type_number %}}
+- [Unused1](unused1) -- {{% lua_type_number %}}
+- [DefaultText](defaulttext) -- {{% lua_type_number %}}
+- [Unused2](unused2) -- {{% lua_type_number %}}
+- [MerchantOffer](merchantoffer) -- {{% lua_type_number %}}
+- [MerchantBuySell](merchantbuysell) -- {{% lua_type_number %}}
+- [YourDeath](yourdeath) -- {{% lua_type_number %}}
+- [OtherDeath](otherdeath) -- {{% lua_type_number %}}
+- [OtherHits](otherhits) -- {{% lua_type_number %}}
+- [OtherMisses](othermisses) -- {{% lua_type_number %}}
+- [Who](who) -- {{% lua_type_number %}}
+- [YellForHelp](yellforhelp) -- {{% lua_type_number %}}
+- [NonMelee](nonmelee) -- {{% lua_type_number %}}
+- [WornOff](wornoff) -- {{% lua_type_number %}}
+- [MoneySplit](moneysplit) -- {{% lua_type_number %}}
+- [LootMessages](lootmessages) -- {{% lua_type_number %}}
+- [DiceRoll](diceroll) -- {{% lua_type_number %}}
+- [OtherSpells](otherspells) -- {{% lua_type_number %}}
+- [SpellFailure](spellfailure) -- {{% lua_type_number %}}
+- [Chat](chat) -- {{% lua_type_number %}}
+- [Channel1](channel1) -- {{% lua_type_number %}}
+- [Channel2](channel2) -- {{% lua_type_number %}}
+- [Channel3](channel3) -- {{% lua_type_number %}}
+- [Channel4](channel4) -- {{% lua_type_number %}}
+- [Channel5](channel5) -- {{% lua_type_number %}}
+- [Channel6](channel6) -- {{% lua_type_number %}}
+- [Channel7](channel7) -- {{% lua_type_number %}}
+- [Channel8](channel8) -- {{% lua_type_number %}}
+- [Channel9](channel9) -- {{% lua_type_number %}}
+- [Channel10](channel10) -- {{% lua_type_number %}}
+- [CritMelee](critmelee) -- {{% lua_type_number %}}
+- [SpellCrits](spellcrits) -- {{% lua_type_number %}}
+- [TooFarAway](toofaraway) -- {{% lua_type_number %}}
+- [NPCRampage](npcrampage) -- {{% lua_type_number %}}
+- [NPCFlurry](npcflurry) -- {{% lua_type_number %}}
+- [NPCEnrage](npcenrage) -- {{% lua_type_number %}}
+- [SayEcho](sayecho) -- {{% lua_type_number %}}
+- [TellEcho](tellecho) -- {{% lua_type_number %}}
+- [GroupEcho](groupecho) -- {{% lua_type_number %}}
+- [GuildEcho](guildecho) -- {{% lua_type_number %}}
+- [OOCEcho](oocecho) -- {{% lua_type_number %}}
+- [AuctionEcho](auctionecho) -- {{% lua_type_number %}}
+- [ShoutECho](shoutecho) -- {{% lua_type_number %}}
+- [EmoteEcho](emoteecho) -- {{% lua_type_number %}}
+- [Chat1Echo](chat1echo) -- {{% lua_type_number %}}
+- [Chat2Echo](chat2echo) -- {{% lua_type_number %}}
+- [Chat3Echo](chat3echo) -- {{% lua_type_number %}}
+- [Chat4Echo](chat4echo) -- {{% lua_type_number %}}
+- [Chat5Echo](chat5echo) -- {{% lua_type_number %}}
+- [Chat6Echo](chat6echo) -- {{% lua_type_number %}}
+- [Chat7Echo](chat7echo) -- {{% lua_type_number %}}
+- [Chat8Echo](chat8echo) -- {{% lua_type_number %}}
+- [Chat9Echo](chat9echo) -- {{% lua_type_number %}}
+- [Chat10Echo](chat10echo) -- {{% lua_type_number %}}
+- [DoTDamage](dotdamage) -- {{% lua_type_number %}}
+- [ItemLink](itemlink) -- {{% lua_type_number %}}
+- [RaidSay](raidsay) -- {{% lua_type_number %}}
+- [MyPet](mypet) -- {{% lua_type_number %}}
+- [DS](ds) -- {{% lua_type_number %}}
+- [Leadership](leadership) -- {{% lua_type_number %}}
+- [PetFlurry](petflurry) -- {{% lua_type_number %}}
+- [PetCrit](petcrit) -- {{% lua_type_number %}}
+- [FocusEffect](focuseffect) -- {{% lua_type_number %}}
+- [Experience](experience) -- {{% lua_type_number %}}
+- [System](system) -- {{% lua_type_number %}}
+- [PetSpell](petspell) -- {{% lua_type_number %}}
+- [PetResponse](petresponse) -- {{% lua_type_number %}}
+- [ItemSpeech](itemspeech) -- {{% lua_type_number %}}
+- [StrikeThrough](strikethrough) -- {{% lua_type_number %}}
+- [Stun](stun) -- {{% lua_type_number %}}

@@ -3,7 +3,6 @@ title: Slot Enum
 menuTitle: Slot Enum
 description: Lua Slot Enum
 searchTitle: Lua Slot Enum
-hidden: true
 weight: 25
 ---
 ## Slot Enum

@@ -3,7 +3,6 @@ title: Hate List Class
 menuTitle: Hate List Class
 description: Lua Hate List Class
 searchTitle: Lua Hate List Class
-hidden: true
 weight: 25
 ---
 

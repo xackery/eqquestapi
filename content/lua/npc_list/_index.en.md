@@ -3,7 +3,6 @@ title: NPCList Class
 menuTitle: NPCList Class
 description: Lua NPCList Class
 searchTitle: Lua NPCList Class
-hidden: true
 weight: 25
 ---
 

@@ -3,7 +3,6 @@ title: EntityList Class
 menuTitle: EntityList Class
 description: Lua EntityList Class
 searchTitle: Lua EntityList Class
-hidden: true
 weight: 25
 ---
 

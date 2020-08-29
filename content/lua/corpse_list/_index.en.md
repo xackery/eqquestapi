@@ -1,9 +1,8 @@
 ---
-title: CorpseList
-menuTitle: CorpseList
+title: CorpseList Class
+menuTitle: CorpseList Class
 description: Lua CorpseList Class
 searchTitle: Lua CorpseList Class
-hidden: true
 weight: 25
 ---
 

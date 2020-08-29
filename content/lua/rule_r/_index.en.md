@@ -2,7 +2,6 @@
 title: RuleR Namespace
 menuTitle: RuleR Namespace
 description: Lua RuleR Namespace
-hidden: true
 weight: 25
 ---
 ## RuleR Methods

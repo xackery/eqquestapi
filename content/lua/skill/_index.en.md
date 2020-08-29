@@ -1,0 +1,88 @@
+---
+title: Skill Enum
+menuTitle: Skill Enum
+description: Lua Skill Enum
+searchTitle: Lua Skill Enum
+weight: 25
+---
+## Skill Enum
+- [1HBlunt](1hblunt) -- {{% lua_type_number %}}
+- [1HSlashing](1hslashing) -- {{% lua_type_number %}}
+- [2HBlunt](2hblunt) -- {{% lua_type_number %}}
+- [2HSlashing](2hslashing) -- {{% lua_type_number %}}
+- [Abjuration](abjuration) -- {{% lua_type_number %}}
+- [Alteration](alteration) -- {{% lua_type_number %}}
+- [ApplyPoison](applypoison) -- {{% lua_type_number %}}
+- [Archery](archery) -- {{% lua_type_number %}}
+- [Backstab](backstab) -- {{% lua_type_number %}}
+- [BindWound](bindwound) -- {{% lua_type_number %}}
+- [Bash](bash) -- {{% lua_type_number %}}
+- [Block](block) -- {{% lua_type_number %}}
+- [BrassInstruments](brassinstruments) -- {{% lua_type_number %}}
+- [Channeling](channeling) -- {{% lua_type_number %}}
+- [Conjuration](conjuration) -- {{% lua_type_number %}}
+- [Defense](defense) -- {{% lua_type_number %}}
+- [Disarm](disarm) -- {{% lua_type_number %}}
+- [DisarmTraps](disarmtraps) -- {{% lua_type_number %}}
+- [Divination](divination) -- {{% lua_type_number %}}
+- [Dodge](dodge) -- {{% lua_type_number %}}
+- [DoubleAttack](doubleattack) -- {{% lua_type_number %}}
+- [DragonPunch](dragonpunch) -- {{% lua_type_number %}}
+- [TailRake](tailrake) -- {{% lua_type_number %}}
+- [DualWield](dualwield) -- {{% lua_type_number %}}
+- [EagleStrike](eaglestrike) -- {{% lua_type_number %}}
+- [Evocation](evocation) -- {{% lua_type_number %}}
+- [FeignDeath](feigndeath) -- {{% lua_type_number %}}
+- [FlyingKick](flyingkick) -- {{% lua_type_number %}}
+- [Forage](forage) -- {{% lua_type_number %}}
+- [HandtoHand](handtohand) -- {{% lua_type_number %}}
+- [Hide](hide) -- {{% lua_type_number %}}
+- [Kick](kick) -- {{% lua_type_number %}}
+- [Meditate](meditate) -- {{% lua_type_number %}}
+- [Mend](mend) -- {{% lua_type_number %}}
+- [Offense](offense) -- {{% lua_type_number %}}
+- [Parry](parry) -- {{% lua_type_number %}}
+- [PickLock](picklock) -- {{% lua_type_number %}}
+- [1HPiercing](1hpiercing) -- {{% lua_type_number %}}
+- [Riposte](riposte) -- {{% lua_type_number %}}
+- [RoundKick](roundkick) -- {{% lua_type_number %}}
+- [SafeFall](safefall) -- {{% lua_type_number %}}
+- [SenseHeading](senseheading) -- {{% lua_type_number %}}
+- [Singing](singing) -- {{% lua_type_number %}}
+- [Sneak](sneak) -- {{% lua_type_number %}}
+- [SpecializeAbjure](specializeabjure) -- {{% lua_type_number %}}
+- [SpecializeAlteration](specializealteration) -- {{% lua_type_number %}}
+- [SpecializeConjuration](specializeconjuration) -- {{% lua_type_number %}}
+- [SpecializeDivination](specializedivination) -- {{% lua_type_number %}}
+- [SpecializeEvocation](specializeevocation) -- {{% lua_type_number %}}
+- [PickPockets](pickpockets) -- {{% lua_type_number %}}
+- [StringedInstruments](stringedinstruments) -- {{% lua_type_number %}}
+- [Swimming](swimming) -- {{% lua_type_number %}}
+- [Throwing](throwing) -- {{% lua_type_number %}}
+- [TigerClaw](tigerclaw) -- {{% lua_type_number %}}
+- [Tracking](tracking) -- {{% lua_type_number %}}
+- [WindInstruments](windinstruments) -- {{% lua_type_number %}}
+- [Fishing](fishing) -- {{% lua_type_number %}}
+- [MakePoison](makepoison) -- {{% lua_type_number %}}
+- [Tinkering](tinkering) -- {{% lua_type_number %}}
+- [Research](research) -- {{% lua_type_number %}}
+- [Alchemy](alchemy) -- {{% lua_type_number %}}
+- [Baking](baking) -- {{% lua_type_number %}}
+- [Tailoring](tailoring) -- {{% lua_type_number %}}
+- [SenseTraps](sensetraps) -- {{% lua_type_number %}}
+- [Blacksmithing](blacksmithing) -- {{% lua_type_number %}}
+- [Fletching](fletching) -- {{% lua_type_number %}}
+- [Brewing](brewing) -- {{% lua_type_number %}}
+- [AlcoholTolerance](alcoholtolerance) -- {{% lua_type_number %}}
+- [Begging](begging) -- {{% lua_type_number %}}
+- [JewelryMaking](jewelrymaking) -- {{% lua_type_number %}}
+- [Pottery](pottery) -- {{% lua_type_number %}}
+- [PercussionInstruments](percussioninstruments) -- {{% lua_type_number %}}
+- [Intimidation](intimidation) -- {{% lua_type_number %}}
+- [Berserking](berserking) -- {{% lua_type_number %}}
+- [Taunt](taunt) -- {{% lua_type_number %}}
+- [Frenzy](frenzy) -- {{% lua_type_number %}}
+- [RemoveTraps](removetraps) -- {{% lua_type_number %}}
+- [TripleAttack](tripleattack) -- {{% lua_type_number %}}
+- [2HPiercing](2hpiercing) -- {{% lua_type_number %}}
+- [HIGHEST_SKILL](highest_skill) -- {{% lua_type_number %}}

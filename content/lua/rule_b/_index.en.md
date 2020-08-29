@@ -2,7 +2,6 @@
 title: RuleB Namespace
 menuTitle: RuleB Namespace
 description: Lua RuleB Namespace
-hidden: true
 weight: 25
 ---
 ## RuleB Methods
