@@ -9,5 +9,3 @@ menuTitle: AccountID
 ```lua
 Client:AccountID(); -- number
 ```
-
-{{% global_vars_lua %}}
