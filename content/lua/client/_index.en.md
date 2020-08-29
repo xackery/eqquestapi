@@ -2,7 +2,7 @@
 title: Client Class
 menuTitle: Client Class
 description: Lua Client Class
-searchTitle: Lua Client Class
+searchTitle: Lua Client Class   
 weight: 25
 ---
 
@@ -85,7 +85,7 @@ weight: 25
 - [GetCorpseID](getcorpseid)({{% lua_type_number %}} corpse) -- {{% lua_type_number %}}
 - [GetCorpseItemAt](getcorpseitemat)({{% lua_type_number %}} corpse, {{% lua_type_number %}} slot) -- {{% lua_type_number %}}
 - [GetDisciplineTimer](getdisciplinetimer)({{% lua_type_number %}} timer_id) -- {{% lua_type_number %}}
-- [GetDiscSlotBySpellID](getdiscslotbyspellid)(int32 spell_id) -- {{% lua_type_number %}}
+- [GetDiscSlotBySpellID](getdiscslotbyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
 - [GetDuelTarget](getdueltarget)() -- {{% lua_type_number %}}
 - [GetEbonCrystals](geteboncrystals)() -- {{% lua_type_number %}}
 - [GetEndurance](getendurance)() -- {{% lua_type_number %}}
@@ -163,15 +163,15 @@ weight: 25
 - [MovePCInstance](movepcinstance)({{% lua_type_number %}} zone, {{% lua_type_number %}} instance, float x, float y, float z, float heading) -- {{% lua_type_nil %}}
 - [MoveZone](movezone)({{% lua_type_string %}} zone_short_name) -- {{% lua_type_nil %}}
 - [MoveZoneGroup](movezonegroup)({{% lua_type_string %}} zone_short_name) -- {{% lua_type_nil %}}
-- [MoveZoneInstance](movezoneinstance)(uint16 instance_id) -- {{% lua_type_nil %}}
-- [MoveZoneInstanceGroup](movezoneinstancegroup)(uint16 instance_id) -- {{% lua_type_nil %}}
-- [MoveZoneInstanceRaid](movezoneinstanceraid)(uint16 instance_id) -- {{% lua_type_nil %}}
+- [MoveZoneInstance](movezoneinstance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [MoveZoneInstanceGroup](movezoneinstancegroup)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [MoveZoneInstanceRaid](movezoneinstanceraid)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
 - [MoveZoneRaid](movezoneraid)({{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
 - [NotifyNewTitlesAvailable](notifynewtitlesavailable)() -- {{% lua_type_nil %}}
 - [NukeItem](nukeitem)({{% lua_type_number %}} item_num, {{% lua_type_number %}} where_to_check) -- {{% lua_type_nil %}}
 - [OpenLFGuildWindow](openlfguildwindow)() -- {{% lua_type_nil %}}
-- [PushItemOnCursor](pushitemoncursor)(Lua_ItemInst inst) -- {{% lua_type_boolean %}}
-- [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, Lua_ItemInst inst) -- {{% lua_type_boolean %}}
+- [PushItemOnCursor](pushitemoncursor)({{% lua_iteminst %}} inst) -- {{% lua_type_boolean %}}
+- [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, {{% lua_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [QuestReadBook](questreadbook)({{% lua_type_string %}}text, {{% lua_type_number %}} type) -- {{% lua_type_nil %}}
 - [QuestReward](questreward)({{% lua_type_mob %}} target, luabind::adl::object reward) -- {{% lua_type_nil %}}
 - [QueuePacket](queuepacket)({{% lua_type_packet %}} app, {{% lua_type_boolean %}} ack_req, {{% lua_type_number %}} client_connection_status, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
@@ -183,7 +183,7 @@ weight: 25
 - [SaveBackup](savebackup)() -- {{% lua_type_nil %}}
 - [ScribeSpell](scribespell)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [SendColoredText](sendcoloredtext)({{% lua_type_number %}} type, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
-- [SendItemScale](senditemscale)(Lua_ItemInst inst) -- {{% lua_type_nil %}}
+- [SendItemScale](senditemscale)({{% lua_iteminst %}} inst) -- {{% lua_type_nil %}}
 - [SendMarqueeMessage](sendmarqueemessage)({{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
 - [SendOPTranslocateConfirm](sendoptranslocateconfirm)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [SendSound](sendsound)() -- {{% lua_type_nil %}}
@@ -225,16 +225,16 @@ weight: 25
 - [Signal](signal)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
 - [Stand](stand)() -- {{% lua_type_nil %}}
 - [SummonItem](summonitem)({{% lua_type_number %}} item_id, {{% lua_type_number %}} charges, {{% lua_type_number %}} aug1, {{% lua_type_number %}} aug2, {{% lua_type_number %}} aug3, {{% lua_type_number %}} aug4, {{% lua_type_number %}} aug5, {{% lua_type_boolean %}} attuned, {{% lua_type_number %}} to_slot) -- {{% lua_type_nil %}}
-- [TakeMoneyFromPP](takemoneyfrompp)(uint64 copper, {{% lua_type_boolean %}} update_client) -- {{% lua_type_boolean %}}
+- [TakeMoneyFromPP](takemoneyfrompp)({{% lua_type_number %}} copper, {{% lua_type_boolean %}} update_client) -- {{% lua_type_boolean %}}
 - [TGB](tgb)() -- {{% lua_type_boolean %}}
 - [Thirsty](thirsty)() -- {{% lua_type_boolean %}}
 - [TrainDisc](traindisc)({{% lua_type_number %}} itemid) -- {{% lua_type_nil %}}
-- [TrainDiscBySpellID](traindiscbyspellid)(int32 spell_id) -- {{% lua_type_nil %}}
+- [TrainDiscBySpellID](traindiscbyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [Undye](undye)() -- {{% lua_type_nil %}}
 - [UnFreeze](unfreeze)() -- {{% lua_type_nil %}}
 - [UnmemSpell](unmemspell)({{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [UnmemSpellAll](unmemspellall)({{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
-- [UnmemSpellBySpellID](unmemspellbyspellid)(int32 spell_id) -- {{% lua_type_nil %}}
+- [UnmemSpellBySpellID](unmemspellbyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [UnscribeSpell](unscribespell)({{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [UnscribeSpellAll](unscribespellall)({{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [UntrainDisc](untraindisc)({{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}

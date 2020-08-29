@@ -118,7 +118,7 @@ weight: 25
 - [fly_mode](fly_mode)({{% lua_type_number %}} flymode) -- {{% lua_type_nil %}}
 - [follow](follow)({{% lua_type_number %}} entity_id) -- {{% lua_type_nil %}}
 - [get_char_id_by_name](get_char_id_by_name)({{% lua_type_string %}} name) -- {{% lua_type_number %}}32
-- [get_characters_in_instance](get_characters_in_instance)({{% lua_type_state %}} L, {{% lua_type_number %}} instance_id) -- {{% lua_type_object %}}
+- [get_characters_in_instance](get_characters_in_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_object %}}
 - [get_class_name](get_class_name)({{% lua_type_number %}}8 class_id) -- {{% lua_type_string %}}
 - [get_currency_id](get_currency_id)({{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
 - [get_currency_item_id](get_currency_item_id)({{% lua_type_number %}} currency_id) -- {{% lua_type_number %}}
@@ -137,7 +137,7 @@ weight: 25
 - [get_player_buried_corpse_count](get_player_buried_corpse_count)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
 - [get_player_corpse_count_by_zone_id](get_player_corpse_count_by_zone_id)({{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_number %}}
 - [get_player_corpse_count](get_player_corpse_count)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
-- [get_qglobals](get_qglobals)({{% lua_type_state %}} *L, {{% lua_type_npc %}} npc, {{% lua_type_client %}} client) -- {{% lua_type_object %}}
+- [get_qglobals](get_qglobals)({{% lua_type_npc %}} npc, {{% lua_type_client %}} client) -- {{% lua_type_object %}}
 - [get_quest_item](get_quest_item)() -- {{% lua_type_iteminst %}}
 - [get_race_name](get_race_name)({{% lua_type_number %}} race_id) -- {{% lua_type_string %}}
 - [get_raid_id_by_char_id](get_raid_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
@@ -149,7 +149,7 @@ weight: 25
 - [get_zone_id](get_zone_id)() -- {{% lua_type_number %}}
 - [get_zone_instance_id](get_zone_instance_id)() -- {{% lua_type_number %}}
 - [get_zone_instance_version](get_zone_instance_version)() -- {{% lua_type_number %}}
-- [get_zone_time](get_zone_time)({{% lua_type_state %}} *L) -- {{% lua_type_object %}}
+- [get_zone_time](get_zone_time)() -- {{% lua_type_object %}}
 - [get_zone_weather](get_zone_weather)() -- {{% lua_type_number %}}
 - [is_call_of_the_forsaken_enabled](is_call_of_the_forsaken_enabled)() -- {{% lua_type_boolean %}}
 - [is_classic_enabled](is_classic_enabled)() -- {{% lua_type_boolean %}}
