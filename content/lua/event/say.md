@@ -1,7 +1,7 @@
 ---
 title: event_say
 searchTitle: Lua Event event_say
-description: Triggers when a player talks to a NPC while targetting them.
+description: Triggers when a player talks to a NPC
 weight: 1
 hidden: true
 menuTitle: event_say
@@ -9,15 +9,14 @@ menuTitle: event_say
 
 #### event_say
 
-Triggers when a player talks to a NPC while targetting them.
+Triggers when a player talks to a NPC
 
 **Syntax**
-```lua
-function event_say(e)
-end
-```
+
+function {{% lua_type_functionname event_say %}}({{% lua_type_class %}} e)
 
 **Parameters**
+
 - {{% lua_type_class %}} **e**: Short for event, extended to contain any data relevant to the event
 
 **Example**

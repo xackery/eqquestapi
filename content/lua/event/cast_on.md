@@ -12,10 +12,9 @@ menuTitle: event_cast_on
 Triggers when a NPC or player casts a spell on a target
 
 **Syntax**
-```lua
-function event_cast_on(e)
-end
-```
+
+function {{% lua_type_functionname event_cast_on %}}({{% lua_type_class %}} e)
+
 
 **Parameters**
 - {{% lua_type_class %}} **e**: Short for event, extended to contain any data relevant to the event

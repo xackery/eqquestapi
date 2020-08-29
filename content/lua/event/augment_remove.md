@@ -12,10 +12,9 @@ menuTitle: event_augment_remove
 Triggers when a player removes an augment
 
 **Syntax**
-```lua
-function event_augment_remove(e)
-end
-```
+
+function {{% lua_type_functionname event_augment_remove %}}({{% lua_type_class %}} e)
+
 
 **Parameters**
 - {{% lua_type_class %}} **e**: Short for event, extended to contain any data relevant to the event

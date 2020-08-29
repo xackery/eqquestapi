@@ -12,12 +12,11 @@ menuTitle: event_aggro_say
 Triggers when an NPC aggros anything
 
 **Syntax**
-```lua
-function event_aggro_say(e)
-end
-```
+
+function {{% lua_type_functionname event_aggro_say %}}({{% lua_type_class %}} e)
 
 **Parameters**
+
 - {{% lua_type_class %}} **e**: Short for event, extended to contain any data relevant to the event
 
 **Example**

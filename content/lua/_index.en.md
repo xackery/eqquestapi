@@ -1,5 +1,5 @@
 ---
-title: Lua Quest API
+title: Lua
 menuTitle: Lua
 description: Lua Quest API
 weight: 2
