@@ -170,8 +170,8 @@ weight: 25
 - [NotifyNewTitlesAvailable](notifynewtitlesavailable)() -- {{% lua_type_nil %}}
 - [NukeItem](nukeitem)({{% lua_type_number %}} item_num, {{% lua_type_number %}} where_to_check) -- {{% lua_type_nil %}}
 - [OpenLFGuildWindow](openlfguildwindow)() -- {{% lua_type_nil %}}
-- [PushItemOnCursor](pushitemoncursor)({{% lua_iteminst %}} inst) -- {{% lua_type_boolean %}}
-- [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, {{% lua_iteminst %}} inst) -- {{% lua_type_boolean %}}
+- [PushItemOnCursor](pushitemoncursor)({{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
+- [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, {{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [QuestReadBook](questreadbook)({{% lua_type_string %}}text, {{% lua_type_number %}} type) -- {{% lua_type_nil %}}
 - [QuestReward](questreward)({{% lua_type_mob %}} target, luabind::adl::object reward) -- {{% lua_type_nil %}}
 - [QueuePacket](queuepacket)({{% lua_type_packet %}} app, {{% lua_type_boolean %}} ack_req, {{% lua_type_number %}} client_connection_status, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
@@ -183,7 +183,7 @@ weight: 25
 - [SaveBackup](savebackup)() -- {{% lua_type_nil %}}
 - [ScribeSpell](scribespell)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [SendColoredText](sendcoloredtext)({{% lua_type_number %}} type, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
-- [SendItemScale](senditemscale)({{% lua_iteminst %}} inst) -- {{% lua_type_nil %}}
+- [SendItemScale](senditemscale)({{% lua_type_iteminst %}} inst) -- {{% lua_type_nil %}}
 - [SendMarqueeMessage](sendmarqueemessage)({{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
 - [SendOPTranslocateConfirm](sendoptranslocateconfirm)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [SendSound](sendsound)() -- {{% lua_type_nil %}}
