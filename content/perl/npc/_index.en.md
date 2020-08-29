@@ -1,11 +1,12 @@
 ---
 date: 2020-08-24T16:50:16+02:00
-title: Npc
-menuTitle: Npc
+title: NPC Class
+menuTitle: NPC Class
+searchTitle: Perl NPC Class
 weight: 25
 ---
 
-## Npc Methods (Perl)
+## Npc Methods
 - $npc->[AI_SetRoambox](ai_setroambox)(float distance, float max_x, float min_x, float max_y, float min_y, [uint32 max_delay = 2500], [uint32 min_delay = 2500])
 - $npc->[AddAISpell](addaispell)(int priority, int spell_id, int type, int mana_cost, int recast_delay, int resist_adjust)
 - $npc->[AddCash](addcash)(uint16 copper, uint16 silver, uint16 gold, uint16 platinum)

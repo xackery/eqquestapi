@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Raid
-menuTitle: Raid
+title: Raid Class
+menuTitle: Raid Class
+searchTitle: Perl Raid Class
 weight: 25
 ---
 
-## Raid Methods (Perl)
+## Raid Methods
 - $raid->[BalanceHP](balancehp)(int32 penalty, uint32 group_id)
 - $raid->[CastGroupSpell](castgroupspell)(mob* caster, uint16 spell_id, uint32 group_id)
 - $raid->[GetClientByIndex](getclientbyindex)(uint16 raid_indez)

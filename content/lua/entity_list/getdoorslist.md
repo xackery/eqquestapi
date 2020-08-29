@@ -7,5 +7,5 @@ menuTitle: GetDoorsList
 ---
 ## GetDoorsList
 ```lua
-EntityList:GetDoorsList(); -- unknown - Lua_Doors_List
+EntityList:GetDoorsList(); -- doors
 ```

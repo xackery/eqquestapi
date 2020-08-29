@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Door
-menuTitle: Door
+title: Door class
+menuTitle: Door Class
+searchTitle: Perl Door Class
 weight: 25
 ---
 
-## Door Methods (Perl)
+## Door Methods
 - $door->[GetDoorDBID](getdoordbid)()
 - $door->[GetDoorID](getdoorid)()
 - $door->[GetHeading](getheading)()

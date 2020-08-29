@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Mob
-menuTitle: Mob
+title: Mob Class
+menuTitle: Mob Class
+searchTitle: Perl Mob Class
 weight: 25
 ---
 
-## Mob Methods (Perl)
+## Mob Methods
 - $mob->[AddFeignMemory](addfeignmemory)(client* attacker)
 - $mob->[AddToHateList](addtohatelist)(mob* other, [int32 hate = 0], [int32 damage = 0], [bool yell_for_help = true], [bool frenzy = false], [bool buff_tic = false])
 - $mob->[Attack](attack)(mob* other, [int hand = 13 [prim|sec]], [bool from_riposte = false])

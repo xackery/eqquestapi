@@ -1,11 +1,12 @@
 ---
 date: 2020-08-24T16:50:16+02:00
-title: Event
-menuTitle: Event
+title: Event Subroutines
+menuTitle: Event Subroutines
+searchTitle: Perl Event Subroutines
 weight: 25
 ---
 
-## Event Subroutines (Perl)
+## Event Subroutines
 - [EVENT_SAY](say)
 - [EVENT_ITEM](item)
 - [EVENT_DEATH](death)

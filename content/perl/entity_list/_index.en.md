@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Entity List
-menuTitle: Entity List
+title: EntityList Class
+menuTitle: EntityList Class
+searchTitle: Perl EntityList Class
 weight: 25
 ---
 
-## Entity List Methods (Perl)
+## Entity List Methods
 - $entity_list->[CanAddHateForMob](canaddhateformob)(mob* target)
 - $entity_list->[Clear](clear)()
 - $entity_list->[ClearClientPetitionQueue](clearclientpetitionqueue)()

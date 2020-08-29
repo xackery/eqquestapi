@@ -1,256 +1,256 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Client
-menuTitle: Client
+title: Client Class
+menuTitle: Client Class
+searchTitle: Perl Client Class
 weight: 25
 ---
 
-## Client Methods (Perl)
-- $client->[AccountID](accountid)()
-- $client->[AccountName](accountname)()
-- $client->[AddAAPoints](addaapoints)(uint32 points)
-- $client->[AddAlternateCurrencyValue](addalternatecurrencyvalue)(uint32 currency_id, int32 amount)
-- $client->[AddCrystals](addcrystals)(uint32 radiant_count, uint32 ebon_count)
-- $client->[AddEXP](addexp)(uint32 experience_points)
-- $client->[AddLevelBasedExp](addlevelbasedexp)(uint8 exp_percentage, uint8 max_level = 0, bool ignore_mods = false)
-- $client->[AddMoneyToPP](addmoneytopp)(uint32 copper, uint32 silver, uint32 gold, uint32 platinum, bool update_client)
-- $client->[AddPVPPoints](addpvppoints)(uint32 points)
-- $client->[AddSkill](addskill)(int skill_id, uint16 value)
-- $client->[Admin](admin)()
-- $client->[AssignTask](assigntask)(int task_id, int npc_id, [bool enforce_level_requirement = false])
-- $client->[AssignToInstance](assigntoinstance)(uint16 instance_id)
-- $client->[AutoSplitEnabled](autosplitenabled)()
-- $client->[BreakInvis](breakinvis)()
-- $client->[CalcPriceMod](calcpricemod)(mob*, [bool reverse = false])
-- $client->[CanHaveSkill](canhaveskill)(int skill_id)
-- $client->[ChangeLastName](changelastname)(string last_name)
-- $client->[CharacterID](characterid)()
-- $client->[CheckIncreaseSkill](checkincreaseskill)(int skill_id, int chance_modifier = 0)
-- $client->[CheckSpecializeIncrease](checkspecializeincrease)(uint16 spell_id)
-- $client->[ClearCompassMark](clearcompassmark)()
-- $client->[ClearZoneFlag](clearzoneflag)(uint32 zone_id)
-- $client->[Connected](connected)()
-- $client->[DecreaseByID](decreasebyid)(uint32 type, unit8 amount)
-- $client->[DeleteItemInInventory](deleteitemininventory)(int16 slot_id, [int8 quantity = 0], [bool client_update = false])
-- $client->[Disconnect](disconnect)()
-- $client->[DropItem](dropitem)(int16 slot_id)
-- $client->[Duck](duck)()
-- $client->[DyeArmorBySlot](dyearmorbyslot)(uint8 slot, uint8 red, uint8 green, uint8 blue, [uint8 use_tint = 0x00])
-- $client->[Escape](escape)()
-- $client->[ExpeditionMessage](expeditionmessage)(int expedition_id, string message)
-- $client->[FailTask](failtask)(int task_id)
-- $client->[FindMemmedSpellBySlot](findmemmedspellbyslot)(int slot)
-- $client->[ForageItem](forageitem)()
-- $client->[GMKill](gmkill)()
-- $client->[GetAAExp](getaaexp)()
-- $client->[GetAALevel](getaalevel)(uint32 aa_skill_id)
-- $client->[GetAAPercent](getaapercent)()
-- $client->[GetAAPoints](getaapoints)()
-- $client->[GetAccountFlag](getaccountflag)(string flag)
-- $client->[GetAggroCount](getaggrocount)()
-- $client->[GetAllMoney](getallmoney)()
-- $client->[GetAlternateCurrencyValue](getalternatecurrencyvalue)(uint32 currency_id)
-- $client->[GetAnon](getanon)()
-- $client->[GetAugmentAt](getaugmentat)(uint32 slot, uint32 aug_slot)
-- $client->[GetAugmentIDAt](getaugmentidat)(int16 slot_id, int16 aug_slot)
-- $client->[GetBaseAGI](getbaseagi)()
-- $client->[GetBaseCHA](getbasecha)()
-- $client->[GetBaseDEX](getbasedex)()
-- $client->[GetBaseFace](getbaseface)()
-- $client->[GetBaseINT](getbaseint)()
-- $client->[GetBaseRace](getbaserace)()
-- $client->[GetBaseSTA](getbasesta)()
-- $client->[GetBaseSTR](getbasestr)()
-- $client->[GetBaseWIS](getbasewis)()
-- $client->[GetBecomeNPCLevel](getbecomenpclevel)()
-- $client->[GetBindHeading](getbindheading)(int index = 0)
-- $client->[GetBindX](getbindx)(int index = 0)
-- $client->[GetBindY](getbindy)(int index = 0)
-- $client->[GetBindZ](getbindz)(int index = 0)
-- $client->[GetBindZoneID](getbindzoneid)(int index = 0)
-- $client->[GetCarriedMoney](getcarriedmoney)()
-- $client->[GetCharacterFactionLevel](getcharacterfactionlevel)(int32 faction_id)
-- $client->[GetClientVersion](getclientversion)()
-- $client->[GetClientVersionBit](getclientversionbit)()
-- $client->[GetCorpseCount](getcorpsecount)()
-- $client->[GetCorpseID](getcorpseid)(uint8 corpse)
-- $client->[GetCorpseItemAt](getcorpseitemat)(uint32 corpse_id, uint16 slot_id)
-- $client->[GetCustomItemData](getcustomitemdata)(int16 slot_id, string identifier)
-- $client->[GetDisciplineTimer](getdisciplinetimer)(uint32 timer_id)
-- $client->[GetDiscSlotBySpellID](getdiscslotbyspellid)(int32 spell_id)
-- $client->[GetDisplayAC](getdisplayac)()
-- $client->[GetDuelTarget](getdueltarget)()
-- $client->[GetEXP](getexp)()
-- $client->[GetEbonCrystals](geteboncrystals)()
-- $client->[GetEndurance](getendurance)()
-- $client->[GetEnduranceRatio](getenduranceratio)()
-- $client->[GetFace](getface)()
-- $client->[GetFactionLevel](getfactionlevel)(uint32 character_id, uint32 npc_id, uint32 player_race_id, uint32 player_class_id, uint32 player_deity_id, uint32 player_faction_id, mob*)
-- $client->[GetFeigned](getfeigned)()
-- $client->[GetFreeSpellBookSlot](getfreespellbookslot)(uint32 start_slot = 0)
-- $client->[GetGM](getgm)()
-- $client->[GetGroup](getgroup)()
-- $client->[GetGroupPoints](getgrouppoints)()
-- $client->[GetHorseId](gethorseid)()
-- $client->[GetHunger](gethunger)()
-- $client->[GetIP](getip)()
-- $client->[GetInstanceID](getinstanceid)()
-- $client->[GetInstrumentMod](getinstrumentmod)(uint16 spell_id)
-- $client->[GetItemAt](getitemat)(uint32 slot)
-- $client->[GetItemIDAt](getitemidat)(int16 slot_id)
-- $client->[GetItemInInventory](getitemininventory)(int16 slot_id)
-- $client->[GetLDoNLosses](getldonlosses)()
-- $client->[GetLDoNLossesTheme](getldonlossestheme)(int32 theme)
-- $client->[GetLDoNPointsTheme](getldonpointstheme)(int32 theme)
-- $client->[GetLDoNWins](getldonwins)()
-- $client->[GetLDoNWinsTheme](getldonwinstheme)(int32 theme)
-- $client->[GetLanguageSkill](getlanguageskill)(uint16 lanuage_id)
-- $client->[GetLastName](getlastname)()
-- $client->[GetMaxEndurance](getmaxendurance)()
-- $client->[GetModCharacterFactionLevel](getmodcharacterfactionlevel)(int32 faction_id)
-- $client->[GetPVP](getpvp)()
-- $client->[GetPVPPoints](getpvppoints)()
-- $client->[GetRadiantCrystals](getradiantcrystals)()
-- $client->[GetRaid](getraid)()
-- $client->[GetRaidPoints](getraidpoints)()
-- $client->[GetRawItemAC](getrawitemac)()
-- $client->[GetRawSkill](getrawskill)(int skill_id)
-- $client->[GetSkill](getskill)(uint16 skill_id)
-- $client->[GetSkillPoints](getskillpoints)()
-- $client->[GetSpellBookSlotBySpellID](getspellbookslotbyspellid)(uint32 spell_id)
-- $client->[GetSpentAA](getspentaa)()
-- $client->[GetStartZone](getstartzone)()
-- $client->[GetTargetRingX](gettargetringx)()
-- $client->[GetTargetRingY](gettargetringy)()
-- $client->[GetTargetRingZ](gettargetringz)()
-- $client->[GetTaskActivityDoneCount](gettaskactivitydonecount)(int task_id, int activity_id)
-- $client->[GetThirst](getthirst)()
-- $client->[GetTotalSecondsPlayed](gettotalsecondsplayed)()
-- $client->[GetWeight](getweight)()
-- $client->[GoFish](gofish)()
-- $client->[GrantAlternateAdvancementAbility](grantalternateadvancementability)(int aa_id, int points, [bool ignore_cost = false])
-- $client->[GuildID](guildid)()
-- $client->[GuildRank](guildrank)()
-- $client->[HasSkill](hasskill)(int skill_id)
-- $client->[HasSpellScribed](hasspellscribed)(int spell_id)
-- $client->[HasZoneFlag](haszoneflag)(uint32 zone_id)
-- $client->[Hungry](hungry)()
-- $client->[InZone](inzone)()
-- $client->[IncStats](incstats)(uint8 type, uint16 increase_val)
-- $client->[IncreaseLanguageSkill](increaselanguageskill)(int skill_id, int value = 1)
-- $client->[IncreaseSkill](increaseskill)(int skill_id, int value = 1)
-- $client->[IncrementAA](incrementaa)(uint32 aa_skill_id)
-- $client->[IsBecomeNPC](isbecomenpc)()
-- $client->[IsCrouching](iscrouching)()
-- $client->[IsDueling](isdueling)()
-- $client->[IsGrouped](isgrouped)()
-- $client->[IsLD](isld)()
-- $client->[IsMedding](ismedding)()
-- $client->[IsRaidGrouped](israidgrouped)()
-- $client->[IsSitting](issitting)()
-- $client->[IsStanding](isstanding)()
-- $client->[IsTaskActive](istaskactive)(int task_id)
-- $client->[IsTaskActivityActive](istaskactivityactive)(int task_id, int activity_id)
-- $client->[IsTaskCompleted](istaskcompleted)(int task_id)
-- $client->[KeyRingAdd](keyringadd)(uint32 item_id)
-- $client->[KeyRingCheck](keyringcheck)(uint32 item_id)
-- $client->[Kick](kick)()
-- $client->[LearnRecipe](learnrecipe)(uint32 recipe_id)
-- $client->[LeaveGroup](leavegroup)()
-- $client->[LoadZoneFlags](loadzoneflags)()
-- $client->[MarkCompassLoc](markcompassloc)(float X, float Y, float Z)
-- $client->[MaxSkill](maxskill)(uint16 skill_id, uint16 class_id, uint16 level)
-- $client->[MemSpell](memspell)(uint16 spell_id, int slot, [bool update_client = true])
-- $client->[MemmedCount](memmedcount)()
-- $client->[MovePC](movepc)(uint32 zone_id, float X, float Y, float Z, float heading)
-- $client->[MovePCInstance](movepcinstance)(uint32 zone_id, uint32 instance_id, float X, float Y, float Z, float heading)
-- $client->[MoveZone](movezone)(const char *zone_short_name)
-- $client->[MoveZoneGroup](movezonegroup)(const char *zone_short_name)
-- $client->[MoveZoneRaid](movezoneraid)(const char *zone_short_name)
-- $client->[MoveZoneInstance](movezoneinstance)(uint16 instance_id)
-- $client->[MoveZoneInstanceGroup](movezoneinstancegroup)(uint16 instance_id)
-- $client->[MoveZoneInstanceRaid](movezoneinstanceraid)(uint16 instance_id)
-- $client->[NotifyNewTitlesAvailable](notifynewtitlesavailable)()
-- $client->[NPCSpawn](npcspawn)(npc*, string option, uint32 respawn_time=1200)
-- $client->[NukeItem](nukeitem)(uint32 item_id, [uint8 slot_to_check])
-- $client->[OpenLFGuildWindow](openlfguildwindow)()
-- $client->[PlayMP3](playmp3)(string file_name)
-- $client->[QuestReward](questreward)(int32 mob, int32 copper, int32 silver, int32 gold, int32 platinum, int32 item_id, int32 exp, [bool faction = false])
-- $client->[ReadBook](readbook)(char* book_test, uint8 type)
-- $client->[RefundAA](refundaa)()
-- $client->[RemoveFromInstance](removefrominstance)(uint16 instance_id)
-- $client->[RemoveNoRent](removenorent)()
-- $client->[ResetAA](resetaa)()
-- $client->[ResetDisciplineTimer](resetdisciplinetimer)(uint32 timer_id)
-- $client->[ResetTrade](resettrade)()
-- $client->[Save](save)(uint8 commit_now)
-- $client->[SaveBackup](savebackup)()
-- $client->[ScribeSpell](scribespell)(uint16 spell_id, int slot, [bool update_client = true])
-- $client->[SendColoredText](sendcoloredtext)(uint32 color, string message)
-- $client->[SendFullPopup](sendfullpopup)(string title, string text, uint32 popup_id, uint32 negative_id, uint32 buttons, uint32 duration, string button_name_0, string button_name_1, uint32 sound_controls)
-- $client->[SendMarqueeMessage](sendmarqueemessage)(uint32 type, uint32 priority, uint32 fade_in, uint32 fade_out, uint32 duration, string msg)
-- $client->[SendOPTranslocateConfirm](sendoptranslocateconfirm)(mob* caster, int32 spell_id)
-- $client->[SendSound](sendsound)()
-- $client->[SendTargetCommand](sendtargetcommand)(int32 entity_id)
-- $client->[SendToGuildHall](sendtoguildhall)()
-- $client->[SendWebLink](sendweblink)(string website_url)
-- $client->[SendZoneFlagInfo](sendzoneflaginfo)(client* to)
-- $client->[SetAAPoints](setaapoints)(uint32 points)
-- $client->[SetAATitle](setaatitle)(string text, [bool save = false])
-- $client->[SetAccountFlag](setaccountflag)(string flag, string value)
-- $client->[SetAlternateCurrencyValue](setalternatecurrencyvalue)(uint32 currency_id, int32 amount)
-- $client->[SetBaseClass](setbaseclass)(uint32 class_id)
-- $client->[SetBaseGender](setbasegender)(uint32 gender_id)
-- $client->[SetBaseRace](setbaserace)(uint32 race_id)
-- $client->[SetBecomeNPC](setbecomenpc)(flag)
-- $client->[SetBecomeNPCLevel](setbecomenpclevel)(level)
-- $client->[SetBindPoint](setbindpoint)(int to_zone = -1, int to_instance = 0, float new_x = 0.0f, float new_y = 0.0f, float new_z = 0.0f)
-- $client->[SetCustomItemData](setcustomitemdata)(int16 slot_id, string identifier, string value)
-- $client->[SetDeity](setdeity)(uint32 deity_id)
-- $client->[SetDuelTarget](setdueltarget)(set_id)
-- $client->[SetDueling](setdueling)(duel)
-- $client->[SetEXP](setexp)(uint32 experience_points, uint32 aa_experience_points, [bool resexp=false])
-- $client->[SetEndurance](setendurance)(endurance)
-- $client->[SetFactionLevel](setfactionlevel)(uint32 character_id, uint32 npc_id, uint8 character_class, uint8 character_race, uint8 character_deity)
-- $client->[SetFactionLevel2](setfactionlevel2)(uint32 character_id, int32 faction_id, uint8 character_class, uint8 character_race, uint8 character_deity, int32 value, uint8 temp)
-- $client->[SetFeigned](setfeigned)(in_feigned)
-- $client->[SetGM](setgm)(bool toggle)
-- $client->[SetHorseId](sethorseid)(horseid_in)
-- $client->[SetHunger](sethunger)(in_hunger)
-- $client->[SetHunger](sethunger)(int32 hunger_amount, int32 thirst_amount)
-- $client->[SetLanguageSkill](setlanguageskill)(int language_id, int value)
-- $client->[SetMaterial](setmaterial)(int16 slot_id, uint32 item_id)
-- $client->[SetPVP](setpvp)(bool toggle)
-- $client->[SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)(model_id)
-- $client->[SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)(model_id)
-- $client->[SetSkill](setskill)(int skill_id, uint16 value)
-- $client->[SetSkillPoints](setskillpoints)(inp)
-- $client->[SetStats](setstats)(uint8 type, uint16 increase_val)
-- $client->[SetThirst](setthirst)(int32 in_thirst)
-- $client->[SetTint](settint)(int16 slot_id, uint32 color)
-- $client->[SetTitleSuffix](settitlesuffix)(string text, [bool save = false])
-- $client->[SetZoneFlag](setzoneflag)(uint32 zone_id)
-- $client->[SignalClient](signalclient)(uint32 data)
-- $client->[SilentMessage](silentmessage)(string message)
-- $client->[SlotConvert2](slotconvert2)(uint8 slot)
-- $client->[Stand](stand)()
-- $client->[SummonItem](summonitem)(uint32 item_id, [int16 charges = -1], [bool attune = false], [uint32 aug1 = 0], [uint32 aug2 = 0], [uint32 aug3 = 0], [uint32 aug4 = 0], [uint32 aug5 = 0], [uint16 slot_id = cursor])
-- $client->[TGB](tgb)()
-- $client->[TakeMoneyFromPP](takemoneyfrompp)(uint32 copper, bool update_client = false)
-- $client->[Thirsty](thirsty)()
-- $client->[TrainDiscBySpellID](traindiscbyspellid)(int32 spell_id)
-- $client->[Undye](undye)()
-- $client->[UnmemSpell](unmemspell)(int slot, [bool update_client = true])
-- $client->[UnmemSpellAll](unmemspellall)([bool update_client = true])
-- $client->[UnmemSpellBySpellID](unmemspellbyspellid)(int32 spell_id)
-- $client->[UnscribeSpell](unscribespell)(int slot, [bool update_client = true])
-- $client->[UnscribeSpellAll](unscribespellall)([bool update_client = true])
-- $client->[UntrainDisc](untraindisc)(int slot, [bool update_client = true])
-- $client->[UntrainDiscAll](untraindiscall)([update_client = true])
-- $client->[UpdateAdmin](updateadmin)(bool from_db = true)
-- $client->[UpdateGroupAAs](updategroupaas)(int32 points, uint32 type)
-- $client->[UpdateLDoNPoints](updateldonpoints)(int32 points, uint32 theme)
-- $client->[UpdateTaskActivity](updatetaskactivity)(int task_id, int activity_id, int count, [bool ignore_quest_update = false])
-- $client->[UpdateWho](updatewho)(uint8 remove = 0)
-- $client->[UseDiscipline](usediscipline)(int32 spell_id, int32 target)
-- $client->[WorldKick](worldkick)()
+## Client Methods
+- [AccountID](accountid)() # {{% perl_type_number %}}
+- [AccountName](accountname)() # {{% perl_type_string %}}
+- [AddAAPoints](addaapoints)({{% perl_type_number %}} points) # {{% perl_type_undef %}}
+- [AddAlternateCurrencyValue](addalternatecurrencyvalue)({{% perl_type_number %}} currency_id, {{% perl_type_number %}} amount) # {{% perl_type_undef %}}
+- [AddCrystals](addcrystals)({{% perl_type_number %}} radiant_count, {{% perl_type_number %}} ebon_count) # {{% perl_type_undef %}}
+- [AddEXP](addexp)({{% perl_type_number %}} experience_points) #  {{% perl_type_undef %}}
+- [AddLevelBasedExp](addlevelbasedexp)({{% perl_type_number %}} exp_percentage, {{% perl_type_number %}} max_level = 0, {{% perl_type_boolean %}} ignore_mods = false) # {{% perl_type_undef %}}
+- [AddMoneyToPP](addmoneytopp)({{% perl_type_number %}} copper, {{% perl_type_number %}} silver, {{% perl_type_number %}} gold, {{% perl_type_number %}} platinum, {{% perl_type_boolean %}} update_client) # {{% perl_type_undef %}} 
+- [AddPVPPoints](addpvppoints)({{% perl_type_number %}} points) # {{% perl_type_undef %}} 
+- [AddSkill](addskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}} value) # {{% perl_type_undef %}} 
+- [Admin](admin)() # {{% perl_type_undef %}}
+- [AssignTask](assigntask)({{% perl_type_number %}}task_id, {{% perl_type_number %}} npc_id, [{{% perl_type_boolean %}} enforce_level_requirement = false]) # {{% perl_type_undef %}} 
+- [AssignToInstance](assigntoinstance)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
+- [AutoSplitEnabled](autosplitenabled)() # {{% perl_type_undef %}} 
+- [BreakInvis](breakinvis)() # {{% perl_type_undef %}} 
+- [CalcPriceMod](calcpricemod)(mob*, [{{% perl_type_boolean %}} reverse = false]) # {{% perl_type_undef %}} 
+- [CanHaveSkill](canhaveskill)({{% perl_type_number %}}skill_id) # {{% perl_type_undef %}} 
+- [ChangeLastName](changelastname)(string last_name) # {{% perl_type_undef %}} 
+- [CharacterID](characterid)() # {{% perl_type_undef %}} 
+- [CheckIncreaseSkill](checkincreaseskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}} chance_modifier = 0) # {{% perl_type_undef %}} 
+- [CheckSpecializeIncrease](checkspecializeincrease)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [ClearCompassMark](clearcompassmark)() # {{% perl_type_undef %}} 
+- [ClearZoneFlag](clearzoneflag)({{% perl_type_number %}} zone_id) # {{% perl_type_undef %}} 
+- [Connected](connected)() # {{% perl_type_undef %}} 
+- [DecreaseByID](decreasebyid)({{% perl_type_number %}} type, unit8 amount) # {{% perl_type_undef %}} 
+- [DeleteItemInInventory](deleteitemininventory)({{% perl_type_number %}} slot_id, [{{% perl_type_number %}} quantity = 0], [{{% perl_type_boolean %}} client_update = false]) # {{% perl_type_undef %}} 
+- [Disconnect](disconnect)() # {{% perl_type_undef %}} 
+- [DropItem](dropitem)({{% perl_type_number %}} slot_id) # {{% perl_type_undef %}} 
+- [Duck](duck)() # {{% perl_type_undef %}} 
+- [DyeArmorBySlot](dyearmorbyslot)({{% perl_type_number %}} slot, {{% perl_type_number %}} red, {{% perl_type_number %}} green, {{% perl_type_number %}} blue, [{{% perl_type_number %}} use_t{{% perl_type_number %}}= 0x00]) # {{% perl_type_undef %}} 
+- [Escape](escape)() # {{% perl_type_undef %}} 
+- [ExpeditionMessage](expeditionmessage)({{% perl_type_number %}}expedition_id, string message) # {{% perl_type_undef %}} 
+- [FailTask](failtask)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
+- [FindMemmedSpellBySlot](findmemmedspellbyslot)({{% perl_type_number %}}slot) # {{% perl_type_undef %}} 
+- [ForageItem](forageitem)() # {{% perl_type_undef %}} 
+- [GMKill](gmkill)() # {{% perl_type_undef %}} 
+- [GetAAExp](getaaexp)() # {{% perl_type_undef %}} 
+- [GetAALevel](getaalevel)({{% perl_type_number %}} aa_skill_id) # {{% perl_type_undef %}} 
+- [GetAAPercent](getaapercent)() # {{% perl_type_undef %}} 
+- [GetAAPoints](getaapoints)() # {{% perl_type_undef %}} 
+- [GetAccountFlag](getaccountflag)(string flag) # {{% perl_type_undef %}} 
+- [GetAggroCount](getaggrocount)() # {{% perl_type_undef %}} 
+- [GetAllMoney](getallmoney)() # {{% perl_type_undef %}} 
+- [GetAlternateCurrencyValue](getalternatecurrencyvalue)({{% perl_type_number %}} currency_id) # {{% perl_type_undef %}} 
+- [GetAnon](getanon)() # {{% perl_type_undef %}} 
+- [GetAugmentAt](getaugmentat)({{% perl_type_number %}} slot, {{% perl_type_number %}} aug_slot) # {{% perl_type_undef %}} 
+- [GetAugmentIDAt](getaugmentidat)({{% perl_type_number %}} slot_id, {{% perl_type_number %}} aug_slot) # {{% perl_type_undef %}} 
+- [GetBaseAGI](getbaseagi)() # {{% perl_type_undef %}} 
+- [GetBaseCHA](getbasecha)() # {{% perl_type_undef %}} 
+- [GetBaseDEX](getbasedex)() # {{% perl_type_undef %}} 
+- [GetBaseFace](getbaseface)() # {{% perl_type_undef %}} 
+- [GetBaseINT](getbaseint)() # {{% perl_type_undef %}} 
+- [GetBaseRace](getbaserace)() # {{% perl_type_undef %}} 
+- [GetBaseSTA](getbasesta)() # {{% perl_type_undef %}} 
+- [GetBaseSTR](getbasestr)() # {{% perl_type_undef %}} 
+- [GetBaseWIS](getbasewis)() # {{% perl_type_undef %}} 
+- [GetBecomeNPCLevel](getbecomenpclevel)() # {{% perl_type_undef %}} 
+- [GetBindHeading](getbindheading)({{% perl_type_number %}}index = 0) # {{% perl_type_undef %}} 
+- [GetBindX](getbindx)({{% perl_type_number %}}index = 0) # {{% perl_type_undef %}} 
+- [GetBindY](getbindy)({{% perl_type_number %}}index = 0) # {{% perl_type_undef %}} 
+- [GetBindZ](getbindz)({{% perl_type_number %}}index = 0) # {{% perl_type_undef %}} 
+- [GetBindZoneID](getbindzoneid)({{% perl_type_number %}}index = 0) # {{% perl_type_undef %}} 
+- [GetCarriedMoney](getcarriedmoney)() # {{% perl_type_undef %}} 
+- [GetCharacterFactionLevel](getcharacterfactionlevel)({{% perl_type_number %}} faction_id) # {{% perl_type_undef %}} 
+- [GetClientVersion](getclientversion)() # {{% perl_type_undef %}} 
+- [GetClientVersionBit](getclientversionbit)() # {{% perl_type_undef %}} 
+- [GetCorpseCount](getcorpsecount)() # {{% perl_type_undef %}} 
+- [GetCorpseID](getcorpseid)({{% perl_type_number %}} corpse) # {{% perl_type_undef %}} 
+- [GetCorpseItemAt](getcorpseitemat)({{% perl_type_number %}} corpse_id, {{% perl_type_number %}} slot_id) # {{% perl_type_undef %}} 
+- [GetCustomItemData](getcustomitemdata)({{% perl_type_number %}} slot_id, string identifier) # {{% perl_type_undef %}} 
+- [GetDisciplineTimer](getdisciplinetimer)({{% perl_type_number %}} timer_id) # {{% perl_type_undef %}} 
+- [GetDiscSlotBySpellID](getdiscslotbyspellid)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [GetDisplayAC](getdisplayac)() # {{% perl_type_undef %}} 
+- [GetDuelTarget](getdueltarget)() # {{% perl_type_undef %}} 
+- [GetEXP](getexp)() # {{% perl_type_undef %}} 
+- [GetEbonCrystals](geteboncrystals)() # {{% perl_type_undef %}} 
+- [GetEndurance](getendurance)() # {{% perl_type_undef %}} 
+- [GetEnduranceRatio](getenduranceratio)() # {{% perl_type_undef %}} 
+- [GetFace](getface)() # {{% perl_type_undef %}} 
+- [GetFactionLevel](getfactionlevel)({{% perl_type_number %}} character_id, {{% perl_type_number %}} npc_id, {{% perl_type_number %}} player_race_id, {{% perl_type_number %}} player_class_id, {{% perl_type_number %}} player_deity_id, {{% perl_type_number %}} player_faction_id, mob*) # {{% perl_type_undef %}} 
+- [GetFeigned](getfeigned)() # {{% perl_type_undef %}} 
+- [GetFreeSpellBookSlot](getfreespellbookslot)({{% perl_type_number %}} start_slot = 0) # {{% perl_type_undef %}} 
+- [GetGM](getgm)() # {{% perl_type_undef %}} 
+- [GetGroup](getgroup)() # {{% perl_type_undef %}} 
+- [GetGroupPoints](getgrouppoints)() # {{% perl_type_undef %}} 
+- [GetHorseId](gethorseid)() # {{% perl_type_undef %}} 
+- [GetHunger](gethunger)() # {{% perl_type_undef %}} 
+- [GetIP](getip)() # {{% perl_type_undef %}} 
+- [GetInstanceID](getinstanceid)() # {{% perl_type_undef %}} 
+- [GetInstrumentMod](getinstrumentmod)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [GetItemAt](getitemat)({{% perl_type_number %}} slot) # {{% perl_type_undef %}} 
+- [GetItemIDAt](getitemidat)({{% perl_type_number %}} slot_id) # {{% perl_type_undef %}} 
+- [GetItemInInventory](getitemininventory)({{% perl_type_number %}} slot_id) # {{% perl_type_undef %}} 
+- [GetLDoNLosses](getldonlosses)() # {{% perl_type_undef %}} 
+- [GetLDoNLossesTheme](getldonlossestheme)({{% perl_type_number %}} theme) # {{% perl_type_undef %}} 
+- [GetLDoNPointsTheme](getldonpointstheme)({{% perl_type_number %}} theme) # {{% perl_type_undef %}} 
+- [GetLDoNWins](getldonwins)() # {{% perl_type_undef %}} 
+- [GetLDoNWinsTheme](getldonwinstheme)({{% perl_type_number %}} theme) # {{% perl_type_undef %}} 
+- [GetLanguageSkill](getlanguageskill)({{% perl_type_number %}} lanuage_id) # {{% perl_type_undef %}} 
+- [GetLastName](getlastname)() # {{% perl_type_undef %}} 
+- [GetMaxEndurance](getmaxendurance)() # {{% perl_type_undef %}} 
+- [GetModCharacterFactionLevel](getmodcharacterfactionlevel)({{% perl_type_number %}} faction_id) # {{% perl_type_undef %}} 
+- [GetPVP](getpvp)() # {{% perl_type_undef %}} 
+- [GetPVPPoints](getpvppoints)() # {{% perl_type_undef %}} 
+- [GetRadiantCrystals](getradiantcrystals)() # {{% perl_type_undef %}} 
+- [GetRaid](getraid)() # {{% perl_type_undef %}} 
+- [GetRaidPoints](getraidpoints)() # {{% perl_type_undef %}} 
+- [GetRawItemAC](getrawitemac)() # {{% perl_type_undef %}} 
+- [GetRawSkill](getrawskill)({{% perl_type_number %}}skill_id) # {{% perl_type_undef %}} 
+- [GetSkill](getskill)({{% perl_type_number %}} skill_id) # {{% perl_type_undef %}} 
+- [GetSkillPoints](getskillpoints)() # {{% perl_type_undef %}} 
+- [GetSpellBookSlotBySpellID](getspellbookslotbyspellid)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [GetSpentAA](getspentaa)() # {{% perl_type_undef %}} 
+- [GetStartZone](getstartzone)() # {{% perl_type_undef %}} 
+- [GetTargetRingX](gettargetringx)() # {{% perl_type_undef %}} 
+- [GetTargetRingY](gettargetringy)() # {{% perl_type_undef %}} 
+- [GetTargetRingZ](gettargetringz)() # {{% perl_type_undef %}} 
+- [GetTaskActivityDoneCount](gettaskactivitydonecount)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
+- [GetThirst](getthirst)() # {{% perl_type_undef %}} 
+- [GetTotalSecondsPlayed](gettotalsecondsplayed)() # {{% perl_type_undef %}} 
+- [GetWeight](getweight)() # {{% perl_type_undef %}} 
+- [GoFish](gofish)() # {{% perl_type_undef %}} 
+- [GrantAlternateAdvancementAbility](grantalternateadvancementability)({{% perl_type_number %}}aa_id, {{% perl_type_number %}}points, [{{% perl_type_boolean %}} ignore_cost = false]) # {{% perl_type_undef %}} 
+- [GuildID](guildid)() # {{% perl_type_undef %}} 
+- [GuildRank](guildrank)() # {{% perl_type_undef %}} 
+- [HasSkill](hasskill)({{% perl_type_number %}}skill_id) # {{% perl_type_undef %}} 
+- [HasSpellScribed](hasspellscribed)({{% perl_type_number %}}spell_id) # {{% perl_type_undef %}} 
+- [HasZoneFlag](haszoneflag)({{% perl_type_number %}} zone_id) # {{% perl_type_undef %}} 
+- [Hungry](hungry)() # {{% perl_type_undef %}} 
+- [InZone](inzone)() # {{% perl_type_undef %}} 
+- [IncStats](incstats)({{% perl_type_number %}} type, {{% perl_type_number %}} increase_val) # {{% perl_type_undef %}} 
+- [IncreaseLanguageSkill](increaselanguageskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}}value = 1) # {{% perl_type_undef %}} 
+- [IncreaseSkill](increaseskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}}value = 1) # {{% perl_type_undef %}} 
+- [IncrementAA](incrementaa)({{% perl_type_number %}} aa_skill_id) # {{% perl_type_undef %}} 
+- [IsBecomeNPC](isbecomenpc)() # {{% perl_type_undef %}} 
+- [IsCrouching](iscrouching)() # {{% perl_type_undef %}} 
+- [IsDueling](isdueling)() # {{% perl_type_undef %}} 
+- [IsGrouped](isgrouped)() # {{% perl_type_undef %}} 
+- [IsLD](isld)() # {{% perl_type_undef %}} 
+- [IsMedding](ismedding)() # {{% perl_type_undef %}} 
+- [IsRaidGrouped](israidgrouped)() # {{% perl_type_undef %}} 
+- [IsSitting](issitting)() # {{% perl_type_undef %}} 
+- [IsStanding](isstanding)() # {{% perl_type_undef %}} 
+- [IsTaskActive](istaskactive)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
+- [IsTaskActivityActive](istaskactivityactive)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
+- [IsTaskCompleted](istaskcompleted)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
+- [KeyRingAdd](keyringadd)({{% perl_type_number %}} item_id) # {{% perl_type_undef %}} 
+- [KeyRingCheck](keyringcheck)({{% perl_type_number %}} item_id) # {{% perl_type_undef %}} 
+- [Kick](kick)() # {{% perl_type_undef %}} 
+- [LearnRecipe](learnrecipe)({{% perl_type_number %}} recipe_id) # {{% perl_type_undef %}} 
+- [LeaveGroup](leavegroup)() # {{% perl_type_undef %}} 
+- [LoadZoneFlags](loadzoneflags)() # {{% perl_type_undef %}} 
+- [MarkCompassLoc](markcompassloc)(float X, float Y, float Z) # {{% perl_type_undef %}} 
+- [MaxSkill](maxskill)({{% perl_type_number %}} skill_id, {{% perl_type_number %}} class_id, {{% perl_type_number %}} level) # {{% perl_type_undef %}} 
+- [MemSpell](memspell)({{% perl_type_number %}} spell_id, {{% perl_type_number %}}slot, [{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [MemmedCount](memmedcount)() # {{% perl_type_undef %}} 
+- [MovePC](movepc)({{% perl_type_number %}} zone_id, float X, float Y, float Z, float heading) # {{% perl_type_undef %}} 
+- [MovePCInstance](movepcinstance)({{% perl_type_number %}} zone_id, {{% perl_type_number %}} instance_id, float X, float Y, float Z, float heading) # {{% perl_type_undef %}} 
+- [MoveZone](movezone)(const char *zone_short_name) # {{% perl_type_undef %}} 
+- [MoveZoneGroup](movezonegroup)(const char *zone_short_name) # {{% perl_type_undef %}} 
+- [MoveZoneRaid](movezoneraid)(const char *zone_short_name) # {{% perl_type_undef %}} 
+- [MoveZoneInstance](movezoneinstance)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
+- [MoveZoneInstanceGroup](movezoneinstancegroup)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
+- [MoveZoneInstanceRaid](movezoneinstanceraid)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
+- [NotifyNewTitlesAvailable](notifynewtitlesavailable)() # {{% perl_type_undef %}} 
+- [NPCSpawn](npcspawn)(npc*, string option, {{% perl_type_number %}} respawn_time=1200) # {{% perl_type_undef %}} 
+- [NukeItem](nukeitem)({{% perl_type_number %}} item_id, [{{% perl_type_number %}} slot_to_check]) # {{% perl_type_undef %}} 
+- [OpenLFGuildWindow](openlfguildwindow)() # {{% perl_type_undef %}} 
+- [PlayMP3](playmp3)(string file_name) # {{% perl_type_undef %}} 
+- [QuestReward](questreward)({{% perl_type_number %}} mob, {{% perl_type_number %}} copper, {{% perl_type_number %}} silver, {{% perl_type_number %}} gold, {{% perl_type_number %}} platinum, {{% perl_type_number %}} item_id, {{% perl_type_number %}} exp, [{{% perl_type_boolean %}} faction = false]) # {{% perl_type_undef %}} 
+- [ReadBook](readbook)(char* book_test, {{% perl_type_number %}} type) # {{% perl_type_undef %}} 
+- [RefundAA](refundaa)() # {{% perl_type_undef %}} 
+- [RemoveFromInstance](removefrominstance)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
+- [RemoveNoRent](removenorent)() # {{% perl_type_undef %}} 
+- [ResetAA](resetaa)() # {{% perl_type_undef %}} 
+- [ResetDisciplineTimer](resetdisciplinetimer)({{% perl_type_number %}} timer_id) # {{% perl_type_undef %}} 
+- [ResetTrade](resettrade)() # {{% perl_type_undef %}} 
+- [Save](save)({{% perl_type_number %}} commit_now) # {{% perl_type_undef %}} 
+- [SaveBackup](savebackup)() # {{% perl_type_undef %}} 
+- [ScribeSpell](scribespell)({{% perl_type_number %}} spell_id, {{% perl_type_number %}}slot, [{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [SendColoredText](sendcoloredtext)({{% perl_type_number %}} color, string message) # {{% perl_type_undef %}} 
+- [SendFullPopup](sendfullpopup)(string title, string text, {{% perl_type_number %}} popup_id, {{% perl_type_number %}} negative_id, {{% perl_type_number %}} buttons, {{% perl_type_number %}} duration, string button_name_0, string button_name_1, {{% perl_type_number %}} sound_controls) # {{% perl_type_undef %}} 
+- [SendMarqueeMessage](sendmarqueemessage)({{% perl_type_number %}} type, {{% perl_type_number %}} priority, {{% perl_type_number %}} fade_in, {{% perl_type_number %}} fade_out, {{% perl_type_number %}} duration, string msg) # {{% perl_type_undef %}} 
+- [SendOPTranslocateConfirm](sendoptranslocateconfirm)(mob* caster, {{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [SendSound](sendsound)() # {{% perl_type_undef %}} 
+- [SendTargetCommand](sendtargetcommand)({{% perl_type_number %}} entity_id) # {{% perl_type_undef %}} 
+- [SendToGuildHall](sendtoguildhall)() # {{% perl_type_undef %}} 
+- [SendWebLink](sendweblink)(string website_url) # {{% perl_type_undef %}} 
+- [SendZoneFlagInfo](sendzoneflaginfo)(client* to) # {{% perl_type_undef %}} 
+- [SetAAPoints](setaapoints)({{% perl_type_number %}} points) # {{% perl_type_undef %}} 
+- [SetAATitle](setaatitle)(string text, [{{% perl_type_boolean %}} save = false]) # {{% perl_type_undef %}} 
+- [SetAccountFlag](setaccountflag)(string flag, string value) # {{% perl_type_undef %}} 
+- [SetAlternateCurrencyValue](setalternatecurrencyvalue)({{% perl_type_number %}} currency_id, {{% perl_type_number %}} amount) # {{% perl_type_undef %}} 
+- [SetBaseClass](setbaseclass)({{% perl_type_number %}} class_id) # {{% perl_type_undef %}} 
+- [SetBaseGender](setbasegender)({{% perl_type_number %}} gender_id) # {{% perl_type_undef %}} 
+- [SetBaseRace](setbaserace)({{% perl_type_number %}} race_id) # {{% perl_type_undef %}} 
+- [SetBecomeNPC](setbecomenpc)(flag) # {{% perl_type_undef %}} 
+- [SetBecomeNPCLevel](setbecomenpclevel)(level) # {{% perl_type_undef %}} 
+- [SetBindPoint](setbindpoint)({{% perl_type_number %}}to_zone = -1, {{% perl_type_number %}}to_instance = 0, float new_x = 0.0f, float new_y = 0.0f, float new_z = 0.0f) # {{% perl_type_undef %}} 
+- [SetCustomItemData](setcustomitemdata)({{% perl_type_number %}} slot_id, string identifier, string value) # {{% perl_type_undef %}} 
+- [SetDeity](setdeity)({{% perl_type_number %}} deity_id) # {{% perl_type_undef %}} 
+- [SetDuelTarget](setdueltarget)(set_id) # {{% perl_type_undef %}} 
+- [SetDueling](setdueling)(duel) # {{% perl_type_undef %}} 
+- [SetEXP](setexp)({{% perl_type_number %}} experience_points, {{% perl_type_number %}} aa_experience_points, [{{% perl_type_boolean %}} resexp=false]) # {{% perl_type_undef %}} 
+- [SetEndurance](setendurance)(endurance) # {{% perl_type_undef %}} 
+- [SetFactionLevel](setfactionlevel)({{% perl_type_number %}} character_id, {{% perl_type_number %}} npc_id, {{% perl_type_number %}} character_class, {{% perl_type_number %}} character_race, {{% perl_type_number %}} character_deity) # {{% perl_type_undef %}} 
+- [SetFactionLevel2](setfactionlevel2)({{% perl_type_number %}} character_id, {{% perl_type_number %}} faction_id, {{% perl_type_number %}} character_class, {{% perl_type_number %}} character_race, {{% perl_type_number %}} character_deity, {{% perl_type_number %}} value, {{% perl_type_number %}} temp) # {{% perl_type_undef %}} 
+- [SetFeigned](setfeigned)(in_feigned) # {{% perl_type_undef %}} 
+- [SetGM](setgm)({{% perl_type_boolean %}} toggle) # {{% perl_type_undef %}} 
+- [SetHorseId](sethorseid)(horseid_in) # {{% perl_type_undef %}} 
+- [SetHunger](sethunger)(in_hunger) # {{% perl_type_undef %}} 
+- [SetHunger](sethunger)({{% perl_type_number %}} hunger_amount, {{% perl_type_number %}} thirst_amount) # {{% perl_type_undef %}} 
+- [SetLanguageSkill](setlanguageskill)({{% perl_type_number %}}language_id, {{% perl_type_number %}}value) # {{% perl_type_undef %}} 
+- [SetMaterial](setmaterial)({{% perl_type_number %}} slot_id, {{% perl_type_number %}} item_id) # {{% perl_type_undef %}} 
+- [SetPVP](setpvp)({{% perl_type_boolean %}} toggle) # {{% perl_type_undef %}} 
+- [SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)(model_id) # {{% perl_type_undef %}} 
+- [SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)(model_id) # {{% perl_type_undef %}} 
+- [SetSkill](setskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}} value) # {{% perl_type_undef %}} 
+- [SetSkillPoints](setskillpoints)(inp) # {{% perl_type_undef %}} 
+- [SetStats](setstats)({{% perl_type_number %}} type, {{% perl_type_number %}} increase_val) # {{% perl_type_undef %}} 
+- [SetThirst](setthirst)({{% perl_type_number %}} in_thirst) # {{% perl_type_undef %}} 
+- [SetTint](settint)({{% perl_type_number %}} slot_id, {{% perl_type_number %}} color) # {{% perl_type_undef %}} 
+- [SetTitleSuffix](settitlesuffix)(string text, [{{% perl_type_boolean %}} save = false]) # {{% perl_type_undef %}} 
+- [SetZoneFlag](setzoneflag)({{% perl_type_number %}} zone_id) # {{% perl_type_undef %}} 
+- [SignalClient](signalclient)({{% perl_type_number %}} data) # {{% perl_type_undef %}} 
+- [SilentMessage](silentmessage)(string message) # {{% perl_type_undef %}} 
+- [SlotConvert2](slotconvert2)({{% perl_type_number %}} slot) # {{% perl_type_undef %}} 
+- [Stand](stand)() # {{% perl_type_undef %}} 
+- [SummonItem](summonitem)({{% perl_type_number %}} item_id, [{{% perl_type_number %}} charges = -1], [{{% perl_type_boolean %}} attune = false], [{{% perl_type_number %}} aug1 = 0], [{{% perl_type_number %}} aug2 = 0], [{{% perl_type_number %}} aug3 = 0], [{{% perl_type_number %}} aug4 = 0], [{{% perl_type_number %}} aug5 = 0], [{{% perl_type_number %}} slot_id = cursor]) # {{% perl_type_undef %}} 
+- [TGB](tgb)() # {{% perl_type_undef %}} 
+- [TakeMoneyFromPP](takemoneyfrompp)({{% perl_type_number %}} copper, {{% perl_type_boolean %}} update_client = false) # {{% perl_type_undef %}} 
+- [Thirsty](thirsty)() # {{% perl_type_undef %}} 
+- [TrainDiscBySpellID](traindiscbyspellid)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [Undye](undye)() # {{% perl_type_undef %}} 
+- [UnmemSpell](unmemspell)({{% perl_type_number %}}slot, [{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [UnmemSpellAll](unmemspellall)([{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [UnmemSpellBySpellID](unmemspellbyspellid)({{% perl_type_number %}} spell_id) # {{% perl_type_undef %}} 
+- [UnscribeSpell](unscribespell)({{% perl_type_number %}}slot, [{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [UnscribeSpellAll](unscribespellall)([{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [UntrainDisc](untraindisc)({{% perl_type_number %}}slot, [{{% perl_type_boolean %}} update_client = true]) # {{% perl_type_undef %}} 
+- [UntrainDiscAll](untraindiscall)([update_client = true]) # {{% perl_type_undef %}} 
+- [UpdateAdmin](updateadmin)({{% perl_type_boolean %}} from_db = true) # {{% perl_type_undef %}} 
+- [UpdateGroupAAs](updategroupaas)({{% perl_type_number %}} points, {{% perl_type_number %}} type) # {{% perl_type_undef %}} 
+- [UpdateLDoNPoints](updateldonpoints)({{% perl_type_number %}} points, {{% perl_type_number %}} theme) # {{% perl_type_undef %}} 
+- [UpdateTaskActivity](updatetaskactivity)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id, {{% perl_type_number %}} count, [{{% perl_type_boolean %}} ignore_quest_update = false]) # {{% perl_type_undef %}} 
+- [UpdateWho](updatewho)({{% perl_type_number %}} remove = 0) # {{% perl_type_undef %}} 
+- [UseDiscipline](usediscipline)({{% perl_type_number %}} spell_id, {{% perl_type_number %}} target) # {{% perl_type_undef %}} 
+- [WorldKick](worldkick)() # {{% perl_type_undef %}} 

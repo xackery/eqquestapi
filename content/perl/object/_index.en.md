@@ -1,11 +1,12 @@
 ---
 date: 2020-08-24T16:50:16+02:00
-title: Object
-menuTitle: Object
+title: Object Class
+menuTitle: Object Class
+searchTitle: Perl Object Class
 weight: 25
 ---
 
-## Object Methods (Perl)
+## Object Methods
 - $object->[ClearUser](clearuser)()
 - $object->[Close](close)()
 - $object->[Delete](delete)([bool reset_state = false])

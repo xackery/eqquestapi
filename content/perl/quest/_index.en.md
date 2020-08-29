@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
-title: Quest
-menuTitle: Quest
+title: Quest Class
+menuTitle: Quest Class
+searchTitle: Perl Quest Class
 weight: 25
 ---
 
-## Quest Methods (Perl)
+## Quest Methods
 - $quest->[AssignGroupToInstance](assigngrouptoinstance)(uint16 instance_id)
 - $quest->[AssignRaidToInstance](assignraidtoinstance)(uint16 instance_id)
 - $quest->[AssignToInstance](assigntoinstance)(uint16 instance_id)

@@ -1,11 +1,12 @@
 ---
 date: 2020-08-24T16:50:16+02:00
-title: Group
-menuTitle: Group
+title: Group Class
+menuTitle: Group Class
+searchTitle: Perl Group Class
 weight: 25
 ---
 
-## Group Methods (Perl)
+## Group Methods
 - $group->[CastGroupSpell](castgroupspell)(mob* caster, uint16 spell_id)
 - $group->[DisbandGroup](disbandgroup)()
 - $group->[GetHighestLevel](gethighestlevel)()

@@ -1,11 +1,11 @@
 ---
-date: 2020-08-24T16:50:16+02:00
 title: Quest Item
 menuTitle: Quest Item
+searchTitle: Perl Quest Item
 weight: 25
 ---
 
-## Quest Item Methods (Perl)
+## Quest Item Methods
 - $quest_item->[GetAugment](getaugment)(int16 slot_id)
 - $quest_item->[GetCharges](getcharges)()
 - $quest_item->[GetID](getid)()
