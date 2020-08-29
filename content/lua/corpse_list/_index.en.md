@@ -1,11 +1,11 @@
 ---
-title: Corpse List
-menuTitle: Corpse List
-description: Lua Corpse List Class
-searchTitle: Lua Corpse List Class
+title: CorpseList
+menuTitle: CorpseList
+description: Lua CorpseList Class
+searchTitle: Lua CorpseList Class
 hidden: true
 weight: 25
 ---
 
-## Corpse List Properties
+## CorpseList Properties
 - [entries](entries) -- collection of {{% lua_type_corpse %}}

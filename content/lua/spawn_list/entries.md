@@ -1,11 +1,11 @@
 ---
 title: Entries
-searchTitle: Lua Spawn List Entries
+searchTitle: Lua SpawnList Entries
 weight: 1
 hidden: true
 menuTitle: Entries
 ---
 ## Entries
 ```lua
-spawn.entries
+spawnlist.entries
 ```

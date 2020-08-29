@@ -1,11 +1,11 @@
 ---
-title: Spawn List Class
-menuTitle: Spawn List Class
-description: Lua Spawn List Class
-searchTitle: Lua Spawn List Class
+title: SpawnList Class
+menuTitle: SpawnList Class
+description: Lua SpawnList Class
+searchTitle: Lua SpawnList Class
 hidden: true
 weight: 25
 ---
 
-## Spawn List Properties
+## SpawnList Properties
 - [entries](entries) -- collection of {{% lua_type_spawn %}}

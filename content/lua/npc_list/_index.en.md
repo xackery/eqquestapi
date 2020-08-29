@@ -1,8 +1,8 @@
 ---
-title: NPC List Class
-menuTitle: NPC List Class
-description: Lua NPC List Class
-searchTitle: Lua NPC List Class
+title: NPCList Class
+menuTitle: NPCList Class
+description: Lua NPCList Class
+searchTitle: Lua NPCList Class
 hidden: true
 weight: 25
 ---

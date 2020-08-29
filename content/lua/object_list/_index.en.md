@@ -1,11 +1,11 @@
 ---
-title: Object List Class
-menuTitle: Object List Class
-description: Lua Object List Class
-searchTitle: Lua Object List Class
+title: ObjectList Class
+menuTitle: ObjectList Class
+description: Lua ObjectList Class
+searchTitle: Lua ObjectList Class
 hidden: true
 weight: 25
 ---
 
-## Object List Properties
+## ObjectList Properties
 - [entries](entries) -- collection of {{% lua_type_object %}}

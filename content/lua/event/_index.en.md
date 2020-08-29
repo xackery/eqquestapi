@@ -8,6 +8,8 @@ weight: 25
 
 ## Event Functions (Lua)
 
+Note that every event has an enum represented with e.g. Event.event_cast syntax
+
 - function [event_aggro_say](aggro_say)(e)
 - function [event_augment_insert](augment_insert)(e)
 - function [event_augment_item](augment_item)(e)

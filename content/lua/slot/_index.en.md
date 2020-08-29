@@ -1,0 +1,98 @@
+---
+title: Slot Enum
+menuTitle: Slot Enum
+description: Lua Slot Enum
+searchTitle: Lua Slot Enum
+hidden: true
+weight: 25
+---
+## Slot Enum
+- [Charm](charm) -- {{% lua_type_number %}}
+- [Ear1](ear1) -- {{% lua_type_number %}}
+- [Head](head) -- {{% lua_type_number %}}
+- [Face](face) -- {{% lua_type_number %}}
+- [Ear2](ear2) -- {{% lua_type_number %}}
+- [Neck](neck) -- {{% lua_type_number %}}
+- [Shoulders](shoulders) -- {{% lua_type_number %}}
+- [Arms](arms) -- {{% lua_type_number %}}
+- [Back](back) -- {{% lua_type_number %}}
+- [Wrist1](wrist1) -- {{% lua_type_number %}}
+- [Wrist2](wrist2) -- {{% lua_type_number %}}
+- [Range](range) -- {{% lua_type_number %}}
+- [Hands](hands) -- {{% lua_type_number %}}
+- [Primary](primary) -- {{% lua_type_number %}}
+- [Secondary](secondary) -- {{% lua_type_number %}}
+- [Finger1](finger1) -- {{% lua_type_number %}}
+- [Finger2](finger2) -- {{% lua_type_number %}}
+- [Chest](chest) -- {{% lua_type_number %}}
+- [Legs](legs) -- {{% lua_type_number %}}
+- [Feet](feet) -- {{% lua_type_number %}}
+- [Waist](waist) -- {{% lua_type_number %}}
+- [PowerSource](powersource) -- {{% lua_type_number %}}
+- [Ammo](ammo) -- {{% lua_type_number %}}
+- [General1](general1) -- {{% lua_type_number %}}
+- [General2](general2) -- {{% lua_type_number %}}
+- [General3](general3) -- {{% lua_type_number %}}
+- [General4](general4) -- {{% lua_type_number %}}
+- [General5](general5) -- {{% lua_type_number %}}
+- [General6](general6) -- {{% lua_type_number %}}
+- [General7](general7) -- {{% lua_type_number %}}
+- [General8](general8) -- {{% lua_type_number %}}
+- [General9](general9) -- {{% lua_type_number %}}
+- [General10](general10) -- {{% lua_type_number %}}
+- [Cursor](cursor) -- {{% lua_type_number %}}
+- [PossessionsBegin](possessionsbegin) -- {{% lua_type_number %}}
+- [PossessionsEnd](possessionsend) -- {{% lua_type_number %}}
+- [EquipmentBegin](equipmentbegin) -- {{% lua_type_number %}}
+- [EquipmentEnd](equipmentend) -- {{% lua_type_number %}}
+- [GeneralBegin](generalbegin) -- {{% lua_type_number %}}
+- [GeneralEnd](generalend) -- {{% lua_type_number %}}
+- [PossessionsBagsBegin](possessionsbagsbegin) -- {{% lua_type_number %}}
+- [PossessionsBagsEnd](possessionsbagsend) -- {{% lua_type_number %}}
+- [GeneralBagsBegin](generalbagsbegin) -- {{% lua_type_number %}}
+- [GeneralBagsEnd](generalbagsend) -- {{% lua_type_number %}}
+- [General1BagBegin](general1bagbegin) -- {{% lua_type_number %}}
+- [General1BagEnd](general1bagend) -- {{% lua_type_number %}}
+- [General2BagBegin](general2bagbegin) -- {{% lua_type_number %}}
+- [General2BagEnd](general2bagend) -- {{% lua_type_number %}}
+- [General3BagBegin](general3bagbegin) -- {{% lua_type_number %}}
+- [General3BagEnd](general3bagend) -- {{% lua_type_number %}}
+- [General4BagBegin](general4bagbegin) -- {{% lua_type_number %}}
+- [General4BagEnd](general4bagend) -- {{% lua_type_number %}}
+- [General5BagBegin](general5bagbegin) -- {{% lua_type_number %}}
+- [General5BagEnd](general5bagend) -- {{% lua_type_number %}}
+- [General6BagBegin](general6bagbegin) -- {{% lua_type_number %}}
+- [General6BagEnd](general6bagend) -- {{% lua_type_number %}}
+- [General7BagBegin](general7bagbegin) -- {{% lua_type_number %}}
+- [General7BagEnd](general7bagend) -- {{% lua_type_number %}}
+- [General8BagBegin](general8bagbegin) -- {{% lua_type_number %}}
+- [General8BagEnd](general8bagend) -- {{% lua_type_number %}}
+- [General9BagBegin](general9bagbegin) -- {{% lua_type_number %}}
+- [General9BagEnd](general9bagend) -- {{% lua_type_number %}}
+- [General10BagBegin](general10bagbegin) -- {{% lua_type_number %}}
+- [General10BagEnd](general10bagend) -- {{% lua_type_number %}}
+- [CursorBagBegin](cursorbagbegin) -- {{% lua_type_number %}}
+- [CursorBagEnd](cursorbagend) -- {{% lua_type_number %}}
+- [Tradeskill](tradeskill) -- {{% lua_type_number %}}
+- [Augment](augment) -- {{% lua_type_number %}}
+- [BankBegin](bankbegin) -- {{% lua_type_number %}}
+- [BankEnd](bankend) -- {{% lua_type_number %}}
+- [BankBagsBegin](bankbagsbegin) -- {{% lua_type_number %}}
+- [BankBagsEnd](bankbagsend) -- {{% lua_type_number %}}
+- [SharedBankBegin](sharedbankbegin) -- {{% lua_type_number %}}
+- [SharedBankEnd](sharedbankend) -- {{% lua_type_number %}}
+- [SharedBankBagsBegin](sharedbankbagsbegin) -- {{% lua_type_number %}}
+- [SharedBankBagsEnd](sharedbankbagsend) -- {{% lua_type_number %}}
+- [BagSlotBegin](bagslotbegin) -- {{% lua_type_number %}}
+- [BagSlotEnd](bagslotend) -- {{% lua_type_number %}}
+- [AugSocketBegin](augsocketbegin) -- {{% lua_type_number %}}
+- [AugSocketEnd](augsocketend) -- {{% lua_type_number %}}
+- [Invalid](invalid) -- {{% lua_type_number %}}
+- [Shoulder](shoulder) -- {{% lua_type_number %}} deprecated
+- [Bracer1](bracer1) -- {{% lua_type_number %}} deprecated
+- [Bracer2](bracer2) -- {{% lua_type_number %}} deprecated
+- [Ring1](ring1) -- {{% lua_type_number %}} deprecated
+- [Ring2](ring2) -- {{% lua_type_number %}} deprecated
+- [PersonalBegin](personalbegin) -- {{% lua_type_number %}} deprecated
+- [PersonalEnd](personalend) -- {{% lua_type_number %}} deprecated
+- [CursorEnd](cursorend) -- {{% lua_type_number %}} deprecated (not in use..and never valid vis-a-vis client behavior)

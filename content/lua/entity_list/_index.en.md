@@ -1,8 +1,8 @@
 ---
-title: Entity List Class
-menuTitle: Entity List Class
-description: Lua Entity List Class
-searchTitle: Lua Entity List Class
+title: EntityList Class
+menuTitle: EntityList Class
+description: Lua EntityList Class
+searchTitle: Lua EntityList Class
 hidden: true
 weight: 25
 ---

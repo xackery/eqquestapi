@@ -1,11 +1,11 @@
 ---
 title: Entries
-searchTitle: Lua Doors List Entries
+searchTitle: Lua DoorList Entries
 weight: 1
 hidden: true
 menuTitle: Entries
 ---
 ## Entries
 ```lua
-doors.entries
+doorlist.entries
 ```
