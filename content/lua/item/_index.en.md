@@ -6,10 +6,6 @@ searchTitle: Lua Item Class
 weight: 25
 ---
 
-## Item Properties
-- [null](null) -- {{% lua_type_boolean %}}
-- [valid](valid) -- {{% lua_type_boolean %}}
-
 ## Item Methods
 - [AAgi](aagi)() -- {{% lua_type_number %}}
 - [Accuracy](accuracy)() -- {{% lua_type_number %}}

@@ -26,7 +26,7 @@ weight: 25
 - [CalcCurrentWeight](calccurrentweight)() -- {{% lua_type_number %}}
 - [CalcPriceMod](calcpricemod)({{% lua_type_mob %}} other, {{% lua_type_boolean %}} reverse) -- {{% lua_type_number %}}
 - [CanHaveSkill](canhaveskill)({{% lua_type_number %}} skill_id) -- {{% lua_type_boolean %}}
-- [ChangeLastName](changelastname)({{% lua_type_string %}}in) -- {{% lua_type_nil %}}
+- [ChangeLastName](changelastname)({{% lua_type_string %}} in) -- {{% lua_type_nil %}}
 - [CharacterID](characterid)() -- {{% lua_type_number %}}
 - [CheckIncreaseSkill](checkincreaseskill)({{% lua_type_number %}} skill_id, {{% lua_type_mob %}} target, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
 - [CheckSpecializeIncrease](checkspecializeincrease)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}

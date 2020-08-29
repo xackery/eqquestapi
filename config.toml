@@ -5,7 +5,7 @@ defaultContentLanguage = "en"
 title = "Quest API"
 theme = "questapi"
 metaDataFormat = "yaml"
-defaultContentLanguageInSubdir= true
+defaultContentLanguageInSubdir = true
 
 disqusShortname = "eqcodex"
 
@@ -26,6 +26,9 @@ home = [ "HTML", "RSS", "JSON"]
 title = "Quest API"
 weight = 1
 languageName = "English"
+
+[markup.goldmark.renderer]
+unsafe = true
 
 
 [[Languages.en.menu.shortcuts]]
