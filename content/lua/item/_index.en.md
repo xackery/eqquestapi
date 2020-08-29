@@ -1,144 +1,147 @@
 ---
 title: Item
 menuTitle: Item
+description: Lua Item Method List
 weight: 25
 ---
 
-## Item Methods (Lua)
-- Item:[null](null); -- bool
-- Item:[valid](valid); -- bool
-- Item:[MinStatus](minstatus)(); -- number
-- Item:[ItemClass](itemclass)(); -- number
-- Item:[Name](name)(); -- string
-- Item:[Lore](lore)(); -- string
-- Item:[IDFile](idfile)(); -- string
-- Item:[NoRent](norent)(); -- number
-- Item:[NoDrop](nodrop)(); -- number
-- Item:[Size](size)(); -- number
-- Item:[Slots](slots)(); -- number
-- Item:[Price](price)(); -- number
-- Item:[Icon](icon)(); -- number
-- Item:[LoreGroup](loregroup)(); -- number
-- Item:[LoreFlag](loreflag)(); -- bool
-- Item:[PendingLoreFlag](pendingloreflag)(); -- bool
-- Item:[ArtifactFlag](artifactflag)(); -- bool
-- Item:[SummonedFlag](summonedflag)(); -- bool
-- Item:[FVNoDrop](fvnodrop)(); -- number
-- Item:[Favor](favor)(); -- number
-- Item:[GuildFavor](guildfavor)(); -- number
-- Item:[PointType](pointtype)(); -- number
-- Item:[BagType](bagtype)(); -- number
-- Item:[BagSlots](bagslots)(); -- number
-- Item:[BagSize](bagsize)(); -- number
-- Item:[BagWR](bagwr)(); -- number
-- Item:[BenefitFlag](benefitflag)(); -- bool
-- Item:[Tradeskills](tradeskills)(); -- bool
-- Item:[CR](cr)(); -- number
-- Item:[MR](mr)(); -- number
-- Item:[FR](fr)(); -- number
-- Item:[AStr](astr)(); -- number
-- Item:[ASta](asta)(); -- number
-- Item:[AAgi](aagi)(); -- number
-- Item:[ADex](adex)(); -- number
-- Item:[ACha](acha)(); -- number
-- Item:[AInt](aint)(); -- number
-- Item:[AWis](awis)(); -- number
-- Item:[HP](hp)(); -- number
-- Item:[Mana](mana)(); -- number
-- Item:[Deity](deity)(); -- number
-- Item:[SkillModValue](skillmodvalue)(); -- number
-- Item:[SkillModType](skillmodtype)(); -- number
-- Item:[BaneDmgRace](banedmgrace)(); -- number
-- Item:[BaneDmgAmt](banedmgamt)(); -- number
-- Item:[BaneDmgBody](banedmgbody)(); -- number
-- Item:[Magic](magic)(); -- bool
-- Item:[ReqLevel](reqlevel)(); -- number
-- Item:[BardType](bardtype)(); -- number
-- Item:[BardValue](bardvalue)(); -- number
-- Item:[Light](light)(); -- number
-- Item:[Delay](delay)(); -- number
-- Item:[RecLevel](reclevel)(); -- number
-- Item:[RecSkill](recskill)(); -- number
-- Item:[ElemDmgType](elemdmgtype)(); -- number
-- Item:[ElemDmgAmt](elemdmgamt)(); -- number
-- Item:[Range](range)(); -- number
-- Item:[Damage](damage)(); -- number
-- Item:[Color](color)(); -- number
-- Item:[Classes](classes)(); -- number
-- Item:[Races](races)(); -- number
-- Item:[MaxCharges](maxcharges)(); -- number
-- Item:[ItemType](itemtype)(); -- number
-- Item:[Material](material)(); -- number
-- Item:[SellRate](sellrate)(); -- number
-- Item:[Fulfilment](fulfilment)(); -- number
-- Item:[CastTime](casttime)(); -- number
-- Item:[EliteMaterial](elitematerial)(); -- number
-- Item:[ProcRate](procrate)(); -- number
-- Item:[CombatEffects](combateffects)(); -- number
-- Item:[Shielding](shielding)(); -- number
-- Item:[StunResist](stunresist)(); -- number
-- Item:[StrikeThrough](strikethrough)(); -- number
-- Item:[ExtraDmgSkill](extradmgskill)(); -- number
-- Item:[ExtraDmgAmt](extradmgamt)(); -- number
-- Item:[SpellShield](spellshield)(); -- number
-- Item:[Avoidance](avoidance)(); -- number
-- Item:[Accuracy](accuracy)(); -- number
-- Item:[CharmFileID](charmfileid)(); -- number
-- Item:[AugType](augtype)(); -- number
-- Item:[AugSlotType](augslottype)(number i); -- number
-- Item:[AugSlotVisible](augslotvisible)(number i); -- number
-- Item:[LDoNTheme](ldontheme)(); -- number
-- Item:[LDoNPrice](ldonprice)(); -- number
-- Item:[LDoNSold](ldonsold)(); -- number
-- Item:[BaneDmgRaceAmt](banedmgraceamt)(); -- number
-- Item:[AugRestrict](augrestrict)(); -- number
-- Item:[Endur](endur)(); -- number
-- Item:[DotShielding](dotshielding)(); -- number
-- Item:[Attack](attack)(); -- number
-- Item:[Regen](regen)(); -- number
-- Item:[ManaRegen](manaregen)(); -- number
-- Item:[EnduranceRegen](enduranceregen)(); -- number
-- Item:[Haste](haste)(); -- number
-- Item:[DamageShield](damageshield)(); -- number
-- Item:[RecastDelay](recastdelay)(); -- number
-- Item:[RecastType](recasttype)(); -- number
-- Item:[AugDistiller](augdistiller)(); -- number
-- Item:[Attuneable](attuneable)(); -- bool
-- Item:[NoPet](nopet)(); -- bool
-- Item:[PotionBelt](potionbelt)(); -- bool
-- Item:[Stackable](stackable)(); -- bool
-- Item:[NoTransfer](notransfer)(); -- bool
-- Item:[QuestItemFlag](questitemflag)(); -- bool
-- Item:[StackSize](stacksize)(); -- number
-- Item:[PotionBeltSlots](potionbeltslots)(); -- number
-- Item:[Book](book)(); -- number
-- Item:[BookType](booktype)(); -- number
-- Item:[Filename](filename)(); -- string
-- Item:[SVCorruption](svcorruption)(); -- number
-- Item:[Purity](purity)(); -- number
-- Item:[BackstabDmg](backstabdmg)(); -- number
-- Item:[DSMitigation](dsmitigation)(); -- number
-- Item:[HeroicStr](heroicstr)(); -- number
-- Item:[HeroicInt](heroicint)(); -- number
-- Item:[HeroicWis](heroicwis)(); -- number
-- Item:[HeroicAgi](heroicagi)(); -- number
-- Item:[HeroicDex](heroicdex)(); -- number
-- Item:[HeroicSta](heroicsta)(); -- number
-- Item:[HeroicCha](heroiccha)(); -- number
-- Item:[HeroicMR](heroicmr)(); -- number
-- Item:[HeroicFR](heroicfr)(); -- number
-- Item:[HeroicCR](heroiccr)(); -- number
-- Item:[HeroicDR](heroicdr)(); -- number
-- Item:[HeroicPR](heroicpr)(); -- number
-- Item:[HeroicSVCorrup](heroicsvcorrup)(); -- number
-- Item:[HealAmt](healamt)(); -- number
-- Item:[SpellDmg](spelldmg)(); -- number
-- Item:[LDoNSellBackRate](ldonsellbackrate)(); -- number
-- Item:[ScriptFileID](scriptfileid)(); -- number
-- Item:[ExpendableArrow](expendablearrow)(); -- number
-- Item:[Clairvoyance](clairvoyance)(); -- number
-- Item:[ClickName](clickname)(); -- string
-- Item:[ProcName](procname)(); -- string
-- Item:[WornName](wornname)(); -- string
-- Item:[FocusName](focusname)(); -- string
-- Item:[ScrollName](scrollname)(); -- string
+## Item Properties
+- [null](null) -- {{% lua_type_boolean %}}
+- [valid](valid) -- {{% lua_type_boolean %}}
+
+## Item Methods
+- [MinStatus](minstatus)() -- {{% lua_type_number %}}
+- [ItemClass](itemclass)() -- {{% lua_type_number %}}
+- [Name](name)() -- {{% lua_type_string %}}
+- [Lore](lore)() -- {{% lua_type_string %}}
+- [IDFile](idfile)() -- {{% lua_type_string %}}
+- [NoRent](norent)() -- {{% lua_type_number %}}
+- [NoDrop](nodrop)() -- {{% lua_type_number %}}
+- [Size](size)() -- {{% lua_type_number %}}
+- [Slots](slots)() -- {{% lua_type_number %}}
+- [Price](price)() -- {{% lua_type_number %}}
+- [Icon](icon)() -- {{% lua_type_number %}}
+- [LoreGroup](loregroup)() -- {{% lua_type_number %}}
+- [LoreFlag](loreflag)() -- {{% lua_type_boolean %}}
+- [PendingLoreFlag](pendingloreflag)() -- {{% lua_type_boolean %}}
+- [ArtifactFlag](artifactflag)() -- {{% lua_type_boolean %}}
+- [SummonedFlag](summonedflag)() -- {{% lua_type_boolean %}}
+- [FVNoDrop](fvnodrop)() -- {{% lua_type_number %}}
+- [Favor](favor)() -- {{% lua_type_number %}}
+- [GuildFavor](guildfavor)() -- {{% lua_type_number %}}
+- [PointType](pointtype)() -- {{% lua_type_number %}}
+- [BagType](bagtype)() -- {{% lua_type_number %}}
+- [BagSlots](bagslots)() -- {{% lua_type_number %}}
+- [BagSize](bagsize)() -- {{% lua_type_number %}}
+- [BagWR](bagwr)() -- {{% lua_type_number %}}
+- [BenefitFlag](benefitflag)() -- {{% lua_type_boolean %}}
+- [Tradeskills](tradeskills)() -- {{% lua_type_boolean %}}
+- [CR](cr)() -- {{% lua_type_number %}}
+- [MR](mr)() -- {{% lua_type_number %}}
+- [FR](fr)() -- {{% lua_type_number %}}
+- [AStr](astr)() -- {{% lua_type_number %}}
+- [ASta](asta)() -- {{% lua_type_number %}}
+- [AAgi](aagi)() -- {{% lua_type_number %}}
+- [ADex](adex)() -- {{% lua_type_number %}}
+- [ACha](acha)() -- {{% lua_type_number %}}
+- [AInt](aint)() -- {{% lua_type_number %}}
+- [AWis](awis)() -- {{% lua_type_number %}}
+- [HP](hp)() -- {{% lua_type_number %}}
+- [Mana](mana)() -- {{% lua_type_number %}}
+- [Deity](deity)() -- {{% lua_type_number %}}
+- [SkillModValue](skillmodvalue)() -- {{% lua_type_number %}}
+- [SkillModType](skillmodtype)() -- {{% lua_type_number %}}
+- [BaneDmgRace](banedmgrace)() -- {{% lua_type_number %}}
+- [BaneDmgAmt](banedmgamt)() -- {{% lua_type_number %}}
+- [BaneDmgBody](banedmgbody)() -- {{% lua_type_number %}}
+- [Magic](magic)() -- {{% lua_type_boolean %}}
+- [ReqLevel](reqlevel)() -- {{% lua_type_number %}}
+- [BardType](bardtype)() -- {{% lua_type_number %}}
+- [BardValue](bardvalue)() -- {{% lua_type_number %}}
+- [Light](light)() -- {{% lua_type_number %}}
+- [Delay](delay)() -- {{% lua_type_number %}}
+- [RecLevel](reclevel)() -- {{% lua_type_number %}}
+- [RecSkill](recskill)() -- {{% lua_type_number %}}
+- [ElemDmgType](elemdmgtype)() -- {{% lua_type_number %}}
+- [ElemDmgAmt](elemdmgamt)() -- {{% lua_type_number %}}
+- [Range](range)() -- {{% lua_type_number %}}
+- [Damage](damage)() -- {{% lua_type_number %}}
+- [Color](color)() -- {{% lua_type_number %}}
+- [Classes](classes)() -- {{% lua_type_number %}}
+- [Races](races)() -- {{% lua_type_number %}}
+- [MaxCharges](maxcharges)() -- {{% lua_type_number %}}
+- [ItemType](itemtype)() -- {{% lua_type_number %}}
+- [Material](material)() -- {{% lua_type_number %}}
+- [SellRate](sellrate)() -- {{% lua_type_number %}}
+- [Fulfilment](fulfilment)() -- {{% lua_type_number %}}
+- [CastTime](casttime)() -- {{% lua_type_number %}}
+- [EliteMaterial](elitematerial)() -- {{% lua_type_number %}}
+- [ProcRate](procrate)() -- {{% lua_type_number %}}
+- [CombatEffects](combateffects)() -- {{% lua_type_number %}}
+- [Shielding](shielding)() -- {{% lua_type_number %}}
+- [StunResist](stunresist)() -- {{% lua_type_number %}}
+- [StrikeThrough](strikethrough)() -- {{% lua_type_number %}}
+- [ExtraDmgSkill](extradmgskill)() -- {{% lua_type_number %}}
+- [ExtraDmgAmt](extradmgamt)() -- {{% lua_type_number %}}
+- [SpellShield](spellshield)() -- {{% lua_type_number %}}
+- [Avoidance](avoidance)() -- {{% lua_type_number %}}
+- [Accuracy](accuracy)() -- {{% lua_type_number %}}
+- [CharmFileID](charmfileid)() -- {{% lua_type_number %}}
+- [AugType](augtype)() -- {{% lua_type_number %}}
+- [AugSlotType](augslottype)({{% lua_type_number %}} i) -- {{% lua_type_number %}}
+- [AugSlotVisible](augslotvisible)({{% lua_type_number %}} i) -- {{% lua_type_number %}}
+- [LDoNTheme](ldontheme)() -- {{% lua_type_number %}}
+- [LDoNPrice](ldonprice)() -- {{% lua_type_number %}}
+- [LDoNSold](ldonsold)() -- {{% lua_type_number %}}
+- [BaneDmgRaceAmt](banedmgraceamt)() -- {{% lua_type_number %}}
+- [AugRestrict](augrestrict)() -- {{% lua_type_number %}}
+- [Endur](endur)() -- {{% lua_type_number %}}
+- [DotShielding](dotshielding)() -- {{% lua_type_number %}}
+- [Attack](attack)() -- {{% lua_type_number %}}
+- [Regen](regen)() -- {{% lua_type_number %}}
+- [ManaRegen](manaregen)() -- {{% lua_type_number %}}
+- [EnduranceRegen](enduranceregen)() -- {{% lua_type_number %}}
+- [Haste](haste)() -- {{% lua_type_number %}}
+- [DamageShield](damageshield)() -- {{% lua_type_number %}}
+- [RecastDelay](recastdelay)() -- {{% lua_type_number %}}
+- [RecastType](recasttype)() -- {{% lua_type_number %}}
+- [AugDistiller](augdistiller)() -- {{% lua_type_number %}}
+- [Attuneable](attuneable)() -- {{% lua_type_boolean %}}
+- [NoPet](nopet)() -- {{% lua_type_boolean %}}
+- [PotionBelt](potionbelt)() -- {{% lua_type_boolean %}}
+- [Stackable](stackable)() -- {{% lua_type_boolean %}}
+- [NoTransfer](notransfer)() -- {{% lua_type_boolean %}}
+- [QuestItemFlag](questitemflag)() -- {{% lua_type_boolean %}}
+- [StackSize](stacksize)() -- {{% lua_type_number %}}
+- [PotionBeltSlots](potionbeltslots)() -- {{% lua_type_number %}}
+- [Book](book)() -- {{% lua_type_number %}}
+- [BookType](booktype)() -- {{% lua_type_number %}}
+- [Filename](filename)() -- {{% lua_type_string %}}
+- [SVCorruption](svcorruption)() -- {{% lua_type_number %}}
+- [Purity](purity)() -- {{% lua_type_number %}}
+- [BackstabDmg](backstabdmg)() -- {{% lua_type_number %}}
+- [DSMitigation](dsmitigation)() -- {{% lua_type_number %}}
+- [HeroicStr](heroicstr)() -- {{% lua_type_number %}}
+- [HeroicInt](heroicint)() -- {{% lua_type_number %}}
+- [HeroicWis](heroicwis)() -- {{% lua_type_number %}}
+- [HeroicAgi](heroicagi)() -- {{% lua_type_number %}}
+- [HeroicDex](heroicdex)() -- {{% lua_type_number %}}
+- [HeroicSta](heroicsta)() -- {{% lua_type_number %}}
+- [HeroicCha](heroiccha)() -- {{% lua_type_number %}}
+- [HeroicMR](heroicmr)() -- {{% lua_type_number %}}
+- [HeroicFR](heroicfr)() -- {{% lua_type_number %}}
+- [HeroicCR](heroiccr)() -- {{% lua_type_number %}}
+- [HeroicDR](heroicdr)() -- {{% lua_type_number %}}
+- [HeroicPR](heroicpr)() -- {{% lua_type_number %}}
+- [HeroicSVCorrup](heroicsvcorrup)() -- {{% lua_type_number %}}
+- [HealAmt](healamt)() -- {{% lua_type_number %}}
+- [SpellDmg](spelldmg)() -- {{% lua_type_number %}}
+- [LDoNSellBackRate](ldonsellbackrate)() -- {{% lua_type_number %}}
+- [ScriptFileID](scriptfileid)() -- {{% lua_type_number %}}
+- [ExpendableArrow](expendablearrow)() -- {{% lua_type_number %}}
+- [Clairvoyance](clairvoyance)() -- {{% lua_type_number %}}
+- [ClickName](clickname)() -- {{% lua_type_string %}}
+- [ProcName](procname)() -- {{% lua_type_string %}}
+- [WornName](wornname)() -- {{% lua_type_string %}}
+- [FocusName](focusname)() -- {{% lua_type_string %}}
+- [ScrollName](scrollname)() -- {{% lua_type_string %}}

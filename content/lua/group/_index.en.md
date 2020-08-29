@@ -1,24 +1,25 @@
 ---
 title: Group
 menuTitle: Group
+description: Lua Group Method List
 weight: 25
 ---
 
 ## Group Methods (Lua)
-- Group:[DisbandGroup](disbandgroup)(); -- void
-- Group:[IsGroupMember](isgroupmember)(Lua_Mob mob); -- bool
-- Group:[CastGroupSpell](castgroupspell)(Lua_Mob caster, number spell_id); -- void
-- Group:[SplitExp](splitexp)(number exp, Lua_Mob other); -- void
-- Group:[GroupMessage](groupmessage)(Lua_Mob sender, number language, const char *message); -- void
-- Group:[GetTotalGroupDamage](gettotalgroupdamage)(Lua_Mob other); -- number
-- Group:[SplitMoney](splitmoney)(number copper, number silver, number gold, number platinum, Lua_Client splitter); -- void
-- Group:[SetLeader](setleader)(Lua_Mob leader); -- void
-- Group:[GetLeader](getleader)(); -- unknown - Lua_Mob
-- Group:[GetLeaderName](getleadername)(); -- string
-- Group:[IsLeader](isleader)(Lua_Mob leader); -- bool
-- Group:[GroupCount](groupcount)(); -- number
-- Group:[GetHighestLevel](gethighestlevel)(); -- number
-- Group:[GetLowestLevel](getlowestlevel)(); -- number
-- Group:[TeleportGroup](teleportgroup)(Lua_Mob sender, number zone_id, number instance_id, float x, float y, float z, float h); -- void
-- Group:[GetID](getid)(); -- number
-- Group:[GetMember](getmember)(number index); -- unknown - Lua_Mob
+- [DisbandGroup](disbandgroup)() -- {{% lua_type_nil %}}
+- [IsGroupMember](isgroupmember)({{% lua_type_mob %}} mob) -- {{% lua_type_boolean %}}
+- [CastGroupSpell](castgroupspell)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [SplitExp](splitexp)({{% lua_type_number %}} exp, {{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [GroupMessage](groupmessage)({{% lua_type_mob %}} sender, {{% lua_type_number %}} language, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [GetTotalGroupDamage](gettotalgroupdamage)({{% lua_type_mob %}} other) -- {{% lua_type_number %}}
+- [SplitMoney](splitmoney)({{% lua_type_number %}} copper, {{% lua_type_number %}} silver, {{% lua_type_number %}} gold, {{% lua_type_number %}} platinum, {{% lua_type_client %}} splitter) -- {{% lua_type_nil %}}
+- [SetLeader](setleader)({{% lua_type_mob %}} leader) -- {{% lua_type_nil %}}
+- [GetLeader](getleader)() -- {{% lua_type_mob %}}
+- [GetLeaderName](getleadername)() -- {{% lua_type_string %}}
+- [IsLeader](isleader)({{% lua_type_mob %}} leader) -- {{% lua_type_boolean %}}
+- [GroupCount](groupcount)() -- {{% lua_type_number %}}
+- [GetHighestLevel](gethighestlevel)() -- {{% lua_type_number %}}
+- [GetLowestLevel](getlowestlevel)() -- {{% lua_type_number %}}
+- [TeleportGroup](teleportgroup)({{% lua_type_mob %}} sender, {{% lua_type_number %}} zone_id, {{% lua_type_number %}} instance_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
+- [GetID](getid)() -- {{% lua_type_number %}}
+- [GetMember](getmember)({{% lua_type_number %}} index) -- {{% lua_type_mob %}}

@@ -2,6 +2,7 @@
 title: NPC List
 menuTitle: NPC List
 description: Lua NPC List Properties
+hidden: true
 weight: 25
 ---
 

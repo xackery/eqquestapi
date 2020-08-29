@@ -2,6 +2,7 @@
 title: Spawn List
 menuTitle: Spawn List
 description: Lua Spawn List Properties
+hidden: true
 weight: 25
 ---
 

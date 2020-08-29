@@ -97,7 +97,7 @@ weight: 25
 - [cross_zone_update_activity_by_group_id](cross_zone_update_activity_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
 - [cross_zone_update_activity_by_guild_id](cross_zone_update_activity_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
 - [cross_zone_update_activity_by_raid_id](cross_zone_update_activity_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
-- [debug](debug); -- 
+- [debug](debug) -- 
 - [delete_global](delete_global)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
 - [depop_all](depop_all)() -- {{% lua_type_nil %}}
 - [depop_with_timer](depop_with_timer)() -- {{% lua_type_nil %}}
@@ -214,7 +214,7 @@ weight: 25
 - [is_veil_of_alaris_enabled](is_veil_of_alaris_enabled)() -- {{% lua_type_boolean %}}
 - [item_link](item_link)({{% lua_type_number %}} item_id) -- {{% lua_type_string %}}
 - [last_task_in_set](last_task_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
-- [log](log); -- 
+- [log](log) -- 
 - [map_opcodes](map_opcodes)() -- {{% lua_type_nil %}}
 - [merchant_count_item](merchant_count_item)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
 - [merchant_set_item](merchant_set_item)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} item_id) -- {{% lua_type_nil %}}

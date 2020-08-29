@@ -2,6 +2,7 @@
 title: Corpse List
 menuTitle: Corpse List
 description: Lua Corpse List Properties
+hidden: true
 weight: 25
 ---
 

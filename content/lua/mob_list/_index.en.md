@@ -2,6 +2,7 @@
 title: Mob List
 menuTitle: Mob List
 description: Lua Mob List Properties
+hidden: true
 weight: 25
 ---
 

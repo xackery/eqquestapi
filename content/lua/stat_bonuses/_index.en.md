@@ -1,10 +1,10 @@
 ---
-title: Stat_bonuses
-menuTitle: Stat_bonuses
+title: Stat Bonuses
+menuTitle: Stat Bonuses
 weight: 25
 ---
 
-## Stat_bonuses Methods (Lua)
+## Stat Bonuses Methods (Lua)
 - StatBonuses:[AC](ac)(); -- number
 - StatBonuses:[HP](hp)(); -- number
 - StatBonuses:[HPRegen](hpregen)(); -- number
