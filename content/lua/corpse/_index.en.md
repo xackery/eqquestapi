@@ -1,11 +1,12 @@
 ---
 title: Corpse
 menuTitle: Corpse
-description: Lua Corpse Method List
+description: Lua Corpse Class
+searchTitle: Lua Corpse Class
 weight: 25
 ---
 
-## Corpse Methods (Lua)
+## Corpse Methods
 - [AddItem](additem)({{% lua_type_number %}} itemnum, {{% lua_type_number %}} charges, {{% lua_type_number %}} slot, {{% lua_type_number %}} aug1, {{% lua_type_number %}} aug2, {{% lua_type_number %}} aug3, {{% lua_type_number %}} aug4, {{% lua_type_number %}} aug5) -- {{% lua_type_nil %}}
 - [AddLooter](addlooter)({{% lua_type_mob %}} who) -- {{% lua_type_nil %}}
 - [AllowMobLoot](allowmobloot)({{% lua_type_mob %}} them, {{% lua_type_number %}} slot) -- {{% lua_type_nil %}}

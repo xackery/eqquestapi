@@ -1,11 +1,11 @@
 ---
 title: EQ
 menuTitle: EQ
-description: Lua EQ Method List
+description: Lua EQ Namespace
 weight: 25
 ---
 
-## EQ Methods (Lua)
+## EQ Methods
 - [active_speak_activity](active_speak_activity)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
 - [active_speak_task](active_speak_task)() -- {{% lua_type_number %}}
 - [active_tasks_in_set](active_tasks_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}

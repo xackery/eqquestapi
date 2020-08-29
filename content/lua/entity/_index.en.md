@@ -1,11 +1,12 @@
 ---
 title: Entity
 menuTitle: Entity
-description: Lua Entity Method List
+description: Lua Entity Class
+searchTitle: Lua Entity Class
 weight: 25
 ---
 
-## Entity Methods (Lua)
+## Entity Methods
 - [CastToClient](casttoclient)() -- {{% lua_type_client %}}
 - [CastToCorpse](casttocorpse)() -- {{% lua_type_corpse %}}
 - [CastToDoor](casttodoor)() -- {{% lua_type_door %}}

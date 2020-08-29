@@ -1,10 +1,12 @@
 ---
 title: Packet
 menuTitle: Packet
+description: Lua Packet Class
+searchTitle: Lua Packet Class
 weight: 25
 ---
 
-## Packet Methods (Lua)
+## Packet Methods
 - Packet:[GetSize](getsize)(); -- number
 - Packet:[GetOpcode](getopcode)(); -- number
 - Packet:[SetOpcode](setopcode)(number op); -- void

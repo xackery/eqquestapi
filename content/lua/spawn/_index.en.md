@@ -1,10 +1,12 @@
 ---
 title: Spawn
 menuTitle: Spawn
+description: Lua Spawn Class
+searchTitle: Lua Spawn Class
 weight: 25
 ---
 
-## Spawn Methods (Lua)
+## Spawn Methods
 - Spawn:[LoadGrid](loadgrid)(); -- void
 - Spawn:[Enable](enable)(); -- void
 - Spawn:[Disable](disable)(); -- void

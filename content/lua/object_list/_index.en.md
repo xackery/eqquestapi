@@ -1,7 +1,8 @@
 ---
 title: Object List
 menuTitle: Object List
-description: Lua Object List Properties
+description: Lua Object List Class
+searchTitle: Lua Object List Class
 hidden: true
 weight: 25
 ---

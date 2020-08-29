@@ -1,10 +1,12 @@
 ---
 title: Object
 menuTitle: Object
+description: Lua Object Class
+searchTitle: Lua Object Class
 weight: 25
 ---
 
-## Object Methods (Lua)
+## Object Methods
 - Object:[Depop](depop)(); -- void
 - Object:[Repop](repop)(); -- void
 - Object:[SetModelName](setmodelname)(const char *name); -- void

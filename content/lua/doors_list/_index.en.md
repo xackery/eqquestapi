@@ -1,7 +1,8 @@
 ---
 title: Doors List
 menuTitle: Doors List
-description: Lua Doors List Property List
+description: Lua Doors List Class
+searchTitle: Lua Doors List Class
 hidden: true
 weight: 25
 ---

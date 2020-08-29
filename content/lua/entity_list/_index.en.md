@@ -1,12 +1,13 @@
 ---
 title: Entity List
 menuTitle: Entity List
-description: Lua Entity List Method List
+description: Lua Entity List Class
+searchTitle: Lua Entity List Class
 hidden: true
 weight: 25
 ---
 
-## Entity List Methods (Lua)
+## Entity List Methods
 - [CanAddHateForMob](canaddhateformob)({{% lua_type_mob %}} p) -- {{% lua_type_boolean %}}
 - [ChannelMessage](channelmessage)({{% lua_type_mob %}} from, {{% lua_type_number %}} channel_num, {{% lua_type_number %}} language, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [ClearClientPetitionQueue](clearclientpetitionqueue)() -- {{% lua_type_nil %}}

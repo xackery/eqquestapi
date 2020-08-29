@@ -1,10 +1,12 @@
 ---
 title: Spell
 menuTitle: Spell
+description: Lua Spell Class
+searchTitle: Lua Spell Class
 weight: 25
 ---
 
-## Spell Methods (Lua)
+## Spell Methods
 - Spell:[ID](id)(); -- number
 - Spell:[Name](name)(); -- string
 - Spell:[TeleportZone](teleportzone)(); -- string

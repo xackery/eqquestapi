@@ -1,11 +1,12 @@
 ---
 title: Inventory
 menuTitle: Inventory
-description: Lua Inventory Method List
+description: Lua Inventory Class
+searchTitle: Lua Inventory Class
 weight: 25
 ---
 
-## Inventory Methods (Lua)
+## Inventory Methods
 - [GetItem](getitem)({{% lua_type_number %}} slot_id, {{% lua_type_number %}} bag_slot) -- {{% lua_type_iteminst %}}
 - [PutItem](putitem)({{% lua_type_number %}} slot_id, {{% lua_type_iteminst %}} item) -- {{% lua_type_number %}}
 - [PushCursor](pushcursor)({{% lua_type_iteminst %}} item) -- {{% lua_type_number %}}

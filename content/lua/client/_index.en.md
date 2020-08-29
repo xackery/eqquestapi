@@ -1,11 +1,12 @@
 ---
 title: Client
 menuTitle: Client
-description: Lua Client Method List
+description: Lua Client Class
+searchTitle: Lua Client Class
 weight: 25
 ---
 
-## Client Methods (Lua)
+## Client Methods
 - [AccountID](accountid)() -- {{% lua_type_number %}}
 - [AccountName](accountname)() -- {{% lua_type_string %}}
 - [AddAAPoints](addaapoints)({{% lua_type_number %}} points) -- {{% lua_type_nil %}}

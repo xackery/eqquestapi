@@ -1,7 +1,8 @@
 ---
 title: Client List
 menuTitle: Client List
-description: Lua Client List Method List
+description: Lua Client List Class
+searchTitle: Lua Client List Class
 hidden: true
 weight: 25
 ---

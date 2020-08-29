@@ -1,10 +1,12 @@
 ---
 title: Stat Bonuses
 menuTitle: Stat Bonuses
+description: Lua Stat Bonus Class
+searchTitle: Lua Stat Bonus Class
 weight: 25
 ---
 
-## Stat Bonuses Methods (Lua)
+## Stat Bonuses Methods
 - StatBonuses:[AC](ac)(); -- number
 - StatBonuses:[HP](hp)(); -- number
 - StatBonuses:[HPRegen](hpregen)(); -- number

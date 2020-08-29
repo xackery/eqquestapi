@@ -1,7 +1,8 @@
 ---
 title: Spawn List
 menuTitle: Spawn List
-description: Lua Spawn List Properties
+description: Lua Spawn List Class
+searchTitle: Lua Spawn List Class
 hidden: true
 weight: 25
 ---

@@ -1,11 +1,12 @@
 ---
 title: Group
 menuTitle: Group
-description: Lua Group Method List
+description: Lua Group Class
+searchTitle: Lua Group Class
 weight: 25
 ---
 
-## Group Methods (Lua)
+## Group Methods
 - [DisbandGroup](disbandgroup)() -- {{% lua_type_nil %}}
 - [IsGroupMember](isgroupmember)({{% lua_type_mob %}} mob) -- {{% lua_type_boolean %}}
 - [CastGroupSpell](castgroupspell)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}

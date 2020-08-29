@@ -1,10 +1,12 @@
 ---
 title: Raid
 menuTitle: Raid
+description: Lua Raid Class
+searchTitle: Lua Raid Class
 weight: 25
 ---
 
-## Raid Methods (Lua)
+## Raid Methods
 - Raid:[IsRaidMember](israidmember)(const char *name); -- bool
 - Raid:[CastGroupSpell](castgroupspell)(Lua_Mob caster, number spell_id, number group_id); -- void
 - Raid:[GroupCount](groupcount)(number group_id); -- number

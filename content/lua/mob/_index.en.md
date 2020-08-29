@@ -1,285 +1,287 @@
 ---
 title: Mob
 menuTitle: Mob
+description: Lua Mob Class
+searchTitle: Lua Mob Class
 weight: 25
 ---
 
 ## Mob Methods
-- [GetName](getname)(); -- {{% lua_type_string %}}
-- [Depop](depop)({{% lua_type_boolean %}} start_spawn_timer); -- {{% lua_type_nil %}}
-- [BehindMob](behindmob)(Lua_Mob other, {{% lua_type_number %}} x, {{% lua_type_number %}} y); -- {{% lua_type_boolean %}}
-- [SetLevel](setlevel)(number level, {{% lua_type_boolean %}} command); -- {{% lua_type_nil %}}
-- [IsMoving](ismoving)(); -- {{% lua_type_boolean %}}
-- [GotoBind](gotobind)(); -- {{% lua_type_nil %}}
-- [Attack](attack)(Lua_Mob other, {{% lua_type_number %}} hand, {{% lua_type_boolean %}} from_riposte, {{% lua_type_boolean %}} is_strikethrough, {{% lua_type_boolean %}} is_from_spell, luabind::adl::object opts); -- {{% lua_type_boolean %}}
-- [Damage](damage)(Lua_Mob from, {{% lua_type_number %}} damage, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} attack_skill, {{% lua_type_boolean %}} a{{% lua_type_nil %}}able, {{% lua_type_number %}} buffslot, {{% lua_type_boolean %}} buff_tic); -- {{% lua_type_nil %}}
-- [RangedAttack](rangedattack)(Lua_Mob other); -- {{% lua_type_nil %}}
-- [ThrowingAttack](throwingattack)(Lua_Mob other); -- {{% lua_type_nil %}}
-- [Heal](heal)(); -- {{% lua_type_nil %}}
-- [HealDamage](healdamage)(number amount, Lua_Mob other); -- {{% lua_type_nil %}}
-- [GetLevelCon](getlevelcon)(number my, {{% lua_type_number %}} other); -- {{% lua_type_number %}}
-- [SetHP](sethp)(number hp); -- {{% lua_type_nil %}}
-- [DoAnim](doanim)(number anim_num, {{% lua_type_number %}} type, {{% lua_type_boolean %}} ackreq, {{% lua_type_number %}} filter); -- {{% lua_type_nil %}}
-- [ChangeSize](changesize)(double in_size, {{% lua_type_boolean %}} no_restriction); -- {{% lua_type_nil %}}
-- [RandomizeFeatures](randomizefeatures)({{% lua_type_boolean %}} send_illusion, {{% lua_type_boolean %}} save_variables); -- {{% lua_type_nil %}}
-- [GMMove](gmmove)(double x, double y, double z, double heading, {{% lua_type_boolean %}} send_update); -- {{% lua_type_nil %}}
-- [TryMoveAlong](trymovealong)({{% lua_type_number %}} distance, {{% lua_type_number %}} angle, {{% lua_type_boolean %}} send); -- {{% lua_type_nil %}}
-- [HasProcs](hasprocs)(); -- {{% lua_type_boolean %}}
-- [IsInvisible](isinvisible)(Lua_Mob other); -- {{% lua_type_boolean %}}
-- [SetInvisible](setinvisible)(number state); -- {{% lua_type_nil %}}
-- [FindBuff](findbuff)(number spell_id); -- {{% lua_type_boolean %}}
-- [FindBuffBySlot](findbuffbyslot)(number slot); -- {{% lua_type_number %}}
-- [BuffCount](buffcount)(); -- {{% lua_type_number %}}
-- [FindType](findtype)(number type, {{% lua_type_boolean %}} offensive, {{% lua_type_number %}} threshold); -- {{% lua_type_boolean %}}
-- [GetBuffSlotFromType](getbuffslotfromtype)(number slot); -- {{% lua_type_number %}}
-- [GetBaseRace](getbaserace)(); -- {{% lua_type_number %}}
-- [GetBaseGender](getbasegender)(); -- {{% lua_type_number %}}
-- [GetDeity](getdeity)(); -- {{% lua_type_number %}}
-- [GetRace](getrace)(); -- {{% lua_type_number %}}
-- [GetGender](getgender)(); -- {{% lua_type_number %}}
-- [GetTexture](gettexture)(); -- {{% lua_type_number %}}
-- [GetHelmTexture](gethelmtexture)(); -- {{% lua_type_number %}}
-- [GetHairColor](gethaircolor)(); -- {{% lua_type_number %}}
-- [GetBeardColor](getbeardcolor)(); -- {{% lua_type_number %}}
-- [GetHairStyle](gethairstyle)(); -- {{% lua_type_number %}}
-- [GetLuclinFace](getluclinface)(); -- {{% lua_type_number %}}
-- [GetDrakkinHeritage](getdrakkinheritage)(); -- {{% lua_type_number %}}
-- [GetDrakkinTattoo](getdrakkintattoo)(); -- {{% lua_type_number %}}
-- [GetDrakkinDetails](getdrakkindetails)(); -- {{% lua_type_number %}}
-- [GetClass](getclass)(); -- {{% lua_type_number %}}
-- [GetCleanName](getcleanname)(); -- {{% lua_type_string %}}
-- [GetTarget](gettarget)(); -- unknown - Lua_Mob
-- [SetTarget](settarget)(Lua_Mob t); -- {{% lua_type_nil %}}
-- [GetHPRatio](gethpratio)(); -- {{% lua_type_number %}}
-- [IsWarriorClass](iswarriorclass)(); -- {{% lua_type_boolean %}}
-- [GetMaxHP](getmaxhp)(); -- {{% lua_type_number %}}
-- [GetItemStat](getitemstat)(number itemid, {{% lua_type_string %}} identifier); -- {{% lua_type_number %}}
-- [GetItemHPBonuses](getitemhpbonuses)(); -- {{% lua_type_number %}}
-- [GetSpellHPBonuses](getspellhpbonuses)(); -- {{% lua_type_number %}}
-- [GetWalkspeed](getwalkspeed)(); -- {{% lua_type_number %}}
-- [GetRunspeed](getrunspeed)(); -- {{% lua_type_number %}}
-- [GetCasterLevel](getcasterlevel)(number spell_id); -- {{% lua_type_number %}}
-- [GetMaxMana](getmaxmana)(); -- {{% lua_type_number %}}
-- [GetMana](getmana)(); -- {{% lua_type_number %}}
-- [SetMana](setmana)(number mana); -- {{% lua_type_number %}}
-- [GetManaRatio](getmanaratio)(); -- {{% lua_type_number %}}
-- [GetAC](getac)(); -- {{% lua_type_number %}}
-- [GetDisplayAC](getdisplayac)(); -- {{% lua_type_number %}}
-- [GetATK](getatk)(); -- {{% lua_type_number %}}
-- [GetSTR](getstr)(); -- {{% lua_type_number %}}
-- [GetSTA](getsta)(); -- {{% lua_type_number %}}
-- [GetDEX](getdex)(); -- {{% lua_type_number %}}
-- [GetAGI](getagi)(); -- {{% lua_type_number %}}
-- [GetINT](getint)(); -- {{% lua_type_number %}}
-- [GetWIS](getwis)(); -- {{% lua_type_number %}}
-- [GetCHA](getcha)(); -- {{% lua_type_number %}}
-- [GetMR](getmr)(); -- {{% lua_type_number %}}
-- [GetFR](getfr)(); -- {{% lua_type_number %}}
-- [GetPR](getpr)(); -- {{% lua_type_number %}}
-- [GetCR](getcr)(); -- {{% lua_type_number %}}
-- [GetCorruption](getcorruption)(); -- {{% lua_type_number %}}
-- [GetPhR](getphr)(); -- {{% lua_type_number %}}
-- [GetMaxSTR](getmaxstr)(); -- {{% lua_type_number %}}
-- [GetMaxSTA](getmaxsta)(); -- {{% lua_type_number %}}
-- [GetMaxDEX](getmaxdex)(); -- {{% lua_type_number %}}
-- [GetMaxAGI](getmaxagi)(); -- {{% lua_type_number %}}
-- [GetMaxINT](getmaxint)(); -- {{% lua_type_number %}}
-- [GetMaxWIS](getmaxwis)(); -- {{% lua_type_number %}}
-- [GetMaxCHA](getmaxcha)(); -- {{% lua_type_number %}}
-- [ResistSpell](resistspell)(number resist_type, {{% lua_type_number %}} spell_id, Lua_Mob caster, {{% lua_type_boolean %}} use_resist_override, {{% lua_type_number %}} resist_override); -- {{% lua_type_number %}}
-- [GetSpecializeSkillValue](getspecializeskillvalue)(number spell_id); -- {{% lua_type_number %}}
-- [GetNPCTypeID](getnpctypeid)(); -- {{% lua_type_number %}}
-- [IsTargeted](istargeted)(); -- {{% lua_type_boolean %}}
-- [GetX](getx)(); -- {{% lua_type_number %}}
-- [GetY](gety)(); -- {{% lua_type_number %}}
-- [GetZ](getz)(); -- {{% lua_type_number %}}
-- [GetHeading](getheading)(); -- {{% lua_type_number %}}
-- [GetWaypointX](getwaypointx)(); -- {{% lua_type_number %}}
-- [GetWaypointY](getwaypointy)(); -- {{% lua_type_number %}}
-- [GetWaypointZ](getwaypointz)(); -- {{% lua_type_number %}}
-- [GetWaypointH](getwaypointh)(); -- {{% lua_type_number %}}
-- [GetWaypointPause](getwaypointpause)(); -- {{% lua_type_number %}}
-- [GetWaypointID](getwaypointid)(); -- {{% lua_type_number %}}
-- [SetCurrentWP](setcurrentwp)(number wp); -- {{% lua_type_nil %}}
-- [GetSize](getsize)(); -- {{% lua_type_number %}}
-- [Message](message)(number type, const char *message); -- {{% lua_type_nil %}}
-- [MessageString](messagestring)(number type, {{% lua_type_number %}} string_id, {{% lua_type_number %}} distance); -- {{% lua_type_nil %}}
-- [Say](say)({{% lua_type_string %}} message, {{% lua_type_number %}} language); -- {{% lua_type_nil %}}
-- [QuestSay](questsay)(Lua_Client client, const char *message, luabind::adl::object opts); -- {{% lua_type_nil %}}
-- [Shout](shout)({{% lua_type_string %}} message, {{% lua_type_number %}} language); -- {{% lua_type_nil %}}
-- [Emote](emote)(const char *message); -- {{% lua_type_nil %}}
-- [InterruptSpell](interruptspell)(number spell_id); -- {{% lua_type_nil %}}
-- [CastSpell](castspell)(number spell_id, {{% lua_type_number %}} target_id, {{% lua_type_number %}} slot, {{% lua_type_number %}} cast_time, {{% lua_type_number %}} mana_cost, {{% lua_type_number %}} item_slot); -- {{% lua_type_boolean %}}
-- [SpellFinished](spellfinished)(number spell_id, Lua_Mob target, {{% lua_type_number %}} slot, {{% lua_type_number %}} mana_used, {{% lua_type_number %}} inventory_slot, {{% lua_type_number %}} resist_adjust, {{% lua_type_boolean %}} proc); -- {{% lua_type_boolean %}}
-- [SendBeginCast](sendbegincast)(number spell_id, {{% lua_type_number %}} cast_time); -- {{% lua_type_nil %}}
-- [SpellEffect](spelleffect)(Lua_Mob caster, {{% lua_type_number %}} spell_id, double partial); -- {{% lua_type_nil %}}
-- [GetPet](getpet)(); -- unknown - Lua_Mob
-- [GetOwner](getowner)(); -- unknown - Lua_Mob
-- [GetHateList](gethatelist)(); -- unknown - Lua_HateList
-- [GetHateTop](gethatetop)(); -- unknown - Lua_Mob
-- [GetHateDamageTop](gethatedamagetop)(Lua_Mob other); -- unknown - Lua_Mob
-- [GetHateRandom](gethaterandom)(); -- unknown - Lua_Mob
-- [AddToHateList](addtohatelist)(Lua_Mob other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage, {{% lua_type_boolean %}} yell_for_help, {{% lua_type_boolean %}} frenzy, {{% lua_type_boolean %}} buff_tic); -- {{% lua_type_nil %}}
-- [SetHate](sethate)(Lua_Mob other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage); -- {{% lua_type_nil %}}
-- [HalveAggro](halveaggro)(Lua_Mob other); -- {{% lua_type_nil %}}
-- [DoubleAggro](doubleaggro)(Lua_Mob other); -- {{% lua_type_nil %}}
-- [GetHateAmount](gethateamount)(Lua_Mob target, {{% lua_type_boolean %}} is_damage); -- {{% lua_type_number %}}
-- [GetDamageAmount](getdamageamount)(Lua_Mob target); -- {{% lua_type_number %}}
-- [WipeHateList](wipehatelist)(); -- {{% lua_type_nil %}}
-- [CheckAggro](checkaggro)(Lua_Mob other); -- {{% lua_type_boolean %}}
-- [Stun](stun)(number duration); -- {{% lua_type_nil %}}
-- [UnStun](unstun)(); -- {{% lua_type_nil %}}
-- [IsStunned](isstunned)(); -- {{% lua_type_boolean %}}
-- [Spin](spin)(); -- {{% lua_type_nil %}}
-- [CanThisClassDoubleAttack](canthisclassdoubleattack)(); -- {{% lua_type_boolean %}}
-- [CanThisClassDualWield](canthisclassdualwield)(); -- {{% lua_type_boolean %}}
-- [CanThisClassRiposte](canthisclassriposte)(); -- {{% lua_type_boolean %}}
-- [CanThisClassDodge](canthisclassdodge)(); -- {{% lua_type_boolean %}}
-- [CanThisClassParry](canthisclassparry)(); -- {{% lua_type_boolean %}}
-- [CanThisClassBlock](canthisclassblock)(); -- {{% lua_type_boolean %}}
-- [SetInvul](setinvul)({{% lua_type_boolean %}} value); -- {{% lua_type_nil %}}
-- [GetInvul](getinvul)(); -- {{% lua_type_boolean %}}
-- [SetExtraHaste](setextrahaste)(number haste); -- {{% lua_type_nil %}}
-- [GetHaste](gethaste)(); -- {{% lua_type_number %}}
-- [GetHandToHandDamage](gethandtohanddamage)(); -- {{% lua_type_number %}}
-- [GetHandToHandDelay](gethandtohanddelay)(); -- {{% lua_type_number %}}
-- [Mesmerize](mesmerize)(); -- {{% lua_type_nil %}}
-- [IsMezzed](ismezzed)(); -- {{% lua_type_boolean %}}
-- [IsEnraged](isenraged)(); -- {{% lua_type_boolean %}}
-- [GetReverseFactionCon](getreversefactioncon)(Lua_Mob other); -- {{% lua_type_number %}}
-- [IsAIControlled](isaicontrolled)(); -- {{% lua_type_boolean %}}
-- [GetAggroRange](getaggrorange)(); -- {{% lua_type_number %}}
-- [GetAssistRange](getassistrange)(); -- {{% lua_type_number %}}
-- [SetPetOrder](setpetorder)(number order); -- {{% lua_type_nil %}}
-- [GetPetOrder](getpetorder)(); -- {{% lua_type_number %}}
-- [IsRoamer](isroamer)(); -- {{% lua_type_boolean %}}
-- [IsRooted](isrooted)(); -- {{% lua_type_boolean %}}
-- [IsEngaged](isengaged)(); -- {{% lua_type_boolean %}}
-- [FaceTarget](facetarget)(Lua_Mob target); -- {{% lua_type_nil %}}
-- [SetHeading](setheading)(double in); -- {{% lua_type_nil %}}
-- [CalculateHeadingToTarget](calculateheadingtotarget)(double in_x, double in_y); -- {{% lua_type_number %}}
-- [RunTo](runto)(double x, double y, double z); -- {{% lua_type_nil %}}
-- [WalkTo](walkto)(double x, double y, double z); -- {{% lua_type_nil %}}
-- [NavigateTo](navigateto)(double x, double y, double z); -- {{% lua_type_nil %}}
-- [StopNavigation](stopnavigation)(); -- {{% lua_type_nil %}}
-- [CalculateDistance](calculatedistance)(double x, double y, double z); -- {{% lua_type_number %}}
-- [SendTo](sendto)(double x, double y, double z); -- {{% lua_type_nil %}}
-- [SendToFixZ](sendtofixz)(double x, double y, double z); -- {{% lua_type_nil %}}
-- [NPCSpecialAttacks](npcspecialattacks)(const char *parse, {{% lua_type_number %}} perm, {{% lua_type_boolean %}} reset, {{% lua_type_boolean %}} remove); -- {{% lua_type_nil %}}
-- [GetResist](getresist)(number type); -- {{% lua_type_number %}}
-- [Charmed](charmed)(); -- {{% lua_type_boolean %}}
-- [CheckAggroAmount](checkaggroamount)(number spell_id, {{% lua_type_boolean %}} is_proc); -- {{% lua_type_number %}}
-- [CheckHealAggroAmount](checkhealaggroamount)(number spell_id, {{% lua_type_number %}} heal_possible); -- {{% lua_type_number %}}
-- [GetAA](getaa)(number id); -- {{% lua_type_number %}}
-- [GetAAByAAID](getaabyaaid)(number id); -- {{% lua_type_number %}}
-- [SetAA](setaa)(number rank_id, {{% lua_type_number %}} new_value, {{% lua_type_number %}} charges); -- {{% lua_type_boolean %}}
-- [DivineAura](divineaura)(); -- {{% lua_type_boolean %}}
-- [SetOOCRegen](setoocregen)(number regen); -- {{% lua_type_nil %}}
-- [GetEntityVariable](getentityvariable); -- 
-- [SetEntityVariable](setentityvariable)(const char *name, const char *value); -- {{% lua_type_nil %}}
-- [EntityVariableExists](entityvariableexists)(const char *name); -- {{% lua_type_boolean %}}
-- [Signal](signal)(number id); -- {{% lua_type_nil %}}
-- [CombatRange](combatrange)(Lua_Mob other); -- {{% lua_type_boolean %}}
-- [DoSpecialAttackDamage](dospecialattackdamage)(Lua_Mob other, {{% lua_type_number %}} skill, {{% lua_type_number %}} max_damage, {{% lua_type_number %}} min_damage, {{% lua_type_number %}} hate_override, {{% lua_type_number %}} reuse_time); -- {{% lua_type_nil %}}
-- [DoThrowingAttackDmg](dothrowingattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_Item item, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod); -- {{% lua_type_nil %}}
-- [DoMeleeSkillAttackDmg](domeleeskillattackdmg)(Lua_Mob other, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} skill, {{% lua_type_number %}} chance_mod, {{% lua_type_number %}} focus, {{% lua_type_boolean %}} can_riposte); -- {{% lua_type_nil %}}
-- [DoArcheryAttackDmg](doarcheryattackdmg)(Lua_Mob other, Lua_ItemInst range_weapon, Lua_ItemInst ammo, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod); -- {{% lua_type_nil %}}
-- [CheckLoS](checklos)(Lua_Mob other); -- {{% lua_type_boolean %}}
-- [CheckLoSToLoc](checklostoloc)(double x, double y, double z, double mob_size); -- {{% lua_type_boolean %}}
-- [FindGroundZ](findgroundz)(double x, double y, double z); -- {{% lua_type_number %}}
-- [ProjectileAnimation](projectileanimation)(Lua_Mob to, {{% lua_type_number %}} item_id, {{% lua_type_boolean %}} is_arrow, double speed, double angle, double tilt, double arc); -- {{% lua_type_nil %}}
-- [HasNPCSpecialAtk](hasnpcspecialatk)(const char *parse); -- {{% lua_type_boolean %}}
-- [SendAppearanceEffect](sendappearanceeffect)(number parm1, {{% lua_type_number %}} parm2, {{% lua_type_number %}} parm3, {{% lua_type_number %}} parm4, {{% lua_type_number %}} parm5, Lua_Client specific_target); -- {{% lua_type_nil %}}
-- [SetFlyMode](setflymode)(number in); -- {{% lua_type_nil %}}
-- [SetTexture](settexture)(number in); -- {{% lua_type_nil %}}
-- [SetRace](setrace)(number in); -- {{% lua_type_nil %}}
-- [SetGender](setgender)(number in); -- {{% lua_type_nil %}}
-- [SendIllusionPacket](sendillusionpacket)(luabind::adl::object illusion); -- {{% lua_type_nil %}}
-- [ChangeRace](changerace)(number in); -- {{% lua_type_nil %}}
-- [ChangeGender](changegender)(number in); -- {{% lua_type_nil %}}
-- [ChangeTexture](changetexture)(number in); -- {{% lua_type_nil %}}
-- [ChangeHelmTexture](changehelmtexture)(number in); -- {{% lua_type_nil %}}
-- [ChangeHairColor](changehaircolor)(number in); -- {{% lua_type_nil %}}
-- [ChangeBeardColor](changebeardcolor)(number in); -- {{% lua_type_nil %}}
-- [ChangeHairStyle](changehairstyle)(number in); -- {{% lua_type_nil %}}
-- [ChangeLuclinFace](changeluclinface)(number in); -- {{% lua_type_nil %}}
-- [ChangeDrakkinHeritage](changedrakkinheritage)(number in); -- {{% lua_type_nil %}}
-- [ChangeDrakkinTattoo](changedrakkintattoo)(number in); -- {{% lua_type_nil %}}
-- [ChangeDrakkinDetails](changedrakkindetails)(number in); -- {{% lua_type_nil %}}
-- [CameraEffect](cameraeffect)(number duration, {{% lua_type_number %}} intensity, Lua_Client c, {{% lua_type_boolean %}} global); -- {{% lua_type_nil %}}
-- [SendSpellEffect](sendspelleffect)(number effect_id, {{% lua_type_number %}} duration, {{% lua_type_number %}} finish_delay, {{% lua_type_boolean %}} zone_wide, {{% lua_type_number %}} unk020, {{% lua_type_boolean %}} perm_effect); -- {{% lua_type_nil %}}
-- [TempName](tempname)(const char *newname); -- {{% lua_type_nil %}}
-- [GetGlobal](getglobal)(const char *varname); -- {{% lua_type_string %}}
-- [SetGlobal](setglobal)(const char *varname, const char *newvalue, {{% lua_type_number %}} options, const char *duration, Lua_Mob other); -- {{% lua_type_nil %}}
-- [TarGlobal](targlobal)(const char *varname, const char *value, const char *duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id); -- {{% lua_type_nil %}}
-- [DelGlobal](delglobal)(const char *varname); -- {{% lua_type_nil %}}
-- [SetSlotTint](setslottint)(number material_slot, {{% lua_type_number %}} red_tint, {{% lua_type_number %}} green_tint, {{% lua_type_number %}} blue_tint); -- {{% lua_type_nil %}}
-- [WearChange](wearchange)(number material_slot, {{% lua_type_number %}} texture, {{% lua_type_number %}} color); -- {{% lua_type_nil %}}
-- [DoKnockback](doknockback)(Lua_Mob caster, {{% lua_type_number %}} pushback, {{% lua_type_number %}} pushup); -- {{% lua_type_nil %}}
-- [AddNimbusEffect](addnimbuseffect)(number effect_id); -- {{% lua_type_nil %}}
-- [RemoveNimbusEffect](removenimbuseffect)(number effect_id); -- {{% lua_type_nil %}}
-- [IsFeared](isfeared)(); -- {{% lua_type_boolean %}}
-- [IsBlind](isblind)(); -- {{% lua_type_boolean %}}
-- [IsRunning](isrunning)(); -- {{% lua_type_boolean %}}
-- [SetRunning](setrunning)({{% lua_type_boolean %}} running); -- {{% lua_type_nil %}}
-- [SetBodyType](setbodytype)(number new_body, {{% lua_type_boolean %}} overwrite_orig); -- {{% lua_type_nil %}}
-- [SetTargetable](settargetable)({{% lua_type_boolean %}} on); -- {{% lua_type_nil %}}
-- [ModSkillDmgTaken](modskilldmgtaken)(number skill, {{% lua_type_number %}} value); -- {{% lua_type_nil %}}
-- [GetModSkillDmgTaken](getmodskilldmgtaken)(number skill); -- {{% lua_type_number %}}
-- [GetSkillDmgTaken](getskilldmgtaken)(number skill); -- {{% lua_type_number %}}
-- [GetFcDamageAmtIncoming](getfcdamageamtincoming)(Lua_Mob caster, {{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} use_skill, uint16 skill); -- {{% lua_type_number %}}
-- [GetSkillDmgAmt](getskilldmgamt)(uint16 skill); -- {{% lua_type_number %}}
-- [SetAllowBeneficial](setallowbeneficial)({{% lua_type_boolean %}} value); -- {{% lua_type_nil %}}
-- [GetAllowBeneficial](getallowbeneficial)(); -- {{% lua_type_boolean %}}
-- [IsBeneficialAllowed](isbeneficialallowed)(Lua_Mob target); -- {{% lua_type_boolean %}}
-- [ModVulnerability](modvulnerability)(number resist, {{% lua_type_number %}} value); -- {{% lua_type_nil %}}
-- [GetModVulnerability](getmodvulnerability)(number resist); -- {{% lua_type_number %}}
-- [SetDisableMelee](setdisablemelee)({{% lua_type_boolean %}} disable); -- {{% lua_type_nil %}}
-- [IsMeleeDisabled](ismeleedisabled)(); -- {{% lua_type_boolean %}}
-- [SetFlurryChance](setflurrychance)(number value); -- {{% lua_type_nil %}}
-- [GetFlurryChance](getflurrychance)(); -- {{% lua_type_number %}}
-- [GetSpecialAbility](getspecialability)(number ability); -- {{% lua_type_number %}}
-- [GetSpecialAbilityParam](getspecialabilityparam)(number ability, {{% lua_type_number %}} param); -- {{% lua_type_number %}}
-- [SetSpecialAbility](setspecialability)(number ability, {{% lua_type_number %}} level); -- {{% lua_type_nil %}}
-- [SetSpecialAbilityParam](setspecialabilityparam)(number ability, {{% lua_type_number %}} param, {{% lua_type_number %}} value); -- {{% lua_type_nil %}}
-- [ClearSpecialAbilities](clearspecialabilities)(); -- {{% lua_type_nil %}}
-- [ProcessSpecialAbilities](processspecialabilities)(std::string str); -- {{% lua_type_nil %}}
-- [GetAppearance](getappearance)(); -- {{% lua_type_number %}}
-- [SetAppearance](setappearance)(number app, {{% lua_type_boolean %}} ignore_self); -- {{% lua_type_nil %}}
-- [SetDestructibleObject](setdestructibleobject)({{% lua_type_boolean %}} set); -- {{% lua_type_nil %}}
-- [IsImmuneToSpell](isimmunetospell)(number spell_id, Lua_Mob caster); -- {{% lua_type_boolean %}}
-- [BuffFadeBySpellID](bufffadebyspellid)(number spell_id); -- {{% lua_type_nil %}}
-- [BuffFadeByEffect](bufffadebyeffect)(number effect_id, {{% lua_type_number %}} skipslot); -- {{% lua_type_nil %}}
-- [BuffFadeAll](bufffadeall)(); -- {{% lua_type_nil %}}
-- [BuffFadeBySlot](bufffadebyslot)(number slot, {{% lua_type_boolean %}} recalc_bonuses); -- {{% lua_type_nil %}}
-- [CanBuffStack](canbuffstack)(number spell_id, {{% lua_type_number %}} caster_level, {{% lua_type_boolean %}} fail_if_overwrite); -- {{% lua_type_number %}}
-- [SetPseudoRoot](setpseudoroot)({{% lua_type_boolean %}} in); -- {{% lua_type_nil %}}
-- [SeeInvisible](seeinvisible)(); -- {{% lua_type_number %}}
-- [SeeInvisibleUndead](seeinvisibleundead)(); -- {{% lua_type_boolean %}}
-- [SeeHide](seehide)(); -- {{% lua_type_boolean %}}
-- [SeeImprovedHide](seeimprovedhide)(); -- {{% lua_type_boolean %}}
-- [IsTargetable](istargetable)(); -- {{% lua_type_boolean %}}
-- [HasShieldEquiped](hasshieldequiped)(); -- {{% lua_type_boolean %}}
-- [HasTwoHandBluntEquiped](hastwohandbluntequiped)(); -- {{% lua_type_boolean %}}
-- [HasTwoHanderEquipped](hastwohanderequipped)(); -- {{% lua_type_boolean %}}
-- [GetHerosForgeModel](getherosforgemodel)(uint8 material_slot); -- {{% lua_type_number %}}
-- [IsEliteMaterialItem](iselitematerialitem)(uint8 material_slot); -- {{% lua_type_number %}}
-- [GetBaseSize](getbasesize)(); -- {{% lua_type_number %}}
-- [HasOwner](hasowner)(); -- {{% lua_type_boolean %}}
-- [IsPet](ispet)(); -- {{% lua_type_boolean %}}
-- [HasPet](haspet)(); -- {{% lua_type_boolean %}}
-- [IsSilenced](issilenced)(); -- {{% lua_type_boolean %}}
-- [IsAmnesiad](isamnesiad)(); -- {{% lua_type_boolean %}}
-- [GetMeleeMitigation](getmeleemitigation)(); -- {{% lua_type_number %}}
-- [GetWeaponDamageBonus](getweapondamagebonus)(Lua_Item weapon, {{% lua_type_boolean %}} offhand); -- {{% lua_type_number %}}
-- [GetItemBonuses](getitembonuses)(); -- unknown - Lua_StatBonuses
-- [GetSpellBonuses](getspellbonuses)(); -- unknown - Lua_StatBonuses
-- [GetAABonuses](getaabonuses)(); -- unknown - Lua_StatBonuses
-- [IsAttackAllowed](isattackallowed)(Lua_Mob target, {{% lua_type_boolean %}} isSpellAttack); -- {{% lua_type_boolean %}}
-- [IsCasting](iscasting)(); -- {{% lua_type_boolean %}}
-- [AttackAnimation](attackanimation)(number Hand, Lua_ItemInst weapon); -- {{% lua_type_number %}}
-- [IsBerserk](isberserk)(); -- {{% lua_type_boolean %}}
-- [TryFinishingBlow](tryfinishingblow)(Lua_Mob defender, {{% lua_type_number %}} &damage); -- {{% lua_type_boolean %}}
-- [GetBodyType](getbodytype)(); -- {{% lua_type_number %}}
-- [GetOrigBodyType](getorigbodytype)(); -- {{% lua_type_number %}}
-- [CheckNumHitsRemaining](checknumhitsremaining)(number type, int32 buff_slot, uint16 spell_id); -- {{% lua_type_nil %}}
+- [AddNimbusEffect](addnimbuseffect)({{% lua_type_number %}} effect_id) -- {{% lua_type_nil %}}
+- [AddToHateList](addtohatelist)({{% lua_type_mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage, {{% lua_type_boolean %}} yell_for_help, {{% lua_type_boolean %}} frenzy, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
+- [Attack](attack)({{% lua_type_mob %}} other, {{% lua_type_number %}} hand, {{% lua_type_boolean %}} from_riposte, {{% lua_type_boolean %}} is_strikethrough, {{% lua_type_boolean %}} is_from_spell, {{% lua_type_object %}} opts) -- {{% lua_type_boolean %}}
+- [AttackAnimation](attackanimation)({{% lua_type_number %}} Hand, {{% lua_type_iteminst %}} weapon) -- {{% lua_type_number %}}
+- [BehindMob](behindmob)({{% lua_type_mob %}} other, {{% lua_type_number %}} x, {{% lua_type_number %}} y) -- {{% lua_type_boolean %}}
+- [BuffCount](buffcount)() -- {{% lua_type_number %}}
+- [BuffFadeAll](bufffadeall)() -- {{% lua_type_nil %}}
+- [BuffFadeByEffect](bufffadebyeffect)({{% lua_type_number %}} effect_id, {{% lua_type_number %}} skipslot) -- {{% lua_type_nil %}}
+- [BuffFadeBySlot](bufffadebyslot)({{% lua_type_number %}} slot, {{% lua_type_boolean %}} recalc_bonuses) -- {{% lua_type_nil %}}
+- [BuffFadeBySpellID](bufffadebyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [CalculateDistance](calculatedistance)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_number %}}
+- [CalculateHeadingToTarget](calculateheadingtotarget)({{% lua_type_number %}} in_x, {{% lua_type_number %}} in_y) -- {{% lua_type_number %}}
+- [CameraEffect](cameraeffect)({{% lua_type_number %}} duration, {{% lua_type_number %}} intensity, {{% lua_type_client %}} c, {{% lua_type_boolean %}} global) -- {{% lua_type_nil %}}
+- [CanBuffStack](canbuffstack)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} caster_level, {{% lua_type_boolean %}} fail_if_overwrite) -- {{% lua_type_number %}}
+- [CanThisClassBlock](canthisclassblock)() -- {{% lua_type_boolean %}}
+- [CanThisClassDodge](canthisclassdodge)() -- {{% lua_type_boolean %}}
+- [CanThisClassDoubleAttack](canthisclass{{% lua_type_number %}}attack)() -- {{% lua_type_boolean %}}
+- [CanThisClassDualWield](canthisclassdualwield)() -- {{% lua_type_boolean %}}
+- [CanThisClassParry](canthisclassparry)() -- {{% lua_type_boolean %}}
+- [CanThisClassRiposte](canthisclassriposte)() -- {{% lua_type_boolean %}}
+- [CastSpell](castspell)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} target_id, {{% lua_type_number %}} slot, {{% lua_type_number %}} cast_time, {{% lua_type_number %}} mana_cost, {{% lua_type_number %}} item_slot) -- {{% lua_type_boolean %}}
+- [ChangeBeardColor](changebeardcolor)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeDrakkinDetails](changedrakkindetails)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeDrakkinHeritage](changedrakkinheritage)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeDrakkinTattoo](changedrakkintattoo)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeGender](changegender)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeHairColor](changehaircolor)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeHairStyle](changehairstyle)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeHelmTexture](changehelmtexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeLuclinFace](changeluclinface)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeRace](changerace)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [ChangeSize](changesize)({{% lua_type_number %}} in_size, {{% lua_type_boolean %}} no_restriction) -- {{% lua_type_nil %}}
+- [ChangeTexture](changetexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [Charmed](charmed)() -- {{% lua_type_boolean %}}
+- [CheckAggro](checkaggro)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [CheckAggroAmount](checkaggroamount)({{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} is_proc) -- {{% lua_type_number %}}
+- [CheckHealAggroAmount](checkhealaggroamount)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} heal_possible) -- {{% lua_type_number %}}
+- [CheckLoS](checklos)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [CheckLoSToLoc](checklostoloc)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} mob_size) -- {{% lua_type_boolean %}}
+- [CheckNumHitsRemaining](checknumhitsremaining)({{% lua_type_number %}} type, {{% lua_type_number %}} buff_slot, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [ClearSpecialAbilities](clearspecialabilities)() -- {{% lua_type_nil %}}
+- [CombatRange](combatrange)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [Damage](damage)({{% lua_type_mob %}} from, {{% lua_type_number %}} damage, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} attack_skill, {{% lua_type_boolean %}} a{{% lua_type_nil %}}able, {{% lua_type_number %}} buffslot, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
+- [DelGlobal](delglobal)({{% lua_type_string %}} varname) -- {{% lua_type_nil %}}
+- [Depop](depop)({{% lua_type_boolean %}} start_spawn_timer) -- {{% lua_type_nil %}}
+- [DivineAura](divineaura)() -- {{% lua_type_boolean %}}
+- [DoAnim](doanim)({{% lua_type_number %}} anim_num, {{% lua_type_number %}} type, {{% lua_type_boolean %}} ackreq, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
+- [DoArcheryAttackDmg](doarcheryattackdmg)({{% lua_type_mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_iteminst %}} ammo, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
+- [DoKnockback](doknockback)({{% lua_type_mob %}} caster, {{% lua_type_number %}} pushback, {{% lua_type_number %}} pushup) -- {{% lua_type_nil %}}
+- [DoMeleeSkillAttackDmg](domeleeskillattackdmg)({{% lua_type_mob %}} other, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} skill, {{% lua_type_number %}} chance_mod, {{% lua_type_number %}} focus, {{% lua_type_boolean %}} can_riposte) -- {{% lua_type_nil %}}
+- [DoSpecialAttackDamage](dospecialattackdamage)({{% lua_type_mob %}} other, {{% lua_type_number %}} skill, {{% lua_type_number %}} max_damage, {{% lua_type_number %}} min_damage, {{% lua_type_number %}} hate_override, {{% lua_type_number %}} reuse_time) -- {{% lua_type_nil %}}
+- [DoThrowingAttackDmg](dothrowingattackdmg)({{% lua_type_mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_item %}} item, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
+- [DoubleAggro]({{% lua_type_number %}}aggro)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [Emote](emote)({{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [EntityVariableExists](entityvariableexists)({{% lua_type_string %}} name) -- {{% lua_type_boolean %}}
+- [FaceTarget](facetarget)({{% lua_type_mob %}} target) -- {{% lua_type_nil %}}
+- [FindBuff](findbuff)({{% lua_type_number %}} spell_id) -- {{% lua_type_boolean %}}
+- [FindBuffBySlot](findbuffbyslot)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
+- [FindGroundZ](findgroundz)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_number %}}
+- [FindType](findtype)({{% lua_type_number %}} type, {{% lua_type_boolean %}} offensive, {{% lua_type_number %}} threshold) -- {{% lua_type_boolean %}}
+- [GetAA](getaa)({{% lua_type_number %}} id) -- {{% lua_type_number %}}
+- [GetAABonuses](getaabonuses)() -- {{% lua_type_stat_bonuses %}}
+- [GetAAByAAID](getaabyaaid)({{% lua_type_number %}} id) -- {{% lua_type_number %}}
+- [GetAC](getac)() -- {{% lua_type_number %}}
+- [GetAggroRange](getaggrorange)() -- {{% lua_type_number %}}
+- [GetAGI](getagi)() -- {{% lua_type_number %}}
+- [GetAllowBeneficial](getallowbeneficial)() -- {{% lua_type_boolean %}}
+- [GetAppearance](getappearance)() -- {{% lua_type_number %}}
+- [GetAssistRange](getassistrange)() -- {{% lua_type_number %}}
+- [GetATK](getatk)() -- {{% lua_type_number %}}
+- [GetBaseGender](getbasegender)() -- {{% lua_type_number %}}
+- [GetBaseRace](getbaserace)() -- {{% lua_type_number %}}
+- [GetBaseSize](getbasesize)() -- {{% lua_type_number %}}
+- [GetBeardColor](getbeardcolor)() -- {{% lua_type_number %}}
+- [GetBodyType](getbodytype)() -- {{% lua_type_number %}}
+- [GetBuffSlotFromType](getbuffslotfromtype)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
+- [GetCasterLevel](getcasterlevel)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
+- [GetCHA](getcha)() -- {{% lua_type_number %}}
+- [GetClass](getclass)() -- {{% lua_type_number %}}
+- [GetCleanName](getcleanname)() -- {{% lua_type_string %}}
+- [GetCorruption](getcorruption)() -- {{% lua_type_number %}}
+- [GetCR](getcr)() -- {{% lua_type_number %}}
+- [GetDamageAmount](getdamageamount)({{% lua_type_mob %}} target) -- {{% lua_type_number %}}
+- [GetDeity](getdeity)() -- {{% lua_type_number %}}
+- [GetDEX](getdex)() -- {{% lua_type_number %}}
+- [GetDisplayAC](getdisplayac)() -- {{% lua_type_number %}}
+- [GetDrakkinDetails](getdrakkindetails)() -- {{% lua_type_number %}}
+- [GetDrakkinHeritage](getdrakkinheritage)() -- {{% lua_type_number %}}
+- [GetDrakkinTattoo](getdrakkintattoo)() -- {{% lua_type_number %}}
+- [GetEntityVariable](getentityvariable)({{% lua_type_string %}} name) -- {{% lua_type_string %}}
+- [GetFcDamageAmtIncoming](getfcdamageamtincoming)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} use_skill, {{% lua_type_number %}} skill) -- {{% lua_type_number %}}
+- [GetFlurryChance](getflurrychance)() -- {{% lua_type_number %}}
+- [GetFR](getfr)() -- {{% lua_type_number %}}
+- [GetGender](getgender)() -- {{% lua_type_number %}}
+- [GetGlobal](getglobal)({{% lua_type_string %}} varname) -- {{% lua_type_string %}}
+- [GetHairColor](gethaircolor)() -- {{% lua_type_number %}}
+- [GetHairStyle](gethairstyle)() -- {{% lua_type_number %}}
+- [GetHandToHandDamage](gethandtohanddamage)() -- {{% lua_type_number %}}
+- [GetHandToHandDelay](gethandtohanddelay)() -- {{% lua_type_number %}}
+- [GetHaste](gethaste)() -- {{% lua_type_number %}}
+- [GetHateAmount](gethateamount)({{% lua_type_mob %}} target, {{% lua_type_boolean %}} is_damage) -- {{% lua_type_number %}}
+- [GetHateDamageTop](gethatedamagetop)({{% lua_type_mob %}} other) -- {{% lua_type_mob %}}
+- [GetHateList](gethatelist)() -- {{% lua_type_hate_list %}}
+- [GetHateRandom](gethaterandom)() -- {{% lua_type_mob %}}
+- [GetHateTop](gethatetop)() -- {{% lua_type_mob %}}
+- [GetHeading](getheading)() -- {{% lua_type_number %}}
+- [GetHelmTexture](gethelmtexture)() -- {{% lua_type_number %}}
+- [GetHerosForgeModel](getherosforgemodel)(uint8 material_slot) -- {{% lua_type_number %}}
+- [GetHPRatio](gethpratio)() -- {{% lua_type_number %}}
+- [GetINT](getint)() -- {{% lua_type_number %}}
+- [GetInvul](getinvul)() -- {{% lua_type_boolean %}}
+- [GetItemBonuses](getitembonuses)() -- {{% lua_type_stat_bonuses %}}
+- [GetItemHPBonuses](getitemhpbonuses)() -- {{% lua_type_number %}}
+- [GetItemStat](getitemstat)({{% lua_type_number %}} itemid, {{% lua_type_string %}} identifier) -- {{% lua_type_number %}}
+- [GetLevelCon](getlevelcon)({{% lua_type_number %}} my, {{% lua_type_number %}} other) -- {{% lua_type_number %}}
+- [GetLuclinFace](getluclinface)() -- {{% lua_type_number %}}
+- [GetMana](getmana)() -- {{% lua_type_number %}}
+- [GetManaRatio](getmanaratio)() -- {{% lua_type_number %}}
+- [GetMaxAGI](getmaxagi)() -- {{% lua_type_number %}}
+- [GetMaxCHA](getmaxcha)() -- {{% lua_type_number %}}
+- [GetMaxDEX](getmaxdex)() -- {{% lua_type_number %}}
+- [GetMaxHP](getmaxhp)() -- {{% lua_type_number %}}
+- [GetMaxINT](getmaxint)() -- {{% lua_type_number %}}
+- [GetMaxMana](getmaxmana)() -- {{% lua_type_number %}}
+- [GetMaxSTA](getmaxsta)() -- {{% lua_type_number %}}
+- [GetMaxSTR](getmaxstr)() -- {{% lua_type_number %}}
+- [GetMaxWIS](getmaxwis)() -- {{% lua_type_number %}}
+- [GetMeleeMitigation](getmeleemitigation)() -- {{% lua_type_number %}}
+- [GetModSkillDmgTaken](getmodskilldmgtaken)({{% lua_type_number %}} skill) -- {{% lua_type_number %}}
+- [GetModVulnerability](getmodvulnerability)({{% lua_type_number %}} resist) -- {{% lua_type_number %}}
+- [GetMR](getmr)() -- {{% lua_type_number %}}
+- [GetName](getname)() -- {{% lua_type_string %}}
+- [GetNPCTypeID](getnpctypeid)() -- {{% lua_type_number %}}
+- [GetOrigBodyType](getorigbodytype)() -- {{% lua_type_number %}}
+- [GetOwner](getowner)() -- {{% lua_type_mob %}}
+- [GetPet](getpet)() -- {{% lua_type_mob %}}
+- [GetPetOrder](getpetorder)() -- {{% lua_type_number %}}
+- [GetPhR](getphr)() -- {{% lua_type_number %}}
+- [GetPR](getpr)() -- {{% lua_type_number %}}
+- [GetRace](getrace)() -- {{% lua_type_number %}}
+- [GetResist](getresist)({{% lua_type_number %}} type) -- {{% lua_type_number %}}
+- [GetReverseFactionCon](getreversefactioncon)({{% lua_type_mob %}} other) -- {{% lua_type_number %}}
+- [GetRunspeed](getrunspeed)() -- {{% lua_type_number %}}
+- [GetSize](getsize)() -- {{% lua_type_number %}}
+- [GetSkillDmgAmt](getskilldmgamt)({{% lua_type_number %}} skill) -- {{% lua_type_number %}}
+- [GetSkillDmgTaken](getskilldmgtaken)({{% lua_type_number %}} skill) -- {{% lua_type_number %}}
+- [GetSpecialAbility](getspecialability)({{% lua_type_number %}} ability) -- {{% lua_type_number %}}
+- [GetSpecialAbilityParam](getspecialabilityparam)({{% lua_type_number %}} ability, {{% lua_type_number %}} param) -- {{% lua_type_number %}}
+- [GetSpecializeSkillValue](getspecializeskillvalue)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
+- [GetSpellBonuses](getspellbonuses)() -- {{% lua_type_stat_bonuses %}}
+- [GetSpellHPBonuses](getspellhpbonuses)() -- {{% lua_type_number %}}
+- [GetSTA](getsta)() -- {{% lua_type_number %}}
+- [GetSTR](getstr)() -- {{% lua_type_number %}}
+- [GetTarget](gettarget)() -- {{% lua_type_mob %}}
+- [GetTexture](gettexture)() -- {{% lua_type_number %}}
+- [GetWalkspeed](getwalkspeed)() -- {{% lua_type_number %}}
+- [GetWaypointH](getwaypointh)() -- {{% lua_type_number %}}
+- [GetWaypointID](getwaypointid)() -- {{% lua_type_number %}}
+- [GetWaypointPause](getwaypointpause)() -- {{% lua_type_number %}}
+- [GetWaypointX](getwaypointx)() -- {{% lua_type_number %}}
+- [GetWaypointY](getwaypointy)() -- {{% lua_type_number %}}
+- [GetWaypointZ](getwaypointz)() -- {{% lua_type_number %}}
+- [GetWeaponDamageBonus](getweapondamagebonus)({{% lua_type_item %}} weapon, {{% lua_type_boolean %}} offhand) -- {{% lua_type_number %}}
+- [GetWIS](getwis)() -- {{% lua_type_number %}}
+- [GetX](getx)() -- {{% lua_type_number %}}
+- [GetY](gety)() -- {{% lua_type_number %}}
+- [GetZ](getz)() -- {{% lua_type_number %}}
+- [GMMove](gmmove)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading, {{% lua_type_boolean %}} send_update) -- {{% lua_type_nil %}}
+- [GotoBind](gotobind)() -- {{% lua_type_nil %}}
+- [HalveAggro](halveaggro)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [HasNPCSpecialAtk](hasnpcspecialatk)({{% lua_type_string %}} parse) -- {{% lua_type_boolean %}}
+- [HasOwner](hasowner)() -- {{% lua_type_boolean %}}
+- [HasPet](haspet)() -- {{% lua_type_boolean %}}
+- [HasProcs](hasprocs)() -- {{% lua_type_boolean %}}
+- [HasShieldEquiped](hasshieldequiped)() -- {{% lua_type_boolean %}}
+- [HasTwoHandBluntEquiped](hastwohandbluntequiped)() -- {{% lua_type_boolean %}}
+- [HasTwoHanderEquipped](hastwohanderequipped)() -- {{% lua_type_boolean %}}
+- [Heal](heal)() -- {{% lua_type_nil %}}
+- [HealDamage](healdamage)({{% lua_type_number %}} amount, {{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [InterruptSpell](interruptspell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [IsAIControlled](isaicontrolled)() -- {{% lua_type_boolean %}}
+- [IsAmnesiad](isamnesiad)() -- {{% lua_type_boolean %}}
+- [IsAttackAllowed](isattackallowed)({{% lua_type_mob %}} target, {{% lua_type_boolean %}} isSpellAttack) -- {{% lua_type_boolean %}}
+- [IsBeneficialAllowed](isbeneficialallowed)({{% lua_type_mob %}} target) -- {{% lua_type_boolean %}}
+- [IsBerserk](isberserk)() -- {{% lua_type_boolean %}}
+- [IsBlind](isblind)() -- {{% lua_type_boolean %}}
+- [IsCasting](iscasting)() -- {{% lua_type_boolean %}}
+- [IsEliteMaterialItem](iselitematerialitem)(uint8 material_slot) -- {{% lua_type_number %}}
+- [IsEngaged](isengaged)() -- {{% lua_type_boolean %}}
+- [IsEnraged](isenraged)() -- {{% lua_type_boolean %}}
+- [IsFeared](isfeared)() -- {{% lua_type_boolean %}}
+- [IsImmuneToSpell](isimmunetospell)({{% lua_type_number %}} spell_id, {{% lua_type_mob %}} caster) -- {{% lua_type_boolean %}}
+- [IsInvisible](isinvisible)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [IsMeleeDisabled](ismeleedisabled)() -- {{% lua_type_boolean %}}
+- [IsMezzed](ismezzed)() -- {{% lua_type_boolean %}}
+- [IsMoving](ismoving)() -- {{% lua_type_boolean %}}
+- [IsPet](ispet)() -- {{% lua_type_boolean %}}
+- [IsRoamer](isroamer)() -- {{% lua_type_boolean %}}
+- [IsRooted](isrooted)() -- {{% lua_type_boolean %}}
+- [IsRunning](isrunning)() -- {{% lua_type_boolean %}}
+- [IsSilenced](issilenced)() -- {{% lua_type_boolean %}}
+- [IsStunned](isstunned)() -- {{% lua_type_boolean %}}
+- [IsTargetable](istargetable)() -- {{% lua_type_boolean %}}
+- [IsTargeted](istargeted)() -- {{% lua_type_boolean %}}
+- [IsWarriorClass](iswarriorclass)() -- {{% lua_type_boolean %}}
+- [Mesmerize](mesmerize)() -- {{% lua_type_nil %}}
+- [Message](message)({{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [MessageString](messagestring)({{% lua_type_number %}} type, {{% lua_type_number %}} string_id, {{% lua_type_number %}} distance) -- {{% lua_type_nil %}}
+- [ModSkillDmgTaken](modskilldmgtaken)({{% lua_type_number %}} skill, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [ModVulnerability](modvulnerability)({{% lua_type_number %}} resist, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [NavigateTo](navigateto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [NPCSpecialAttacks](npcspecialattacks)({{% lua_type_string %}} parse, {{% lua_type_number %}} perm, {{% lua_type_boolean %}} reset, {{% lua_type_boolean %}} remove) -- {{% lua_type_nil %}}
+- [ProcessSpecialAbilities](processspecialabilities)(std::string str) -- {{% lua_type_nil %}}
+- [ProjectileAnimation](projectileanimation)({{% lua_type_mob %}} to, {{% lua_type_number %}} item_id, {{% lua_type_boolean %}} is_arrow, {{% lua_type_number %}} speed, {{% lua_type_number %}} angle, {{% lua_type_number %}} tilt, {{% lua_type_number %}} arc) -- {{% lua_type_nil %}}
+- [QuestSay](questsay)({{% lua_type_client %}} client, {{% lua_type_string %}} message, {{% lua_type_object %}} opts) -- {{% lua_type_nil %}}
+- [RandomizeFeatures](randomizefeatures)({{% lua_type_boolean %}} send_illusion, {{% lua_type_boolean %}} save_variables) -- {{% lua_type_nil %}}
+- [RangedAttack](rangedattack)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [RemoveNimbusEffect](removenimbuseffect)({{% lua_type_number %}} effect_id) -- {{% lua_type_nil %}}
+- [ResistSpell](resistspell)({{% lua_type_number %}} resist_type, {{% lua_type_number %}} spell_id, {{% lua_type_mob %}} caster, {{% lua_type_boolean %}} use_resist_override, {{% lua_type_number %}} resist_override) -- {{% lua_type_number %}}
+- [RunTo](runto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [Say](say)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
+- [SeeHide](seehide)() -- {{% lua_type_boolean %}}
+- [SeeImprovedHide](seeimprovedhide)() -- {{% lua_type_boolean %}}
+- [SeeInvisible](seeinvisible)() -- {{% lua_type_number %}}
+- [SeeInvisibleUndead](seeinvisibleundead)() -- {{% lua_type_boolean %}}
+- [SendAppearanceEffect](sendappearanceeffect)({{% lua_type_number %}} parm1, {{% lua_type_number %}} parm2, {{% lua_type_number %}} parm3, {{% lua_type_number %}} parm4, {{% lua_type_number %}} parm5, {{% lua_type_client %}} specific_target) -- {{% lua_type_nil %}}
+- [SendBeginCast](sendbegincast)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} cast_time) -- {{% lua_type_nil %}}
+- [SendIllusionPacket](sendillusionpacket)({{% lua_type_object %}} illusion) -- {{% lua_type_nil %}}
+- [SendSpellEffect](sendspelleffect)({{% lua_type_number %}} effect_id, {{% lua_type_number %}} duration, {{% lua_type_number %}} finish_delay, {{% lua_type_boolean %}} zone_wide, {{% lua_type_number %}} unk020, {{% lua_type_boolean %}} perm_effect) -- {{% lua_type_nil %}}
+- [SendTo](sendto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [SendToFixZ](sendtofixz)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [SetAA](setaa)({{% lua_type_number %}} rank_id, {{% lua_type_number %}} new_value, {{% lua_type_number %}} charges) -- {{% lua_type_boolean %}}
+- [SetAllowBeneficial](setallowbeneficial)({{% lua_type_boolean %}} value) -- {{% lua_type_nil %}}
+- [SetAppearance](setappearance)({{% lua_type_number %}} app, {{% lua_type_boolean %}} ignore_self) -- {{% lua_type_nil %}}
+- [SetBodyType](setbodytype)({{% lua_type_number %}} new_body, {{% lua_type_boolean %}} overwrite_orig) -- {{% lua_type_nil %}}
+- [SetCurrentWP](setcurrentwp)({{% lua_type_number %}} wp) -- {{% lua_type_nil %}}
+- [SetDestructibleObject](setdestructibleobject)({{% lua_type_boolean %}} set) -- {{% lua_type_nil %}}
+- [SetDisableMelee](setdisablemelee)({{% lua_type_boolean %}} disable) -- {{% lua_type_nil %}}
+- [SetEntityVariable](setentityvariable)({{% lua_type_string %}} name, {{% lua_type_string %}} value) -- {{% lua_type_nil %}}
+- [SetExtraHaste](setextrahaste)({{% lua_type_number %}} haste) -- {{% lua_type_nil %}}
+- [SetFlurryChance](setflurrychance)({{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [SetFlyMode](setflymode)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [SetGender](setgender)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [SetGlobal](setglobal)({{% lua_type_string %}} varname, {{% lua_type_string %}} newvalue, {{% lua_type_number %}} options, {{% lua_type_string %}} duration, {{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [SetHate](sethate)({{% lua_type_mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage) -- {{% lua_type_nil %}}
+- [SetHeading](setheading)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [SetHP](sethp)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
+- [SetInvisible](setinvisible)({{% lua_type_number %}} state) -- {{% lua_type_nil %}}
+- [SetInvul](setinvul)({{% lua_type_boolean %}} value) -- {{% lua_type_nil %}}
+- [SetLevel](setlevel)({{% lua_type_number %}} level, {{% lua_type_boolean %}} command) -- {{% lua_type_nil %}}
+- [SetMana](setmana)({{% lua_type_number %}} mana) -- {{% lua_type_number %}}
+- [SetOOCRegen](setoocregen)({{% lua_type_number %}} regen) -- {{% lua_type_nil %}}
+- [SetPetOrder](setpetorder)({{% lua_type_number %}} order) -- {{% lua_type_nil %}}
+- [SetPseudoRoot](setpseudoroot)({{% lua_type_boolean %}} in) -- {{% lua_type_nil %}}
+- [SetRace](setrace)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [SetRunning](setrunning)({{% lua_type_boolean %}} running) -- {{% lua_type_nil %}}
+- [SetSlotTint](setslottint)({{% lua_type_number %}} material_slot, {{% lua_type_number %}} red_tint, {{% lua_type_number %}} green_tint, {{% lua_type_number %}} blue_tint) -- {{% lua_type_nil %}}
+- [SetSpecialAbility](setspecialability)({{% lua_type_number %}} ability, {{% lua_type_number %}} level) -- {{% lua_type_nil %}}
+- [SetSpecialAbilityParam](setspecialabilityparam)({{% lua_type_number %}} ability, {{% lua_type_number %}} param, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [SetTarget](settarget)({{% lua_type_mob %}} t) -- {{% lua_type_nil %}}
+- [SetTargetable](settargetable)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
+- [SetTexture](settexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [Shout](shout)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
+- [Signal](signal)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
+- [SpellEffect](spelleffect)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} partial) -- {{% lua_type_nil %}}
+- [SpellFinished](spellfinished)({{% lua_type_number %}} spell_id, {{% lua_type_mob %}} target, {{% lua_type_number %}} slot, {{% lua_type_number %}} mana_used, {{% lua_type_number %}} inventory_slot, {{% lua_type_number %}} resist_adjust, {{% lua_type_boolean %}} proc) -- {{% lua_type_boolean %}}
+- [Spin](spin)() -- {{% lua_type_nil %}}
+- [StopNavigation](stopnavigation)() -- {{% lua_type_nil %}}
+- [Stun](stun)({{% lua_type_number %}} duration) -- {{% lua_type_nil %}}
+- [TarGlobal](targlobal)({{% lua_type_string %}} varname, {{% lua_type_string %}} value, {{% lua_type_string %}} duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
+- [TempName](tempname)({{% lua_type_string %}} newname) -- {{% lua_type_nil %}}
+- [ThrowingAttack](throwingattack)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [TryFinishingBlow](tryfinishingblow)({{% lua_type_mob %}} defender, {{% lua_type_number %}} damage) -- {{% lua_type_boolean %}}
+- [TryMoveAlong](trymovealong)({{% lua_type_number %}} distance, {{% lua_type_number %}} angle, {{% lua_type_boolean %}} send) -- {{% lua_type_nil %}}
+- [UnStun](unstun)() -- {{% lua_type_nil %}}
+- [WalkTo](walkto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [WearChange](wearchange)({{% lua_type_number %}} material_slot, {{% lua_type_number %}} texture, {{% lua_type_number %}} color) -- {{% lua_type_nil %}}
+- [WipeHateList](wipehatelist)() -- {{% lua_type_nil %}}

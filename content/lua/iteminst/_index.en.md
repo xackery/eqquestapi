@@ -1,7 +1,8 @@
 ---
 title: Iteminst
 menuTitle: Iteminst
-description: Lua Item Instance Method List
+description: Lua Item Instance Class
+searchTitle: Lua Item Instance Class
 weight: 25
 ---
 

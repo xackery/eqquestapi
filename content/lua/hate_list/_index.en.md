@@ -1,7 +1,8 @@
 ---
 title: Hate List
 menuTitle: Hate List
-description: Lua Hate List Properties
+description: Lua Hate List Class
+searchTitle: Lua Hate List Class
 hidden: true
 weight: 25
 ---
