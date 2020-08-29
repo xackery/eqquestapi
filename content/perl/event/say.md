@@ -1,6 +1,7 @@
 ---
 title: EVENT_SAY
 searchTitle: Perl Event Say
+description: Triggers when a player talks to an NPC while targetting them.
 weight: 1
 hidden: true
 menuTitle: EVENT_SAY
