@@ -42,6 +42,3 @@ sub EVENT_SAY {
     quest::say("you are part of instance # $instanceID");
 }
 ```
-
-{{% int_perl %}}
-{{% global_vars_perl %}}
