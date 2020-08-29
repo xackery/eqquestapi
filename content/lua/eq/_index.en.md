@@ -1,6 +1,6 @@
 ---
-title: EQ
-menuTitle: EQ
+title: EQ Namespace
+menuTitle: EQ Namespace
 description: Lua EQ Namespace
 weight: 25
 ---

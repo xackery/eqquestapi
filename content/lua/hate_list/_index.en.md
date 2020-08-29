@@ -1,11 +1,11 @@
 ---
-title: Hate List
-menuTitle: Hate List
+title: Hate List Class
+menuTitle: Hate List Class
 description: Lua Hate List Class
 searchTitle: Lua Hate List Class
 hidden: true
 weight: 25
 ---
 
-## Hate List Properties (Lua)
+## Hate List Properties
 - [entries](entries) -- collection of {{% lua_type_hate_entry %}}

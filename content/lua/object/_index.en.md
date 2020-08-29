@@ -1,6 +1,6 @@
 ---
-title: Object
-menuTitle: Object
+title: Object Class
+menuTitle: Object Class
 description: Lua Object Class
 searchTitle: Lua Object Class
 weight: 25

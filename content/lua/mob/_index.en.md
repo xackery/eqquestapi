@@ -1,6 +1,6 @@
 ---
-title: Mob
-menuTitle: Mob
+title: Mob Class
+menuTitle: Mob Class
 description: Lua Mob Class
 searchTitle: Lua Mob Class
 weight: 25

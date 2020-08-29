@@ -1,6 +1,6 @@
 ---
 date: 2020-08-24T16:50:16+02:00
-title: Event
+title: Event Functions
 menuTitle: Event Functions
 searchTitle: Event Functions
 weight: 25

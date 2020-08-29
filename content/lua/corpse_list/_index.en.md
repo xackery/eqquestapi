@@ -7,5 +7,5 @@ hidden: true
 weight: 25
 ---
 
-## Corpse List Properties (Lua)
+## Corpse List Properties
 - [entries](entries) -- collection of {{% lua_type_corpse %}}

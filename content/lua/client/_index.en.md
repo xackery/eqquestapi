@@ -1,6 +1,6 @@
 ---
-title: Client
-menuTitle: Client
+title: Client Class
+menuTitle: Client Class
 description: Lua Client Class
 searchTitle: Lua Client Class
 weight: 25

@@ -1,6 +1,6 @@
 ---
-title: Entity List
-menuTitle: Entity List
+title: Entity List Class
+menuTitle: Entity List Class
 description: Lua Entity List Class
 searchTitle: Lua Entity List Class
 hidden: true

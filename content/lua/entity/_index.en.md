@@ -1,6 +1,6 @@
 ---
-title: Entity
-menuTitle: Entity
+title: Entity Class
+menuTitle: Entity Class
 description: Lua Entity Class
 searchTitle: Lua Entity Class
 weight: 25
