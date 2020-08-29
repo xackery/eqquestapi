@@ -1,65 +1,66 @@
 ---
-title: Entity_list
-menuTitle: Entity_list
+title: Entity List
+menuTitle: Entity List
+description: Lua Entity List Method List
 weight: 25
 ---
 
-## Entity_list Methods (Lua)
-- EntityList:[GetMobID](getmobid)(number id); -- unknown - Lua_Mob
-- EntityList:[GetMobByNpcTypeID](getmobbynpctypeid)(number npc_type); -- unknown - Lua_Mob
-- EntityList:[IsMobSpawnedByNpcTypeID](ismobspawnedbynpctypeid)(number npc_type); -- bool
-- EntityList:[GetNPCByID](getnpcbyid)(number id); -- unknown - Lua_NPC
-- EntityList:[GetNPCByNPCTypeID](getnpcbynpctypeid)(number npc_type); -- unknown - Lua_NPC
-- EntityList:[GetNPCBySpawnID](getnpcbyspawnid)(number spawn_id); -- unknown - Lua_NPC
-- EntityList:[GetClientByName](getclientbyname)(const char *name); -- unknown - Lua_Client
-- EntityList:[GetClientByAccID](getclientbyaccid)(number acct_id); -- unknown - Lua_Client
-- EntityList:[GetClientByID](getclientbyid)(number id); -- unknown - Lua_Client
-- EntityList:[GetClientByCharID](getclientbycharid)(number char_id); -- unknown - Lua_Client
-- EntityList:[GetClientByWID](getclientbywid)(number wid); -- unknown - Lua_Client
-- EntityList:[GetObjectByID](getobjectbyid)(number id); -- unknown - Lua_Object
-- EntityList:[GetObjectByDBID](getobjectbydbid)(number db_id); -- unknown - Lua_Object
-- EntityList:[GetDoorsByID](getdoorsbyid)(number id); -- unknown - Lua_Door
-- EntityList:[GetDoorsByDBID](getdoorsbydbid)(number db_id); -- unknown - Lua_Door
-- EntityList:[GetDoorsByDoorID](getdoorsbydoorid)(number door_id); -- unknown - Lua_Door
-- EntityList:[FindDoor](finddoor)(number id); -- unknown - Lua_Door
-- EntityList:[GetGroupByMob](getgroupbymob)(Lua_Mob mob); -- unknown - Lua_Group
-- EntityList:[GetGroupByClient](getgroupbyclient)(Lua_Client client); -- unknown - Lua_Group
-- EntityList:[GetGroupByID](getgroupbyid)(number id); -- unknown - Lua_Group
-- EntityList:[GetGroupByLeaderName](getgroupbyleadername)(const char *name); -- unknown - Lua_Group
-- EntityList:[GetRaidByID](getraidbyid)(number id); -- unknown - Lua_Raid
-- EntityList:[GetRaidByClient](getraidbyclient)(Lua_Client client); -- unknown - Lua_Raid
-- EntityList:[GetCorpseByOwner](getcorpsebyowner)(Lua_Client client); -- unknown - Lua_Corpse
-- EntityList:[GetCorpseByID](getcorpsebyid)(number id); -- unknown - Lua_Corpse
-- EntityList:[GetCorpseByName](getcorpsebyname)(const char *name); -- unknown - Lua_Corpse
-- EntityList:[GetSpawnByID](getspawnbyid)(number id); -- unknown - Lua_Spawn
-- EntityList:[ClearClientPetitionQueue](clearclientpetitionqueue)(); -- void
-- EntityList:[CanAddHateForMob](canaddhateformob)(Lua_Mob p); -- bool
-- EntityList:[Message](message)(number guild_dbid, number type, const char *message); -- void
-- EntityList:[MessageStatus](messagestatus)(number guild_dbid, number min_status, number type, const char *message); -- void
-- EntityList:[MessageClose](messageclose)(Lua_Mob sender, bool skip_sender, float dist, number type, const char *message); -- void
-- EntityList:[FilteredMessageClose](filteredmessageclose)(Lua_Mob sender, bool skip_sender, float dist, number type, number filter, const char *message); -- void
-- EntityList:[RemoveFromTargets](removefromtargets)(Lua_Mob mob, bool RemoveFromXTargets); -- void
-- EntityList:[ReplaceWithTarget](replacewithtarget)(Lua_Mob target, Lua_Mob new_target); -- void
-- EntityList:[OpenDoorsNear](opendoorsnear)(Lua_Mob opener); -- void
-- EntityList:[MakeNameUnique](makenameunique)(const char *name); -- string
-- EntityList:[RemoveNumbers](removenumbers)(const char *name); -- string
-- EntityList:[SignalMobsByNPCID](signalmobsbynpcid)(number npc_id, number signal); -- void
-- EntityList:[DeleteNPCCorpses](deletenpccorpses)(); -- number
-- EntityList:[DeletePlayerCorpses](deleteplayercorpses)(); -- number
-- EntityList:[HalveAggro](halveaggro)(Lua_Mob who); -- void
-- EntityList:[DoubleAggro](doubleaggro)(Lua_Mob who); -- void
-- EntityList:[ClearFeignAggro](clearfeignaggro)(Lua_Mob who); -- void
-- EntityList:[Fighting](fighting)(Lua_Mob who); -- bool
-- EntityList:[RemoveFromHateLists](removefromhatelists)(Lua_Mob who, bool set_to_one); -- void
-- EntityList:[MessageGroup](messagegroup)(Lua_Mob who, bool skip_close, number type, const char *message); -- void
-- EntityList:[GetRandomClient](getrandomclient)(float x, float y, float z, float dist, Lua_Client exclude); -- unknown - Lua_Client
-- EntityList:[GetMobList](getmoblist)(); -- unknown - Lua_Mob_List
-- EntityList:[GetClientList](getclientlist)(); -- unknown - Lua_Client_List
-- EntityList:[GetShuffledClientList](getshuffledclientlist)(); -- unknown - Lua_Client_List
-- EntityList:[GetNPCList](getnpclist)(); -- unknown - Lua_NPC_List
-- EntityList:[GetCorpseList](getcorpselist)(); -- unknown - Lua_Corpse_List
-- EntityList:[GetObjectList](getobjectlist)(); -- unknown - Lua_Object_List
-- EntityList:[GetDoorsList](getdoorslist)(); -- unknown - Lua_Doors_List
-- EntityList:[GetSpawnList](getspawnlist)(); -- unknown - Lua_Spawn_List
-- EntityList:[SignalAllClients](signalallclients)(number signal); -- void
-- EntityList:[ChannelMessage](channelmessage)(Lua_Mob from, number channel_num, number language, const char *message); -- void
+## Entity List Methods (Lua)
+- [CanAddHateForMob](canaddhateformob)({{% lua_type_mob %}} p) -- {{% lua_type_boolean %}}
+- [ChannelMessage](channelmessage)({{% lua_type_mob %}} from, {{% lua_type_number %}} channel_num, {{% lua_type_number %}} language, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [ClearClientPetitionQueue](clearclientpetitionqueue)() -- {{% lua_type_nil %}}
+- [ClearFeignAggro](clearfeignaggro)({{% lua_type_mob %}} who) -- {{% lua_type_nil %}}
+- [DeleteNPCCorpses](deletenpccorpses)() -- {{% lua_type_number %}}
+- [DeletePlayerCorpses](deleteplayercorpses)() -- {{% lua_type_number %}}
+- [DoubleAggro](doubleaggro)({{% lua_type_mob %}} who) -- {{% lua_type_nil %}}
+- [Fighting](fighting)({{% lua_type_mob %}} who) -- {{% lua_type_boolean %}}
+- [FilteredMessageClose](filteredmessageclose)({{% lua_type_mob %}} sender, {{% lua_type_boolean %}} skip_sender, {{% lua_type_number %}} dist, {{% lua_type_number %}} type, {{% lua_type_number %}} filter, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [FindDoor](finddoor)({{% lua_type_number %}} id) -- {{% lua_type_door %}}
+- [GetClientByAccID](getclientbyaccid)({{% lua_type_number %}} acct_id) -- {{% lua_type_client %}}
+- [GetClientByCharID](getclientbycharid)({{% lua_type_number %}} char_id) -- {{% lua_type_client %}}
+- [GetClientByID](getclientbyid)({{% lua_type_number %}} id) -- {{% lua_type_client %}}
+- [GetClientByName](getclientbyname)({{% lua_type_string %}} name) -- {{% lua_type_client %}}
+- [GetClientByWID](getclientbywid)({{% lua_type_number %}} wid) -- {{% lua_type_client %}}
+- [GetClientList](getclientlist)() -- {{% lua_type_client_list %}}
+- [GetCorpseByID](getcorpsebyid)({{% lua_type_number %}} id) -- {{% lua_type_corpse %}}
+- [GetCorpseByName](getcorpsebyname)({{% lua_type_string %}} name) -- {{% lua_type_corpse %}}
+- [GetCorpseByOwner](getcorpsebyowner)({{% lua_type_client %}} client) -- {{% lua_type_corpse %}}
+- [GetCorpseList](getcorpselist)() -- {{% lua_type_corpse_list %}}
+- [GetDoorsByDBID](getdoorsbydbid)({{% lua_type_number %}} db_id) -- {{% lua_type_door %}}
+- [GetDoorsByDoorID](getdoorsbydoorid)({{% lua_type_number %}} door_id) -- {{% lua_type_door %}}
+- [GetDoorsByID](getdoorsbyid)({{% lua_type_number %}} id) -- {{% lua_type_door %}}
+- [GetDoorsList](getdoorslist)() -- {{% lua_type_door %}}s_List
+- [GetGroupByClient](getgroupbyclient)({{% lua_type_client %}} client) -- {{% lua_type_group %}}
+- [GetGroupByID](getgroupbyid)({{% lua_type_number %}} id) -- {{% lua_type_group %}}
+- [GetGroupByLeaderName](getgroupbyleadername)({{% lua_type_string %}} name) -- {{% lua_type_group %}}
+- [GetGroupByMob](getgroupbymob)({{% lua_type_mob %}} mob) -- {{% lua_type_group %}}
+- [GetMobByNpcTypeID](getmobbynpctypeid)({{% lua_type_number %}} npc_type) -- {{% lua_type_mob %}}
+- [GetMobID](getmobid)({{% lua_type_number %}} id) -- {{% lua_type_mob %}}
+- [GetMobList](getmoblist)() -- {{% lua_type_mob_list %}}
+- [GetNPCByID](getnpcbyid)({{% lua_type_number %}} id) -- {{% lua_type_npc %}}
+- [GetNPCByNPCTypeID](getnpcbynpctypeid)({{% lua_type_number %}} npc_type) -- {{% lua_type_npc %}}
+- [GetNPCBySpawnID](getnpcbyspawnid)({{% lua_type_number %}} spawn_id) -- {{% lua_type_npc %}}
+- [GetNPCList](getnpclist)() -- {{% lua_type_npc_list %}}
+- [GetObjectByDBID](getobjectbydbid)({{% lua_type_number %}} db_id) -- {{% lua_type_object %}}
+- [GetObjectByID](getobjectbyid)({{% lua_type_number %}} id) -- {{% lua_type_object %}}
+- [GetObjectList](getobjectlist)() -- {{% lua_type_object_list %}}
+- [GetRaidByClient](getraidbyclient)({{% lua_type_client %}} client) -- {{% lua_type_raid %}}
+- [GetRaidByID](getraidbyid)({{% lua_type_number %}} id) -- {{% lua_type_raid %}}
+- [GetRandomClient](getrandomclient)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} dist, {{% lua_type_client %}} exclude) -- {{% lua_type_client %}}
+- [GetShuffledClientList](getshuffledclientlist)() -- {{% lua_type_client_list %}}
+- [GetSpawnByID](getspawnbyid)({{% lua_type_number %}} id) -- {{% lua_type_spawn %}}
+- [GetSpawnList](getspawnlist)() -- {{% lua_type_spawn_list %}}
+- [HalveAggro](halveaggro)({{% lua_type_mob %}} who) -- {{% lua_type_nil %}}
+- [IsMobSpawnedByNpcTypeID](ismobspawnedbynpctypeid)({{% lua_type_number %}} npc_type) -- {{% lua_type_boolean %}}
+- [MakeNameUnique](makenameunique)({{% lua_type_string %}} name) -- {{% lua_type_string %}}
+- [Message](message)({{% lua_type_number %}} guild_dbid, {{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [MessageClose](messageclose)({{% lua_type_mob %}} sender, {{% lua_type_boolean %}} skip_sender, {{% lua_type_number %}} dist, {{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [MessageGroup](messagegroup)({{% lua_type_mob %}} who, {{% lua_type_boolean %}} skip_close, {{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [MessageStatus](messagestatus)({{% lua_type_number %}} guild_dbid, {{% lua_type_number %}} min_status, {{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [OpenDoorsNear](opendoorsnear)({{% lua_type_mob %}} opener) -- {{% lua_type_nil %}}
+- [RemoveFromHateLists](removefromhatelists)({{% lua_type_mob %}} who, {{% lua_type_boolean %}} set_to_one) -- {{% lua_type_nil %}}
+- [RemoveFromTargets](removefromtargets)({{% lua_type_mob %}} mob, {{% lua_type_boolean %}} RemoveFromXTargets) -- {{% lua_type_nil %}}
+- [RemoveNumbers](removenumbers)({{% lua_type_string %}} name) -- {{% lua_type_string %}}
+- [ReplaceWithTarget](replacewithtarget)({{% lua_type_mob %}} target, {{% lua_type_mob %}} new_target) -- {{% lua_type_nil %}}
+- [SignalAllClients](signalallclients)({{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [SignalMobsByNPCID](signalmobsbynpcid)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}

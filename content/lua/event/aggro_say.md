@@ -32,6 +32,6 @@ end
 
 These variables are available with event_aggro_say
 - {{% lua_type_client %}} **e.other**: player that triggered the event
-- {{% lua_type_mob %}} **e.self**: mob the message was said to
+- {{% lua_type_mob %}} **e.self**: mob emitting the event
 - {{% lua_type_string %}} **e.message**: player message that triggered the event
 - {{% lua_type_number %}} **e.language**: language id the message was in

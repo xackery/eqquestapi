@@ -1,292 +1,293 @@
 ---
-title: Eq
-menuTitle: Eq
+title: EQ
+menuTitle: EQ
+description: Lua EQ Method List
 weight: 25
 ---
 
-## Eq Methods (Lua)
-- eq.[set_timer](set_timer)(const char *timer, number time_ms) -- void
-- eq.[stop_timer](stop_timer)(const char *timer) -- void
-- eq.[stop_all_timers](stop_all_timers)() -- void
-- eq.[pause_timer](pause_timer)(const char *timer) -- void
-- eq.[resume_timer](resume_timer)(const char *timer) -- void
-- eq.[is_paused_timer](is_paused_timer)(const char *timer) -- bool
-- eq.[depop](depop)() -- void
-- eq.[depop_with_timer](depop_with_timer)() -- void
-- eq.[depop_all](depop_all)() -- void
-- eq.[depop_zone](depop_zone)(bool start_spawn_status) -- void
-- eq.[repop_zone](repop_zone)() -- void
-- eq.[process_mobs_while_zone_empty](process_mobs_while_zone_empty)(bool on) -- void
-- eq.[is_disc_tome](is_disc_tome)(number item_id) -- bool
-- eq.[get_race_name](get_race_name)(number race_id) -- string
-- eq.[get_spell_name](get_spell_name)(number spell_id) -- string
-- eq.[get_skill_name](get_skill_name)(number skill_id) -- string
-- eq.[safe_move](safe_move)() -- void
-- eq.[rain](rain)(number weather) -- void
-- eq.[snow](snow)(number weather) -- void
-- eq.[scribe_spells](scribe_spells)(number max) -- int
-- eq.[train_discs](train_discs)(number max) -- int
-- eq.[set_sky](set_sky)(number sky) -- void
-- eq.[set_guild](set_guild)(number guild_id, number rank) -- void
-- eq.[create_guild](create_guild)(const char *name, const char *leader) -- void
-- eq.[signal](signal)(number npc_id, number signal_id) -- void
-- eq.[set_global](set_global)(const char *name, const char *value, number options, const char *duration) -- void
-- eq.[target_global](target_global)(const char *name, const char *value, const char *duration, number npc_id, number char_id, number zone_id) -- void
-- eq.[delete_global](delete_global)(const char *name) -- void
-- eq.[move_to](move_to)(float x, float y, float z) -- void
-- eq.[path_resume](path_resume)() -- void
-- eq.[set_next_hp_event](set_next_hp_event)(number hp) -- void
-- eq.[set_next_inc_hp_event](set_next_inc_hp_event)(number hp) -- void
-- eq.[respawn](respawn)(number npc_type, number grid) -- void
-- eq.[set_proximity](set_proximity)(float min_x, float max_x, float min_y, float max_y) -- void
-- eq.[clear_proximity](clear_proximity)() -- void
-- eq.[enable_proximity_say](enable_proximity_say)() -- void
-- eq.[disable_proximity_say](disable_proximity_say)() -- void
-- eq.[set_anim](set_anim)(number npc_type, number anim_num) -- void
-- eq.[spawn_condition](spawn_condition)(const char *zone, number instance_id, number condition_id, number value) -- void
-- eq.[get_spawn_condition](get_spawn_condition)(const char *zone, number instance_id, number condition_id) -- int
-- eq.[toggle_spawn_event](toggle_spawn_event)(number event_id, bool enable, bool strict, bool reset) -- void
-- eq.[summon_buried_player_corpse](summon_buried_player_corpse)(number char_id, float x, float y, float z, float h) -- void
-- eq.[summon_all_player_corpses](summon_all_player_corpses)(number char_id, float x, float y, float z, float h) -- void
-- eq.[get_player_corpse_count](get_player_corpse_count)(number char_id) -- int
-- eq.[get_player_corpse_count_by_zone_id](get_player_corpse_count_by_zone_id)(number char_id, number zone_id) -- int
-- eq.[get_player_buried_corpse_count](get_player_buried_corpse_count)(number char_id) -- int
-- eq.[bury_player_corpse](bury_player_corpse)(number char_id) -- bool
-- eq.[task_set_selector](task_set_selector)(number task_set) -- void
-- eq.[is_task_enabled](is_task_enabled)(number task) -- bool
-- eq.[is_task_active](is_task_active)(number task) -- bool
-- eq.[is_task_activity_active](is_task_activity_active)(number task, number activity) -- bool
-- eq.[get_task_activity_done_count](get_task_activity_done_count)(number task, number activity) -- int
-- eq.[update_task_activity](update_task_activity)(number task, number activity, number count) -- void
-- eq.[reset_task_activity](reset_task_activity)(number task, number activity) -- void
-- eq.[task_explored_area](task_explored_area)(number explore_id) -- void
-- eq.[assign_task](assign_task)(number task_id) -- void
-- eq.[fail_task](fail_task)(number task_id) -- void
-- eq.[task_time_left](task_time_left)(number task_id) -- int
-- eq.[is_task_completed](is_task_completed)(number task_id) -- int
-- eq.[enabled_task_count](enabled_task_count)(number task_set) -- int
-- eq.[first_task_in_set](first_task_in_set)(number task_set) -- int
-- eq.[last_task_in_set](last_task_in_set)(number task_set) -- int
-- eq.[next_task_in_set](next_task_in_set)(number task_set, number task_id) -- int
-- eq.[active_speak_task](active_speak_task)() -- int
-- eq.[active_speak_activity](active_speak_activity)(number task_id) -- int
-- eq.[active_tasks_in_set](active_tasks_in_set)(number task_set) -- int
-- eq.[completed_tasks_in_set](completed_tasks_in_set)(number task_set) -- int
-- eq.[is_task_appropriate](is_task_appropriate)(number task) -- bool
-- eq.[get_task_name](get_task_name)(number task_id) -- string
-- eq.[popup](popup)(const char *title, const char *text, number id, number buttons, number duration) -- void
-- eq.[clear_spawn_timers](clear_spawn_timers)() -- void
-- eq.[zone_emote](zone_emote)(number type, const char *str) -- void
-- eq.[world_emote](world_emote)(number type, const char *str) -- void
-- eq.[get_level](get_level)(number type) -- int
-- eq.[create_ground_object](create_ground_object)(number item_id, float x, float y, float z, float h) -- void
-- eq.[create_ground_object_from_model](create_ground_object_from_model)(const char *model, float x, float y, float z, float h) -- void
-- eq.[create_door](create_door)(const char *model, float x, float y, float z, float h, number open_type, number size) -- void
-- eq.[modify_npc_stat](modify_npc_stat)(const char *id, const char *value) -- void
-- eq.[collect_items](collect_items)(number item_id, bool remove) -- int
-- eq.[count_item](count_item)(number item_id) -- int
-- eq.[update_spawn_timer](update_spawn_timer)(number id, number new_time) -- void
-- eq.[merchant_set_item](merchant_set_item)(number npc_id, number item_id) -- void
-- eq.[merchant_count_item](merchant_count_item)(number npc_id, number item_id) -- int
-- eq.[item_link](item_link)(number item_id) -- string
-- eq.[get_item_name](get_item_name)(number item_id) -- string
-- eq.[say_link](say_link)(const char *phrase, bool silent, const char *link_name) -- string
-- eq.[get_char_id_by_name](get_char_id_by_name)(const char* name) -- uint32
-- eq.[get_class_name](get_class_name)(uint8 class_id) -- string
-- eq.[get_currency_id](get_currency_id)(number item_id) -- int
-- eq.[get_currency_item_id](get_currency_item_id)(number currency_id) -- int
-- eq.[get_guild_id_by_char_id](get_guild_id_by_char_id)(number char_id) -- int
-- eq.[get_group_id_by_char_id](get_group_id_by_char_id)(number char_id) -- int
-- eq.[get_raid_id_by_char_id](get_raid_id_by_char_id)(number char_id) -- int
-- eq.[create_instance](create_instance)(const char *zone, number version, number duration) -- uint32
-- eq.[destroy_instance](destroy_instance)(number instance_id) -- void
-- eq.[update_instance_timer](update_instance_timer)(uint16 instance_id, number new_duration) -- void
-- eq.[get_instance_timer](get_instance_timer)() -- uint32
-- eq.[get_instance_timer_by_id](get_instance_timer_by_id)(uint16 instance_id) -- uint32
-- eq.[get_instance_id](get_instance_id)(const char *zone, number version) -- int
-- eq.[get_instance_id_by_char_id](get_instance_id_by_char_id)(const char *zone, number version, number char_id) -- int
-- eq.[assign_to_instance](assign_to_instance)(number instance_id) -- void
-- eq.[assign_to_instance_by_char_id](assign_to_instance_by_char_id)(number instance_id, number char_id) -- void
-- eq.[assign_group_to_instance](assign_group_to_instance)(number instance_id) -- void
-- eq.[assign_raid_to_instance](assign_raid_to_instance)(number instance_id) -- void
-- eq.[remove_from_instance](remove_from_instance)(number instance_id) -- void
-- eq.[remove_from_instance_by_char_id](remove_from_instance_by_char_id)(number instance_id, number char_id) -- void
-- eq.[check_instance_by_char_id](check_instance_by_char_id)(number instance_id, number char_id) -- bool
-- eq.[remove_all_from_instance](remove_all_from_instance)(number instance_id) -- void
-- eq.[flag_instance_by_group_leader](flag_instance_by_group_leader)(number zone, number version) -- void
-- eq.[flag_instance_by_raid_leader](flag_instance_by_raid_leader)(number zone, number version) -- void
-- eq.[fly_mode](fly_mode)(number flymode) -- void
-- eq.[faction_value](faction_value)() -- int
-- eq.[check_title](check_title)(number title_set) -- void
-- eq.[enable_title](enable_title)(number title_set) -- void
-- eq.[remove_title](remove_title)(number title_set) -- void
-- eq.[wear_change](wear_change)(number slot, number texture) -- void
-- eq.[voice_tell](voice_tell)(const char *str, number macro_num, number race_num, number gender_num) -- void
-- eq.[send_mail](send_mail)(const char *to, const char *from, const char *subject, const char *message) -- void
-- eq.[cross_zone_assign_task_by_char_id](cross_zone_assign_task_by_char_id)(number character_id, number task_id) -- void
-- eq.[cross_zone_assign_task_by_group_id](cross_zone_assign_task_by_group_id)(number group_id, number task_id) -- void
-- eq.[cross_zone_assign_task_by_raid_id](cross_zone_assign_task_by_raid_id)(number raid_id, number task_id) -- void
-- eq.[cross_zone_assign_task_by_guild_id](cross_zone_assign_task_by_guild_id)(number guild_id, number task_id) -- void
-- eq.[cross_zone_cast_spell_by_char_id](cross_zone_cast_spell_by_char_id)(number character_id, number spell_id) -- void
-- eq.[cross_zone_cast_spell_by_group_id](cross_zone_cast_spell_by_group_id)(number group_id, number spell_id) -- void
-- eq.[cross_zone_cast_spell_by_raid_id](cross_zone_cast_spell_by_raid_id)(number raid_id, number spell_id) -- void
-- eq.[cross_zone_cast_spell_by_guild_id](cross_zone_cast_spell_by_guild_id)(number guild_id, number spell_id) -- void
-- eq.[cross_zone_disable_task_by_char_id](cross_zone_disable_task_by_char_id)(number character_id, number task_id) -- void
-- eq.[cross_zone_disable_task_by_group_id](cross_zone_disable_task_by_group_id)(number group_id, number task_id) -- void
-- eq.[cross_zone_disable_task_by_raid_id](cross_zone_disable_task_by_raid_id)(number raid_id, number task_id) -- void
-- eq.[cross_zone_disable_task_by_guild_id](cross_zone_disable_task_by_guild_id)(number guild_id, number task_id) -- void
-- eq.[cross_zone_enable_task_by_char_id](cross_zone_enable_task_by_char_id)(number character_id, number task_id) -- void
-- eq.[cross_zone_enable_task_by_group_id](cross_zone_enable_task_by_group_id)(number group_id, number task_id) -- void
-- eq.[cross_zone_enable_task_by_raid_id](cross_zone_enable_task_by_raid_id)(number raid_id, number task_id) -- void
-- eq.[cross_zone_enable_task_by_guild_id](cross_zone_enable_task_by_guild_id)(number guild_id, number task_id) -- void
-- eq.[cross_zone_fail_task_by_char_id](cross_zone_fail_task_by_char_id)(number character_id, number task_id) -- void
-- eq.[cross_zone_fail_task_by_group_id](cross_zone_fail_task_by_group_id)(number group_id, number task_id) -- void
-- eq.[cross_zone_fail_task_by_raid_id](cross_zone_fail_task_by_raid_id)(number raid_id, number task_id) -- void
-- eq.[cross_zone_fail_task_by_guild_id](cross_zone_fail_task_by_guild_id)(number guild_id, number task_id) -- void
-- eq.[cross_zone_marquee_by_char_id](cross_zone_marquee_by_char_id)(number character_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_group_id](cross_zone_marquee_by_group_id)(number group_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_raid_id](cross_zone_marquee_by_raid_id)(number raid_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
-- eq.[cross_zone_marquee_by_guild_id](cross_zone_marquee_by_guild_id)(number guild_id, number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
-- eq.[cross_zone_message_player_by_name](cross_zone_message_player_by_name)(number type, const char *character_name, const char *message) -- void
-- eq.[cross_zone_message_player_by_group_id](cross_zone_message_player_by_group_id)(number type, number group_id, const char *message) -- void
-- eq.[cross_zone_message_player_by_raid_id](cross_zone_message_player_by_raid_id)(number type, number raid_id, const char *message) -- void
-- eq.[cross_zone_message_player_by_guild_id](cross_zone_message_player_by_guild_id)(number type, number guild_id, const char *message) -- void
-- eq.[cross_zone_move_player_by_char_id](cross_zone_move_player_by_char_id)(number character_id, const char *zone_short_name) -- void
-- eq.[cross_zone_move_player_by_group_id](cross_zone_move_player_by_group_id)(number group_id, const char *zone_short_name) -- void
-- eq.[cross_zone_move_player_by_raid_id](cross_zone_move_player_by_raid_id)(number raid_id, const char *zone_short_name) -- void
-- eq.[cross_zone_move_player_by_guild_id](cross_zone_move_player_by_guild_id)(number guild_id, const char *zone_short_name) -- void
-- eq.[cross_zone_move_instance_by_char_id](cross_zone_move_instance_by_char_id)(number character_id, uint16 instance_id) -- void
-- eq.[cross_zone_move_instance_by_group_id](cross_zone_move_instance_by_group_id)(number group_id, uint16 instance_id) -- void
-- eq.[cross_zone_move_instance_by_raid_id](cross_zone_move_instance_by_raid_id)(number raid_id, uint16 instance_id) -- void
-- eq.[cross_zone_move_instance_by_guild_id](cross_zone_move_instance_by_guild_id)(number guild_id, uint16 instance_id) -- void
-- eq.[cross_zone_remove_spell_by_char_id](cross_zone_remove_spell_by_char_id)(number character_id, number spell_id) -- void
-- eq.[cross_zone_remove_spell_by_group_id](cross_zone_remove_spell_by_group_id)(number group_id, number spell_id) -- void
-- eq.[cross_zone_remove_spell_by_raid_id](cross_zone_remove_spell_by_raid_id)(number raid_id, number spell_id) -- void
-- eq.[cross_zone_remove_spell_by_guild_id](cross_zone_remove_spell_by_guild_id)(number guild_id, number spell_id) -- void
-- eq.[cross_zone_remove_task_by_char_id](cross_zone_remove_task_by_char_id)(number character_id, number task_id) -- void
-- eq.[cross_zone_remove_task_by_group_id](cross_zone_remove_task_by_group_id)(number group_id, number task_id) -- void
-- eq.[cross_zone_remove_task_by_raid_id](cross_zone_remove_task_by_raid_id)(number raid_id, number task_id) -- void
-- eq.[cross_zone_remove_task_by_guild_id](cross_zone_remove_task_by_guild_id)(number guild_id, number task_id) -- void
-- eq.[cross_zone_reset_activity_by_char_id](cross_zone_reset_activity_by_char_id)(number character_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_group_id](cross_zone_reset_activity_by_group_id)(number group_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_raid_id](cross_zone_reset_activity_by_raid_id)(number raid_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_reset_activity_by_guild_id](cross_zone_reset_activity_by_guild_id)(number guild_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_set_entity_variable_by_client_name](cross_zone_set_entity_variable_by_client_name)(const char *character_name, const char *variable_name, const char *variable_value) -- void
-- eq.[cross_zone_set_entity_variable_by_group_id](cross_zone_set_entity_variable_by_group_id)(number group_id, const char *variable_name, const char *variable_value) -- void
-- eq.[cross_zone_set_entity_variable_by_raid_id](cross_zone_set_entity_variable_by_raid_id)(number raid_id, const char *variable_name, const char *variable_value) -- void
-- eq.[cross_zone_set_entity_variable_by_guild_id](cross_zone_set_entity_variable_by_guild_id)(number guild_id, const char *variable_name, const char *variable_value) -- void
-- eq.[cross_zone_signal_client_by_char_id](cross_zone_signal_client_by_char_id)(number character_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_group_id](cross_zone_signal_client_by_group_id)(number group_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_raid_id](cross_zone_signal_client_by_raid_id)(number raid_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_guild_id](cross_zone_signal_client_by_guild_id)(number guild_id, number signal) -- void
-- eq.[cross_zone_signal_client_by_name](cross_zone_signal_client_by_name)(const char *character_name, number signal) -- void
-- eq.[cross_zone_signal_npc_by_npctype_id](cross_zone_signal_npc_by_npctype_id)(number npctype_id, number signal) -- void
-- eq.[cross_zone_update_activity_by_char_id](cross_zone_update_activity_by_char_id)(number character_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_group_id](cross_zone_update_activity_by_group_id)(number group_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_raid_id](cross_zone_update_activity_by_raid_id)(number raid_id, number task_id, number activity_id) -- void
-- eq.[cross_zone_update_activity_by_guild_id](cross_zone_update_activity_by_guild_id)(number guild_id, number task_id, number activity_id) -- void
-- eq.[world_wide_assign_task](world_wide_assign_task)(number task_id) -- void
-- eq.[world_wide_cast_spell](world_wide_cast_spell)(number spell_id) -- void
-- eq.[world_wide_disable_task](world_wide_disable_task)(number task_id) -- void
-- eq.[world_wide_enable_task](world_wide_enable_task)(number task_id) -- void
-- eq.[world_wide_fail_task](world_wide_fail_task)(number task_id) -- void
-- eq.[world_wide_marquee](world_wide_marquee)(number type, number priority, number fade_in, number fade_out, number duration, const char *message) -- void
-- eq.[world_wide_message](world_wide_message)(number type, const char *message) -- void
-- eq.[world_wide_move](world_wide_move)(const char *zone_short_name) -- void
-- eq.[world_wide_move_instance](world_wide_move_instance)(uint16 instance_id) -- void
-- eq.[world_wide_remove_spell](world_wide_remove_spell)(number spell_id) -- void
-- eq.[world_wide_remove_task](world_wide_remove_task)(number task_id) -- void
-- eq.[world_wide_reset_activity](world_wide_reset_activity)(number task_id, number activity_id) -- void
-- eq.[world_wide_set_entity_variable_client](world_wide_set_entity_variable_client)(const char *variable_name, const char *variable_value) -- void
-- eq.[world_wide_set_entity_variable_npc](world_wide_set_entity_variable_npc)(const char *variable_name, const char *variable_value) -- void
-- eq.[world_wide_signal_client](world_wide_signal_client)(number signal) -- void
-- eq.[world_wide_signal_npc](world_wide_signal_npc)(number signal) -- void
-- eq.[world_wide_update_activity](world_wide_update_activity)(number task_id, number activity_id) -- void
-- eq.[get_qglobals](get_qglobals)(lua_State *L, Lua_NPC npc, Lua_Client client) -- object
-- eq.[get_entity_list](get_entity_list)() -- Lua_EntityList
-- eq.[zone_group](zone_group)(const char* zone_name) -- void
-- eq.[zone_raid](zone_raid)(const char* zone_name) -- void
-- eq.[get_zone_id](get_zone_id)() -- int
-- eq.[get_zone_instance_id](get_zone_instance_id)() -- int
-- eq.[get_zone_instance_version](get_zone_instance_version)() -- int
-- eq.[get_characters_in_instance](get_characters_in_instance)(lua_State *L, uint16 instance_id) -- object
-- eq.[get_zone_weather](get_zone_weather)() -- int
-- eq.[get_zone_time](get_zone_time)(lua_State *L) -- object
-- eq.[add_area](add_area)(number id, number type, float min_x, float max_x, float min_y, float max_y, float min_z, float max_z) -- void
-- eq.[remove_area](remove_area)(number id) -- void
-- eq.[clear_areas](clear_areas)() -- void
-- eq.[remove_spawn_point](remove_spawn_point)(number spawn2_id) -- void
-- eq.[attack](attack)(const char *client_name) -- void
-- eq.[attack_npc](attack_npc)(number entity_id) -- void
-- eq.[attack_npc_type](attack_npc_type)(number npc_type) -- void
-- eq.[follow](follow)(number entity_id) -- void
-- eq.[stop_follow](stop_follow)() -- void
-- eq.[get_initiator](get_initiator)() -- Lua_Client
-- eq.[get_owner](get_owner)() -- Lua_Mob
-- eq.[get_quest_item](get_quest_item)() -- Lua_ItemInst
-- eq.[get_encounter](get_encounter)() -- string
-- eq.[map_opcodes](map_opcodes)() -- void
-- eq.[clear_opcode](clear_opcode)(number op) -- void
-- eq.[enable_recipe](enable_recipe)(number recipe_id) -- bool
-- eq.[disable_recipe](disable_recipe)(number recipe_id) -- bool
-- eq.[clear_npctype_cache](clear_npctype_cache)(number npctype_id) -- void
-- eq.[reloadzonestaticdata](reloadzonestaticdata)() -- void
-- eq.[clock](clock)() -- double
-- eq.[is_classic_enabled](is_classic_enabled)() -- bool
-- eq.[is_the_ruins_of_kunark_enabled](is_the_ruins_of_kunark_enabled)() -- bool
-- eq.[is_the_scars_of_velious_enabled](is_the_scars_of_velious_enabled)() -- bool
-- eq.[is_the_shadows_of_luclin_enabled](is_the_shadows_of_luclin_enabled)() -- bool
-- eq.[is_the_planes_of_power_enabled](is_the_planes_of_power_enabled)() -- bool
-- eq.[is_the_legacy_of_ykesha_enabled](is_the_legacy_of_ykesha_enabled)() -- bool
-- eq.[is_lost_dungeons_of_norrath_enabled](is_lost_dungeons_of_norrath_enabled)() -- bool
-- eq.[is_gates_of_discord_enabled](is_gates_of_discord_enabled)() -- bool
-- eq.[is_omens_of_war_enabled](is_omens_of_war_enabled)() -- bool
-- eq.[is_dragons_of_norrath_enabled](is_dragons_of_norrath_enabled)() -- bool
-- eq.[is_depths_of_darkhollow_enabled](is_depths_of_darkhollow_enabled)() -- bool
-- eq.[is_prophecy_of_ro_enabled](is_prophecy_of_ro_enabled)() -- bool
-- eq.[is_the_serpents_spine_enabled](is_the_serpents_spine_enabled)() -- bool
-- eq.[is_the_buried_sea_enabled](is_the_buried_sea_enabled)() -- bool
-- eq.[is_secrets_of_faydwer_enabled](is_secrets_of_faydwer_enabled)() -- bool
-- eq.[is_seeds_of_destruction_enabled](is_seeds_of_destruction_enabled)() -- bool
-- eq.[is_underfoot_enabled](is_underfoot_enabled)() -- bool
-- eq.[is_house_of_thule_enabled](is_house_of_thule_enabled)() -- bool
-- eq.[is_veil_of_alaris_enabled](is_veil_of_alaris_enabled)() -- bool
-- eq.[is_rain_of_fear_enabled](is_rain_of_fear_enabled)() -- bool
-- eq.[is_call_of_the_forsaken_enabled](is_call_of_the_forsaken_enabled)() -- bool
-- eq.[is_the_darkend_sea_enabled](is_the_darkend_sea_enabled)() -- bool
-- eq.[is_the_broken_mirror_enabled](is_the_broken_mirror_enabled)() -- bool
-- eq.[is_empires_of_kunark_enabled](is_empires_of_kunark_enabled)() -- bool
-- eq.[is_ring_of_scale_enabled](is_ring_of_scale_enabled)() -- bool
-- eq.[is_the_burning_lands_enabled](is_the_burning_lands_enabled)() -- bool
-- eq.[is_torment_of_velious_enabled](is_torment_of_velious_enabled)() -- bool
-- eq.[is_current_expansion_classic](is_current_expansion_classic)() -- bool
-- eq.[is_current_expansion_the_ruins_of_kunark](is_current_expansion_the_ruins_of_kunark)() -- bool
-- eq.[is_current_expansion_the_scars_of_velious](is_current_expansion_the_scars_of_velious)() -- bool
-- eq.[is_current_expansion_the_shadows_of_luclin](is_current_expansion_the_shadows_of_luclin)() -- bool
-- eq.[is_current_expansion_the_planes_of_power](is_current_expansion_the_planes_of_power)() -- bool
-- eq.[is_current_expansion_the_legacy_of_ykesha](is_current_expansion_the_legacy_of_ykesha)() -- bool
-- eq.[is_current_expansion_lost_dungeons_of_norrath](is_current_expansion_lost_dungeons_of_norrath)() -- bool
-- eq.[is_current_expansion_gates_of_discord](is_current_expansion_gates_of_discord)() -- bool
-- eq.[is_current_expansion_omens_of_war](is_current_expansion_omens_of_war)() -- bool
-- eq.[is_current_expansion_dragons_of_norrath](is_current_expansion_dragons_of_norrath)() -- bool
-- eq.[is_current_expansion_depths_of_darkhollow](is_current_expansion_depths_of_darkhollow)() -- bool
-- eq.[is_current_expansion_prophecy_of_ro](is_current_expansion_prophecy_of_ro)() -- bool
-- eq.[is_current_expansion_the_serpents_spine](is_current_expansion_the_serpents_spine)() -- bool
-- eq.[is_current_expansion_the_buried_sea](is_current_expansion_the_buried_sea)() -- bool
-- eq.[is_current_expansion_secrets_of_faydwer](is_current_expansion_secrets_of_faydwer)() -- bool
-- eq.[is_current_expansion_seeds_of_destruction](is_current_expansion_seeds_of_destruction)() -- bool
-- eq.[is_current_expansion_underfoot](is_current_expansion_underfoot)() -- bool
-- eq.[is_current_expansion_house_of_thule](is_current_expansion_house_of_thule)() -- bool
-- eq.[is_current_expansion_veil_of_alaris](is_current_expansion_veil_of_alaris)() -- bool
-- eq.[is_current_expansion_rain_of_fear](is_current_expansion_rain_of_fear)() -- bool
-- eq.[is_current_expansion_call_of_the_forsaken](is_current_expansion_call_of_the_forsaken)() -- bool
-- eq.[is_current_expansion_the_darkend_sea](is_current_expansion_the_darkend_sea)() -- bool
-- eq.[is_current_expansion_the_broken_mirror](is_current_expansion_the_broken_mirror)() -- bool
-- eq.[is_current_expansion_empires_of_kunark](is_current_expansion_empires_of_kunark)() -- bool
-- eq.[is_current_expansion_ring_of_scale](is_current_expansion_ring_of_scale)() -- bool
-- eq.[is_current_expansion_the_burning_lands](is_current_expansion_the_burning_lands)() -- bool
-- eq.[is_current_expansion_torment_of_velious](is_current_expansion_torment_of_velious)() -- bool
-- eq.[register_general](register_general)() -- scope
-- eq.[log](log); -- 
-- eq.[debug](debug); -- 
-- eq.[register_random](register_random)() -- scope
+## EQ Methods (Lua)
+- [active_speak_activity](active_speak_activity)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
+- [active_speak_task](active_speak_task)() -- {{% lua_type_number %}}
+- [active_tasks_in_set](active_tasks_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [add_area](add_area)({{% lua_type_number %}} id, {{% lua_type_number %}} type, {{% lua_type_number %}} min_x, {{% lua_type_number %}} max_x, {{% lua_type_number %}} min_y, {{% lua_type_number %}} max_y, {{% lua_type_number %}} min_z, {{% lua_type_number %}} max_z) -- {{% lua_type_nil %}}
+- [assign_group_to_instance](assign_group_to_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [assign_raid_to_instance](assign_raid_to_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [assign_task](assign_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [assign_to_instance_by_char_id](assign_to_instance_by_char_id)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} char_id) -- {{% lua_type_nil %}}
+- [assign_to_instance](assign_to_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [attack_npc_type](attack_npc_type)({{% lua_type_number %}} npc_type) -- {{% lua_type_nil %}}
+- [attack_npc](attack_npc)({{% lua_type_number %}} entity_id) -- {{% lua_type_nil %}}
+- [attack](attack)({{% lua_type_string %}} client_name) -- {{% lua_type_nil %}}
+- [bury_player_corpse](bury_player_corpse)({{% lua_type_number %}} char_id) -- {{% lua_type_boolean %}}
+- [check_instance_by_char_id](check_instance_by_char_id)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} char_id) -- {{% lua_type_boolean %}}
+- [check_title](check_title)({{% lua_type_number %}} title_set) -- {{% lua_type_nil %}}
+- [clear_areas](clear_areas)() -- {{% lua_type_nil %}}
+- [clear_npctype_cache](clear_npctype_cache)({{% lua_type_number %}} npctype_id) -- {{% lua_type_nil %}}
+- [clear_opcode](clear_opcode)({{% lua_type_number %}} op) -- {{% lua_type_nil %}}
+- [clear_proximity](clear_proximity)() -- {{% lua_type_nil %}}
+- [clear_spawn_timers](clear_spawn_timers)() -- {{% lua_type_nil %}}
+- [clock](clock)() -- {{% lua_type_number %}}
+- [collect_items](collect_items)({{% lua_type_number %}} item_id, {{% lua_type_boolean %}} remove) -- {{% lua_type_number %}}
+- [completed_tasks_in_set](completed_tasks_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [count_item](count_item)({{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
+- [create_door](create_door)({{% lua_type_string %}} model, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h, {{% lua_type_number %}} open_type, {{% lua_type_number %}} size) -- {{% lua_type_nil %}}
+- [create_ground_object_from_model](create_ground_object_from_model)({{% lua_type_string %}} model, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
+- [create_ground_object](create_ground_object)({{% lua_type_number %}} item_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
+- [create_guild](create_guild)({{% lua_type_string %}} name, {{% lua_type_string %}} leader) -- {{% lua_type_nil %}}
+- [create_instance](create_instance)({{% lua_type_string %}} zone, {{% lua_type_number %}} version, {{% lua_type_number %}} duration) -- {{% lua_type_number %}}32
+- [cross_zone_assign_task_by_char_id](cross_zone_assign_task_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_assign_task_by_group_id](cross_zone_assign_task_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_assign_task_by_guild_id](cross_zone_assign_task_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_assign_task_by_raid_id](cross_zone_assign_task_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_cast_spell_by_char_id](cross_zone_cast_spell_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_cast_spell_by_group_id](cross_zone_cast_spell_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_cast_spell_by_guild_id](cross_zone_cast_spell_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_cast_spell_by_raid_id](cross_zone_cast_spell_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_disable_task_by_char_id](cross_zone_disable_task_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_disable_task_by_group_id](cross_zone_disable_task_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_disable_task_by_guild_id](cross_zone_disable_task_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_disable_task_by_raid_id](cross_zone_disable_task_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_enable_task_by_char_id](cross_zone_enable_task_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_enable_task_by_group_id](cross_zone_enable_task_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_enable_task_by_guild_id](cross_zone_enable_task_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_enable_task_by_raid_id](cross_zone_enable_task_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_fail_task_by_char_id](cross_zone_fail_task_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_fail_task_by_group_id](cross_zone_fail_task_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_fail_task_by_guild_id](cross_zone_fail_task_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_fail_task_by_raid_id](cross_zone_fail_task_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_marquee_by_char_id](cross_zone_marquee_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_marquee_by_group_id](cross_zone_marquee_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_marquee_by_guild_id](cross_zone_marquee_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_marquee_by_raid_id](cross_zone_marquee_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_message_player_by_group_id](cross_zone_message_player_by_group_id)({{% lua_type_number %}} type, {{% lua_type_number %}} group_id, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_message_player_by_guild_id](cross_zone_message_player_by_guild_id)({{% lua_type_number %}} type, {{% lua_type_number %}} guild_id, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_message_player_by_name](cross_zone_message_player_by_name)({{% lua_type_number %}} type, {{% lua_type_string %}}character_name, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_message_player_by_raid_id](cross_zone_message_player_by_raid_id)({{% lua_type_number %}} type, {{% lua_type_number %}} raid_id, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [cross_zone_move_instance_by_char_id](cross_zone_move_instance_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [cross_zone_move_instance_by_group_id](cross_zone_move_instance_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [cross_zone_move_instance_by_guild_id](cross_zone_move_instance_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [cross_zone_move_instance_by_raid_id](cross_zone_move_instance_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [cross_zone_move_player_by_char_id](cross_zone_move_player_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
+- [cross_zone_move_player_by_group_id](cross_zone_move_player_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
+- [cross_zone_move_player_by_guild_id](cross_zone_move_player_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
+- [cross_zone_move_player_by_raid_id](cross_zone_move_player_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
+- [cross_zone_remove_spell_by_char_id](cross_zone_remove_spell_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_spell_by_group_id](cross_zone_remove_spell_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_spell_by_guild_id](cross_zone_remove_spell_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_spell_by_raid_id](cross_zone_remove_spell_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_task_by_char_id](cross_zone_remove_task_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_task_by_group_id](cross_zone_remove_task_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_task_by_guild_id](cross_zone_remove_task_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_remove_task_by_raid_id](cross_zone_remove_task_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [cross_zone_reset_activity_by_char_id](cross_zone_reset_activity_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_reset_activity_by_group_id](cross_zone_reset_activity_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_reset_activity_by_guild_id](cross_zone_reset_activity_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_reset_activity_by_raid_id](cross_zone_reset_activity_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_set_entity_variable_by_client_name](cross_zone_set_entity_variable_by_client_name)({{% lua_type_string %}}character_name, {{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [cross_zone_set_entity_variable_by_group_id](cross_zone_set_entity_variable_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [cross_zone_set_entity_variable_by_guild_id](cross_zone_set_entity_variable_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [cross_zone_set_entity_variable_by_raid_id](cross_zone_set_entity_variable_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [cross_zone_signal_client_by_char_id](cross_zone_signal_client_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_signal_client_by_group_id](cross_zone_signal_client_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_signal_client_by_guild_id](cross_zone_signal_client_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_signal_client_by_name](cross_zone_signal_client_by_name)({{% lua_type_string %}}character_name, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_signal_client_by_raid_id](cross_zone_signal_client_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_signal_npc_by_npctype_id](cross_zone_signal_npc_by_npctype_id)({{% lua_type_number %}} npctype_id, {{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [cross_zone_update_activity_by_char_id](cross_zone_update_activity_by_char_id)({{% lua_type_number %}} character_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_update_activity_by_group_id](cross_zone_update_activity_by_group_id)({{% lua_type_number %}} group_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_update_activity_by_guild_id](cross_zone_update_activity_by_guild_id)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [cross_zone_update_activity_by_raid_id](cross_zone_update_activity_by_raid_id)({{% lua_type_number %}} raid_id, {{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [debug](debug); -- 
+- [delete_global](delete_global)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
+- [depop_all](depop_all)() -- {{% lua_type_nil %}}
+- [depop_with_timer](depop_with_timer)() -- {{% lua_type_nil %}}
+- [depop_zone](depop_zone)({{% lua_type_boolean %}} start_spawn_status) -- {{% lua_type_nil %}}
+- [depop](depop)() -- {{% lua_type_nil %}}
+- [destroy_instance](destroy_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [disable_proximity_say](disable_proximity_say)() -- {{% lua_type_nil %}}
+- [disable_recipe](disable_recipe)({{% lua_type_number %}} recipe_id) -- {{% lua_type_boolean %}}
+- [enable_proximity_say](enable_proximity_say)() -- {{% lua_type_nil %}}
+- [enable_recipe](enable_recipe)({{% lua_type_number %}} recipe_id) -- {{% lua_type_boolean %}}
+- [enable_title](enable_title)({{% lua_type_number %}} title_set) -- {{% lua_type_nil %}}
+- [enabled_task_count](enabled_task_count)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [faction_value](faction_value)() -- {{% lua_type_number %}}
+- [fail_task](fail_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [first_task_in_set](first_task_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [flag_instance_by_group_leader](flag_instance_by_group_leader)({{% lua_type_number %}} zone, {{% lua_type_number %}} version) -- {{% lua_type_nil %}}
+- [flag_instance_by_raid_leader](flag_instance_by_raid_leader)({{% lua_type_number %}} zone, {{% lua_type_number %}} version) -- {{% lua_type_nil %}}
+- [fly_mode](fly_mode)({{% lua_type_number %}} flymode) -- {{% lua_type_nil %}}
+- [follow](follow)({{% lua_type_number %}} entity_id) -- {{% lua_type_nil %}}
+- [get_char_id_by_name](get_char_id_by_name)({{% lua_type_string %}} name) -- {{% lua_type_number %}}32
+- [get_characters_in_instance](get_characters_in_instance)({{% lua_type_state %}} L, {{% lua_type_number %}} instance_id) -- {{% lua_type_object %}}
+- [get_class_name](get_class_name)({{% lua_type_number %}}8 class_id) -- {{% lua_type_string %}}
+- [get_currency_id](get_currency_id)({{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
+- [get_currency_item_id](get_currency_item_id)({{% lua_type_number %}} currency_id) -- {{% lua_type_number %}}
+- [get_encounter](get_encounter)() -- {{% lua_type_string %}}
+- [get_entity_list](get_entity_list)() -- {{% lua_type_entity_list %}}
+- [get_group_id_by_char_id](get_group_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_guild_id_by_char_id](get_guild_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_initiator](get_initiator)() -- {{% lua_type_client %}}
+- [get_instance_id_by_char_id](get_instance_id_by_char_id)({{% lua_type_string %}}zone, {{% lua_type_number %}} version, {{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_instance_id](get_instance_id)({{% lua_type_string %}}zone, {{% lua_type_number %}} version) -- {{% lua_type_number %}}
+- [get_instance_timer_by_id](get_instance_timer_by_id)({{% lua_type_number %}} instance_id) -- {{% lua_type_number %}}32
+- [get_instance_timer](get_instance_timer)() -- {{% lua_type_number %}}32
+- [get_item_name](get_item_name)({{% lua_type_number %}} item_id) -- {{% lua_type_string %}}
+- [get_level](get_level)({{% lua_type_number %}} type) -- {{% lua_type_number %}}
+- [get_owner](get_owner)() -- {{% lua_type_mob %}}
+- [get_player_buried_corpse_count](get_player_buried_corpse_count)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_player_corpse_count_by_zone_id](get_player_corpse_count_by_zone_id)({{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_number %}}
+- [get_player_corpse_count](get_player_corpse_count)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_qglobals](get_qglobals)({{% lua_type_state %}} *L, {{% lua_type_npc %}} npc, {{% lua_type_client %}} client) -- {{% lua_type_object %}}
+- [get_quest_item](get_quest_item)() -- {{% lua_type_iteminst %}}
+- [get_race_name](get_race_name)({{% lua_type_number %}} race_id) -- {{% lua_type_string %}}
+- [get_raid_id_by_char_id](get_raid_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
+- [get_skill_name](get_skill_name)({{% lua_type_number %}} skill_id) -- {{% lua_type_string %}}
+- [get_spawn_condition](get_spawn_condition)({{% lua_type_string %}}zone, {{% lua_type_number %}} instance_id, {{% lua_type_number %}} condition_id) -- {{% lua_type_number %}}
+- [get_spell_name](get_spell_name)({{% lua_type_number %}} spell_id) -- {{% lua_type_string %}}
+- [get_task_activity_done_count](get_task_activity_done_count)({{% lua_type_number %}} task, {{% lua_type_number %}} activity) -- {{% lua_type_number %}}
+- [get_task_name](get_task_name)({{% lua_type_number %}} task_id) -- {{% lua_type_string %}}
+- [get_zone_id](get_zone_id)() -- {{% lua_type_number %}}
+- [get_zone_instance_id](get_zone_instance_id)() -- {{% lua_type_number %}}
+- [get_zone_instance_version](get_zone_instance_version)() -- {{% lua_type_number %}}
+- [get_zone_time](get_zone_time)({{% lua_type_state %}} *L) -- {{% lua_type_object %}}
+- [get_zone_weather](get_zone_weather)() -- {{% lua_type_number %}}
+- [is_call_of_the_forsaken_enabled](is_call_of_the_forsaken_enabled)() -- {{% lua_type_boolean %}}
+- [is_classic_enabled](is_classic_enabled)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_call_of_the_forsaken](is_current_expansion_call_of_the_forsaken)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_classic](is_current_expansion_classic)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_depths_of_darkhollow](is_current_expansion_depths_of_darkhollow)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_dragons_of_norrath](is_current_expansion_dragons_of_norrath)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_empires_of_kunark](is_current_expansion_empires_of_kunark)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_gates_of_discord](is_current_expansion_gates_of_discord)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_house_of_thule](is_current_expansion_house_of_thule)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_lost_dungeons_of_norrath](is_current_expansion_lost_dungeons_of_norrath)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_omens_of_war](is_current_expansion_omens_of_war)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_prophecy_of_ro](is_current_expansion_prophecy_of_ro)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_rain_of_fear](is_current_expansion_rain_of_fear)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_ring_of_scale](is_current_expansion_ring_of_scale)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_secrets_of_faydwer](is_current_expansion_secrets_of_faydwer)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_seeds_of_destruction](is_current_expansion_seeds_of_destruction)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_broken_mirror](is_current_expansion_the_broken_mirror)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_buried_sea](is_current_expansion_the_buried_sea)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_burning_lands](is_current_expansion_the_burning_lands)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_darkend_sea](is_current_expansion_the_darkend_sea)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_legacy_of_ykesha](is_current_expansion_the_legacy_of_ykesha)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_planes_of_power](is_current_expansion_the_planes_of_power)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_ruins_of_kunark](is_current_expansion_the_ruins_of_kunark)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_scars_of_velious](is_current_expansion_the_scars_of_velious)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_serpents_spine](is_current_expansion_the_serpents_spine)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_the_shadows_of_luclin](is_current_expansion_the_shadows_of_luclin)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_torment_of_velious](is_current_expansion_torment_of_velious)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_underfoot](is_current_expansion_underfoot)() -- {{% lua_type_boolean %}}
+- [is_current_expansion_veil_of_alaris](is_current_expansion_veil_of_alaris)() -- {{% lua_type_boolean %}}
+- [is_depths_of_darkhollow_enabled](is_depths_of_darkhollow_enabled)() -- {{% lua_type_boolean %}}
+- [is_disc_tome](is_disc_tome)({{% lua_type_number %}} item_id) -- {{% lua_type_boolean %}}
+- [is_dragons_of_norrath_enabled](is_dragons_of_norrath_enabled)() -- {{% lua_type_boolean %}}
+- [is_empires_of_kunark_enabled](is_empires_of_kunark_enabled)() -- {{% lua_type_boolean %}}
+- [is_gates_of_discord_enabled](is_gates_of_discord_enabled)() -- {{% lua_type_boolean %}}
+- [is_house_of_thule_enabled](is_house_of_thule_enabled)() -- {{% lua_type_boolean %}}
+- [is_lost_dungeons_of_norrath_enabled](is_lost_dungeons_of_norrath_enabled)() -- {{% lua_type_boolean %}}
+- [is_omens_of_war_enabled](is_omens_of_war_enabled)() -- {{% lua_type_boolean %}}
+- [is_paused_timer](is_paused_timer)({{% lua_type_string %}} timer) -- {{% lua_type_boolean %}}
+- [is_prophecy_of_ro_enabled](is_prophecy_of_ro_enabled)() -- {{% lua_type_boolean %}}
+- [is_rain_of_fear_enabled](is_rain_of_fear_enabled)() -- {{% lua_type_boolean %}}
+- [is_ring_of_scale_enabled](is_ring_of_scale_enabled)() -- {{% lua_type_boolean %}}
+- [is_secrets_of_faydwer_enabled](is_secrets_of_faydwer_enabled)() -- {{% lua_type_boolean %}}
+- [is_seeds_of_destruction_enabled](is_seeds_of_destruction_enabled)() -- {{% lua_type_boolean %}}
+- [is_task_active](is_task_active)({{% lua_type_number %}} task) -- {{% lua_type_boolean %}}
+- [is_task_activity_active](is_task_activity_active)({{% lua_type_number %}} task, {{% lua_type_number %}} activity) -- {{% lua_type_boolean %}}
+- [is_task_appropriate](is_task_appropriate)({{% lua_type_number %}} task) -- {{% lua_type_boolean %}}
+- [is_task_completed](is_task_completed)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
+- [is_task_enabled](is_task_enabled)({{% lua_type_number %}} task) -- {{% lua_type_boolean %}}
+- [is_the_broken_mirror_enabled](is_the_broken_mirror_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_buried_sea_enabled](is_the_buried_sea_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_burning_lands_enabled](is_the_burning_lands_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_darkend_sea_enabled](is_the_darkend_sea_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_legacy_of_ykesha_enabled](is_the_legacy_of_ykesha_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_planes_of_power_enabled](is_the_planes_of_power_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_ruins_of_kunark_enabled](is_the_ruins_of_kunark_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_scars_of_velious_enabled](is_the_scars_of_velious_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_serpents_spine_enabled](is_the_serpents_spine_enabled)() -- {{% lua_type_boolean %}}
+- [is_the_shadows_of_luclin_enabled](is_the_shadows_of_luclin_enabled)() -- {{% lua_type_boolean %}}
+- [is_torment_of_velious_enabled](is_torment_of_velious_enabled)() -- {{% lua_type_boolean %}}
+- [is_underfoot_enabled](is_underfoot_enabled)() -- {{% lua_type_boolean %}}
+- [is_veil_of_alaris_enabled](is_veil_of_alaris_enabled)() -- {{% lua_type_boolean %}}
+- [item_link](item_link)({{% lua_type_number %}} item_id) -- {{% lua_type_string %}}
+- [last_task_in_set](last_task_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [log](log); -- 
+- [map_opcodes](map_opcodes)() -- {{% lua_type_nil %}}
+- [merchant_count_item](merchant_count_item)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
+- [merchant_set_item](merchant_set_item)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} item_id) -- {{% lua_type_nil %}}
+- [modify_npc_stat](modify_npc_stat)({{% lua_type_string %}}id, {{% lua_type_string %}} value) -- {{% lua_type_nil %}}
+- [move_to](move_to)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
+- [next_task_in_set](next_task_in_set)({{% lua_type_number %}} task_set, {{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
+- [path_resume](path_resume)() -- {{% lua_type_nil %}}
+- [pause_timer](pause_timer)({{% lua_type_string %}} timer) -- {{% lua_type_nil %}}
+- [popup](popup)({{% lua_type_string %}} title, {{% lua_type_string %}} text, {{% lua_type_number %}} id, {{% lua_type_number %}} buttons, {{% lua_type_number %}} duration) -- {{% lua_type_nil %}}
+- [process_mobs_while_zone_empty](process_mobs_while_zone_empty)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
+- [rain](rain)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
+- [register_general](register_general)() -- scope
+- [register_random](register_random)() -- scope
+- [reloadzonestaticdata](reloadzonestaticdata)() -- {{% lua_type_nil %}}
+- [remove_all_from_instance](remove_all_from_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [remove_area](remove_area)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
+- [remove_from_instance_by_char_id](remove_from_instance_by_char_id)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} char_id) -- {{% lua_type_nil %}}
+- [remove_from_instance](remove_from_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [remove_spawn_point](remove_spawn_point)({{% lua_type_number %}} spawn2_id) -- {{% lua_type_nil %}}
+- [remove_title](remove_title)({{% lua_type_number %}} title_set) -- {{% lua_type_nil %}}
+- [repop_zone](repop_zone)() -- {{% lua_type_nil %}}
+- [reset_task_activity](reset_task_activity)({{% lua_type_number %}} task, {{% lua_type_number %}} activity) -- {{% lua_type_nil %}}
+- [respawn](respawn)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid) -- {{% lua_type_nil %}}
+- [resume_timer](resume_timer)({{% lua_type_string %}} timer) -- {{% lua_type_nil %}}
+- [safe_move](safe_move)() -- {{% lua_type_nil %}}
+- [say_link](say_link)({{% lua_type_string %}}phrase, {{% lua_type_boolean %}} silent, {{% lua_type_string %}}link_name) -- {{% lua_type_string %}}
+- [scribe_spells](scribe_spells)({{% lua_type_number %}} max) -- {{% lua_type_number %}}
+- [send_mail](send_mail)({{% lua_type_string %}} to, {{% lua_type_string %}}from, {{% lua_type_string %}} subject, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [set_anim](set_anim)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} anim_num) -- {{% lua_type_nil %}}
+- [set_global](set_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_number %}} options, {{% lua_type_string %}}duration) -- {{% lua_type_nil %}}
+- [set_guild](set_guild)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} rank) -- {{% lua_type_nil %}}
+- [set_next_hp_event](set_next_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
+- [set_next_inc_hp_event](set_next_inc_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
+- [set_proximity](set_proximity)({{% lua_type_number %}} min_x, {{% lua_type_number %}} max_x, {{% lua_type_number %}} min_y, {{% lua_type_number %}} max_y) -- {{% lua_type_nil %}}
+- [set_sky](set_sky)({{% lua_type_number %}} sky) -- {{% lua_type_nil %}}
+- [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms) -- {{% lua_type_nil %}}
+- [signal](signal)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} signal_id) -- {{% lua_type_nil %}}
+- [snow](snow)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
+- [spawn_condition](spawn_condition)({{% lua_type_string %}}zone, {{% lua_type_number %}} instance_id, {{% lua_type_number %}} condition_id, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [stop_all_timers](stop_all_timers)() -- {{% lua_type_nil %}}
+- [stop_follow](stop_follow)() -- {{% lua_type_nil %}}
+- [stop_timer](stop_timer)({{% lua_type_string %}} timer) -- {{% lua_type_nil %}}
+- [summon_all_player_corpses](summon_all_player_corpses)({{% lua_type_number %}} char_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
+- [summon_buried_player_corpse](summon_buried_player_corpse)({{% lua_type_number %}} char_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
+- [target_global](target_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_string %}}duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
+- [task_explored_area](task_explored_area)({{% lua_type_number %}} explore_id) -- {{% lua_type_nil %}}
+- [task_set_selector](task_set_selector)({{% lua_type_number %}} task_set) -- {{% lua_type_nil %}}
+- [task_time_left](task_time_left)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
+- [toggle_spawn_event](toggle_spawn_event)({{% lua_type_number %}} event_id, {{% lua_type_boolean %}} enable, {{% lua_type_boolean %}} strict, {{% lua_type_boolean %}} reset) -- {{% lua_type_nil %}}
+- [train_discs](train_discs)({{% lua_type_number %}} max) -- {{% lua_type_number %}}
+- [update_instance_timer](update_instance_timer)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} new_duration) -- {{% lua_type_nil %}}
+- [update_spawn_timer](update_spawn_timer)({{% lua_type_number %}} id, {{% lua_type_number %}} new_time) -- {{% lua_type_nil %}}
+- [update_task_activity](update_task_activity)({{% lua_type_number %}} task, {{% lua_type_number %}} activity, {{% lua_type_number %}} count) -- {{% lua_type_nil %}}
+- [voice_tell](voice_tell)({{% lua_type_string %}} str, {{% lua_type_number %}} macro_num, {{% lua_type_number %}} race_num, {{% lua_type_number %}} gender_num) -- {{% lua_type_nil %}}
+- [wear_change](wear_change)({{% lua_type_number %}} slot, {{% lua_type_number %}} texture) -- {{% lua_type_nil %}}
+- [world_emote](world_emote)({{% lua_type_number %}} type, {{% lua_type_string %}} str) -- {{% lua_type_nil %}}
+- [world_wide_assign_task](world_wide_assign_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [world_wide_cast_spell](world_wide_cast_spell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [world_wide_disable_task](world_wide_disable_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [world_wide_enable_task](world_wide_enable_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [world_wide_fail_task](world_wide_fail_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [world_wide_marquee](world_wide_marquee)({{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [world_wide_message](world_wide_message)({{% lua_type_number %}} type, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
+- [world_wide_move_instance](world_wide_move_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [world_wide_move](world_wide_move)({{% lua_type_string %}}zone_short_name) -- {{% lua_type_nil %}}
+- [world_wide_remove_spell](world_wide_remove_spell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [world_wide_remove_task](world_wide_remove_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
+- [world_wide_reset_activity](world_wide_reset_activity)({{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [world_wide_set_entity_variable_client](world_wide_set_entity_variable_client)({{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [world_wide_set_entity_variable_npc](world_wide_set_entity_variable_npc)({{% lua_type_string %}} variable_name, {{% lua_type_string %}} variable_value) -- {{% lua_type_nil %}}
+- [world_wide_signal_client](world_wide_signal_client)({{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [world_wide_signal_npc](world_wide_signal_npc)({{% lua_type_number %}} signal) -- {{% lua_type_nil %}}
+- [world_wide_update_activity](world_wide_update_activity)({{% lua_type_number %}} task_id, {{% lua_type_number %}} activity_id) -- {{% lua_type_nil %}}
+- [zone_emote](zone_emote)({{% lua_type_number %}} type, {{% lua_type_string %}} str) -- {{% lua_type_nil %}}
+- [zone_group](zone_group)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
+- [zone_raid](zone_raid)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
