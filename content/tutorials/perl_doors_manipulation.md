@@ -1,6 +1,5 @@
 ---
 title: Perl Doors Manipulation
-weight: 1
 menuTitle: Perl Doors Manipulation
 searchTitle: Tutorial Perl Doors Manipulation
 description: Tutorial Perl Doors Manipulation

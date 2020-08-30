@@ -1,6 +1,5 @@
 ---
 title: Tutorials
-weight: 0
 chapter: true
 ---
 
