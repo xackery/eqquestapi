@@ -3,7 +3,6 @@ title: Perl Diablo Loot Plugin
 searchTitle: Tutorials Perl Diablo Loot Plugin
 description: Tutorials Perl Diablo Loot Plugin
 weight: 1
-hidden: true
 menuTitle: Perl Diablo Loot Plugin
 ---
 # Diablo Loot

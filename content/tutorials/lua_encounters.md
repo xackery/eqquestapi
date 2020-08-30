@@ -3,7 +3,7 @@ title: Lua Encounters
 searchTitle: Tutorial Lua Encounters
 description: Tutorial Lua Encounters
 weight: 0
-menuTitle: Lua Encounters)
+menuTitle: Lua Encounters
 ---
 
 # Lua Encounters

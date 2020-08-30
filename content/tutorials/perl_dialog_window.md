@@ -1,8 +1,7 @@
 ---
 title: Perl Dialog Window Plugin
-searchTitle: Scripts Perl Dialog Window Plugin
+searchTitle: Tutorials Perl Dialog Window Plugin
 weight: 1
-hidden: true
 menuTitle: Perl Dialog Window Plugin
 description: Perl Dialog Window Plugin
 ---
