@@ -1,8 +1,10 @@
 ---
-title: Doors Manipulation
+title: Perl Doors Manipulation
 weight: 1
-hidden: true
-menuTitle: Doors Manipulation
+menuTitle: Perl Doors Manipulation
+searchTitle: Tutorial Perl Doors Manipulation
+description: Tutorial Perl Doors Manipulation
+description: Perl Doors Manipulation
 ---
 # Doors Manipulation
 

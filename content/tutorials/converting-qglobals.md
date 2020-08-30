@@ -1,8 +1,9 @@
 ---
-title: Converting QGlobals
-searchTitle: Tutorial Converting QGlobals
+title: Perl Converting QGlobals
+searchTitle: Tutorial Perl Converting QGlobals
+description: Tutorial Perl Converting QGlobals
 weight: 0
-menuTitle: Converting QGlobals
+menuTitle: Perl Converting QGlobals
 ---
 # Converting QGlobals
 

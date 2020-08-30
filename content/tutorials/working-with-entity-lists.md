@@ -1,11 +1,12 @@
 ---
-title: Working With Entity Lists (Perl)
-searchTitle: Tutorial Working With Entity Lists (Perl)
+title: Perl Working With Entity Lists
+searchTitle: Tutorial Perl Working With Entity Lists
+description: Tutorial Perl Working With Entity Lists
 weight: 0
-menuTitle: Working With Entity Lists (Perl)
+menuTitle: Perl Working With Entity Lists
 ---
 
-# Entity Lists
+# Perl Working With Entity Lists
 
 ## Description
 

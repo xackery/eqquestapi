@@ -1,8 +1,8 @@
 ---
-title: Player Teleporter (Perl)
-searchTitle: Scripts Player Teleporter (Perl)
+title: Perl Player Teleporter
+searchTitle: Scripts Perl Player Teleporter
 weight: 0
-menuTitle: Player Teleporter (Perl)
+menuTitle: Perl Player Teleporter
 ---
 
 # Player Teleporter in Perl

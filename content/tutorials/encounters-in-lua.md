@@ -1,11 +1,12 @@
 ---
-title: Encounters (Lua)
-searchTitle: Tutorial Encounters (Lua)
+title: Lua Encounters
+searchTitle: Tutorial Lua Encounters
+description: Tutorial Lua Encounters
 weight: 0
-menuTitle: Encounters (Lua)
+menuTitle: Lua Encounters)
 ---
 
-# Encounters \(Lua\)
+# Lua Encounters
 
 #### Encounter Scripts
 

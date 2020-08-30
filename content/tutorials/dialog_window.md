@@ -1,8 +1,10 @@
 ---
-title: Dia Wind
+title: Perl Dialog Window Plugin
+searchTitle: Scripts Perl Dialog Window Plugin
 weight: 1
 hidden: true
-menuTitle: Dia Wind
+menuTitle: Perl Dialog Window Plugin
+description: Perl Dialog Window Plugin
 ---
 # DiaWind
 

@@ -1,11 +1,12 @@
 ---
-title: Using Entity Variables (Perl)
-searchTitle: Tutorial Using Entity Variables (Perl)
+title: Perl Using Entity Variables
+searchTitle: Tutorial Perl Using Entity Variables
+description: Tutorial Perl Using Entity Variables
 weight: 0
-menuTitle: Using Entity Variables (Perl)
+menuTitle: Perl Using Entity Variables
 ---
 
-# Entity Variables
+# Perl Using Entity Variables
 
 ## Description
 

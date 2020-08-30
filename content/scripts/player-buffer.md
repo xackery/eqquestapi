@@ -1,8 +1,8 @@
 ---
-title: Player Buffer (Perl)
-searchTitle: Scripts Player Buffer (Perl)
+title: Perl Player Buffer
+searchTitle: Scripts Perl Player Buffer
 weight: 0
-menuTitle: Player Buffer (Perl)
+menuTitle: Perl Player Buffer
 ---
 
 # Player Buffer Scripts
