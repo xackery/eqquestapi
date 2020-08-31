@@ -134,7 +134,6 @@ func audit(line string) error {
 	if err := auditLua(line); err != nil {
 		return err
 	}
-	return nil
 	scope = Scope{}
 	if err := auditPerl(line); err != nil {
 		return err
