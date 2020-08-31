@@ -21,6 +21,7 @@ eq.{{% lua_type_functionname set_data %}}({{% lua_type_string %}} bucket_key, {{
 
 - {{% lua_type_string %}} **bucket_key**: Global scoped key stored in data_buckets table
 - {{% lua_type_string %}} **bucket_value**: Global scoped value stored in data_buckets table
+- {{% lua_type_number %}} **expires_at**: Bucket expires at this time. Default is 0
 
 **Example**
 

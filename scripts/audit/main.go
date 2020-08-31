@@ -99,11 +99,14 @@ func walk(path string, info os.FileInfo, err error) error {
 	if strings.ToLower(filepath.Ext(path)) != ".cpp" {
 		return nil
 	}
-	if !strings.Contains(path, "lua") && !strings.Contains(path, "perl") {
+	if !strings.Contains(path, "lua") && !strings.Contains(path, "perl") && !strings.Contains(path, "embparser_api") {
 		return nil
 	}
 	if strings.Contains(path, "lua_general.cpp") {
 		scope.namespace = "eq"
+	}
+	if strings.Contains(path, "embparser_api.cpp") {
+		scope.class = "quest"
 	}
 
 	f, err := os.Open(path)
@@ -310,7 +313,6 @@ func perlProto(line string) error {
 
 func perlDefinition(line string) error {
 	log := log.New()
-
 	matches := regPerlDefinition.FindAllStringSubmatch(line, -1)
 	if len(matches) < 1 {
 		return nil
@@ -323,11 +325,19 @@ func perlDefinition(line string) error {
 
 	splits := strings.SplitN(matches[0][1], "_", 2)
 	if len(splits) != 2 {
-		log.Warn().Str("line", line).Msg("no class scope?")
-		return nil
+		if strings.Contains(line, "XS_FactionValue") {
+			splits = []string{"Quest", "FactionValue"}
+		} else {
+			log.Warn().Str("line", line).Msg("no class scope?")
+			return nil
+		}
 	}
 	funcName := splits[1]
-	scope.class = splits[0]
+	if len(splits[0]) == 0 && strings.Contains(line, "XS__") {
+		scope.class = "quest"
+	} else {
+		scope.class = splits[0]
+	}
 
 	if scope.class == "" {
 		log.Warn().Str("line", line).Msg("no class set")
@@ -341,6 +351,7 @@ func perlDefinition(line string) error {
 }
 
 func checkDocumented(funcName string) error {
+
 	if funcName == "null" || funcName == "valid" {
 		return nil
 	}
