@@ -1,4 +1,3 @@
-
 ---
 title: get_data
 searchTitle: Lua EQ get_data

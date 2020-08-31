@@ -1,4 +1,3 @@
-
 ---
 title: set_data
 searchTitle: Lua EQ set_data
