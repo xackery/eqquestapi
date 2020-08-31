@@ -27,11 +27,11 @@ weight: 25
 [immune_melee](immune_melee) -- {{% lua_type_number %}}
 [immune_magic](immune_magic) -- {{% lua_type_number %}}
 [immune_fleeing](immune_fleeing) -- {{% lua_type_number %}}
-[immune_melee_except_bane](immune_melee_except_bane) -- {{% lua_type_number %}}(IMMUNE_MELEE_EXCEPT_BANE)),
-[immune_melee_except_magical](immune_melee_except_magical) -- {{% lua_type_number %}}(IMMUNE_MELEE_NONMAGICAL)),
+[immune_melee_except_bane](immune_melee_except_bane) -- {{% lua_type_number %}}
+[immune_melee_except_magical](immune_melee_except_magical) -- {{% lua_type_number %}}
 [immune_aggro](immune_aggro) -- {{% lua_type_number %}}
 [immune_aggro_on](immune_aggro_on) -- {{% lua_type_number %}}
-[immune_casting_from_range](immune_casting_from_range) -- {{% lua_type_number %}}(IMMUNE_CASTING_FROM_RANGE)),
+[immune_casting_from_range](immune_casting_from_range) -- {{% lua_type_number %}}
 [immune_feign_death](immune_feign_death) -- {{% lua_type_number %}}
 [immune_taunt](immune_taunt) -- {{% lua_type_number %}}
 [tunnelvision](tunnelvision) -- {{% lua_type_number %}}
@@ -47,7 +47,7 @@ weight: 25
 [disable_melee](disable_melee) -- {{% lua_type_number %}}
 [npc_chase_distance](npc_chase_distance) -- {{% lua_type_number %}}
 [allow_to_tank](allow_to_tank) -- {{% lua_type_number %}}
-[ignore_root_aggro_rules](ignore_root_aggro_rules) -- {{% lua_type_number %}}(IGNORE_ROOT_AGGRO_RULES)),
+[ignore_root_aggro_rules](ignore_root_aggro_rules) -- {{% lua_type_number %}}
 [casting_resist_diff](casting_resist_diff) -- {{% lua_type_number %}}
 [counter_avoid_damage](counter_avoid_damage) -- {{% lua_type_number %}}
 [immune_ranged_attacks](immune_ranged_attacks) -- {{% lua_type_number %}})

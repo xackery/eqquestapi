@@ -7,80 +7,80 @@ weight: 25
 ---
 
 ## Spell Methods
-- [ID](id)(); -- number
-- [Name](name)(); -- string
-- [TeleportZone](teleportzone)(); -- string
-- [YouCast](youcast)(); -- string
-- [OtherCasts](othercasts)(); -- string
-- [CastOnYou](castonyou)(); -- string
-- [CastOnOther](castonother)(); -- string
-- [SpellFades](spellfades)(); -- string
-- [Range](range)(); -- number
-- [AoeRange](aoerange)(); -- number
-- [PushBack](pushback)(); -- number
-- [PushUp](pushup)(); -- number
-- [CastTime](casttime)(); -- number
-- [RecoveryTime](recoverytime)(); -- number
-- [RecastTime](recasttime)(); -- number
-- [BuffdurationFormula](buffdurationformula)(); -- number
-- [AEDuration](aeduration)(); -- number
-- [Mana](mana)(); -- number
-- [Base](base)(number i); -- number
-- [Max](max)(number i); -- number
-- [Components](components)(number i); -- number
-- [ComponentCounts](componentcounts)(number i); -- number
-- [NoexpendReagent](noexpendreagent)(number i); -- number
-- [GoodEffect](goodeffect)(); -- number
-- [Activated](activated)(); -- number
-- [ResistType](resisttype)(); -- number
-- [EffectID](effectid)(number i); -- number
-- [TargetType](targettype)(); -- number
-- [BaseDiff](basediff)(); -- number
-- [Skill](skill)(); -- number
-- [ZoneType](zonetype)(); -- number
-- [EnvironmentType](environmenttype)(); -- number
-- [TimeOfDay](timeofday)(); -- number
-- [Classes](classes)(number i); -- number
-- [CastingAnim](castinganim)(); -- number
-- [SpellAffectIndex](spellaffectindex)(); -- number
-- [DisallowSit](disallowsit)(); -- number
-- [Deities](deities)(number i); -- number
-- [Uninterruptable](uninterruptable)(); -- number
-- [ResistDiff](resistdiff)(); -- number
-- [RecourseLink](recourselink)(); -- number
-- [ShortBuffBox](shortbuffbox)(); -- number
-- [DescNum](descnum)(); -- number
-- [EffectDescNum](effectdescnum)(); -- number
-- [BonusHate](bonushate)(); -- number
-- [EndurCost](endurcost)(); -- number
-- [EndurTimerIndex](endurtimerindex)(); -- number
-- [HateAdded](hateadded)(); -- number
-- [EndurUpkeep](endurupkeep)(); -- number
-- [NumHits](numhits)(); -- number
-- [PVPResistBase](pvpresistbase)(); -- number
-- [PVPResistCalc](pvpresistcalc)(); -- number
-- [PVPResistCap](pvpresistcap)(); -- number
-- [SpellCategory](spellcategory)(); -- number
-- [CanMGB](canmgb)(); -- number
-- [DispelFlag](dispelflag)(); -- number
-- [MinResist](minresist)(); -- number
-- [MaxResist](maxresist)(); -- number
-- [ViralTargets](viraltargets)(); -- number
-- [ViralTimer](viraltimer)(); -- number
-- [NimbusEffect](nimbuseffect)(); -- number
-- [DirectionalStart](directionalstart)(); -- number
-- [DirectionalEnd](directionalend)(); -- number
-- [SpellGroup](spellgroup)(); -- number
-- [PowerfulFlag](powerfulflag)(); -- number
-- [CastRestriction](castrestriction)(); -- number
-- [AllowRest](allowrest)(); -- bool
-- [InCombat](incombat)(); -- bool
-- [OutOfCombat](outofcombat)(); -- bool
-- [AEMaxTargets](aemaxtargets)(); -- number
-- [PersistDeath](persistdeath)(); -- bool
-- [MinDist](mindist)(); -- number
-- [MinDistMod](mindistmod)(); -- number
-- [MaxDist](maxdist)(); -- number
-- [MaxDistMod](maxdistmod)(); -- number
-- [MinRange](minrange)(); -- number
-- [DamageShieldType](damageshieldtype)(); -- number
+- [ID](id)(); -- {{% lua_type_number %}}
+- [Name](name)(); -- {{% lua_type_string %}}
+- [TeleportZone](teleportzone)(); -- {{% lua_type_string %}}
+- [YouCast](youcast)(); -- {{% lua_type_string %}}
+- [OtherCasts](othercasts)(); -- {{% lua_type_string %}}
+- [CastOnYou](castonyou)(); -- {{% lua_type_string %}}
+- [CastOnOther](castonother)(); -- {{% lua_type_string %}}
+- [SpellFades](spellfades)(); -- {{% lua_type_string %}}
+- [Range](range)(); -- {{% lua_type_number %}}
+- [AoeRange](aoerange)(); -- {{% lua_type_number %}}
+- [PushBack](pushback)(); -- {{% lua_type_number %}}
+- [PushUp](pushup)(); -- {{% lua_type_number %}}
+- [CastTime](casttime)(); -- {{% lua_type_number %}}
+- [RecoveryTime](recoverytime)(); -- {{% lua_type_number %}}
+- [RecastTime](recasttime)(); -- {{% lua_type_number %}}
+- [BuffdurationFormula](buffdurationformula)(); -- {{% lua_type_number %}}
+- [AEDuration](aeduration)(); -- {{% lua_type_number %}}
+- [Mana](mana)(); -- {{% lua_type_number %}}
+- [Base](base)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [Max](max)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [Components](components)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [ComponentCounts](componentcounts)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [NoexpendReagent](noexpendreagent)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [GoodEffect](goodeffect)(); -- {{% lua_type_number %}}
+- [Activated](activated)(); -- {{% lua_type_number %}}
+- [ResistType](resisttype)(); -- {{% lua_type_number %}}
+- [EffectID](effectid)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [TargetType](targettype)(); -- {{% lua_type_number %}}
+- [BaseDiff](basediff)(); -- {{% lua_type_number %}}
+- [Skill](skill)(); -- {{% lua_type_number %}}
+- [ZoneType](zonetype)(); -- {{% lua_type_number %}}
+- [EnvironmentType](environmenttype)(); -- {{% lua_type_number %}}
+- [TimeOfDay](timeofday)(); -- {{% lua_type_number %}}
+- [Classes](classes)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [CastingAnim](castinganim)(); -- {{% lua_type_number %}}
+- [SpellAffectIndex](spellaffectindex)(); -- {{% lua_type_number %}}
+- [DisallowSit](disallowsit)(); -- {{% lua_type_number %}}
+- [Deities](deities)({{% lua_type_number %}} i); -- {{% lua_type_number %}}
+- [Uninterruptable](uninterruptable)(); -- {{% lua_type_number %}}
+- [ResistDiff](resistdiff)(); -- {{% lua_type_number %}}
+- [RecourseLink](recourselink)(); -- {{% lua_type_number %}}
+- [ShortBuffBox](shortbuffbox)(); -- {{% lua_type_number %}}
+- [DescNum](descnum)(); -- {{% lua_type_number %}}
+- [EffectDescNum](effectdescnum)(); -- {{% lua_type_number %}}
+- [BonusHate](bonushate)(); -- {{% lua_type_number %}}
+- [EndurCost](endurcost)(); -- {{% lua_type_number %}}
+- [EndurTimerIndex](endurtimerindex)(); -- {{% lua_type_number %}}
+- [HateAdded](hateadded)(); -- {{% lua_type_number %}}
+- [EndurUpkeep](endurupkeep)(); -- {{% lua_type_number %}}
+- [NumHits](numhits)(); -- {{% lua_type_number %}}
+- [PVPResistBase](pvpresistbase)(); -- {{% lua_type_number %}}
+- [PVPResistCalc](pvpresistcalc)(); -- {{% lua_type_number %}}
+- [PVPResistCap](pvpresistcap)(); -- {{% lua_type_number %}}
+- [SpellCategory](spellcategory)(); -- {{% lua_type_number %}}
+- [CanMGB](canmgb)(); -- {{% lua_type_number %}}
+- [DispelFlag](dispelflag)(); -- {{% lua_type_number %}}
+- [MinResist](minresist)(); -- {{% lua_type_number %}}
+- [MaxResist](maxresist)(); -- {{% lua_type_number %}}
+- [ViralTargets](viraltargets)(); -- {{% lua_type_number %}}
+- [ViralTimer](viraltimer)(); -- {{% lua_type_number %}}
+- [NimbusEffect](nimbuseffect)(); -- {{% lua_type_number %}}
+- [DirectionalStart](directionalstart)(); -- {{% lua_type_number %}}
+- [DirectionalEnd](directionalend)(); -- {{% lua_type_number %}}
+- [SpellGroup](spellgroup)(); -- {{% lua_type_number %}}
+- [PowerfulFlag](powerfulflag)(); -- {{% lua_type_number %}}
+- [CastRestriction](castrestriction)(); -- {{% lua_type_number %}}
+- [AllowRest](allowrest)(); -- {{% lua_type_boolean %}}
+- [InCombat](incombat)(); -- {{% lua_type_boolean %}}
+- [OutOfCombat](outofcombat)(); -- {{% lua_type_boolean %}}
+- [AEMaxTargets](aemaxtargets)(); -- {{% lua_type_number %}}
+- [PersistDeath](persistdeath)(); -- {{% lua_type_boolean %}}
+- [MinDist](mindist)(); -- {{% lua_type_number %}}
+- [MinDistMod](mindistmod)(); -- {{% lua_type_number %}}
+- [MaxDist](maxdist)(); -- {{% lua_type_number %}}
+- [MaxDistMod](maxdistmod)(); -- {{% lua_type_number %}}
+- [MinRange](minrange)(); -- {{% lua_type_number %}}
+- [DamageShieldType](damageshieldtype)(); -- {{% lua_type_number %}}

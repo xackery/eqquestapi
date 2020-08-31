@@ -7,241 +7,241 @@ weight: 25
 ---
 
 ## Stat Bonuses Methods
-- [AC](ac)(); -- number
-- [HP](hp)(); -- number
-- [HPRegen](hpregen)(); -- number
-- [MaxHP](maxhp)(); -- number
-- [ManaRegen](manaregen)(); -- number
-- [EnduranceRegen](enduranceregen)(); -- number
-- [ATK](atk)(); -- number
-- [STR](str)(); -- number
-- [STRCapMod](strcapmod)(); -- number
-- [HeroicSTR](heroicstr)(); -- number
-- [STACapMod](stacapmod)(); -- number
-- [HeroicSTA](heroicsta)(); -- number
-- [DEX](dex)(); -- number
-- [DEXCapMod](dexcapmod)(); -- number
-- [HeroicDEX](heroicdex)(); -- number
-- [AGI](agi)(); -- number
-- [AGICapMod](agicapmod)(); -- number
-- [HeroicAGI](heroicagi)(); -- number
-- [INT](int)(); -- number
-- [INTCapMod](intcapmod)(); -- number
-- [HeroicINT](heroicint)(); -- number
-- [WIS](wis)(); -- number
-- [WISCapMod](wiscapmod)(); -- number
-- [HeroicWIS](heroicwis)(); -- number
-- [CHA](cha)(); -- number
-- [CHACapMod](chacapmod)(); -- number
-- [HeroicCHA](heroiccha)(); -- number
-- [MR](mr)(); -- number
-- [MRCapMod](mrcapmod)(); -- number
-- [HeroicMR](heroicmr)(); -- number
-- [FR](fr)(); -- number
-- [FRCapMod](frcapmod)(); -- number
-- [HeroicFR](heroicfr)(); -- number
-- [CR](cr)(); -- number
-- [CRCapMod](crcapmod)(); -- number
-- [HeroicCR](heroiccr)(); -- number
-- [PRCapMod](prcapmod)(); -- number
-- [HeroicPR](heroicpr)(); -- number
-- [DR](dr)(); -- number
-- [DRCapMod](drcapmod)(); -- number
-- [HeroicDR](heroicdr)(); -- number
-- [Corrup](corrup)(); -- number
-- [CorrupCapMod](corrupcapmod)(); -- number
-- [HeroicCorrup](heroiccorrup)(); -- number
-- [DamageShieldSpellID](damageshieldspellid)(); -- number
-- [DamageShieldType](damageshieldtype)(); -- number
-- [SpellDamageShield](spelldamageshield)(); -- number
-- [SpellShield](spellshield)(); -- number
-- [ReverseDamageShield](reversedamageshield)(); -- number
-- [ReverseDamageShieldSpellID](reversedamageshieldspellid)(); -- number
-- [ReverseDamageShieldType](reversedamageshieldtype)(); -- number
-- [movementspeed](movementspeed)(); -- number
-- [haste](haste)(); -- number
-- [inhibitmelee](inhibitmelee)(); -- number
-- [AggroRange](aggrorange)(); -- number
-- [AssistRange](assistrange)(); -- number
-- [skillmod](skillmod)(number idx); -- number
-- [skillmodmax](skillmodmax)(number idx); -- number
-- [singingMod](singingmod)(); -- number
-- [Amplification](amplification)(); -- number
-- [brassMod](brassmod)(); -- number
-- [percussionMod](percussionmod)(); -- number
-- [windMod](windmod)(); -- number
-- [stringedMod](stringedmod)(); -- number
-- [songModCap](songmodcap)(); -- number
-- [hatemod](hatemod)(); -- number
-- [EnduranceReduction](endurancereduction)(); -- number
-- [StrikeThrough](strikethrough)(); -- number
-- [MeleeMitigation](meleemitigation)(); -- number
-- [MeleeMitigationEffect](meleemitigationeffect)(); -- number
-- [CriticalHitChance](criticalhitchance)(number idx); -- number
-- [CriticalSpellChance](criticalspellchance)(); -- number
-- [SpellCritDmgIncrease](spellcritdmgincrease)(); -- number
-- [SpellCritDmgIncNoStack](spellcritdmgincnostack)(); -- number
-- [DotCritDmgIncrease](dotcritdmgincrease)(); -- number
-- [CriticalHealChance](criticalhealchance)(); -- number
-- [CriticalHealOverTime](criticalhealovertime)(); -- number
-- [CriticalDoTChance](criticaldotchance)(); -- number
-- [CrippBlowChance](crippblowchance)(); -- number
-- [AvoidMeleeChance](avoidmeleechance)(); -- number
-- [AvoidMeleeChanceEffect](avoidmeleechanceeffect)(); -- number
-- [RiposteChance](ripostechance)(); -- number
-- [DodgeChance](dodgechance)(); -- number
-- [ParryChance](parrychance)(); -- number
-- [DualWieldChance](dualwieldchance)(); -- number
-- [DoubleAttackChance](doubleattackchance)(); -- number
-- [TripleAttackChance](tripleattackchance)(); -- number
-- [DoubleRangedAttack](doublerangedattack)(); -- number
-- [ResistSpellChance](resistspellchance)(); -- number
-- [ResistFearChance](resistfearchance)(); -- number
-- [Fearless](fearless)(); -- bool
-- [IsFeared](isfeared)(); -- bool
-- [IsBlind](isblind)(); -- bool
-- [StunResist](stunresist)(); -- number
-- [MeleeSkillCheck](meleeskillcheck)(); -- number
-- [MeleeSkillCheckSkill](meleeskillcheckskill)(); -- number
-- [HitChanceEffect](hitchanceeffect)(number idx); -- number
-- [DamageModifier](damagemodifier)(number idx); -- number
-- [MinDamageModifier](mindamagemodifier)(number idx); -- number
-- [ProcChance](procchance)(); -- number
-- [ProcChanceSPA](procchancespa)(); -- number
-- [ExtraAttackChance](extraattackchance)(); -- number
-- [DoTShielding](dotshielding)(); -- number
-- [FlurryChance](flurrychance)(); -- number
-- [HundredHands](hundredhands)(); -- number
-- [MeleeLifetap](meleelifetap)(); -- number
-- [Vampirism](vampirism)(); -- number
-- [HealRate](healrate)(); -- number
-- [MaxHPChange](maxhpchange)(); -- number
-- [HealAmt](healamt)(); -- number
-- [SpellDmg](spelldmg)(); -- number
-- [Clairvoyance](clairvoyance)(); -- number
-- [DSMitigation](dsmitigation)(); -- number
-- [DSMitigationOffHand](dsmitigationoffhand)(); -- number
-- [TwoHandBluntBlock](twohandbluntblock)(); -- number
-- [ItemManaRegenCap](itemmanaregencap)(); -- number
-- [GravityEffect](gravityeffect)(); -- number
-- [AntiGate](antigate)(); -- bool
-- [MagicWeapon](magicweapon)(); -- bool
-- [IncreaseBlockChance](increaseblockchance)(); -- number
-- [PersistantCasting](persistantcasting)(); -- number
-- [XPRateMod](xpratemod)(); -- number
-- [BlockNextSpell](blocknextspell)(); -- bool
-- [ImmuneToFlee](immunetoflee)(); -- bool
-- [VoiceGraft](voicegraft)(); -- number
-- [SpellProcChance](spellprocchance)(); -- number
-- [CharmBreakChance](charmbreakchance)(); -- number
-- [SongRange](songrange)(); -- number
-- [HPToManaConvert](hptomanaconvert)(); -- number
-- [NegateEffects](negateeffects)(); -- bool
-- [TriggerMeleeThreshold](triggermeleethreshold)(); -- bool
-- [TriggerSpellThreshold](triggerspellthreshold)(); -- bool
-- [ShieldBlock](shieldblock)(); -- number
-- [BlockBehind](blockbehind)(); -- number
-- [CriticalRegenDecay](criticalregendecay)(); -- bool
-- [CriticalHealDecay](criticalhealdecay)(); -- bool
-- [CriticalDotDecay](criticaldotdecay)(); -- bool
-- [DivineAura](divineaura)(); -- bool
-- [DistanceRemoval](distanceremoval)(); -- bool
-- [FrenziedDevastation](frenzieddevastation)(); -- number
-- [NegateIfCombat](negateifcombat)(); -- bool
-- [Screech](screech)(); -- number
-- [AlterNPCLevel](alternpclevel)(); -- number
-- [BerserkSPA](berserkspa)(); -- bool
-- [Metabolism](metabolism)(); -- number
-- [Sanctuary](sanctuary)(); -- bool
-- [FactionModPct](factionmodpct)(); -- number
-- [Packrat](packrat)(); -- number
-- [BuffSlotIncrease](buffslotincrease)(); -- number
-- [DelayDeath](delaydeath)(); -- number
-- [BaseMovementSpeed](basemovementspeed)(); -- number
-- [IncreaseRunSpeedCap](increaserunspeedcap)(); -- number
-- [DoubleSpecialAttack](doublespecialattack)(); -- number
-- [FrontalStunResist](frontalstunresist)(); -- number
-- [BindWound](bindwound)(); -- number
-- [MaxBindWound](maxbindwound)(); -- number
-- [ChannelChanceSpells](channelchancespells)(); -- number
-- [ChannelChanceItems](channelchanceitems)(); -- number
-- [SeeInvis](seeinvis)(); -- number
-- [TripleBackstab](triplebackstab)(); -- number
-- [FrontalBackstabMinDmg](frontalbackstabmindmg)(); -- bool
-- [FrontalBackstabChance](frontalbackstabchance)(); -- number
-- [ConsumeProjectile](consumeprojectile)(); -- number
-- [ForageAdditionalItems](forageadditionalitems)(); -- number
-- [SalvageChance](salvagechance)(); -- number
-- [ArcheryDamageModifier](archerydamagemodifier)(); -- number
-- [SecondaryDmgInc](secondarydmginc)(); -- bool
-- [GiveDoubleAttack](givedoubleattack)(); -- number
-- [PetCriticalHit](petcriticalhit)(); -- number
-- [PetAvoidance](petavoidance)(); -- number
-- [CombatStability](combatstability)(); -- number
-- [DoubleRiposte](doubleriposte)(); -- number
-- [Ambidexterity](ambidexterity)(); -- number
-- [PetMaxHP](petmaxhp)(); -- number
-- [PetFlurry](petflurry)(); -- number
-- [MasteryofPast](masteryofpast)(); -- number
-- [GivePetGroupTarget](givepetgrouptarget)(); -- bool
-- [RootBreakChance](rootbreakchance)(); -- number
-- [UnfailingDivinity](unfailingdivinity)(); -- number
-- [ItemHPRegenCap](itemhpregencap)(); -- number
-- [OffhandRiposteFail](offhandripostefail)(); -- number
-- [ItemATKCap](itematkcap)(); -- number
-- [ShieldEquipDmgMod](shieldequipdmgmod)(); -- number
-- [TriggerOnValueAmount](triggeronvalueamount)(); -- bool
-- [StunBashChance](stunbashchance)(); -- number
-- [IncreaseChanceMemwipe](increasechancememwipe)(); -- number
-- [CriticalMend](criticalmend)(); -- number
-- [ImprovedReclaimEnergy](improvedreclaimenergy)(); -- number
-- [PetMeleeMitigation](petmeleemitigation)(); -- number
-- [IllusionPersistence](illusionpersistence)(); -- bool
-- [ShroudofStealth](shroudofstealth)(); -- bool
-- [ReduceFallDamage](reducefalldamage)(); -- number
-- [TradeSkillMastery](tradeskillmastery)(); -- number
-- [NoBreakAESneak](nobreakaesneak)(); -- number
-- [FeignedCastOnChance](feignedcastonchance)(); -- number
-- [DivineSaveChance](divinesavechance)(number idx); -- number
-- [DeathSave](deathsave)(number idx); -- number
-- [Accuracy](accuracy)(number idx); -- number
-- [SkillDmgTaken](skilldmgtaken)(number idx); -- number
-- [SpellTriggers](spelltriggers)(number idx); -- number
-- [SpellOnKill](spellonkill)(number idx); -- number
-- [SpellOnDeath](spellondeath)(number idx); -- number
-- [CritDmgMod](critdmgmod)(number idx); -- number
-- [SkillReuseTime](skillreusetime)(number idx); -- number
-- [SkillDamageAmount](skilldamageamount)(number idx); -- number
-- [HPPercCap](hpperccap)(number idx); -- number
-- [ManaPercCap](manaperccap)(number idx); -- number
-- [EndPercCap](endperccap)(number idx); -- number
-- [FocusEffects](focuseffects)(number idx); -- number
-- [FocusEffectsWorn](focuseffectsworn)(number idx); -- number
-- [NegateAttacks](negateattacks)(number idx); -- number
-- [MitigateMeleeRune](mitigatemeleerune)(number idx); -- number
-- [MeleeThresholdGuard](meleethresholdguard)(number idx); -- number
-- [SpellThresholdGuard](spellthresholdguard)(number idx); -- number
-- [MitigateSpellRune](mitigatespellrune)(number idx); -- number
-- [MitigateDotRune](mitigatedotrune)(number idx); -- number
-- [ManaAbsorbPercentDamage](manaabsorbpercentdamage)(number idx); -- number
-- [ImprovedTaunt](improvedtaunt)(number idx); -- number
-- [AbsorbMagicAtt](absorbmagicatt)(number idx); -- number
-- [AStacker](astacker)(number idx); -- number
-- [BStacker](bstacker)(number idx); -- number
-- [CStacker](cstacker)(number idx); -- number
-- [DStacker](dstacker)(number idx); -- number
-- [LimitToSkill](limittoskill)(number idx); -- bool
-- [SkillProc](skillproc)(number idx); -- number
-- [SkillProcSuccess](skillprocsuccess)(number idx); -- number
-- [SkillAttackProc](skillattackproc)(number idx); -- number
-- [SlayUndead](slayundead)(number idx); -- number
-- [GiveDoubleRiposte](givedoubleriposte)(number idx); -- number
-- [RaiseSkillCap](raiseskillcap)(number idx); -- number
-- [SEResist](seresist)(number idx); -- number
-- [FinishingBlow](finishingblow)(number idx); -- number
-- [FinishingBlowLvl](finishingblowlvl)(number idx); -- number
-- [HeadShot](headshot)(number idx); -- number
-- [HSLevel](hslevel)(number idx); -- number
-- [Assassinate](assassinate)(number idx); -- number
-- [AssassinateLevel](assassinatelevel)(number idx); -- number
-- [ReduceTradeskillFail](reducetradeskillfail)(number idx); -- number
+- [AC](ac)(); -- {{% lua_type_number %}}
+- [HP](hp)(); -- {{% lua_type_number %}}
+- [HPRegen](hpregen)(); -- {{% lua_type_number %}}
+- [MaxHP](maxhp)(); -- {{% lua_type_number %}}
+- [ManaRegen](manaregen)(); -- {{% lua_type_number %}}
+- [EnduranceRegen](enduranceregen)(); -- {{% lua_type_number %}}
+- [ATK](atk)(); -- {{% lua_type_number %}}
+- [STR](str)(); -- {{% lua_type_number %}}
+- [STRCapMod](strcapmod)(); -- {{% lua_type_number %}}
+- [HeroicSTR](heroicstr)(); -- {{% lua_type_number %}}
+- [STACapMod](stacapmod)(); -- {{% lua_type_number %}}
+- [HeroicSTA](heroicsta)(); -- {{% lua_type_number %}}
+- [DEX](dex)(); -- {{% lua_type_number %}}
+- [DEXCapMod](dexcapmod)(); -- {{% lua_type_number %}}
+- [HeroicDEX](heroicdex)(); -- {{% lua_type_number %}}
+- [AGI](agi)(); -- {{% lua_type_number %}}
+- [AGICapMod](agicapmod)(); -- {{% lua_type_number %}}
+- [HeroicAGI](heroicagi)(); -- {{% lua_type_number %}}
+- [INT](int)(); -- {{% lua_type_number %}}
+- [INTCapMod](intcapmod)(); -- {{% lua_type_number %}}
+- [HeroicINT](heroicint)(); -- {{% lua_type_number %}}
+- [WIS](wis)(); -- {{% lua_type_number %}}
+- [WISCapMod](wiscapmod)(); -- {{% lua_type_number %}}
+- [HeroicWIS](heroicwis)(); -- {{% lua_type_number %}}
+- [CHA](cha)(); -- {{% lua_type_number %}}
+- [CHACapMod](chacapmod)(); -- {{% lua_type_number %}}
+- [HeroicCHA](heroiccha)(); -- {{% lua_type_number %}}
+- [MR](mr)(); -- {{% lua_type_number %}}
+- [MRCapMod](mrcapmod)(); -- {{% lua_type_number %}}
+- [HeroicMR](heroicmr)(); -- {{% lua_type_number %}}
+- [FR](fr)(); -- {{% lua_type_number %}}
+- [FRCapMod](frcapmod)(); -- {{% lua_type_number %}}
+- [HeroicFR](heroicfr)(); -- {{% lua_type_number %}}
+- [CR](cr)(); -- {{% lua_type_number %}}
+- [CRCapMod](crcapmod)(); -- {{% lua_type_number %}}
+- [HeroicCR](heroiccr)(); -- {{% lua_type_number %}}
+- [PRCapMod](prcapmod)(); -- {{% lua_type_number %}}
+- [HeroicPR](heroicpr)(); -- {{% lua_type_number %}}
+- [DR](dr)(); -- {{% lua_type_number %}}
+- [DRCapMod](drcapmod)(); -- {{% lua_type_number %}}
+- [HeroicDR](heroicdr)(); -- {{% lua_type_number %}}
+- [Corrup](corrup)(); -- {{% lua_type_number %}}
+- [CorrupCapMod](corrupcapmod)(); -- {{% lua_type_number %}}
+- [HeroicCorrup](heroiccorrup)(); -- {{% lua_type_number %}}
+- [DamageShieldSpellID](damageshieldspellid)(); -- {{% lua_type_number %}}
+- [DamageShieldType](damageshieldtype)(); -- {{% lua_type_number %}}
+- [SpellDamageShield](spelldamageshield)(); -- {{% lua_type_number %}}
+- [SpellShield](spellshield)(); -- {{% lua_type_number %}}
+- [ReverseDamageShield](reversedamageshield)(); -- {{% lua_type_number %}}
+- [ReverseDamageShieldSpellID](reversedamageshieldspellid)(); -- {{% lua_type_number %}}
+- [ReverseDamageShieldType](reversedamageshieldtype)(); -- {{% lua_type_number %}}
+- [movementspeed](movementspeed)(); -- {{% lua_type_number %}}
+- [haste](haste)(); -- {{% lua_type_number %}}
+- [inhibitmelee](inhibitmelee)(); -- {{% lua_type_number %}}
+- [AggroRange](aggrorange)(); -- {{% lua_type_number %}}
+- [AssistRange](assistrange)(); -- {{% lua_type_number %}}
+- [skillmod](skillmod)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [skillmodmax](skillmodmax)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [singingMod](singingmod)(); -- {{% lua_type_number %}}
+- [Amplification](amplification)(); -- {{% lua_type_number %}}
+- [brassMod](brassmod)(); -- {{% lua_type_number %}}
+- [percussionMod](percussionmod)(); -- {{% lua_type_number %}}
+- [windMod](windmod)(); -- {{% lua_type_number %}}
+- [stringedMod](stringedmod)(); -- {{% lua_type_number %}}
+- [songModCap](songmodcap)(); -- {{% lua_type_number %}}
+- [hatemod](hatemod)(); -- {{% lua_type_number %}}
+- [EnduranceReduction](endurancereduction)(); -- {{% lua_type_number %}}
+- [StrikeThrough](strikethrough)(); -- {{% lua_type_number %}}
+- [MeleeMitigation](meleemitigation)(); -- {{% lua_type_number %}}
+- [MeleeMitigationEffect](meleemitigationeffect)(); -- {{% lua_type_number %}}
+- [CriticalHitChance](criticalhitchance)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [CriticalSpellChance](criticalspellchance)(); -- {{% lua_type_number %}}
+- [SpellCritDmgIncrease](spellcritdmgincrease)(); -- {{% lua_type_number %}}
+- [SpellCritDmgIncNoStack](spellcritdmgincnostack)(); -- {{% lua_type_number %}}
+- [DotCritDmgIncrease](dotcritdmgincrease)(); -- {{% lua_type_number %}}
+- [CriticalHealChance](criticalhealchance)(); -- {{% lua_type_number %}}
+- [CriticalHealOverTime](criticalhealovertime)(); -- {{% lua_type_number %}}
+- [CriticalDoTChance](criticaldotchance)(); -- {{% lua_type_number %}}
+- [CrippBlowChance](crippblowchance)(); -- {{% lua_type_number %}}
+- [AvoidMeleeChance](avoidmeleechance)(); -- {{% lua_type_number %}}
+- [AvoidMeleeChanceEffect](avoidmeleechanceeffect)(); -- {{% lua_type_number %}}
+- [RiposteChance](ripostechance)(); -- {{% lua_type_number %}}
+- [DodgeChance](dodgechance)(); -- {{% lua_type_number %}}
+- [ParryChance](parrychance)(); -- {{% lua_type_number %}}
+- [DualWieldChance](dualwieldchance)(); -- {{% lua_type_number %}}
+- [DoubleAttackChance](doubleattackchance)(); -- {{% lua_type_number %}}
+- [TripleAttackChance](tripleattackchance)(); -- {{% lua_type_number %}}
+- [DoubleRangedAttack](doublerangedattack)(); -- {{% lua_type_number %}}
+- [ResistSpellChance](resistspellchance)(); -- {{% lua_type_number %}}
+- [ResistFearChance](resistfearchance)(); -- {{% lua_type_number %}}
+- [Fearless](fearless)(); -- {{% lua_type_boolean %}}
+- [IsFeared](isfeared)(); -- {{% lua_type_boolean %}}
+- [IsBlind](isblind)(); -- {{% lua_type_boolean %}}
+- [StunResist](stunresist)(); -- {{% lua_type_number %}}
+- [MeleeSkillCheck](meleeskillcheck)(); -- {{% lua_type_number %}}
+- [MeleeSkillCheckSkill](meleeskillcheckskill)(); -- {{% lua_type_number %}}
+- [HitChanceEffect](hitchanceeffect)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [DamageModifier](damagemodifier)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [MinDamageModifier](mindamagemodifier)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [ProcChance](procchance)(); -- {{% lua_type_number %}}
+- [ProcChanceSPA](procchancespa)(); -- {{% lua_type_number %}}
+- [ExtraAttackChance](extraattackchance)(); -- {{% lua_type_number %}}
+- [DoTShielding](dotshielding)(); -- {{% lua_type_number %}}
+- [FlurryChance](flurrychance)(); -- {{% lua_type_number %}}
+- [HundredHands](hundredhands)(); -- {{% lua_type_number %}}
+- [MeleeLifetap](meleelifetap)(); -- {{% lua_type_number %}}
+- [Vampirism](vampirism)(); -- {{% lua_type_number %}}
+- [HealRate](healrate)(); -- {{% lua_type_number %}}
+- [MaxHPChange](maxhpchange)(); -- {{% lua_type_number %}}
+- [HealAmt](healamt)(); -- {{% lua_type_number %}}
+- [SpellDmg](spelldmg)(); -- {{% lua_type_number %}}
+- [Clairvoyance](clairvoyance)(); -- {{% lua_type_number %}}
+- [DSMitigation](dsmitigation)(); -- {{% lua_type_number %}}
+- [DSMitigationOffHand](dsmitigationoffhand)(); -- {{% lua_type_number %}}
+- [TwoHandBluntBlock](twohandbluntblock)(); -- {{% lua_type_number %}}
+- [ItemManaRegenCap](itemmanaregencap)(); -- {{% lua_type_number %}}
+- [GravityEffect](gravityeffect)(); -- {{% lua_type_number %}}
+- [AntiGate](antigate)(); -- {{% lua_type_boolean %}}
+- [MagicWeapon](magicweapon)(); -- {{% lua_type_boolean %}}
+- [IncreaseBlockChance](increaseblockchance)(); -- {{% lua_type_number %}}
+- [PersistantCasting](persistantcasting)(); -- {{% lua_type_number %}}
+- [XPRateMod](xpratemod)(); -- {{% lua_type_number %}}
+- [BlockNextSpell](blocknextspell)(); -- {{% lua_type_boolean %}}
+- [ImmuneToFlee](immunetoflee)(); -- {{% lua_type_boolean %}}
+- [VoiceGraft](voicegraft)(); -- {{% lua_type_number %}}
+- [SpellProcChance](spellprocchance)(); -- {{% lua_type_number %}}
+- [CharmBreakChance](charmbreakchance)(); -- {{% lua_type_number %}}
+- [SongRange](songrange)(); -- {{% lua_type_number %}}
+- [HPToManaConvert](hptomanaconvert)(); -- {{% lua_type_number %}}
+- [NegateEffects](negateeffects)(); -- {{% lua_type_boolean %}}
+- [TriggerMeleeThreshold](triggermeleethreshold)(); -- {{% lua_type_boolean %}}
+- [TriggerSpellThreshold](triggerspellthreshold)(); -- {{% lua_type_boolean %}}
+- [ShieldBlock](shieldblock)(); -- {{% lua_type_number %}}
+- [BlockBehind](blockbehind)(); -- {{% lua_type_number %}}
+- [CriticalRegenDecay](criticalregendecay)(); -- {{% lua_type_boolean %}}
+- [CriticalHealDecay](criticalhealdecay)(); -- {{% lua_type_boolean %}}
+- [CriticalDotDecay](criticaldotdecay)(); -- {{% lua_type_boolean %}}
+- [DivineAura](divineaura)(); -- {{% lua_type_boolean %}}
+- [DistanceRemoval](distanceremoval)(); -- {{% lua_type_boolean %}}
+- [FrenziedDevastation](frenzieddevastation)(); -- {{% lua_type_number %}}
+- [NegateIfCombat](negateifcombat)(); -- {{% lua_type_boolean %}}
+- [Screech](screech)(); -- {{% lua_type_number %}}
+- [AlterNPCLevel](alternpclevel)(); -- {{% lua_type_number %}}
+- [BerserkSPA](berserkspa)(); -- {{% lua_type_boolean %}}
+- [Metabolism](metabolism)(); -- {{% lua_type_number %}}
+- [Sanctuary](sanctuary)(); -- {{% lua_type_boolean %}}
+- [FactionModPct](factionmodpct)(); -- {{% lua_type_number %}}
+- [Packrat](packrat)(); -- {{% lua_type_number %}}
+- [BuffSlotIncrease](buffslotincrease)(); -- {{% lua_type_number %}}
+- [DelayDeath](delaydeath)(); -- {{% lua_type_number %}}
+- [BaseMovementSpeed](basemovementspeed)(); -- {{% lua_type_number %}}
+- [IncreaseRunSpeedCap](increaserunspeedcap)(); -- {{% lua_type_number %}}
+- [DoubleSpecialAttack](doublespecialattack)(); -- {{% lua_type_number %}}
+- [FrontalStunResist](frontalstunresist)(); -- {{% lua_type_number %}}
+- [BindWound](bindwound)(); -- {{% lua_type_number %}}
+- [MaxBindWound](maxbindwound)(); -- {{% lua_type_number %}}
+- [ChannelChanceSpells](channelchancespells)(); -- {{% lua_type_number %}}
+- [ChannelChanceItems](channelchanceitems)(); -- {{% lua_type_number %}}
+- [SeeInvis](seeinvis)(); -- {{% lua_type_number %}}
+- [TripleBackstab](triplebackstab)(); -- {{% lua_type_number %}}
+- [FrontalBackstabMinDmg](frontalbackstabmindmg)(); -- {{% lua_type_boolean %}}
+- [FrontalBackstabChance](frontalbackstabchance)(); -- {{% lua_type_number %}}
+- [ConsumeProjectile](consumeprojectile)(); -- {{% lua_type_number %}}
+- [ForageAdditionalItems](forageadditionalitems)(); -- {{% lua_type_number %}}
+- [SalvageChance](salvagechance)(); -- {{% lua_type_number %}}
+- [ArcheryDamageModifier](archerydamagemodifier)(); -- {{% lua_type_number %}}
+- [SecondaryDmgInc](secondarydmginc)(); -- {{% lua_type_boolean %}}
+- [GiveDoubleAttack](givedoubleattack)(); -- {{% lua_type_number %}}
+- [PetCriticalHit](petcriticalhit)(); -- {{% lua_type_number %}}
+- [PetAvoidance](petavoidance)(); -- {{% lua_type_number %}}
+- [CombatStability](combatstability)(); -- {{% lua_type_number %}}
+- [DoubleRiposte](doubleriposte)(); -- {{% lua_type_number %}}
+- [Ambidexterity](ambidexterity)(); -- {{% lua_type_number %}}
+- [PetMaxHP](petmaxhp)(); -- {{% lua_type_number %}}
+- [PetFlurry](petflurry)(); -- {{% lua_type_number %}}
+- [MasteryofPast](masteryofpast)(); -- {{% lua_type_number %}}
+- [GivePetGroupTarget](givepetgrouptarget)(); -- {{% lua_type_boolean %}}
+- [RootBreakChance](rootbreakchance)(); -- {{% lua_type_number %}}
+- [UnfailingDivinity](unfailingdivinity)(); -- {{% lua_type_number %}}
+- [ItemHPRegenCap](itemhpregencap)(); -- {{% lua_type_number %}}
+- [OffhandRiposteFail](offhandripostefail)(); -- {{% lua_type_number %}}
+- [ItemATKCap](itematkcap)(); -- {{% lua_type_number %}}
+- [ShieldEquipDmgMod](shieldequipdmgmod)(); -- {{% lua_type_number %}}
+- [TriggerOnValueAmount](triggeronvalueamount)(); -- {{% lua_type_boolean %}}
+- [StunBashChance](stunbashchance)(); -- {{% lua_type_number %}}
+- [IncreaseChanceMemwipe](increasechancememwipe)(); -- {{% lua_type_number %}}
+- [CriticalMend](criticalmend)(); -- {{% lua_type_number %}}
+- [ImprovedReclaimEnergy](improvedreclaimenergy)(); -- {{% lua_type_number %}}
+- [PetMeleeMitigation](petmeleemitigation)(); -- {{% lua_type_number %}}
+- [IllusionPersistence](illusionpersistence)(); -- {{% lua_type_boolean %}}
+- [ShroudofStealth](shroudofstealth)(); -- {{% lua_type_boolean %}}
+- [ReduceFallDamage](reducefalldamage)(); -- {{% lua_type_number %}}
+- [TradeSkillMastery](tradeskillmastery)(); -- {{% lua_type_number %}}
+- [NoBreakAESneak](nobreakaesneak)(); -- {{% lua_type_number %}}
+- [FeignedCastOnChance](feignedcastonchance)(); -- {{% lua_type_number %}}
+- [DivineSaveChance](divinesavechance)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [DeathSave](deathsave)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [Accuracy](accuracy)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SkillDmgTaken](skilldmgtaken)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SpellTriggers](spelltriggers)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SpellOnKill](spellonkill)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SpellOnDeath](spellondeath)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [CritDmgMod](critdmgmod)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SkillReuseTime](skillreusetime)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SkillDamageAmount](skilldamageamount)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [HPPercCap](hpperccap)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [ManaPercCap](manaperccap)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [EndPercCap](endperccap)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [FocusEffects](focuseffects)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [FocusEffectsWorn](focuseffectsworn)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [NegateAttacks](negateattacks)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [MitigateMeleeRune](mitigatemeleerune)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [MeleeThresholdGuard](meleethresholdguard)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SpellThresholdGuard](spellthresholdguard)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [MitigateSpellRune](mitigatespellrune)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [MitigateDotRune](mitigatedotrune)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [ManaAbsorbPercentDamage](manaabsorbpercentdamage)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [ImprovedTaunt](improvedtaunt)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [AbsorbMagicAtt](absorbmagicatt)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [AStacker](astacker)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [BStacker](bstacker)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [CStacker](cstacker)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [DStacker](dstacker)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [LimitToSkill](limittoskill)({{% lua_type_number %}} idx); -- {{% lua_type_boolean %}}
+- [SkillProc](skillproc)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SkillProcSuccess](skillprocsuccess)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SkillAttackProc](skillattackproc)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SlayUndead](slayundead)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [GiveDoubleRiposte](givedoubleriposte)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [RaiseSkillCap](raiseskillcap)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [SEResist](seresist)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [FinishingBlow](finishingblow)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [FinishingBlowLvl](finishingblowlvl)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [HeadShot](headshot)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [HSLevel](hslevel)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [Assassinate](assassinate)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [AssassinateLevel](assassinatelevel)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
+- [ReduceTradeskillFail](reducetradeskillfail)({{% lua_type_number %}} idx); -- {{% lua_type_number %}}
