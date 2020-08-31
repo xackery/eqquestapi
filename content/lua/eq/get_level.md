@@ -1,6 +1,6 @@
 ---
 title: get_level
-searchTitle: Lua eq get_level
+searchTitle: Lua EQ get_level
 weight: 1
 hidden: true
 menuTitle: get_level

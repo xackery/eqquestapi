@@ -1,6 +1,6 @@
 ---
 title: stop
-searchTitle: Lua eq stop
+searchTitle: Lua EQ stop
 weight: 1
 hidden: true
 menuTitle: stop

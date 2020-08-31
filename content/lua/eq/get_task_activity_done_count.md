@@ -1,6 +1,6 @@
 ---
 title: get_task_activity_done_count
-searchTitle: Lua eq get_task_activity_done_count
+searchTitle: Lua EQ get_task_activity_done_count
 weight: 1
 hidden: true
 menuTitle: get_task_activity_done_count

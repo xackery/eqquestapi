@@ -1,6 +1,6 @@
 ---
 title: stop_follow
-searchTitle: Lua eq stop_follow
+searchTitle: Lua EQ stop_follow
 weight: 1
 hidden: true
 menuTitle: stop_follow

@@ -1,6 +1,6 @@
 ---
 title: train_discs
-searchTitle: Lua eq train_discs
+searchTitle: Lua EQ train_discs
 weight: 1
 hidden: true
 menuTitle: train_discs

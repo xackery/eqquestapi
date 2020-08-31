@@ -1,6 +1,6 @@
 ---
 title: world_emote
-searchTitle: Lua eq world_emote
+searchTitle: Lua EQ world_emote
 weight: 1
 hidden: true
 menuTitle: world_emote

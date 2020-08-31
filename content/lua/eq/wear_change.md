@@ -1,6 +1,6 @@
 ---
 title: wear_change
-searchTitle: Lua eq wear_change
+searchTitle: Lua EQ wear_change
 weight: 1
 hidden: true
 menuTitle: wear_change

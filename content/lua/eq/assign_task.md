@@ -1,6 +1,6 @@
 ---
 title: assign_task
-searchTitle: Lua eq assign_task
+searchTitle: Lua EQ assign_task
 weight: 1
 hidden: true
 menuTitle: assign_task

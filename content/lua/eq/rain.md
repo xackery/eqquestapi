@@ -1,6 +1,6 @@
 ---
 title: rain
-searchTitle: Lua eq rain
+searchTitle: Lua EQ rain
 weight: 1
 hidden: true
 menuTitle: rain

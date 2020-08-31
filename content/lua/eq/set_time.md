@@ -1,6 +1,6 @@
 ---
 title: set_time
-searchTitle: Lua eq set_time
+searchTitle: Lua EQ set_time
 weight: 1
 hidden: true
 menuTitle: set_time

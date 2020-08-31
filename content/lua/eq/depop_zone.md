@@ -1,6 +1,6 @@
 ---
 title: depop_zone
-searchTitle: Lua eq depop_zone
+searchTitle: Lua EQ depop_zone
 weight: 1
 hidden: true
 menuTitle: depop_zone

@@ -1,6 +1,6 @@
 ---
 title: first_task_in_set
-searchTitle: Lua eq first_task_in_set
+searchTitle: Lua EQ first_task_in_set
 weight: 1
 hidden: true
 menuTitle: first_task_in_set

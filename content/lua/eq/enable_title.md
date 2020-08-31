@@ -1,6 +1,6 @@
 ---
 title: enable_title
-searchTitle: Lua eq enable_title
+searchTitle: Lua EQ enable_title
 weight: 1
 hidden: true
 menuTitle: enable_title

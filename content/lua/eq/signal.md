@@ -1,6 +1,6 @@
 ---
 title: signal
-searchTitle: Lua eq signal
+searchTitle: Lua EQ signal
 weight: 1
 hidden: true
 menuTitle: signal

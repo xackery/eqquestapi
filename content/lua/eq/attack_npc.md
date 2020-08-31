@@ -1,6 +1,6 @@
 ---
 title: attack_npc
-searchTitle: Lua eq attack_npc
+searchTitle: Lua EQ attack_npc
 weight: 1
 hidden: true
 menuTitle: attack_npc

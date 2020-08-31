@@ -1,6 +1,6 @@
 ---
 title: pause_timer
-searchTitle: Lua eq pause_timer
+searchTitle: Lua EQ pause_timer
 weight: 1
 hidden: true
 menuTitle: pause_timer

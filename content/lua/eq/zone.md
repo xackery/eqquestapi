@@ -1,6 +1,6 @@
 ---
 title: zone
-searchTitle: Lua eq zone
+searchTitle: Lua EQ zone
 weight: 1
 hidden: true
 menuTitle: zone

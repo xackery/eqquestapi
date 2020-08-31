@@ -1,6 +1,6 @@
 ---
 title: summon_buried_player_corpse
-searchTitle: Lua eq summon_buried_player_corpse
+searchTitle: Lua EQ summon_buried_player_corpse
 weight: 1
 hidden: true
 menuTitle: summon_buried_player_corpse

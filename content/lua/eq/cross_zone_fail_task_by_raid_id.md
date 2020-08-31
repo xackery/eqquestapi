@@ -1,6 +1,6 @@
 ---
 title: cross_zone_fail_task_by_raid_id
-searchTitle: Lua eq cross_zone_fail_task_by_raid_id
+searchTitle: Lua EQ cross_zone_fail_task_by_raid_id
 weight: 1
 hidden: true
 menuTitle: cross_zone_fail_task_by_raid_id

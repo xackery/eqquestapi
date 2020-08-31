@@ -1,6 +1,6 @@
 ---
 title: is_prophecy_of_ro_enabled
-searchTitle: Lua eq is_prophecy_of_ro_enabled
+searchTitle: Lua EQ is_prophecy_of_ro_enabled
 weight: 1
 hidden: true
 menuTitle: is_prophecy_of_ro_enabled

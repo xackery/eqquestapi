@@ -1,6 +1,6 @@
 ---
 title: start
-searchTitle: Lua eq start
+searchTitle: Lua EQ start
 weight: 1
 hidden: true
 menuTitle: start

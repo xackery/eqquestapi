@@ -1,6 +1,6 @@
 ---
 title: check_instance_by_char_id
-searchTitle: Lua eq check_instance_by_char_id
+searchTitle: Lua EQ check_instance_by_char_id
 weight: 1
 hidden: true
 menuTitle: check_instance_by_char_id

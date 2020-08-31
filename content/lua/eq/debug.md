@@ -1,6 +1,6 @@
 ---
 title: debug
-searchTitle: Lua eq debug
+searchTitle: Lua EQ debug
 weight: 1
 hidden: true
 menuTitle: debug

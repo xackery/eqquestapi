@@ -1,6 +1,6 @@
 ---
 title: assign_to_instance
-searchTitle: Lua eq assign_to_instance
+searchTitle: Lua EQ assign_to_instance
 weight: 1
 hidden: true
 menuTitle: assign_to_instance

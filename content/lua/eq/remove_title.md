@@ -1,6 +1,6 @@
 ---
 title: remove_title
-searchTitle: Lua eq remove_title
+searchTitle: Lua EQ remove_title
 weight: 1
 hidden: true
 menuTitle: remove_title

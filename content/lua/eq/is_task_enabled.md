@@ -1,6 +1,6 @@
 ---
 title: is_task_enabled
-searchTitle: Lua eq is_task_enabled
+searchTitle: Lua EQ is_task_enabled
 weight: 1
 hidden: true
 menuTitle: is_task_enabled

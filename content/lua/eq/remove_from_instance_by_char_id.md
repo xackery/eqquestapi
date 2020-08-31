@@ -1,6 +1,6 @@
 ---
 title: remove_from_instance_by_char_id
-searchTitle: Lua eq remove_from_instance_by_char_id
+searchTitle: Lua EQ remove_from_instance_by_char_id
 weight: 1
 hidden: true
 menuTitle: remove_from_instance_by_char_id

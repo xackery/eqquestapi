@@ -1,6 +1,6 @@
 ---
 title: set_next_inc_hp_event
-searchTitle: Lua eq set_next_inc_hp_event
+searchTitle: Lua EQ set_next_inc_hp_event
 weight: 1
 hidden: true
 menuTitle: set_next_inc_hp_event

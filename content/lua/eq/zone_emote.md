@@ -1,6 +1,6 @@
 ---
 title: zone_emote
-searchTitle: Lua eq zone_emote
+searchTitle: Lua EQ zone_emote
 weight: 1
 hidden: true
 menuTitle: zone_emote

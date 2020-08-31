@@ -1,6 +1,6 @@
 ---
 title: get_race_name
-searchTitle: Lua eq get_race_name
+searchTitle: Lua EQ get_race_name
 weight: 1
 hidden: true
 menuTitle: get_race_name

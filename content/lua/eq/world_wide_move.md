@@ -1,6 +1,6 @@
 ---
 title: world_wide_move
-searchTitle: Lua eq world_wide_move
+searchTitle: Lua EQ world_wide_move
 weight: 1
 hidden: true
 menuTitle: world_wide_move

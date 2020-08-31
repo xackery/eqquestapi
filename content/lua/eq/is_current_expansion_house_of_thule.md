@@ -1,6 +1,6 @@
 ---
 title: is_current_expansion_house_of_thule
-searchTitle: Lua eq is_current_expansion_house_of_thule
+searchTitle: Lua EQ is_current_expansion_house_of_thule
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_house_of_thule

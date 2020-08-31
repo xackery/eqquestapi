@@ -1,6 +1,6 @@
 ---
 title: merchant_set_item
-searchTitle: Lua eq merchant_set_item
+searchTitle: Lua EQ merchant_set_item
 weight: 1
 hidden: true
 menuTitle: merchant_set_item

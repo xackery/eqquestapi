@@ -1,6 +1,6 @@
 ---
 title: assign_to_instance_by_char_id
-searchTitle: Lua eq assign_to_instance_by_char_id
+searchTitle: Lua EQ assign_to_instance_by_char_id
 weight: 1
 hidden: true
 menuTitle: assign_to_instance_by_char_id

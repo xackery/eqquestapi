@@ -1,6 +1,6 @@
 ---
 title: get_encounter
-searchTitle: Lua eq get_encounter
+searchTitle: Lua EQ get_encounter
 weight: 1
 hidden: true
 menuTitle: get_encounter

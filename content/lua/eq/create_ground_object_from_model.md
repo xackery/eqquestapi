@@ -1,6 +1,6 @@
 ---
 title: create_ground_object_from_model
-searchTitle: Lua eq create_ground_object_from_model
+searchTitle: Lua EQ create_ground_object_from_model
 weight: 1
 hidden: true
 menuTitle: create_ground_object_from_model

@@ -1,6 +1,6 @@
 ---
 title: update_task_activity
-searchTitle: Lua eq update_task_activity
+searchTitle: Lua EQ update_task_activity
 weight: 1
 hidden: true
 menuTitle: update_task_activity

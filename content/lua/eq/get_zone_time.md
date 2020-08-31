@@ -1,6 +1,6 @@
 ---
 title: get_zone_time
-searchTitle: Lua eq get_zone_time
+searchTitle: Lua EQ get_zone_time
 weight: 1
 hidden: true
 menuTitle: get_zone_time

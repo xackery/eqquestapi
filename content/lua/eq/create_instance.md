@@ -1,6 +1,6 @@
 ---
 title: create_instance
-searchTitle: Lua eq create_instance
+searchTitle: Lua EQ create_instance
 weight: 1
 hidden: true
 menuTitle: create_instance

@@ -1,6 +1,6 @@
 ---
 title: get_zone_id
-searchTitle: Lua eq get_zone_id
+searchTitle: Lua EQ get_zone_id
 weight: 1
 hidden: true
 menuTitle: get_zone_id

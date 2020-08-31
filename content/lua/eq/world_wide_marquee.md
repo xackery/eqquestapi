@@ -1,6 +1,6 @@
 ---
 title: world_wide_marquee
-searchTitle: Lua eq world_wide_marquee
+searchTitle: Lua EQ world_wide_marquee
 weight: 1
 hidden: true
 menuTitle: world_wide_marquee

@@ -1,6 +1,6 @@
 ---
 title: disable_recipe
-searchTitle: Lua eq disable_recipe
+searchTitle: Lua EQ disable_recipe
 weight: 1
 hidden: true
 menuTitle: disable_recipe

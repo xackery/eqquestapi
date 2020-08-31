@@ -1,6 +1,6 @@
 ---
 title: resume_timer
-searchTitle: Lua eq resume_timer
+searchTitle: Lua EQ resume_timer
 weight: 1
 hidden: true
 menuTitle: resume_timer

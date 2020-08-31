@@ -1,6 +1,6 @@
 ---
 title: is_torment_of_velious_enabled
-searchTitle: Lua eq is_torment_of_velious_enabled
+searchTitle: Lua EQ is_torment_of_velious_enabled
 weight: 1
 hidden: true
 menuTitle: is_torment_of_velious_enabled

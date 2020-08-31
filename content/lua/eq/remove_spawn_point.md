@@ -1,6 +1,6 @@
 ---
 title: remove_spawn_point
-searchTitle: Lua eq remove_spawn_point
+searchTitle: Lua EQ remove_spawn_point
 weight: 1
 hidden: true
 menuTitle: remove_spawn_point

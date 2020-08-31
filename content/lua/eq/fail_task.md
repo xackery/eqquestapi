@@ -1,6 +1,6 @@
 ---
 title: fail_task
-searchTitle: Lua eq fail_task
+searchTitle: Lua EQ fail_task
 weight: 1
 hidden: true
 menuTitle: fail_task

@@ -1,6 +1,6 @@
 ---
 title: merchant_count_item
-searchTitle: Lua eq merchant_count_item
+searchTitle: Lua EQ merchant_count_item
 weight: 1
 hidden: true
 menuTitle: merchant_count_item

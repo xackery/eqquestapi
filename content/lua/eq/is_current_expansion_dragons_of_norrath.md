@@ -1,6 +1,6 @@
 ---
 title: is_current_expansion_dragons_of_norrath
-searchTitle: Lua eq is_current_expansion_dragons_of_norrath
+searchTitle: Lua EQ is_current_expansion_dragons_of_norrath
 weight: 1
 hidden: true
 menuTitle: is_current_expansion_dragons_of_norrath

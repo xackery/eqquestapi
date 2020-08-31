@@ -1,6 +1,6 @@
 ---
 title: log
-searchTitle: Lua eq log
+searchTitle: Lua EQ log
 weight: 1
 hidden: true
 menuTitle: log

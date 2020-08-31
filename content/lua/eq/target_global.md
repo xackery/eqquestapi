@@ -1,6 +1,6 @@
 ---
 title: target_global
-searchTitle: Lua eq target_global
+searchTitle: Lua EQ target_global
 weight: 1
 hidden: true
 menuTitle: target_global

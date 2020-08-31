@@ -1,6 +1,6 @@
 ---
 title: remove_area
-searchTitle: Lua eq remove_area
+searchTitle: Lua EQ remove_area
 weight: 1
 hidden: true
 menuTitle: remove_area

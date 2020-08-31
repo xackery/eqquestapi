@@ -1,6 +1,6 @@
 ---
 title: active_speak_task
-searchTitle: Lua eq active_speak_task
+searchTitle: Lua EQ active_speak_task
 weight: 1
 hidden: true
 menuTitle: active_speak_task

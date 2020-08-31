@@ -1,6 +1,6 @@
 ---
 title: attack_npc_type
-searchTitle: Lua eq attack_npc_type
+searchTitle: Lua EQ attack_npc_type
 weight: 1
 hidden: true
 menuTitle: attack_npc_type

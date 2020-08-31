@@ -1,6 +1,6 @@
 ---
 title: cross_zone_update_activity_by_group_id
-searchTitle: Lua eq cross_zone_update_activity_by_group_id
+searchTitle: Lua EQ cross_zone_update_activity_by_group_id
 weight: 1
 hidden: true
 menuTitle: cross_zone_update_activity_by_group_id

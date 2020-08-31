@@ -1,6 +1,6 @@
 ---
 title: get_item_name
-searchTitle: Lua eq get_item_name
+searchTitle: Lua EQ get_item_name
 weight: 1
 hidden: true
 menuTitle: get_item_name

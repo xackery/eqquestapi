@@ -1,6 +1,6 @@
 ---
 title: active_tasks_in_set
-searchTitle: Lua eq active_tasks_in_set
+searchTitle: Lua EQ active_tasks_in_set
 weight: 1
 hidden: true
 menuTitle: active_tasks_in_set

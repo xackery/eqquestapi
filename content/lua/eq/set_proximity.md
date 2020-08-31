@@ -1,6 +1,6 @@
 ---
 title: set_proximity
-searchTitle: Lua eq set_proximity
+searchTitle: Lua EQ set_proximity
 weight: 1
 hidden: true
 menuTitle: set_proximity

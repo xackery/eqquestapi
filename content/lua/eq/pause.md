@@ -1,6 +1,6 @@
 ---
 title: pause
-searchTitle: Lua eq pause
+searchTitle: Lua EQ pause
 weight: 1
 hidden: true
 menuTitle: pause

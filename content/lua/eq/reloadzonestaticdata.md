@@ -1,6 +1,6 @@
 ---
 title: reloadzonestaticdata
-searchTitle: Lua eq reloadzonestaticdata
+searchTitle: Lua EQ reloadzonestaticdata
 weight: 1
 hidden: true
 menuTitle: reloadzonestaticdata

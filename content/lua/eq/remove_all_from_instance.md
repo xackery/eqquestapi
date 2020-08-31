@@ -1,6 +1,6 @@
 ---
 title: remove_all_from_instance
-searchTitle: Lua eq remove_all_from_instance
+searchTitle: Lua EQ remove_all_from_instance
 weight: 1
 hidden: true
 menuTitle: remove_all_from_instance

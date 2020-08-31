@@ -1,6 +1,6 @@
 ---
 title: attack
-searchTitle: Lua eq attack
+searchTitle: Lua EQ attack
 weight: 1
 hidden: true
 menuTitle: attack

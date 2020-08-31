@@ -1,6 +1,6 @@
 ---
 title: task_set_selector
-searchTitle: Lua eq task_set_selector
+searchTitle: Lua EQ task_set_selector
 weight: 1
 hidden: true
 menuTitle: task_set_selector

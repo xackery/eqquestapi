@@ -1,6 +1,6 @@
 ---
 title: count_item
-searchTitle: Lua eq count_item
+searchTitle: Lua EQ count_item
 weight: 1
 hidden: true
 menuTitle: count_item

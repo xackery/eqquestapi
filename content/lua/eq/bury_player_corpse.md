@@ -1,6 +1,6 @@
 ---
 title: bury_player_corpse
-searchTitle: Lua eq bury_player_corpse
+searchTitle: Lua EQ bury_player_corpse
 weight: 1
 hidden: true
 menuTitle: bury_player_corpse

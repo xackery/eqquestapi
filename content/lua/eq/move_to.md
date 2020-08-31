@@ -1,6 +1,6 @@
 ---
 title: move_to
-searchTitle: Lua eq move_to
+searchTitle: Lua EQ move_to
 weight: 1
 hidden: true
 menuTitle: move_to
