@@ -21,6 +21,7 @@ func main() {
 }
 
 func run() error {
+	log := log.New()
 
 	data, err := ioutil.ReadFile("input.txt")
 	if err != nil {
@@ -29,8 +30,9 @@ func run() error {
 
 	input := string(data)
 
-	className := "Opcode"
-	classPath := "opcode"
+	className := "Appearance"
+	classPath := "appearance"
+	log.Info().Msgf("generating %s", className)
 	f, err := os.Open(fmt.Sprintf("../../content/lua/%s/_index.en.md", classPath))
 	if err != nil {
 		return err

@@ -134,7 +134,6 @@ func audit(line string) error {
 	if err := auditLua(line); err != nil {
 		return err
 	}
-	scope = Scope{}
 	if err := auditPerl(line); err != nil {
 		return err
 	}
@@ -235,7 +234,7 @@ func luaProperty(line string) error {
 func luaDef(line string) error {
 	log := log.New()
 
-	matches := regLuaProperty.FindAllStringSubmatch(line, -1)
+	matches := regLuaDef.FindAllStringSubmatch(line, -1)
 	if len(matches) < 1 {
 		return nil
 	}
