@@ -231,7 +231,9 @@ weight: 25
 - [process_mobs_while_zone_empty](process_mobs_while_zone_empty)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
 - [rain](rain)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
 - [register_general](register_general)() -- scope
-- [register_npc_event](register_npc_event)({{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [register_item_event](register_item_event)({{% lua_type_number %}} evt, {{% lua_type_number %}} item_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [register_item_event](register_item_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_number %}} item_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [register_npc_event](register_npc_event)({{% lua_type_number %}} evt, {{% lua_type_number %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [register_npc_event](register_npc_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [register_player_event](register_player_event)({{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
 - [register_player_event](register_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
@@ -284,6 +286,7 @@ weight: 25
 - [unique_spawn](unique_spawn)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% lua_type_mob %}}
 - [unload_encounter](unload_encounter)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
 - [unload_load_encounter_with_data](unload_encounter_with_data)({{% lua_type_string %}} name, {{% lua_type_string %}} info_str) -- {{% lua_type_nil %}}
+- [unregister_item_event](register_item_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_number %}} item_id) -- {{% lua_type_nil %}}
 - [unregister_npc_event](unregister_npc_event)({{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [unregister_npc_event](unregister_npc_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [update_instance_timer](update_instance_timer)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} new_duration) -- {{% lua_type_nil %}}

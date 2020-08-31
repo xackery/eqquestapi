@@ -13,7 +13,7 @@ Gets data from a data bucket.
 
 **Syntax**
 
-function {{% lua_type_functionname get_data %}}({{% lua_type_string %}} bucket_key) -- {{% lua_type_string %}}
+eq.{{% lua_type_functionname get_data %}}({{% lua_type_string %}} bucket_key) -- {{% lua_type_string %}}
 
 **Parameters**
 

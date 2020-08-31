@@ -31,6 +31,7 @@ weight: 25
 - [CheckIncreaseSkill](checkincreaseskill)({{% lua_type_number %}} skill_id, {{% lua_type_mob %}} target, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
 - [CheckSpecializeIncrease](checkspecializeincrease)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [ClearZoneFlag](clearzoneflag)({{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
+- [ClearCompassMark](clearcompassmark)() --  {{% lua_type_nil %}}
 - [Connected](connected)() -- {{% lua_type_boolean %}}
 - [DecreaseByID](decreasebyid)({{% lua_type_number %}} type, {{% lua_type_number %}} amt) -- {{% lua_type_boolean %}}
 - [DeleteItemInInventory](deleteitemininventory)({{% lua_type_number %}} slot_id, {{% lua_type_number %}} quantity, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
@@ -170,6 +171,7 @@ weight: 25
 - [NotifyNewTitlesAvailable](notifynewtitlesavailable)() -- {{% lua_type_nil %}}
 - [NukeItem](nukeitem)({{% lua_type_number %}} item_num, {{% lua_type_number %}} where_to_check) -- {{% lua_type_nil %}}
 - [OpenLFGuildWindow](openlfguildwindow)() -- {{% lua_type_nil %}}
+- [PlayerMP3](playmp3)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
 - [PushItemOnCursor](pushitemoncursor)({{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, {{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [QuestReadBook](questreadbook)({{% lua_type_string %}}text, {{% lua_type_number %}} type) -- {{% lua_type_nil %}}
@@ -206,6 +208,7 @@ weight: 25
 - [SetEndurance](setendurance)({{% lua_type_number %}} endur) -- {{% lua_type_nil %}}
 - [SetEXP](setexp)({{% lua_type_number %}} set_exp, {{% lua_type_number %}} set_aaxp, {{% lua_type_boolean %}} resexp) -- {{% lua_type_nil %}}
 - [SetFactionLevel](setfactionlevel)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_class, {{% lua_type_number %}} char_race, {{% lua_type_number %}} char_deity) -- {{% lua_type_nil %}}
+- [SetFactionLevel2](setfactionlevel2)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_class, {{% lua_type_number %}} char_race, {{% lua_type_number %}} char_deity, {{% lua_type_number %}} value, {{% lua_type_number %}} temp) -- {{% lua_type_nil %}}
 - [SetFeigned](setfeigned)({{% lua_type_boolean %}} v) -- {{% lua_type_nil %}}
 - [SetGM](setgm)({{% lua_type_boolean %}} v) -- {{% lua_type_nil %}}
 - [SetHorseId](sethorseid)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}

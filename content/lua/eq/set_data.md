@@ -13,8 +13,9 @@ Sets a data bucket to provided data. By default, expires_at is never (0)
 
 **Syntax**
 
-function {{% lua_type_functionname set_data %}}({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value) -- {{% lua_type_nil %}}
-function {{% lua_type_functionname set_data %}}({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value. {{% lua_type_string %}} expires_at) -- {{% lua_type_nil %}}
+eq.{{% lua_type_functionname set_data %}}({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value) -- {{% lua_type_nil %}}
+
+eq.{{% lua_type_functionname set_data %}}({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value. {{% lua_type_string %}} expires_at) -- {{% lua_type_nil %}}
 
 **Parameters**
 
