@@ -2,6 +2,7 @@
 title: EQ Namespace
 menuTitle: EQ Namespace
 description: Lua EQ Namespace
+searchTitle: Lua EQ Namespace
 weight: 25
 ---
 
@@ -214,6 +215,8 @@ weight: 25
 - [is_veil_of_alaris_enabled](is_veil_of_alaris_enabled)() -- {{% lua_type_boolean %}}
 - [item_link](item_link)({{% lua_type_number %}} item_id) -- {{% lua_type_string %}}
 - [last_task_in_set](last_task_in_set)({{% lua_type_number %}} task_set) -- {{% lua_type_number %}}
+- [load_encounter_with_data](load_encounter_with_data)({{% lua_type_string %}} name, {{% lua_type_string %}} info_str) -- {{% lua_type_nil %}}
+- [load_encounter](load_encounter)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
 - [log](log) -- 
 - [map_opcodes](map_opcodes)() -- {{% lua_type_nil %}}
 - [merchant_count_item](merchant_count_item)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
@@ -227,6 +230,10 @@ weight: 25
 - [process_mobs_while_zone_empty](process_mobs_while_zone_empty)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
 - [rain](rain)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
 - [register_general](register_general)() -- scope
+- [register_npc_event](register_npc_event)({{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [register_npc_event](register_npc_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [register_player_event](register_player_event)({{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
+- [register_player_event](register_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
 - [register_random](register_random)() -- scope
 - [reloadzonestaticdata](reloadzonestaticdata)() -- {{% lua_type_nil %}}
 - [remove_all_from_instance](remove_all_from_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
@@ -250,10 +257,16 @@ weight: 25
 - [set_next_inc_hp_event](set_next_inc_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
 - [set_proximity](set_proximity)({{% lua_type_number %}} min_x, {{% lua_type_number %}} max_x, {{% lua_type_number %}} min_y, {{% lua_type_number %}} max_y) -- {{% lua_type_nil %}}
 - [set_sky](set_sky)({{% lua_type_number %}} sky) -- {{% lua_type_nil %}}
+- [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms, {{% lua_type_iteminst %}} inst) -- {{% lua_type_nil %}}
+- [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms, {{% lua_type_mob %}} mob) -- {{% lua_type_nil %}}
+- [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms, encounter) -- {{% lua_type_nil %}}
+- [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms) -- {{% lua_type_nil %}}
 - [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms) -- {{% lua_type_nil %}}
 - [signal](signal)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} signal_id) -- {{% lua_type_nil %}}
 - [snow](snow)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
 - [spawn_condition](spawn_condition)({{% lua_type_string %}}zone, {{% lua_type_number %}} instance_id, {{% lua_type_number %}} condition_id, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
+- [spawn2](spawn2)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% lua_type_mob %}}
+- [spawn2](spawn2)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_mob %}}
 - [stop_all_timers](stop_all_timers)() -- {{% lua_type_nil %}}
 - [stop_follow](stop_follow)() -- {{% lua_type_nil %}}
 - [stop_timer](stop_timer)({{% lua_type_string %}} timer) -- {{% lua_type_nil %}}
@@ -265,6 +278,11 @@ weight: 25
 - [task_time_left](task_time_left)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
 - [toggle_spawn_event](toggle_spawn_event)({{% lua_type_number %}} event_id, {{% lua_type_boolean %}} enable, {{% lua_type_boolean %}} strict, {{% lua_type_boolean %}} reset) -- {{% lua_type_nil %}}
 - [train_discs](train_discs)({{% lua_type_number %}} max) -- {{% lua_type_number %}}
+- [unique_spawn](unique_spawn)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% lua_type_mob %}}
+- [unload_encounter](unload_encounter)({{% lua_type_string %}} name) -- {{% lua_type_nil %}}
+- [unload_load_encounter_with_data](unload_encounter_with_data)({{% lua_type_string %}} name, {{% lua_type_string %}} info_str) -- {{% lua_type_nil %}}
+- [unregister_npc_event](unregister_npc_event)({{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [unregister_npc_event](unregister_npc_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [update_instance_timer](update_instance_timer)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} new_duration) -- {{% lua_type_nil %}}
 - [update_spawn_timer](update_spawn_timer)({{% lua_type_number %}} id, {{% lua_type_number %}} new_time) -- {{% lua_type_nil %}}
 - [update_task_activity](update_task_activity)({{% lua_type_number %}} task, {{% lua_type_number %}} activity, {{% lua_type_number %}} count) -- {{% lua_type_nil %}}
