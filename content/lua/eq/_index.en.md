@@ -123,6 +123,7 @@ weight: 25
 - [get_class_name](get_class_name)({{% lua_type_number %}}8 class_id) -- {{% lua_type_string %}}
 - [get_currency_id](get_currency_id)({{% lua_type_number %}} item_id) -- {{% lua_type_number %}}
 - [get_currency_item_id](get_currency_item_id)({{% lua_type_number %}} currency_id) -- {{% lua_type_number %}}
+- [get_data](get_data)({{% lua_type_string %}} bucket_key) -- {{% lua_type_string %}}
 - [get_encounter](get_encounter)() -- {{% lua_type_string %}}
 - [get_entity_list](get_entity_list)() -- {{% lua_type_entity_list %}}
 - [get_group_id_by_char_id](get_group_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
@@ -251,7 +252,9 @@ weight: 25
 - [scribe_spells](scribe_spells)({{% lua_type_number %}} max) -- {{% lua_type_number %}}
 - [send_mail](send_mail)({{% lua_type_string %}} to, {{% lua_type_string %}}from, {{% lua_type_string %}} subject, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [set_anim](set_anim)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} anim_num) -- {{% lua_type_nil %}}
-- [set_global](set_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_number %}} options, {{% lua_type_string %}}duration) -- {{% lua_type_nil %}}
+- [set_data](set_data)({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value) -- {{% lua_type_nil %}}
+- [set_data](set_data)({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value. {{% lua_type_string %}} expires_at) -- {{% lua_type_nil %}}
+- [set_global](set_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_number %}} options, {{% lua_type_string %}} duration) -- {{% lua_type_nil %}}
 - [set_guild](set_guild)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} rank) -- {{% lua_type_nil %}}
 - [set_next_hp_event](set_next_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
 - [set_next_inc_hp_event](set_next_inc_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
@@ -272,7 +275,7 @@ weight: 25
 - [stop_timer](stop_timer)({{% lua_type_string %}} timer) -- {{% lua_type_nil %}}
 - [summon_all_player_corpses](summon_all_player_corpses)({{% lua_type_number %}} char_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
 - [summon_buried_player_corpse](summon_buried_player_corpse)({{% lua_type_number %}} char_id, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h) -- {{% lua_type_nil %}}
-- [target_global](target_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_string %}}duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
+- [target_global](target_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_string %}} duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
 - [task_explored_area](task_explored_area)({{% lua_type_number %}} explore_id) -- {{% lua_type_nil %}}
 - [task_set_selector](task_set_selector)({{% lua_type_number %}} task_set) -- {{% lua_type_nil %}}
 - [task_time_left](task_time_left)({{% lua_type_number %}} task_id) -- {{% lua_type_number %}}
