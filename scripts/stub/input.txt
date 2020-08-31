@@ -7,7 +7,7 @@ menuTitle: Slot Ammo
 ---
 ## Ammo
 
-This represents a Ammo slot
+This represents a Ammo Slot
 ```lua
 Slot.Ammo
 ```
