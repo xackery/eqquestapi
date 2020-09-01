@@ -20,6 +20,7 @@ var (
 	regPerlClass      = regexp.MustCompile(`.*XS\(boot_([\w]+)`)
 	regPerlProto      = regexp.MustCompile(`.*newXSproto\(strcpy\(buf, "(\w+)"\), XS_(\w+)_`)
 	regPerlDefinition = regexp.MustCompile(`.*XS\(XS_([\w]+)\);`)
+	regEvent          = regexp.MustCompile(`.*(EVENT_\w+)`)
 )
 
 // Scope retains information about the current scan's scope
@@ -28,17 +29,25 @@ type Scope struct {
 	namespace string
 	language  string
 	defType   string
+	fileName  string
 }
 
 func (s Scope) syntax(funcName string) string {
 	if s.language == "lua" {
 		if s.class != "" {
+			if s.defType == "function" {
+				return fmt.Sprintf("%s", funcName)
+			}
 			if s.defType == "value" {
 				return fmt.Sprintf("%s.%s", s.class, funcName)
 			}
 			return fmt.Sprintf("%s:%s", s.class, funcName)
 		}
 		return fmt.Sprintf("%s.%s", s.namespace, funcName)
+	}
+
+	if s.defType == "function" {
+		return fmt.Sprintf("sub %s", funcName)
 	}
 
 	return fmt.Sprintf("$%s->%s", strings.ToLower(s.class), funcName)
@@ -96,10 +105,10 @@ func walk(path string, info os.FileInfo, err error) error {
 	}
 
 	// only parse .cpp
-	if strings.ToLower(filepath.Ext(path)) != ".cpp" {
+	if strings.ToLower(filepath.Ext(path)) != ".cpp" && !strings.Contains(path, "event_codes") {
 		return nil
 	}
-	if !strings.Contains(path, "lua") && !strings.Contains(path, "perl") && !strings.Contains(path, "embparser_api") {
+	if !strings.Contains(path, "lua") && !strings.Contains(path, "perl") && !strings.Contains(path, "event_codes") && !strings.Contains(path, "embparser_api") {
 		return nil
 	}
 	if strings.Contains(path, "lua_general.cpp") {
@@ -116,6 +125,7 @@ func walk(path string, info os.FileInfo, err error) error {
 	defer f.Close()
 	scanner := bufio.NewScanner(f)
 	lineNumber := 0
+	scope.fileName = path
 	for scanner.Scan() {
 		lineNumber++
 		line := scanner.Text()
@@ -141,16 +151,20 @@ func audit(line string) error {
 		return err
 	}
 
+	if err := auditBothEvent(line); err != nil {
+		return fmt.Errorf("event: %w", err)
+	}
+
 	return nil
 }
 
 func auditLua(line string) error {
 	scope.language = "lua"
 	if err := luaClass(line); err != nil {
-		return fmt.Errorf("class: %w", err)
+		return fmt.Errorf("luaClass: %w", err)
 	}
 	if err := luaNamespace(line); err != nil {
-		return fmt.Errorf("luaClass: %w", err)
+		return fmt.Errorf("luaNamespace: %w", err)
 	}
 
 	if err := luaProperty(line); err != nil {
@@ -160,7 +174,7 @@ func auditLua(line string) error {
 		return fmt.Errorf("def: %w", err)
 	}
 	if err := luaValue(line); err != nil {
-		return fmt.Errorf("def: %w", err)
+		return fmt.Errorf("value: %w", err)
 	}
 	return nil
 }
@@ -347,6 +361,44 @@ func perlDefinition(line string) error {
 	if err := checkDocumented(funcName); err != nil {
 		return fmt.Errorf("checkDocumented: %w", err)
 	}
+	return nil
+}
+
+func auditBothEvent(line string) error {
+	log := log.New()
+	if !strings.Contains(scope.fileName, "event_codes.h") {
+		return nil
+	}
+
+	matches := regEvent.FindAllStringSubmatch(line, -1)
+	if len(matches) < 1 {
+		return nil
+	}
+	if len(matches[0]) < 2 {
+		log.Debug().Str("line", line).Msg("event not enough submatches")
+		return nil
+	}
+	if len(matches[0][1]) == 0 {
+		return nil
+	}
+
+	scope.class = "Event"
+	funcName := matches[0][1]
+	if funcName == "EVENT_CODES_H" {
+		return nil
+	}
+
+	scope.language = "perl"
+	if err := checkDocumented(funcName); err != nil {
+		return fmt.Errorf("checkDocumented: %w", err)
+	}
+	scope.language = "lua"
+	scope.defType = "function"
+	if err := checkDocumented(strings.ToLower(funcName)); err != nil {
+		return fmt.Errorf("checkDocumented: %w", err)
+	}
+
+	scope.class = matches[0][1]
 	return nil
 }
 
