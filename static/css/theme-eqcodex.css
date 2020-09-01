@@ -1,8 +1,8 @@
 
 :root{
     
-    --MAIN-TEXT-color:#bbbcbd; /* Color of text by default */
-    --MAIN-TITLES-TEXT-color: #bbbcbd; /* Color of titles h2-h3-h4-h5 */
+    --MAIN-TEXT-color:#ddddde; /* Color of text by default */
+    --MAIN-TITLES-TEXT-color: #ddeeee; /* Color of titles h2-h3-h4-h5 */
     --MAIN-LINK-color:#03a9f4; /* Color of links */
     --MAIN-LINK-HOVER-color:#3891e7; /* Color of hovered links */
     --MAIN-ANCHOR-color: #599a3e; /* color of anchors on titles */
