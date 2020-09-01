@@ -16,8 +16,8 @@ weight: 25
 - [CheckNPCFactionAlly](checknpcfactionally)({{% lua_type_number %}} faction) -- {{% lua_type_number %}}
 - [ClearItemList](clearitemlist)() -- {{% lua_type_nil %}}
 - [CountLoot](countloot)() -- {{% lua_type_number %}}
-- [DisplayWaypointInfo](displaywaypointinfo)({{% lua_type_client %}} to) -- {{% lua_type_nil %}}
-- [DoClassAttacks](doclassattacks)({{% lua_type_mob %}} target) -- {{% lua_type_nil %}}
+- [DisplayWaypointInfo](displaywaypointinfo)({{% type_client lua %}} to) -- {{% lua_type_nil %}}
+- [DoClassAttacks](doclassattacks)({{% type_npc mob %}} target) -- {{% lua_type_nil %}}
 - [GetAccuracyRating](getaccuracyrating)() -- {{% lua_type_number %}}
 - [GetAttackDelay](getattackdelay)() -- {{% lua_type_number %}}
 - [GetAttackSpeed](getattackspeed)() -- {{% lua_type_number %}}
@@ -37,7 +37,7 @@ weight: 25
 - [GetMaxWp](getmaxwp)() -- {{% lua_type_number %}}
 - [GetMinDMG](getmindmg)() -- {{% lua_type_number %}}
 - [GetNPCFactionID](getnpcfactionid)() -- {{% lua_type_number %}}
-- [GetNPCHate](getnpchate)({{% lua_type_mob %}} ent) -- {{% lua_type_number %}}
+- [GetNPCHate](getnpchate)({{% type_npc mob %}} ent) -- {{% lua_type_number %}}
 - [GetNPCSpellsID](getnpcspellsid)() -- {{% lua_type_number %}}
 - [GetPetSpellID](getpetspellid)() -- {{% lua_type_number %}}
 - [GetPlatinum](getplatinum)() -- {{% lua_type_number %}}
@@ -61,7 +61,7 @@ weight: 25
 - [GetWaypointMax](getwaypointmax)() -- {{% lua_type_number %}}
 - [IsAnimal](isanimal)() -- {{% lua_type_boolean %}}
 - [IsGuarding](isguarding)() -- {{% lua_type_boolean %}}
-- [IsOnHatelist](isonhatelist)({{% lua_type_mob %}} ent) -- {{% lua_type_boolean %}}
+- [IsOnHatelist](isonhatelist)({{% type_npc mob %}} ent) -- {{% lua_type_boolean %}}
 - [IsTaunting](istaunting)() -- {{% lua_type_boolean %}}
 - [MerchantCloseShop](merchantcloseshop)() -- {{% lua_type_nil %}}
 - [MerchantOpenShop](merchantopenshop)() -- {{% lua_type_nil %}}
@@ -69,7 +69,7 @@ weight: 25
 - [MoveTo](moveto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} h, {{% lua_type_boolean %}} save) -- {{% lua_type_nil %}}
 - [NextGuardPosition](nextguardposition)() -- {{% lua_type_nil %}}
 - [PauseWandering](pausewandering)({{% lua_type_number %}} pause_time) -- {{% lua_type_nil %}}
-- [PickPocket](pickpocket)({{% lua_type_client %}} thief) -- {{% lua_type_nil %}}
+- [PickPocket](pickpocket)({{% type_client lua %}} thief) -- {{% lua_type_nil %}}
 - [RecalculateSkills](recalculateskills)() -- {{% lua_type_nil %}}
 - [RemoveAISpell](removeaispell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [RemoveCash](removecash)() -- {{% lua_type_nil %}}

@@ -7,4 +7,4 @@ weight: 25
 ---
 
 ## MobList Properties
-- [entries](entries) -- collection of {{% lua_type_mob %}}
+- [entries](entries) -- collection of {{% type_npc mob %}}

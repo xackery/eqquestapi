@@ -30,6 +30,6 @@ end
 **Exported Variables**
 
 These variables are available with event_cast_on
-- {{% lua_type_mob %}} **e.other**: mob the spell is being casted on
-- {{% lua_type_mob %}} **e.self**: mob emitting the event
+- {{% type_npc mob %}} **e.other**: mob the spell is being casted on
+- {{% type_npc mob %}} **e.self**: mob emitting the event
 - {{% lua_type_spell %}} **e.spell**: spell that triggered the event

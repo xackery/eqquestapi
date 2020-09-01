@@ -7,4 +7,4 @@ weight: 25
 ---
 
 ## NPC List Properties
-- [entries](entries) -- collection of {{% lua_type_npc %}}
+- [entries](entries) -- collection of {{% type_npc lua %}}

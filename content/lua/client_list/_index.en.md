@@ -7,4 +7,4 @@ weight: 25
 ---
 
 ## Client List Properties
-- [entries](entries) -- collection of {{% lua_type_client %}}
+- [entries](entries) -- collection of {{% type_client lua %}}

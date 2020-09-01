@@ -40,8 +40,8 @@ end
 **Exported Variables**
 
 These variables are available with event_trade
-- {{% lua_type_client %}} **e.other**: player that triggered the event
-- {{% lua_type_mob %}} **e.self**: mob emitting the event
+- {{% type_client lua %}} **e.other**: player that triggered the event
+- {{% type_npc mob %}} **e.self**: mob emitting the event
 - {{% lua_type_number %}} **e.platinum**: amount in platinum traded
 - {{% lua_type_number %}} **e.gold**: amount in gold traded
 - {{% lua_type_number %}} **e.silver**: amount in silver traded

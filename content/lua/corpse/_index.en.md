@@ -8,8 +8,8 @@ weight: 25
 
 ## Corpse Methods
 - [AddItem](additem)({{% lua_type_number %}} itemnum, {{% lua_type_number %}} charges, {{% lua_type_number %}} slot, {{% lua_type_number %}} aug1, {{% lua_type_number %}} aug2, {{% lua_type_number %}} aug3, {{% lua_type_number %}} aug4, {{% lua_type_number %}} aug5) -- {{% lua_type_nil %}}
-- [AddLooter](addlooter)({{% lua_type_mob %}} who) -- {{% lua_type_nil %}}
-- [AllowMobLoot](allowmobloot)({{% lua_type_mob %}} them, {{% lua_type_number %}} slot) -- {{% lua_type_nil %}}
+- [AddLooter](addlooter)({{% type_npc mob %}} who) -- {{% lua_type_nil %}}
+- [AllowMobLoot](allowmobloot)({{% type_npc mob %}} them, {{% lua_type_number %}} slot) -- {{% lua_type_nil %}}
 - [Bury](bury)() -- {{% lua_type_nil %}}
 - [CanMobLoot](canmobloot)({{% lua_type_number %}} charid) -- {{% lua_type_boolean %}}
 - [CountItems](countitems)() -- {{% lua_type_number %}}
@@ -34,5 +34,5 @@ weight: 25
 - [Save](save)() -- {{% lua_type_boolean %}}
 - [SetCash](setcash)({{% lua_type_number %}} copper, {{% lua_type_number %}} silver, {{% lua_type_number %}} gold, {{% lua_type_number %}} platinum) -- {{% lua_type_nil %}}
 - [SetDecayTimer](setdecaytimer)({{% lua_type_number %}} decaytime) -- {{% lua_type_nil %}}
-- [Summon](summon)({{% lua_type_client %}} client, {{% lua_type_boolean %}} spell, {{% lua_type_boolean %}} checkdistance) -- {{% lua_type_boolean %}}
+- [Summon](summon)({{% type_client lua %}} client, {{% lua_type_boolean %}} spell, {{% lua_type_boolean %}} checkdistance) -- {{% lua_type_boolean %}}
 - [UnLock](unlock)() -- {{% lua_type_nil %}}

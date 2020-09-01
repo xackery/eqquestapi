@@ -8,8 +8,8 @@ weight: 25
 
 ## Door Methods
 - [CreateDatabaseEntry](createdatabaseentry)(); -- {{% lua_type_nil %}}
-- [ForceClose](forceclose)({{% lua_type_mob %}} sender, {{% lua_type_boolean %}} alt_mode); -- {{% lua_type_nil %}}
-- [ForceOpen](forceopen)({{% lua_type_mob %}} sender, {{% lua_type_boolean %}} alt_mode); -- {{% lua_type_nil %}}
+- [ForceClose](forceclose)({{% type_npc mob %}} sender, {{% lua_type_boolean %}} alt_mode); -- {{% lua_type_nil %}}
+- [ForceOpen](forceopen)({{% type_npc mob %}} sender, {{% lua_type_boolean %}} alt_mode); -- {{% lua_type_nil %}}
 - [GetDisableTimer](getdisabletimer)(); -- {{% lua_type_boolean %}}
 - [GetDoorDBID](getdoordbid)(); -- {{% lua_type_number %}}
 - [GetDoorID](getdoorid)(); -- {{% lua_type_number %}}

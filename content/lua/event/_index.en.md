@@ -2,13 +2,14 @@
 date: 2020-08-24T16:50:16+02:00
 title: Event Functions
 menuTitle: Event Functions
-searchTitle: Event Functions
+searchTitle: Lua Event Functions
+description: Lua Event Functions
 weight: 25
 ---
 
 ## Event Functions
 
-Note that every event has an enum represented with e.g. Event.event_cast syntax
+Note that every event function has an enum represented with e.g. Event.event_cast syntax
 
 - [event_aggro_say](aggro_say)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_augment_insert](augment_insert)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}

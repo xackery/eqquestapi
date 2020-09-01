@@ -7,11 +7,11 @@ weight: 25
 ---
 
 ## Entity Methods
-- [CastToClient](casttoclient)() -- {{% lua_type_client %}}
+- [CastToClient](casttoclient)() -- {{% type_client lua %}}
 - [CastToCorpse](casttocorpse)() -- {{% lua_type_corpse %}}
 - [CastToDoor](casttodoor)() -- {{% lua_type_door %}}
-- [CastToMob](casttomob)() -- {{% lua_type_mob %}}
-- [CastToNPC](casttonpc)() -- {{% lua_type_npc %}}
+- [CastToMob](casttomob)() -- {{% type_npc mob %}}
+- [CastToNPC](casttonpc)() -- {{% type_npc lua %}}
 - [CastToObject](casttoobject)() -- {{% lua_type_object %}}
 - [GetID](getid)() -- {{% lua_type_number %}}
 - [IsBeacon](isbeacon)() -- {{% lua_type_boolean %}}

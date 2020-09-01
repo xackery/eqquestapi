@@ -13,9 +13,9 @@ Spawns an NPC Type ID with provided details
 
 **Syntax**
 
-eq.spawn2({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_mob %}}
+eq.spawn2({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% type_npc mob %}}
 
-eq.spawn2({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% lua_type_mob %}}
+eq.spawn2({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% type_npc mob %}}
 
 **Parameters**
 

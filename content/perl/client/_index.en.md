@@ -17,7 +17,7 @@ weight: 25
 - [AddPVPPoints](addpvppoints)({{% perl_type_number %}} points) # {{% perl_type_undef %}} 
 - [AddSkill](addskill)({{% perl_type_number %}}skill_id, {{% perl_type_number %}} value) # {{% perl_type_undef %}} 
 - [Admin](admin)() # {{% perl_type_undef %}}
-- [AssignTask](assigntask)({{% perl_type_number %}}task_id, {{% perl_type_number %}} npc_id, [{{% perl_type_boolean %}} enforce_level_requirement = false]) # {{% perl_type_undef %}} 
+- [AssignTask](assigntask)({{% perl_type_number %}} task_id, {{% perl_type_number %}} npc_id, [{{% perl_type_boolean %}} enforce_level_requirement = false]) # {{% perl_type_undef %}} 
 - [AssignToInstance](assigntoinstance)({{% perl_type_number %}} instance_id) # {{% perl_type_undef %}} 
 - [AutoSplitEnabled](autosplitenabled)() # {{% perl_type_undef %}} 
 - [BreakInvis](breakinvis)() # {{% perl_type_undef %}} 
@@ -38,7 +38,7 @@ weight: 25
 - [DyeArmorBySlot](dyearmorbyslot)({{% perl_type_number %}} slot, {{% perl_type_number %}} red, {{% perl_type_number %}} green, {{% perl_type_number %}} blue, [{{% perl_type_number %}} use_t{{% perl_type_number %}}= 0x00]) # {{% perl_type_undef %}} 
 - [Escape](escape)() # {{% perl_type_undef %}} 
 - [ExpeditionMessage](expeditionmessage)({{% perl_type_number %}}expedition_id, string message) # {{% perl_type_undef %}} 
-- [FailTask](failtask)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
+- [FailTask](failtask)({{% perl_type_number %}} task_id) # {{% perl_type_undef %}} 
 - [FindMemmedSpellBySlot](findmemmedspellbyslot)({{% perl_type_number %}}slot) # {{% perl_type_undef %}} 
 - [ForageItem](forageitem)() # {{% perl_type_undef %}} 
 - [GMKill](gmkill)() # {{% perl_type_undef %}} 
@@ -123,7 +123,7 @@ weight: 25
 - [GetTargetRingX](gettargetringx)() # {{% perl_type_undef %}} 
 - [GetTargetRingY](gettargetringy)() # {{% perl_type_undef %}} 
 - [GetTargetRingZ](gettargetringz)() # {{% perl_type_undef %}} 
-- [GetTaskActivityDoneCount](gettaskactivitydonecount)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
+- [GetTaskActivityDoneCount](gettaskactivitydonecount)({{% perl_type_number %}} task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
 - [GetThirst](getthirst)() # {{% perl_type_undef %}} 
 - [GetTotalSecondsPlayed](gettotalsecondsplayed)() # {{% perl_type_undef %}} 
 - [GetWeight](getweight)() # {{% perl_type_undef %}} 
@@ -149,9 +149,9 @@ weight: 25
 - [IsRaidGrouped](israidgrouped)() # {{% perl_type_undef %}} 
 - [IsSitting](issitting)() # {{% perl_type_undef %}} 
 - [IsStanding](isstanding)() # {{% perl_type_undef %}} 
-- [IsTaskActive](istaskactive)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
-- [IsTaskActivityActive](istaskactivityactive)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
-- [IsTaskCompleted](istaskcompleted)({{% perl_type_number %}}task_id) # {{% perl_type_undef %}} 
+- [IsTaskActive](istaskactive)({{% perl_type_number %}} task_id) # {{% perl_type_undef %}} 
+- [IsTaskActivityActive](istaskactivityactive)({{% perl_type_number %}} task_id, {{% perl_type_number %}}activity_id) # {{% perl_type_undef %}} 
+- [IsTaskCompleted](istaskcompleted)({{% perl_type_number %}} task_id) # {{% perl_type_undef %}} 
 - [KeyRingAdd](keyringadd)({{% perl_type_number %}} item_id) # {{% perl_type_undef %}} 
 - [KeyRingCheck](keyringcheck)({{% perl_type_number %}} item_id) # {{% perl_type_undef %}} 
 - [Kick](kick)() # {{% perl_type_undef %}} 
@@ -204,7 +204,7 @@ weight: 25
 - [SetBaseRace](setbaserace)({{% perl_type_number %}} race_id) # {{% perl_type_undef %}} 
 - [SetBecomeNPC](setbecomenpc)(flag) # {{% perl_type_undef %}} 
 - [SetBecomeNPCLevel](setbecomenpclevel)(level) # {{% perl_type_undef %}} 
-- [SetBindPoint](setbindpoint)({{% perl_type_number %}}to_zone = -1, {{% perl_type_number %}}to_instance = 0, float new_x = 0.0f, float new_y = 0.0f, float new_z = 0.0f) # {{% perl_type_undef %}} 
+- [SetBindPoint](setbindpoint)({{% perl_type_number %}} to_zone = -1, {{% perl_type_number %}} to_instance = 0, float new_x = 0.0f, float new_y = 0.0f, float new_z = 0.0f) # {{% perl_type_undef %}} 
 - [SetCustomItemData](setcustomitemdata)({{% perl_type_number %}} slot_id, string identifier, string value) # {{% perl_type_undef %}} 
 - [SetDeity](setdeity)({{% perl_type_number %}} deity_id) # {{% perl_type_undef %}} 
 - [SetDuelTarget](setdueltarget)(set_id) # {{% perl_type_undef %}} 
@@ -250,7 +250,8 @@ weight: 25
 - [UpdateAdmin](updateadmin)({{% perl_type_boolean %}} from_db = true) # {{% perl_type_undef %}} 
 - [UpdateGroupAAs](updategroupaas)({{% perl_type_number %}} points, {{% perl_type_number %}} type) # {{% perl_type_undef %}} 
 - [UpdateLDoNPoints](updateldonpoints)({{% perl_type_number %}} points, {{% perl_type_number %}} theme) # {{% perl_type_undef %}} 
-- [UpdateTaskActivity](updatetaskactivity)({{% perl_type_number %}}task_id, {{% perl_type_number %}}activity_id, {{% perl_type_number %}} count, [{{% perl_type_boolean %}} ignore_quest_update = false]) # {{% perl_type_undef %}} 
+- [UpdateTaskActivity](updatetaskactivity)({{% perl_type_number %}} task_id, {{% perl_type_number %}}activity_id, {{% perl_type_number %}} count, [{{% perl_type_boolean %}} ignore_quest_update = false]) # {{% perl_type_undef %}} 
 - [UpdateWho](updatewho)({{% perl_type_number %}} remove = 0) # {{% perl_type_undef %}} 
 - [UseDiscipline](usediscipline)({{% perl_type_number %}} spell_id, {{% perl_type_number %}} target) # {{% perl_type_undef %}} 
 - [WorldKick](worldkick)() # {{% perl_type_undef %}} 
+- [new](new)() # {{% type_client lua %}}

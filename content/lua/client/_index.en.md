@@ -24,11 +24,11 @@ weight: 25
 - [BreakInvis](breakinvis)() -- {{% lua_type_nil %}}
 - [CalcATK](calcatk)() -- {{% lua_type_number %}}
 - [CalcCurrentWeight](calccurrentweight)() -- {{% lua_type_number %}}
-- [CalcPriceMod](calcpricemod)({{% lua_type_mob %}} other, {{% lua_type_boolean %}} reverse) -- {{% lua_type_number %}}
+- [CalcPriceMod](calcpricemod)({{% type_npc mob %}} other, {{% lua_type_boolean %}} reverse) -- {{% lua_type_number %}}
 - [CanHaveSkill](canhaveskill)({{% lua_type_number %}} skill_id) -- {{% lua_type_boolean %}}
 - [ChangeLastName](changelastname)({{% lua_type_string %}} in) -- {{% lua_type_nil %}}
 - [CharacterID](characterid)() -- {{% lua_type_number %}}
-- [CheckIncreaseSkill](checkincreaseskill)({{% lua_type_number %}} skill_id, {{% lua_type_mob %}} target, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
+- [CheckIncreaseSkill](checkincreaseskill)({{% lua_type_number %}} skill_id, {{% type_npc mob %}} target, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
 - [CheckSpecializeIncrease](checkspecializeincrease)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [ClearZoneFlag](clearzoneflag)({{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
 - [ClearCompassMark](clearcompassmark)() --  {{% lua_type_nil %}}
@@ -49,7 +49,7 @@ weight: 25
 - [EnableAreaRegens](enablearearegens)({{% lua_type_number %}} value) -- {{% lua_type_nil %}}
 - [Escape](escape)() -- {{% lua_type_nil %}}
 - [FailTask](failtask)({{% lua_type_number %}} task) -- {{% lua_type_nil %}}
-- [FilteredMessage](filteredmessage)({{% lua_type_mob %}} sender, {{% lua_type_number %}} type, {{% lua_type_number %}} filter, {{% lua_type_string %}}message) -- {{% lua_type_nil %}}
+- [FilteredMessage](filteredmessage)({{% type_npc mob %}} sender, {{% lua_type_number %}} type, {{% lua_type_number %}} filter, {{% lua_type_string %}}message) -- {{% lua_type_nil %}}
 - [FindMemmedSpellBySlot](findmemmedspellbyslot)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
 - [FindSpellBookSlotBySpellID](findspellbookslotbyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
 - [ForageItem](forageitem)({{% lua_type_boolean %}} guarantee) -- {{% lua_type_nil %}}
@@ -93,7 +93,7 @@ weight: 25
 - [GetEndurancePercent](getendurancepercent)() -- {{% lua_type_number %}}
 - [GetEXP](getexp)() -- {{% lua_type_number %}}
 - [GetFace](getface)() -- {{% lua_type_number %}}
-- [GetFactionLevel](getfactionlevel)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} race, {{% lua_type_number %}} class_, {{% lua_type_number %}} deity, {{% lua_type_number %}} faction, {{% lua_type_npc %}} npc) -- {{% lua_type_number %}}
+- [GetFactionLevel](getfactionlevel)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} race, {{% lua_type_number %}} class_, {{% lua_type_number %}} deity, {{% lua_type_number %}} faction, {{% type_npc lua %}} npc) -- {{% lua_type_number %}}
 - [GetFeigned](getfeigned)() -- {{% lua_type_boolean %}}
 - [GetGM](getgm)() -- {{% lua_type_boolean %}}
 - [GetGroupPoints](getgrouppoints)() -- {{% lua_type_number %}}
@@ -175,7 +175,7 @@ weight: 25
 - [PushItemOnCursor](pushitemoncursor)({{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [PutItemInInventory](putitemininventory)({{% lua_type_number %}} slot_id, {{% lua_type_iteminst %}} inst) -- {{% lua_type_boolean %}}
 - [QuestReadBook](questreadbook)({{% lua_type_string %}}text, {{% lua_type_number %}} type) -- {{% lua_type_nil %}}
-- [QuestReward](questreward)({{% lua_type_mob %}} target, luabind::adl::object reward) -- {{% lua_type_nil %}}
+- [QuestReward](questreward)({{% type_npc mob %}} target, luabind::adl::object reward) -- {{% lua_type_nil %}}
 - [QueuePacket](queuepacket)({{% lua_type_packet %}} app, {{% lua_type_boolean %}} ack_req, {{% lua_type_number %}} client_connection_status, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
 - [RefundAA](refundaa)() -- {{% lua_type_nil %}}
 - [ResetAA](resetaa)() -- {{% lua_type_nil %}}
@@ -187,11 +187,11 @@ weight: 25
 - [SendColoredText](sendcoloredtext)({{% lua_type_number %}} type, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
 - [SendItemScale](senditemscale)({{% lua_type_iteminst %}} inst) -- {{% lua_type_nil %}}
 - [SendMarqueeMessage](sendmarqueemessage)({{% lua_type_number %}} type, {{% lua_type_number %}} priority, {{% lua_type_number %}} fade_in, {{% lua_type_number %}} fade_out, {{% lua_type_number %}} duration, {{% lua_type_string %}} msg) -- {{% lua_type_nil %}}
-- [SendOPTranslocateConfirm](sendoptranslocateconfirm)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
+- [SendOPTranslocateConfirm](sendoptranslocateconfirm)({{% type_npc mob %}} caster, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [SendSound](sendsound)() -- {{% lua_type_nil %}}
 - [SendToGuildHall](sendtoguildhall)() -- {{% lua_type_nil %}}
-- [SendWebLink](sendweblink)({{% lua_type_string %}}site) -- {{% lua_type_nil %}}
-- [SendZoneFlagInfo](sendzoneflaginfo)(Lua_Client to) -- {{% lua_type_nil %}}
+- [SendWebLink](sendweblink)({{% lua_type_string %}} site) -- {{% lua_type_nil %}}
+- [SendZoneFlagInfo](sendzoneflaginfo)({{% type_client lua %}} to) -- {{% lua_type_nil %}}
 - [SetAAPoints](setaapoints)({{% lua_type_number %}} points) -- {{% lua_type_nil %}}
 - [SetAATitle](setaatitle)({{% lua_type_string %}}title) -- {{% lua_type_nil %}}
 - [SetAccountFlag](setaccountflag)({{% lua_type_string %}} flag, {{% lua_type_string %}} val) -- {{% lua_type_nil %}}

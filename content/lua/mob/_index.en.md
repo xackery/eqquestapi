@@ -8,10 +8,10 @@ weight: 25
 
 ## Mob Methods
 - [AddNimbusEffect](addnimbuseffect)({{% lua_type_number %}} effect_id) -- {{% lua_type_nil %}}
-- [AddToHateList](addtohatelist)({{% lua_type_mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage, {{% lua_type_boolean %}} yell_for_help, {{% lua_type_boolean %}} frenzy, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
-- [Attack](attack)({{% lua_type_mob %}} other, {{% lua_type_number %}} hand, {{% lua_type_boolean %}} from_riposte, {{% lua_type_boolean %}} is_strikethrough, {{% lua_type_boolean %}} is_from_spell, {{% lua_type_object %}} opts) -- {{% lua_type_boolean %}}
+- [AddToHateList](addtohatelist)({{% type_npc mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage, {{% lua_type_boolean %}} yell_for_help, {{% lua_type_boolean %}} frenzy, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
+- [Attack](attack)({{% type_npc mob %}} other, {{% lua_type_number %}} hand, {{% lua_type_boolean %}} from_riposte, {{% lua_type_boolean %}} is_strikethrough, {{% lua_type_boolean %}} is_from_spell, {{% lua_type_object %}} opts) -- {{% lua_type_boolean %}}
 - [AttackAnimation](attackanimation)({{% lua_type_number %}} Hand, {{% lua_type_iteminst %}} weapon) -- {{% lua_type_number %}}
-- [BehindMob](behindmob)({{% lua_type_mob %}} other, {{% lua_type_number %}} x, {{% lua_type_number %}} y) -- {{% lua_type_boolean %}}
+- [BehindMob](behindmob)({{% type_npc mob %}} other, {{% lua_type_number %}} x, {{% lua_type_number %}} y) -- {{% lua_type_boolean %}}
 - [BuffCount](buffcount)() -- {{% lua_type_number %}}
 - [BuffFadeAll](bufffadeall)() -- {{% lua_type_nil %}}
 - [BuffFadeByEffect](bufffadebyeffect)({{% lua_type_number %}} effect_id, {{% lua_type_number %}} skipslot) -- {{% lua_type_nil %}}
@@ -19,7 +19,7 @@ weight: 25
 - [BuffFadeBySpellID](bufffadebyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [CalculateDistance](calculatedistance)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_number %}}
 - [CalculateHeadingToTarget](calculateheadingtotarget)({{% lua_type_number %}} in_x, {{% lua_type_number %}} in_y) -- {{% lua_type_number %}}
-- [CameraEffect](cameraeffect)({{% lua_type_number %}} duration, {{% lua_type_number %}} intensity, {{% lua_type_client %}} c, {{% lua_type_boolean %}} global) -- {{% lua_type_nil %}}
+- [CameraEffect](cameraeffect)({{% lua_type_number %}} duration, {{% lua_type_number %}} intensity, {{% type_client lua %}} c, {{% lua_type_boolean %}} global) -- {{% lua_type_nil %}}
 - [CanBuffStack](canbuffstack)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} caster_level, {{% lua_type_boolean %}} fail_if_overwrite) -- {{% lua_type_number %}}
 - [CanThisClassBlock](canthisclassblock)() -- {{% lua_type_boolean %}}
 - [CanThisClassDodge](canthisclassdodge)() -- {{% lua_type_boolean %}}
@@ -41,28 +41,28 @@ weight: 25
 - [ChangeSize](changesize)({{% lua_type_number %}} in_size, {{% lua_type_boolean %}} no_restriction) -- {{% lua_type_nil %}}
 - [ChangeTexture](changetexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
 - [Charmed](charmed)() -- {{% lua_type_boolean %}}
-- [CheckAggro](checkaggro)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [CheckAggro](checkaggro)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
 - [CheckAggroAmount](checkaggroamount)({{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} is_proc) -- {{% lua_type_number %}}
 - [CheckHealAggroAmount](checkhealaggroamount)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} heal_possible) -- {{% lua_type_number %}}
-- [CheckLoS](checklos)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [CheckLoS](checklos)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
 - [CheckLoSToLoc](checklostoloc)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} mob_size) -- {{% lua_type_boolean %}}
 - [CheckNumHitsRemaining](checknumhitsremaining)({{% lua_type_number %}} type, {{% lua_type_number %}} buff_slot, {{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [ClearSpecialAbilities](clearspecialabilities)() -- {{% lua_type_nil %}}
-- [CombatRange](combatrange)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
-- [Damage](damage)({{% lua_type_mob %}} from, {{% lua_type_number %}} damage, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} attack_skill, {{% lua_type_boolean %}} a{{% lua_type_nil %}}able, {{% lua_type_number %}} buffslot, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
+- [CombatRange](combatrange)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
+- [Damage](damage)({{% type_npc mob %}} from, {{% lua_type_number %}} damage, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} attack_skill, {{% lua_type_boolean %}} a{{% lua_type_nil %}}able, {{% lua_type_number %}} buffslot, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
 - [DelGlobal](delglobal)({{% lua_type_string %}} varname) -- {{% lua_type_nil %}}
 - [Depop](depop)({{% lua_type_boolean %}} start_spawn_timer) -- {{% lua_type_nil %}}
 - [DivineAura](divineaura)() -- {{% lua_type_boolean %}}
 - [DoAnim](doanim)({{% lua_type_number %}} anim_num, {{% lua_type_number %}} type, {{% lua_type_boolean %}} ackreq, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
-- [DoArcheryAttackDmg](doarcheryattackdmg)({{% lua_type_mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_iteminst %}} ammo, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
-- [DoKnockback](doknockback)({{% lua_type_mob %}} caster, {{% lua_type_number %}} pushback, {{% lua_type_number %}} pushup) -- {{% lua_type_nil %}}
-- [DoMeleeSkillAttackDmg](domeleeskillattackdmg)({{% lua_type_mob %}} other, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} skill, {{% lua_type_number %}} chance_mod, {{% lua_type_number %}} focus, {{% lua_type_boolean %}} can_riposte) -- {{% lua_type_nil %}}
-- [DoSpecialAttackDamage](dospecialattackdamage)({{% lua_type_mob %}} other, {{% lua_type_number %}} skill, {{% lua_type_number %}} max_damage, {{% lua_type_number %}} min_damage, {{% lua_type_number %}} hate_override, {{% lua_type_number %}} reuse_time) -- {{% lua_type_nil %}}
-- [DoThrowingAttackDmg](dothrowingattackdmg)({{% lua_type_mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_item %}} item, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
-- [DoubleAggro]({{% lua_type_number %}}aggro)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [DoArcheryAttackDmg](doarcheryattackdmg)({{% type_npc mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_iteminst %}} ammo, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
+- [DoKnockback](doknockback)({{% type_npc mob %}} caster, {{% lua_type_number %}} pushback, {{% lua_type_number %}} pushup) -- {{% lua_type_nil %}}
+- [DoMeleeSkillAttackDmg](domeleeskillattackdmg)({{% type_npc mob %}} other, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} skill, {{% lua_type_number %}} chance_mod, {{% lua_type_number %}} focus, {{% lua_type_boolean %}} can_riposte) -- {{% lua_type_nil %}}
+- [DoSpecialAttackDamage](dospecialattackdamage)({{% type_npc mob %}} other, {{% lua_type_number %}} skill, {{% lua_type_number %}} max_damage, {{% lua_type_number %}} min_damage, {{% lua_type_number %}} hate_override, {{% lua_type_number %}} reuse_time) -- {{% lua_type_nil %}}
+- [DoThrowingAttackDmg](dothrowingattackdmg)({{% type_npc mob %}} other, {{% lua_type_iteminst %}} range_weapon, {{% lua_type_item %}} item, {{% lua_type_number %}} weapon_damage, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
+- [DoubleAggro]({{% lua_type_number %}}aggro)({{% type_npc mob %}} other) -- {{% lua_type_nil %}}
 - [Emote](emote)({{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [EntityVariableExists](entityvariableexists)({{% lua_type_string %}} name) -- {{% lua_type_boolean %}}
-- [FaceTarget](facetarget)({{% lua_type_mob %}} target) -- {{% lua_type_nil %}}
+- [FaceTarget](facetarget)({{% type_npc mob %}} target) -- {{% lua_type_nil %}}
 - [FindBuff](findbuff)({{% lua_type_number %}} spell_id) -- {{% lua_type_boolean %}}
 - [FindBuffBySlot](findbuffbyslot)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
 - [FindGroundZ](findgroundz)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_number %}}
@@ -89,7 +89,7 @@ weight: 25
 - [GetCleanName](getcleanname)() -- {{% lua_type_string %}}
 - [GetCorruption](getcorruption)() -- {{% lua_type_number %}}
 - [GetCR](getcr)() -- {{% lua_type_number %}}
-- [GetDamageAmount](getdamageamount)({{% lua_type_mob %}} target) -- {{% lua_type_number %}}
+- [GetDamageAmount](getdamageamount)({{% type_npc mob %}} target) -- {{% lua_type_number %}}
 - [GetDeity](getdeity)() -- {{% lua_type_number %}}
 - [GetDEX](getdex)() -- {{% lua_type_number %}}
 - [GetDisplayAC](getdisplayac)() -- {{% lua_type_number %}}
@@ -97,7 +97,7 @@ weight: 25
 - [GetDrakkinHeritage](getdrakkinheritage)() -- {{% lua_type_number %}}
 - [GetDrakkinTattoo](getdrakkintattoo)() -- {{% lua_type_number %}}
 - [GetEntityVariable](getentityvariable)({{% lua_type_string %}} name) -- {{% lua_type_string %}}
-- [GetFcDamageAmtIncoming](getfcdamageamtincoming)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} use_skill, {{% lua_type_number %}} skill) -- {{% lua_type_number %}}
+- [GetFcDamageAmtIncoming](getfcdamageamtincoming)({{% type_npc mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_boolean %}} use_skill, {{% lua_type_number %}} skill) -- {{% lua_type_number %}}
 - [GetFlurryChance](getflurrychance)() -- {{% lua_type_number %}}
 - [GetFR](getfr)() -- {{% lua_type_number %}}
 - [GetGender](getgender)() -- {{% lua_type_number %}}
@@ -107,11 +107,11 @@ weight: 25
 - [GetHandToHandDamage](gethandtohanddamage)() -- {{% lua_type_number %}}
 - [GetHandToHandDelay](gethandtohanddelay)() -- {{% lua_type_number %}}
 - [GetHaste](gethaste)() -- {{% lua_type_number %}}
-- [GetHateAmount](gethateamount)({{% lua_type_mob %}} target, {{% lua_type_boolean %}} is_damage) -- {{% lua_type_number %}}
-- [GetHateDamageTop](gethatedamagetop)({{% lua_type_mob %}} other) -- {{% lua_type_mob %}}
+- [GetHateAmount](gethateamount)({{% type_npc mob %}} target, {{% lua_type_boolean %}} is_damage) -- {{% lua_type_number %}}
+- [GetHateDamageTop](gethatedamagetop)({{% type_npc mob %}} other) -- {{% type_npc mob %}}
 - [GetHateList](gethatelist)() -- {{% lua_type_hate_list %}}
-- [GetHateRandom](gethaterandom)() -- {{% lua_type_mob %}}
-- [GetHateTop](gethatetop)() -- {{% lua_type_mob %}}
+- [GetHateRandom](gethaterandom)() -- {{% type_npc mob %}}
+- [GetHateTop](gethatetop)() -- {{% type_npc mob %}}
 - [GetHeading](getheading)() -- {{% lua_type_number %}}
 - [GetHelmTexture](gethelmtexture)() -- {{% lua_type_number %}}
 - [GetHerosForgeModel](getherosforgemodel)(uint8 material_slot) -- {{% lua_type_number %}}
@@ -141,14 +141,14 @@ weight: 25
 - [GetName](getname)() -- {{% lua_type_string %}}
 - [GetNPCTypeID](getnpctypeid)() -- {{% lua_type_number %}}
 - [GetOrigBodyType](getorigbodytype)() -- {{% lua_type_number %}}
-- [GetOwner](getowner)() -- {{% lua_type_mob %}}
-- [GetPet](getpet)() -- {{% lua_type_mob %}}
+- [GetOwner](getowner)() -- {{% type_npc mob %}}
+- [GetPet](getpet)() -- {{% type_npc mob %}}
 - [GetPetOrder](getpetorder)() -- {{% lua_type_number %}}
 - [GetPhR](getphr)() -- {{% lua_type_number %}}
 - [GetPR](getpr)() -- {{% lua_type_number %}}
 - [GetRace](getrace)() -- {{% lua_type_number %}}
 - [GetResist](getresist)({{% lua_type_number %}} type) -- {{% lua_type_number %}}
-- [GetReverseFactionCon](getreversefactioncon)({{% lua_type_mob %}} other) -- {{% lua_type_number %}}
+- [GetReverseFactionCon](getreversefactioncon)({{% type_npc mob %}} other) -- {{% lua_type_number %}}
 - [GetRunspeed](getrunspeed)() -- {{% lua_type_number %}}
 - [GetSize](getsize)() -- {{% lua_type_number %}}
 - [GetSkillDmgAmt](getskilldmgamt)({{% lua_type_number %}} skill) -- {{% lua_type_number %}}
@@ -160,7 +160,7 @@ weight: 25
 - [GetSpellHPBonuses](getspellhpbonuses)() -- {{% lua_type_number %}}
 - [GetSTA](getsta)() -- {{% lua_type_number %}}
 - [GetSTR](getstr)() -- {{% lua_type_number %}}
-- [GetTarget](gettarget)() -- {{% lua_type_mob %}}
+- [GetTarget](gettarget)() -- {{% type_npc mob %}}
 - [GetTexture](gettexture)() -- {{% lua_type_number %}}
 - [GetWalkspeed](getwalkspeed)() -- {{% lua_type_number %}}
 - [GetWaypointH](getwaypointh)() -- {{% lua_type_number %}}
@@ -176,7 +176,7 @@ weight: 25
 - [GetZ](getz)() -- {{% lua_type_number %}}
 - [GMMove](gmmove)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading, {{% lua_type_boolean %}} send_update) -- {{% lua_type_nil %}}
 - [GotoBind](gotobind)() -- {{% lua_type_nil %}}
-- [HalveAggro](halveaggro)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [HalveAggro](halveaggro)({{% type_npc mob %}} other) -- {{% lua_type_nil %}}
 - [HasNPCSpecialAtk](hasnpcspecialatk)({{% lua_type_string %}} parse) -- {{% lua_type_boolean %}}
 - [HasOwner](hasowner)() -- {{% lua_type_boolean %}}
 - [HasPet](haspet)() -- {{% lua_type_boolean %}}
@@ -185,12 +185,12 @@ weight: 25
 - [HasTwoHandBluntEquiped](hastwohandbluntequiped)() -- {{% lua_type_boolean %}}
 - [HasTwoHanderEquipped](hastwohanderequipped)() -- {{% lua_type_boolean %}}
 - [Heal](heal)() -- {{% lua_type_nil %}}
-- [HealDamage](healdamage)({{% lua_type_number %}} amount, {{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [HealDamage](healdamage)({{% lua_type_number %}} amount, {{% type_npc mob %}} other) -- {{% lua_type_nil %}}
 - [InterruptSpell](interruptspell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
 - [IsAIControlled](isaicontrolled)() -- {{% lua_type_boolean %}}
 - [IsAmnesiad](isamnesiad)() -- {{% lua_type_boolean %}}
-- [IsAttackAllowed](isattackallowed)({{% lua_type_mob %}} target, {{% lua_type_boolean %}} isSpellAttack) -- {{% lua_type_boolean %}}
-- [IsBeneficialAllowed](isbeneficialallowed)({{% lua_type_mob %}} target) -- {{% lua_type_boolean %}}
+- [IsAttackAllowed](isattackallowed)({{% type_npc mob %}} target, {{% lua_type_boolean %}} isSpellAttack) -- {{% lua_type_boolean %}}
+- [IsBeneficialAllowed](isbeneficialallowed)({{% type_npc mob %}} target) -- {{% lua_type_boolean %}}
 - [IsBerserk](isberserk)() -- {{% lua_type_boolean %}}
 - [IsBlind](isblind)() -- {{% lua_type_boolean %}}
 - [IsCasting](iscasting)() -- {{% lua_type_boolean %}}
@@ -198,8 +198,8 @@ weight: 25
 - [IsEngaged](isengaged)() -- {{% lua_type_boolean %}}
 - [IsEnraged](isenraged)() -- {{% lua_type_boolean %}}
 - [IsFeared](isfeared)() -- {{% lua_type_boolean %}}
-- [IsImmuneToSpell](isimmunetospell)({{% lua_type_number %}} spell_id, {{% lua_type_mob %}} caster) -- {{% lua_type_boolean %}}
-- [IsInvisible](isinvisible)({{% lua_type_mob %}} other) -- {{% lua_type_boolean %}}
+- [IsImmuneToSpell](isimmunetospell)({{% lua_type_number %}} spell_id, {{% type_npc mob %}} caster) -- {{% lua_type_boolean %}}
+- [IsInvisible](isinvisible)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
 - [IsMeleeDisabled](ismeleedisabled)() -- {{% lua_type_boolean %}}
 - [IsMezzed](ismezzed)() -- {{% lua_type_boolean %}}
 - [IsMoving](ismoving)() -- {{% lua_type_boolean %}}
@@ -220,19 +220,19 @@ weight: 25
 - [NavigateTo](navigateto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
 - [NPCSpecialAttacks](npcspecialattacks)({{% lua_type_string %}} parse, {{% lua_type_number %}} perm, {{% lua_type_boolean %}} reset, {{% lua_type_boolean %}} remove) -- {{% lua_type_nil %}}
 - [ProcessSpecialAbilities](processspecialabilities)(std::string str) -- {{% lua_type_nil %}}
-- [ProjectileAnimation](projectileanimation)({{% lua_type_mob %}} to, {{% lua_type_number %}} item_id, {{% lua_type_boolean %}} is_arrow, {{% lua_type_number %}} speed, {{% lua_type_number %}} angle, {{% lua_type_number %}} tilt, {{% lua_type_number %}} arc) -- {{% lua_type_nil %}}
-- [QuestSay](questsay)({{% lua_type_client %}} client, {{% lua_type_string %}} message, {{% lua_type_object %}} opts) -- {{% lua_type_nil %}}
+- [ProjectileAnimation](projectileanimation)({{% type_npc mob %}} to, {{% lua_type_number %}} item_id, {{% lua_type_boolean %}} is_arrow, {{% lua_type_number %}} speed, {{% lua_type_number %}} angle, {{% lua_type_number %}} tilt, {{% lua_type_number %}} arc) -- {{% lua_type_nil %}}
+- [QuestSay](questsay)({{% type_client lua %}} client, {{% lua_type_string %}} message, {{% lua_type_object %}} opts) -- {{% lua_type_nil %}}
 - [RandomizeFeatures](randomizefeatures)({{% lua_type_boolean %}} send_illusion, {{% lua_type_boolean %}} save_variables) -- {{% lua_type_nil %}}
-- [RangedAttack](rangedattack)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
+- [RangedAttack](rangedattack)({{% type_npc mob %}} other) -- {{% lua_type_nil %}}
 - [RemoveNimbusEffect](removenimbuseffect)({{% lua_type_number %}} effect_id) -- {{% lua_type_nil %}}
-- [ResistSpell](resistspell)({{% lua_type_number %}} resist_type, {{% lua_type_number %}} spell_id, {{% lua_type_mob %}} caster, {{% lua_type_boolean %}} use_resist_override, {{% lua_type_number %}} resist_override) -- {{% lua_type_number %}}
+- [ResistSpell](resistspell)({{% lua_type_number %}} resist_type, {{% lua_type_number %}} spell_id, {{% type_npc mob %}} caster, {{% lua_type_boolean %}} use_resist_override, {{% lua_type_number %}} resist_override) -- {{% lua_type_number %}}
 - [RunTo](runto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}
 - [Say](say)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
 - [SeeHide](seehide)() -- {{% lua_type_boolean %}}
 - [SeeImprovedHide](seeimprovedhide)() -- {{% lua_type_boolean %}}
 - [SeeInvisible](seeinvisible)() -- {{% lua_type_number %}}
 - [SeeInvisibleUndead](seeinvisibleundead)() -- {{% lua_type_boolean %}}
-- [SendAppearanceEffect](sendappearanceeffect)({{% lua_type_number %}} parm1, {{% lua_type_number %}} parm2, {{% lua_type_number %}} parm3, {{% lua_type_number %}} parm4, {{% lua_type_number %}} parm5, {{% lua_type_client %}} specific_target) -- {{% lua_type_nil %}}
+- [SendAppearanceEffect](sendappearanceeffect)({{% lua_type_number %}} parm1, {{% lua_type_number %}} parm2, {{% lua_type_number %}} parm3, {{% lua_type_number %}} parm4, {{% lua_type_number %}} parm5, {{% type_client lua %}} specific_target) -- {{% lua_type_nil %}}
 - [SendBeginCast](sendbegincast)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} cast_time) -- {{% lua_type_nil %}}
 - [SendIllusionPacket](sendillusionpacket)({{% lua_type_object %}} illusion) -- {{% lua_type_nil %}}
 - [SendSpellEffect](sendspelleffect)({{% lua_type_number %}} effect_id, {{% lua_type_number %}} duration, {{% lua_type_number %}} finish_delay, {{% lua_type_boolean %}} zone_wide, {{% lua_type_number %}} unk020, {{% lua_type_boolean %}} perm_effect) -- {{% lua_type_nil %}}
@@ -250,8 +250,8 @@ weight: 25
 - [SetFlurryChance](setflurrychance)({{% lua_type_number %}} value) -- {{% lua_type_nil %}}
 - [SetFlyMode](setflymode)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
 - [SetGender](setgender)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
-- [SetGlobal](setglobal)({{% lua_type_string %}} varname, {{% lua_type_string %}} newvalue, {{% lua_type_number %}} options, {{% lua_type_string %}} duration, {{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
-- [SetHate](sethate)({{% lua_type_mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage) -- {{% lua_type_nil %}}
+- [SetGlobal](setglobal)({{% lua_type_string %}} varname, {{% lua_type_string %}} newvalue, {{% lua_type_number %}} options, {{% lua_type_string %}} duration, {{% type_npc mob %}} other) -- {{% lua_type_nil %}}
+- [SetHate](sethate)({{% type_npc mob %}} other, {{% lua_type_number %}} hate, {{% lua_type_number %}} damage) -- {{% lua_type_nil %}}
 - [SetHeading](setheading)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
 - [SetHP](sethp)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
 - [SetInvisible](setinvisible)({{% lua_type_number %}} state) -- {{% lua_type_nil %}}
@@ -266,20 +266,20 @@ weight: 25
 - [SetSlotTint](setslottint)({{% lua_type_number %}} material_slot, {{% lua_type_number %}} red_tint, {{% lua_type_number %}} green_tint, {{% lua_type_number %}} blue_tint) -- {{% lua_type_nil %}}
 - [SetSpecialAbility](setspecialability)({{% lua_type_number %}} ability, {{% lua_type_number %}} level) -- {{% lua_type_nil %}}
 - [SetSpecialAbilityParam](setspecialabilityparam)({{% lua_type_number %}} ability, {{% lua_type_number %}} param, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
-- [SetTarget](settarget)({{% lua_type_mob %}} t) -- {{% lua_type_nil %}}
+- [SetTarget](settarget)({{% type_npc mob %}} t) -- {{% lua_type_nil %}}
 - [SetTargetable](settargetable)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
 - [SetTexture](settexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
 - [Shout](shout)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
 - [Signal](signal)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
-- [SpellEffect](spelleffect)({{% lua_type_mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} partial) -- {{% lua_type_nil %}}
-- [SpellFinished](spellfinished)({{% lua_type_number %}} spell_id, {{% lua_type_mob %}} target, {{% lua_type_number %}} slot, {{% lua_type_number %}} mana_used, {{% lua_type_number %}} inventory_slot, {{% lua_type_number %}} resist_adjust, {{% lua_type_boolean %}} proc) -- {{% lua_type_boolean %}}
+- [SpellEffect](spelleffect)({{% type_npc mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} partial) -- {{% lua_type_nil %}}
+- [SpellFinished](spellfinished)({{% lua_type_number %}} spell_id, {{% type_npc mob %}} target, {{% lua_type_number %}} slot, {{% lua_type_number %}} mana_used, {{% lua_type_number %}} inventory_slot, {{% lua_type_number %}} resist_adjust, {{% lua_type_boolean %}} proc) -- {{% lua_type_boolean %}}
 - [Spin](spin)() -- {{% lua_type_nil %}}
 - [StopNavigation](stopnavigation)() -- {{% lua_type_nil %}}
 - [Stun](stun)({{% lua_type_number %}} duration) -- {{% lua_type_nil %}}
 - [TarGlobal](targlobal)({{% lua_type_string %}} varname, {{% lua_type_string %}} value, {{% lua_type_string %}} duration, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_id, {{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
 - [TempName](tempname)({{% lua_type_string %}} newname) -- {{% lua_type_nil %}}
-- [ThrowingAttack](throwingattack)({{% lua_type_mob %}} other) -- {{% lua_type_nil %}}
-- [TryFinishingBlow](tryfinishingblow)({{% lua_type_mob %}} defender, {{% lua_type_number %}} damage) -- {{% lua_type_boolean %}}
+- [ThrowingAttack](throwingattack)({{% type_npc mob %}} other) -- {{% lua_type_nil %}}
+- [TryFinishingBlow](tryfinishingblow)({{% type_npc mob %}} defender, {{% lua_type_number %}} damage) -- {{% lua_type_boolean %}}
 - [TryMoveAlong](trymovealong)({{% lua_type_number %}} distance, {{% lua_type_number %}} angle, {{% lua_type_boolean %}} send) -- {{% lua_type_nil %}}
 - [UnStun](unstun)() -- {{% lua_type_nil %}}
 - [WalkTo](walkto)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z) -- {{% lua_type_nil %}}

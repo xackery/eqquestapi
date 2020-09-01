@@ -30,5 +30,5 @@ end
 **Exported Variables**
 
 These variables are available with event_signal
-- {{% lua_type_mob %}} **e.self**: mob receiving the event
+- {{% type_npc mob %}} **e.self**: mob receiving the event
 - {{% lua_type_number %}} **e.signal**: signal index
