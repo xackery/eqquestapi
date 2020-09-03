@@ -269,6 +269,7 @@ weight: 25
 - [SetTarget](settarget)({{% type_npc mob %}} t) -- {{% lua_type_nil %}}
 - [SetTargetable](settargetable)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
 - [SetTexture](settexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
+- [Shout](shout)({{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [Shout](shout)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
 - [Signal](signal)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
 - [SpellEffect](spelleffect)({{% type_npc mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} partial) -- {{% lua_type_nil %}}
