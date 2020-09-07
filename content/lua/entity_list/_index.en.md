@@ -1,7 +1,7 @@
 ---
 title: EntityList Class
 menuTitle: EntityList Class
-description: Lua EntityList Class
+searchDescription: Lua EntityList Class
 searchTitle: Lua EntityList Class
 weight: 25
 ---

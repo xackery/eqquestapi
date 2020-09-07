@@ -3,7 +3,7 @@ date: 2020-08-24T16:50:16+02:00
 title: Event Functions
 menuTitle: Event Functions
 searchTitle: Lua Event Functions
-description: Lua Event Functions
+searchDescription: Lua Event Functions
 weight: 25
 ---
 

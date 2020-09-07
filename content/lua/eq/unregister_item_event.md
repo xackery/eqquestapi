@@ -1,7 +1,7 @@
 ---
 title: unregister_item_event
 searchTitle: Lua EQ unregister_item_event
-description: Unregisters an item event.
+searchDescription: Unregisters an item event.
 weight: 1
 hidden: true
 menuTitle: unregister_item_event

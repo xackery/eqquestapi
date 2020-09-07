@@ -1,7 +1,7 @@
 ---
 title: InventoryWhere Enum
 menuTitle: InventoryWhere Enum
-description: Lua InventoryWhere Enum
+searchDescription: Lua InventoryWhere Enum
 searchIndex: Lua InventoryWhere Enum
 weight: 25
 ---

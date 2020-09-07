@@ -1,7 +1,7 @@
 ---
 title: Item Class
 menuTitle: Item Class
-description: Lua Item Class
+searchDescription: Lua Item Class
 searchTitle: Lua Item Class
 weight: 25
 ---

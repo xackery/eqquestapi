@@ -1,7 +1,7 @@
 ---
 title: event_augment_item
 searchTitle: Lua Event event_augment_item
-description: Triggers when a player inserts an augment
+searchDescription: Triggers when a player inserts an augment
 weight: 1
 hidden: true
 menuTitle: event_augment_item

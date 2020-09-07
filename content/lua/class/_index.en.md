@@ -1,7 +1,7 @@
 ---
 title: Class Enum
 menuTitle: Class Enum
-description: Lua Class Enum
+searchDescription: Lua Class Enum
 searchTitle: Lua Class Enum
 weight: 25
 ---

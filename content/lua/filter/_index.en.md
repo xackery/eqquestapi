@@ -1,7 +1,7 @@
 ---
 title: Filter Enum
 menuTitle: Filter Enum
-description: Lua Filter Enum
+searchDescription: Lua Filter Enum
 searchTitle: Lua Filter Enum
 weight: 25
 ---

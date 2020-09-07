@@ -1,7 +1,7 @@
 ---
 title: Faction Enum
 menuTitle: Faction Enum
-description: Lua Faction Enum
+searchDescription: Lua Faction Enum
 searchIndex: Lua Faction Enum
 weight: 25
 ---

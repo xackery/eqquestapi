@@ -1,7 +1,7 @@
 ---
 title: Stat Bonuses Class
 menuTitle: Stat Bonuses Class
-description: Lua Stat Bonus Class
+searchDescription: Lua Stat Bonus Class
 searchTitle: Lua Stat Bonus Class
 weight: 25
 ---

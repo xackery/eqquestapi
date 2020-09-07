@@ -1,7 +1,7 @@
 ---
 title: event_augment_remove
 searchTitle: Lua Event event_augment_remove
-description: Triggers when a player removes an augment
+searchDescription: Triggers when a player removes an augment
 weight: 1
 hidden: true
 menuTitle: event_augment_remove

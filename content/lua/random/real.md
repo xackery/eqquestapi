@@ -1,7 +1,7 @@
 ---
 title: Real
 searchTitle: Lua EQ Real
-description: Rolls a random real number. It is normally suggested to use math.Random(low, high) if whole numbers are acceptable.
+searchDescription: Rolls a random real number. It is normally suggested to use math.Random(low, high) if whole numbers are acceptable.
 weight: 1
 hidden: true
 menuTitle: Real

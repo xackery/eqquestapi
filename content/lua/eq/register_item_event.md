@@ -1,7 +1,7 @@
 ---
 title: register_item_event
 searchTitle: Lua EQ register_item_event
-description: Registers an item event.
+searchDescription: Registers an item event.
 weight: 1
 hidden: true
 menuTitle: register_item_event

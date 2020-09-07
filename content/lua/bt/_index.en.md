@@ -1,7 +1,7 @@
 ---
 title: BT Enum
 menuTitle: BT Enum
-description: Lua BT Enum
+searchDescription: Lua BT Enum
 searchTitle: Lua BT Enum
 weight: 25
 ---

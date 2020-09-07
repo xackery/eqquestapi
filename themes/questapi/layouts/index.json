@@ -8,7 +8,7 @@
 	"uri": "{{ $page.Permalink }}",
 	"title": "{{ htmlEscape $page.Params.searchTitle}}",
 	"tags": [{{ range $tindex, $tag := $page.Params.tags }}{{ if $tindex }}, {{ end }}"{{ $tag| htmlEscape }}"{{ end }}],
-	"description": "{{ htmlEscape .Description}}",
+	"description": "{{ if ne $page.Params.searchDescription "" }}{{ htmlEscape $page.Params.searchDescription }}{{ end }}",
 	"content": ""
 }
 {{- end -}}

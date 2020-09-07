@@ -1,7 +1,7 @@
 ---
 title: event_cast_on
 searchTitle: Lua Event event_cast_on
-description: Triggers when a NPC or player casts a spell on a target
+searchDescription: Triggers when a NPC or player casts a spell on a target
 weight: 1
 hidden: true
 menuTitle: event_cast_on

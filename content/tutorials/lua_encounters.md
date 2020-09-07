@@ -1,7 +1,7 @@
 ---
 title: Lua Encounters
 searchTitle: Tutorial Lua Encounters
-description: Tutorial Lua Encounters
+searchDescription: Tutorial Lua Encounters
 menuTitle: Lua Encounters
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Perl Working With Entity Lists
 searchTitle: Tutorial Perl Working With Entity Lists
-description: Tutorial Perl Working With Entity Lists
+searchDescription: Tutorial Perl Working With Entity Lists
 menuTitle: Perl Working With Entity Lists
 ---
 

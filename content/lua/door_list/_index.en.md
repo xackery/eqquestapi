@@ -1,7 +1,7 @@
 ---
 title: DoorList Class
 menuTitle: DoorList Class
-description: Lua DoorList Class
+searchDescription: Lua DoorList Class
 searchTitle: Lua DoorList Class
 weight: 25
 ---

@@ -1,7 +1,7 @@
 ---
 title: Door Class
 menuTitle: Door Class
-description: Lua Door Class
+searchDescription: Lua Door Class
 searchTitle: Lua Door Class
 weight: 25
 ---

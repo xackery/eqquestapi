@@ -1,7 +1,7 @@
 ---
 title: Skill Enum
 menuTitle: Skill Enum
-description: Lua Skill Enum
+searchDescription: Lua Skill Enum
 searchTitle: Lua Skill Enum
 weight: 25
 ---

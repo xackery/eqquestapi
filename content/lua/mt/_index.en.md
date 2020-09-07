@@ -1,7 +1,7 @@
 ---
 title: MT Enum
 menuTitle: MT Enum
-description: Lua MT Enum
+searchDescription: Lua MT Enum
 searchTitle: Lua MT Enum
 weight: 25
 ---

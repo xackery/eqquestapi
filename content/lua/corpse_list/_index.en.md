@@ -1,7 +1,7 @@
 ---
 title: CorpseList Class
 menuTitle: CorpseList Class
-description: Lua CorpseList Class
+searchDescription: Lua CorpseList Class
 searchTitle: Lua CorpseList Class
 weight: 25
 ---

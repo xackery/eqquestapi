@@ -1,7 +1,7 @@
 ---
 title: event_aggro_say
 searchTitle: Lua Event event_aggro_say
-description: Triggers when an NPC aggros anything
+searchDescription: Triggers when an NPC aggros anything
 weight: 1
 hidden: true
 menuTitle: event_aggro_say

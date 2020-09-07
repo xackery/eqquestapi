@@ -1,7 +1,7 @@
 ---
 title: Appearance Enum
 menuTitle: Appearance Enum
-description: Lua Appearance Enum
+searchDescription: Lua Appearance Enum
 searchTitle: Lua Appearance Enum
 weight: 25
 ---

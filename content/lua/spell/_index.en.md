@@ -1,7 +1,7 @@
 ---
 title: Spell Class
 menuTitle: Spell Class
-description: Lua Spell Class
+searchDescription: Lua Spell Class
 searchTitle: Lua Spell Class
 weight: 25
 ---

@@ -1,7 +1,7 @@
 ---
 title: Group Class
 menuTitle: Group Class
-description: Lua Group Class
+searchDescription: Lua Group Class
 searchTitle: Lua Group Class
 weight: 25
 ---

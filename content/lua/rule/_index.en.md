@@ -1,7 +1,7 @@
 ---
 title: Rule Class
 menuTitle: Rule Class
-description: Lua Rule Class
+searchDescription: Lua Rule Class
 searchTitle: Lua Rule Class
 weight: 25
 ---

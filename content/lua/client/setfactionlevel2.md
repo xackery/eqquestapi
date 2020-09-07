@@ -1,7 +1,7 @@
 ---
 title: SetFactionLevel2
 searchTitle: Lua EQ SetFactionLevel2
-description: Clears compass's current mark.
+searchDescription: Clears compass's current mark.
 weight: 1
 hidden: true
 menuTitle: SetFactionLevel2

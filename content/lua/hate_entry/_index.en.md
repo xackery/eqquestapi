@@ -1,7 +1,7 @@
 ---
 title: Hate Entry Class
 menuTitle: Hate Entry Class
-description: Lua Hate Entry Class
+searchDescription: Lua Hate Entry Class
 searchTitle: Lua Hate Entry Class
 weight: 25
 ---

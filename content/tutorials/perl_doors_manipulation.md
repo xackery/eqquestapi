@@ -2,8 +2,8 @@
 title: Perl Doors Manipulation
 menuTitle: Perl Doors Manipulation
 searchTitle: Tutorial Perl Doors Manipulation
-description: Tutorial Perl Doors Manipulation
-description: Perl Doors Manipulation
+searchDescription: Tutorial Perl Doors Manipulation
+searchDescription: Perl Doors Manipulation
 ---
 # Doors Manipulation
 

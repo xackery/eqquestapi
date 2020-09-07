@@ -1,7 +1,7 @@
 ---
 title: SpeakMode Enum
 menuTitle: SpeakMode Enum
-description: Lua SpeakMode Enum
+searchDescription: Lua SpeakMode Enum
 searchTitle: Lua SpeakMode Enum
 weight: 25
 ---

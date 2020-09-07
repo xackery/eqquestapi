@@ -1,7 +1,7 @@
 ---
 title: event_cast_begin
 searchTitle: Lua Event event_cast_begin
-description: Triggers when a NPC begins to cast
+searchDescription: Triggers when a NPC begins to cast
 weight: 1
 hidden: true
 menuTitle: event_cast_begin

@@ -1,7 +1,7 @@
 ---
 title: get_data
 searchTitle: Lua EQ get_data
-description: Gets data from a data bucket.
+searchDescription: Gets data from a data bucket.
 weight: 1
 hidden: true
 menuTitle: get_data

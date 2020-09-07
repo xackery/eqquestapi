@@ -1,7 +1,7 @@
 ---
 title: Raid Class
 menuTitle: Raid Class
-description: Lua Raid Class
+searchDescription: Lua Raid Class
 searchTitle: Lua Raid Class
 weight: 25
 ---

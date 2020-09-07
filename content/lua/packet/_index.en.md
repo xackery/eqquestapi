@@ -1,7 +1,7 @@
 ---
 title: Packet Class
 menuTitle: Packet Class
-description: Lua Packet Class
+searchDescription: Lua Packet Class
 searchTitle: Lua Packet Class
 weight: 25
 ---

@@ -1,7 +1,7 @@
 ---
 title: Inventory Class
 menuTitle: Inventory Class
-description: Lua Inventory Class
+searchDescription: Lua Inventory Class
 searchTitle: Lua Inventory Class
 weight: 25
 ---

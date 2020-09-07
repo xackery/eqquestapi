@@ -1,7 +1,7 @@
 ---
 title: event_trade
 searchTitle: Lua Event event_trade
-description: Triggers when a player trades with a NPC
+searchDescription: Triggers when a player trades with a NPC
 weight: 1
 hidden: true
 menuTitle: event_trade

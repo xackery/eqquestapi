@@ -1,7 +1,7 @@
 ---
 title: Int
 searchTitle: Lua EQ Int
-description: Rolls a random whole number. Alternatively can use math.random(low, high) for built in lua randomizing.
+searchDescription: Rolls a random whole number. Alternatively can use math.random(low, high) for built in lua randomizing.
 weight: 1
 hidden: true
 menuTitle: Int

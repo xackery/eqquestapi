@@ -1,7 +1,7 @@
 ---
 title: Material Enum
 menuTitle: Material Enum
-description: Lua Material Enum
+searchDescription: Lua Material Enum
 searchTitle: Lua Material Enum
 weight: 25
 ---

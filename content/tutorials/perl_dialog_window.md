@@ -2,7 +2,7 @@
 title: Perl Dialog Window Plugin
 searchTitle: Tutorials Perl Dialog Window Plugin
 menuTitle: Perl Dialog Window Plugin
-description: Perl Dialog Window Plugin
+searchDescription: Perl Dialog Window Plugin
 ---
 # DiaWind
 

@@ -1,7 +1,7 @@
 ---
 title: Perl Diablo Loot Plugin
 searchTitle: Tutorials Perl Diablo Loot Plugin
-description: Tutorials Perl Diablo Loot Plugin
+searchDescription: Tutorials Perl Diablo Loot Plugin
 menuTitle: Perl Diablo Loot Plugin
 ---
 # Diablo Loot

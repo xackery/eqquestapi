@@ -1,7 +1,7 @@
 ---
 title: event_say
 searchTitle: Lua Event event_say
-description: Triggers when a player talks to a NPC
+searchDescription: Triggers when a player talks to a NPC
 weight: 1
 hidden: true
 menuTitle: event_say

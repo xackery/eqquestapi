@@ -1,7 +1,7 @@
 ---
 title: Opcode Enum
 menuTitle: Opcode Enum
-description: Lua Opcode Enum
+searchDescription: Lua Opcode Enum
 searchTitle: Lua Opcode Enum
 weight: 25
 ---

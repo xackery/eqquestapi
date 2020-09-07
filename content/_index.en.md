@@ -1,5 +1,5 @@
 ---
-description: >-
+searchDescription: >-
   This space details the set of functions and procedures allowing the access of
   the features or data of the EQEmu Server.
 ---

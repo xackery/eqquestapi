@@ -1,7 +1,7 @@
 ---
 title: MobList Class
 menuTitle: MobList Class
-description: Lua MobList Class
+searchDescription: Lua MobList Class
 searchTitle: Lua MobList Class
 weight: 25
 ---

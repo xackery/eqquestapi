@@ -1,7 +1,7 @@
 ---
 title: JournalMode Enum
 menuTitle: JournalMode Enum
-description: Lua JournalMode Enum
+searchDescription: Lua JournalMode Enum
 searchTitle: Lua JournalMode Enum
 weight: 25
 ---

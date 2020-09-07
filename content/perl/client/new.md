@@ -1,7 +1,7 @@
 ---
 title: new
 searchTitle: Perl Client new
-description: new creates a new instance reference to the client calling the script
+searchDescription: new creates a new instance reference to the client calling the script
 weight: 1
 hidden: true
 menuTitle: new

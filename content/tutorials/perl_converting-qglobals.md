@@ -1,7 +1,7 @@
 ---
 title: Perl Converting QGlobals
 searchTitle: Tutorial Perl Converting QGlobals
-description: Tutorial Perl Converting QGlobals
+searchDescription: Tutorial Perl Converting QGlobals
 menuTitle: Perl Converting QGlobals
 ---
 # Converting QGlobals

@@ -1,7 +1,7 @@
 ---
 title: ClearCompassMark
 searchTitle: Lua EQ ClearCompassMark
-description: Clears compass's current mark.
+searchDescription: Clears compass's current mark.
 weight: 1
 hidden: true
 menuTitle: ClearCompassMark

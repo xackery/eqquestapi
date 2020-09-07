@@ -1,7 +1,7 @@
 ---
 title: Slot Enum
 menuTitle: Slot Enum
-description: Lua Slot Enum
+searchDescription: Lua Slot Enum
 searchTitle: Lua Slot Enum
 weight: 25
 ---

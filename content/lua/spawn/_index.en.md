@@ -1,7 +1,7 @@
 ---
 title: Spawn Class
 menuTitle: Spawn Class
-description: Lua Spawn Class
+searchDescription: Lua Spawn Class
 searchTitle: Lua Spawn Class
 weight: 25
 ---

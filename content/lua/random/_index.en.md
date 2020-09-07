@@ -1,7 +1,7 @@
 ---
 title: Random Class
 menuTitle: Random Class
-description: Lua Random Namespace
+searchDescription: Lua Random Namespace
 searchTitle: Lua Random Namespace
 weight: 25
 ---

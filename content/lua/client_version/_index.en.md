@@ -1,7 +1,7 @@
 ---
 title: Client Version Enum
 menuTitle: Client Version Enum
-description: Lua Client Version Enum
+searchDescription: Lua Client Version Enum
 searchTitle: Lua Client Version Enum
 weight: 25
 ---

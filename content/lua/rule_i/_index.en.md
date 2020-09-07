@@ -1,7 +1,7 @@
 ---
 title: RuleI Namespace
 menuTitle: RuleI Namespace
-description: Lua RuleI Namespace
+searchDescription: Lua RuleI Namespace
 weight: 25
 ---
 ## RuleI Methods

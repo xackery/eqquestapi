@@ -1,7 +1,7 @@
 ---
 title: PlayMP3
 searchTitle: Lua EQ PlayMP3
-description: Clears compass's current mark.
+searchDescription: Clears compass's current mark.
 weight: 1
 hidden: true
 menuTitle: PlayMP3

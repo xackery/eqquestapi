@@ -1,7 +1,7 @@
 ---
 title: set_data
 searchTitle: Lua EQ set_data
-description: Sets a data bucket to provided data. By default, expires_at is never (0)
+searchDescription: Sets a data bucket to provided data. By default, expires_at is never (0)
 weight: 1
 hidden: true
 menuTitle: set_data

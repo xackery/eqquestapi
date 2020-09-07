@@ -1,7 +1,7 @@
 ---
 title: event_signal
 searchTitle: Lua Event event_signal
-description: Triggers when a NPC gets a signal
+searchDescription: Triggers when a NPC gets a signal
 weight: 1
 hidden: true
 menuTitle: event_signal

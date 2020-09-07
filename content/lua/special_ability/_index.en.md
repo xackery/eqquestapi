@@ -1,7 +1,7 @@
 ---
 title: SpecialAbility Enum
 menuTitle: SpecialAbility Enum
-description: Lua SpecialAbility Enum
+searchDescription: Lua SpecialAbility Enum
 searchTitle: Lua SpecialAbility Enum
 weight: 25
 ---

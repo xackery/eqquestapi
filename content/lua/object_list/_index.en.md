@@ -1,7 +1,7 @@
 ---
 title: ObjectList Class
 menuTitle: ObjectList Class
-description: Lua ObjectList Class
+searchDescription: Lua ObjectList Class
 searchTitle: Lua ObjectList Class
 weight: 25
 ---

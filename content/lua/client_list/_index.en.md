@@ -1,7 +1,7 @@
 ---
 title: ClientList Class
 menuTitle: ClientList Class
-description: Lua ClientList Class
+searchDescription: Lua ClientList Class
 searchTitle: Lua ClientList Class
 weight: 25
 ---

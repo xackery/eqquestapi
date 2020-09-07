@@ -1,7 +1,7 @@
 ---
 title: NPC Class
 menuTitle: NPC Class
-description: Lua NPC Class
+searchDescription: Lua NPC Class
 searchTitle: Lua NPC Class
 weight: 25
 ---
