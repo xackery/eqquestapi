@@ -315,3 +315,6 @@ weight: 25
 - [zone_emote](zone_emote)({{% lua_type_number %}} type, {{% lua_type_string %}} str) -- {{% lua_type_nil %}}
 - [zone_group](zone_group)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
 - [zone_raid](zone_raid)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
+- [unregister_player_event](unregister_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
+- [unregister_player_event](unregister_player_event)(name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
+- [register_spell_event](register_spell_event)
