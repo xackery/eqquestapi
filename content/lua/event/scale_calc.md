@@ -30,7 +30,7 @@ function {{% lua_type_functionname event_scale_calc %}}({{% lua_type_class %}} e
 
 ```lua
 function event_scale_calc(e)
-    eq.debug(e.item.GetID() .. "triggered a scale event");
+    eq.debug(e.self.GetID() .. "triggered a scale event");
 end
 ```
 
