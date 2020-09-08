@@ -14,3 +14,4 @@ weight: 25
 - $quest_item->[IsType](istype)(type)
 - $quest_item->[ItemSay](itemsay)(string text [int language_id])
 - $quest_item->[SetScale](setscale)(float scale_multiplier)
+- $quest_item->[new](new)()

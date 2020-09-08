@@ -12,6 +12,7 @@ weight: 25
 Note that every event function has an enum represented with e.g. Event.event_cast syntax
 
 - [event_aggro_say](aggro_say)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
+- [event_attack](attack)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_augment_insert](augment_insert)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_augment_item](augment_item)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_augment_remove](augment_remove)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
@@ -59,6 +60,7 @@ Note that every event function has an enum represented with e.g. Event.event_cas
 - [event_leave_area](leave_area)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_level_up](level_up)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_loot](loot)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
+- [event_npc_slay](event_npc_slay)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_player_pickup](player_pickup)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_popup_response](popup_response)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}
 - [event_proximity_say](proximity_say)({{% lua_type_class %}} e) -- {{% lua_type_nil %}}

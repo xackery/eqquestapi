@@ -61,6 +61,11 @@ func (s Scope) path(funcName string) string {
 		v = s.namespace
 	}
 
+	if pathize(v) == "event" && len(funcName) > 6 {
+
+		funcName = funcName[6:]
+	}
+
 	return fmt.Sprintf("../../content/%s/%s/%s.md", s.language, pathize(v), strings.ToLower(funcName))
 }
 
@@ -256,12 +261,14 @@ func luaDef(line string) error {
 		return nil
 	}
 	if len(matches[0]) < 2 {
-		log.Debug().Str("line", line).Msg("lua property not enough submatches")
+		log.Debug().Str("line", line).Msg("lua def not enough submatches")
 		return nil
 	}
 
+	funcName := matches[0][1]
+
 	scope.defType = "def"
-	if err := checkDocumented(matches[0][1]); err != nil {
+	if err := checkDocumented(funcName); err != nil {
 		return fmt.Errorf("checkDocumented: %w", err)
 	}
 	return nil
@@ -394,6 +401,7 @@ func auditBothEvent(line string) error {
 	}
 	scope.language = "lua"
 	scope.defType = "function"
+
 	if err := checkDocumented(strings.ToLower(funcName)); err != nil {
 		return fmt.Errorf("checkDocumented: %w", err)
 	}

@@ -286,3 +286,4 @@ weight: 25
 - $quest->[zone](zone)(string zone_name)
 - $quest->[zonegroup](zonegroup)(string zone_name)
 - $quest->[zoneraid](zoneraid)(string zone_name)
+- $quest->[createbotcount](createbotcount)() -- int
