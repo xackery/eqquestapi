@@ -1,9 +1,9 @@
 ---
-title: InventoryWhere Shared Bank
-searchTitle: Lua InventoryWhere Shared Bank
+title: InventoryWhere SharedBank
+searchTitle: Lua InventoryWhere SharedBank
 weight: 1
 hidden: true
-menuTitle: InventoryWhere Shared Bank
+menuTitle: InventoryWhere SharedBank
 ---
 ## Shared Bank
 

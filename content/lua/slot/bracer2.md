@@ -1,6 +1,6 @@
 ---
 title: Slot Bracer2
-searchTitle: Lua Slot Bracer2 (Deprecated)
+searchTitle: Lua Slot Bracer2
 weight: 1
 hidden: true
 menuTitle: Slot Bracer2

@@ -5,7 +5,7 @@ weight: 1
 hidden: true
 menuTitle: Appearance Looting
 property: Looting
-docs: Makes an NPC appear looting, crouching down
+description: Makes a NPC appear looting, crouching down
 ---
 ## Looting
 

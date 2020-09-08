@@ -4,11 +4,11 @@ searchTitle: Lua Appearance Crouching
 weight: 1
 hidden: true
 menuTitle: Appearance Crouching
-docs: Makes an NPC appear crouching
+description: Makes a NPC appear crouching
 ---
 ## Crouching
 
-This represents a Crouching Appearance
+Makes a NPC appear crouching
 ```lua
 Appearance.Crouching
 ```

@@ -1,7 +1,7 @@
 ---
 title: spawn2
 searchTitle: Lua EQ spawn2
-searchDescription: Spawns an NPC Type ID with provided details
+searchDescription: Spawns a NPC Type ID with provided details
 weight: 1
 hidden: true
 menuTitle: spawn2
@@ -9,7 +9,7 @@ menuTitle: spawn2
 
 ## spawn2
 
-Spawns an NPC Type ID with provided details
+Spawns a NPC Type ID with provided details
 
 **Syntax**
 
