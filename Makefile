@@ -5,3 +5,6 @@ build:
 .PHONY: deploy
 deploy: build
 	@firebase deploy
+.PHONY: sandbox
+sandbox: 
+	@hugo -b /
