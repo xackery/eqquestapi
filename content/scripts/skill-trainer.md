@@ -1,8 +1,8 @@
 ---
-title: Perl Player Buffer
-searchTitle: Scripts Perl Player Buffer
+title: Perl Skill Trainer
+searchTitle: Scripts Skill Trainer
 weight: 0
-menuTitle: Perl Player Buffer
+menuTitle: Perl Skill Trainer
 ---
 
 # Player Buffer Scripts
@@ -11,7 +11,6 @@ menuTitle: Perl Player Buffer
 
 This script will allow an NPC to train all available disciplines up to the player's current level.
 
-{% code title="Dave\_the\_Disciplinarian.pl" %}
 ```perl
 sub EVENT_SAY {
 	#:: Match text for "hail", case insensitive
@@ -37,20 +36,18 @@ sub EVENT_ITEM {
 	plugin::returnUnusedItems();
 }
 ```
-{% endcode %}
+
 
 If you would prefer that your players do not have to interact with an NPC, it is quite simple to add all new disciplines each time a player levels using a script.  You would simply add this snippet to your global quest script file.
 
 This script will train all new disciplines when a player levels up:
-
-{% code title="global/global\_player.pl" %}
+global/global_player.pl
 ```perl
 sub EVENT_LEVEL_UP {
 	#:: Train all disciplines, maximum set to player's level, minimum set to the level prior
 	quest::traindiscs($ulevel,$ulevel - 1);
 }
 ```
-{% endcode %}
 
 ### Spell Scriber
 
@@ -100,26 +97,24 @@ sub EVENT_ITEM {
 	plugin::returnUnusedItems();
 }
 ```
-{% endcode %}
 
 As with disciplines, if you would prefer that your players do not have to interact with an NPC, it is quite simple to add all new spells/songs each time a player levels adding a snippet to your global quest file.  
 
 This script will scribe all new spells/songs when a player levels up.
 
-{% code title="global/global\_player.pl" %}
+global/global\_player.pl
 ```perl
 sub EVENT_LEVEL_UP {
 	#:: Scribe all spells/songs, maximum set to player's level, minimum set to the level prior
 	quest::scribespells($ulevel,$ulevel - 1);
 }
 ```
-{% endcode %}
 
 ### Skill Maxer
 
 This script will set all available skills to their maximum amount at the player's current level.
 
-{% code title="Scotty\_the\_Skilled.pl" %}
+Scotty\_the\_Skilled.pl
 ```perl
 sub EVENT_SAY {
 	#:: Match text for "hail", case insensitive
@@ -151,13 +146,12 @@ sub EVENT_ITEM {
 	plugin::returnUnusedItems();
 }
 ```
-{% endcode %}
 
 As with spells and disciplines, if you would prefer that your players do not have to interact with an NPC, it is quite simple to max all skills each time a player levels by adding a snippet to your global quest file.
 
 This script will max all skills when a player levels up.
 
-{% code title="global/global\_player.pl" %}
+global/global\_player.pl
 ```perl
 sub EVENT_LEVEL_UP {
 	#:: Set available (non-trade, non-casting specialization) skills to maximum for race/class at current level
@@ -172,7 +166,6 @@ sub EVENT_LEVEL_UP {
 	}
 }
 ```
-{% endcode %}
 
 ### Player Buffer
 
@@ -180,7 +173,7 @@ This script will provide buffs and cures to the player and/or the player's pet, 
 
 Credit to Maze who created the original version of this script, which has been adapted for use on this wiki.
 
-{% code title="Canary\_Morris.pl" %}
+Canary\_Morris.pl
 ```perl
 #:: Create a scalar vaiable to store the maximum level of buffs
 $maxlevelbuffs = 70;
@@ -846,4 +839,3 @@ sub round_up {
 	$n;
 }
 ```
-{% endcode %}
