@@ -277,6 +277,7 @@ weight: 25
 - [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms) -- {{% lua_type_nil %}}
 - [set_timer](set_timer)({{% lua_type_string %}} timer, {{% lua_type_number %}} time_ms) -- {{% lua_type_nil %}}
 - [signal](signal)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} signal_id) -- {{% lua_type_nil %}}
+- [signal](signal)({{% lua_type_number %}} npc_id, {{% lua_type_number %}} signal_id, {{% lua_type_number %}} wait) -- {{% lua_type_nil %}}
 - [snow](snow)({{% lua_type_number %}} weather) -- {{% lua_type_nil %}}
 - [spawn_condition](spawn_condition)({{% lua_type_string %}}zone, {{% lua_type_number %}} instance_id, {{% lua_type_number %}} condition_id, {{% lua_type_number %}} value) -- {{% lua_type_nil %}}
 - [spawn2](spawn2)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} grid, {{% lua_type_number %}} unused, {{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% type_npc mob %}}
