@@ -126,6 +126,11 @@ weight: 25
 - [get_data](get_data)({{% lua_type_string %}} bucket_key) -- {{% lua_type_string %}}
 - [get_encounter](get_encounter)() -- {{% lua_type_string %}}
 - [get_entity_list](get_entity_list)() -- {{% type_entity_list lua %}}
+- [get_expedition_by_char_id](get_expedition_by_char_id)(number char_id) -- Lua_Expedition
+- [get_expedition_by_dz_id](get_expedition_by_dz_id)(number dz_id) -- Lua_Expedition
+- [get_expedition_by_zone_instance](get_expedition_by_zone_instance)(number zone_id, number instance_id) -- Lua_Expedition
+- [get_expedition_lockouts_by_char_id](get_expedition_lockouts_by_char_id)(lua_State* L, number char_id) -- object
+- [get_expedition](get_expedition)() -- Lua_Expedition
 - [get_group_id_by_char_id](get_group_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
 - [get_guild_id_by_char_id](get_guild_id_by_char_id)({{% lua_type_number %}} char_id) -- {{% lua_type_number %}}
 - [get_initiator](get_initiator)() -- {{% type_client lua %}}
@@ -238,11 +243,14 @@ weight: 25
 - [register_player_event](register_player_event)({{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
 - [register_player_event](register_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_class %}} func)) -- {{% lua_type_nil %}}
 - [register_random](register_random)() -- scope
+- [register_spell_event](register_spell_event)- 
 - [reloadzonestaticdata](reloadzonestaticdata)() -- {{% lua_type_nil %}}
+- [remove_all_expedition_lockouts_by_char_id](remove_all_expedition_lockouts_by_char_id)(number char_id) -- void
 - [remove_all_from_instance](remove_all_from_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
 - [remove_area](remove_area)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
 - [remove_from_instance_by_char_id](remove_from_instance_by_char_id)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} char_id) -- {{% lua_type_nil %}}
 - [remove_from_instance](remove_from_instance)({{% lua_type_number %}} instance_id) -- {{% lua_type_nil %}}
+- [remove_item](remove_item)(number item_id) -- void
 - [remove_spawn_point](remove_spawn_point)({{% lua_type_number %}} spawn2_id) -- {{% lua_type_nil %}}
 - [remove_title](remove_title)({{% lua_type_number %}} title_set) -- {{% lua_type_nil %}}
 - [repop_zone](repop_zone)() -- {{% lua_type_nil %}}
@@ -252,10 +260,11 @@ weight: 25
 - [safe_move](safe_move)() -- {{% lua_type_nil %}}
 - [say_link](say_link)({{% lua_type_string %}}phrase, {{% lua_type_boolean %}} silent, {{% lua_type_string %}}link_name) -- {{% lua_type_string %}}
 - [scribe_spells](scribe_spells)({{% lua_type_number %}} max) -- {{% lua_type_number %}}
+- [seconds_to_time](seconds_to_time)(number duration) -- string
 - [send_mail](send_mail)({{% lua_type_string %}} to, {{% lua_type_string %}}from, {{% lua_type_string %}} subject, {{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [set_anim](set_anim)({{% lua_type_number %}} npc_type, {{% lua_type_number %}} anim_num) -- {{% lua_type_nil %}}
-- [set_data](set_data)({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value) -- {{% lua_type_nil %}}
 - [set_data](set_data)({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value. {{% lua_type_string %}} expires_at) -- {{% lua_type_nil %}}
+- [set_data](set_data)({{% lua_type_string %}} bucket_key, {{% lua_type_string %}} bucket_value) -- {{% lua_type_nil %}}
 - [set_global](set_global)({{% lua_type_string %}} name, {{% lua_type_string %}} value, {{% lua_type_number %}} options, {{% lua_type_string %}} duration) -- {{% lua_type_nil %}}
 - [set_guild](set_guild)({{% lua_type_number %}} guild_id, {{% lua_type_number %}} rank) -- {{% lua_type_nil %}}
 - [set_next_hp_event](set_next_hp_event)({{% lua_type_number %}} hp) -- {{% lua_type_nil %}}
@@ -289,11 +298,14 @@ weight: 25
 - [unregister_item_event](register_item_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_number %}} item_id) -- {{% lua_type_nil %}}
 - [unregister_npc_event](unregister_npc_event)({{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
 - [unregister_npc_event](unregister_npc_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt, {{% lua_type_string %}} npc_id, {{% lua_type_class %}} func) -- {{% lua_type_nil %}}
+- [unregister_player_event](unregister_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
+- [unregister_player_event](unregister_player_event)(name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
 - [update_instance_timer](update_instance_timer)({{% lua_type_number %}} instance_id, {{% lua_type_number %}} new_duration) -- {{% lua_type_nil %}}
 - [update_spawn_timer](update_spawn_timer)({{% lua_type_number %}} id, {{% lua_type_number %}} new_time) -- {{% lua_type_nil %}}
 - [update_task_activity](update_task_activity)({{% lua_type_number %}} task, {{% lua_type_number %}} activity, {{% lua_type_number %}} count) -- {{% lua_type_nil %}}
 - [voice_tell](voice_tell)({{% lua_type_string %}} str, {{% lua_type_number %}} macro_num, {{% lua_type_number %}} race_num, {{% lua_type_number %}} gender_num) -- {{% lua_type_nil %}}
 - [wear_change](wear_change)({{% lua_type_number %}} slot, {{% lua_type_number %}} texture) -- {{% lua_type_nil %}}
+- [whisper](whisper)(const char *message) -- void
 - [world_emote](world_emote)({{% lua_type_number %}} type, {{% lua_type_string %}} str) -- {{% lua_type_nil %}}
 - [world_wide_assign_task](world_wide_assign_task)({{% lua_type_number %}} task_id) -- {{% lua_type_nil %}}
 - [world_wide_cast_spell](world_wide_cast_spell)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
@@ -315,6 +327,3 @@ weight: 25
 - [zone_emote](zone_emote)({{% lua_type_number %}} type, {{% lua_type_string %}} str) -- {{% lua_type_nil %}}
 - [zone_group](zone_group)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
 - [zone_raid](zone_raid)({{% lua_type_string %}} zone_name) -- {{% lua_type_nil %}}
-- [unregister_player_event](unregister_player_event)({{% lua_type_string %}} name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
-- [unregister_player_event](unregister_player_event)(name, {{% lua_type_number %}} evt) -- {{% lua_type_nil %}}
-- [register_spell_event](register_spell_event)

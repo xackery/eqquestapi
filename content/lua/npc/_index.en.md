@@ -76,6 +76,7 @@ weight: 25
 - [RemoveItem](removeitem)({{% lua_type_number %}} item_id, {{% lua_type_number %}} quantity, {{% lua_type_number %}} slot) -- {{% lua_type_nil %}}
 - [ResumeWandering](resumewandering)() -- {{% lua_type_nil %}}
 - [SaveGuardSpot](saveguardspot)({{% lua_type_number %}} x, {{% lua_type_number %}} y, {{% lua_type_number %}} z, {{% lua_type_number %}} heading) -- {{% lua_type_nil %}}
+- [ScaleNPC](scalenpc)(uint8 npc_level); -- void
 - [SetCopper](setcopper)({{% lua_type_number %}} amt) -- {{% lua_type_nil %}}
 - [SetFollowCanRun](setfollowcanrun)({{% lua_type_boolean %}} v) -- {{% lua_type_nil %}}
 - [SetFollowDistance](setfollowdistance)({{% lua_type_number %}} dist) -- {{% lua_type_nil %}}

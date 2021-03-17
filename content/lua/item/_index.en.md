@@ -107,6 +107,7 @@ weight: 25
 - [NoPet](nopet)() -- {{% lua_type_boolean %}}
 - [NoRent](norent)() -- {{% lua_type_number %}}
 - [NoTransfer](notransfer)() -- {{% lua_type_boolean %}}
+- [null](null); -- bool
 - [PendingLoreFlag](pendingloreflag)() -- {{% lua_type_boolean %}}
 - [PointType](pointtype)() -- {{% lua_type_number %}}
 - [PotionBelt](potionbelt)() -- {{% lua_type_boolean %}}
@@ -141,4 +142,5 @@ weight: 25
 - [SummonedFlag](summonedflag)() -- {{% lua_type_boolean %}}
 - [SVCorruption](svcorruption)() -- {{% lua_type_number %}}
 - [Tradeskills](tradeskills)() -- {{% lua_type_boolean %}}
+- [valid](valid); -- bool
 - [WornName](wornname)() -- {{% lua_type_string %}}

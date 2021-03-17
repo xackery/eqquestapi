@@ -50,6 +50,7 @@ weight: 25
 - [ClearSpecialAbilities](clearspecialabilities)() -- {{% lua_type_nil %}}
 - [CombatRange](combatrange)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
 - [Damage](damage)({{% type_npc mob %}} from, {{% lua_type_number %}} damage, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} attack_skill, {{% lua_type_boolean %}} a{{% lua_type_nil %}}able, {{% lua_type_number %}} buffslot, {{% lua_type_boolean %}} buff_tic) -- {{% lua_type_nil %}}
+- [DeleteBucket](deletebucket)(std::string bucket_name); -- void
 - [DelGlobal](delglobal)({{% lua_type_string %}} varname) -- {{% lua_type_nil %}}
 - [Depop](depop)({{% lua_type_boolean %}} start_spawn_timer) -- {{% lua_type_nil %}}
 - [DivineAura](divineaura)() -- {{% lua_type_boolean %}}
@@ -82,10 +83,15 @@ weight: 25
 - [GetBaseSize](getbasesize)() -- {{% lua_type_number %}}
 - [GetBeardColor](getbeardcolor)() -- {{% lua_type_number %}}
 - [GetBodyType](getbodytype)() -- {{% lua_type_number %}}
+- [GetBucket](getbucket)(std::string bucket_name); -- string
+- [GetBucketExpires](getbucketexpires)(std::string bucket_name); -- string
+- [GetBucketKey](getbucketkey)(); -- string
+- [GetBucketRemaining](getbucketremaining)(std::string bucket_name); -- string
 - [GetBuffSlotFromType](getbuffslotfromtype)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
 - [GetCasterLevel](getcasterlevel)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
 - [GetCHA](getcha)() -- {{% lua_type_number %}}
 - [GetClass](getclass)() -- {{% lua_type_number %}}
+- [GetClassName](getclassname)(); -- string
 - [GetCleanName](getcleanname)() -- {{% lua_type_string %}}
 - [GetCorruption](getcorruption)() -- {{% lua_type_number %}}
 - [GetCR](getcr)() -- {{% lua_type_number %}}
@@ -108,8 +114,10 @@ weight: 25
 - [GetHandToHandDelay](gethandtohanddelay)() -- {{% lua_type_number %}}
 - [GetHaste](gethaste)() -- {{% lua_type_number %}}
 - [GetHateAmount](gethateamount)({{% type_npc mob %}} target, {{% lua_type_boolean %}} is_damage) -- {{% lua_type_number %}}
+- [GetHateClosest](gethateclosest)(); -- unknown - Lua_Mob
 - [GetHateDamageTop](gethatedamagetop)({{% type_npc mob %}} other) -- {{% type_npc mob %}}
 - [GetHateList](gethatelist)() -- {{% lua_type_hate_list %}}
+- [GetHateListByDistance](gethatelistbydistance)(number distance); -- unknown - Lua_HateList
 - [GetHateRandom](gethaterandom)() -- {{% type_npc mob %}}
 - [GetHateTop](gethatetop)() -- {{% type_npc mob %}}
 - [GetHeading](getheading)() -- {{% lua_type_number %}}
@@ -147,6 +155,7 @@ weight: 25
 - [GetPhR](getphr)() -- {{% lua_type_number %}}
 - [GetPR](getpr)() -- {{% lua_type_number %}}
 - [GetRace](getrace)() -- {{% lua_type_number %}}
+- [GetRaceName](getracename)(); -- string
 - [GetResist](getresist)({{% lua_type_number %}} type) -- {{% lua_type_number %}}
 - [GetReverseFactionCon](getreversefactioncon)({{% type_npc mob %}} other) -- {{% lua_type_number %}}
 - [GetRunspeed](getrunspeed)() -- {{% lua_type_number %}}
@@ -198,6 +207,7 @@ weight: 25
 - [IsEngaged](isengaged)() -- {{% lua_type_boolean %}}
 - [IsEnraged](isenraged)() -- {{% lua_type_boolean %}}
 - [IsFeared](isfeared)() -- {{% lua_type_boolean %}}
+- [IsHorse](ishorse)(); -- bool
 - [IsImmuneToSpell](isimmunetospell)({{% lua_type_number %}} spell_id, {{% type_npc mob %}} caster) -- {{% lua_type_boolean %}}
 - [IsInvisible](isinvisible)({{% type_npc mob %}} other) -- {{% lua_type_boolean %}}
 - [IsMeleeDisabled](ismeleedisabled)() -- {{% lua_type_boolean %}}
@@ -242,6 +252,7 @@ weight: 25
 - [SetAllowBeneficial](setallowbeneficial)({{% lua_type_boolean %}} value) -- {{% lua_type_nil %}}
 - [SetAppearance](setappearance)({{% lua_type_number %}} app, {{% lua_type_boolean %}} ignore_self) -- {{% lua_type_nil %}}
 - [SetBodyType](setbodytype)({{% lua_type_number %}} new_body, {{% lua_type_boolean %}} overwrite_orig) -- {{% lua_type_nil %}}
+- [SetBucket](setbucket)(std::string bucket_name, std::string bucket_value, std::string expiration); -- void
 - [SetCurrentWP](setcurrentwp)({{% lua_type_number %}} wp) -- {{% lua_type_nil %}}
 - [SetDestructibleObject](setdestructibleobject)({{% lua_type_boolean %}} set) -- {{% lua_type_nil %}}
 - [SetDisableMelee](setdisablemelee)({{% lua_type_boolean %}} disable) -- {{% lua_type_nil %}}
@@ -269,8 +280,8 @@ weight: 25
 - [SetTarget](settarget)({{% type_npc mob %}} t) -- {{% lua_type_nil %}}
 - [SetTargetable](settargetable)({{% lua_type_boolean %}} on) -- {{% lua_type_nil %}}
 - [SetTexture](settexture)({{% lua_type_number %}} in) -- {{% lua_type_nil %}}
-- [Shout](shout)({{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [Shout](shout)({{% lua_type_string %}} message, {{% lua_type_number %}} language) -- {{% lua_type_nil %}}
+- [Shout](shout)({{% lua_type_string %}} message) -- {{% lua_type_nil %}}
 - [Signal](signal)({{% lua_type_number %}} id) -- {{% lua_type_nil %}}
 - [SpellEffect](spelleffect)({{% type_npc mob %}} caster, {{% lua_type_number %}} spell_id, {{% lua_type_number %}} partial) -- {{% lua_type_nil %}}
 - [SpellFinished](spellfinished)({{% lua_type_number %}} spell_id, {{% type_npc mob %}} target, {{% lua_type_number %}} slot, {{% lua_type_number %}} mana_used, {{% lua_type_number %}} inventory_slot, {{% lua_type_number %}} resist_adjust, {{% lua_type_boolean %}} proc) -- {{% lua_type_boolean %}}

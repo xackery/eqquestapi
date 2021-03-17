@@ -13,6 +13,8 @@ weight: 25
 - [AddAlternateCurrencyValue](addalternatecurrencyvalue)({{% lua_type_number %}} currency, {{% lua_type_number %}} amount) -- {{% lua_type_nil %}}
 - [AddCrystals](addcrystals)({{% lua_type_number %}} radiant, {{% lua_type_number %}} ebon) -- {{% lua_type_nil %}}
 - [AddEXP](addexp)({{% lua_type_number %}} add_exp, {{% lua_type_number %}} conlevel, {{% lua_type_boolean %}} resexp) -- {{% lua_type_nil %}}
+- [AddExpeditionLockout](addexpeditionlockout)(std::string expedition_name, std::string event_name, number seconds, std::string uuid); -- void
+- [AddExpeditionLockoutDuration](addexpeditionlockoutduration)(std::string expedition_name, std::string event_name, number seconds, std::string uuid); -- void
 - [AddLevelBasedExp](addlevelbasedexp)({{% lua_type_number %}} exp_pct, {{% lua_type_number %}} max_level, {{% lua_type_boolean %}} ignore_mods) -- {{% lua_type_nil %}}
 - [AddMoneyToPP](addmoneytopp)({{% lua_type_number %}} copper, {{% lua_type_number %}} silver, {{% lua_type_number %}} gold, {{% lua_type_number %}} platinum, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [AddPVPPoints](addpvppoints)({{% lua_type_number %}} points) -- {{% lua_type_nil %}}
@@ -30,9 +32,10 @@ weight: 25
 - [CharacterID](characterid)() -- {{% lua_type_number %}}
 - [CheckIncreaseSkill](checkincreaseskill)({{% lua_type_number %}} skill_id, {{% type_npc mob %}} target, {{% lua_type_number %}} chance_mod) -- {{% lua_type_nil %}}
 - [CheckSpecializeIncrease](checkspecializeincrease)({{% lua_type_number %}} spell_id) -- {{% lua_type_nil %}}
-- [ClearZoneFlag](clearzoneflag)({{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
 - [ClearCompassMark](clearcompassmark)() --  {{% lua_type_nil %}}
+- [ClearZoneFlag](clearzoneflag)({{% lua_type_number %}} zone_id) -- {{% lua_type_nil %}}
 - [Connected](connected)() -- {{% lua_type_boolean %}}
+- [CreateExpedition](createexpedition)(std::string zone_name, number version, number duration, std::string expedition_name, number min_players, number max_players, bool disable_messages); -- unknown - Lua_Expedition
 - [DecreaseByID](decreasebyid)({{% lua_type_number %}} type, {{% lua_type_number %}} amt) -- {{% lua_type_boolean %}}
 - [DeleteItemInInventory](deleteitemininventory)({{% lua_type_number %}} slot_id, {{% lua_type_number %}} quantity, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [DisableAreaEndRegen](disableareaendregen)() -- {{% lua_type_nil %}}
@@ -52,6 +55,7 @@ weight: 25
 - [FilteredMessage](filteredmessage)({{% type_npc mob %}} sender, {{% lua_type_number %}} type, {{% lua_type_number %}} filter, {{% lua_type_string %}}message) -- {{% lua_type_nil %}}
 - [FindMemmedSpellBySlot](findmemmedspellbyslot)({{% lua_type_number %}} slot) -- {{% lua_type_number %}}
 - [FindSpellBookSlotBySpellID](findspellbookslotbyspellid)({{% lua_type_number %}} spell_id) -- {{% lua_type_number %}}
+- [Fling](fling)(float value, float target_x, float target_y, float target_z, bool ignore_los, bool clipping); -- void
 - [ForageItem](forageitem)({{% lua_type_boolean %}} guarantee) -- {{% lua_type_nil %}}
 - [Freeze](freeze)() -- {{% lua_type_nil %}}
 - [GetAAExp](getaaexp)() -- {{% lua_type_number %}}
@@ -59,6 +63,7 @@ weight: 25
 - [GetAAPoints](getaapoints)() -- {{% lua_type_number %}}
 - [GetAccountAge](getaccountage)() -- {{% lua_type_number %}}
 - [GetAccountFlag](getaccountflag)({{% lua_type_string %}} flag) -- {{% lua_type_string %}}
+- [GetAFK](getafk)(); -- number
 - [GetAggroCount](getaggrocount)() -- {{% lua_type_number %}}
 - [GetAllMoney](getallmoney)() -- {{% lua_type_number %}}
 - [GetAlternateCurrencyValue](getalternatecurrencyvalue)({{% lua_type_number %}} currency) -- {{% lua_type_number %}}
@@ -79,6 +84,7 @@ weight: 25
 - [GetBindZoneID](getbindzoneid)({{% lua_type_number %}} index) -- {{% lua_type_number %}}
 - [GetCarriedMoney](getcarriedmoney)() -- {{% lua_type_number %}}
 - [GetCharacterFactionLevel](getcharacterfactionlevel)({{% lua_type_number %}} faction_id) -- {{% lua_type_number %}}
+- [GetClassBitmask](getclassbitmask)(); -- number
 - [GetClientMaxLevel](getclientmaxlevel)() -- {{% lua_type_number %}}
 - [GetClientVersion](getclientversion)() -- {{% lua_type_number %}}
 - [GetClientVersionBit](getclientversionbit)() -- {{% lua_type_number %}}
@@ -92,6 +98,8 @@ weight: 25
 - [GetEndurance](getendurance)() -- {{% lua_type_number %}}
 - [GetEndurancePercent](getendurancepercent)() -- {{% lua_type_number %}}
 - [GetEXP](getexp)() -- {{% lua_type_number %}}
+- [GetExpedition](getexpedition)(); -- unknown - Lua_Expedition
+- [GetExpeditionLockouts](getexpeditionlockouts)(lua_State* L, std::string expedition_name); -- unknown - object
 - [GetFace](getface)() -- {{% lua_type_number %}}
 - [GetFactionLevel](getfactionlevel)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} race, {{% lua_type_number %}} class_, {{% lua_type_number %}} deity, {{% lua_type_number %}} faction, {{% type_npc lua %}} npc) -- {{% lua_type_number %}}
 - [GetFeigned](getfeigned)() -- {{% lua_type_boolean %}}
@@ -110,19 +118,30 @@ weight: 25
 - [GetLDoNPointsTheme](getldonpointstheme)({{% lua_type_number %}} theme) -- {{% lua_type_number %}}
 - [GetLDoNWins](getldonwins)() -- {{% lua_type_number %}}
 - [GetLDoNWinsTheme](getldonwinstheme)({{% lua_type_number %}} theme) -- {{% lua_type_number %}}
+- [GetLearnableDisciplines](getlearnabledisciplines)(lua_State* L, uint8 min_level, uint8 max_level); -- unknown - object
+- [GetLearnedDisciplines](getlearneddisciplines)(lua_State* L); -- unknown - object
+- [GetLockoutExpeditionUUID](getlockoutexpeditionuuid)(std::string expedition_name, std::string event_name); -- string
 - [GetMaxEndurance](getmaxendurance)() -- {{% lua_type_number %}}
+- [GetMemmedSpells](getmemmedspells)(lua_State* L); -- unknown - object
 - [GetModCharacterFactionLevel](getmodcharacterfactionlevel)({{% lua_type_number %}} faction) -- {{% lua_type_number %}}
 - [GetMoney](getmoney)({{% lua_type_number %}} type, {{% lua_type_number %}} subtype) -- {{% lua_type_number %}}
 - [GetNextAvailableSpellBookSlot](getnextavailablespellbookslot)({{% lua_type_number %}} start) -- {{% lua_type_number %}}
 - [GetPVP](getpvp)() -- {{% lua_type_boolean %}}
 - [GetPVPPoints](getpvppoints)() -- {{% lua_type_number %}}
+- [GetRaceBitmask](getracebitmask)(); -- number
 - [GetRadiantCrystals](getradiantcrystals)() -- {{% lua_type_number %}}
 - [GetRaidPoints](getraidpoints)() -- {{% lua_type_number %}}
 - [GetRawItemAC](getrawitemac)() -- {{% lua_type_number %}}
 - [GetRawSkill](getrawskill)({{% lua_type_number %}} skill_id) -- {{% lua_type_number %}}
+- [GetScribeableSpells](getscribeablespells)(lua_State* L, uint8 min_level, uint8 max_level); -- unknown - object
+- [GetScribedSpells](getscribedspells)(lua_State* L); -- unknown - object
 - [GetSkillPoints](getskillpoints)() -- {{% lua_type_number %}}
+- [GetSpellIDByBookSlot](getspellidbybookslot)(number slot_id); -- number
 - [GetSpentAA](getspentaa)() -- {{% lua_type_number %}}
 - [GetStartZone](getstartzone)() -- {{% lua_type_number %}}
+- [GetTargetRingX](gettargetringx)(); -- number
+- [GetTargetRingY](gettargetringy)(); -- number
+- [GetTargetRingZ](gettargetringz)(); -- number
 - [GetThirst](getthirst)() -- {{% lua_type_number %}}
 - [GetTotalSecondsPlayed](gettotalsecondsplayed)() -- {{% lua_type_number %}}
 - [GetWeight](getweight)() -- {{% lua_type_number %}}
@@ -130,6 +149,8 @@ weight: 25
 - [GrantAlternateAdvancementAbility](grantalternateadvancementability)({{% lua_type_number %}} aa_id, {{% lua_type_number %}} points, {{% lua_type_boolean %}} ignore_cost) -- {{% lua_type_boolean %}}
 - [GuildID](guildid)() -- {{% lua_type_number %}}
 - [GuildRank](guildrank)() -- {{% lua_type_number %}}
+- [HasDisciplineLearned](hasdisciplinelearned)(uint16 spell_id); -- bool
+- [HasExpeditionLockout](hasexpeditionlockout)(std::string expedition_name, std::string event_name); -- bool
 - [HasSkill](hasskill)({{% lua_type_number %}} skill_id) -- {{% lua_type_boolean %}}
 - [HasSpellScribed](hasspellscribed)({{% lua_type_number %}} spell_id) -- {{% lua_type_boolean %}}
 - [HasZoneFlag](haszoneflag)({{% lua_type_number %}} zone_id) -- {{% lua_type_boolean %}}
@@ -161,6 +182,7 @@ weight: 25
 - [MemmedCount](memmedcount)() -- {{% lua_type_number %}}
 - [MemSpell](memspell)({{% lua_type_number %}} spell_id, {{% lua_type_number %}} slot, {{% lua_type_boolean %}} update_client) -- {{% lua_type_nil %}}
 - [MovePC](movepc)({{% lua_type_number %}} zone, float x, float y, float z, float heading) -- {{% lua_type_nil %}}
+- [MovePCDynamicZone](movepcdynamiczone)(std::string zone_name, number zone_version, bool msg_if_invalid); -- void
 - [MovePCInstance](movepcinstance)({{% lua_type_number %}} zone, {{% lua_type_number %}} instance, float x, float y, float z, float heading) -- {{% lua_type_nil %}}
 - [MoveZone](movezone)({{% lua_type_string %}} zone_short_name) -- {{% lua_type_nil %}}
 - [MoveZoneGroup](movezonegroup)({{% lua_type_string %}} zone_short_name) -- {{% lua_type_nil %}}
@@ -178,6 +200,8 @@ weight: 25
 - [QuestReward](questreward)({{% type_npc mob %}} target, luabind::adl::object reward) -- {{% lua_type_nil %}}
 - [QueuePacket](queuepacket)({{% lua_type_packet %}} app, {{% lua_type_boolean %}} ack_req, {{% lua_type_number %}} client_connection_status, {{% lua_type_number %}} filter) -- {{% lua_type_nil %}}
 - [RefundAA](refundaa)() -- {{% lua_type_nil %}}
+- [RemoveAllExpeditionLockouts](removeallexpeditionlockouts)(std::string expedition_name); -- void
+- [RemoveExpeditionLockout](removeexpeditionlockout)(std::string expedition_name, std::string event_name); -- void
 - [ResetAA](resetaa)() -- {{% lua_type_nil %}}
 - [ResetDisciplineTimer](resetdisciplinetimer)({{% lua_type_number %}} timer_id) -- {{% lua_type_nil %}}
 - [ResetTrade](resettrade)() -- {{% lua_type_nil %}}
@@ -195,7 +219,9 @@ weight: 25
 - [SetAAPoints](setaapoints)({{% lua_type_number %}} points) -- {{% lua_type_nil %}}
 - [SetAATitle](setaatitle)({{% lua_type_string %}}title) -- {{% lua_type_nil %}}
 - [SetAccountFlag](setaccountflag)({{% lua_type_string %}} flag, {{% lua_type_string %}} val) -- {{% lua_type_nil %}}
+- [SetAFK](setafk)(uint8 afk_flag); -- void
 - [SetAlternateCurrencyValue](setalternatecurrencyvalue)({{% lua_type_number %}} currency, {{% lua_type_number %}} amount) -- {{% lua_type_nil %}}
+- [SetAnon](setanon)(uint8 anon_flag); -- void
 - [SetBaseClass](setbaseclass)({{% lua_type_number %}} v) -- {{% lua_type_nil %}}
 - [SetBaseGender](setbasegender)({{% lua_type_number %}} v) -- {{% lua_type_nil %}}
 - [SetBaseRace](setbaserace)({{% lua_type_number %}} v) -- {{% lua_type_nil %}}
@@ -205,6 +231,7 @@ weight: 25
 - [SetDeity](setdeity)({{% lua_type_number %}} v) -- {{% lua_type_nil %}}
 - [SetDueling](setdueling)({{% lua_type_boolean %}} v) -- {{% lua_type_nil %}}
 - [SetDuelTarget](setdueltarget)({{% lua_type_number %}} c) -- {{% lua_type_nil %}}
+- [SetEbonCrystals](seteboncrystals)(number value); -- void
 - [SetEndurance](setendurance)({{% lua_type_number %}} endur) -- {{% lua_type_nil %}}
 - [SetEXP](setexp)({{% lua_type_number %}} set_exp, {{% lua_type_number %}} set_aaxp, {{% lua_type_boolean %}} resexp) -- {{% lua_type_nil %}}
 - [SetFactionLevel](setfactionlevel)({{% lua_type_number %}} char_id, {{% lua_type_number %}} npc_id, {{% lua_type_number %}} char_class, {{% lua_type_number %}} char_race, {{% lua_type_number %}} char_deity) -- {{% lua_type_nil %}}
@@ -217,6 +244,7 @@ weight: 25
 - [SetMaterial](setmaterial)({{% lua_type_number %}} slot_id, {{% lua_type_number %}} item_id) -- {{% lua_type_nil %}}
 - [SetPrimaryWeaponOrnamentation](setprimaryweaponornamentation)({{% lua_type_number %}} model_id) -- {{% lua_type_nil %}}
 - [SetPVP](setpvp)({{% lua_type_boolean %}} v) -- {{% lua_type_nil %}}
+- [SetRadiantCrystals](setradiantcrystals)(number value); -- void
 - [SetSecondaryWeaponOrnamentation](setsecondaryweaponornamentation)({{% lua_type_number %}} model_id) -- {{% lua_type_nil %}}
 - [SetSkillPoints](setskillpoints)({{% lua_type_number %}} skill) -- {{% lua_type_nil %}}
 - [SetStartZone](setstartzone)({{% lua_type_number %}} zone_id, float x, float y, float z) -- {{% lua_type_nil %}}

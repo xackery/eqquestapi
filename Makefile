@@ -8,3 +8,5 @@ deploy: build
 .PHONY: sandbox
 sandbox: 
 	@hugo -b /
+verifier:
+	@cd scripts/verifier && go run main.go
